@@ -13,7 +13,7 @@
       "howTo": "토스 앱 → 혜택 탭 → 행운퀴즈",
       "estDaily": 150,
       "rewardRange": "10~1,000원",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/69/2b/9d692bf3-4315-ad18-5d71-8dfce4db6d36/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/toss-lucky.avif",
       "sourceSlug": "toss",
       "releaseTimes": []
     },
@@ -30,7 +30,7 @@
       "howTo": "캐시워크 앱 → 돈버는퀴즈 배너",
       "estDaily": 60,
       "rewardRange": "10~100캐시",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/e4/bf/ece4bf15-2b42-93b9-4d8d-6d79c3e6d64b/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/cashwalk.avif",
       "sourceSlug": "cashwalk",
       "releaseTimes": []
     },
@@ -47,7 +47,7 @@
       "howTo": "신한 SOL페이 앱 → 이벤트 → 쏠퀴즈",
       "estDaily": 100,
       "rewardRange": "10~500P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/4a/3b/b54a3ba4-f706-6641-d222-472fbf31a4b0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/shinhan-sol.avif",
       "sourceSlug": "shinhan",
       "releaseTimes": [
         "00:00"
@@ -66,7 +66,7 @@
       "howTo": "카카오뱅크 앱 → 혜택 탭",
       "estDaily": 50,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/17/46/681746da-3862-c631-c8d5-c0600231d7e7/AppIcon_real-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/kakaobank.avif",
       "sourceSlug": "kakaobank",
       "releaseTimes": [
         "08:00",
@@ -87,7 +87,7 @@
       "howTo": "OK캐쉬백 앱 → 오퀴즈",
       "estDaily": 100,
       "rewardRange": "10~500P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/68/6d/24686dbe-6d14-4353-b9dd-5bc0a07c869e/AppIcon700-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/ok-cashbag.avif",
       "sourceSlug": "okcashbag",
       "releaseTimes": [
         "08:30",
@@ -110,7 +110,7 @@
       "howTo": "KB페이 앱 → 이벤트 → 스타퀴즈",
       "estDaily": 80,
       "rewardRange": "10~300P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/f7/32/3ef732a4-4edd-d0be-a762-46e4585d1eb9/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/kbpay.avif",
       "sourceSlug": "livemate",
       "releaseTimes": [
         "10:00"
@@ -129,7 +129,7 @@
       "howTo": "캐시닥 앱 → 용돈퀴즈",
       "estDaily": 60,
       "rewardRange": "10~100캐시",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/fe/95/82fe9543-fc8b-182c-5cc3-c3dbe57e4ff4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/cashdoc.avif",
       "sourceSlug": "cashdoc",
       "releaseTimes": [
         "10:00",
@@ -152,7 +152,7 @@
       "howTo": "기후행동 기회소득 앱 → 오늘의 퀴즈",
       "estDaily": 50,
       "rewardRange": "기회소득",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/03/2f/b5032fac-b19f-8e2d-7889-3a3450876646/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/climate-action.avif",
       "sourceSlug": "climate",
       "releaseTimes": [
         "00:00"
@@ -171,7 +171,7 @@
       "howTo": "H.Point 앱 → 오늘의 퀴즈",
       "estDaily": 50,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/2b/13/2e2b13fc-a2c5-0945-c685-1ebee59e28ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/hpoint.avif",
       "sourceSlug": "hpoint",
       "releaseTimes": [
         "00:00"
@@ -190,7 +190,7 @@
       "howTo": "비트버니 앱 → 오늘의 퀴즈",
       "estDaily": 50,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/84/0e/de840e2b-0197-1a56-0ba0-b978c2a062a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/bitbunny.avif",
       "sourceSlug": "bitbunny",
       "releaseTimes": [
         "00:00"
@@ -209,7 +209,7 @@
       "howTo": "카카오페이 앱 → 혜택 → 퀴즈타임",
       "estDaily": 80,
       "rewardRange": "10~500P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/7c/11/087c11ea-555c-b244-ead6-a6426887df9f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/kakaopay.avif",
       "sourceSlug": "kakaopay",
       "releaseTimes": [
         "10:00"
@@ -228,7 +228,7 @@
       "howTo": "NH올원뱅크 앱 → 이벤트 → 디깅퀴즈",
       "estDaily": 50,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/71/a3/8971a347-bd36-a4bb-ffe2-ad1fdf63f44a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.png",
+      "iconUrl": "/icons/nh-allone.avif",
       "sourceSlug": "nh",
       "releaseTimes": [
         "00:00"
@@ -247,7 +247,7 @@
       "howTo": "삼쩜삼 앱 → 퀴즈 풀고 포인트 쌓기",
       "estDaily": 40,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/b6/b8/ebb6b853-7d7c-6f99-09b7-3fe4f5c2ca33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/samjjeomsam.avif",
       "sourceSlug": "3o3",
       "releaseTimes": []
     },
@@ -264,7 +264,7 @@
       "howTo": "닥터나우 앱 → 오늘의 퀴즈",
       "estDaily": 40,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/ef/84/5cef842b-18c3-d969-c516-9783db3455a1/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/doctornow.avif",
       "sourceSlug": "doctornow",
       "releaseTimes": [
         "00:00"
@@ -283,7 +283,7 @@
       "color": "#FFBC00",
       "estDaily": 60,
       "rewardRange": "10~300P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/35/11/f935113f-234a-b4cf-c71c-10ec688f3194/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/kb-star.avif",
       "sourceSlug": "kbstar",
       "releaseTimes": [
         "00:00"
@@ -302,7 +302,7 @@
       "color": "#0D1B2A",
       "estDaily": 50,
       "rewardRange": "추첨 지급",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/39/02/413902eb-5959-7125-df59-18aeabe9f180/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/kbank.avif",
       "sourceSlug": "kbank",
       "releaseTimes": [
         "00:00"
@@ -321,7 +321,7 @@
       "color": "#008485",
       "estDaily": 50,
       "rewardRange": "10~100원",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/c1/ae/bbc1aeb6-2af0-de6d-a33f-1866e6a5746b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/hana-onq.avif",
       "sourceSlug": "hanabank",
       "releaseTimes": [
         "00:00"
@@ -340,7 +340,7 @@
       "color": "#FF6F0F",
       "estDaily": 50,
       "rewardRange": "젤리 리워드",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/b3/2d/fdb32d73-60bb-815c-1a70-59dfb1bb1f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "iconUrl": "/icons/monimo.avif",
       "sourceSlug": "monimo",
       "releaseTimes": [
         "00:00"
@@ -359,7 +359,7 @@
       "color": "#FFB300",
       "estDaily": 50,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/8f/8a/c48f8aec-a87d-eddf-06bb-38d2abecb110/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/buzzvil.avif",
       "sourceSlug": "buzzvil",
       "releaseTimes": []
     },
@@ -376,7 +376,7 @@
       "color": "#ED1164",
       "estDaily": 50,
       "rewardRange": "10~100원",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/f8/37/f5f837ec-535c-b929-9c8f-47cff73607be/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/paybooc.avif",
       "sourceSlug": "paybooc",
       "releaseTimes": [
         "00:00"
@@ -395,7 +395,7 @@
       "color": "#00A5E5",
       "estDaily": 50,
       "rewardRange": "10~100캐시",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/5f/3b/a45f3bbf-ae91-c6f9-bda8-40d5f5286d72/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/cashslide.avif",
       "sourceSlug": "cashslide",
       "releaseTimes": []
     },
@@ -412,7 +412,7 @@
       "color": "#6C5CE7",
       "estDaily": 40,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/8d/a4/218da457-e038-4ca9-8c63-3cbc81073709/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/balso.avif",
       "sourceSlug": "balso",
       "releaseTimes": []
     },
@@ -429,7 +429,7 @@
       "color": "#00BFA5",
       "estDaily": 40,
       "rewardRange": "10~100P",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/3e/d4/9a3ed427-ec0a-b296-688c-29dec3115ed6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/mydoctor.avif",
       "sourceSlug": "mydoctor",
       "releaseTimes": [
         "00:00"
@@ -448,7 +448,7 @@
       "color": "#EA002C",
       "estDaily": 40,
       "rewardRange": "적립금",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/f7/3b/08f73bc8-5f9f-5780-655f-f401a2761d7c/AppIcon-0-0-1x_U007emarketing-0-3-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/skstoa.avif",
       "sourceSlug": "skstoa",
       "releaseTimes": []
     },
@@ -465,7 +465,7 @@
       "color": "#EE1B23",
       "estDaily": 40,
       "rewardRange": "스마일캐시",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/3b/5c/3d3b5cfd-8dc8-99c4-af2a-9f2418b6ce14/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+      "iconUrl": "/icons/auction.avif",
       "sourceSlug": "auction",
       "releaseTimes": []
     },
@@ -482,7 +482,7 @@
       "color": "#6B3F27",
       "estDaily": 40,
       "rewardRange": "10~100초코",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/08/58/a60858fc-f838-85bb-dc1b-584e4c5f2a8f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/chocolatebox.avif",
       "releaseTimes": []
     },
     {
@@ -498,7 +498,7 @@
       "color": "#E60012",
       "estDaily": 40,
       "rewardRange": "홈플머니",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/5b/82/695b8217-1604-56b6-5f1c-07dbacf16232/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/myhomeplus.avif",
       "releaseTimes": [
         "10:00",
         "14:00"
@@ -517,7 +517,7 @@
       "color": "#FF4B3E",
       "estDaily": 40,
       "rewardRange": "포인트",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/33/25/0433257f-eddf-88c5-4597-6d86883de7ac/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "/icons/syrup.avif",
       "releaseTimes": [
         "11:00"
       ]
