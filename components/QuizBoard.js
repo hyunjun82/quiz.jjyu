@@ -15,13 +15,14 @@ function Logo({ quiz }) {
       <span className="qc-fallback" style={{ color: quiz.color }}>
         {quiz.app.slice(0, 1)}
       </span>
-      {quiz.logoDomain && (
+      {quiz.iconUrl && (
         <img
-          src={`https://www.google.com/s2/favicons?domain=${quiz.logoDomain}&sz=128`}
-          alt={`${quiz.app} 로고`}
+          src={quiz.iconUrl}
+          alt={`${quiz.app} 앱 아이콘`}
           loading="lazy"
-          width="34"
-          height="34"
+          width="46"
+          height="46"
+          style={{ borderRadius: 11 }}
         />
       )}
     </span>
