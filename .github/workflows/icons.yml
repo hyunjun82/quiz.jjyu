@@ -1,0 +1,32 @@
+name: 앱 아이콘 AVIF 변환·자체 호스팅
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'scripts/fetch-icons.mjs'
+
+permissions:
+  contents: write
+
+jobs:
+  icons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install sharp --no-save
+      - run: node scripts/fetch-icons.mjs
+      - name: 변경 시 커밋
+        run: |
+          git config user.name "quizday-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add public/icons data/quizzes.json
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "assets: 앱 아이콘 AVIF 자체 호스팅"
+            git push
+          fi
