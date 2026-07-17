@@ -2,27 +2,34 @@
   "date": "2026-07-16",
   "updatedAt": "2026-07-16T21:10:00+09:00",
   "answers": {
-    "toss-lucky": [
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [
       {
-        "question": "260716 토스 두근두근 1등찍기 (샘플)",
-        "answer": "어제정답",
+        "question": "신한 쏠퀴즈 7월 16일",
+        "answer": "일본",
         "note": "",
-        "publishedAt": "2026-07-16T09:10:00+09:00"
+        "publishedAt": "2026-07-16T08:00:00+09:00"
       }
     ],
-    "cashwalk": [
-      {
-        "question": "캐시워크 돈버는퀴즈 7월 16일 (샘플)",
-        "answer": "어제정답",
-        "note": "",
-        "publishedAt": "2026-07-16T08:05:00+09:00"
-      }
-    ],
-    "shinhan-sol": [],
     "kakaobank": [],
     "ok-cashbag": [],
-    "kbpay": [],
-    "cashdoc": [],
+    "kbpay": [
+      {
+        "question": "KB Pay — 락토핏 코어 미포함 혜택은?",
+        "answer": "신제품 샘플 증정",
+        "note": "",
+        "publishedAt": "2026-07-16T10:00:00+09:00"
+      }
+    ],
+    "cashdoc": [
+      {
+        "question": "캐시닥 용돈퀴즈 — 소휘 효소 (힌트: ㅅㅇㅅㅇ)",
+        "answer": "식이섬유",
+        "note": "",
+        "publishedAt": "2026-07-16T10:00:00+09:00"
+      }
+    ],
     "climate-action": [],
     "hpoint": [],
     "bitbunny": [],
