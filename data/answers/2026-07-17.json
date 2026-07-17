@@ -1,8 +1,15 @@
 {
   "date": "2026-07-17",
-  "updatedAt": "2026-07-17T12:07:00+09:00",
+  "updatedAt": "2026-07-17T13:34:00+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 행운퀴즈 — 코데즈컴바인 이너웨어 써머세일 최대 할인율은 OO%",
+        "answer": "50",
+        "note": "",
+        "publishedAt": "2026-07-17T13:34:00+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "캐시워크 돈버는퀴즈 — 소휘 효소 (힌트: ㅇㅊ)",
@@ -55,7 +62,20 @@
         "publishedAt": "2026-07-17T07:30:00+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (오전 8시)",
+        "answer": "화성",
+        "note": "",
+        "publishedAt": "2026-07-17T13:34:00+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (오후 12시)",
+        "answer": "계약서",
+        "note": "",
+        "publishedAt": "2026-07-17T13:34:00+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -65,6 +85,14 @@
     "kakaopay": [],
     "nh-allone": [],
     "samjjeomsam": [],
-    "doctornow": []
+    "doctornow": [],
+    "kb-star": [
+      {
+        "question": "KB스타뱅킹 스타퀴즈 — 제헌절을 정할 때 참고한 역사적 날짜는?",
+        "answer": "조선왕조 건국일",
+        "note": "",
+        "publishedAt": "2026-07-17T13:34:00+09:00"
+      }
+    ]
   }
 }
