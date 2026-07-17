@@ -1,0 +1,172 @@
+{
+  "quizzes": [
+    {
+      "slug": "toss-lucky",
+      "app": "토스",
+      "name": "토스 두근두근 1등찍기 행운퀴즈",
+      "searchKeyword": "토스행운퀴즈 정답",
+      "shortName": "토스 행운퀴즈",
+      "category": "finance",
+      "reward": "토스포인트",
+      "resetInfo": "수시 갱신",
+      "color": "#3182f6",
+      "howTo": "토스 앱 → 혜택 탭 → 행운퀴즈"
+    },
+    {
+      "slug": "cashwalk",
+      "app": "캐시워크",
+      "name": "캐시워크 돈버는퀴즈",
+      "searchKeyword": "돈버는퀴즈 정답",
+      "shortName": "돈버는퀴즈",
+      "category": "reward",
+      "reward": "캐시",
+      "resetInfo": "수시 갱신",
+      "color": "#f5b800",
+      "howTo": "캐시워크 앱 → 돈버는퀴즈 배너"
+    },
+    {
+      "slug": "shinhan-sol",
+      "app": "신한쏠페이",
+      "name": "신한 쏠퀴즈 · 퀴즈팡팡 · 출석퀴즈",
+      "searchKeyword": "쏠퀴즈 정답",
+      "shortName": "신한 쏠퀴즈",
+      "category": "finance",
+      "reward": "마이신한포인트",
+      "resetInfo": "매일 오전",
+      "color": "#0046ff",
+      "howTo": "신한 SOL페이 앱 → 이벤트 → 쏠퀴즈"
+    },
+    {
+      "slug": "kakaobank",
+      "app": "카카오뱅크",
+      "name": "카카오뱅크 AI 이모지 퀴즈",
+      "searchKeyword": "카뱅 AI 퀴즈 정답",
+      "shortName": "카뱅 AI 퀴즈",
+      "category": "finance",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#ffcd00",
+      "howTo": "카카오뱅크 앱 → 혜택 탭"
+    },
+    {
+      "slug": "ok-cashbag",
+      "app": "OK캐쉬백",
+      "name": "OK캐쉬백 오퀴즈",
+      "searchKeyword": "오퀴즈 정답",
+      "shortName": "오퀴즈",
+      "category": "reward",
+      "reward": "캐쉬백",
+      "resetInfo": "10시 · 14시 등 시간대별",
+      "color": "#e64524",
+      "howTo": "OK캐쉬백 앱 → 오퀴즈"
+    },
+    {
+      "slug": "kbpay",
+      "app": "KB페이",
+      "name": "KB스타 KBPAY 도전미션 스타퀴즈",
+      "searchKeyword": "KB페이 스타퀴즈 정답",
+      "shortName": "KB 스타퀴즈",
+      "category": "finance",
+      "reward": "포인트리",
+      "resetInfo": "매일 갱신",
+      "color": "#ffb000",
+      "howTo": "KB페이 앱 → 이벤트 → 스타퀴즈"
+    },
+    {
+      "slug": "cashdoc",
+      "app": "캐시닥",
+      "name": "캐시닥 · 타임스프레드 용돈퀴즈",
+      "searchKeyword": "용돈퀴즈 정답",
+      "shortName": "용돈퀴즈",
+      "category": "reward",
+      "reward": "캐시",
+      "resetInfo": "수시 갱신",
+      "color": "#ffd60a",
+      "howTo": "캐시닥 앱 → 용돈퀴즈"
+    },
+    {
+      "slug": "climate-action",
+      "app": "기후행동 기회소득",
+      "name": "기후행동 기후동행 기회소득 오늘의 퀴즈",
+      "searchKeyword": "기후행동퀴즈 정답",
+      "shortName": "기후행동 퀴즈",
+      "category": "life",
+      "reward": "리워드",
+      "resetInfo": "매일 갱신",
+      "color": "#34c759",
+      "howTo": "기후행동 기회소득 앱 → 오늘의 퀴즈"
+    },
+    {
+      "slug": "hpoint",
+      "app": "H포인트",
+      "name": "H포인트 오늘의 퀴즈",
+      "searchKeyword": "h포인트 퀴즈 정답",
+      "shortName": "H포인트 퀴즈",
+      "category": "reward",
+      "reward": "H포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#7c5cff",
+      "howTo": "H.Point 앱 → 오늘의 퀴즈"
+    },
+    {
+      "slug": "bitbunny",
+      "app": "비트버니",
+      "name": "비트버니 오늘의 퀴즈",
+      "searchKeyword": "비트버니 퀴즈 정답",
+      "shortName": "비트버니 퀴즈",
+      "category": "reward",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#a78bfa",
+      "howTo": "비트버니 앱 → 오늘의 퀴즈"
+    },
+    {
+      "slug": "kakaopay",
+      "app": "카카오페이",
+      "name": "카카오페이 퀴즈타임",
+      "searchKeyword": "카카오페이 퀴즈타임 정답",
+      "shortName": "퀴즈타임",
+      "category": "finance",
+      "reward": "포인트",
+      "resetInfo": "수시 갱신",
+      "color": "#ffe300",
+      "howTo": "카카오페이 앱 → 혜택 → 퀴즈타임"
+    },
+    {
+      "slug": "nh-allone",
+      "app": "NH농협",
+      "name": "NH올원뱅크 디깅퀴즈",
+      "searchKeyword": "농협 디깅퀴즈 정답",
+      "shortName": "디깅퀴즈",
+      "category": "finance",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#00a05e",
+      "howTo": "NH올원뱅크 앱 → 이벤트 → 디깅퀴즈"
+    },
+    {
+      "slug": "samjjeomsam",
+      "app": "삼쩜삼",
+      "name": "삼쩜삼 퀴즈",
+      "searchKeyword": "삼쩜삼 퀴즈 정답",
+      "shortName": "삼쩜삼 퀴즈",
+      "category": "life",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#4f9cf9",
+      "howTo": "삼쩜삼 앱 → 퀴즈 풀고 포인트 쌓기"
+    },
+    {
+      "slug": "doctornow",
+      "app": "닥터나우",
+      "name": "닥터나우 오늘의 퀴즈",
+      "searchKeyword": "닥터나우 퀴즈 정답",
+      "shortName": "닥터나우 퀴즈",
+      "category": "life",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#ff7a00",
+      "howTo": "닥터나우 앱 → 오늘의 퀴즈"
+    }
+  ]
+}

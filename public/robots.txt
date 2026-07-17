@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://quiz.jjyu.co.kr/sitemap.xml

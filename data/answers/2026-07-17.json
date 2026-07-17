@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-17",
+  "updatedAt": "2026-07-17T09:30:00+09:00",
+  "answers": {
+    "toss-lucky": [
+      {
+        "question": "260717 토스 두근두근 1등찍기 팀플전피아소 (샘플)",
+        "answer": "샘플정답",
+        "note": "수집 파이프라인 연결 전 샘플 데이터입니다.",
+        "publishedAt": "2026-07-17T09:00:00+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 두 번째 문제 (샘플)",
+        "answer": "샘플정답2",
+        "note": "",
+        "publishedAt": "2026-07-17T11:00:00+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "캐시워크 돈버는퀴즈 오늘의 문제 (샘플)",
+        "answer": "샘플정답",
+        "note": "",
+        "publishedAt": "2026-07-17T08:00:00+09:00"
+      }
+    ],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠퀴즈 오늘의 문제 (샘플)",
+        "answer": "샘플정답",
+        "note": "",
+        "publishedAt": "2026-07-17T07:30:00+09:00"
+      }
+    ],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "samjjeomsam": [],
+    "doctornow": []
+  }
+}
