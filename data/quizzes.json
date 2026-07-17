@@ -61,7 +61,7 @@
       "shortName": "카뱅 AI 퀴즈",
       "category": "finance",
       "reward": "포인트",
-      "resetInfo": "매일 갱신",
+      "resetInfo": "08시·12시·20시 (하루 3회)",
       "color": "#ffcd00",
       "howTo": "카카오뱅크 앱 → 혜택 탭",
       "estDaily": 50,
@@ -69,7 +69,9 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/17/46/681746da-3862-c631-c8d5-c0600231d7e7/AppIcon_real-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "sourceSlug": "kakaobank",
       "releaseTimes": [
-        "09:00"
+        "08:00",
+        "12:00",
+        "20:00"
       ]
     },
     {
@@ -80,7 +82,7 @@
       "shortName": "오퀴즈",
       "category": "reward",
       "reward": "캐쉬백",
-      "resetInfo": "10시 · 14시 등 시간대별",
+      "resetInfo": "8:30·10·14·20·21시 회차",
       "color": "#e64524",
       "howTo": "OK캐쉬백 앱 → 오퀴즈",
       "estDaily": 100,
@@ -88,8 +90,11 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/68/6d/24686dbe-6d14-4353-b9dd-5bc0a07c869e/AppIcon700-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "okcashbag",
       "releaseTimes": [
+        "08:30",
         "10:00",
-        "14:00"
+        "14:00",
+        "20:00",
+        "21:00"
       ]
     },
     {
@@ -100,7 +105,7 @@
       "shortName": "KB Pay 퀴즈",
       "category": "finance",
       "reward": "포인트리",
-      "resetInfo": "매일 갱신",
+      "resetInfo": "매일 10시",
       "color": "#ffb000",
       "howTo": "KB페이 앱 → 이벤트 → 스타퀴즈",
       "estDaily": 80,
@@ -108,7 +113,7 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/f7/32/3ef732a4-4edd-d0be-a762-46e4585d1eb9/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "sourceSlug": "livemate",
       "releaseTimes": [
-        "00:00"
+        "10:00"
       ]
     },
     {
@@ -119,7 +124,7 @@
       "shortName": "용돈퀴즈",
       "category": "reward",
       "reward": "캐시",
-      "resetInfo": "수시 갱신",
+      "resetInfo": "10~11시·19~21시 집중",
       "color": "#ffd60a",
       "howTo": "캐시닥 앱 → 용돈퀴즈",
       "estDaily": 60,
@@ -127,7 +132,11 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/fe/95/82fe9543-fc8b-182c-5cc3-c3dbe57e4ff4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "cashdoc",
       "releaseTimes": [
-        "12:00"
+        "10:00",
+        "10:30",
+        "11:00",
+        "19:00",
+        "20:30"
       ]
     },
     {
@@ -183,7 +192,9 @@
       "rewardRange": "10~100P",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/84/0e/de840e2b-0197-1a56-0ba0-b978c2a062a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "bitbunny",
-      "releaseTimes": []
+      "releaseTimes": [
+        "00:00"
+      ]
     },
     {
       "slug": "kakaopay",
@@ -193,14 +204,16 @@
       "shortName": "퀴즈타임",
       "category": "finance",
       "reward": "포인트",
-      "resetInfo": "수시 갱신",
+      "resetInfo": "매일 10시",
       "color": "#ffe300",
       "howTo": "카카오페이 앱 → 혜택 → 퀴즈타임",
       "estDaily": 80,
       "rewardRange": "10~500P",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/7c/11/087c11ea-555c-b244-ead6-a6426887df9f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "kakaopay",
-      "releaseTimes": []
+      "releaseTimes": [
+        "10:00"
+      ]
     },
     {
       "slug": "nh-allone",
@@ -236,9 +249,7 @@
       "rewardRange": "10~100P",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/b6/b8/ebb6b853-7d7c-6f99-09b7-3fe4f5c2ca33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "sourceSlug": "3o3",
-      "releaseTimes": [
-        "09:00"
-      ]
+      "releaseTimes": []
     },
     {
       "slug": "doctornow",
@@ -256,7 +267,7 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/ef/84/5cef842b-18c3-d969-c516-9783db3455a1/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "doctornow",
       "releaseTimes": [
-        "09:00"
+        "00:00"
       ]
     },
     {
@@ -294,7 +305,7 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/39/02/413902eb-5959-7125-df59-18aeabe9f180/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "sourceSlug": "kbank",
       "releaseTimes": [
-        "09:00"
+        "00:00"
       ]
     },
     {
@@ -332,7 +343,7 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/b3/2d/fdb32d73-60bb-815c-1a70-59dfb1bb1f2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
       "sourceSlug": "monimo",
       "releaseTimes": [
-        "06:00"
+        "00:00"
       ]
     },
     {
@@ -403,9 +414,7 @@
       "rewardRange": "10~100P",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/8d/a4/218da457-e038-4ca9-8c63-3cbc81073709/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "balso",
-      "releaseTimes": [
-        "00:00"
-      ]
+      "releaseTimes": []
     },
     {
       "slug": "mydoctor",
@@ -423,7 +432,7 @@
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/3e/d4/9a3ed427-ec0a-b296-688c-29dec3115ed6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "mydoctor",
       "releaseTimes": [
-        "09:00"
+        "00:00"
       ]
     },
     {
@@ -441,9 +450,7 @@
       "rewardRange": "적립금",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/f7/3b/08f73bc8-5f9f-5780-655f-f401a2761d7c/AppIcon-0-0-1x_U007emarketing-0-3-0-85-220.png/512x512bb.jpg",
       "sourceSlug": "skstoa",
-      "releaseTimes": [
-        "09:00"
-      ]
+      "releaseTimes": []
     },
     {
       "slug": "auction",
@@ -460,9 +467,7 @@
       "rewardRange": "스마일캐시",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/3b/5c/3d3b5cfd-8dc8-99c4-af2a-9f2418b6ce14/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
       "sourceSlug": "auction",
-      "releaseTimes": [
-        "00:00"
-      ]
+      "releaseTimes": []
     },
     {
       "slug": "chocolatebox",
@@ -495,7 +500,8 @@
       "rewardRange": "홈플머니",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/5b/82/695b8217-1604-56b6-5f1c-07dbacf16232/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
       "releaseTimes": [
-        "10:00"
+        "10:00",
+        "14:00"
       ]
     },
     {
@@ -506,14 +512,14 @@
       "shortName": "시럽 타임어택",
       "category": "reward",
       "reward": "시럽 포인트",
-      "resetInfo": "특정 시간 타임어택",
+      "resetInfo": "11시 타임어택",
       "howTo": "시럽 앱 → 이벤트 → 타임어택 퀴즈",
       "color": "#FF4B3E",
       "estDaily": 40,
       "rewardRange": "포인트",
       "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/33/25/0433257f-eddf-88c5-4597-6d86883de7ac/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "releaseTimes": [
-        "17:00"
+        "11:00"
       ]
     }
   ]
