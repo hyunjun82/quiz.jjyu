@@ -1,10 +1,23 @@
 {
   "date": "2026-07-18",
-  "updatedAt": "2026-07-18T00:08:00+09:00",
+  "updatedAt": "2026-07-18T00:32:49+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "쏠퀴즈 — LG 오스틴 선수가 시즌 홈런왕에 오르면 LG 선수로는 역대 몇번째 홈런왕으로 기록될까요?",
+        "answer": "첫 홈런왕",
+        "note": "",
+        "publishedAt": "2026-07-18T00:32:49+09:00"
+      },
+      {
+        "question": "신한SOL페이 퀴즈팡팡",
+        "answer": "만 55세 이상 신용카드를 소지한 개인 회원",
+        "note": "",
+        "publishedAt": "2026-07-18T00:32:49+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
