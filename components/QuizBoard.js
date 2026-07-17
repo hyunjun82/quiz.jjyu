@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const CATEGORIES = [
   { key: 'all', label: '전체' },
@@ -29,9 +29,26 @@ function Logo({ quiz }) {
   );
 }
 
+/** 다음 공개 시각 계산 (클라이언트에서만 — 하이드레이션 불일치 방지) */
+function useNextRelease() {
+  const [now, setNow] = useState(null);
+  useEffect(() => {
+    setNow(new Date());
+    const t = setInterval(() => setNow(new Date()), 60_000);
+    return () => clearInterval(t);
+  }, []);
+  return (times) => {
+    if (!now || !times || times.length === 0) return null;
+    const cur = now.toLocaleTimeString('en-GB', { timeZone: 'Asia/Seoul', hour: '2-digit', minute: '2-digit' });
+    const upcoming = times.filter((t) => t > cur).sort();
+    return upcoming[0] || `내일 ${times.slice().sort()[0]}`;
+  };
+}
+
 export default function QuizBoard({ quizzes, counts }) {
   const [query, setQuery] = useState('');
   const [cat, setCat] = useState('all');
+  const nextRelease = useNextRelease();
 
   const filtered = quizzes.filter((q) => {
     const matchCat = cat === 'all' || q.category === cat;
@@ -74,12 +91,13 @@ export default function QuizBoard({ quizzes, counts }) {
         <div className="quiz-grid">
           {filtered.map((quiz) => {
             const count = counts[quiz.slug] || 0;
+            const next = count > 0 ? null : nextRelease(quiz.releaseTimes);
             return (
               <a key={quiz.slug} href={`/quiz/${quiz.slug}/`} className="quiz-card">
                 <div className="qc-thumb" style={{ background: quiz.color }}>
                   <Logo quiz={quiz} />
                   <span className={`qc-badge ${count > 0 ? 'on' : ''}`}>
-                    {count > 0 ? `정답 ${count}건` : '대기 중'}
+                    {count > 0 ? `정답 ${count}건` : next ? `${next} 공개` : '대기 중'}
                   </span>
                   <span className="qc-name">{quiz.shortName}</span>
                 </div>
