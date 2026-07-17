@@ -4,36 +4,18 @@ import {
   formatShortDate,
   formatTime,
 } from '../lib/data';
-import AnswerReveal from './AnswerReveal';
 
 /**
- * 퀴즈 상세 화면 (오늘 페이지와 날짜별 아카이브 페이지 공용)
+ * 퀴즈 상세 화면 — 문제 목록. 정답은 문제별 페이지로 이동해 확인 (PV 극대화 구조)
  */
 export default function QuizDetail({ quiz, date, dates, data, isToday }) {
   const items = data?.answers?.[quiz.slug] ?? [];
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
 
-  const jsonLd =
-    items.length > 0
-      ? {
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: items.map((item) => ({
-            '@type': 'Question',
-            name: item.question,
-            acceptedAnswer: { '@type': 'Answer', text: item.answer },
-          })),
-        }
-      : null;
-
   return (
     <main className="container detail">
-      {jsonLd && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      )}
+      <div className="detail-grid">
+      <div className="detail-main">
       <p className="crumb">
         <a href="/">홈</a> › <a href={`/quiz/${quiz.slug}/`}>{quiz.app}</a>
         {!isToday && <> › {formatShortDate(date)}</>}
@@ -43,7 +25,6 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         {quiz.searchKeyword} <span className="grad">{formatKoreanDate(date)}</span>
       </h1>
 
-      {/* 업데이트 상태 바 */}
       <div className="meta-bar">
         <span className="upd">
           <span className="upd-dot" />
@@ -57,7 +38,6 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         <span>보상 {quiz.reward}</span>
       </div>
 
-      {/* 날짜 네비게이션 */}
       <nav className="date-nav" aria-label="날짜별 정답">
         {dates.slice(0, 7).map((d, i) => {
           const active = d === date;
@@ -87,13 +67,14 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       ) : (
         <ol className="a-list">
           {items.map((item, i) => (
-            <li key={i} className="a-row">
-              <span className="a-time">{formatTime(item.publishedAt) || '—'}</span>
-              <div className="a-main">
-                <p className="a-q">{item.question}</p>
-                {item.note && <p className="a-note">{item.note}</p>}
-                <AnswerReveal answer={item.answer} />
-              </div>
+            <li key={i}>
+              <a href={`/quiz/${quiz.slug}/${date}/${i + 1}/`} className="a-row">
+                <span className="a-time">{formatTime(item.publishedAt) || '—'}</span>
+                <div className="a-main">
+                  <p className="a-q">{item.question}</p>
+                  <span className="a-go">정답 확인하기 →</span>
+                </div>
+              </a>
             </li>
           ))}
         </ol>
@@ -114,6 +95,11 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
           ))}
         </div>
       </section>
+      </div>
+      <aside className="rail">
+        <div className="ad-slot rail-ad">AD · PC 사이드 스티키 300×600</div>
+      </aside>
+      </div>
     </main>
   );
 }
