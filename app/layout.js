@@ -43,6 +43,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ko">
       <head>
+        <meta
+          name="naver-site-verification"
+          content="aeab35a19c380adc4d6926a966e13249ca4ac495"
+        />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
         {/* 폰트 CSS 비동기 로드 — 렌더링 차단 제거 (시스템 폰트 즉시 표시 후 교체) */}
         <script

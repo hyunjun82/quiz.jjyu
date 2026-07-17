@@ -1,0 +1,36 @@
+name: IndexNow 즉시 인덱싱 핑
+
+# 정답 데이터가 갱신될 때마다 네이버·빙에 "새 콘텐츠 있음"을 즉시 알림
+on:
+  push:
+    paths:
+      - 'data/answers/**'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 갱신 URL 목록 생성 후 IndexNow 핑
+        run: |
+          TODAY=$(TZ=Asia/Seoul date +%F)
+          URLS=$(TODAY=$TODAY node -e "
+            const q = require('./data/quizzes.json').quizzes;
+            const urls = ['https://quiz.jjyu.co.kr/'];
+            for (const x of q) {
+              urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/');
+              urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/' + process.env.TODAY + '/');
+            }
+            console.log(JSON.stringify(urls));
+          ")
+          cat > payload.json <<EOF
+          {
+            "host": "quiz.jjyu.co.kr",
+            "key": "a602f498b33460cda8275cccdab72820",
+            "keyLocation": "https://quiz.jjyu.co.kr/a602f498b33460cda8275cccdab72820.txt",
+            "urlList": $URLS
+          }
+          EOF
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d @payload.json -w "\nHTTP %{http_code}\n"
