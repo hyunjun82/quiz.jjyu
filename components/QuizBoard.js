@@ -9,6 +9,25 @@ const CATEGORIES = [
   { key: 'life', label: '생활' },
 ];
 
+function Logo({ quiz }) {
+  return (
+    <span className="qc-logo">
+      <span className="qc-fallback" style={{ color: quiz.color }}>
+        {quiz.app.slice(0, 1)}
+      </span>
+      {quiz.logoDomain && (
+        <img
+          src={`https://www.google.com/s2/favicons?domain=${quiz.logoDomain}&sz=128`}
+          alt={`${quiz.app} 로고`}
+          loading="lazy"
+          width="34"
+          height="34"
+        />
+      )}
+    </span>
+  );
+}
+
 export default function QuizBoard({ quizzes, counts }) {
   const [query, setQuery] = useState('');
   const [cat, setCat] = useState('all');
@@ -55,27 +74,23 @@ export default function QuizBoard({ quizzes, counts }) {
           {filtered.map((quiz) => {
             const count = counts[quiz.slug] || 0;
             return (
-              <a
-                key={quiz.slug}
-                href={`/quiz/${quiz.slug}/`}
-                className="quiz-card"
-                style={{ '--card-glow': quiz.color }}
-              >
-                <div className="card-top">
-                  <span className="app-dot" style={{ background: quiz.color }}>
-                    {quiz.app.slice(0, 1)}
-                  </span>
-                  <span className={`status ${count > 0 ? 'on' : 'off'}`}>
+              <a key={quiz.slug} href={`/quiz/${quiz.slug}/`} className="quiz-card">
+                <div className="qc-thumb" style={{ background: quiz.color }}>
+                  <Logo quiz={quiz} />
+                  <span className={`qc-badge ${count > 0 ? 'on' : ''}`}>
                     {count > 0 ? `정답 ${count}건` : '대기 중'}
                   </span>
+                  <span className="qc-name">{quiz.shortName}</span>
                 </div>
-                <h2>{quiz.shortName}</h2>
-                <p className="meta">
-                  {quiz.app} · {quiz.resetInfo}
-                </p>
-                <p className={`cta ${count > 0 ? 'hot' : ''}`}>
-                  {count > 0 ? '정답 확인하기 →' : '공개되면 자동 업데이트'}
-                </p>
+                <div className="qc-body">
+                  <p className="qc-app">
+                    {quiz.app} · {quiz.resetInfo}
+                  </p>
+                  <p className="qc-reward">적립 {quiz.rewardRange}</p>
+                  <p className={`cta ${count > 0 ? 'hot' : ''}`}>
+                    {count > 0 ? '정답 확인하기 →' : '공개되면 자동 업데이트'}
+                  </p>
+                </div>
               </a>
             );
           })}

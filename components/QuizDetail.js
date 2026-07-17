@@ -12,8 +12,36 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
   const items = data?.answers?.[quiz.slug] ?? [];
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
 
+  const SITE_URL = 'https://quiz.jjyu.co.kr';
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: '홈', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: quiz.searchKeyword, item: `${SITE_URL}/quiz/${quiz.slug}/` },
+        ],
+      },
+      ...(items.length > 0
+        ? [{
+            '@type': 'FAQPage',
+            mainEntity: items.map((item) => ({
+              '@type': 'Question',
+              name: item.question,
+              acceptedAnswer: { '@type': 'Answer', text: item.answer },
+            })),
+          }]
+        : []),
+    ],
+  };
+
   return (
     <main className="container detail">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="detail-grid">
       <div className="detail-main">
       <p className="crumb">

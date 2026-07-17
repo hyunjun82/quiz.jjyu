@@ -10,7 +10,10 @@
       "reward": "토스포인트",
       "resetInfo": "수시 갱신",
       "color": "#3182f6",
-      "howTo": "토스 앱 → 혜택 탭 → 행운퀴즈"
+      "howTo": "토스 앱 → 혜택 탭 → 행운퀴즈",
+      "logoDomain": "toss.im",
+      "estDaily": 150,
+      "rewardRange": "10~1,000원"
     },
     {
       "slug": "cashwalk",
@@ -22,7 +25,10 @@
       "reward": "캐시",
       "resetInfo": "수시 갱신",
       "color": "#f5b800",
-      "howTo": "캐시워크 앱 → 돈버는퀴즈 배너"
+      "howTo": "캐시워크 앱 → 돈버는퀴즈 배너",
+      "logoDomain": "cashwalk.co.kr",
+      "estDaily": 60,
+      "rewardRange": "10~100캐시"
     },
     {
       "slug": "shinhan-sol",
@@ -34,7 +40,10 @@
       "reward": "마이신한포인트",
       "resetInfo": "매일 오전",
       "color": "#0046ff",
-      "howTo": "신한 SOL페이 앱 → 이벤트 → 쏠퀴즈"
+      "howTo": "신한 SOL페이 앱 → 이벤트 → 쏠퀴즈",
+      "logoDomain": "shinhancard.com",
+      "estDaily": 100,
+      "rewardRange": "10~500P"
     },
     {
       "slug": "kakaobank",
@@ -46,7 +55,10 @@
       "reward": "포인트",
       "resetInfo": "매일 갱신",
       "color": "#ffcd00",
-      "howTo": "카카오뱅크 앱 → 혜택 탭"
+      "howTo": "카카오뱅크 앱 → 혜택 탭",
+      "logoDomain": "kakaobank.com",
+      "estDaily": 50,
+      "rewardRange": "10~100P"
     },
     {
       "slug": "ok-cashbag",
@@ -58,7 +70,10 @@
       "reward": "캐쉬백",
       "resetInfo": "10시 · 14시 등 시간대별",
       "color": "#e64524",
-      "howTo": "OK캐쉬백 앱 → 오퀴즈"
+      "howTo": "OK캐쉬백 앱 → 오퀴즈",
+      "logoDomain": "okcashbag.com",
+      "estDaily": 100,
+      "rewardRange": "10~500P"
     },
     {
       "slug": "kbpay",
@@ -70,7 +85,10 @@
       "reward": "포인트리",
       "resetInfo": "매일 갱신",
       "color": "#ffb000",
-      "howTo": "KB페이 앱 → 이벤트 → 스타퀴즈"
+      "howTo": "KB페이 앱 → 이벤트 → 스타퀴즈",
+      "logoDomain": "kbcard.com",
+      "estDaily": 80,
+      "rewardRange": "10~300P"
     },
     {
       "slug": "cashdoc",
@@ -82,7 +100,10 @@
       "reward": "캐시",
       "resetInfo": "수시 갱신",
       "color": "#ffd60a",
-      "howTo": "캐시닥 앱 → 용돈퀴즈"
+      "howTo": "캐시닥 앱 → 용돈퀴즈",
+      "logoDomain": "cashdoc.me",
+      "estDaily": 60,
+      "rewardRange": "10~100캐시"
     },
     {
       "slug": "climate-action",
@@ -94,7 +115,9 @@
       "reward": "리워드",
       "resetInfo": "매일 갱신",
       "color": "#34c759",
-      "howTo": "기후행동 기회소득 앱 → 오늘의 퀴즈"
+      "howTo": "기후행동 기회소득 앱 → 오늘의 퀴즈",
+      "estDaily": 50,
+      "rewardRange": "기회소득"
     },
     {
       "slug": "hpoint",
@@ -106,7 +129,10 @@
       "reward": "H포인트",
       "resetInfo": "매일 갱신",
       "color": "#7c5cff",
-      "howTo": "H.Point 앱 → 오늘의 퀴즈"
+      "howTo": "H.Point 앱 → 오늘의 퀴즈",
+      "logoDomain": "hpoint.co.kr",
+      "estDaily": 50,
+      "rewardRange": "10~100P"
     },
     {
       "slug": "bitbunny",
@@ -118,7 +144,9 @@
       "reward": "포인트",
       "resetInfo": "매일 갱신",
       "color": "#a78bfa",
-      "howTo": "비트버니 앱 → 오늘의 퀴즈"
+      "howTo": "비트버니 앱 → 오늘의 퀴즈",
+      "estDaily": 50,
+      "rewardRange": "10~100P"
     },
     {
       "slug": "kakaopay",
@@ -130,7 +158,10 @@
       "reward": "포인트",
       "resetInfo": "수시 갱신",
       "color": "#ffe300",
-      "howTo": "카카오페이 앱 → 혜택 → 퀴즈타임"
+      "howTo": "카카오페이 앱 → 혜택 → 퀴즈타임",
+      "logoDomain": "kakaopay.com",
+      "estDaily": 80,
+      "rewardRange": "10~500P"
     },
     {
       "slug": "nh-allone",
@@ -142,7 +173,10 @@
       "reward": "포인트",
       "resetInfo": "매일 갱신",
       "color": "#00a05e",
-      "howTo": "NH올원뱅크 앱 → 이벤트 → 디깅퀴즈"
+      "howTo": "NH올원뱅크 앱 → 이벤트 → 디깅퀴즈",
+      "logoDomain": "nonghyup.com",
+      "estDaily": 50,
+      "rewardRange": "10~100P"
     },
     {
       "slug": "samjjeomsam",
@@ -154,7 +188,10 @@
       "reward": "포인트",
       "resetInfo": "매일 갱신",
       "color": "#4f9cf9",
-      "howTo": "삼쩜삼 앱 → 퀴즈 풀고 포인트 쌓기"
+      "howTo": "삼쩜삼 앱 → 퀴즈 풀고 포인트 쌓기",
+      "logoDomain": "3o3.co.kr",
+      "estDaily": 40,
+      "rewardRange": "10~100P"
     },
     {
       "slug": "doctornow",
@@ -166,7 +203,10 @@
       "reward": "포인트",
       "resetInfo": "매일 갱신",
       "color": "#ff7a00",
-      "howTo": "닥터나우 앱 → 오늘의 퀴즈"
+      "howTo": "닥터나우 앱 → 오늘의 퀴즈",
+      "logoDomain": "doctornow.co.kr",
+      "estDaily": 40,
+      "rewardRange": "10~100P"
     }
   ]
 }

@@ -117,9 +117,84 @@ main, header, footer { position: relative; z-index: 1; }
   50% { opacity: 0.4; transform: scale(0.8); }
 }
 
+/* ── ticker (흐르는 현황 띠) ──────────────── */
+.ticker {
+  background: var(--text);
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 9px 0;
+}
+.ticker-track {
+  display: inline-block;
+  animation: ticker 40s linear infinite;
+}
+.ticker-track span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #cfd6ff;
+}
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── 수익 리포트 카드 ─────────────────────── */
+.report-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 26px 30px;
+  position: relative;
+  overflow: hidden;
+}
+.report-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--accent-grad);
+}
+.rc-tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--mint);
+  background: var(--mint-bg);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+.rc-left h2 {
+  margin-top: 10px;
+  font-size: clamp(19px, 2.6vw, 24px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.rc-left h2 em { font-style: normal; color: var(--mint); }
+.rc-left p { margin-top: 6px; font-size: 14px; color: var(--text-2); }
+.rc-left p b { color: var(--text); }
+.rc-right { text-align: right; }
+.rc-num {
+  display: block;
+  font-size: clamp(26px, 3.4vw, 36px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: var(--accent-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.rc-lbl { font-size: 12.5px; font-weight: 700; color: var(--text-3); }
+
 /* ── hero ─────────────────────────────────── */
 .hero {
-  padding: 68px 0 36px;
+  padding: 56px 0 32px;
   text-align: center;
   background-image: radial-gradient(circle, rgba(109, 92, 255, 0.07) 1px, transparent 1px);
   background-size: 22px 22px;
@@ -137,10 +212,10 @@ main, header, footer { position: relative; z-index: 1; }
   margin-bottom: 22px;
 }
 .hero h1 {
-  font-size: clamp(34px, 5.4vw, 56px);
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: -0.035em;
+  font-size: clamp(36px, 5.6vw, 60px);
+  font-weight: 900;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
 }
 .hero h1 .grad {
   background: var(--accent-grad);
@@ -253,7 +328,7 @@ main, header, footer { position: relative; z-index: 1; }
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
-  padding: 22px;
+  padding: 0;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
   overflow: hidden;
 }
@@ -271,6 +346,76 @@ main, header, footer { position: relative; z-index: 1; }
   box-shadow: var(--shadow-md);
 }
 .quiz-card:hover::before { opacity: 0.13; }
+
+/* 카드 썸네일 (브랜드 컬러 + 실제 로고) */
+.qc-thumb {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.qc-thumb::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120px 80px at 50% 32%, rgba(255, 255, 255, 0.35), transparent 70%),
+    linear-gradient(to bottom, transparent 40%, rgba(0, 0, 0, 0.28));
+}
+.qc-logo {
+  position: relative;
+  z-index: 1;
+  width: 58px;
+  height: 58px;
+  border-radius: 15px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+  transform: translateY(-8px);
+}
+.qc-logo img { position: relative; z-index: 1; border-radius: 8px; background: #fff; }
+.qc-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 900;
+}
+.qc-badge {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+}
+.qc-badge.on { background: #fff; color: var(--mint); }
+.qc-name {
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  left: 14px;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+.qc-body { padding: 14px 16px 16px; }
+.qc-app { font-size: 12.5px; color: var(--text-3); font-weight: 600; }
+.qc-reward { margin-top: 3px; font-size: 13px; font-weight: 800; color: var(--text-2); }
+.qc-body .cta { margin-top: 10px; }
 
 .card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
 .app-dot {
