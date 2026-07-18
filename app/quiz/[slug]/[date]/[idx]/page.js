@@ -9,6 +9,7 @@ import {
   formatTime,
 } from '../../../../../lib/data';
 import AnswerBox from '../../../../../components/AnswerBox';
+import AdUnit from '../../../../../components/AdUnit';
 
 /** 모든 (퀴즈 × 날짜 × 문제번호) 정답 페이지 생성 */
 export function generateStaticParams() {
@@ -88,7 +89,7 @@ export default function AnswerPage({ params }) {
         </span>
       </div>
 
-      <div className="ad-slot">AD</div>
+      <AdUnit slot="3353452458" />
 
       <article className="q-card" data-idx={String(idx).padStart(2, '0')}>
         <p className="q-label">Question {idx}</p>
@@ -98,7 +99,7 @@ export default function AnswerPage({ params }) {
       </article>
 
       {/* 💰 최고 수익 슬롯: 정답 확인 직후 = 목적 달성 시점, 시선이 머무는 자리 */}
-      <div className="ad-slot ad-rect">AD · 336×280 대형 직사각형 (정답 직하단)</div>
+      <AdUnit slot="5919906049" className="ad-slot ad-rect" />
 
       {/* 문제 간 이동 — 자연스러운 추가 PV */}
       <nav className="q-nav">
@@ -117,7 +118,7 @@ export default function AnswerPage({ params }) {
         )}
       </nav>
 
-      <div className="ad-slot">AD</div>
+      <AdUnit slot="9284435988" />
 
       <section className="related">
         <h2>다른 퀴즈 정답</h2>
@@ -134,7 +135,7 @@ export default function AnswerPage({ params }) {
       </section>
       </div>
       <aside className="rail">
-        <div className="ad-slot rail-ad">AD · PC 사이드 스티키 300×600</div>
+        <AdUnit slot="4223680996" className="ad-slot rail-ad" />
       </aside>
       </div>
     </main>

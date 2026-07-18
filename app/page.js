@@ -1,5 +1,6 @@
 import { getQuizzes, getLatestAnswers, formatKoreanDate } from '../lib/data';
 import QuizBoard from '../components/QuizBoard';
+import AdUnit from '../components/AdUnit';
 
 const SITE_URL = 'https://quiz.jjyu.co.kr';
 
@@ -79,7 +80,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="ad-slot">AD · 반응형 배너</div>
+        <AdUnit slot="3353452458" />
       </div>
 
       <QuizBoard quizzes={quizzes} counts={counts} />

@@ -4,6 +4,7 @@ import {
   formatShortDate,
   formatTime,
 } from '../lib/data';
+import AdUnit from './AdUnit';
 
 /**
  * 퀴즈 상세 화면 — 문제 목록. 정답은 문제별 페이지로 이동해 확인 (PV 극대화 구조)
@@ -85,7 +86,7 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
       </div>
 
-      <div className="ad-slot">AD</div>
+      <AdUnit slot="9284435988" />
 
       {items.length === 0 ? (
         <div className="empty">
@@ -108,7 +109,7 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         </ol>
       )}
 
-      <div className="ad-slot">AD</div>
+      <AdUnit slot="5919906049" />
 
       <section className="related">
         <h2>다른 퀴즈 정답</h2>
@@ -125,7 +126,7 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       </section>
       </div>
       <aside className="rail">
-        <div className="ad-slot rail-ad">AD · PC 사이드 스티키 300×600</div>
+        <AdUnit slot="4223680996" className="ad-slot rail-ad" />
       </aside>
       </div>
     </main>
