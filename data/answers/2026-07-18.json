@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "updatedAt": "2026-07-18T09:21:00+09:00",
+  "updatedAt": "2026-07-18T10:36:31+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -18,7 +18,14 @@
         "publishedAt": "2026-07-18T00:32:49+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (7월 18일 오전 8시 회차)",
+        "answer": "드리블",
+        "note": "",
+        "publishedAt": "2026-07-18T10:36:31+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
