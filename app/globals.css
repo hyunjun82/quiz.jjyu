@@ -866,3 +866,8 @@ main, header, footer { position: relative; z-index: 1; }
   .board-tools { flex-direction: column; align-items: stretch; }
   .tabs { overflow-x: auto; padding-bottom: 2px; }
 }
+
+/* 개인정보처리방침 */
+.policy { margin-top: 24px; }
+.policy h2 { font-size: 16.5px; font-weight: 800; margin: 26px 0 8px; letter-spacing: -0.02em; }
+.policy p { font-size: 14.5px; color: var(--text-2); line-height: 1.75; }

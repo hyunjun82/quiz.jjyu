@@ -48,6 +48,12 @@ export default function RootLayout({ children }) {
           content="aeab35a19c380adc4d6926a966e13249ca4ac495"
         />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        {/* Google AdSense — 사이트 소유 확인 및 광고 게재 */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121"
+          crossOrigin="anonymous"
+        />
         {/* 폰트 CSS 비동기 로드 — 렌더링 차단 제거 (시스템 폰트 즉시 표시 후 교체) */}
         <script
           dangerouslySetInnerHTML={{
@@ -90,7 +96,12 @@ export default function RootLayout({ children }) {
               자산입니다.
             </p>
             <p>정답은 이벤트 진행 중 변경될 수 있으니 앱 내 안내를 함께 확인해 주세요.</p>
-            <p>© {new Date().getFullYear()} quiz.jjyu.co.kr</p>
+            <p>
+              © {new Date().getFullYear()} quiz.jjyu.co.kr ·{' '}
+              <a href="/privacy/" style={{ textDecoration: 'underline' }}>
+                개인정보처리방침
+              </a>
+            </p>
           </div>
         </footer>
       </body>
