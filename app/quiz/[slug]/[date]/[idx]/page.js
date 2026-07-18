@@ -68,6 +68,9 @@ export default function AnswerPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="detail-grid">
+      <aside className="rail rail-left">
+        <AdUnit slot="4223680996" className="ad-slot rail-ad" />
+      </aside>
       <div className="detail-main">
       <p className="crumb">
         <a href="/">홈</a> › <a href={`/quiz/${quiz.slug}/`}>{quiz.app}</a> ›{' '}

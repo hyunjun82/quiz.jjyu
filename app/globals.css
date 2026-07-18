@@ -465,9 +465,13 @@ main, header, footer { position: relative; z-index: 1; }
 .detail-grid { display: grid; grid-template-columns: minmax(0, 720px) 1fr; gap: 36px; }
 .detail-main { min-width: 0; max-width: 720px; }
 .rail { display: none; }
+.rail-ad { position: sticky; top: 84px; min-height: 600px; margin: 0; width: 300px; }
 @media (min-width: 1180px) {
-  .rail { display: block; }
-  .rail-ad { position: sticky; top: 84px; min-height: 600px; margin: 0; }
+  .rail:not(.rail-left) { display: block; }
+}
+@media (min-width: 1500px) {
+  .detail-grid { grid-template-columns: 300px minmax(0, 720px) 300px; justify-content: center; }
+  .rail-left { display: block; }
 }
 @media (max-width: 1179px) {
   .detail-grid { grid-template-columns: 1fr; }
