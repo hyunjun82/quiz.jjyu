@@ -845,6 +845,8 @@ main, header, footer { position: relative; z-index: 1; }
   background: var(--surface);
 }
 
+.ad-rect { min-height: 280px; }
+
 /* ── footer ───────────────────────────────── */
 .site-footer {
   border-top: 1px solid var(--border);

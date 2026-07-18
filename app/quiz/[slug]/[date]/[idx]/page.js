@@ -97,6 +97,9 @@ export default function AnswerPage({ params }) {
         <AnswerBox answer={item.answer} />
       </article>
 
+      {/* 💰 최고 수익 슬롯: 정답 확인 직후 = 목적 달성 시점, 시선이 머무는 자리 */}
+      <div className="ad-slot ad-rect">AD · 336×280 대형 직사각형 (정답 직하단)</div>
+
       {/* 문제 간 이동 — 자연스러운 추가 PV */}
       <nav className="q-nav">
         {idx > 1 && (
