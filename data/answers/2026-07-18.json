@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "updatedAt": "2026-07-18T10:36:31+09:00",
+  "updatedAt": "2026-07-18T10:37:30+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -27,7 +27,14 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의퀴즈 — '여름 휴가를 부탁해!' 이벤트는 언제까지 진행될까요?",
+        "answer": "2026.7.1(수) ~ 8.2(일)",
+        "note": "",
+        "publishedAt": "2026-07-18T10:37:30+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
