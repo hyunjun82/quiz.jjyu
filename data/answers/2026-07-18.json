@@ -1,9 +1,28 @@
 {
   "date": "2026-07-18",
-  "updatedAt": "2026-07-18T14:05:00+09:00",
+  "updatedAt": "2026-07-18T15:28:05+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "캐시워크 — 배달의민족 먹을복 페스타에서 BBQ, 네네치킨, OOO양념치킨 등 브랜드 할인 쿠폰 제공. OOO은?",
+        "answer": "처갓집",
+        "note": "",
+        "publishedAt": "2026-07-18T15:28:05+09:00"
+      },
+      {
+        "question": "캐시워크 — 소이비랩 저당두유, 깔끔하고 OOOO 목넘김까지 완성. OOOO은?",
+        "answer": "부드러운",
+        "note": "",
+        "publishedAt": "2026-07-18T15:28:05+09:00"
+      },
+      {
+        "question": "캐시워크 — 소휘 소화효소, 프리미엄 식이섬유 3종과 20종 OO 함량을 더했다. OO은?",
+        "answer": "야채",
+        "note": "",
+        "publishedAt": "2026-07-18T15:28:05+09:00"
+      }
+    ],
     "shinhan-sol": [
       {
         "question": "쏠퀴즈 — LG 오스틴 선수가 시즌 홈런왕에 오르면 LG 선수로는 역대 몇번째 홈런왕으로 기록될까요?",
@@ -38,7 +57,14 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 — 무료로 기본 서비스를 제공하다가 고급 기능에 대해서만 요금을 받는 수익 모델은?",
+        "answer": "프리미엄",
+        "note": "",
+        "publishedAt": "2026-07-18T15:28:05+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "samjjeomsam": [],
