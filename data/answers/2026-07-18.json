@@ -1,8 +1,15 @@
 {
   "date": "2026-07-18",
-  "updatedAt": "2026-07-18T15:28:05+09:00",
+  "updatedAt": "2026-07-18T17:46:13+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등찍기 팀플전 — 전반전·후반전 1등 선택은?",
+        "answer": "전반전 이츠셰프컬렉션(하나만 고르기 어려워) · 후반전 김성운(트러플꾸브 치킨)",
+        "note": "",
+        "publishedAt": "2026-07-18T17:46:13+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "캐시워크 — 배달의민족 먹을복 페스타에서 BBQ, 네네치킨, OOO양념치킨 등 브랜드 할인 쿠폰 제공. OOO은?",
@@ -55,7 +62,14 @@
       }
     ],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 퀴즈 — 대한민국에는 탄소중립기본법과 같은 기후위기 대응 법과 정책이 존재한다 (O/X)",
+        "answer": "그렇다 (O)",
+        "note": "",
+        "publishedAt": "2026-07-18T17:46:13+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [
       {
@@ -69,7 +83,20 @@
     "nh-allone": [],
     "samjjeomsam": [],
     "doctornow": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB스타뱅킹 스타퀴즈 — 외국인이 KB스타뱅킹 앱에서 계좌 개설 시 필요하지 않은 것은?",
+        "answer": "외국 이동통신사에서 가입한 본인명의 휴대폰",
+        "note": "",
+        "publishedAt": "2026-07-18T17:46:13+09:00"
+      },
+      {
+        "question": "KB스타뱅킹 한국사퀴즈 — '여전(閭田)의 법' 시행을 주장한 글을 쓴 인물은?",
+        "answer": "정약용",
+        "note": "",
+        "publishedAt": "2026-07-18T17:46:13+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "monimo": [],
