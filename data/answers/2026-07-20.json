@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "updatedAt": "2026-07-20T16:40:00+09:00",
+  "updatedAt": "2026-07-20T17:26:00+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -62,7 +62,14 @@
       }
     ],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 OX퀴즈 — '냉장고파먹기'란 장보기 대신 냉장고 속 식재료만으로 요리하는 기후행동이다 (O/X)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "publishedAt": "2026-07-20T17:26:00+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [
       {
