@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "updatedAt": "2026-07-21T01:55:00+09:00",
+  "updatedAt": "2026-07-21T05:19:00+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -46,7 +46,14 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "NH올원뱅크 디깅퀴즈 — 차이콥스키의 발레 음악으로 알맞은 것은? (7월 21일)",
+        "answer": "백조의 호수",
+        "note": "",
+        "publishedAt": "2026-07-21T05:19:00+09:00"
+      }
+    ],
     "samjjeomsam": [],
     "doctornow": [
       {
