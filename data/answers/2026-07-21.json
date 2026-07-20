@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "updatedAt": "2026-07-21T06:45:00+09:00",
+  "updatedAt": "2026-07-21T08:41:00+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -18,7 +18,14 @@
         "publishedAt": "2026-07-21T01:10:00+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (7/21 오전 8시 회차)",
+        "answer": "읽는사람들",
+        "note": "",
+        "publishedAt": "2026-07-21T08:41:00+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
