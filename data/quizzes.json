@@ -292,20 +292,21 @@
     {
       "slug": "kbank",
       "app": "케이뱅크",
-      "name": "케이뱅크 AI퀴즈",
+      "name": "케이뱅크 AI퀴즈 · 퀴즈쇼",
       "searchKeyword": "케이뱅크 AI퀴즈 정답",
       "shortName": "케이뱅크 AI퀴즈",
       "category": "finance",
-      "reward": "리워드(추첨)",
-      "resetInfo": "매일 갱신",
-      "howTo": "케이뱅크 앱 → 혜택 → AI퀴즈",
+      "reward": "리워드(추첨) · 수요일 퀴즈쇼 상금",
+      "resetInfo": "매일 갱신 · 수(水) 12:30 퀴즈쇼(총상금 1000만원)",
+      "howTo": "케이뱅크 앱 → 혜택 → AI퀴즈 (매주 수요일 12:30 라이브 퀴즈쇼는 실시간 참여 필요)",
       "color": "#0D1B2A",
       "estDaily": 50,
-      "rewardRange": "추첨 지급",
+      "rewardRange": "추첨 지급 · 퀴즈쇼 1049~18,691원",
       "iconUrl": "/icons/kbank.avif",
       "sourceSlug": "kbank",
       "releaseTimes": [
-        "00:00"
+        "00:00",
+        "12:30"
       ]
     },
     {
