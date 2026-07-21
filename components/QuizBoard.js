@@ -7,6 +7,7 @@ const CATEGORIES = [
   { key: 'finance', label: '금융' },
   { key: 'reward', label: '리워드' },
   { key: 'life', label: '생활' },
+  { key: 'event', label: '이벤트' },
 ];
 
 function Logo({ quiz }) {
@@ -97,7 +98,13 @@ export default function QuizBoard({ quizzes, counts }) {
                 <div className="qc-thumb" style={{ background: quiz.color }}>
                   <Logo quiz={quiz} />
                   <span className={`qc-badge ${count > 0 ? 'on' : ''}`}>
-                    {count > 0 ? `정답 ${count}건` : next ? `${next} 공개` : '대기 중'}
+                    {count > 0
+                      ? quiz.eventType
+                        ? '참여 링크 공개'
+                        : `정답 ${count}건`
+                      : next
+                      ? `${next} 공개`
+                      : '대기 중'}
                   </span>
                   <span className="qc-name">{quiz.shortName}</span>
                 </div>
@@ -107,7 +114,11 @@ export default function QuizBoard({ quizzes, counts }) {
                   </p>
                   <p className="qc-reward">적립 {quiz.rewardRange}</p>
                   <p className={`cta ${count > 0 ? 'hot' : ''}`}>
-                    {count > 0 ? '정답 확인하기 →' : '공개되면 자동 업데이트'}
+                    {count > 0
+                      ? quiz.eventType
+                        ? '참여 링크 확인하기 →'
+                        : '정답 확인하기 →'
+                      : '공개되면 자동 업데이트'}
                   </p>
                 </div>
               </a>

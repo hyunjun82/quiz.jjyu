@@ -521,6 +521,38 @@
       "releaseTimes": [
         "11:00"
       ]
+    },
+    {
+      "slug": "kbank-capsule",
+      "app": "케이뱅크",
+      "name": "케이뱅크 황금캡슐 이벤트",
+      "searchKeyword": "케이뱅크 황금캡슐",
+      "shortName": "황금캡슐",
+      "category": "event",
+      "reward": "캐시/포인트",
+      "resetInfo": "하루 최대 10회 참여",
+      "howTo": "케이뱅크 앱 → 이벤트 탭 → 황금캡슐 열기 (참여 링크로 접속 필요)",
+      "color": "#D4A017",
+      "estDaily": 0,
+      "rewardRange": "참여 시마다 변동",
+      "releaseTimes": [],
+      "eventType": true
+    },
+    {
+      "slug": "kbank-tree",
+      "app": "케이뱅크",
+      "name": "케이뱅크 돈나무 키우기 이벤트",
+      "searchKeyword": "케이뱅크 돈나무",
+      "shortName": "돈나무",
+      "category": "event",
+      "reward": "캐시/포인트",
+      "resetInfo": "매일 갱신",
+      "howTo": "케이뱅크 앱 → 이벤트 탭 → 돈나무 키우기 (참여 링크로 접속 필요)",
+      "color": "#2E7D32",
+      "estDaily": 0,
+      "rewardRange": "최대 10만원(누적)",
+      "releaseTimes": [],
+      "eventType": true
     }
   ]
 }

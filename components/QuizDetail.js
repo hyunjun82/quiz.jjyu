@@ -93,8 +93,19 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
 
       {items.length === 0 ? (
         <div className="empty">
-          <b>{isToday ? '아직 오늘 정답이 등록되지 않았습니다' : '이 날짜에는 등록된 정답이 없습니다'}</b>
-          {isToday && '정답이 공개되는 즉시 이 페이지가 자동으로 업데이트됩니다.'}
+          <b>
+            {isToday
+              ? quiz.eventType
+                ? '아직 오늘 참여 링크가 등록되지 않았습니다'
+                : '아직 오늘 정답이 등록되지 않았습니다'
+              : quiz.eventType
+              ? '이 날짜에는 등록된 참여 링크가 없습니다'
+              : '이 날짜에는 등록된 정답이 없습니다'}
+          </b>
+          {isToday &&
+            (quiz.eventType
+              ? '참여 링크가 공개되는 즉시 이 페이지가 자동으로 업데이트됩니다.'
+              : '정답이 공개되는 즉시 이 페이지가 자동으로 업데이트됩니다.')}
         </div>
       ) : (
         <ol className="a-list">
@@ -104,7 +115,7 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
                 <span className="a-time">{formatTime(item.publishedAt) || '—'}</span>
                 <div className="a-main">
                   <p className="a-q">{item.question}</p>
-                  <span className="a-go">정답 확인하기 →</span>
+                  <span className="a-go">{quiz.eventType ? '참여 링크 확인하기 →' : '정답 확인하기 →'}</span>
                 </div>
               </a>
             </li>
