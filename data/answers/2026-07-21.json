@@ -1,9 +1,22 @@
 {
   "date": "2026-07-21",
-  "updatedAt": "2026-07-21T10:59:57+09:00",
+  "updatedAt": "2026-07-21T13:20:00+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "캐시워크 돈버는퀴즈 — 7월 키토선생 MD's Pick 특가전, OOOO부터 든든한 간식까지! OOOO은? (힌트: ㅅㄷㄱㄹ)",
+        "answer": "식단관리",
+        "note": "",
+        "publishedAt": "2026-07-21T13:20:00+09:00"
+      },
+      {
+        "question": "캐시워크 돈버는퀴즈 — 이벤트 경품으로 이디야커피 생과일 OOOO를 받을 수 있다. OOOO은? (힌트: ㅅㅂㅈㅅ)",
+        "answer": "수박주스",
+        "note": "",
+        "publishedAt": "2026-07-21T13:20:00+09:00"
+      }
+    ],
     "shinhan-sol": [
       {
         "question": "쏠퀴즈(야구상식) — 류현진 선수가 한국 투수 최초로 KBO+MLB 통산 2500탈삼진을 달성했습니다. 류 선수가 몸담았던 구단이 아닌 것은?",
@@ -123,6 +136,8 @@
     "auction": [],
     "chocolatebox": [],
     "myhomeplus": [],
-    "syrup": []
+    "syrup": [],
+    "kbank-capsule": [],
+    "kbank-tree": []
   }
 }
