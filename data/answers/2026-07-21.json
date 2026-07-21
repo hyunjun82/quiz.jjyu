@@ -1,8 +1,15 @@
 {
   "date": "2026-07-21",
-  "updatedAt": "2026-07-21T21:20:00+09:00",
+  "updatedAt": "2026-07-21T21:44:31+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (7월 21일)",
+        "answer": "오전 회차: 갤럭시S26 Ultra",
+        "note": "오후 회차 정답은 소스 간 불일치로 미확정",
+        "publishedAt": "2026-07-21T21:44:31+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "캐시워크 돈버는퀴즈 — 7월 키토선생 MD's Pick 특가전, OOOO부터 든든한 간식까지! OOOO은? (힌트: ㅅㄷㄱㄹ)",
