@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "updatedAt": "2026-07-21T08:41:00+09:00",
+  "updatedAt": "2026-07-21T10:59:57+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -27,7 +27,14 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의퀴즈 — 월 2,900원으로 이용 가능한 KB국민카드 '일상케어서비스'에서 제공하지 않는 서비스는 무엇일까요?",
+        "answer": "휴대폰 파손 수리 보상",
+        "note": "",
+        "publishedAt": "2026-07-21T10:59:57+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [
