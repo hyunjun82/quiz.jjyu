@@ -56,7 +56,10 @@ export default function AnswerPage({ params }) {
       {
         '@type': 'Question',
         name: item.question,
-        acceptedAnswer: { '@type': 'Answer', text: item.answer },
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer || (item.choices ? `정답 후보: ${item.choices.join(' / ')}` : ''),
+        },
       },
     ],
   };
@@ -98,7 +101,11 @@ export default function AnswerPage({ params }) {
         <p className="q-label">Question {idx}</p>
         <h2 className="q-title">{item.question}</h2>
         {item.note && <p className="a-note">{item.note}</p>}
-        <AnswerBox answer={item.answer} label={quiz.eventType ? '오늘의 참여 링크' : '오늘의 정답'} />
+        <AnswerBox
+          answer={item.answer}
+          choices={item.choices}
+          label={quiz.eventType ? '오늘의 참여 링크' : '오늘의 정답'}
+        />
       </article>
 
       {/* 💰 최고 수익 슬롯: 정답 확인 직후 = 목적 달성 시점, 시선이 머무는 자리 */}

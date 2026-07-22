@@ -30,7 +30,10 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
             mainEntity: items.map((item) => ({
               '@type': 'Question',
               name: item.question,
-              acceptedAnswer: { '@type': 'Answer', text: item.answer },
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: item.answer || (item.choices ? `정답 후보: ${item.choices.join(' / ')}` : ''),
+              },
             })),
           }]
         : []),
