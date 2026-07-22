@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "updatedAt": "2026-07-22T00:20:30+09:00",
+  "updatedAt": "2026-07-22T10:50:31+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -18,9 +18,23 @@
         "publishedAt": "2026-07-22T00:20:30+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (7월 22일 08시)",
+        "answer": "태양광",
+        "note": "이모지 문제 — 정답만 보도됨(게임톡)",
+        "publishedAt": "2026-07-22T10:50:31+09:00"
+      }
+    ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "'초복부터 말복까지! 복날마다 쌓이는 삼복 행운' 이벤트에서 중복날 치킨 쿠폰의 행운은 몇 명에게 찾아갈까요?",
+        "answer": "300명",
+        "note": "",
+        "publishedAt": "2026-07-22T10:50:31+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
