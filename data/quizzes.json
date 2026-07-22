@@ -15,7 +15,7 @@
       "rewardRange": "10~1,000원",
       "iconUrl": "/icons/toss-lucky.avif",
       "sourceSlug": "toss",
-      "releaseTimes": []
+      "releaseTimes": ["12:00"]
     },
     {
       "slug": "cashwalk",
@@ -415,7 +415,9 @@
       "rewardRange": "10~100P",
       "iconUrl": "/icons/balso.avif",
       "sourceSlug": "balso",
-      "releaseTimes": []
+      "releaseTimes": [],
+      "deprioritized": true,
+      "deprioritizedReason": "서비스 축소 운영 중 (Google Play 확인, 2026-07)"
     },
     {
       "slug": "mydoctor",
@@ -451,7 +453,7 @@
       "rewardRange": "적립금",
       "iconUrl": "/icons/skstoa.avif",
       "sourceSlug": "skstoa",
-      "releaseTimes": []
+      "releaseTimes": ["08:00", "09:00"]
     },
     {
       "slug": "auction",
