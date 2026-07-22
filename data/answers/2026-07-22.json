@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "updatedAt": "2026-07-22T17:14:37+09:00",
+  "updatedAt": "2026-07-22T17:15:00+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -147,6 +147,12 @@
           "생활방수",
           "이어후크"
         ]
+      },
+      {
+        "question": "캐시딜 타임특가 — 산해직송 경남 흙당근 2kg 역대급 할인 OOOO원+무료배송, 빈칸의 숫자는?",
+        "answer": "5520",
+        "note": "",
+        "publishedAt": "2026-07-22T17:15:00+09:00"
       }
     ],
     "shinhan-sol": [
@@ -171,7 +177,14 @@
         "publishedAt": "2026-07-22T10:50:31+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "덴프스 스테디셀러 특집 라이브 — 100억 CFU 온가족 안심 유산균 이름은?",
+        "answer": "덴마크유산균이야기",
+        "note": "",
+        "publishedAt": "2026-07-22T17:15:00+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "'초복부터 말복까지! 복날마다 쌓이는 삼복 행운' 이벤트에서 중복날 치킨 쿠폰의 행운은 몇 명에게 찾아갈까요?",
@@ -180,10 +193,36 @@
         "publishedAt": "2026-07-22T10:50:31+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "MLB키즈 바캉스룩 LIVE — 10만원 이상 구매시 사은품 'OO타월' 증정, OO은?",
+        "answer": "비치",
+        "note": "",
+        "publishedAt": "2026-07-22T17:15:00+09:00"
+      },
+      {
+        "question": "발포로빼는 — 식약처에 OOOOOO으로 인정받은 다이어트 보조제, 빈칸은?",
+        "answer": "건강기능식품",
+        "note": "",
+        "publishedAt": "2026-07-22T17:15:00+09:00"
+      },
+      {
+        "question": "파르페by알레르망 BIG SALE LIVE — 세트 구매시 'OOOO 베개커버 50*70' 증정, OOOO은?",
+        "answer": "글레이셔",
+        "note": "",
+        "publishedAt": "2026-07-22T17:15:00+09:00"
+      }
+    ],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "'영구적인(Permanent)'과 강세장 불(Bull)을 합친 말로, 언제나 시장에 긍정적인 낙관론자는? (ㅍㅁㅂ)",
+        "answer": "퍼마불",
+        "note": "",
+        "publishedAt": "2026-07-22T17:15:00+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "samjjeomsam": [],
