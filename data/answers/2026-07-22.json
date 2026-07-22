@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "updatedAt": "2026-07-22T15:21:33+09:00",
+  "updatedAt": "2026-07-22T17:14:37+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -188,7 +188,14 @@
     "nh-allone": [],
     "samjjeomsam": [],
     "doctornow": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "차량 구매 시 빠르고 간편하게 받을 수 있는 KB국민은행의 자동차대출 이름은?",
+        "answer": "KB매직카 대출",
+        "note": "",
+        "publishedAt": "2026-07-22T17:14:37+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "monimo": [],
