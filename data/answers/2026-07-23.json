@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T11:10:16+09:00",
+  "updatedAt": "2026-07-23T11:18:00+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -26,7 +26,14 @@
     ],
     "kakaobank": [],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의퀴즈(10시) — 주유소 3% 할인, 커피·음료·패스트푸드 3% 할인을 받을 수 있는 체크카드는?",
+        "answer": "KB On the go 체크카드",
+        "note": "",
+        "publishedAt": "2026-07-23T11:18:00+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
