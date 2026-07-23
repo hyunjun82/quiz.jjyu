@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T11:09:00+09:00",
+  "updatedAt": "2026-07-23T11:10:16+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -16,6 +16,12 @@
         "answer": "트립닷컴 다이아몬드 등급",
         "note": "",
         "publishedAt": "2026-07-23T11:09:00+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석퀴즈 — 복잡한 증상부터 예상보험금까지 쉽게 검색할 수 있는 신한라이프의 서비스는?",
+        "answer": "건강사전",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
       }
     ],
     "kakaobank": [],
@@ -24,15 +30,62 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "신용카드 없이 스마트폰 앱으로 결제를 완료하는 전자 지불 방식은?",
+        "answer": "간편결제",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
+      },
+      {
+        "question": "명목임금은 수취하는 실제 급여이고, 실질임금은 물가를 반영한 가치이다 (O/X)",
+        "answer": "O",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "samjjeomsam": [],
     "doctornow": [],
-    "kb-star": [],
-    "kbank": [],
-    "hana-onq": [],
-    "monimo": [],
+    "kb-star": [
+      {
+        "question": "매달 새로운 정기예금·적금 계좌를 하나씩 추가로 만드는 '풍차돌리기' 저축 방법의 장점이 아닌 것은?",
+        "answer": "금리 인하 시기에 유리",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI퀴즈 — 춘천 대표 농산물 중 하나로, 라이코펜이 풍부해 항산화 효과로 주목받는 여름 제철 채소는?",
+        "answer": "토마토",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "하나원큐 축구 Play 퀴즈 HANA — 내일 K리그2 19라운드, 목동종합운동장에서 '불금매치'를 펼치는 두 팀은?",
+        "answer": "서울E vs 천안",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
+      },
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX퀴즈 — 통장 사본 증빙이 급하게 필요한 경우, 가까운 영업점에 가서 통장을 재발급 받아 복사를 부탁한다 (O/X)",
+        "answer": "X",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
+      }
+    ],
+    "monimo": [
+      {
+        "question": "모니모 모니스쿨 오늘의 영어 — '그녀는 눈물을 참았어요'를 영어로 옮기면?",
+        "answer": "she held back her tears",
+        "note": "",
+        "publishedAt": "2026-07-23T11:10:16+09:00"
+      }
+    ],
     "buzzvil": [],
     "paybooc": [],
     "cashslide": [],
