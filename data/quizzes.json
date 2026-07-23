@@ -15,7 +15,9 @@
       "rewardRange": "10~1,000원",
       "iconUrl": "/icons/toss-lucky.avif",
       "sourceSlug": "toss",
-      "releaseTimes": ["12:00"]
+      "releaseTimes": [
+        "12:00"
+      ]
     },
     {
       "slug": "cashwalk",
@@ -204,16 +206,17 @@
       "shortName": "퀴즈타임",
       "category": "finance",
       "reward": "포인트",
-      "resetInfo": "매일 10시",
+      "resetInfo": "주 3~4회 비정기 공개 (요일·시간 불규칙)",
       "color": "#ffe300",
       "howTo": "카카오페이 앱 → 혜택 → 퀴즈타임",
       "estDaily": 80,
       "rewardRange": "10~500P",
       "iconUrl": "/icons/kakaopay.avif",
       "sourceSlug": "kakaopay",
-      "releaseTimes": [
-        "10:00"
-      ]
+      "releaseTimes": [],
+      "cadence": {
+        "type": "irregular"
+      }
     },
     {
       "slug": "nh-allone",
@@ -235,42 +238,6 @@
       ]
     },
     {
-      "slug": "samjjeomsam",
-      "app": "삼쩜삼",
-      "name": "삼쩜삼 퀴즈",
-      "searchKeyword": "삼쩜삼 퀴즈 정답",
-      "shortName": "삼쩜삼 퀴즈",
-      "category": "life",
-      "reward": "포인트",
-      "resetInfo": "매일 갱신",
-      "color": "#4f9cf9",
-      "howTo": "삼쩜삼 앱 → 퀴즈 풀고 포인트 쌓기",
-      "estDaily": 40,
-      "rewardRange": "10~100P",
-      "iconUrl": "/icons/samjjeomsam.avif",
-      "sourceSlug": "3o3",
-      "releaseTimes": []
-    },
-    {
-      "slug": "doctornow",
-      "app": "닥터나우",
-      "name": "닥터나우 오늘의 퀴즈",
-      "searchKeyword": "닥터나우 퀴즈 정답",
-      "shortName": "닥터나우 퀴즈",
-      "category": "life",
-      "reward": "포인트",
-      "resetInfo": "매일 갱신",
-      "color": "#ff7a00",
-      "howTo": "닥터나우 앱 → 오늘의 퀴즈",
-      "estDaily": 40,
-      "rewardRange": "10~100P",
-      "iconUrl": "/icons/doctornow.avif",
-      "sourceSlug": "doctornow",
-      "releaseTimes": [
-        "00:00"
-      ]
-    },
-    {
       "slug": "kb-star",
       "app": "KB스타뱅킹",
       "name": "KB스타뱅킹 별별퀴즈",
@@ -278,7 +245,7 @@
       "shortName": "KB 별별퀴즈",
       "category": "finance",
       "reward": "KB포인트리",
-      "resetInfo": "매일 갱신",
+      "resetInfo": "평일(월~금) 갱신",
       "howTo": "KB스타뱅킹 앱 → 혜택 → 별별퀴즈",
       "color": "#FFBC00",
       "estDaily": 60,
@@ -287,7 +254,10 @@
       "sourceSlug": "kbstar",
       "releaseTimes": [
         "00:00"
-      ]
+      ],
+      "cadence": {
+        "type": "weekdays"
+      }
     },
     {
       "slug": "kbank",
@@ -348,23 +318,6 @@
       ]
     },
     {
-      "slug": "buzzvil",
-      "app": "버즈빌",
-      "name": "버즈빌 초성퀴즈",
-      "searchKeyword": "버즈빌 초성퀴즈 정답",
-      "shortName": "버즈빌 초성퀴즈",
-      "category": "reward",
-      "reward": "제휴 포인트",
-      "resetInfo": "수시 갱신",
-      "howTo": "허니스크린 등 버즈빌 제휴 앱 → 초성퀴즈",
-      "color": "#FFB300",
-      "estDaily": 50,
-      "rewardRange": "10~100P",
-      "iconUrl": "/icons/buzzvil.avif",
-      "sourceSlug": "buzzvil",
-      "releaseTimes": []
-    },
-    {
       "slug": "paybooc",
       "app": "페이북",
       "name": "페이북 퀴즈팡",
@@ -382,42 +335,6 @@
       "releaseTimes": [
         "00:00"
       ]
-    },
-    {
-      "slug": "cashslide",
-      "app": "캐시슬라이드",
-      "name": "캐시슬라이드 초성퀴즈",
-      "searchKeyword": "캐시슬라이드 초성퀴즈 정답",
-      "shortName": "캐시슬라이드 퀴즈",
-      "category": "reward",
-      "reward": "캐시",
-      "resetInfo": "수시 갱신",
-      "howTo": "캐시슬라이드 스텝업 앱 → 초성퀴즈",
-      "color": "#00A5E5",
-      "estDaily": 50,
-      "rewardRange": "10~100캐시",
-      "iconUrl": "/icons/cashslide.avif",
-      "sourceSlug": "cashslide",
-      "releaseTimes": []
-    },
-    {
-      "slug": "balso",
-      "app": "라운드(발로소득)",
-      "name": "발로소득(라운드) OX퀴즈",
-      "searchKeyword": "발로소득 퀴즈 정답",
-      "shortName": "발로소득 OX퀴즈",
-      "category": "reward",
-      "reward": "포인트",
-      "resetInfo": "매일 갱신",
-      "howTo": "라운드 앱 → 혜택 → OX퀴즈",
-      "color": "#6C5CE7",
-      "estDaily": 40,
-      "rewardRange": "10~100P",
-      "iconUrl": "/icons/balso.avif",
-      "sourceSlug": "balso",
-      "releaseTimes": [],
-      "deprioritized": true,
-      "deprioritizedReason": "서비스 축소 운영 중 (Google Play 확인, 2026-07)"
     },
     {
       "slug": "mydoctor",
@@ -453,7 +370,10 @@
       "rewardRange": "적립금",
       "iconUrl": "/icons/skstoa.avif",
       "sourceSlug": "skstoa",
-      "releaseTimes": ["08:00", "09:00"]
+      "releaseTimes": [
+        "08:00",
+        "09:00"
+      ]
     },
     {
       "slug": "auction",
@@ -473,22 +393,6 @@
       "releaseTimes": []
     },
     {
-      "slug": "chocolatebox",
-      "app": "초콜릿박스",
-      "name": "초콜릿박스 행운퀴즈",
-      "searchKeyword": "초콜릿박스 퀴즈 정답",
-      "shortName": "초콜릿박스 퀴즈",
-      "category": "reward",
-      "reward": "초코",
-      "resetInfo": "수시 갱신",
-      "howTo": "초콜릿박스 앱 → 행운퀴즈 배너",
-      "color": "#6B3F27",
-      "estDaily": 40,
-      "rewardRange": "10~100초코",
-      "iconUrl": "/icons/chocolatebox.avif",
-      "releaseTimes": []
-    },
-    {
       "slug": "myhomeplus",
       "app": "마이홈플러스",
       "name": "마이홈플러스 홈플퀴즈",
@@ -496,16 +400,21 @@
       "shortName": "홈플퀴즈",
       "category": "life",
       "reward": "홈플머니",
-      "resetInfo": "행사별 시간대 오픈",
+      "resetInfo": "매주 목요일 오전 9시",
       "howTo": "마이홈플러스 앱 → 이벤트 → 홈플퀴즈",
       "color": "#E60012",
       "estDaily": 40,
       "rewardRange": "홈플머니",
       "iconUrl": "/icons/myhomeplus.avif",
       "releaseTimes": [
-        "10:00",
-        "14:00"
-      ]
+        "09:00"
+      ],
+      "cadence": {
+        "type": "weekly",
+        "days": [
+          "thu"
+        ]
+      }
     },
     {
       "slug": "syrup",
@@ -524,38 +433,6 @@
       "releaseTimes": [
         "11:00"
       ]
-    },
-    {
-      "slug": "kbank-capsule",
-      "app": "케이뱅크",
-      "name": "케이뱅크 황금캡슐 이벤트",
-      "searchKeyword": "케이뱅크 황금캡슐",
-      "shortName": "황금캡슐",
-      "category": "event",
-      "reward": "캐시/포인트",
-      "resetInfo": "하루 최대 10회 참여",
-      "howTo": "케이뱅크 앱 → 이벤트 탭 → 황금캡슐 열기 (참여 링크로 접속 필요)",
-      "color": "#D4A017",
-      "estDaily": 0,
-      "rewardRange": "참여 시마다 변동",
-      "releaseTimes": [],
-      "eventType": true
-    },
-    {
-      "slug": "kbank-tree",
-      "app": "케이뱅크",
-      "name": "케이뱅크 돈나무 키우기 이벤트",
-      "searchKeyword": "케이뱅크 돈나무",
-      "shortName": "돈나무",
-      "category": "event",
-      "reward": "캐시/포인트",
-      "resetInfo": "매일 갱신",
-      "howTo": "케이뱅크 앱 → 이벤트 탭 → 돈나무 키우기 (참여 링크로 접속 필요)",
-      "color": "#2E7D32",
-      "estDaily": 0,
-      "rewardRange": "최대 10만원(누적)",
-      "releaseTimes": [],
-      "eventType": true
     }
   ]
 }
