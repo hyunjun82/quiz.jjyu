@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "updatedAt": "2026-07-24T04:17:51+09:00",
+  "updatedAt": "2026-07-24T06:15:32+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -24,18 +24,59 @@
         "publishedAt": "2026-07-24T04:17:51+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 OX 퀴즈",
+        "answer": "X",
+        "note": "AI 이모지 퀴즈와 별개인 OX퀴즈 정답",
+        "publishedAt": "2026-07-24T06:15:32+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 오늘의 퀴즈",
+        "answer": "25",
+        "note": "",
+        "publishedAt": "2026-07-24T06:15:32+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
-    "nh-allone": [],
-    "kb-star": [],
+    "nh-allone": [
+      {
+        "question": "NH올원뱅크 디깅퀴즈",
+        "answer": "토양의 특정 영양분이 부족해 질 수 있다",
+        "note": "",
+        "publishedAt": "2026-07-24T06:15:32+09:00"
+      }
+    ],
+    "kb-star": [
+      {
+        "question": "KB스타뱅킹 한국사 퀴즈",
+        "answer": "(가)-(나)-(다)",
+        "note": "KB스타뱅킹 앱 내 한국사 퀴즈 정답",
+        "publishedAt": "2026-07-24T06:15:32+09:00"
+      }
+    ],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 축구 Play 퀴즈하나",
+        "answer": "2경기",
+        "note": "",
+        "publishedAt": "2026-07-24T06:15:32+09:00"
+      },
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX퀴즈",
+        "answer": "O",
+        "note": "",
+        "publishedAt": "2026-07-24T06:15:32+09:00"
+      }
+    ],
     "monimo": [],
     "paybooc": [],
     "mydoctor": [],
