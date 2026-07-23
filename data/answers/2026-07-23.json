@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T14:02:02.199+09:00",
+  "updatedAt": "2026-07-23T15:29:58.446+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -141,7 +141,14 @@
       }
     ],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 오늘의 퀴즈 — 현대이지웰에서 만나볼 수 있는 이 프로모션의 이름은?",
+        "answer": "쿨세븐 썸머세일",
+        "note": "",
+        "publishedAt": "2026-07-23T15:29:58.446+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "신용카드 없이 스마트폰 앱으로 결제를 완료하는 전자 지불 방식은?",
@@ -157,7 +164,14 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 — 사람의 배에서 나는 '꼬르륵' 소리는 배가 고플 때만 나는 소리이다 (O/X)",
+        "answer": "X",
+        "note": "",
+        "publishedAt": "2026-07-23T15:29:58.446+09:00"
+      }
+    ],
     "samjjeomsam": [],
     "doctornow": [],
     "kb-star": [
