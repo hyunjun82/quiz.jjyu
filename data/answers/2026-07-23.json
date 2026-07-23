@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T19:04:55.509+09:00",
+  "updatedAt": "2026-07-23T20:08:00+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -242,7 +242,20 @@
     ],
     "cashslide": [],
     "balso": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 건강퀴즈 — 산후 탈모는 대부분 시간이 지나면 자연스럽게 회복된다 (O/X)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "publishedAt": "2026-07-23T20:08:00+09:00"
+      },
+      {
+        "question": "나만의닥터 건강퀴즈 — 붉고 단단하며 누르면 아픈 여드름도 손으로 짜면 빨리 낫는다 (O/X)",
+        "answer": "X (아니다)",
+        "note": "",
+        "publishedAt": "2026-07-23T20:08:00+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "chocolatebox": [],
