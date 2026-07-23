@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T11:18:00+09:00",
+  "updatedAt": "2026-07-23T11:55:00+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -24,7 +24,14 @@
         "publishedAt": "2026-07-23T11:10:16+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈(08시) — 자동차 이모지 + 첫 글자 힌트 '연' (2글자)",
+        "answer": "연비",
+        "note": "",
+        "publishedAt": "2026-07-23T11:55:00+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [
       {
