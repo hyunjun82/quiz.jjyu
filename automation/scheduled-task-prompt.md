@@ -1,46 +1,26 @@
-# Cowork 예약 작업(스케줄 작업) 프롬프트 템플릿
+# 정답 수집 자동화 — 현재 운영 방식 (2026-07-23 기준)
 
-아래 프롬프트를 Cowork 예약 작업으로 등록하면, 매 실행마다 새 세션이 열려
-정답을 수집하고 GitHub에 커밋 → Cloudflare Pages가 자동 재배포합니다.
+이 저장소의 정답 수집은 **Claude Code Remote 예약 작업(스케줄 트리거) 1개**로 운영됩니다.
+과거에 있었던 GitHub Actions 기반 수집(`.github/workflows/collect.yml`, `scripts/collect.mjs`)은
+실제 파싱 로직이 구현되지 않은 미완성 상태로 3일간 방치되어 있었고, 아무 데이터도 수집하지
+못했음을 확인하여 삭제했습니다. (`icons.yml`, `indexnow.yml`은 수집과 무관한 별도 용도라 유지)
 
-권장 스케줄: 매시간 1회 (07:00 ~ 23:00 KST)
-- 퀴즈마다 공개 시각이 달라서(쏠퀴즈 오전, 오퀴즈 10시/14시, 토스 수시)
-  하루 1회로는 부족하고, 매시간 돌면서 "변경이 있을 때만" 커밋하는 방식이 안전합니다.
-- 변경이 없으면 커밋하지 않으므로 불필요한 재배포가 없습니다.
+## 동작 원리
 
-## 사전 준비 (1회)
+- 트리거 1개가 **매시간 정각 즈음** 실행됩니다.
+- 실행마다 새 세션이 열려 `data/quizzes.json`의 30개 퀴즈 전체를 확인하고,
+  현재 시각 기준 최근 공개된(releaseTimes) 퀴즈부터 우선 수집합니다.
+- WebSearch/WebFetch로 언론 기사·정답 블로그를 교차 검증해 정답을 수집하고,
+  `data/answers/{날짜}.json`에 변경이 있을 때만 커밋 → Cloudflare Pages 자동 재배포.
+- 트리거 프롬프트 전문은 Claude Code Remote(`list_triggers`)에서 확인·수정 가능합니다.
+  (트리거 이름: "퀴즈데이 정답 자동수집·발행 (전체 통합)")
 
-1. GitHub에 quizday 저장소 생성, 이 프로젝트 푸시
-2. Cloudflare Pages에서 저장소 연결 (빌드 명령: `npm run build`, 출력: `out`)
-3. GitHub Personal Access Token (repo 권한, Fine-grained 권장) 발급
-4. 예약 작업 프롬프트에 저장소 주소를 기재 (토큰은 프롬프트에 직접 넣지 말고
-   저장소의 비공개 설정 파일 또는 Cowork 세션에서 안전한 방식으로 전달)
+## 알려진 제약
 
-## 예약 작업 프롬프트 (복사해서 사용)
-
-```
-당신은 quiz.jjyu.co.kr 퀴즈 정답 사이트의 데이터 수집 봇입니다.
-
-1. 오늘 날짜(KST)를 확인한다.
-2. 아래 공개 소스에서 오늘자 앱테크 퀴즈 정답을 수집한다:
-   - https://quizbells.com/ 의 각 퀴즈 페이지
-   - https://luckyquiz3.blogspot.com/ 최신 글
-   - (검색) "토스 행운퀴즈 오늘 정답", "오퀴즈 정답" 등으로 교차 검증
-3. 수집 대상 퀴즈 slug: toss-lucky, cashwalk, shinhan-sol, kakaobank, ok-cashbag, kbpay
-4. 두 소스 이상에서 일치하는 정답만 채택한다 (교차 검증 실패 시 제외).
-5. git clone https://github.com/<계정>/quizday 후
-   data/answers/YYYY-MM-DD.json 을 갱신한다.
-   - 형식은 기존 파일과 동일 (question, answer, note, publishedAt)
-   - question/answer는 사실 정보만 기록하고, 원문 사이트의 문장을 그대로
-     복사하지 않는다 (정답 자체는 사실이므로 문제없으나 설명문 표절 금지).
-6. 기존 파일과 비교해 변경이 있을 때만 커밋 & 푸시한다.
-   커밋 메시지: "data: YYYY-MM-DD HH:mm 정답 업데이트 (N건)"
-7. 변경 사항 요약을 보고한다.
-```
-
-## 등록 방법
-
-Cowork 채팅에서 다음과 같이 요청:
-"위 프롬프트로 매시간(오전 7시~오후 11시) 실행되는 예약 작업 만들어줘"
-
-Claude가 create_trigger로 cron `0 7-23 * * *` (KST 기준) 예약 작업을 등록합니다.
+- 트리거 프롬프트에 GitHub PAT가 평문으로 들어있습니다 — Claude Code Remote 예약 작업 도구가
+  프롬프트 외에 별도 시크릿 저장소를 제공하지 않아, 현재는 repo 권한만 있는 fine-grained
+  토큰으로 리스크를 최소화한 상태입니다. 주기적 로테이션 권장.
+- Claude Code Remote 예약 작업의 최소 주기는 1시간입니다(그보다 촘촘한 실시간 감지는
+  플랫폼 제약상 불가능).
+- quizbells.com은 갱신이 1~6일 지연되는 경우가 확인되어 보조 소스로만 사용합니다
+  (페이지에 적힌 날짜가 오늘인지 반드시 확인 후 채택).
