@@ -433,6 +433,25 @@
       "releaseTimes": [
         "11:00"
       ]
+    },
+    {
+      "slug": "doctornow",
+      "app": "닥터나우",
+      "name": "닥터나우 오늘의 퀴즈",
+      "searchKeyword": "닥터나우 퀴즈 정답",
+      "shortName": "닥터나우 퀴즈",
+      "category": "life",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "howTo": "닥터나우 앱 → 오늘의 퀴즈",
+      "color": "#ff7a00",
+      "estDaily": 40,
+      "rewardRange": "10~100P",
+      "iconUrl": "/icons/doctornow.avif",
+      "sourceSlug": "doctornow",
+      "releaseTimes": [
+        "00:00"
+      ]
     }
   ]
 }
