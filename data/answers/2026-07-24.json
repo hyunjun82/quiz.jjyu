@@ -1,10 +1,29 @@
 {
   "date": "2026-07-24",
-  "updatedAt": "2026-07-24T00:54:00+09:00",
+  "updatedAt": "2026-07-24T04:17:51+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "쏠퀴즈(쏠야구): kt wiz가 1군 데뷔 첫해부터 진행해 온 'KT 워터 페스티벌'은 몇 년도에 처음 시작했을까요?",
+        "answer": "2015년",
+        "note": "",
+        "publishedAt": "2026-07-24T04:17:51+09:00"
+      },
+      {
+        "question": "쏠페이 퀴즈팡팡",
+        "answer": "트립닷컴 다이아몬드 등급",
+        "note": "",
+        "publishedAt": "2026-07-24T04:17:51+09:00"
+      },
+      {
+        "question": "슈퍼SOL 출석퀴즈: 복잡한 증상부터 예상보험금까지 쉽게 검색하는 신한라이프의 서비스는?",
+        "answer": "건강사전",
+        "note": "",
+        "publishedAt": "2026-07-24T04:17:51+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
