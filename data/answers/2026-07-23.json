@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updatedAt": "2026-07-23T17:20:51.229+09:00",
+  "updatedAt": "2026-07-23T18:16:25+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -226,7 +226,14 @@
       }
     ],
     "buzzvil": [],
-    "paybooc": [],
+    "paybooc": [
+      {
+        "question": "페이북 퀴즈팡 — 1등뽑기 (7월 23일)",
+        "answer": "빨강버섯",
+        "note": "",
+        "publishedAt": "2026-07-23T18:16:25+09:00"
+      }
+    ],
     "cashslide": [],
     "balso": [],
     "mydoctor": [],
