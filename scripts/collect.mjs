@@ -35,12 +35,19 @@ const CATEGORY_SLUG = {
   '토스 행운퀴즈': 'toss-lucky',
 };
 
-function headerToSlug(category, header) {
+function headerToSlug(category, header, title) {
   if (category === 'KB Pay 오늘의 퀴즈') {
     if (header.includes('스타뱅킹') || header.includes('스타퀴즈')) return 'kb-star';
     return 'kbpay';
   }
   if (category === '신한 퀴즈') return 'shinhan-sol';
+  // '버즈빌 초성퀴즈'는 버즈빌 광고 SDK가 여러 제휴사(SK스토아, 자코모 등)에 꽂혀서
+  // 브랜드마다 따로 올라오는 카테고리 — SK스토아 것만 우리가 추적 중이라 헤더/제목에
+  // 'SK스토아'가 있을 때만 매칭하고, 나머지 브랜드는 스킵한다.
+  if (category === '버즈빌 초성퀴즈') {
+    if (header.includes('SK스토아') || title.includes('SK스토아')) return 'skstoa';
+    return null;
+  }
   return CATEGORY_SLUG[category] || null;
 }
 
@@ -92,7 +99,7 @@ function parseEntry(entry) {
       .filter((a) => !PLACEHOLDER.has(a));
     if (answerMatches.length === 0) continue; // 아직 정답 미공개
 
-    const slug = headerToSlug(category, header);
+    const slug = headerToSlug(category, header, title);
     if (!slug || !QUIZ_SLUGS.includes(slug)) continue;
 
     const uniqAnswers = [...new Set(answerMatches)];
