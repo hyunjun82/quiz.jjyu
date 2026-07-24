@@ -30,9 +30,11 @@ export function generateMetadata({ params }) {
   const quiz = getQuizBySlug(params.slug);
   if (!quiz) return {};
   const dateLabel = formatKoreanDate(params.date);
+  const noun = quiz.eventType ? '참여 링크' : '정답';
   return {
     title: `${quiz.searchKeyword} ${dateLabel} — ${params.idx}번 문제 정답`,
-    description: `${dateLabel} ${quiz.name} ${params.idx}번 문제의 정답을 확인하세요.`,
+    // 경쟁사(퀴즈벨) 스타일 참고 — 확인 즉시 실시간·바로 적립 같은 행동 유도 문구 추가
+    description: `${dateLabel} ${quiz.name} ${params.idx}번 문제 ${noun}을 지금 바로 확인하고 ${quiz.reward} 받아가세요. 공개 즉시 실시간 업데이트됩니다.`,
     alternates: { canonical: `/quiz/${quiz.slug}/${params.date}/${params.idx}/` },
   };
 }
@@ -49,17 +51,36 @@ export default function AnswerPage({ params }) {
 
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
 
+  const SITE_URL = 'https://quiz.jjyu.co.kr';
+  const dateLabel = formatKoreanDate(params.date);
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
+    '@graph': [
       {
-        '@type': 'Question',
-        name: item.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: item.answer || (item.choices ? `정답 후보: ${item.choices.join(' / ')}` : ''),
-        },
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: '홈', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: quiz.searchKeyword, item: `${SITE_URL}/quiz/${quiz.slug}/` },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            name: `${dateLabel} ${params.idx}번 문제`,
+            item: `${SITE_URL}/quiz/${quiz.slug}/${params.date}/${params.idx}/`,
+          },
+        ],
+      },
+      {
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: item.question,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: item.answer || (item.choices ? `정답 후보: ${item.choices.join(' / ')}` : ''),
+            },
+          },
+        ],
       },
     ],
   };
