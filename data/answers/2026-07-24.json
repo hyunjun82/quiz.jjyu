@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "updatedAt": "2026-07-24T08:09:46+09:00",
+  "updatedAt": "2026-07-24T09:15:52+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -47,7 +47,14 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "대한민국의 미세먼지는 모두 국외의 문제이므로 국내 관리는 크게 신경쓰지 않아도 된다?",
+        "answer": "X (아니다)",
+        "note": "",
+        "publishedAt": "2026-07-24T09:15:52+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "H포인트 오늘의 퀴즈",
@@ -123,7 +130,14 @@
         "publishedAt": "2026-07-24T06:59:00+09:00"
       }
     ],
-    "paybooc": [],
+    "paybooc": [
+      {
+        "question": "페이북 퀴즈 1등 뽑기",
+        "answer": "약속시간 늦는 사람",
+        "note": "",
+        "publishedAt": "2026-07-24T09:15:52+09:00"
+      }
+    ],
     "mydoctor": [
       {
         "question": "칵테일 수액은 성분이 많이 들어갈수록 몸에 더 좋다?",
