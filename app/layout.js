@@ -47,6 +47,12 @@ export default function RootLayout({ children }) {
           name="naver-site-verification"
           content="aeab35a19c380adc4d6926a966e13249ca4ac495"
         />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="QUIZDAY — 오늘의 앱테크 퀴즈 정답"
+          href="/rss.xml"
+        />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
         {/* Google AdSense — 사이트 소유 확인 및 광고 게재 */}
         <script
