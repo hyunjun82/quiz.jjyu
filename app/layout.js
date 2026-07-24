@@ -6,11 +6,11 @@ const SITE_URL = 'https://quiz.jjyu.co.kr';
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: '오늘의 퀴즈 정답 실시간 — 토스행운퀴즈·돈버는퀴즈·쏠퀴즈·오퀴즈 | QUIZDAY',
+    default: '토스·캐시워크·쏠퀴즈 정답 실시간 | QUIZDAY',
     template: '%s | QUIZDAY',
   },
   description:
-    '토스행운퀴즈 정답, 캐시워크 돈버는퀴즈 정답, 신한 쏠퀴즈 정답, 오퀴즈 정답 등 앱테크 퀴즈 정답을 공개 즉시 실시간으로 업데이트합니다. 하루 5분, 매일 쌓이는 포인트.',
+    '토스행운퀴즈·캐시워크·쏠퀴즈·오퀴즈 등 앱테크 퀴즈 정답을 공개 즉시 실시간 업데이트합니다.',
   keywords: [
     '퀴즈정답', '토스행운퀴즈 정답', '돈버는퀴즈 정답', '쏠퀴즈 정답',
     '오퀴즈 정답', '카뱅 AI 퀴즈 정답', '용돈퀴즈 정답', '앱테크',
