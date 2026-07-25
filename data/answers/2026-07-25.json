@@ -1,6 +1,6 @@
 {
   "date": "2026-07-25",
-  "updatedAt": "2026-07-25T23:10:29.174+09:00",
+  "updatedAt": "2026-07-25T23:27:57.000+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -97,7 +97,26 @@
       }
     ],
     "kakaobank": [],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "G7 아이스커피 슬로건 퀴즈",
+        "answer": "끝까지",
+        "note": "",
+        "publishedAt": "2026-07-25T23:27:57.000+09:00"
+      },
+      {
+        "question": "피죤 드라이스트 미션 퀴즈",
+        "answer": "플라워",
+        "note": "",
+        "publishedAt": "2026-07-25T23:27:57.000+09:00"
+      },
+      {
+        "question": "한화손보 캐롯보험 미션 퀴즈",
+        "answer": "24",
+        "note": "",
+        "publishedAt": "2026-07-25T23:27:57.000+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "'썸머 밸런스 PICK! Vol.1 #여름_이상과현실' 이벤트의 경품은 무엇일까요?",
