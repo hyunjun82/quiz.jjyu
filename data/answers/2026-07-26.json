@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "updatedAt": "2026-07-26T06:54:05.651+09:00",
+  "updatedAt": "2026-07-26T08:17:21.980+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -30,7 +30,14 @@
         "publishedAt": "2026-07-26T06:30:10+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 오늘의 퀴즈",
+        "answer": "국립극장 해오름극장",
+        "note": "",
+        "publishedAt": "2026-07-26T08:17:21.980+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
@@ -42,8 +49,28 @@
         "publishedAt": "2026-07-26T06:54:05.650+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI퀴즈",
+        "answer": "모디슈어",
+        "note": "",
+        "publishedAt": "2026-07-26T08:17:21.980+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "하나원큐 축구 Play 퀴즈하나",
+        "answer": "파주",
+        "note": "",
+        "publishedAt": "2026-07-26T08:17:21.980+09:00"
+      },
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX퀴즈",
+        "answer": "O",
+        "note": "슬기로운 금융생활 OX게임",
+        "publishedAt": "2026-07-26T08:17:21.980+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "다음 중, 중개형 ISA 계좌에서 투자할 수 있는 상품은 무엇일까요?",
@@ -55,7 +82,14 @@
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 매일 플러스 퀴즈",
+        "answer": "식품특가",
+        "note": "",
+        "publishedAt": "2026-07-26T08:17:21.980+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": []
