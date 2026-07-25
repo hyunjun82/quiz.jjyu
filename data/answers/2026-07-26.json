@@ -1,10 +1,23 @@
 {
   "date": "2026-07-26",
-  "updatedAt": null,
+  "updatedAt": "2026-07-26T03:19:25+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 SOL LINK 계좌개설 이벤트에서 거래조건 충족 시 응모 가능한 자동차 경품은?",
+        "answer": "테슬라 모델Y",
+        "note": "쏠퀴즈",
+        "publishedAt": "2026-07-26T03:19:25+09:00"
+      },
+      {
+        "question": "신한쏠페이 퀴즈팡팡",
+        "answer": "가족 피싱 지킴이",
+        "note": "퀴즈팡팡",
+        "publishedAt": "2026-07-26T03:19:25+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
@@ -17,7 +30,14 @@
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "다음 중, 중개형 ISA 계좌에서 투자할 수 있는 상품은 무엇일까요?",
+        "answer": "모두 가능",
+        "note": "모니스쿨",
+        "publishedAt": "2026-07-26T03:19:25+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
