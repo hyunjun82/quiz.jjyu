@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "updatedAt": "2026-07-26T06:30:10+09:00",
+  "updatedAt": "2026-07-26T06:54:05.651+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -34,7 +34,14 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB스타뱅킹 LTE 10GB 요금제의 최대 할인된 요금은 얼마일까요?",
+        "answer": "8,800원",
+        "note": "",
+        "publishedAt": "2026-07-26T06:54:05.650+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "monimo": [
