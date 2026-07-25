@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "updatedAt": "2026-07-26T03:19:25+09:00",
+  "updatedAt": "2026-07-26T06:30:10+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -22,7 +22,14 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "매년 7월 26일은 '국제 맹그로브 생태계 보존의 날'이며, 맹그로브 숲은 탄소 흡수, 자연재해 방지 등 중요한 역할을 한다 (O/X)",
+        "answer": "O",
+        "note": "",
+        "publishedAt": "2026-07-26T06:30:10+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
