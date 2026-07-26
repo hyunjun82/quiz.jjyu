@@ -27,6 +27,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execFileSync } from 'child_process';
+import { pathToFileURL } from 'url';
 
 const KST_OFFSET = 9 * 60 * 60 * 1000;
 const ANSWERS_DIR = path.join(process.cwd(), 'data', 'answers');
@@ -317,23 +318,99 @@ function hotSlugs(existing) {
   return [...new Set(hot)];
 }
 
-function gitCommitPush(message) {
+/**
+ * 두 정답 파일을 합친다. 정답 파일은 본질적으로 "집합"이라서
+ * 텍스트 3-way 머지로 풀 게 아니라 항목 단위 합집합으로 풀어야 맞다.
+ * 같은 정답이면 먼저 발행된 쪽의 publishedAt을 남긴다(선점 시각이 우리 무기니까).
+ */
+function mergeAnswerData(base, incoming) {
+  const out = { date: base.date, updatedAt: base.updatedAt, answers: {} };
+  const slugs = new Set([...Object.keys(base.answers || {}), ...Object.keys(incoming.answers || {})]);
+  for (const slug of slugs) {
+    const merged = [];
+    for (const item of [...(base.answers?.[slug] || []), ...(incoming.answers?.[slug] || [])]) {
+      const hit = merged.find((x) => itemKey(x) && itemKey(x) === itemKey(item));
+      if (hit) {
+        if (item.publishedAt && (!hit.publishedAt || item.publishedAt < hit.publishedAt)) {
+          hit.publishedAt = item.publishedAt;
+        }
+        continue;
+      }
+      if (isDuplicate(merged, item)) continue;
+      merged.push({ ...item });
+    }
+    out.answers[slug] = merged;
+  }
+  const stamps = [base.updatedAt, incoming.updatedAt].filter(Boolean).sort();
+  out.updatedAt = stamps.length ? stamps[stamps.length - 1] : kstStamp();
+  return out;
+}
+
+/**
+ * 커밋·푸시. 다른 워크플로(또는 CCR 트리거)가 같은 파일을 동시에 밀면 push가 거절되는데,
+ * 이때 rebase로 풀려고 하면 JSON 텍스트 충돌이 나서 job이 rebase 도중에 멈춰버린다.
+ * 그래서 충돌 시엔 rebase를 쓰지 않고 origin/main으로 되감은 뒤
+ * 정답을 항목 단위로 합쳐서 다시 커밋한다. 어느 쪽 정답도 잃지 않는다.
+ */
+function gitCommitPush(message, attempt = 0) {
   const run = (args) => execFileSync('git', args, { stdio: 'pipe' }).toString().trim();
+  const quiet = (args) => {
+    try {
+      run(args);
+    } catch {
+      /* 정리용 명령은 실패해도 무시 */
+    }
+  };
+
   try {
     run(['add', 'data/answers']);
     const staged = execFileSync('git', ['diff', '--cached', '--name-only']).toString().trim();
     if (!staged) return false;
     run(['-c', 'user.name=quizday-bot', '-c', 'user.email=bot@quizday', 'commit', '-m', message]);
-    try {
-      run(['pull', '--rebase', 'origin', 'main']);
-    } catch {
-      /* 리베이스 실패해도 push는 시도 */
-    }
     run(['push', 'origin', 'HEAD:main']);
     return true;
   } catch (e) {
-    console.error('git 실패:', e.stderr?.toString() || e.message);
-    return false;
+    const msg = e.stderr?.toString() || e.message;
+    if (attempt >= 3) {
+      console.error('git 실패(재시도 소진):', msg);
+      return false;
+    }
+    console.log(`[git] push 거절 — 원격과 병합 후 재시도 (${attempt + 1}/3)`);
+
+    // 혹시 이전에 걸린 rebase/merge 상태가 있으면 확실히 걷어낸다.
+    quiet(['rebase', '--abort']);
+    quiet(['merge', '--abort']);
+
+    const today = kstToday();
+    const file = fileFor(today);
+    let mine = null;
+    try {
+      mine = JSON.parse(fs.readFileSync(file, 'utf-8'));
+    } catch {
+      /* 파일이 없으면 그냥 원격을 따른다 */
+    }
+
+    try {
+      run(['fetch', 'origin', 'main']);
+      run(['reset', '--hard', 'FETCH_HEAD']);
+    } catch (e2) {
+      console.error('원격 되감기 실패:', e2.stderr?.toString() || e2.message);
+      return false;
+    }
+
+    if (mine) {
+      let theirs = { date: today, updatedAt: null, answers: {} };
+      try {
+        theirs = JSON.parse(fs.readFileSync(file, 'utf-8'));
+      } catch {
+        /* 원격에 오늘자 파일이 없을 수도 있다 */
+      }
+      const merged = mergeAnswerData(theirs, mine);
+      fs.mkdirSync(ANSWERS_DIR, { recursive: true });
+      fs.writeFileSync(file, JSON.stringify(merged, null, 2));
+    }
+
+    return gitCommitPush(message, attempt + 1);
   }
 }
 
@@ -413,7 +490,13 @@ async function main() {
   console.log(total > 0 ? `완료 — 총 ${report(total, allBySlug)}` : '완료 — 새 정답 없음');
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+// 직접 실행할 때만 돈다. 테스트에서 함수 단위로 import 할 수 있게 하기 위함.
+const isEntry = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isEntry) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}
+
+export { gitCommitPush, mergeAnswerData, isDuplicate, isSaneAnswer, parseQuizbells, hotSlugs };
