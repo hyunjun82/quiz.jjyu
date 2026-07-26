@@ -1,10 +1,23 @@
 {
   "date": "2026-07-27",
-  "updatedAt": "2026-07-27T00:54:00+09:00",
+  "updatedAt": "2026-07-27T03:14:15+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "쏠퀴즈(야구상식) — 선수보호와 경기운영 효율성을 위해 현재 적용되고 있는 KBO 정규시즌 연장전은 몇 회까지일까요?",
+        "answer": "11회",
+        "note": "",
+        "publishedAt": "2026-07-27T03:14:15+09:00"
+      },
+      {
+        "question": "퀴즈팡팡 (7/27)",
+        "answer": "10%",
+        "note": "출처에 문제 지문은 미공개 — 정답만 확인됨",
+        "publishedAt": "2026-07-27T03:14:15+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
