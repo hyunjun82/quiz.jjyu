@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "updatedAt": "2026-07-27T08:13:47.365+09:00",
+  "updatedAt": "2026-07-27T08:16:42.769+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -16,9 +16,34 @@
         "answer": "10%",
         "note": "",
         "publishedAt": "2026-07-27T03:14:15+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "보장에너지",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "1번",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 퀴즈기리니기리니",
+        "answer": "누수",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
+      },
+      {
+        "question": "OX 퀴즈 7/27",
+        "answer": "O",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -28,6 +53,12 @@
         "answer": "X",
         "note": "",
         "publishedAt": "2026-07-27T08:13:47.365+09:00"
+      },
+      {
+        "question": "매년 7월 26일은 '국제 맹그로브 생태계 보존(보전)의 날'이며, 맹그로브 숲은 탄소 흡수, 자연재해 방지 등 중요한 역할을 한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
       }
     ],
     "hpoint": [
@@ -75,6 +106,12 @@
         "answer": "광화문연가",
         "note": "",
         "publishedAt": "2026-07-27T08:13:47.365+09:00"
+      },
+      {
+        "question": "기존 제품을 자신만의 방식으로 재해석해 새로운 레시피를 만들고 SNS로 공유하는 소비 문화를 뜻하는 말은?",
+        "answer": "모디슈머",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
       }
     ],
     "hana-onq": [
@@ -83,11 +120,37 @@
         "answer": "O",
         "note": "",
         "publishedAt": "2026-07-27T05:01:00+09:00"
+      },
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "골키퍼",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
       }
     ],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "오늘의 영어 퀴즈손뜨개질",
+        "answer": "have / same",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
+      },
+      {
+        "question": "다음 중, 중개형 ISA 계좌에서 투자할 수 있는 상품은 무엇일까요?",
+        "answer": "모두 가능",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "지루성 두피염을 오래 방치하면 머리카락이 더 빠 질수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
@@ -98,6 +161,12 @@
         "answer": "X",
         "note": "",
         "publishedAt": "2026-07-27T08:13:47.365+09:00"
+      },
+      {
+        "question": "살모넬라 식중독은 증상이 심하지 않다면 특별한 치료가 필요하지 않다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "publishedAt": "2026-07-27T08:16:42.769+09:00"
       }
     ]
   }
