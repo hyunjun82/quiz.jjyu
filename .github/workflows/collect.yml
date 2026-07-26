@@ -48,15 +48,29 @@ jobs:
 
       - name: 누락분 마무리 커밋
         # 스크립트가 중간에 실패하거나 AUTO_PUSH가 놓친 변경이 남아 있으면 여기서 건진다.
+        #
+        # continue-on-error 인 이유: 이 저장소는 5분마다 도는 이 워크플로 말고도
+        # CCR 트리거가 같은 파일을 민다. 경합으로 push가 한 번 거절되는 건 정상이고
+        # 다음 주기가 곧바로 다시 시도한다. 그걸 빨간 X로 만들면 알림이 늘 켜져 있게 되고,
+        # 그러면 healthcheck.yml의 빨간 X(= 진짜 장애)가 묻혀버린다.
         if: always()
+        continue-on-error: true
         run: |
           git config user.name "quizday-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/answers/
           if git diff --cached --quiet; then
             echo "남은 변경 없음"
-          else
-            git commit -m "data: $(TZ=Asia/Seoul date '+%m/%d %H:%M') 정답 업데이트 (마무리)"
-            git pull --rebase origin main || true
-            git push
+            exit 0
           fi
+          git commit -m "data: $(TZ=Asia/Seoul date '+%m/%d %H:%M') 정답 업데이트 (마무리)"
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort || true; }
+            if git push origin HEAD:main; then
+              echo "푸시 성공 (시도 $i)"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "푸시 실패 — 다음 주기에서 재시도됨"
