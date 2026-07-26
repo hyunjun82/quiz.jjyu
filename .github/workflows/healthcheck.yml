@@ -1,0 +1,30 @@
+name: 수집 중단 감지
+
+# 7/24~7/25 약 36시간 동안 수집이 조용히 멈췄는데 알 방법이 없었다.
+# 이 워크플로가 실패하면(빨간 X) GitHub이 저장소 소유자에게 메일을 보낸다 —
+# 그게 알림 채널이다. 별도 서비스나 비용 없이 동작한다.
+#
+# 판정 기준은 "정답이 없다"가 아니라 "퀴즈벨에는 떠 있는데 우리한테 없다"이다.
+# 소스가 아직 안 낸 건 장애가 아니므로 실패시키지 않는다.
+
+on:
+  schedule:
+    # KST 09:00 / 13:00 / 18:00 / 22:00 (UTC 00 / 04 / 09 / 13)
+    # 자정 발행 퀴즈가 대부분이라 아침 첫 검사가 가장 중요하다.
+    - cron: '0 0,4,9,13 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 파이프라인 상태 점검
+        run: node scripts/healthcheck.mjs
