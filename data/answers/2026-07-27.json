@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "updatedAt": "2026-07-27T06:57:52.343+09:00",
+  "updatedAt": "2026-07-27T08:13:47.365+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -22,7 +22,14 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "대한민국은 2030년부터 미세먼지법을 통해 대기오염 물질 배출을 본격적으로 줄여나갈 계획이다 (O/X)",
+        "answer": "X",
+        "note": "",
+        "publishedAt": "2026-07-27T08:13:47.365+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "먼데이벤트 1등 당첨자에게 드리는 H.Point는 몇 포인트일까요?",
@@ -31,7 +38,14 @@
         "publishedAt": "2026-07-27T05:01:00+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "기업이 문을 닫을 때 남은 자산을 정리해 주주에게 나누어주는 상법상 절차를 뜻하는 용어는?",
+        "answer": "청산",
+        "note": "",
+        "publishedAt": "2026-07-27T08:13:47.365+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [
       {
@@ -55,7 +69,14 @@
         "publishedAt": "2026-07-27T06:57:52.343+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "다음 중 오는 8월 개막하는 뮤지컬 작품이 아닌 것은?",
+        "answer": "광화문연가",
+        "note": "",
+        "publishedAt": "2026-07-27T08:13:47.365+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "하나원큐 환전지갑에서는 환전해 둔 외화를 해외여행 가는 친구에게 모바일로 선물하는 기능이 있다 (O/X)",
@@ -71,6 +92,13 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": []
+    "doctornow": [
+      {
+        "question": "생리 중 관계를 가지면 임신 확률이 0%라는 말은 사실일까요? (O/X)",
+        "answer": "X",
+        "note": "",
+        "publishedAt": "2026-07-27T08:13:47.365+09:00"
+      }
+    ]
   }
 }
