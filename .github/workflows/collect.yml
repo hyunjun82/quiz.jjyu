@@ -1,11 +1,19 @@
-name: 빠른 정답 수집 (luckyquiz3)
+name: 실시간 정답 수집
+
+# 설계 의도
+#  - "5분마다 무작정 훑기"가 아니라, 각 퀴즈의 공개 시각(releaseTimes)을 알고 있으니
+#    그 순간에 붙어서 30초 간격으로 감시하다가 정답이 뜨는 즉시 커밋·푸시한다.
+#  - GitHub Actions cron의 최소 간격은 5분이고 실제로는 몇 분 더 밀리기도 한다.
+#    그래서 5분마다 job을 띄우되, job 안에서 4분간 30초 간격 루프를 돈다.
+#    → 실효 감시 해상도 5분이 아니라 30초.
+#  - 공개 시각대가 아니면 스크립트가 1회만 확인하고 즉시 종료한다(수십 초).
+#  - 저장소가 public이라 Actions 사용량 제한이 없다.
 
 on:
   schedule:
-    # 5분 간격, 한국시간 06:00 ~ 24:00 (UTC 21:00~15:00). GitHub Actions cron은 UTC 기준이고
-    # 부하에 따라 몇 분 지연될 수 있음 — 그래도 AI 기반 시간당 수집보다는 훨씬 촘촘함.
-    - cron: '*/5 21-23 * * *'
-    - cron: '*/5 0-14 * * *'
+    # 24시간 전체 커버. 이전 버전은 KST 06:00~24:00만 돌아서
+    # 자정 발행 퀴즈 12개가 무방비였다.
+    - cron: '*/5 * * * *'
   workflow_dispatch: {} # 수동 실행 버튼
 
 permissions:
@@ -13,30 +21,42 @@ permissions:
 
 concurrency:
   group: collect
+  # 감시 루프 도중에 죽이면 안 되므로 취소하지 않고 큐에 쌓는다.
   cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
+    # 루프 240초 + 네트워크 여유. 넘으면 뭔가 걸린 것이니 끊는다.
+    timeout-minutes: 9
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 스크립트가 실행 중에 pull --rebase 후 push 하므로 얕은 클론이면 곤란하다.
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: 정답 수집 (luckyquiz3 빠른 소스)
+      - name: 정답 수집 · 발견 즉시 발행
+        env:
+          AUTO_PUSH: '1' # 루프 도중 발견하면 바로 커밋·푸시 (다음 주기까지 안 기다림)
+          WATCH_SECONDS: '240' # job 하나가 감시하는 총 시간
+          POLL_SECONDS: '30' # 감시 간격
         run: node scripts/collect.mjs
 
-      - name: 변경 시에만 커밋·푸시
+      - name: 누락분 마무리 커밋
+        # 스크립트가 중간에 실패하거나 AUTO_PUSH가 놓친 변경이 남아 있으면 여기서 건진다.
+        if: always()
         run: |
           git config user.name "quizday-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/answers/
           if git diff --cached --quiet; then
-            echo "변경 없음 — 커밋 생략"
+            echo "남은 변경 없음"
           else
-            git commit -m "data: $(TZ=Asia/Seoul date '+%m/%d %H:%M') 빠른수집 정답 업데이트"
-            git pull --rebase origin main
+            git commit -m "data: $(TZ=Asia/Seoul date '+%m/%d %H:%M') 정답 업데이트 (마무리)"
+            git pull --rebase origin main || true
             git push
           fi

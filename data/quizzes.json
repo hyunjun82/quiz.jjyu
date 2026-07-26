@@ -245,7 +245,7 @@
       "shortName": "KB 별별퀴즈",
       "category": "finance",
       "reward": "KB포인트리",
-      "resetInfo": "평일(월~금) 갱신",
+      "resetInfo": "매일 갱신",
       "howTo": "KB스타뱅킹 앱 → 혜택 → 별별퀴즈",
       "color": "#FFBC00",
       "estDaily": 60,
@@ -254,10 +254,7 @@
       "sourceSlug": "kbstar",
       "releaseTimes": [
         "00:00"
-      ],
-      "cadence": {
-        "type": "weekdays"
-      }
+      ]
     },
     {
       "slug": "kbank",
