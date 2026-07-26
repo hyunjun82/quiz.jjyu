@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "updatedAt": "2026-07-26T08:17:21.980+09:00",
+  "updatedAt": "2026-07-26T10:17:35.080+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -20,7 +20,14 @@
     ],
     "kakaobank": [],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 여행 제휴사인 무브에서 인천공항 이동서비스 왕복 이용 시 제공되는 할인 혜택은?",
+        "answer": "편도 10% 즉시할인",
+        "note": "",
+        "publishedAt": "2026-07-26T10:17:35.080+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
