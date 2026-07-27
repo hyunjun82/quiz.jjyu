@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-28",
+  "updatedAt": "2026-07-28T00:01:36.516+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "대한민국은 2030년부터 대기오염 물질 배출을 줄이기 위한 '미세먼지법'을 시행할 예정이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "publishedAt": "2026-07-28T00:01:36.516+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "다음 중 올해 8월에 개막하는 뮤지컬이 아닌 것은?",
+        "answer": "광화문연가",
+        "note": "",
+        "publishedAt": "2026-07-28T00:01:36.516+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "성인 여드름이 턱입 주변에 자주 생기는 것은 호르몬 변화와 관련이 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "publishedAt": "2026-07-28T00:01:36.516+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "생리 중 관계하면 임신 확률이 0%다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "publishedAt": "2026-07-28T00:01:36.516+09:00"
+      }
+    ]
+  }
+}
