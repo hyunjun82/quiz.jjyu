@@ -269,6 +269,146 @@ async function collectFromQuizbells() {
   return results.flat();
 }
 
+/* ──────────────────── 소스 C: 비즈월드(bizwnews.com) ──────────────────── */
+
+/**
+ * 왜 이 소스를 넣는가 ─ 우리가 실제로 지고 있던 상대가 바로 이 언론사다.
+ *
+ * 2026-07-27 실측:
+ *   · 비즈월드 KB페이 기사 → 입력 09:56 / 수정 10:00  (09:56엔 껍데기, 10:00에 정답 채움)
+ *   · 퀴즈벨(우리 기존 유일 소스) → 같은 정답이 약 10:02에 등장
+ *   · 우리 발행 → 10:04
+ * 즉 "언제 보느냐"가 아니라 "어디를 보느냐"가 병목이었다. 퀴즈벨만 보면 구조적으로 2분 늦는다.
+ *
+ * 핵심은 비즈월드가 퀴즈 열리기 4분 전에 기사 주소를 미리 만들어 둔다는 점이다.
+ * 그래서 주소를 먼저 확보해 두고(=목록 1회 조회) 감시 구간 동안 그 기사 하나만 찍으면,
+ * 정답이 채워지는 순간을 초 단위로 잡을 수 있다. 목록을 매번 다시 훑을 필요가 없다.
+ *
+ * ⚠️ [캐시워크 종합] 기사는 일부러 뺐다. 본문이 "이전에 출제된 / 직전 문제는 / 또" 같은
+ *    자유 서술이라 오늘 것과 지난 것을 기계가 안전하게 구분할 수 없고, 정작 "현재 출제된
+ *    문제"에는 정답이 안 붙어 있다(실측). 오답을 넣느니 넣지 않는 편이 낫다.
+ *    캐시워크는 어차피 퀴즈벨 훑기로 하루 14건씩 들어오고 있다.
+ */
+const BIZW_LIST = 'https://www.bizwnews.com/news/articleList.html?view_type=sm';
+const BIZW_ART = (id) => `https://www.bizwnews.com/news/articleView.html?idxno=${id}`;
+
+// 기사 제목 → 우리 slug. 여기에 줄을 추가하는 것만으로 소스를 넓힐 수 있다.
+// 단, 반드시 parseBizwArticle이 안전하게 파싱 가능한 "단일 문제" 형식이어야 한다.
+const BIZW_TITLE_MAP = [
+  { slug: 'kbpay', re: /KB\s*페이.*(오늘의\s*퀴즈|리브메이트)|리브메이트.*오늘의\s*퀴즈/ },
+];
+
+// 오늘 찾아낸 기사 주소 캐시: `${today}:${slug}` → idxno. 하루에 목록을 몇 번만 훑는다.
+const bizwArticleCache = new Map();
+let bizwListFetchedAt = 0;
+
+/** 최신 기사 목록에서 오늘자 대상 기사의 idxno를 찾아 캐시에 넣는다. */
+async function bizwDiscover(today) {
+  // 다 찾았으면 더 훑지 않는다. 못 찾았으면 90초 간격으로 재시도한다.
+  // 90초인 이유: 비즈월드가 기사 껍데기를 공개 4분 전에 만들므로, 그 4분 안에
+  // 최소 2번은 다시 훑어야 주소를 확보한 채로 공개 시각을 맞을 수 있다.
+  const allFound = BIZW_TITLE_MAP.every((m) => bizwArticleCache.has(`${today}:${m.slug}`));
+  if (allFound || Date.now() - bizwListFetchedAt < 90_000) return;
+  bizwListFetchedAt = Date.now();
+
+  const res = await fetch(BIZW_LIST, {
+    headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+    signal: AbortSignal.timeout(20000),
+  });
+  if (!res.ok) throw new Error(`bizwnews list HTTP ${res.status}`);
+  const html = await res.text();
+
+  for (const m of html.matchAll(/articleView\.html\?idxno=(\d+)[^>]*>([\s\S]{0,300}?)<\/a>/g)) {
+    const title = clean(m[2]);
+    if (!title) continue;
+    for (const map of BIZW_TITLE_MAP) {
+      const key = `${today}:${map.slug}`;
+      if (bizwArticleCache.has(key)) continue;
+      if (map.re.test(title)) bizwArticleCache.set(key, m[1]);
+    }
+  }
+}
+
+/**
+ * 기사 본문에서 "오늘 문제 + 오늘 정답"만 뽑는다.
+ *
+ * 본문 형식(실측):
+ *   <p>이번 문제는 "…질문…"다.</p>
+ *   <p>정답은 '…정답…'다.</p>
+ *   <p>앞서 전날인 지난 26일 출제된 문제는 … 정답은 '…'이었다.</p>   ← 절대 먹으면 안 됨
+ *
+ * 그래서 "지난 N일 / 앞서" 가 나오는 첫 문단에서 본문을 잘라 버리고, 그 앞쪽만 본다.
+ * 날짜 검증도 이중으로 한다(입력·수정 표기 + 본문 안 날짜).
+ */
+function parseBizwArticle(html, slug, today) {
+  // 1차 검증: 입력/수정 도장 중 하나라도 오늘이어야 한다.
+  const stamps = [...html.matchAll(/(?:입력|수정)\s*(\d{4})\.(\d{2})\.(\d{2})/g)].map(
+    (m) => `${m[1]}-${m[2]}-${m[3]}`,
+  );
+  if (!stamps.includes(today)) return [];
+
+  const body = html.match(/<article[^>]*id="article-view-content-div"[^>]*>([\s\S]*?)<\/article>/)?.[1];
+  if (!body) return [];
+
+  const paras = [...body.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)]
+    .map((m) => clean(m[1]))
+    .filter(Boolean);
+
+  // 2차 검증: 본문 첫머리에 오늘 날짜(예: "7월 27일")가 있어야 한다.
+  const [, mm, dd] = today.split('-');
+  const dateRe = new RegExp(`${Number(mm)}월\\s*${Number(dd)}일`);
+  if (!paras.slice(0, 3).some((p) => dateRe.test(p))) return [];
+
+  // 과거 문제 서술이 시작되는 지점에서 자른다.
+  const cut = paras.findIndex((p) => /^(앞서|지난\s*\d+일|또\s*지난)/.test(p));
+  const head = cut === -1 ? paras : paras.slice(0, cut);
+
+  const qi = head.findIndex((p) => /^이번 문제는/.test(p));
+  if (qi === -1) return [];
+  const question = head[qi].match(/^이번 문제는\s*["'“”‘’]?([\s\S]+?)["'“”‘’]?\s*(?:다|이다|였다)\.?$/)?.[1]?.trim();
+  if (!question || question.length < 6) return [];
+
+  const ansPara = head.slice(qi + 1).find((p) => /^정답은/.test(p));
+  if (!ansPara) return [];
+  const answer = ansPara.match(/^정답은\s*["'“”‘’]([\s\S]+?)["'“”‘’]\s*(?:다|이다|였다|이었다)\.?$/)?.[1]?.trim();
+  if (!isSaneAnswer(answer)) return [];
+
+  return [{ slug, ...buildItem(question, [answer]) }];
+}
+
+async function collectFromBizwnews() {
+  const today = kstToday();
+  await bizwDiscover(today).catch(() => {}); // 목록 조회가 실패해도 캐시가 있으면 계속 간다
+
+  const jobs = BIZW_TITLE_MAP.map((map) => bizwArticleCache.get(`${today}:${map.slug}`)
+    ? { slug: map.slug, id: bizwArticleCache.get(`${today}:${map.slug}`) }
+    : null).filter(Boolean);
+
+  const results = await Promise.all(
+    jobs.map(async ({ slug, id }) => {
+      try {
+        const res = await fetch(BIZW_ART(id), {
+          headers: {
+            'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)',
+            // 기사가 "수정"되는 순간을 노리는 소스라 캐시된 옛 판을 받으면 의미가 없다.
+            'cache-control': 'no-cache',
+            pragma: 'no-cache',
+          },
+          signal: AbortSignal.timeout(20000),
+        });
+        if (!res.ok) return [];
+        return parseBizwArticle(await res.text(), slug, today).map((r) => ({
+          ...r,
+          source: 'bizwnews',
+        }));
+      } catch {
+        return [];
+      }
+    }),
+  );
+  return results.flat();
+}
+
 /* ────────────────────────── 조립 ────────────────────────── */
 
 function buildItem(question, answers) {
@@ -465,15 +605,23 @@ async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
 
-  const [a, b] = await Promise.all([
+  const [a, b, c] = await Promise.all([
     collectFromBlog().catch((e) => {
       console.error('블로그 소스 실패:', e.message);
       return [];
     }),
     collectFromQuizbells(),
+    collectFromBizwnews().catch((e) => {
+      console.error('비즈월드 소스 실패:', e.message);
+      return [];
+    }),
   ]);
-  // 블로그 먼저 넣어야 문제 지문이 긴 쪽이 우선 채택된다.
-  const found = [...a, ...b];
+  // 순서 = 우선순위. 같은 정답이 여러 소스에서 오면 앞쪽 것이 채택된다(뒤는 중복 처리).
+  // 블로그가 맨 앞인 이유: 문제 지문이 가장 길고 정확하다.
+  // 비즈월드가 퀴즈벨보다 앞인 이유: 정답 표기가 언론사 교열을 거쳐 더 깔끔하다.
+  // ※ "누가 먼저 올렸나"는 이 순서와 무관하다. 매 폴링마다 세 소스를 동시에 조회하므로
+  //    실제로는 "그 시점에 정답을 갖고 있는 소스"가 이긴다 — 즉 가장 빨리 올린 곳이 이긴다.
+  const found = [...a, ...c, ...b];
 
   let added = 0;
   const bySlug = {};
@@ -595,6 +743,8 @@ export {
   isDuplicate,
   isSaneAnswer,
   parseQuizbells,
+  parseBizwArticle,
+  collectFromBizwnews,
   runsOn,
   rawWindows,
   mergeWindows,
