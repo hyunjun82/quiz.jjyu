@@ -8,11 +8,24 @@ name: 수집 중단 감지
 # 소스가 아직 안 낸 건 장애가 아니므로 실패시키지 않는다.
 
 on:
+  # ⚠️ 이 저장소에서 예약(schedule) 실행은 사실상 동작하지 않는다 —
+  #    3시간 10분 동안 요청 대비 0회 실행이 실측됐다. 반면 push 트리거는 몇 초 만에 뜬다.
+  #    그래서 진짜 감지 채널은 아래 push 쪽이고, schedule은 공짜 보험으로만 남겨둔다.
+  #    "수집이 통째로 멈춰서 push 자체가 없는" 경우는 push로 잡을 수 없으므로,
+  #    그건 CCR 스케줄 작업(하루 12회)의 마지막 단계에서 healthcheck.mjs를 돌려 잡는다.
+  push:
+    branches: [main]
+    paths:
+      - 'data/answers/**'
   schedule:
     # KST 09:00 / 13:00 / 18:00 / 22:00 (UTC 00 / 04 / 09 / 13)
-    # 자정 발행 퀴즈가 대부분이라 아침 첫 검사가 가장 중요하다.
     - cron: '0 0,4,9,13 * * *'
   workflow_dispatch: {}
+
+concurrency:
+  # 정답이 몰려 들어올 때 push가 연달아 나므로, 진행 중인 검사는 버리고 최신 것만 돌린다.
+  group: healthcheck
+  cancel-in-progress: true
 
 permissions:
   contents: read
