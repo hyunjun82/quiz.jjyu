@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "updatedAt": "2026-07-28T00:12:37.675+09:00",
+  "updatedAt": "2026-07-28T00:13:43.719+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -18,7 +18,14 @@
         "publishedAt": "2026-07-28T00:02:41.260+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "OX 퀴즈 7/28",
+        "answer": "X",
+        "note": "",
+        "publishedAt": "2026-07-28T00:13:43.719+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
