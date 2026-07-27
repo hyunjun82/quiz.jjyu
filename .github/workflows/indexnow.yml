@@ -14,15 +14,26 @@ jobs:
       - name: 갱신 URL 목록 생성 후 IndexNow 핑
         run: |
           TODAY=$(TZ=Asia/Seoul date +%F)
+          # ⚠️ 문제별 페이지(/quiz/{slug}/{today}/{n}/)를 반드시 포함시킨다.
+          #    롱테일 검색어를 실제로 잡는 건 이 페이지들인데 여태 한 번도 안 알렸다.
           URLS=$(TODAY=$TODAY node -e "
+            const fs = require('fs');
             const q = require('./data/quizzes.json').quizzes;
+            const today = process.env.TODAY;
             const urls = ['https://quiz.jjyu.co.kr/'];
+            let data = { answers: {} };
+            try { data = JSON.parse(fs.readFileSync('./data/answers/' + today + '.json', 'utf8')); } catch {}
             for (const x of q) {
               urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/');
-              urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/' + process.env.TODAY + '/');
+              urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/' + today + '/');
+              const items = (data.answers || {})[x.slug] || [];
+              items.forEach((_, i) => {
+                urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/' + today + '/' + (i + 1) + '/');
+              });
             }
             console.log(JSON.stringify(urls));
           ")
+          echo "핑 대상 URL: $(node -e 'console.log(JSON.parse(process.argv[1]).length)' "$URLS")개"
           cat > payload.json <<EOF
           {
             "host": "quiz.jjyu.co.kr",

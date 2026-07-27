@@ -26,15 +26,54 @@ export function generateStaticParams() {
   return params;
 }
 
+/**
+ * 제목에 "문제 지문"을 그대로 넣는다 — 이게 이 페이지의 존재 이유다.
+ *
+ * 예전 제목: "KB페이 오늘의퀴즈 정답 2026년 7월 27일 — 1번 문제 정답"
+ * → "1번 문제"는 아무도 검색하지 않는다. 그래서 이 346개 페이지가 사실상 죽어 있었다.
+ *
+ * 사람들은 앱에 뜬 문제를 그대로 복사해서 검색한다("KB Pay 첫 만남 기념 이벤트의
+ * 커피 쿠폰은 언제..."). 이런 롱테일 검색어는 경쟁이 사실상 없어서, 지문만 제목에
+ * 들어가 있으면 언론사 기사보다 우리가 위에 뜬다. 대표 키워드("KB페이 퀴즈 정답")로
+ * 언론사와 정면으로 붙는 것보다 훨씬 승산이 높다.
+ */
 export function generateMetadata({ params }) {
   const quiz = getQuizBySlug(params.slug);
   if (!quiz) return {};
   const dateLabel = formatKoreanDate(params.date);
   const noun = quiz.eventType ? '참여 링크' : '정답';
+  const item = (getAnswersByDate(params.date)?.answers?.[quiz.slug] ?? [])[
+    parseInt(params.idx, 10) - 1
+  ];
+
+  // 검색결과에 잘리지 않게 지문을 적당히 줄인다. 초성 힌트는 검색어에 거의 안 쓰이므로 뺀다.
+  const q = String(item?.question || '')
+    .replace(/\s*\(초성\s*[:：][^)]*\)\s*/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const short = q.length > 60 ? `${q.slice(0, 60)}…` : q;
+
+  // searchKeyword가 이미 '…정답'/'…참여 링크'로 끝나는 경우가 있어 그대로 붙이면
+  // "돈버는퀴즈 정답 정답"이 된다. 중복되면 뒤에 안 붙인다.
+  const kw = quiz.searchKeyword;
+  const kwTail = kw.endsWith(noun) ? kw : `${kw} ${noun}`;
+
+  const title = short
+    ? `${short} — ${kwTail} (${dateLabel})`
+    : `${kw} ${dateLabel} — ${params.idx}번 문제 ${noun}`;
+
+  const answerText = item?.answer
+    ? `정답은 '${item.answer}'입니다.`
+    : item?.choices?.length
+      ? `정답 후보: ${item.choices.join(' / ')}.`
+      : '';
+
   return {
-    title: `${quiz.searchKeyword} ${dateLabel} — ${params.idx}번 문제 정답`,
-    // 경쟁사(퀴즈벨) 스타일 참고 — 확인 즉시 실시간·바로 적립 같은 행동 유도 문구 추가
-    description: `${dateLabel} ${quiz.name} ${params.idx}번 문제 ${noun}을 지금 바로 확인하고 ${quiz.reward} 받아가세요. 공개 즉시 실시간 업데이트됩니다.`,
+    title,
+    // 지문 + 정답을 설명에도 넣어 검색결과에서 바로 눈에 띄게 한다.
+    description: short
+      ? `${short} ${answerText} ${dateLabel} ${quiz.name} ${noun}을 공개 즉시 실시간으로 올립니다. ${quiz.reward} 바로 받아가세요.`
+      : `${dateLabel} ${quiz.name} ${params.idx}번 문제 ${noun}을 지금 바로 확인하고 ${quiz.reward} 받아가세요. 공개 즉시 실시간 업데이트됩니다.`,
     alternates: { canonical: `/quiz/${quiz.slug}/${params.date}/${params.idx}/` },
   };
 }
