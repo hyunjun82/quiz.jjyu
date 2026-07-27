@@ -6,15 +6,20 @@
  * 나온다. 언론사가 올린 뒤에 따라 올리면 트래픽을 대부분 놓친다. 그래서 이 스크립트는
  * 단순 주기 폴링이 아니라 "발행 시각 조준(hot window) + 초 단위 감시" 방식으로 돈다.
  *
- *   1) quizzes.json의 releaseTimes로 지금이 어느 퀴즈의 공개 직후인지 계산한다.
- *   2) 공개 직후인데 아직 정답이 0건인 퀴즈가 하나라도 있으면 = HOT 상태.
- *      HOT일 때는 WATCH_SECONDS 동안 POLL_SECONDS(기본 30초) 간격으로 소스를 재확인하고,
- *      새 정답이 잡히는 즉시 커밋·푸시한다(다음 실행을 기다리지 않는다).
- *   3) HOT이 아니면 1회만 확인하고 몇 초 만에 끝낸다 — Actions 사용량 낭비 방지.
+ *   1) 항상 한 바퀴 훑는다(몇 초). 놓친 것 회수 + 공개 시각을 모르는 퀴즈 커버.
+ *   2) quizzes.json의 releaseTimes를 모아 "감시 블록"을 만든다.
+ *      공개 시각마다 [-2분, +25분] 창을 두고, 10분 이내로 붙은 창끼리 이어붙인다.
+ *      → 하루 7블록 · 약 6.7시간. 나머지 17시간은 아무것도 안 한다.
+ *   3) 다음 블록이 LEAD_MINUTES(기본 70분)보다 멀면 그냥 끝낸다.
+ *      가까우면 블록 시작까지 잠들었다가 POLL_SECONDS(30초) 간격으로 지키고,
+ *      정답이 잡히는 즉시 커밋·푸시한다(다음 실행을 기다리지 않는다).
+ *   4) 그 블록의 퀴즈를 전부 수집하면 남은 시간을 버리고 조기 종료한다.
  *
- * GitHub Actions cron은 최소 간격이 5분이고 부하에 따라 몇 분 밀리기도 한다. 그래서
- * "5분마다 작업을 띄우되, 작업 하나가 그 5분 구간을 30초 간격으로 메우는" 방식으로
- * cron 해상도 한계를 우회한다.
+ * ⚠️ GitHub Actions cron은 요청한 시각에 거의 안 깨워준다(이 저장소 실측: 예약 대비 약 12%,
+ *    시간당 1.5회꼴). 그래서 "블록 정각에 한 번" 예약하면 대부분 안 뜬다.
+ *    대신 블록 시작 전 한 시간 동안 5분 간격 알람을 촘촘히 걸어두고, 그중 실제로 깨어난
+ *    아무 job 하나가 블록 시작까지 잠들었다가 그 구간 전체를 지키게 한다.
+ *    concurrency group 덕분에 여러 개가 깨어나도 한 번에 하나만 돈다.
  *
  * ── 소스 ────────────────────────────────────────────────────────────
  *   A. luckyquiz3.blogspot.com  — 8개 슬러그. 문제 지문이 길고 정확해 1순위.
@@ -34,11 +39,21 @@ const ANSWERS_DIR = path.join(process.cwd(), 'data', 'answers');
 const FEED_URL = 'https://luckyquiz3.blogspot.com/feeds/posts/default?alt=json&max-results=60';
 const QUIZBELLS = (sourceSlug) => `https://quizbells.com/quiz/${sourceSlug}/today/answer`;
 
-// 공개 시각 이후 이만큼(분) 동안은 "지금 막 뜰 때"로 보고 초 단위 감시에 들어간다.
-const HOT_WINDOW_MINUTES = 25;
-// HOT일 때 한 번 실행에서 감시할 총 시간과 폴링 간격.
-const WATCH_SECONDS = Number(process.env.WATCH_SECONDS ?? 240);
+// ── 감시 구간(블록) 계산 파라미터 ──────────────────────────────
+// 공개 시각 몇 분 전부터 붙을지. 소스가 미리 올리는 경우가 드물게 있어 조금 앞에서 시작한다.
+const WINDOW_BEFORE = Number(process.env.WINDOW_BEFORE ?? 2);
+// 공개 시각 이후 몇 분까지 지킬지. 대부분 5분 안에 뜨지만 늦는 소스가 있어 넉넉히.
+const WINDOW_AFTER = Number(process.env.WINDOW_AFTER ?? 25);
+// 창과 창 사이가 이 분 이내로 가까우면 하나로 이어붙인다(08:00/08:30/09:00 → 한 덩어리).
+const MERGE_TOLERANCE = Number(process.env.MERGE_TOLERANCE ?? 10);
+// 블록 시작이 이 분 이내로 다가왔을 때만 대기에 들어간다.
+// GitHub cron이 정각에 안 깨워주므로(실측 시간당 1.5회) 한 시간 전부터 알람을 촘촘히 걸고,
+// 살아남은 job 하나가 블록 시작까지 잠들었다가 지킨다.
+const LEAD_MINUTES = Number(process.env.LEAD_MINUTES ?? 70);
+// 감시 폴링 간격.
 const POLL_SECONDS = Number(process.env.POLL_SECONDS ?? 30);
+// job 하나가 살아 있을 수 있는 절대 상한(분). 워크플로 timeout보다 짧게 잡아 스스로 정리한다.
+const MAX_MINUTES = Number(process.env.MAX_MINUTES ?? 165);
 // 찾는 즉시 git commit/push 할지 여부 (로컬 테스트에서는 끈다).
 const AUTO_PUSH = process.env.AUTO_PUSH === '1';
 
@@ -285,38 +300,69 @@ function loadExisting(today) {
   return empty;
 }
 
+const DOW_MAP = { sun: 0, mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6 };
+
+/** 이 퀴즈가 해당 요일에 나오는가? */
+function runsOn(q, dow) {
+  const cad = q.cadence;
+  if (!cad) return true;
+  if (cad.type === 'weekdays') return dow >= 1 && dow <= 5;
+  if (cad.type === 'weekly') return (cad.days || []).some((d) => DOW_MAP[d] === dow);
+  return true; // irregular 은 언제 나올지 몰라 항상 후보로 둔다
+}
+
 /**
- * 지금 "공개 직후"라서 초 단위로 붙어 있어야 하는 퀴즈 목록.
- * releaseTimes 중 하나가 HOT_WINDOW_MINUTES 이내에 지났는데 아직 정답이 없으면 HOT.
+ * 공개 시각 하나당 감시 창 하나. dayOffset 만큼 분을 밀어서 반환하므로
+ * "오늘 23:58~00:25" 같은 자정 넘김 구간이 자연스럽게 표현된다
+ * (= 내일의 00:00 발행에서 나온 창).
  */
-function hotSlugs(existing) {
-  const now = kstNow();
-  const mins = now.getUTCHours() * 60 + now.getUTCMinutes();
-  const dow = now.getUTCDay(); // 0=일
-  const hot = [];
-
+function rawWindows(dow, dayOffset) {
+  const out = [];
   for (const q of QUIZZES) {
-    const cad = q.cadence;
-    if (cad?.type === 'weekly') {
-      const map = { sun: 0, mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6 };
-      if (!(cad.days || []).some((d) => map[d] === dow)) continue;
-    }
-    if (cad?.type === 'weekdays' && (dow === 0 || dow === 6)) continue;
-
+    if (!runsOn(q, dow)) continue;
     for (const t of q.releaseTimes || []) {
       const [h, m] = t.split(':').map(Number);
-      const rel = h * 60 + m;
-      // 자정 발행은 전날 23:5x에 미리 붙는 것도 허용(경계에서 놓치지 않도록)
-      const delta = mins - rel;
-      const inWindow = delta >= -2 && delta <= HOT_WINDOW_MINUTES;
-      if (!inWindow) continue;
-      const got = (existing.answers[q.slug] || []).length;
-      if (got === 0) hot.push(q.slug);
-      break;
+      const rel = h * 60 + m + dayOffset * 1440;
+      out.push({ a: rel - WINDOW_BEFORE, b: rel + WINDOW_AFTER, slug: q.slug });
     }
   }
-  return [...new Set(hot)];
+  return out;
 }
+
+/** 가까이 붙은 창끼리 이어붙인다. 08:00 / 08:30 / 09:00 처럼 촘촘하면 한 덩어리로 지킨다. */
+function mergeWindows(windows) {
+  const sorted = [...windows].sort((x, y) => x.a - y.a);
+  const merged = [];
+  for (const w of sorted) {
+    const last = merged[merged.length - 1];
+    if (last && w.a - last.b <= MERGE_TOLERANCE) {
+      last.b = Math.max(last.b, w.b);
+      last.slugs.add(w.slug);
+    } else {
+      merged.push({ a: w.a, b: w.b, slugs: new Set([w.slug]) });
+    }
+  }
+  return merged;
+}
+
+/**
+ * 지금 진행 중이거나 앞으로 올 첫 감시 구간.
+ * 오늘과 내일 것을 함께 만들어서 자정 경계를 특별취급하지 않는다.
+ */
+function upcomingBlock(nowMin, dow) {
+  const all = mergeWindows([...rawWindows(dow, 0), ...rawWindows((dow + 1) % 7, 1)]);
+  return all.find((b) => b.b > nowMin) || null;
+}
+
+/** 구간에 속한 퀴즈 중 아직 정답이 없는 것들 */
+function pendingIn(block, existing) {
+  return [...block.slugs].filter((s) => (existing.answers[s] || []).length === 0);
+}
+
+const fmtMin = (m) => {
+  const v = ((m % 1440) + 1440) % 1440;
+  return `${String(Math.floor(v / 60)).padStart(2, '0')}:${String(v % 60).padStart(2, '0')}`;
+};
 
 /**
  * 두 정답 파일을 합친다. 정답 파일은 본질적으로 "집합"이라서
@@ -448,44 +494,88 @@ async function collectOnce() {
   return { added, bySlug, existing };
 }
 
+/**
+ * 동작 순서
+ *  1) 무조건 한 바퀴 훑는다 (몇 초). 놓친 것 회수 + 공개 시각 미상 퀴즈 커버.
+ *  2) 지금 진행 중이거나 앞으로 올 첫 감시 블록을 계산한다.
+ *  3) 블록이 LEAD_MINUTES보다 멀면 그냥 끝낸다 — 이 job은 할 일이 없다.
+ *  4) 가까우면 블록 시작까지 잠들었다가, 블록이 끝나거나 그 블록 퀴즈가
+ *     전부 수집될 때까지 POLL_SECONDS 간격으로 감시하고, 잡히는 즉시 발행한다.
+ */
 async function main() {
   const t0 = Date.now();
-  let first = await collectOnce();
-  let total = first.added;
-  const allBySlug = { ...first.bySlug };
+  const hardStop = t0 + MAX_MINUTES * 60_000;
 
   const report = (n, bySlug) =>
     `${n}건 (${Object.entries(bySlug).map(([s, c]) => `${s} ${c}`).join(', ')})`;
 
-  if (first.added > 0) {
-    console.log(`[즉시] 새 정답 ${report(first.added, first.bySlug)}`);
-    if (AUTO_PUSH) gitCommitPush(`data: ${kstStamp().slice(5, 16).replace('T', ' ')} 정답 ${first.added}건 (실시간)`);
-  }
+  let total = 0;
+  const allBySlug = {};
+  const absorb = (r, tag) => {
+    if (r.added === 0) return;
+    total += r.added;
+    for (const [s, c] of Object.entries(r.bySlug)) allBySlug[s] = (allBySlug[s] || 0) + c;
+    console.log(`${tag} 새 정답 ${report(r.added, r.bySlug)}`);
+    if (AUTO_PUSH) {
+      gitCommitPush(`data: ${kstStamp().slice(5, 16).replace('T', ' ')} 정답 ${r.added}건`);
+    }
+  };
 
-  // 공개 직후인데 아직 안 뜬 퀴즈가 있으면 초 단위로 붙어서 감시한다.
-  let hot = hotSlugs(first.existing);
-  if (hot.length === 0) {
-    console.log(total > 0 ? `완료 — 총 ${total}건` : '새 정답 없음 (감시 대상 없음)');
+  // 1) 첫 스윕 — 항상 한다.
+  const nowStart = kstNow();
+  console.log(`[시작] ${kstToday()} ${fmtMin(nowStart.getUTCHours() * 60 + nowStart.getUTCMinutes())} KST`);
+  const first = await collectOnce();
+  absorb(first, '[스윕]');
+  const already = Object.values(first.existing.answers || {}).filter((v) => v.length > 0).length;
+  console.log(`[스윕] 새 정답 ${first.added}건 · 오늘 정답 있는 퀴즈 ${already}/${QUIZZES.length}개`);
+
+  // 2) 다음 블록
+  const now = kstNow();
+  const nowMin = now.getUTCHours() * 60 + now.getUTCMinutes();
+  const block = upcomingBlock(nowMin, now.getUTCDay());
+
+  if (!block) {
+    console.log(`완료 — 오늘 남은 감시 구간 없음 (누적 ${total}건)`);
     return;
   }
 
-  console.log(`[감시] 공개 직후 미수집 ${hot.length}개: ${hot.join(', ')} — ${POLL_SECONDS}초 간격으로 ${WATCH_SECONDS}초간 대기`);
+  const waitMin = block.a - nowMin;
+  const label = `${fmtMin(block.a)}~${fmtMin(block.b)} KST · 퀴즈 ${block.slugs.size}개`;
 
-  while ((Date.now() - t0) / 1000 < WATCH_SECONDS && hot.length > 0) {
-    await sleep(POLL_SECONDS * 1000);
-    const r = await collectOnce();
-    if (r.added > 0) {
-      total += r.added;
-      for (const [s, c] of Object.entries(r.bySlug)) allBySlug[s] = (allBySlug[s] || 0) + c;
-      const elapsed = Math.round((Date.now() - t0) / 1000);
-      console.log(`[감시 ${elapsed}초] 새 정답 ${report(r.added, r.bySlug)} — 즉시 발행`);
-      if (AUTO_PUSH) gitCommitPush(`data: ${kstStamp().slice(5, 16).replace('T', ' ')} 정답 ${r.added}건 (공개 직후 포착)`);
-    }
-    hot = hotSlugs(r.existing);
+  // 3) 아직 멀면 종료. 이 job은 여기서 끝난다(수십 초).
+  if (waitMin > LEAD_MINUTES) {
+    console.log(`완료 — 다음 감시 구간 ${label}, ${waitMin}분 뒤. 지금은 대기 안 함 (누적 ${total}건)`);
+    return;
   }
 
-  if (hot.length > 0) {
-    console.log(`[감시 종료] 아직 미공개: ${hot.join(', ')} — 다음 실행에서 계속 감시`);
+  // 절대 시각으로 고정해 둔다. 이렇게 하면 23:58~00:25 자정 넘김도 별도 처리가 필요 없다.
+  const startAt = t0 + Math.max(0, waitMin) * 60_000;
+  const endAt = Math.min(t0 + (block.b - nowMin) * 60_000, hardStop);
+
+  if (waitMin > 0) {
+    console.log(`[대기] 감시 구간 ${label} — ${waitMin}분 뒤 시작. 잠들었다 깨어남`);
+    await sleep(startAt - Date.now());
+  }
+
+  let pending = pendingIn(block, loadExisting(kstToday()));
+  console.log(`[감시 시작] ${label} — 미수집 ${pending.length}개: ${pending.join(', ') || '없음'}`);
+
+  while (Date.now() < endAt && pending.length > 0) {
+    const r = await collectOnce();
+    const elapsed = Math.round((Date.now() - t0) / 1000);
+    absorb(r, `[감시 ${elapsed}초]`);
+    pending = pendingIn(block, r.existing);
+    if (pending.length === 0) break;
+    const left = endAt - Date.now();
+    if (left <= 0) break;
+    await sleep(Math.min(POLL_SECONDS * 1000, left));
+  }
+
+  // 4) 전부 잡았으면 남은 시간을 낭비하지 않고 바로 끝낸다.
+  if (pending.length === 0) {
+    console.log(`[감시 완료] 구간 내 퀴즈 전부 수집 — 조기 종료`);
+  } else {
+    console.log(`[감시 종료] 아직 미공개: ${pending.join(', ')} — 다음 실행에서 계속`);
   }
   console.log(total > 0 ? `완료 — 총 ${report(total, allBySlug)}` : '완료 — 새 정답 없음');
 }
@@ -499,4 +589,16 @@ if (isEntry) {
   });
 }
 
-export { gitCommitPush, mergeAnswerData, isDuplicate, isSaneAnswer, parseQuizbells, hotSlugs };
+export {
+  gitCommitPush,
+  mergeAnswerData,
+  isDuplicate,
+  isSaneAnswer,
+  parseQuizbells,
+  runsOn,
+  rawWindows,
+  mergeWindows,
+  upcomingBlock,
+  pendingIn,
+  fmtMin,
+};
