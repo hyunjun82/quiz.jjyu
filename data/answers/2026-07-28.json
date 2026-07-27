@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "updatedAt": "2026-07-28T00:02:41.260+09:00",
+  "updatedAt": "2026-07-28T00:07:12.623+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -34,7 +34,14 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "스타퀴즈 7/28일자",
+        "answer": "2번 12시~13시",
+        "note": "",
+        "publishedAt": "2026-07-28T00:07:12.622+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "다음 중 올해 8월에 개막하는 뮤지컬이 아닌 것은?",
