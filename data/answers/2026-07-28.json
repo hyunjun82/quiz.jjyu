@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "updatedAt": "2026-07-28T00:09:23.594+09:00",
+  "updatedAt": "2026-07-28T00:10:30.278+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -30,7 +30,14 @@
         "publishedAt": "2026-07-28T00:01:36.516+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "$60 이상 구매 시 미니 큐브 파우치 소프트카키 증정",
+        "note": "",
+        "publishedAt": "2026-07-28T00:10:30.278+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
