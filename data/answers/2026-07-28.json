@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "updatedAt": "2026-07-28T16:27:17.101+09:00",
+  "updatedAt": "2026-07-28T18:55:13.094+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -102,6 +102,41 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-07-28T16:27:17.100+09:00"
+      },
+      {
+        "question": "복주머니를 열면 OOOO 된다. OOOO에 들어갈 말은? (초성힌트 : ㅈㄷㅇㅁ)",
+        "answer": "자동응모",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-07-28T18:55:13.093+09:00"
+      },
+      {
+        "question": "이벤트 경품으로 이디야커피 생과일 OOOO를 받을 수 있다. OOOO에 들어갈 말은? (초성힌트 : ㅅㅂㅈㅅ)",
+        "answer": "수박주스",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-07-28T18:55:13.093+09:00"
+      },
+      {
+        "question": "이벤트에 응모하면 추첨을 통해 OOOO ULTRA3를 증정한다. OOOO에 들어갈 말은? (초성힌트 : ㅇㅍㅇㅊ)",
+        "answer": "애플워치",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-07-28T18:55:13.093+09:00"
+      },
+      {
+        "question": "우리은행 응모하면 전원 당첨 복주머니",
+        "answer": "1, 100, 수박주스, 자동응모, 애플워치",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-28T18:55:13.093+09:00"
+      },
+      {
+        "question": "우리은행 복날에 행운이 복복복",
+        "answer": "수박주스, 자동응모, 애플워치",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-28T18:55:13.093+09:00"
       }
     ],
     "shinhan-sol": [
@@ -257,6 +292,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-28T14:02:51.531+09:00"
+      },
+      {
+        "question": "간단한 한끼를 원한다면? BHC 브리또 O종 총 10팩 28,900원 초특가! > 4가지 치즈의 리치치즈 치킨맛 > 매콤 중독 핫치킨맛 > BHC 간식 재구매 1위 > 100% 국산 닭가슴살 > HACCP 안전관리 인증",
+        "answer": "2",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-07-28T18:55:13.093+09:00"
       }
     ],
     "climate-action": [
