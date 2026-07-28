@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "updatedAt": "2026-07-28T09:25:14.277+09:00",
+  "updatedAt": "2026-07-28T10:01:18.659+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -39,7 +39,14 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "제주신라호텔",
+        "note": "",
+        "publishedAt": "2026-07-28T10:01:18.658+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
