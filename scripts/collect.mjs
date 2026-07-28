@@ -54,6 +54,8 @@ const LEAD_MINUTES = Number(process.env.LEAD_MINUTES ?? 70);
 const POLL_SECONDS = Number(process.env.POLL_SECONDS ?? 30);
 // job 하나가 살아 있을 수 있는 절대 상한(분). 워크플로 timeout보다 짧게 잡아 스스로 정리한다.
 const MAX_MINUTES = Number(process.env.MAX_MINUTES ?? 165);
+// 정답을 다 잡은 뒤에도 "진짜 문제 지문"이 늦게 오는 소스를 이만큼은 더 기다린다.
+const GRACE_SECONDS = Number(process.env.GRACE_SECONDS ?? 180);
 // 찾는 즉시 git commit/push 할지 여부 (로컬 테스트에서는 끈다).
 const AUTO_PUSH = process.env.AUTO_PUSH === '1';
 
@@ -82,6 +84,12 @@ function decodeEntities(s) {
     .replace(/&quot;/g, '"')
     .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
     .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    // 비즈월드 본문이 &hellip; 를 그대로 쓴다 — 안 풀면 문제 지문에 날것으로 박힌다(7/28 실측).
+    .replace(/&hellip;/g, '…')
+    .replace(/&middot;/g, '·')
+    .replace(/&[lr]dquo;/g, '"')
+    .replace(/&[lr]squo;/g, "'")
+    .replace(/&[mn]dash;/g, '–')
     .trim();
 }
 
@@ -119,10 +127,10 @@ function itemKey(x) {
  * "O" vs "O (그렇다)") 완전일치만 보면 같은 정답이 중복 등록된다.
  * 짧은 정답은 한쪽이 다른 쪽의 앞부분이면 같은 것으로 본다.
  */
-function isDuplicate(current, item) {
+function dupIndex(current, item) {
   const key = itemKey(item);
-  if (!key) return true;
-  return current.some((x) => {
+  if (!key) return -2; // 정답이 없는 쓰레기 — 넣지도 말고 갱신하지도 말 것
+  return current.findIndex((x) => {
     const k = itemKey(x);
     if (k === key) return true;
     if (k.length >= 1 && key.length >= 1 && (k.startsWith(key) || key.startsWith(k))) {
@@ -130,6 +138,57 @@ function isDuplicate(current, item) {
     }
     return false;
   });
+}
+
+function isDuplicate(current, item) {
+  return dupIndex(current, item) !== -1;
+}
+
+/**
+ * 퀴즈벨은 문제 지문을 안 주고 "KB Pay 오늘의 퀴즈" 같은 뭉뚱그린 제목만 준다.
+ * 이런 제목으로는 롱테일 검색에 절대 안 걸린다 — 페이지 제목 전략이 통째로 죽는다.
+ *
+ * 문제: 퀴즈벨이 몇 초 먼저 도착하면 같은 정답이므로 뒤따라온 비즈월드의
+ *      "진짜 지문"이 중복으로 버려지고 뭉뚱그린 제목이 그날 하루 박제된다(7/28 실측).
+ * 해결: 정답이 같아도 지문이 확실히 더 좋아졌으면 지문만 갈아끼운다.
+ *      publishedAt(선점 시각)은 절대 건드리지 않는다 — 그게 우리 기록이니까.
+ */
+/**
+ * "지문에 실제 내용이 얼마나 들어 있나"를 글자 수로 잰다.
+ *
+ * 단순히 길이로 재면 안 된다. 블로그 소스는 "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈
+ * 7월28일"처럼 길기만 하고 알맹이가 없는 글 제목을 준다(7/28 실측) — 30자나 되지만
+ * 검색어로는 전혀 못 쓴다. 그래서 앱 이름·날짜·'퀴즈/정답' 같은 껍데기를 다 걷어낸
+ * 뒤에 남는 글자를 센다.
+ */
+function questionSubstance(q, slug) {
+  let s = String(q || '');
+  const meta = BY_SLUG[slug] || {};
+  for (const name of [meta.app, meta.name, meta.shortName, meta.searchKeyword]) {
+    for (const tok of String(name || '').split(/[\s()/]+/)) {
+      if (tok.length >= 2) s = s.split(tok).join(' ');
+    }
+  }
+  return s
+    .replace(/\d{1,2}\s*월\s*\d{1,2}\s*일/g, ' ')
+    .replace(/\d{4}[-./]\d{1,2}[-./]\d{1,2}/g, ' ')
+    .replace(/오늘의|오늘|스타퀴즈|퀴즈팡팡|용돈퀴즈|행운퀴즈|초성퀴즈|퀴즈|정답|문제/g, ' ')
+    .replace(/[^가-힣0-9A-Za-z]/g, '')
+    .length;
+}
+
+/** 검색어로 쓸 수 없는 뭉뚱그린 제목인가 */
+function isGenericQuestion(q, slug) {
+  return questionSubstance(q, slug) < 12;
+}
+
+function isBetterQuestion(oldQ, newQ, slug) {
+  const a = String(oldQ || '').trim();
+  const b = String(newQ || '').trim();
+  if (!b || b === a) return false;
+  if (!a) return true;
+  // 기존이 껍데기고, 새 것은 알맹이가 확실히 더 많아야 갈아끼운다.
+  return isGenericQuestion(a, slug) && questionSubstance(b, slug) >= questionSubstance(a, slug) + 12;
 }
 
 /* ────────────────────── 소스 A: luckyquiz3 블로그 ────────────────────── */
@@ -181,7 +240,7 @@ function parseEntry(entry) {
     const slug = headerToSlug(category, header, title);
     if (!slug || !QUIZ_SLUGS.includes(slug)) continue;
 
-    results.push({ slug, ...buildItem(question || title, answers) });
+    results.push({ slug, ...buildItem(question || title, answers), source: 'blog' });
   }
   return results;
 }
@@ -241,7 +300,7 @@ function parseQuizbells(html, slug, today) {
         ? `${label} — ${question}`
         : `${label}${question ? ` (${question})` : ' 오늘의 퀴즈'}`;
     }
-    out.push({ slug, ...buildItem(question, answers) });
+    out.push({ slug, ...buildItem(question, answers), source: 'quizbells' });
   }
   return out;
 }
@@ -624,22 +683,35 @@ async function collectOnce() {
   const found = [...a, ...c, ...b];
 
   let added = 0;
+  let upgraded = 0;
   const bySlug = {};
   for (const f of found) {
     const current = existing.answers[f.slug] || (existing.answers[f.slug] = []);
     const item = { question: f.question, answer: f.answer, ...(f.choices ? { choices: f.choices } : {}), note: f.note };
-    if (isDuplicate(current, item)) continue;
-    current.push({ ...item, publishedAt: kstStamp() });
+    const at = dupIndex(current, item);
+    if (at === -2) continue;
+    if (at >= 0) {
+      // 이미 있는 정답 — 다만 지문이 더 좋아졌으면 그것만 갈아끼운다.
+      if (isBetterQuestion(current[at].question, item.question, f.slug)) {
+        console.log(`지문 개선 [${f.slug}] "${current[at].question}" → "${item.question}" (${f.source || '?'})`);
+        current[at].question = item.question;
+        current[at].source = f.source || current[at].source;
+        upgraded += 1;
+      }
+      continue;
+    }
+    // source를 남긴다 — "어느 소스가 먼저 도달했나"를 나중에 확실히 판정하기 위해서.
+    current.push({ ...item, source: f.source || 'unknown', publishedAt: kstStamp() });
     added += 1;
     bySlug[f.slug] = (bySlug[f.slug] || 0) + 1;
   }
 
-  if (added > 0) {
+  if (added > 0 || upgraded > 0) {
     existing.updatedAt = kstStamp();
     fs.mkdirSync(ANSWERS_DIR, { recursive: true });
     fs.writeFileSync(fileFor(today), JSON.stringify(existing, null, 2));
   }
-  return { added, bySlug, existing };
+  return { added, upgraded, bySlug, existing };
 }
 
 /**
@@ -660,12 +732,18 @@ async function main() {
   let total = 0;
   const allBySlug = {};
   const absorb = (r, tag) => {
-    if (r.added === 0) return;
+    // 새 정답이 0건이어도 지문이 개선됐으면 반드시 내보낸다 — 제목이 곧 검색 유입이다.
+    if (r.added === 0 && !r.upgraded) return;
     total += r.added;
     for (const [s, c] of Object.entries(r.bySlug)) allBySlug[s] = (allBySlug[s] || 0) + c;
-    console.log(`${tag} 새 정답 ${report(r.added, r.bySlug)}`);
+    if (r.added > 0) console.log(`${tag} 새 정답 ${report(r.added, r.bySlug)}`);
+    if (r.upgraded) console.log(`${tag} 문제 지문 개선 ${r.upgraded}건`);
     if (AUTO_PUSH) {
-      gitCommitPush(`data: ${kstStamp().slice(5, 16).replace('T', ' ')} 정답 ${r.added}건`);
+      const ts = kstStamp().slice(5, 16).replace('T', ' ');
+      const what = r.added > 0
+        ? `정답 ${r.added}건${r.upgraded ? ` · 지문 ${r.upgraded}건` : ''}`
+        : `지문 개선 ${r.upgraded}건`;
+      gitCommitPush(`data: ${ts} ${what}`);
     }
   };
 
@@ -720,8 +798,31 @@ async function main() {
   }
 
   // 4) 전부 잡았으면 남은 시간을 낭비하지 않고 바로 끝낸다.
+  //    다만 뭉뚱그린 지문("KB Pay 오늘의 퀴즈")으로 잡힌 게 있으면 바로 끄지 않는다.
+  //    퀴즈벨이 몇십 초 먼저 도착하는 일이 흔한데, 여기서 끄면 뒤따라올 비즈월드의
+  //    진짜 지문을 영영 못 받는다 — 그러면 제목이 하루 종일 검색에 안 걸린다(7/28 실측).
   if (pending.length === 0) {
-    console.log(`[감시 완료] 구간 내 퀴즈 전부 수집 — 조기 종료`);
+    const genericLeft = () => {
+      const cur = loadExisting(kstToday());
+      return [...block.slugs].filter((s) =>
+        (cur.answers[s] || []).some((it) => isGenericQuestion(it.question, s)),
+      );
+    };
+    let g = genericLeft();
+    const graceEnd = Math.min(Date.now() + GRACE_SECONDS * 1000, endAt, hardStop);
+    if (g.length) {
+      console.log(`[지문 대기] 뭉뚱그린 지문 ${g.length}개(${g.join(', ')}) — 최대 ${GRACE_SECONDS}초 더 본다`);
+    }
+    while (g.length > 0 && Date.now() < graceEnd) {
+      await sleep(Math.min(POLL_SECONDS * 1000, graceEnd - Date.now()));
+      absorb(await collectOnce(), `[지문 ${Math.round((Date.now() - t0) / 1000)}초]`);
+      g = genericLeft();
+    }
+    console.log(
+      g.length
+        ? `[감시 완료] 정답 전부 수집 — 지문 미개선 ${g.join(', ')}`
+        : `[감시 완료] 구간 내 퀴즈 전부 수집 — 조기 종료`,
+    );
   } else {
     console.log(`[감시 종료] 아직 미공개: ${pending.join(', ')} — 다음 실행에서 계속`);
   }
@@ -741,6 +842,9 @@ export {
   gitCommitPush,
   mergeAnswerData,
   isDuplicate,
+  isGenericQuestion,
+  questionSubstance,
+  isBetterQuestion,
   isSaneAnswer,
   parseQuizbells,
   parseBizwArticle,
