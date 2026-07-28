@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-29T00:03:58.124+09:00",
+  "updatedAt": "2026-07-29T00:04:55.724+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,7 +41,15 @@
         "publishedAt": "2026-07-29T00:00:38.116+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "유아용품",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:04:55.724+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
