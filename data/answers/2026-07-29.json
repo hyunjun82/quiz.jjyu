@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-29T04:18:42.281+09:00",
+  "updatedAt": "2026-07-29T08:01:08.024+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,6 +42,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-29T00:15:22.434+09:00"
+      },
+      {
+        "question": "AI 퀴즈기리니기리니",
+        "answer": "금메달",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T08:01:08.024+09:00"
       }
     ],
     "ok-cashbag": [],
