@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-29",
+  "updatedAt": "2026-07-29T00:00:38.116+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "청소년기후행동(청기행)'이란 기후위기의 위험 수준을 줄이고 기후위기 속에서 안전할 수 있도록 변화를 이끌어내는 청소년 기후 운동 단체를 말한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:00:38.116+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "AI의 학습이나 의사결정 과정에 사람이 함께 참여해 결과를 검토하고 보완하는 개념은?",
+        "answer": "휴먼인더루프",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:00:38.116+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "삭센다와 위고비는 성분이 같은 비만 치료 주사다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:00:38.116+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "양치질만으로는 치석제거가 어렵다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:00:38.116+09:00"
+      }
+    ]
+  }
+}
