@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-29T00:05:01.435+09:00",
+  "updatedAt": "2026-07-29T00:06:02.153+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,7 +53,15 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "스타퀴즈 7/29일자",
+        "answer": "4번 ELD",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:06:02.153+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "AI의 학습이나 의사결정 과정에 사람이 함께 참여해 결과를 검토하고 보완하는 개념은?",
