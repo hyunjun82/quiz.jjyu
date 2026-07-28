@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "updatedAt": "2026-07-28T08:03:18.676+09:00",
+  "updatedAt": "2026-07-28T09:14:51.299+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -63,7 +63,14 @@
         "publishedAt": "2026-07-28T00:10:30.278+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 퀴즈 — 0000",
+        "answer": "지분투자",
+        "note": "",
+        "publishedAt": "2026-07-28T09:14:51.299+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [
       {
