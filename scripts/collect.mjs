@@ -111,6 +111,24 @@ function isSaneAnswer(a) {
   if (a.length > 40) return false; // 정답은 대부분 10자 이내. 40자 넘으면 잡담/지문 혼입.
   if (/https?:\/\//i.test(a)) return false;
   if (/\d{1,2}시 \d{1,2}분/.test(a)) return false; // "지금 0시 23분 ..." 류 커뮤니티 글
+  // 7/28 실측: 카카오페이에 정답 "- 99"가 발행됐다. 커뮤니티 글 본문 조각이
+  // 정답 칸에 그대로 들어온 것. 정답은 문장부호로 시작하지 않는다.
+  if (/^[-–—·.,?!/|]/.test(a)) return false;
+  if (!/[가-힣A-Za-z0-9]/.test(a)) return false;
+  return true;
+}
+
+/**
+ * 문제 지문이 진짜 문제인지 검증한다.
+ * 퀴즈벨 표에는 사용자가 쓴 커뮤니티 글이 그대로 행으로 섞여 들어온다 — 이 글들은
+ * 제목이 "260728 카카오페이 오후 퀴즈 2탄피아소"처럼 YYMMDD로 시작한다(7/28 실측).
+ * 이런 게 발행되면 우리 도메인에 쓰레기 페이지가 하나 생기고 제목까지 그대로 박힌다.
+ */
+function isSaneQuestion(q) {
+  const s = String(q || '').trim();
+  if (!s) return false;
+  if (/^\d{6}\s*\D/.test(s)) return false;
+  if (/https?:\/\//i.test(s)) return false;
   return true;
 }
 
@@ -688,6 +706,10 @@ async function collectOnce() {
   for (const f of found) {
     const current = existing.answers[f.slug] || (existing.answers[f.slug] = []);
     const item = { question: f.question, answer: f.answer, ...(f.choices ? { choices: f.choices } : {}), note: f.note };
+    if (!isSaneQuestion(item.question)) {
+      console.log(`지문 거부 [${f.slug}] "${item.question}" — 커뮤니티 글로 판단`);
+      continue;
+    }
     const at = dupIndex(current, item);
     if (at === -2) continue;
     if (at >= 0) {
@@ -846,6 +868,7 @@ export {
   questionSubstance,
   isBetterQuestion,
   isSaneAnswer,
+  isSaneQuestion,
   parseQuizbells,
   parseBizwArticle,
   collectFromBizwnews,
