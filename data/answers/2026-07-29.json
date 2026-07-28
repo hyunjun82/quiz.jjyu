@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-29T00:15:34.332+09:00",
+  "updatedAt": "2026-07-29T00:16:30.448+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,7 +58,15 @@
         "publishedAt": "2026-07-29T00:04:55.724+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 소비자가 지불하는 가격과 그 상품을 위해 지불할 용의가 있는 최대 금액의 차이예요.",
+        "answer": "소비자잉여",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:16:30.448+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
