@@ -517,6 +517,41 @@ function loadExisting(today) {
   return empty;
 }
 
+/**
+ * 이미 발행된 오늘자 데이터에서 쓰레기 행을 스스로 걷어낸다.
+ * 수집기를 아무리 조여도 소스가 새로운 방식으로 이상한 걸 흘리면 뚫린다.
+ * 그래서 매 실행마다 발행된 것 자체를 다시 검사해서 자가 치유하게 둔다.
+ * 판정 기준은 수집 때와 같다(isSaneQuestion / isSaneAnswer) — 규칙이 좁아서
+ * 정상 정답을 잘못 지울 위험이 낮다.
+ */
+function sweepGarbage(today) {
+  const file = fileFor(today);
+  if (!fs.existsSync(file)) return 0;
+  const d = JSON.parse(fs.readFileSync(file, 'utf-8'));
+  let removed = 0;
+  for (const [slug, arr] of Object.entries(d.answers || {})) {
+    if (!Array.isArray(arr) || !arr.length) continue;
+    const kept = arr.filter((it) => {
+      const ok = isSaneQuestion(it.question) && isSaneAnswer(String(it.answer || ''));
+      if (!ok) {
+        console.log(`[자가치유] 쓰레기 삭제 [${slug}] "${it.question}" = "${it.answer}"`);
+        removed += 1;
+      }
+      return ok;
+    });
+    d.answers[slug] = kept;
+  }
+  if (removed > 0) {
+    d.updatedAt = kstStamp();
+    fs.writeFileSync(file, JSON.stringify(d, null, 2));
+    if (AUTO_PUSH) {
+      const ts = kstStamp().slice(5, 16).replace('T', ' ');
+      gitCommitPush(`data: ${ts} 쓰레기 ${removed}건 자동 삭제`);
+    }
+  }
+  return removed;
+}
+
 const DOW_MAP = { sun: 0, mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6 };
 
 /** 이 퀴즈가 해당 요일에 나오는가? */
@@ -769,6 +804,10 @@ async function main() {
     }
   };
 
+  // 0) 이미 발행된 것 자가 검사 — 사람 손 없이 쓰레기를 스스로 걷어낸다.
+  const swept = sweepGarbage(kstToday());
+  if (swept) console.log(`[자가치유] 발행된 쓰레기 ${swept}건 삭제 완료`);
+
   // 1) 첫 스윕 — 항상 한다.
   const nowStart = kstNow();
   console.log(`[시작] ${kstToday()} ${fmtMin(nowStart.getUTCHours() * 60 + nowStart.getUTCMinutes())} KST`);
@@ -869,6 +908,7 @@ export {
   isBetterQuestion,
   isSaneAnswer,
   isSaneQuestion,
+  sweepGarbage,
   parseQuizbells,
   parseBizwArticle,
   collectFromBizwnews,
