@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-29T00:02:51.602+09:00",
+  "updatedAt": "2026-07-29T00:03:49.838+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -12,7 +12,22 @@
       }
     ],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "2배",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:03:49.838+09:00"
+      },
+      {
+        "question": "코리언특급 박찬호가 전통의 메이저리그 구단 애슬레틱스에 큰 투자계획을 발표했습니다. 아래 중 애슬레틱스 구단이 2028년 부터 새로운 연고지로 선정한 도시는?",
+        "answer": "라스베이거스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:03:49.838+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
