@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-29T00:16:38.795+09:00",
+  "updatedAt": "2026-07-29T00:57:40.281+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -47,6 +47,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-29T00:00:38.116+09:00"
+      },
+      {
+        "question": "LED 조명보다 형광등이나 백열전구가 에너지 효율이 더 높다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:57:40.281+09:00"
       }
     ],
     "hpoint": [
@@ -68,7 +75,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 (디깅퀴즈)",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:57:40.281+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "스타퀴즈 7/29일자",
@@ -92,6 +107,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-29T00:00:38.116+09:00"
+      },
+      {
+        "question": "1982년 개장 이후 서울 야구의 상징으로 자리했으며, 2026 시즌을 끝으로 철거 예정인 야구장은?",
+        "answer": "잠실야구장",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:57:40.281+09:00"
       }
     ],
     "hana-onq": [
@@ -127,6 +149,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-29T00:00:38.116+09:00"
+      },
+      {
+        "question": "생리 주기를 전후해 턱·입 주변에 반복되는 여드름은 호르몬 영향이 크다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T00:57:40.281+09:00"
       }
     ],
     "skstoa": [],
