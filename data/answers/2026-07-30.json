@@ -1,10 +1,25 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T00:01:46.002+09:00",
+  "updatedAt": "2026-07-30T00:02:41.008+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "블루투스 스피커",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T00:02:41.007+09:00"
+      },
+      {
+        "question": "29일 정오 현재 KBO 리그 9승 고지에 선착한 투수가 무려 5명으로 다승경쟁이 아주 치열한 상황입니다. 아래 중 올 시즌 아직 9승 이상을 기록하지 않은 투수는?",
+        "answer": "양현종",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T00:02:41.008+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
@@ -33,7 +48,15 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "다음 중, 중개형 ISA 계좌에서 투자할 수 있는 상품은 무엇일까요?",
+        "answer": "모두 가능",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T00:02:41.008+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
