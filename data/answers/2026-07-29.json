@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-07-29T10:03:13.688+09:00",
+  "updatedAt": "2026-07-29T10:03:29.120+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -234,6 +234,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-07-29T04:18:42.280+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 7/29일자",
+        "answer": "갤럭시 S26 울트라",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-29T10:03:29.120+09:00"
       }
     ],
     "kbank": [
