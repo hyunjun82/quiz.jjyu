@@ -129,7 +129,25 @@ function isSaneQuestion(q) {
   if (!s) return false;
   if (/^\d{6}\s*\D/.test(s)) return false;
   if (/https?:\/\//i.test(s)) return false;
+  // 7/29 실측: 토스 표에 "퀴즈1234657 / 플립" 행이 섞여 들어와 진짜 문제
+  // "새로운Z시리즈 예약시작 / 플립, 폴드, 울트라"를 밀어내고 발행됐다.
+  // '퀴즈' 같은 껍데기를 걷어냈을 때 숫자만 남으면 사람이 장난으로 친 행이다.
+  const core = s.replace(/퀴즈|정답|문제|오늘의|오늘/g, '').replace(/[^가-힣0-9A-Za-z]/g, '');
+  if (core && /^\d+$/.test(core)) return false;
   return true;
+}
+
+/**
+ * 같은 정답으로 판정된 두 값 중 새 것이 "더 완전한" 답인가.
+ * 7/29 실측: 먼저 "플립"이 들어오자, 뒤에 온 진짜 정답 "플립, 폴드, 울트라"가
+ * 접두사 규칙에 걸려 중복으로 버려졌다. 우리 사이트만 정답이 1/3만 나온 원인이다.
+ * 새 값이 옛 값을 통째로 품고 있으면서 더 길면 갈아끼운다.
+ */
+function isFullerAnswer(oldA, newA) {
+  const a = normalize(oldA);
+  const b = normalize(newA);
+  if (!a || !b || a === b) return false;
+  return b.length > a.length && b.startsWith(a);
 }
 
 function normalize(s) {
@@ -748,7 +766,20 @@ async function collectOnce() {
     const at = dupIndex(current, item);
     if (at === -2) continue;
     if (at >= 0) {
-      // 이미 있는 정답 — 다만 지문이 더 좋아졌으면 그것만 갈아끼운다.
+      // 이미 있는 정답 — 다만 새 값이 "더 완전한" 정답이면 통째로 갈아끼운다.
+      // 7/29 실측: "플립"이 먼저 들어와 진짜 정답 "플립, 폴드, 울트라"가 버려졌다.
+      if (isFullerAnswer(current[at].answer, item.answer)) {
+        console.log(`정답 보강 [${f.slug}] "${current[at].answer}" → "${item.answer}" (${f.source || '?'})`);
+        current[at].answer = item.answer;
+        if (item.choices) current[at].choices = item.choices;
+        if (isBetterQuestion(current[at].question, item.question, f.slug)) {
+          current[at].question = item.question;
+        }
+        current[at].source = f.source || current[at].source;
+        upgraded += 1;
+        continue;
+      }
+      // 정답은 같고 지문만 좋아진 경우 — 지문만 갈아끼운다.
       if (isBetterQuestion(current[at].question, item.question, f.slug)) {
         console.log(`지문 개선 [${f.slug}] "${current[at].question}" → "${item.question}" (${f.source || '?'})`);
         current[at].question = item.question;
@@ -909,6 +940,7 @@ export {
   isSaneAnswer,
   isSaneQuestion,
   sweepGarbage,
+  isFullerAnswer,
   parseQuizbells,
   parseBizwArticle,
   collectFromBizwnews,
