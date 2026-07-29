@@ -542,6 +542,31 @@ function loadExisting(today) {
  * 판정 기준은 수집 때와 같다(isSaneQuestion / isSaneAnswer) — 규칙이 좁아서
  * 정상 정답을 잘못 지울 위험이 낮다.
  */
+/**
+ * "이미 발행된 것을 지워도 되는가"를 판정한다. 수집 단계 필터(isSaneAnswer)와
+ * 절대 같은 기준을 쓰면 안 된다 — 이유는 두 가지다.
+ *
+ *  1) answer 없이 choices만 있는 정답이 정상적으로 존재한다. 캐시워크 초성 이벤트가
+ *     그렇다(7/26 하루에만 29건). 수집 기준으로 지우면 이 29건이 통째로 날아간다.
+ *  2) 수집 필터는 "의심스러우면 안 받는다"가 맞다 — 버려도 다음 회차에 다시 들어온다.
+ *     하지만 삭제는 되돌릴 수 없다. 그래서 여기서는 "확실한 쓰레기"만 지운다.
+ *     예: 길이 40자 초과는 수집 때는 거르지만, 이미 발행된 긴 정답은 진짜일 수 있어
+ *     지우지 않는다(7/18 토스 팀플전 정답이 실제로 66자였다).
+ */
+function garbageReason(it) {
+  if (!isSaneQuestion(it.question)) return '지문이 커뮤니티 글/장난';
+  const a = String(it.answer ?? '').trim();
+  const hasChoices = Array.isArray(it.choices) && it.choices.length > 0;
+  if (!a && !hasChoices) return '정답도 선택지도 없음';
+  if (!a) return null; // choices만 있는 정상 이벤트 퀴즈
+  if (PLACEHOLDER.has(a)) return '자리표시자';
+  if (/https?:\/\//i.test(a)) return '정답에 URL';
+  if (/^[-–—·.,?!/|]/.test(a)) return '정답이 문장부호로 시작';
+  if (/\d{1,2}시 \d{1,2}분/.test(a)) return '커뮤니티 잡담';
+  if (!/[가-힣A-Za-z0-9]/.test(a)) return '글자 없음';
+  return null;
+}
+
 function sweepGarbage(today) {
   const file = fileFor(today);
   if (!fs.existsSync(file)) return 0;
@@ -550,12 +575,13 @@ function sweepGarbage(today) {
   for (const [slug, arr] of Object.entries(d.answers || {})) {
     if (!Array.isArray(arr) || !arr.length) continue;
     const kept = arr.filter((it) => {
-      const ok = isSaneQuestion(it.question) && isSaneAnswer(String(it.answer || ''));
-      if (!ok) {
-        console.log(`[자가치유] 쓰레기 삭제 [${slug}] "${it.question}" = "${it.answer}"`);
+      const why = garbageReason(it);
+      if (why) {
+        console.log(`[자가치유] 쓰레기 삭제 [${slug}] "${it.question}" = "${it.answer}" (${why})`);
         removed += 1;
+        return false;
       }
-      return ok;
+      return true;
     });
     d.answers[slug] = kept;
   }
@@ -924,10 +950,39 @@ async function main() {
 // 직접 실행할 때만 돈다. 테스트에서 함수 단위로 import 할 수 있게 하기 위함.
 const isEntry = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
 if (isEntry) {
-  main().catch((e) => {
-    console.error(e);
-    process.exit(1);
-  });
+  main()
+    // 수집이 끝나면 곧바로 소스와 대조한다.
+    // 규칙을 아무리 다듬어도 다음 버그는 다른 모양으로 온다. 그래서 "규칙 추가"가 아니라
+    // "결과 대조"를 마지막 관문으로 둔다 — 우리가 발행한 것과 소스가 지금 말하는 것을
+    // 맞춰보고, 부분 정답은 그 자리에서 갈아끼운 뒤 푸시한다(7/29 토스 유형 재발 방지).
+    .then(() => runVerify())
+    .catch((e) => {
+      console.error(e);
+      process.exit(1);
+    });
+}
+
+async function runVerify() {
+  if (process.env.SKIP_VERIFY === '1') return;
+  let out = '';
+  try {
+    out = execFileSync(process.execPath, ['scripts/verify.mjs'], {
+      env: { ...process.env, VERIFY_FIX: '1' },
+      encoding: 'utf-8',
+      stdio: ['ignore', 'pipe', 'pipe'],
+      timeout: 180_000,
+    });
+  } catch (e) {
+    // verify는 문제가 남아 있으면 종료 코드 1로 끝난다 — 예외가 아니라 정상 신호다.
+    out = `${e.stdout || ''}${e.stderr || ''}`;
+  }
+  out = String(out).trim();
+  if (out) console.log(out);
+  // 실제로 고친 게 있을 때만 커밋한다. 0건이면 파일이 안 바뀌었으니 푸시할 것도 없다.
+  if (AUTO_PUSH && /VERIFY_FIXED=[1-9]/.test(out)) {
+    const ts = kstStamp().slice(5, 16).replace('T', ' ');
+    gitCommitPush(`data: ${ts} 소스 대조로 부분 정답 자동 교정`);
+  }
 }
 
 export {
@@ -941,6 +996,7 @@ export {
   isSaneQuestion,
   sweepGarbage,
   isFullerAnswer,
+  garbageReason,
   parseQuizbells,
   parseBizwArticle,
   collectFromBizwnews,
