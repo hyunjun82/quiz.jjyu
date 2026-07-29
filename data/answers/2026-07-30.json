@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T00:02:54.217+09:00",
+  "updatedAt": "2026-07-30T00:06:46.480+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -37,7 +37,15 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "이회영",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T00:06:46.480+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "1982년 개장 이후 서울 야구의 상징으로 자리했으며, 2026 시즌을 끝으로 철거 예정인 야구장은?",
