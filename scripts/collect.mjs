@@ -705,7 +705,18 @@ function gitCommitPush(message, attempt = 0) {
   };
 
   try {
-    run(['add', 'data/answers']);
+    // data/answers 만 스테이징하면 소스 대조 기록(verify-status.json)이 영영 안 올라간다.
+    // 7/29 실측: 예약 실행이 파일을 만들긴 했는데, 그건 세션이 git add -A 를 해준 덕분이었고
+    // 이 함수가 올린 게 아니었다. 즉 자동 경로만으로는 기록이 남지 않는 상태였다.
+    //
+    // ⚠️ 없는 경로를 add 하면 git 이 exit 128 로 죽는다("pathspec did not match").
+    //    새로 클론한 아침에는 verify 가 아직 안 돌아 이 파일이 없다. 그때 무조건 넣으면
+    //    정답 발행이라는 가장 중요한 경로가 통째로 막힌다. 그래서 있을 때만 얹는다.
+    const paths = ['data/answers'];
+    if (fs.existsSync(path.join(process.cwd(), 'data', 'verify-status.json'))) {
+      paths.push('data/verify-status.json');
+    }
+    run(['add', ...paths]);
     const staged = execFileSync('git', ['diff', '--cached', '--name-only']).toString().trim();
     if (!staged) return false;
     run(['-c', 'user.name=quizday-bot', '-c', 'user.email=bot@quizday', 'commit', '-m', message]);
