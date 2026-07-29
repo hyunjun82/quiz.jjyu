@@ -139,6 +139,34 @@ if (process.env.VERIFY_FIX === '1' && partial.length) {
 }
 
 const problems = missing.length + partial.length - fixed;
+
+// ── 실행 흔적(heartbeat) ──────────────────────────────────────────
+// "검증기가 예약 실행 안에서도 진짜 돌고 있는가"를 나중에 추측이 아니라 기록으로
+// 확인할 수 있어야 한다. 그래서 결과를 파일에 남긴다.
+// 다만 실행마다 커밋하면 하루 100건 넘는 잡음이 된다. 그래서 "날짜가 바뀌었거나
+// 숫자가 달라졌을 때"만 커밋 신호를 낸다 — 평소엔 하루 한 줄, 문제가 생기면 그때마다.
+const statusFile = path.join(root, 'data', 'verify-status.json');
+const prev = fs.existsSync(statusFile)
+  ? JSON.parse(fs.readFileSync(statusFile, 'utf-8'))
+  : {};
+const status = {
+  date: today,
+  lastRun: kstNow().toISOString().replace('Z', '+09:00'),
+  missing: missing.length,
+  partial: partial.length,
+  fixed,
+  unknown: unknown.length,
+  unreachable: unreachable.length,
+};
+const changed =
+  prev.date !== status.date ||
+  prev.missing !== status.missing ||
+  prev.partial !== status.partial ||
+  prev.fixed !== status.fixed ||
+  prev.unreachable !== status.unreachable;
+if (changed) fs.writeFileSync(statusFile, `${JSON.stringify(status, null, 2)}\n`);
+
 console.log(`VERIFY_FIXED=${fixed}`);
+console.log(`VERIFY_HEARTBEAT=${changed ? 1 : 0}`);
 console.log(`VERIFY_PROBLEMS=${problems}`);
 process.exit(problems > 0 ? 1 : 0);

@@ -978,10 +978,13 @@ async function runVerify() {
   }
   out = String(out).trim();
   if (out) console.log(out);
-  // 실제로 고친 게 있을 때만 커밋한다. 0건이면 파일이 안 바뀌었으니 푸시할 것도 없다.
-  if (AUTO_PUSH && /VERIFY_FIXED=[1-9]/.test(out)) {
+  // 실제로 고쳤거나 대조 결과가 달라졌을 때만 커밋한다.
+  // 아무것도 안 바뀐 실행에서 커밋하면 하루 100건 넘는 잡음이 된다.
+  const didFix = /VERIFY_FIXED=[1-9]/.test(out);
+  const beat = /VERIFY_HEARTBEAT=1/.test(out);
+  if (AUTO_PUSH && (didFix || beat)) {
     const ts = kstStamp().slice(5, 16).replace('T', ' ');
-    gitCommitPush(`data: ${ts} 소스 대조로 부분 정답 자동 교정`);
+    gitCommitPush(didFix ? `data: ${ts} 소스 대조로 부분 정답 자동 교정` : `chore: ${ts} 소스 대조 결과 기록`);
   }
 }
 
