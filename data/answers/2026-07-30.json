@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T00:10:47.703+09:00",
+  "updatedAt": "2026-07-30T00:11:55.462+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,6 +85,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-30T00:09:06.110+09:00"
+      },
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "추가시간",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T00:11:55.462+09:00"
       }
     ],
     "monimo": [
