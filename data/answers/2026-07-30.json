@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T19:00:23.870+09:00",
+  "updatedAt": "2026-07-30T20:32:41.651+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -160,7 +160,99 @@
         "publishedAt": "2026-07-30T10:00:49.063+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "소휘 애사비 구미 한샷",
+        "answer": "한샷, 물엿, 애사비, 젤라틴",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "소휘 푸룬 구미",
+        "answer": "식후, 소비톨, 인위적, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "소휘 전제품 애사비구미",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "용돈퀴즈 — 소휘 푸룬구미",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "소비자24 소비자 포털",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 두피케어 기능성 탈모앰플",
+        "answer": "탈모, 영양분, 쿨링감",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "멕시카나 전 메뉴 할인 쿠폰 고추크런치 토핑",
+        "answer": "고추화삭",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "소비자24 24시간 열린 소비자포털 안전정보",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "소비자24 24시간 열린 소비자포털 공정거래위원회 비교정보 서비스",
+        "answer": "비교공감",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      },
+      {
+        "question": "동국제약 라이브 특가 이벤트 마데카 바디로션",
+        "answer": "베리어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T20:32:41.651+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "LED 조명보다 형광등이나 백열전구가 에너지 효율이 더 높다.",
