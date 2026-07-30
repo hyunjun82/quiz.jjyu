@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-31",
+  "updatedAt": "2026-07-31T00:00:38.084+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "우리나라는 기후변화 대응을 위해 국제사회와 적극적으로 협력하고 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:00:38.084+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "어두워질수록 분비량이 증가해 졸음을 유도하고 수면·각성 주기를 조절하는 호르몬은?",
+        "answer": "멜라토닌",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:00:38.084+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "해조류는 요오드가 풍부하여 갑상선 질환 예방에 도움이 된다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:00:38.084+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "레지오넬라증은 냉방병과 증상이 비슷한 감염성 질환이다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:00:38.084+09:00"
+      }
+    ]
+  }
+}
