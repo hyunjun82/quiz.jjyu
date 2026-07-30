@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T10:01:00.999+09:00",
+  "updatedAt": "2026-07-30T10:01:21.899+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -112,6 +112,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-07-30T00:07:56.157+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 7/30일자",
+        "answer": "1번 완구거리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T10:01:21.899+09:00"
       }
     ],
     "kbank": [
