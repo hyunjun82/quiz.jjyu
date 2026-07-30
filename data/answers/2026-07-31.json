@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T00:24:41.312+09:00",
+  "updatedAt": "2026-07-31T00:45:04.919+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,7 +58,15 @@
         "publishedAt": "2026-07-31T00:06:59.346+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "0000란 소비자가 특정 플랫폼이나 서비스에 익숙해져 다른 곳으로 쉽게 옮기지 못하게 되는 현상이에요.",
+        "answer": "락인효과",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:45:04.919+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
