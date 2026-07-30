@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T00:06:25.549+09:00",
+  "updatedAt": "2026-07-31T00:06:59.346+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,7 +41,15 @@
         "publishedAt": "2026-07-31T00:00:38.084+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "무료 음료 쿠폰 (결과에 따라 1개만 제공)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:06:59.346+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
