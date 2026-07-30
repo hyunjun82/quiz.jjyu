@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T00:12:14.134+09:00",
+  "updatedAt": "2026-07-31T00:24:23.815+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -28,7 +28,15 @@
         "publishedAt": "2026-07-31T00:03:58.186+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카뱅 AI 퀴즈 (OX 퀴즈)",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:24:23.815+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
