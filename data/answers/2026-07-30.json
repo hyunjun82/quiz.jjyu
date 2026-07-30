@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T08:01:25.507+09:00",
+  "updatedAt": "2026-07-30T10:00:49.063+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,7 +52,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay촉감 완구의 인기로 방문과 매출이 함께 늘어난 곳은 어디일까요?\" 관련",
+        "answer": "완구거리",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-07-30T10:00:49.063+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
