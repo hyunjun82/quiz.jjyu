@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "updatedAt": "2026-07-30T10:01:37.272+09:00",
+  "updatedAt": "2026-07-30T10:02:26.517+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -88,7 +88,15 @@
       }
     ],
     "bitbunny": [],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "퀴즈거침없는화랑",
+        "answer": "첫결제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-30T10:02:26.517+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "디깅퀴즈 (디깅퀴즈)",
