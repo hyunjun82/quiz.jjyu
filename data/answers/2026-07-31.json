@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T00:05:10.973+09:00",
+  "updatedAt": "2026-07-31T00:05:55.106+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-31T00:04:50.920+09:00"
+      },
+      {
+        "question": "스타퀴즈 7/31일자",
+        "answer": "3번 용돈받기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T00:05:55.106+09:00"
       }
     ],
     "kbank": [
