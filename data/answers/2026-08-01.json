@@ -1,10 +1,25 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T00:02:24.456+09:00",
+  "updatedAt": "2026-08-01T00:04:29.453+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "5천원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:04:29.453+09:00"
+      },
+      {
+        "question": "올 시즌을 마지막으로 역사속으로 사라질 야구장을 홈구장으로 사용하는 LG 트윈스, 두산 베어스 두 팀이 대결하는 라이벌전 이름은?",
+        "answer": "잠실더비",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:04:29.453+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
