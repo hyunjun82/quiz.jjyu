@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T10:04:23.865+09:00",
+  "updatedAt": "2026-07-31T10:04:53.059+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-07-31T10:03:43.731+09:00"
+      },
+      {
+        "question": "컷슬린 버터쉐이크",
+        "answer": "단백질, 체중조절, 탄수화물",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T10:04:53.059+09:00"
       }
     ],
     "shinhan-sol": [
