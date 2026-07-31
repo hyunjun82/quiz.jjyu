@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T00:04:29.453+09:00",
+  "updatedAt": "2026-08-01T00:08:47.083+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -37,7 +37,15 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "계급이 없는 평등한 공동체 생활을 하였다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:08:47.083+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "2026년 9월 개막하는 제20회 아시안게임의 일본 공동 개최 지역은?",
