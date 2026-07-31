@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T00:01:19.586+09:00",
+  "updatedAt": "2026-08-01T00:02:24.456+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -33,7 +33,15 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "다음 중, 중개형 ISA 계좌에서 투자할 수 있는 상품은 무엇일까요?",
+        "answer": "모두 가능",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:02:24.456+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
