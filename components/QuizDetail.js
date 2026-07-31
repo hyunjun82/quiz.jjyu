@@ -24,19 +24,16 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
           { '@type': 'ListItem', position: 2, name: quiz.searchKeyword, item: `${SITE_URL}/quiz/${quiz.slug}/` },
         ],
       },
-      ...(items.length > 0
-        ? [{
-            '@type': 'FAQPage',
-            mainEntity: items.map((item) => ({
-              '@type': 'Question',
-              name: item.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: item.answer || (item.choices ? `정답 후보: ${item.choices.join(' / ')}` : ''),
-              },
-            })),
-          }]
-        : []),
+      // FAQPage 스키마 제거함 — 이 페이지에서는 두 가지 이유로 특히 문제였다.
+      //
+      // 1) Google이 2026-05-07부터 FAQ 리치결과 노출을 중단했고 2026-06에 지원을
+      //    내렸다. 이득이 0이다.
+      // 2) 이 날짜별 페이지는 화면에 '문제 목록'만 보여주고 정답은 문제별 상세
+      //    페이지에서만 보여준다. 그런데 스키마에는 정답을 다 넣고 있었다.
+      //    Google 구조화 데이터 정책은 마크업 내용이 화면에 보여야 한다고 요구하므로
+      //    이건 규칙 위반이었고, 동시에 정답 20건을 통째로 넘겨주는 통로였다.
+      //
+      // BreadcrumbList는 계속 지원되므로 유지한다.
     ],
   };
 

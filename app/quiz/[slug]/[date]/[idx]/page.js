@@ -62,17 +62,31 @@ export function generateMetadata({ params }) {
     ? `${short} — ${kwTail} (${dateLabel})`
     : `${kw} ${dateLabel} — ${params.idx}번 문제 ${noun}`;
 
-  const answerText = item?.answer
-    ? `정답은 '${item.answer}'입니다.`
-    : item?.choices?.length
-      ? `정답 후보: ${item.choices.join(' / ')}.`
-      : '';
+  // ⚠️ 설명(description)에는 정답 값을 절대 넣지 않는다.
+  //
+  // 근거 — Google Search Central "Control your snippets in Google Search":
+  //   "Google sometimes uses the meta description HTML element if it might give
+  //    users a more accurate description of the page than content taken directly
+  //    from the page."
+  // 즉 설명은 스니펫의 '보조 후보'다. 여기에 정답을 적어두면 검색결과에서
+  // 정답이 그대로 노출되고, 사용자는 클릭할 이유가 사라진다(제로클릭).
+  // 애드센스 수익은 클릭이 있어야 발생하므로 정답은 페이지 안에서만 보여준다.
+  // 네이버는 등록 사이트의 설명을 그대로 쓰는 경향이 강해 이 조치가 특히 중요하다.
+  //
+  // 대신 '최신성'을 판다 — 오늘 정답이 실제로 여기 있다는 신호가 클릭을 만든다.
+  // formatTime()은 toLocaleTimeString('ko-KR')을 쓰는데, 빌드 서버(Node)에 한국어
+  // ICU 데이터가 없으면 "오전 10:00"이 아니라 "AM 10:00"으로 나온다. 메타 설명은
+  // 빌드 시점에 만들어지므로 여기서는 ISO 문자열에서 직접 잘라 쓴다.
+  // publishedAt 형식: '2026-07-31T10:00:37.179+09:00' (이미 KST)
+  const hm = String(item?.publishedAt || '').slice(11, 16);
+  const updated = /^\d{2}:\d{2}$/.test(hm) ? hm : '';
 
   return {
     title,
-    // 지문 + 정답을 설명에도 넣어 검색결과에서 바로 눈에 띄게 한다.
     description: short
-      ? `${short} ${answerText} ${dateLabel} ${quiz.name} ${noun}을 공개 즉시 실시간으로 올립니다. ${quiz.reward} 바로 받아가세요.`
+      ? `${short} — ${dateLabel} ${quiz.name} ${noun} ${params.idx}번 확인하기.${
+          updated ? ` ${updated} 기준 업데이트.` : ''
+        } 공개 즉시 실시간으로 올립니다. ${quiz.reward} 바로 받아가세요.`
       : `${dateLabel} ${quiz.name} ${params.idx}번 문제 ${noun}을 지금 바로 확인하고 ${quiz.reward} 받아가세요. 공개 즉시 실시간 업데이트됩니다.`,
     alternates: { canonical: `/quiz/${quiz.slug}/${params.date}/${params.idx}/` },
   };
@@ -108,19 +122,15 @@ export default function AnswerPage({ params }) {
           },
         ],
       },
-      {
-        '@type': 'FAQPage',
-        mainEntity: [
-          {
-            '@type': 'Question',
-            name: item.question,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: item.answer || (item.choices ? `정답 후보: ${item.choices.join(' / ')}` : ''),
-            },
-          },
-        ],
-      },
+      // FAQPage 스키마 제거함.
+      //
+      // 근거 — Google Search Central "FAQ (FAQPage) structured data" 공지:
+      //   "As of May 7, 2026, FAQ rich results are no longer appearing in Google Search.
+      //    We will be dropping the FAQ search appearance, rich result report, and
+      //    support in the Rich results test in June 2026."
+      // 즉 이 스키마는 이제 검색결과에 아무 이득이 없다. 반면 acceptedAnswer 필드에
+      // 정답을 그대로 넣어두면 기계가 읽기 좋은 형태로 정답을 넘겨주는 셈이라
+      // 손해만 남는다. BreadcrumbList는 계속 지원되므로 그대로 둔다.
     ],
   };
 
