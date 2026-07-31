@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T10:03:48.716+09:00",
+  "updatedAt": "2026-07-31T10:04:23.865+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -49,9 +49,9 @@
       },
       {
         "question": "배달의민족 배짱할인에서는 오늘 한정 OOO 선착순 할인 쿠폰을 드려요 🎁✨ (힌트 : 대표 메뉴 황금올리브치킨🫒, 이벤트 페이지에서 확인할 수 있어요👀)",
-        "answer": "BBQ",
+        "answer": "BBQ, 배짱, 민족",
         "note": "",
-        "source": "blog",
+        "source": "quizbells",
         "publishedAt": "2026-07-31T10:00:37.179+09:00"
       },
       {
@@ -324,6 +324,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-07-31T07:54:59.942+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 7/31일자",
+        "answer": "1번 NFC",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T10:04:23.865+09:00"
       }
     ],
     "kbank": [
