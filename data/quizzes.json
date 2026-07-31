@@ -16,6 +16,7 @@
       "iconUrl": "/icons/toss-lucky.avif",
       "sourceSlug": "toss",
       "releaseTimes": [
+        "00:00",
         "12:00"
       ]
     },
@@ -34,7 +35,18 @@
       "rewardRange": "10~100캐시",
       "iconUrl": "/icons/cashwalk.avif",
       "sourceSlug": "cashwalk",
-      "releaseTimes": []
+      "releaseTimes": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "14:00",
+        "15:20",
+        "16:20",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:50"
+      ]
     },
     {
       "slug": "shinhan-sol",
@@ -71,9 +83,8 @@
       "iconUrl": "/icons/kakaobank.avif",
       "sourceSlug": "kakaobank",
       "releaseTimes": [
-        "08:00",
-        "12:00",
-        "20:00"
+        "00:00",
+        "08:00"
       ]
     },
     {
@@ -95,8 +106,10 @@
         "08:30",
         "10:00",
         "14:00",
+        "17:10",
         "20:00",
-        "21:00"
+        "21:00",
+        "23:20"
       ]
     },
     {
@@ -137,6 +150,7 @@
         "10:00",
         "10:30",
         "11:00",
+        "14:00",
         "19:00",
         "20:30"
       ]
@@ -213,7 +227,9 @@
       "rewardRange": "10~500P",
       "iconUrl": "/icons/kakaopay.avif",
       "sourceSlug": "kakaopay",
-      "releaseTimes": [],
+      "releaseTimes": [
+        "10:00"
+      ],
       "cadence": {
         "type": "irregular"
       }
@@ -273,6 +289,7 @@
       "sourceSlug": "kbank",
       "releaseTimes": [
         "00:00",
+        "02:20",
         "12:30"
       ]
     },
@@ -349,7 +366,8 @@
       "iconUrl": "/icons/mydoctor.avif",
       "sourceSlug": "mydoctor",
       "releaseTimes": [
-        "00:00"
+        "00:00",
+        "02:20"
       ]
     },
     {
@@ -447,7 +465,8 @@
       "iconUrl": "/icons/doctornow.avif",
       "sourceSlug": "doctornow",
       "releaseTimes": [
-        "00:00"
+        "00:00",
+        "02:20"
       ]
     }
   ]
