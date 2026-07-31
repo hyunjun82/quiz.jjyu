@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T00:09:53.573+09:00",
+  "updatedAt": "2026-08-01T00:12:02.516+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -20,7 +20,15 @@
         "publishedAt": "2026-08-01T00:04:29.453+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "OX 퀴즈 8/1",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:12:02.516+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -34,7 +42,15 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 기업이 제품을 팔고 난 뒤에도 소모품·수리·업그레이드로 지속적인 수익을 올리는 비즈니스 모델이에요.",
+        "answer": "애프터마켓",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:12:02.516+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
@@ -62,6 +78,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-01T00:09:53.573+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:12:02.516+09:00"
       }
     ],
     "monimo": [
