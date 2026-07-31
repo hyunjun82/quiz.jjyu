@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T10:06:32.331+09:00",
+  "updatedAt": "2026-07-31T10:39:33.807+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -317,7 +317,15 @@
         "publishedAt": "2026-07-31T10:06:00.541+09:00"
       }
     ],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 (디깅퀴즈)",
+        "answer": "청화백자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T10:39:33.807+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 별별퀴즈 (한국사 퀴즈)",
