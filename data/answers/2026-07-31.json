@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updatedAt": "2026-07-31T10:04:56.452+09:00",
+  "updatedAt": "2026-07-31T10:06:00.542+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -308,7 +308,15 @@
         "publishedAt": "2026-07-31T00:45:04.919+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "퀴즈타임 (퀴즈박코두)",
+        "answer": "연속플레이 ㄱㄱ",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-07-31T10:06:00.541+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
