@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-01",
+  "updatedAt": "2026-08-01T00:01:19.586+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "‘환경교육’이란 인간과 자연의 공존과 지속가능한 삶으로의 전환을 추구하는 교육을 말한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:01:19.586+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "2026년 9월 개막하는 제20회 아시안게임의 일본 공동 개최 지역은?",
+        "answer": "아이치, 나고야",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:01:19.586+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 앱에서 온누리상품권으로 결제 가능한 병원·약국을 찾을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:01:19.586+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "근육통이 심할 땐 가만히 누워있는 게 좋다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T00:01:19.586+09:00"
+      }
+    ]
+  }
+}
