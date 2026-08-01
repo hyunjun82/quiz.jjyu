@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T10:00:50.359+09:00",
+  "updatedAt": "2026-08-01T10:02:35.257+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -178,7 +178,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "조기 취업형 계약학과",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T10:02:35.257+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
