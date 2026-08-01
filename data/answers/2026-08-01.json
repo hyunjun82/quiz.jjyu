@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T11:43:48.542+09:00",
+  "updatedAt": "2026-08-01T12:05:30.274+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -182,6 +182,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-01T00:12:02.516+09:00"
+      },
+      {
+        "question": "AI 퀴즈기리니기리니",
+        "answer": "폭염주의보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T12:05:30.273+09:00"
       }
     ],
     "ok-cashbag": [],
