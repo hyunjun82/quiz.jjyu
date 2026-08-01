@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "updatedAt": "2026-08-02T07:45:59.635+09:00",
+  "updatedAt": "2026-08-02T08:20:58.395+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -34,6 +34,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-02T00:15:54.948+09:00"
+      },
+      {
+        "question": "AI 이모지 오전퀴즈hd7561",
+        "answer": "딸기잼",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T08:20:58.395+09:00"
       }
     ],
     "ok-cashbag": [],
