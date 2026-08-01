@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T10:02:47.432+09:00",
+  "updatedAt": "2026-08-01T10:03:51.337+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -187,10 +187,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "입학과 동시에 취업이 확정되고, 일과 학업을 병행하여 3년만에 학사 취득이 가능한 학과는?",
         "answer": "조기 취업형 계약학과",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-01T10:02:35.257+09:00"
       }
     ],
