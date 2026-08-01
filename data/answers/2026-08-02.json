@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "updatedAt": "2026-08-02T00:16:25.078+09:00",
+  "updatedAt": "2026-08-02T00:16:59.650+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -50,7 +50,15 @@
         "publishedAt": "2026-08-02T00:09:07.417+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOOO이란, 브랜드 인지도나 신뢰도가 높아 소비자가 같은 품질이라도 더 비싼 값을 기꺼이 내는 현상이에요.",
+        "answer": "브랜드프리미엄",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T00:16:59.650+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
