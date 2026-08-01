@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T10:02:35.257+09:00",
+  "updatedAt": "2026-08-01T10:02:47.432+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -143,6 +143,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-01T10:00:40.995+09:00"
+      },
+      {
+        "question": "돈버는퀴즈 — 소휘 소화효소",
+        "answer": "GMO, 정제, 통곡물, 무첨가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-01T10:02:47.432+09:00"
       }
     ],
     "shinhan-sol": [
