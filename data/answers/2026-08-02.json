@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "updatedAt": "2026-08-02T00:08:34.718+09:00",
+  "updatedAt": "2026-08-02T00:09:07.417+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -33,7 +33,15 @@
         "publishedAt": "2026-08-02T00:00:39.422+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "수원 화성",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T00:09:07.417+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
@@ -44,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-02T00:08:01.310+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T00:09:07.417+09:00"
       }
     ],
     "kbank": [
