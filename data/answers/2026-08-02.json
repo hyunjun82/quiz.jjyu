@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "updatedAt": "2026-08-02T04:04:23.876+09:00",
+  "updatedAt": "2026-08-02T07:45:59.635+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -46,6 +46,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-02T00:00:39.422+09:00"
+      },
+      {
+        "question": "기후행동 기회소득 8월 2일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T07:45:59.635+09:00"
       }
     ],
     "hpoint": [
@@ -91,6 +98,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-02T00:00:39.422+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "1번 파라소셜",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T07:45:59.635+09:00"
       }
     ],
     "hana-onq": [
@@ -119,7 +133,15 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T07:45:59.635+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [
       {
@@ -139,6 +161,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-02T00:00:39.422+09:00"
+      },
+      {
+        "question": "눈다래끼는 전염성이 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T07:45:59.635+09:00"
       }
     ]
   }
