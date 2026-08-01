@@ -1,15 +1,15 @@
 {
   "date": "2026-08-02",
-  "updatedAt": "2026-08-02T00:25:48.233+09:00",
+  "updatedAt": "2026-08-02T01:51:52.838+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "디스커버 + 슈퍼SOL 댓글 이벤트를 통해 신한 슈퍼SOL 런칭 축하 3행시를 작성하면 받을 수 있는 포인트 금액은?",
         "answer": "3,000P",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-02T00:03:46.745+09:00"
       },
       {
@@ -63,10 +63,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/2일자",
+        "question": "KB청년미래적금은 월 1,000원부터 가입할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-02T00:08:01.310+09:00"
       },
       {
