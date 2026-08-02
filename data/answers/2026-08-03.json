@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T00:05:11.498+09:00",
+  "updatedAt": "2026-08-03T00:06:02.379+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -37,7 +37,15 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "백제의 한성을 공격하여 개로왕을 전사시켰다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-03T00:06:02.379+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
