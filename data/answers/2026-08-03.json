@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T08:08:44.937+09:00",
+  "updatedAt": "2026-08-03T08:16:47.812+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -154,6 +154,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-03T00:01:49.615+09:00"
+      },
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-03T08:16:47.812+09:00"
       }
     ],
     "skstoa": [],
