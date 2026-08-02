@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T04:04:52.985+09:00",
+  "updatedAt": "2026-08-03T08:03:16.248+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -34,6 +34,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-03T00:11:20.629+09:00"
+      },
+      {
+        "question": "AI 퀴즈기리니기리니",
+        "answer": "전설의킬러",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-03T08:03:16.248+09:00"
       }
     ],
     "ok-cashbag": [],
