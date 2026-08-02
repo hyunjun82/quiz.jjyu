@@ -1,10 +1,25 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T00:02:53.942+09:00",
+  "updatedAt": "2026-08-03T00:03:58.630+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "최대 3% 캐시백",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-03T00:03:58.630+09:00"
+      },
+      {
+        "question": "KBO 리그에서 한 구단에서 같은 이름을 가진 선수가 동시에 뛰는 경우가 종종 있습니다. 현재 삼성 라이온즈의 대표적인 동명이인은?",
+        "answer": "이승현",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-03T00:03:58.630+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
