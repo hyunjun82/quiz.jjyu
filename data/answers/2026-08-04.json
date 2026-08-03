@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T00:06:47.252+09:00",
+  "updatedAt": "2026-08-04T00:07:51.425+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -52,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T00:06:47.252+09:00"
+      },
+      {
+        "question": "스타퀴즈 8/4일자",
+        "answer": "1번",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T00:07:51.425+09:00"
       }
     ],
     "kbank": [
