@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T00:11:12.265+09:00",
+  "updatedAt": "2026-08-04T00:23:05.240+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -108,6 +108,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T00:02:31.006+09:00"
+      },
+      {
+        "question": "모니모 퀴즈 — 모니스쿨",
+        "answer": "기록적인 폭염이 이어져서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T00:23:05.240+09:00"
       }
     ],
     "paybooc": [],
