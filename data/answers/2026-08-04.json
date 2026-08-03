@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T00:07:51.425+09:00",
+  "updatedAt": "2026-08-04T00:08:57.503+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -59,6 +59,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T00:07:51.425+09:00"
+      },
+      {
+        "question": "스타퀴즈 8/4일자",
+        "answer": "1번 달리자 메달 획득&이벤트 응모",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T00:08:57.503+09:00"
       }
     ],
     "kbank": [
