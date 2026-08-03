@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T13:58:54.646+09:00",
+  "updatedAt": "2026-08-03T14:42:50.375+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,7 +150,15 @@
         "publishedAt": "2026-08-03T08:03:16.248+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 — GS25",
+        "answer": "섬유1g",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-03T14:42:50.374+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "KB Pay 쇼핑 '콜게이트 구강케어 모음전' 구매 시 받을 수 있는…(후략)",
