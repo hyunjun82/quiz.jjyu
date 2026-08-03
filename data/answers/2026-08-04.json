@@ -1,15 +1,15 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T00:23:38.259+09:00",
+  "updatedAt": "2026-08-04T01:55:24.810+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "신한 슈퍼SOL로 바나프레소 앱에서 아메리카노를 결제하면 받을 수 있는 총 혜택 금액은?",
         "answer": "2,000원",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-04T00:04:37.857+09:00"
       },
       {
@@ -41,7 +41,7 @@
         "publishedAt": "2026-08-04T00:01:26.193+09:00"
       },
       {
-        "question": "기후행동 기회소득 8월 4일 오늘의 퀴즈 문제",
+        "question": "2025년 경기도는 '폭염대책 종합 추진계획' 을 추진한 바있다.",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -59,7 +59,15 @@
     ],
     "bitbunny": [],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 (디깅퀴즈)",
+        "answer": "2번",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T01:55:24.810+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 별별퀴즈 (한국사 퀴즈)",
@@ -81,6 +89,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T00:08:57.503+09:00"
+      },
+      {
+        "question": "'Hot한 달리자 이용하면 Cool하게 쏜다!' 이벤트에서 메가 ICE 아메리카노 쿠폰을 받을 수 있는 방법은 무엇일까요?",
+        "answer": "1. 달리자 메달 획득 & 이벤트 응모",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-04T01:55:24.809+09:00"
       }
     ],
     "kbank": [
@@ -90,6 +105,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T00:01:26.193+09:00"
+      },
+      {
+        "question": "기업의 실제 실적이 시장 예상치를 크게 뛰어넘었을 때 사용하는 표현은?",
+        "answer": "어닝서프라이즈",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T01:55:24.810+09:00"
       }
     ],
     "hana-onq": [
@@ -117,7 +139,7 @@
         "publishedAt": "2026-08-04T00:02:31.006+09:00"
       },
       {
-        "question": "모니모 퀴즈 — 모니스쿨",
+        "question": "유럽 사람들이 최근 적극적으로 에어컨을 설치하려는 이유는 무엇일까요?",
         "answer": "기록적인 폭염이 이어져서",
         "note": "",
         "source": "quizbells",
@@ -132,6 +154,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T00:01:26.193+09:00"
+      },
+      {
+        "question": "무좀은 다른 사람에게 옮지 않는다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T01:55:24.810+09:00"
       }
     ],
     "skstoa": [],
