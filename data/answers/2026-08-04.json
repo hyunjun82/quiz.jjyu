@@ -1,10 +1,25 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T00:02:31.006+09:00",
+  "updatedAt": "2026-08-04T00:04:37.857+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "2,000원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T00:04:37.857+09:00"
+      },
+      {
+        "question": "지난 주말 헐리우스 스타 맷 데이먼이 KBO 리그 경기를 관람해 화제입니다. 맷 데이먼은 이번 주 개봉예정인 이 영화 홍보차 한국을 찾았는데요. 아래 중 어떤 영화일까요?",
+        "answer": "오디세이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T00:04:37.857+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
@@ -18,7 +33,15 @@
         "publishedAt": "2026-08-04T00:01:26.193+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "Safe(안전) + Foodie(식도락가)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T00:04:37.857+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
