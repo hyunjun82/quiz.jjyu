@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "updatedAt": "2026-08-03T08:16:56.959+09:00",
+  "updatedAt": "2026-08-03T09:23:06.118+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -71,7 +71,15 @@
         "publishedAt": "2026-08-03T00:09:14.440+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 친환경·공정무역 등 윤리적 가치를 중시해 가격이 비싸더라도 가치관에 맞는 제품을 선택하는 소비 방식이에요",
+        "answer": "가치소비",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-03T09:23:06.118+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [
       {
