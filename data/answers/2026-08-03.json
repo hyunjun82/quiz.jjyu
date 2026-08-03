@@ -1,437 +1,445 @@
 {
-  "date": "2026-08-03",
-  "updatedAt": "2026-08-03T13:05:31.876+09:00",
-  "answers": {
-    "toss-lucky": [],
-    "cashwalk": [
-      {
-        "question": "땀나고 지칠땐 비타민B 1포면 피로 싹-풀려요! 비타민B 8종 꽉- 담은 푸드루트 비타민B🚨 65%할인 행사🚨 활력비타민B는 활력을 위한 비타민B군 8종을 1포에 담았으며 까다롭게 선별한 OOO사 프리미엄 비타민B만 함유했습니다. 불필요한 첨가물은 최대한 배제하고 물없이 언제 어디서나 섭취 가능한 비타민B를 즐겨보세요!여기서 OOO은? (힌트:영어)",
-        "answer": "DSM",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T10:00:28.480+09:00"
-      },
-      {
-        "question": "땀나고 지칠땐 비타민B 1포면 피로 싹-풀려요! 비타민B 8종 꽉- 담은 푸드루트 비타민B🚨 65%할인 행사🚨 활력비타민B는 활력을 위한 비타민B군 8종을 1포에 담았으며 까다롭게 선별한 DSM사 프리미엄 비타민B만 함유했습니다. 불필요한 OOO은 최대한 배제하고 물없이 언제 어디서나 섭취 가능한 비타민B를 즐겨보세요!여기서 OOO은? (힌트:ㅊㄱㅁ)",
-        "answer": "첨가물",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T10:00:28.480+09:00"
-      },
-      {
-        "question": "땀나고 지칠땐 비타민B 1포면 피로 싹-풀려요! 비타민B 8종 꽉- 담은 푸드루트 비타민B🚨 65%할인 행사🚨 활력비타민B는 활력을 위한 비타민B군 8종을 1포에 담았으며 까다롭게 선별한 DSM사 프리미엄 비타민B만 함유했습니다. 불필요한 첨가물은 최대한 배제하고 O없이 언제 어디서나 섭취 가능한 비타민B를 즐겨보세요!여기서 O은? (힌트:ㅁ)",
-        "answer": "물",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T10:00:44.087+09:00"
-      },
-      {
-        "question": "앱스토리몰 브리츠 오픈형 블루투스 이어폰",
-        "answer": "13, 20, ENC, 생활방수, 이어후크",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "앱스토리몰 럭키백",
-        "answer": "3, 7, AI, 고품질, 액티브",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "픽스 트랩 전기 파리 모기채",
-        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "CJ더마켓 메가 더세페 상반기 최대 세일",
-        "answer": "30, 6588, 초특가",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
-        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
-        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "픽스 휴대용 초소형 고음질 자동녹음기",
-        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "키토선생 리얼마이즈 저당 고단백 프로틴 시리얼 크런치볼",
-        "answer": "쌀가루",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "11번가 월간 십일절 11번가플러스 이벤트",
-        "answer": "쿠폰, 응모, 릴레이, 십일절",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "소휘 소화효소 톡딜 특가 통곡물 저분자 발효효소",
-        "answer": "GMO, 정제, 통곡물, 무첨가",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      },
-      {
-        "question": "푸드루트 활력비타민B",
-        "answer": "DSM, 물, 첨가물, 프리미엄",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.145+09:00"
-      }
-    ],
-    "shinhan-sol": [
-      {
-        "question": "새로운 침대/베딩을 찾고 있다면 최대 60% 할인되는 소노시즌 매장으로! 신한카드 결제 시 받는 혜택은 무엇일까요?",
-        "answer": "최대 3% 캐시백",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T00:03:58.630+09:00"
-      },
-      {
-        "question": "KBO 리그에서 한 구단에서 같은 이름을 가진 선수가 동시에 뛰는 경우가 종종 있습니다. 현재 삼성 라이온즈의 대표적인 동명이인은?",
-        "answer": "이승현",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:03:58.630+09:00"
-      },
-      {
-        "question": "신한 쏠퀴즈 (출석 퀴즈)",
-        "answer": "O",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T04:04:52.985+09:00"
-      }
-    ],
-    "kakaobank": [
-      {
-        "question": "OX 퀴즈 8/3",
-        "answer": "O",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:11:20.629+09:00"
-      },
-      {
-        "question": "AI 퀴즈기리니기리니",
-        "answer": "전설의킬러",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T08:03:16.248+09:00"
-      }
-    ],
-    "ok-cashbag": [],
-    "kbpay": [
-      {
-        "question": "KB Pay 쇼핑 '콜게이트 구강케어 모음전' 구매 시 받을 수 있는…(후략)",
-        "answer": "포인트리 지급",
-        "note": "",
-        "source": "bizwnews",
-        "publishedAt": "2026-08-03T10:03:18.761+09:00"
-      }
-    ],
-    "cashdoc": [
-      {
-        "question": "1알이면 막혀도 안아프게 비워요",
-        "answer": "한샷, 물엿, 애사비, 젤라틴",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "이번주만 인기템 1+1",
-        "answer": "식후, 소비톨, 인위적, 정제효소",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "타임스프레드 구독캘린더",
-        "answer": "구독, 캘린더, 연예인, 구독하기",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
-        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "타임스프레드 최애 연예인 캘린더 구독",
-        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "타임스프레드 최애 연예인 일정 구독",
-        "answer": "구독, 캘린더, 구독하기, 개별일정",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
-        "answer": "식후, 약속, 인위적, 임산부",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "소비자24 소비자 포털 피해 예방",
-        "answer": "소비자",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "판토딜 포 헤어 두피케어 기능성 탈모앰플",
-        "answer": "탈모, 영양분, 쿨링감",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "소비자24 일상생활 제품 사용시 주의사항 예방방법",
-        "answer": "안전정보",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "소비자24 24시간 열린 소비자포털 공정거래위원회 비교정보 서비스",
-        "answer": "비교공감",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "G마켓 세라마이드 모찌 토너",
-        "answer": "스킨",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:03:08.247+09:00"
-      },
-      {
-        "question": "리비힐 엑소좀 앰플에는 콜라겐수, 나이아신아마이드·아데노신(미백·ㅇㅇ 2중 기능성 성분)이 들어 있습니다. ㅇㅇ은 무엇일까요? (초성 : ㅈㄹ)",
-        "answer": "주름",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T11:20:20.971+09:00"
-      },
-      {
-        "question": "리비힐 엑소좀 앰플은 ㅇㅇ가지 임상테스트 확인 완료된 제품이며 자사몰 판매 랭킹 1위를 자랑하는 제품입니다. ㅇㅇ는 무엇일까요? (힌트 : 숫자)",
-        "answer": "14, 주름",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T11:20:53.633+09:00"
-      },
-      {
-        "question": "컷슬린 안티스파이크 포 다이어트 1포에는 녹차추출물, ㅇㅇㅇㅇ추출물, 비타민C, 콜레우스포스콜리추출물 등 총 9가지의 기능성 성분이 들어 있습니다. ㅇㅇㅇㅇ은 무엇일까요? (초성 : ㅂㄴㅂㅇ)",
-        "answer": "바나바잎, 다이어트",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T11:55:07.825+09:00"
-      },
-      {
-        "question": "혈당 & ㅇㅇㅇㅇ 제품 컷슬린 안티스파이크 포 다이어트는 코로솔산, 카테킨, 포스콜린 일일 섭취량을 100% 충족한 건강기능식품입니다. ㅇㅇㅇㅇ는 무엇일까요? (초성 : ㄷㅇㅇㅌ)",
-        "answer": "다이어트",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T11:55:07.826+09:00"
-      },
-      {
-        "question": "여름 요리 필수템, 동치미육수 할인! OOO 동치미육수 1kg 4입 오늘 하루 1만원대 특가 냉면,묵사발,오이냉국까지 만능! 여름철 떨어진 입맛 순식간에 돌아오게하는 맛! 넉넉하고 든든한 1KG 대용량으로 마음까지 든든!",
-        "answer": "풀무원",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T11:55:07.826+09:00"
-      },
-      {
-        "question": "한 손에 쏙, 여름 필수템 수 많은 손풍기 속 이 제품 특별한 이유 V 한 손에 쏙 들어오는 125g 초경량 바디! V 책상에 올려두면 미니 탁상 선풍기 변신 가능 V 한 번 충전으로 최대 10시간 사용 V 배터리 잔량과 풍속을 확인할 수 있는 디스플레이 V O타입으로 어디서든 손쉽게 충전 가능 1만원대,지금 구매하세요 오늘 이후에는 가격이 인상됩니다",
-        "answer": "C",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T13:05:31.875+09:00"
-      }
-    ],
-    "climate-action": [
-      {
-        "question": "기후행동 기회소득 8월 3일 오늘의 퀴즈 문제",
-        "answer": "O (그렇다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:00:45.660+09:00"
-      },
-      {
-        "question": "기후행동 기회소득 8월 3일 오늘의 퀴즈 문제",
-        "answer": "X (아니다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T08:08:39.433+09:00"
-      }
-    ],
-    "hpoint": [
-      {
-        "question": "H포인트 퀴즈 (퀴즈)",
-        "answer": "뮤지컬 〈드라큘라〉",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:09:14.440+09:00"
-      }
-    ],
-    "bitbunny": [
-      {
-        "question": "OOOO란, 친환경·공정무역 등 윤리적 가치를 중시해 가격이 비싸더라도 가치관에 맞는 제품을 선택하는 소비 방식이에요",
-        "answer": "가치소비",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T09:23:06.118+09:00"
-      }
-    ],
-    "kakaopay": [
-      {
-        "question": "퀴즈거침없는화랑",
-        "answer": "1시간",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:03:40.146+09:00"
-      }
-    ],
-    "nh-allone": [
-      {
-        "question": "디깅퀴즈 (디깅퀴즈)",
-        "answer": "사군자",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T01:51:03.972+09:00"
-      }
-    ],
-    "kb-star": [
-      {
-        "question": "KB 별별퀴즈 (한국사 퀴즈)",
-        "answer": "백제의 한성을 공격하여 개로왕을 전사시켰다",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:06:02.379+09:00"
-      },
-      {
-        "question": "스타퀴즈 8/3일자",
-        "answer": "3번 메가",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:08:10.621+09:00"
-      },
-      {
-        "question": "3대 OO프로젝트는 반도체, AI 데이터센터, 피지컬 AI를 중심으로 대규모 투자하는 프로젝트를 말한다.",
-        "answer": "메가",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-03T01:51:03.971+09:00"
-      },
-      {
-        "question": "KB 별별퀴즈 — 8/3일자",
-        "answer": "1번 포인트리 지급",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T10:04:47.362+09:00"
-      }
-    ],
-    "kbank": [
-      {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
-        "answer": "1번 파라소셜",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:00:45.660+09:00"
-      },
-      {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
-        "answer": "4번 세계유산위원회",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T08:04:22.369+09:00"
-      }
-    ],
-    "hana-onq": [
-      {
-        "question": "축구 play 퀴즈 HANA",
-        "answer": "파도타기",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:08:10.621+09:00"
-      },
-      {
-        "question": "슬기로운 금융생활 OX퀴즈",
-        "answer": "O",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:11:55.043+09:00"
-      }
-    ],
-    "monimo": [
-      {
-        "question": "모니모 퀴즈 — 모니스쿨",
-        "answer": "2번 기록적인 폭염이 이어져서",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:02:38.909+09:00"
-      }
-    ],
-    "paybooc": [],
-    "mydoctor": [
-      {
-        "question": "나만의닥터 퀴즈 — 나만의닥터",
-        "answer": "X (아니다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:01:49.615+09:00"
-      },
-      {
-        "question": "나만의닥터 퀴즈 — 나만의닥터",
-        "answer": "O (그렇다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T08:16:47.812+09:00"
-      }
-    ],
-    "skstoa": [],
-    "auction": [],
-    "myhomeplus": [],
-    "syrup": [],
-    "doctornow": [
-      {
-        "question": "눈다래끼는 전염성이 있다.",
-        "answer": "O (그렇다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-03T00:00:45.660+09:00"
-      }
-    ]
-  }
+ "date": "2026-08-03",
+ "updatedAt": "2026-08-03T13:14:41.561+09:00",
+ "answers": {
+  "toss-lucky": [
+   {
+    "question": "대학생 10명 중 8명은 AI 때문에 미래 일자리가 위험하다고 느낀다?",
+    "answer": "O",
+    "note": "토스 경제퀴즈 12시 (위키트리 8/3)",
+    "source": "wikitree",
+    "publishedAt": "2026-08-03T13:14:41.561+09:00"
+   }
+  ],
+  "cashwalk": [
+   {
+    "question": "땀나고 지칠땐 비타민B 1포면 피로 싹-풀려요! 비타민B 8종 꽉- 담은 푸드루트 비타민B🚨 65%할인 행사🚨 활력비타민B는 활력을 위한 비타민B군 8종을 1포에 담았으며 까다롭게 선별한 OOO사 프리미엄 비타민B만 함유했습니다. 불필요한 첨가물은 최대한 배제하고 물없이 언제 어디서나 섭취 가능한 비타민B를 즐겨보세요!여기서 OOO은? (힌트:영어)",
+    "answer": "DSM",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T10:00:28.480+09:00"
+   },
+   {
+    "question": "땀나고 지칠땐 비타민B 1포면 피로 싹-풀려요! 비타민B 8종 꽉- 담은 푸드루트 비타민B🚨 65%할인 행사🚨 활력비타민B는 활력을 위한 비타민B군 8종을 1포에 담았으며 까다롭게 선별한 DSM사 프리미엄 비타민B만 함유했습니다. 불필요한 OOO은 최대한 배제하고 물없이 언제 어디서나 섭취 가능한 비타민B를 즐겨보세요!여기서 OOO은? (힌트:ㅊㄱㅁ)",
+    "answer": "첨가물",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T10:00:28.480+09:00"
+   },
+   {
+    "question": "땀나고 지칠땐 비타민B 1포면 피로 싹-풀려요! 비타민B 8종 꽉- 담은 푸드루트 비타민B🚨 65%할인 행사🚨 활력비타민B는 활력을 위한 비타민B군 8종을 1포에 담았으며 까다롭게 선별한 DSM사 프리미엄 비타민B만 함유했습니다. 불필요한 첨가물은 최대한 배제하고 O없이 언제 어디서나 섭취 가능한 비타민B를 즐겨보세요!여기서 O은? (힌트:ㅁ)",
+    "answer": "물",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T10:00:44.087+09:00"
+   },
+   {
+    "question": "앱스토리몰 브리츠 오픈형 블루투스 이어폰",
+    "answer": "13, 20, ENC, 생활방수, 이어후크",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "앱스토리몰 럭키백",
+    "answer": "3, 7, AI, 고품질, 액티브",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "픽스 트랩 전기 파리 모기채",
+    "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "CJ더마켓 메가 더세페 상반기 최대 세일",
+    "answer": "30, 6588, 초특가",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+    "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+    "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "픽스 휴대용 초소형 고음질 자동녹음기",
+    "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "키토선생 리얼마이즈 저당 고단백 프로틴 시리얼 크런치볼",
+    "answer": "쌀가루",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "11번가 월간 십일절 11번가플러스 이벤트",
+    "answer": "쿠폰, 응모, 릴레이, 십일절",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "소휘 소화효소 톡딜 특가 통곡물 저분자 발효효소",
+    "answer": "GMO, 정제, 통곡물, 무첨가",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   },
+   {
+    "question": "푸드루트 활력비타민B",
+    "answer": "DSM, 물, 첨가물, 프리미엄",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.145+09:00"
+   }
+  ],
+  "shinhan-sol": [
+   {
+    "question": "새로운 침대/베딩을 찾고 있다면 최대 60% 할인되는 소노시즌 매장으로! 신한카드 결제 시 받는 혜택은 무엇일까요?",
+    "answer": "최대 3% 캐시백",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T00:03:58.630+09:00"
+   },
+   {
+    "question": "KBO 리그에서 한 구단에서 같은 이름을 가진 선수가 동시에 뛰는 경우가 종종 있습니다. 현재 삼성 라이온즈의 대표적인 동명이인은?",
+    "answer": "이승현",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:03:58.630+09:00"
+   },
+   {
+    "question": "신한 쏠퀴즈 (출석 퀴즈)",
+    "answer": "O",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T04:04:52.985+09:00"
+   }
+  ],
+  "kakaobank": [
+   {
+    "question": "OX 퀴즈 8/3",
+    "answer": "O",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:11:20.629+09:00"
+   },
+   {
+    "question": "AI 퀴즈기리니기리니",
+    "answer": "전설의킬러",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T08:03:16.248+09:00"
+   }
+  ],
+  "ok-cashbag": [],
+  "kbpay": [
+   {
+    "question": "KB Pay 쇼핑 '콜게이트 구강케어 모음전' 구매 시 받을 수 있는…(후략)",
+    "answer": "포인트리 지급",
+    "note": "",
+    "source": "bizwnews",
+    "publishedAt": "2026-08-03T10:03:18.761+09:00"
+   }
+  ],
+  "cashdoc": [
+   {
+    "question": "1알이면 막혀도 안아프게 비워요",
+    "answer": "한샷, 물엿, 애사비, 젤라틴",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "이번주만 인기템 1+1",
+    "answer": "식후, 소비톨, 인위적, 정제효소",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "타임스프레드 구독캘린더",
+    "answer": "구독, 캘린더, 연예인, 구독하기",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+    "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "타임스프레드 최애 연예인 캘린더 구독",
+    "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "타임스프레드 최애 연예인 일정 구독",
+    "answer": "구독, 캘린더, 구독하기, 개별일정",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+    "answer": "식후, 약속, 인위적, 임산부",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "소비자24 소비자 포털 피해 예방",
+    "answer": "소비자",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "판토딜 포 헤어 두피케어 기능성 탈모앰플",
+    "answer": "탈모, 영양분, 쿨링감",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "소비자24 일상생활 제품 사용시 주의사항 예방방법",
+    "answer": "안전정보",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "소비자24 24시간 열린 소비자포털 공정거래위원회 비교정보 서비스",
+    "answer": "비교공감",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "G마켓 세라마이드 모찌 토너",
+    "answer": "스킨",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:03:08.247+09:00"
+   },
+   {
+    "question": "리비힐 엑소좀 앰플에는 콜라겐수, 나이아신아마이드·아데노신(미백·ㅇㅇ 2중 기능성 성분)이 들어 있습니다. ㅇㅇ은 무엇일까요? (초성 : ㅈㄹ)",
+    "answer": "주름",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T11:20:20.971+09:00"
+   },
+   {
+    "question": "리비힐 엑소좀 앰플은 ㅇㅇ가지 임상테스트 확인 완료된 제품이며 자사몰 판매 랭킹 1위를 자랑하는 제품입니다. ㅇㅇ는 무엇일까요? (힌트 : 숫자)",
+    "answer": "14, 주름",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T11:20:53.633+09:00"
+   },
+   {
+    "question": "컷슬린 안티스파이크 포 다이어트 1포에는 녹차추출물, ㅇㅇㅇㅇ추출물, 비타민C, 콜레우스포스콜리추출물 등 총 9가지의 기능성 성분이 들어 있습니다. ㅇㅇㅇㅇ은 무엇일까요? (초성 : ㅂㄴㅂㅇ)",
+    "answer": "바나바잎, 다이어트",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T11:55:07.825+09:00"
+   },
+   {
+    "question": "혈당 & ㅇㅇㅇㅇ 제품 컷슬린 안티스파이크 포 다이어트는 코로솔산, 카테킨, 포스콜린 일일 섭취량을 100% 충족한 건강기능식품입니다. ㅇㅇㅇㅇ는 무엇일까요? (초성 : ㄷㅇㅇㅌ)",
+    "answer": "다이어트",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T11:55:07.826+09:00"
+   },
+   {
+    "question": "여름 요리 필수템, 동치미육수 할인! OOO 동치미육수 1kg 4입 오늘 하루 1만원대 특가 냉면,묵사발,오이냉국까지 만능! 여름철 떨어진 입맛 순식간에 돌아오게하는 맛! 넉넉하고 든든한 1KG 대용량으로 마음까지 든든!",
+    "answer": "풀무원",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T11:55:07.826+09:00"
+   },
+   {
+    "question": "한 손에 쏙, 여름 필수템 수 많은 손풍기 속 이 제품 특별한 이유 V 한 손에 쏙 들어오는 125g 초경량 바디! V 책상에 올려두면 미니 탁상 선풍기 변신 가능 V 한 번 충전으로 최대 10시간 사용 V 배터리 잔량과 풍속을 확인할 수 있는 디스플레이 V O타입으로 어디서든 손쉽게 충전 가능 1만원대,지금 구매하세요 오늘 이후에는 가격이 인상됩니다",
+    "answer": "C",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T13:05:31.875+09:00"
+   }
+  ],
+  "climate-action": [
+   {
+    "question": "기후행동 기회소득 8월 3일 오늘의 퀴즈 문제",
+    "answer": "O (그렇다)",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:00:45.660+09:00"
+   },
+   {
+    "question": "기후행동 기회소득 8월 3일 오늘의 퀴즈 문제",
+    "answer": "X (아니다)",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T08:08:39.433+09:00"
+   }
+  ],
+  "hpoint": [
+   {
+    "question": "H포인트 퀴즈 (퀴즈)",
+    "answer": "뮤지컬 〈드라큘라〉",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:09:14.440+09:00"
+   }
+  ],
+  "bitbunny": [
+   {
+    "question": "OOOO란, 친환경·공정무역 등 윤리적 가치를 중시해 가격이 비싸더라도 가치관에 맞는 제품을 선택하는 소비 방식이에요",
+    "answer": "가치소비",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T09:23:06.118+09:00"
+   }
+  ],
+  "kakaopay": [
+   {
+    "question": "퀴즈거침없는화랑",
+    "answer": "1시간",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:03:40.146+09:00"
+   }
+  ],
+  "nh-allone": [
+   {
+    "question": "디깅퀴즈 (디깅퀴즈)",
+    "answer": "사군자",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T01:51:03.972+09:00"
+   }
+  ],
+  "kb-star": [
+   {
+    "question": "KB 별별퀴즈 (한국사 퀴즈)",
+    "answer": "백제의 한성을 공격하여 개로왕을 전사시켰다",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:06:02.379+09:00"
+   },
+   {
+    "question": "스타퀴즈 8/3일자",
+    "answer": "3번 메가",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:08:10.621+09:00"
+   },
+   {
+    "question": "3대 OO프로젝트는 반도체, AI 데이터센터, 피지컬 AI를 중심으로 대규모 투자하는 프로젝트를 말한다.",
+    "answer": "메가",
+    "note": "",
+    "source": "blog",
+    "publishedAt": "2026-08-03T01:51:03.971+09:00"
+   },
+   {
+    "question": "KB 별별퀴즈 — 8/3일자",
+    "answer": "1번 포인트리 지급",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T10:04:47.362+09:00"
+   }
+  ],
+  "kbank": [
+   {
+    "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+    "answer": "1번 파라소셜",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:00:45.660+09:00"
+   },
+   {
+    "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+    "answer": "4번 세계유산위원회",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T08:04:22.369+09:00"
+   }
+  ],
+  "hana-onq": [
+   {
+    "question": "축구 play 퀴즈 HANA",
+    "answer": "파도타기",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:08:10.621+09:00"
+   },
+   {
+    "question": "슬기로운 금융생활 OX퀴즈",
+    "answer": "O",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:11:55.043+09:00"
+   }
+  ],
+  "monimo": [
+   {
+    "question": "모니모 퀴즈 — 모니스쿨",
+    "answer": "2번 기록적인 폭염이 이어져서",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:02:38.909+09:00"
+   }
+  ],
+  "paybooc": [],
+  "mydoctor": [
+   {
+    "question": "나만의닥터 퀴즈 — 나만의닥터",
+    "answer": "X (아니다)",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:01:49.615+09:00"
+   },
+   {
+    "question": "나만의닥터 퀴즈 — 나만의닥터",
+    "answer": "O (그렇다)",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T08:16:47.812+09:00"
+   }
+  ],
+  "skstoa": [],
+  "auction": [],
+  "myhomeplus": [],
+  "syrup": [],
+  "doctornow": [
+   {
+    "question": "눈다래끼는 전염성이 있다.",
+    "answer": "O (그렇다)",
+    "note": "",
+    "source": "quizbells",
+    "publishedAt": "2026-08-03T00:00:45.660+09:00"
+   }
+  ]
+ }
 }
