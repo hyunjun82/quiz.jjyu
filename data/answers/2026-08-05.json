@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T00:07:26.290+09:00",
+  "updatedAt": "2026-08-05T00:08:33.377+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -44,6 +44,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-05T00:07:26.290+09:00"
+      },
+      {
+        "question": "스타퀴즈 8/5일자",
+        "answer": "4번 학생",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T00:08:33.377+09:00"
       }
     ],
     "kbank": [
