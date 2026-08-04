@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T10:04:31.289+09:00",
+  "updatedAt": "2026-08-04T10:17:00.252+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,7 +51,15 @@
         "publishedAt": "2026-08-04T00:11:12.265+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 (유플투플 퀴즈)",
+        "answer": "청포도에이드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T10:17:00.251+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "새롭게 선보인 KB Pay '바로할인 서비스'의 가장 큰 특징은…(후략)",
