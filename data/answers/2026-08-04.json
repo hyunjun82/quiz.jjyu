@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T11:03:44.382+09:00",
+  "updatedAt": "2026-08-04T13:54:40.149+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T10:02:21.069+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 (행운퀴즈)",
+        "answer": "투자쿠폰",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T13:54:40.149+09:00"
+      },
+      {
+        "question": "퀴즈 : 투자쿠폰하이바라라",
+        "answer": "[토스] 퀴즈 : 투자쿠폰",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T13:54:40.149+09:00"
       }
     ],
     "cashwalk": [],
@@ -40,6 +54,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T04:26:33.761+09:00"
+      },
+      {
+        "question": "KBO 7월 MVP 투표님넥이",
+        "answer": "일요일까지 매일 1회 투표 가능",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T13:54:40.149+09:00"
       }
     ],
     "kakaobank": [
@@ -210,6 +231,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T10:02:21.069+09:00"
+      },
+      {
+        "question": "퀴즈타임 (퀴즈쿨한지름)",
+        "answer": "500",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T13:54:40.149+09:00"
       }
     ],
     "nh-allone": [
