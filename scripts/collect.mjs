@@ -329,7 +329,9 @@ function parseTeampljeon(qCell, aCell) {
   // nbsp 2개(또는 공백 뭉치)로 제목/정답/잡담 구획을 나눈다.
   const segs = rawText.split(/[ ]{2,}|\s{3,}/).map((s) => s.replace(/\s+/g, ' ').trim());
   const body = segs.find((s) => /오전\s*[-–—:]|오후\s*[-–—:]/.test(s));
-  if (!body) return null; // 아직 제목만 올라온 상태 — 다음 바퀴에서 다시 본다
+  // 아직 제목만 올라온 상태 — 빈 배열로 '이 행은 처리 끝(정답 없음)'을 알린다.
+  // null을 돌려주면 일반 경로가 제목 문자열을 정답으로 오인해 추출한다(8/4 실측).
+  if (!body) return [];
 
   const am = body.match(/오전\s*[-–—:]\s*(.+?)(?=\s*오후\s*[-–—:]|$)/)?.[1]?.trim();
   const pm = body.match(/오후\s*[-–—:]\s*(.+)$/)?.[1]?.trim();
@@ -340,7 +342,8 @@ function parseTeampljeon(qCell, aCell) {
   if (pm && isSaneAnswer(pm)) {
     out.push(buildItem('토스 두근두근 1등 찍기 팀플전 (오후)', [pm]));
   }
-  return out.length ? out : null;
+  // 팀플전 행으로 확정된 이상, 추출 실패여도 일반 경로로 넘기지 않는다(빈 배열).
+  return out;
 }
 
 function parseQuizbells(html, slug, today) {

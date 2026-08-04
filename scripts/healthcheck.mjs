@@ -14,6 +14,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { parseQuizbells, parseTeampljeon, isSaneQuestion } from './collect.mjs';
 
 const KST_OFFSET = 9 * 60 * 60 * 1000;
 const kstNow = () => new Date(Date.now() + KST_OFFSET);
@@ -50,33 +51,58 @@ function runsToday(q, dow) {
   return true; // irregular 은 판정 불가 — 지연 대상에서 제외하지 않되 장애 판정엔 안 씀
 }
 
-/** 퀴즈벨에 오늘자 정답이 실제로 떠 있는지만 확인한다(내용은 안 봄). */
-async function quizbellsHasAnswer(sourceSlug, today) {
+/**
+ * 퀴즈벨의 오늘자 상태를 두 개의 서로 다른 눈으로 본다.
+ *
+ * 왜 두 개인가 — 8/1~8/2 토스 정답 유실 사후분석(8/4):
+ * 예전 이 함수는 "정답은 40자 이하"라는, 수집기와 똑같은 가정으로 소스를
+ * 판정했다. 토스 행은 커뮤니티 글 형식(66자)이라 수집기 필터가 버렸는데,
+ * 감시자도 같은 가정 때문에 "소스에 없음(정상)"으로 판정했다. 수집기와
+ * 감시자가 같은 눈을 쓰면 같은 걸 못 본다 — 감시자는 반드시 수집기보다
+ * 느슨한 기준을 써야 수집기 필터의 구멍이 감시망에 걸린다.
+ *
+ *   clean: 수집기 파서(parseQuizbells)가 실제로 정답을 추출할 수 있는가.
+ *          → 이게 true인데 우리 데이터에 없으면 파이프라인 장애다.
+ *   any  : 정답 칸이 비어 있지 않은 행이 하나라도 있는가(길이·형식 무관).
+ *          → any=true, clean=false 면 "소스에 뭔가 떠 있는데 우리 파서가
+ *            못 읽는 형식"이다. 필터 구멍 의심으로 보고한다.
+ *
+ * clean 판정에 수집기 파서를 그대로 가져다 쓰므로, 앞으로 파서를 고치면
+ * 감시 기준도 자동으로 따라온다(두 코드가 어긋날 수 없다).
+ */
+async function quizbellsState(sourceSlug, slug, today) {
   try {
     const res = await fetch(`https://quizbells.com/quiz/${sourceSlug}/today/answer`, {
       headers: { 'user-agent': 'Mozilla/5.0 (quizday-healthcheck)' },
       signal: AbortSignal.timeout(15000),
     });
-    if (!res.ok) return false;
+    if (!res.ok) return { clean: false, any: false };
     const html = await res.text();
 
     // 제목의 날짜가 오늘이 아니면 캐시된 옛날 페이지다.
     const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
     const dm = title.match(/(\d{4})년 (\d{2})월 (\d{2})일/);
-    if (!dm || `${dm[1]}-${dm[2]}-${dm[3]}` !== today) return false;
+    if (!dm || `${dm[1]}-${dm[2]}-${dm[3]}` !== today) return { clean: false, any: false };
+
+    // 발행 파이프라인과 똑같은 최종 관문(isSaneQuestion)까지 통과해야 clean이다.
+    const clean =
+      parseQuizbells(html, slug, today).filter((r) => isSaneQuestion(r.question)).length > 0;
 
     const table = html.match(/<table[^>]*>([\s\S]*?)<\/table>/)?.[1] ?? '';
-    if (!table) return false;
-
     const rows = [
       ...table.matchAll(/<tr[^>]*>\s*<td[^>]*>([\s\S]*?)<\/td>\s*<td[^>]*>([\s\S]*?)<\/td>\s*<\/tr>/g),
     ];
-    return rows.some(([, , aCell]) => {
+    const any = rows.some(([, qCell, aCell]) => {
+      // 팀플전 이벤트 행은 '제목만 먼저 올라오는' 게 정상 상태라,
+      // 정답이 실제 추출될 때만 '소스에 있음'으로 센다(매일 아침 오탐 방지).
+      const ev = parseTeampljeon(qCell, aCell);
+      if (ev) return ev.length > 0;
       const text = decodeEntities(aCell.replace(/<[^>]*>/g, ' ')).trim();
-      return text.length > 0 && text.length <= 40;
+      return text.length > 0;
     });
+    return { clean, any };
   } catch {
-    return false; // 네트워크 실패는 "장애 아님"으로 처리. 오탐보다 미탐이 낫다.
+    return { clean: false, any: false }; // 네트워크 실패는 "장애 아님". 오탐보다 미탐이 낫다.
   }
 }
 
@@ -125,22 +151,31 @@ async function main() {
     overdue.map(async ({ q, lateBy }) => ({
       q,
       lateBy,
-      onSource: q.sourceSlug ? await quizbellsHasAnswer(q.sourceSlug, today) : null,
+      state: q.sourceSlug ? await quizbellsState(q.sourceSlug, q.slug, today) : null,
     })),
   );
 
-  const missed = checked.filter((c) => c.onSource === true);
-  const notPublished = checked.filter((c) => c.onSource === false);
-  const unknown = checked.filter((c) => c.onSource === null);
+  const missed = checked.filter((c) => c.state?.clean === true);
+  const suspect = checked.filter((c) => c.state && !c.state.clean && c.state.any);
+  const notPublished = checked.filter((c) => c.state && !c.state.clean && !c.state.any);
+  const unknown = checked.filter((c) => c.state === null);
 
   console.log(`검사 시각: ${today} ${String(now.getUTCHours()).padStart(2, '0')}:${String(now.getUTCMinutes()).padStart(2, '0')} KST`);
   console.log(`지연 ${overdue.length}건 중 —`);
   console.log(`  소스에 있는데 우리가 놓침: ${missed.length}건`);
+  console.log(`  소스에 뭔가 있는데 파서가 못 읽음(필터 구멍 의심): ${suspect.length}건`);
   console.log(`  소스도 아직 미발행(정상): ${notPublished.length}건`);
   console.log(`  2차 소스 없어 판정 불가: ${unknown.length}건`);
 
   for (const c of missed) {
     console.log(`  [놓침] ${c.q.slug} (${c.q.name}) — 공개 후 ${Math.round(c.lateBy + GRACE_MINUTES)}분 경과`);
+  }
+  for (const c of suspect) {
+    console.log(
+      `  [형식의심] ${c.q.slug} (${c.q.name}) — 소스 정답 칸에 내용이 있는데 파서가 추출하지 못함. ` +
+        `소스 형식이 바뀌었거나 필터가 과하게 거르는 중일 수 있음. 원문 확인 필요: ` +
+        `https://quizbells.com/quiz/${c.q.sourceSlug}/today/answer`,
+    );
   }
   for (const c of notPublished) {
     console.log(`  [미발행] ${c.q.slug} — 소스도 아직 없음`);
@@ -153,6 +188,16 @@ async function main() {
     console.error(
       `\n장애: 퀴즈벨에 공개된 정답 ${missed.length}건을 수집하지 못했습니다 (임계 ${FAIL_THRESHOLD}건). ` +
         `수집 워크플로가 멈췄거나 파서가 깨졌을 가능성이 높습니다.`,
+    );
+    process.exit(1);
+  }
+
+  // 형식의심은 슬러그 하나면 커뮤니티 잡담일 수도 있어 관찰만 하고,
+  // 두 슬러그 이상 동시면 소스 구조 변경 가능성이 높으므로 장애로 올린다.
+  if (suspect.length >= 2) {
+    console.error(
+      `\n장애: 파서가 읽지 못하는 소스 행이 ${suspect.length}개 퀴즈에서 동시 발생. ` +
+        `퀴즈벨 HTML 구조 변경 가능성 — parseQuizbells 점검 필요.`,
     );
     process.exit(1);
   }
