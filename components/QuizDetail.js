@@ -83,6 +83,10 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
             </a>
           );
         })}
+        {/* 월간 모음(고정 주소) 진입점 — 내부 링크가 있어야 크롤러가 발견한다 */}
+        <a href={`/quiz/${quiz.slug}/monthly/`} className="date-chip">
+          이번달 전체
+        </a>
       </nav>
 
       <div className="howto">

@@ -40,6 +40,13 @@ export default function sitemap() {
       changeFrequency: 'hourly',
       priority: 0.9,
     })),
+    // 월간 모음 — 고정 주소라 신뢰가 누적된다. 오늘 페이지 다음 순위로 민다.
+    ...quizzes.map((q) => ({
+      url: `${base}/quiz/${q.slug}/monthly/`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    })),
     ...questionUrls,
     ...quizzes.flatMap((q) =>
       recent.map((d) => ({
