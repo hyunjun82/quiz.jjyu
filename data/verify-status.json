@@ -1,9 +1,9 @@
 {
   "date": "2026-08-05",
-  "lastRun": "2026-08-05T02:45:19.076+09:00",
+  "lastRun": "2026-08-05T03:01:41.700+09:00",
   "missing": 0,
   "partial": 0,
   "fixed": 0,
-  "unknown": 0,
-  "unreachable": 21
+  "unknown": 1,
+  "unreachable": 0
 }
