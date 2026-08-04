@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T00:03:10.069+09:00",
+  "updatedAt": "2026-08-05T00:07:26.290+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -37,7 +37,15 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "(다)-(나)-(가)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T00:07:26.290+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "기업의 실제 실적이 시장 예상치를 크게 뛰어넘었을 때 사용하는 표현은?",
