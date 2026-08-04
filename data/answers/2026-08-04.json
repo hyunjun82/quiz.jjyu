@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T04:26:33.762+09:00",
+  "updatedAt": "2026-08-04T09:04:44.780+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -71,7 +71,15 @@
         "publishedAt": "2026-08-04T00:04:37.857+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "0000란, 중고거래·공유·재활용 등을 통해 자원의 사용과 재사용을 촉진하는 경제 시스템이에요",
+        "answer": "순환경제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T09:04:44.780+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [
       {
