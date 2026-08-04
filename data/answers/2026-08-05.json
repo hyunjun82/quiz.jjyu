@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T01:55:18.735+09:00",
+  "updatedAt": "2026-08-05T03:01:38.153+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -18,6 +18,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-05T00:03:10.069+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "신용카드 가입",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T03:01:38.153+09:00"
       }
     ],
     "kakaobank": [
