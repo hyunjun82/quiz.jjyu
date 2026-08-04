@@ -307,6 +307,42 @@ async function collectFromBlog() {
  * 날짜 검증: <title>에 박힌 날짜가 오늘이 아니면 통째로 버린다(퀴즈벨은 정답이 아직
  * 없어도 어제 페이지를 그대로 노출하는 경우가 있어 이 검증이 필수다 — 실측 확인됨).
  */
+/**
+ * 토스 '두근두근 1등 찍기 팀플전' 구제 파서.
+ *
+ * 8/4 실측으로 찾은 구멍: 퀴즈벨의 토스 행은 커뮤니티 글 형식이라 제목이
+ * "260801 토스 두근두근 1등 찍기 팀플전"처럼 YYMMDD로 시작한다. 7/28에 넣은
+ * 커뮤니티-쓰레기 필터(isSaneQuestion의 /^\d{6}/ 거부)가 이 행을 통째로 버렸고,
+ * 그 결과 8/1·8/2의 진짜 정답("오전 - 하림 텐더스틱 / 오후 - 나우푸드 칼슘")이
+ * 이틀 연속 유실됐다. 필터 자체는 옳다(카카오페이 잡담 차단 실적 있음) —
+ * 다만 이 형식만은 버리기 전에 정답을 추출해 구제한다.
+ *
+ * 셀 원문 구조(실측): 한 <div> 안에 "\xa0\xa0"(nbsp 2개)로 구분된
+ *   [제목] ␣␣ 오전 - X오후 - Y ␣␣ [잡담]
+ * 형태. 오전/오후 답 사이엔 구분자가 아예 없어서 '오후 -' 룩어헤드로 자른다.
+ */
+function parseTeampljeon(qCell, aCell) {
+  const rawText = decodeEntities(String(aCell).replace(/<[^>]+>/g, ' '));
+  const joined = `${clean(qCell)} ${rawText}`;
+  if (!/팀플전|1등\s*찍기/.test(joined)) return null;
+
+  // nbsp 2개(또는 공백 뭉치)로 제목/정답/잡담 구획을 나눈다.
+  const segs = rawText.split(/[ ]{2,}|\s{3,}/).map((s) => s.replace(/\s+/g, ' ').trim());
+  const body = segs.find((s) => /오전\s*[-–—:]|오후\s*[-–—:]/.test(s));
+  if (!body) return null; // 아직 제목만 올라온 상태 — 다음 바퀴에서 다시 본다
+
+  const am = body.match(/오전\s*[-–—:]\s*(.+?)(?=\s*오후\s*[-–—:]|$)/)?.[1]?.trim();
+  const pm = body.match(/오후\s*[-–—:]\s*(.+)$/)?.[1]?.trim();
+  const out = [];
+  if (am && isSaneAnswer(am)) {
+    out.push(buildItem('토스 두근두근 1등 찍기 팀플전 (오전)', [am]));
+  }
+  if (pm && isSaneAnswer(pm)) {
+    out.push(buildItem('토스 두근두근 1등 찍기 팀플전 (오후)', [pm]));
+  }
+  return out.length ? out : null;
+}
+
 function parseQuizbells(html, slug, today) {
   const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
   const dm = title.match(/(\d{4})년 (\d{2})월 (\d{2})일/);
@@ -321,6 +357,13 @@ function parseQuizbells(html, slug, today) {
 
   const out = [];
   for (const [, qCell, aCell] of rows) {
+    // 팀플전 형식은 일반 경로(정답 40자 제한 + YYMMDD 지문 거부)에서 반드시
+    // 탈락하므로, 먼저 구제 파서로 정답을 추출한다.
+    const rescued = parseTeampljeon(qCell, aCell);
+    if (rescued) {
+      for (const r of rescued) out.push({ slug, ...r, source: 'quizbells' });
+      continue;
+    }
     const divs = [...aCell.matchAll(/<div[^>]*>([\s\S]*?)<\/div>/g)].map((m) => clean(m[1]));
     const answers = (divs.length ? divs : [clean(aCell)]).filter(isSaneAnswer);
     if (answers.length === 0) continue;
@@ -1008,6 +1051,7 @@ export {
   isBetterQuestion,
   isSaneAnswer,
   isSaneQuestion,
+  parseTeampljeon,
   sweepGarbage,
   isFullerAnswer,
   garbageReason,

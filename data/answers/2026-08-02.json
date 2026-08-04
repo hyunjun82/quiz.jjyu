@@ -2,7 +2,22 @@
   "date": "2026-08-02",
   "updatedAt": "2026-08-02T22:15:00+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "꾸브라꼬치킨",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T23:59:00.000+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "노모어피자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-02T23:59:00.000+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "앱스토리몰 브리츠 오픈형 블루투스 이어폰",
