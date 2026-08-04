@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updatedAt": "2026-08-04T10:03:04.270+09:00",
+  "updatedAt": "2026-08-04T10:03:21.897+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,10 +54,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "새롭게 선보인 KB Pay '바로할인 서비스'의 가장 큰 특징은…(후략)",
         "answer": "결제와 동시에 바로할인",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-04T10:01:14.555+09:00"
       }
     ],
