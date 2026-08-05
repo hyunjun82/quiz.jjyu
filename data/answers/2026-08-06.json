@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T00:05:08.215+09:00",
+  "updatedAt": "2026-08-06T00:06:05.240+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,7 +59,15 @@
     ],
     "bitbunny": [],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 (디깅퀴즈)",
+        "answer": "호패",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T00:06:05.240+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [
       {
