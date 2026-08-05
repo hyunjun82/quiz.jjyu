@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T00:14:49.896+09:00",
+  "updatedAt": "2026-08-06T01:19:07.004+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "신한카드 고객이 신한 SOL LINK 계좌 개설 시 100% 받을 수 있는 쿠폰은?",
         "answer": "최대 2만원 투자쿠폰(증권 신규/휴면고객)",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-06T00:04:03.822+09:00"
       },
       {
@@ -61,6 +61,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-06T00:01:14.586+09:00"
+      },
+      {
+        "question": "한반도의 여름 일수가 길어짐에 따라 폭염일수는 늘어나는 반면 열대야 일수는 줄어들고 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T01:19:07.003+09:00"
       }
     ],
     "hpoint": [
