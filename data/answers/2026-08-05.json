@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T10:00:51.954+09:00",
+  "updatedAt": "2026-08-05T10:01:35.607+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -37,7 +37,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 여행의 제휴사인 찜카에서 여름휴가 시즌을 맞이하여…(후략)",
+        "answer": "10%",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-08-05T10:01:35.607+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
