@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T04:25:23.917+09:00",
+  "updatedAt": "2026-08-06T07:50:25.881+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -86,7 +86,15 @@
         "publishedAt": "2026-08-06T00:04:50.636+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "000이란, 취업하지 않고 교육이나 직업훈련에도 참여하지 않는 청년층을 가리키는 경제 용어예요.",
+        "answer": "니트족",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T07:50:25.881+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [
       {
