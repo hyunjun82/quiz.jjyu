@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T00:09:35.324+09:00",
+  "updatedAt": "2026-08-06T00:10:29.573+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -33,6 +33,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-06T00:04:03.822+09:00"
+      },
+      {
+        "question": "퀴즈팡팡 8/6일자",
+        "answer": "최대 2만원 투자쿠폰",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T00:10:29.573+09:00"
       }
     ],
     "kakaobank": [],
