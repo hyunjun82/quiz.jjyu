@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T00:10:29.573+09:00",
+  "updatedAt": "2026-08-06T00:10:42.411+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -82,6 +82,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-06T00:06:42.950+09:00"
+      },
+      {
+        "question": "스타퀴즈 8/6일자",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T00:10:42.411+09:00"
       }
     ],
     "kbank": [
