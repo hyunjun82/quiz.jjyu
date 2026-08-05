@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T20:03:55.074+09:00",
+  "updatedAt": "2026-08-05T21:01:14.575+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -123,6 +123,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-05T16:05:45.900+09:00"
+      },
+      {
+        "question": "AHC 프리미어 앰플 인 코어리프팅 아이크림",
+        "answer": "18500",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T21:01:14.575+09:00"
       }
     ],
     "shinhan-sol": [
