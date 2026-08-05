@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T01:19:07.004+09:00",
+  "updatedAt": "2026-08-06T01:55:04.264+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -99,10 +99,10 @@
         "publishedAt": "2026-08-06T00:06:42.950+09:00"
       },
       {
-        "question": "스타퀴즈 8/6일자",
+        "question": "무이자 할부 결제 금액은 실적 및 혜택에서 제외되는 경우가 많다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-06T00:10:42.411+09:00"
       }
     ],
@@ -113,6 +113,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-06T00:01:14.586+09:00"
+      },
+      {
+        "question": "큰 지출 전 적은 비용으로 먼저 제품을 경험해 실패 확률을 줄이는 소비 방식은?",
+        "answer": "리트머스 소비",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T01:55:04.263+09:00"
       }
     ],
     "hana-onq": [
@@ -148,6 +155,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-06T00:02:26.074+09:00"
+      },
+      {
+        "question": "고혈압은 초기부터 뚜렷한 증상이 나타나 스스로 쉽게 알아챌 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T01:55:04.264+09:00"
       }
     ],
     "skstoa": [],
