@@ -1,8 +1,16 @@
 {
   "date": "2026-08-05",
-  "updatedAt": "2026-08-05T10:01:35.607+09:00",
+  "updatedAt": "2026-08-05T10:02:14.147+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 10수금지화목토천해",
+        "answer": "10",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.145+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -46,7 +54,106 @@
         "publishedAt": "2026-08-05T10:01:24.865+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "1알이면 막혀도 안아프게 비워요",
+        "answer": "한샷, 물엿, 애사비, 젤라틴",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "이번주만 인기템 1+1",
+        "answer": "식후, 소비톨, 인위적, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "소비자24 소비자 포털 피해 예방",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 두피케어 기능성 탈모앰플",
+        "answer": "탈모, 영양분, 쿨링감",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "소비자24 일상생활 제품 사용시 주의사항 예방방법",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.146+09:00"
+      },
+      {
+        "question": "소비자24 24시간 열린 소비자포털 공정거래위원회 비교정보 서비스",
+        "answer": "비교공감",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.147+09:00"
+      },
+      {
+        "question": "리비힐 엑소좀 앰플",
+        "answer": "14, 주름",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.147+09:00"
+      },
+      {
+        "question": "컷슬린 안티스파이크 포 다이어트 15% 광복쿠폰",
+        "answer": "바나바잎, 다이어트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.147+09:00"
+      },
+      {
+        "question": "G마켓 에이징 리커버리 쿠션",
+        "answer": "광채",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-05T10:02:14.147+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "2025년 경기도는 '폭염대책 종합 추진계획' 을 추진한 바있다.",
