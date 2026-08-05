@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T01:55:04.264+09:00",
+  "updatedAt": "2026-08-06T04:25:23.917+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -40,6 +40,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-06T00:10:29.573+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "2,000원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T04:25:23.916+09:00"
       }
     ],
     "kakaobank": [
