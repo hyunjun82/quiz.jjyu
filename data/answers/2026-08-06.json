@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T00:02:59.339+09:00",
+  "updatedAt": "2026-08-06T00:04:03.822+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -19,7 +19,22 @@
       }
     ],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "최대 2만원 투자쿠폰(증권 신규/휴면고객)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T00:04:03.822+09:00"
+      },
+      {
+        "question": "9일까지 슈퍼 SOL에서 응모 가능한 2026 신한 SOL KBO 리그 7월 월간 MVP 투표에서 가장 많은 3인의 후보를 배출한 구단은?",
+        "answer": "kt wiz",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T00:04:03.822+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
