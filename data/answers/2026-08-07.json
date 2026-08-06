@@ -1,15 +1,15 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T00:11:01.530+09:00",
+  "updatedAt": "2026-08-07T01:54:45.449+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "Tops 할인 쿠폰으로 롯데월드를 즐겨보세요! 올 여름 롯데월드에 상륙한 초대형 몬스터의 이름은?",
         "answer": "콩X고질라",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-07T00:07:44.258+09:00"
       },
       {
@@ -39,6 +39,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T00:07:44.258+09:00"
+      },
+      {
+        "question": "새활용, 재활용 제품을 구매하는 것은 일상 속 탄소중립을 실천하는 기후행동으로 볼수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T01:54:45.449+09:00"
       }
     ],
     "hpoint": [
@@ -50,15 +57,23 @@
         "publishedAt": "2026-08-07T00:07:44.258+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 정년대직 후 재취업이나 창업 등을 통해 새로운 경제·사회 활동을 시작하는 것을 말해요.",
+        "answer": "인생이모작",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T01:54:45.449+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/7일자",
+        "question": "퇴직연금 가입자가 무주택인 경우 본인 명의로 주택을 구입할 때는 퇴직연금을 중도 인출할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-07T00:08:51.101+09:00"
       },
       {
@@ -76,6 +91,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T00:07:44.258+09:00"
+      },
+      {
+        "question": "알파고보다 적은 연산으로 성능을 빠르게 높인 현존 최고 수준의 오픈소스 바둑 AI는?",
+        "answer": "카타고",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T01:54:45.449+09:00"
       }
     ],
     "hana-onq": [
@@ -111,6 +133,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T00:07:44.258+09:00"
+      },
+      {
+        "question": "모기 물린 자리가 유난히 크게 붓고 물집까지 생기 는 것도 알레르기 반응이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T01:54:45.449+09:00"
       }
     ],
     "skstoa": [],
@@ -124,6 +153,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T00:07:44.258+09:00"
+      },
+      {
+        "question": "위장 장애는 냉방병의 증상으로 볼 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T01:54:45.449+09:00"
       }
     ]
   }
