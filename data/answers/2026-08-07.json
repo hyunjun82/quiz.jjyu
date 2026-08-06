@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T00:08:51.101+09:00",
+  "updatedAt": "2026-08-07T00:09:57.031+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -52,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T00:08:51.101+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "계백료서를 지어 관리의 규범을 제시하였다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T00:09:57.031+09:00"
       }
     ],
     "kbank": [
