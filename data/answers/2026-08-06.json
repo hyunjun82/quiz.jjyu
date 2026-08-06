@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T20:02:05.466+09:00",
+  "updatedAt": "2026-08-06T20:02:35.426+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -143,7 +143,15 @@
         "publishedAt": "2026-08-06T00:12:12.964+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오후 8시 참여만 해도 경품기회 참여하는 나비엔라이브",
+        "answer": "여",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-06T20:02:35.426+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "KB Pay 신규서비스 '깨비로또' 2회차의 1등 당첨금은 얼마일까요?",
