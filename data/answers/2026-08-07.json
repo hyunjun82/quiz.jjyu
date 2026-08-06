@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T01:54:45.449+09:00",
+  "updatedAt": "2026-08-07T07:55:28.229+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -18,6 +18,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T00:07:44.258+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T07:55:28.228+09:00"
       }
     ],
     "kakaobank": [
@@ -67,7 +74,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 (디깅퀴즈)",
+        "answer": "가을 수확을 준비하는 시기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T07:55:28.229+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "퇴직연금 가입자가 무주택인 경우 본인 명의로 주택을 구입할 때는 퇴직연금을 중도 인출할 수 있다.",
