@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T10:01:27.137+09:00",
+  "updatedAt": "2026-08-07T10:02:30.996+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -45,7 +45,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "KB 유스클럽 체크카드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.995+09:00"
+      }
+    ],
     "cashdoc": [
       {
         "question": "오늘만 뽀또 체다치즈버터+레몬커스터드맛 4박스 ⭐15,000원⭐ 체다치즈버터 2개와 상큼한 레몬커스터드맛 2개 구성! 골라 먹는 재미까지 담은 뽀또 신상 2종을 4박스 특가로 만나보세요. 알프스 암염을 더해 단짠단짠 크래커 더욱 진해진 OOOO에 버터의 고소함을 더하다! 빈칸에 들어갈 정답은 무엇일까요?",
@@ -53,6 +61,90 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-07T10:00:54.000+09:00"
+      },
+      {
+        "question": "1알이면 막혀도 안아프게 비워요",
+        "answer": "한샷, 물엿, 애사비, 젤라틴",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.995+09:00"
+      },
+      {
+        "question": "이번주만 인기템 1+1",
+        "answer": "식후, 소비톨, 인위적, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "소비자24 소비자 포털 피해 예방",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "소비자24 일상생활 제품 사용시 주의사항 예방방법",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "소비자24 24시간 열린 소비자포털 공정거래위원회 비교정보 서비스",
+        "answer": "비교공감",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "리비힐 엑소좀 앰플",
+        "answer": "14, 주름",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      },
+      {
+        "question": "컷슬린 안티스파이크 포 다이어트 15% 광복쿠폰",
+        "answer": "바나바잎, 다이어트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
       }
     ],
     "climate-action": [
@@ -89,7 +181,15 @@
         "publishedAt": "2026-08-07T01:54:45.449+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "퀴즈거침없는화랑",
+        "answer": "갤러리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "디깅퀴즈 (디깅퀴즈)",
@@ -120,6 +220,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T10:01:27.137+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 8/7일자",
+        "answer": "2번 KB 유스클럽 체크카드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T10:02:30.996+09:00"
       }
     ],
     "kbank": [
