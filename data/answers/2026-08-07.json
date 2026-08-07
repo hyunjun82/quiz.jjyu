@@ -1,8 +1,16 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T07:55:28.229+09:00",
+  "updatedAt": "2026-08-07T09:35:59.263+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "H포인트 9주년 이벤트",
+        "answer": "10, 계좌충전, 하이라이트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T09:35:59.262+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
