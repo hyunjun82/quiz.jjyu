@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T00:02:47.624+09:00",
+  "updatedAt": "2026-08-08T00:05:47.486+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -33,7 +33,15 @@
         "publishedAt": "2026-08-08T00:00:37.969+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "퀵계좌이체",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:05:47.486+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
