@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T00:13:32.484+09:00",
+  "updatedAt": "2026-08-08T00:13:59.278+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -42,7 +42,15 @@
         "publishedAt": "2026-08-08T00:05:47.486+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO이란, 일과 삶의 균형을 중시해 연봉뿐만 아니라 근무 환경과 여가도 중요하게 생각하는 직장인 트렌드예요.",
+        "answer": "워라밸",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:13:59.278+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
