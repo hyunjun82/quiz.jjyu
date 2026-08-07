@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T10:02:30.996+09:00",
+  "updatedAt": "2026-08-07T10:04:02.911+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -47,10 +47,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "20만좌 발급 돌파! 할인 가맹점에서 결제하면 선착순으로 커피쿠폰을…(후략)",
         "answer": "KB 유스클럽 체크카드",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-07T10:02:30.995+09:00"
       }
     ],
