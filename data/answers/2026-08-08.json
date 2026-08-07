@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T00:25:10.555+09:00",
+  "updatedAt": "2026-08-08T00:43:22.870+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -84,6 +84,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-08T00:01:44.061+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "윔지코어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:43:22.870+09:00"
       }
     ],
     "hana-onq": [
