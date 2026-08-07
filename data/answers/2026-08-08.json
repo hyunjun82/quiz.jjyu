@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T00:07:33.040+09:00",
+  "updatedAt": "2026-08-08T00:08:02.808+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -52,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-08T00:06:55.613+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "쌍성총관부를 공격하여 철령 이북을 수복하였다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:08:02.807+09:00"
       }
     ],
     "kbank": [
