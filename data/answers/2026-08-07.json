@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updatedAt": "2026-08-07T10:04:02.911+09:00",
+  "updatedAt": "2026-08-07T12:55:37.956+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-07T09:35:59.262+09:00"
+      },
+      {
+        "question": "직방, 퀴즈, 단기임대은재아빠님",
+        "answer": "단기임대",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-07T12:55:37.954+09:00"
       }
     ],
     "cashwalk": [],
