@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T00:01:10.977+09:00",
+  "updatedAt": "2026-08-08T00:01:44.061+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -23,11 +23,27 @@
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "알파고보다 적은 연산으로 성능을 빠르게 높인 현존 최고 수준의 오픈소스 바둑 AI는?",
+        "answer": "카타고",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:01:44.061+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "모기 물린 자리가 유난히 크게 붓고 물집까지 생기 는 것도 알레르기 반응이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:01:44.061+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
