@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T00:00:37.969+09:00",
+  "updatedAt": "2026-08-08T00:01:05.619+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -32,6 +32,14 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": []
+    "doctornow": [
+      {
+        "question": "위장 장애는 냉방병의 증상으로 볼 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:01:05.619+09:00"
+      }
+    ]
   }
 }
