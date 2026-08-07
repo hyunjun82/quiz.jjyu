@@ -1,10 +1,25 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T00:02:12.793+09:00",
+  "updatedAt": "2026-08-08T00:02:47.624+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "bhc",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:02:47.624+09:00"
+      },
+      {
+        "question": "KBO 리그 선수 11명이 오는 12월 국군체육부대 상무 야구단에 입대합니다. 아래 중 이번에 상무 야구단에 입대하게 될 선수로 맞지 않는 것은?",
+        "answer": "정은원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:02:47.624+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
@@ -33,7 +48,15 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "유럽 사람들이 최근 적극적으로 에어컨을 설치하려는 이유는 무엇일까요?",
+        "answer": "기록적인 폭염이 이어져서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T00:02:47.624+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
