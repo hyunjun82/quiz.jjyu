@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T03:51:57.703+09:00",
+  "updatedAt": "2026-08-08T10:00:43.044+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -37,7 +37,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "#홈캉스_정복기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T10:00:43.044+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
