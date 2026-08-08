@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T10:09:37.125+09:00",
+  "updatedAt": "2026-08-08T15:19:12.309+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -151,6 +151,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-08T00:15:55.447+09:00"
+      },
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "정답 : 2. 팀벤치",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T15:19:12.309+09:00"
       }
     ],
     "monimo": [
