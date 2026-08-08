@@ -1,9 +1,66 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T15:45:28.483+09:00",
+  "updatedAt": "2026-08-08T16:18:26.784+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "앱스토리몰 브리츠 오픈형 블루투스 이어폰",
+        "answer": "13, 20, ENC, 생활방수, 이어후크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      },
+      {
+        "question": "CJ더마켓 메가 더세페 상반기 최대 세일",
+        "answer": "30, 6588, 초특가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      },
+      {
+        "question": "픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      },
+      {
+        "question": "소이비랩 저당 검은콩두유 설탕 대신 알룰로스 건강보충용",
+        "answer": "식사대용",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      },
+      {
+        "question": "리얼마이즈 저당 고단백 허니버터맛 프로틴 시리얼",
+        "answer": "당함량",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T16:18:26.784+09:00"
+      }
+    ],
     "shinhan-sol": [
       {
         "question": "오늘은 신한 SOL페이 땡겨요 Day! 최대 13,000원 할인받을 수 있는 오늘의 땡데이 브랜드는 무엇일까요?",
