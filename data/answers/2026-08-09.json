@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-09",
+  "updatedAt": "2026-08-09T00:00:51.666+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "전세계적으로 약 30만 개에 달하는 국립공원, 야생생물보호지역과 같은 자연 보호지역이 지정되어 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "동화 같은 색감과 장식으로 일상을 꾸미며 즐거움을 추구하는 Z세대의 라이프스타일 트렌드는?",
+        "answer": "윔지코어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "경구피임악은 피임 외에 여드름-생리불순 완화 목 적으로도 쓰인다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "장염이 심할 때 커피가 도움 된다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      }
+    ]
+  }
+}
