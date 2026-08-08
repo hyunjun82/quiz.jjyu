@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T10:09:04.227+09:00",
+  "updatedAt": "2026-08-08T10:09:37.125+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -39,10 +39,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "이번 '썸머 밸런스 PICK! Vol.2'의 주제는 무엇일까요?",
         "answer": "#홈캉스_정복기",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-08T10:00:43.044+09:00"
       }
     ],
@@ -74,7 +74,15 @@
         "publishedAt": "2026-08-08T00:13:59.278+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "퀴즈타임 (퀴즈치사토)",
+        "answer": "100",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-08T10:09:37.125+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
