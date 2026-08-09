@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T00:12:54.594+09:00",
+  "updatedAt": "2026-08-10T00:23:29.763+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -76,6 +76,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "전고체 배터리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:23:29.763+09:00"
       }
     ],
     "hana-onq": [
