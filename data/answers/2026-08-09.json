@@ -1,203 +1,253 @@
 {
- "date": "2026-08-09",
- "updatedAt": "2026-08-09T13:18:11+09:00",
- "answers": {
-  "toss-lucky": [],
-  "cashwalk": [],
-  "shinhan-sol": [
-   {
-    "question": "'트래블 Discover-Day! 준비부터 설레는 여행 필수 아이템 특가전'에서 판매되는 특가 상품이 아닌 것은?",
-    "answer": "썬캡",
-    "note": "",
-    "source": "blog",
-    "publishedAt": "2026-08-09T00:02:57.517+09:00"
-   },
-   {
-    "question": "폭염으로 인한 경기 취소로 2026 신한 SOL KBO 리그 가을 일정에 부담이 커졌습니다. KBO 정규시즌 한 팀당 치르는 경기수는 총 몇 경기 일까요?",
-    "answer": "144 경기",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:02:57.517+09:00"
-   },
-   {
-    "question": "신한 쏠퀴즈 (출석 퀴즈)",
-    "answer": "포인트 잔액",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T03:32:43.507+09:00"
-   }
-  ],
-  "kakaobank": [
-   {
-    "question": "OX 퀴즈 8/9",
-    "answer": "O",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:12:40.410+09:00"
-   },
-   {
-    "question": "AI 이모지 오전퀴즈hd7561",
-    "answer": "이율",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T08:11:00.688+09:00"
-   },
-   {
-    "question": "AI 이모지 오후퀴즈",
-    "answer": "천체관측",
-    "note": "오후 12시 퀴즈 (게임톡 확인)",
-    "source": "gametoc",
-    "publishedAt": "2026-08-09T13:18:11+09:00"
-   }
-  ],
-  "ok-cashbag": [],
-  "kbpay": [
-   {
-    "question": "다음 중 조각, 도예, 금속공예, 설치미술 등 다양한 입체 예술을…(후략)",
-    "answer": "조형예술학",
-    "note": "",
-    "source": "bizwnews",
-    "publishedAt": "2026-08-09T10:00:43.057+09:00"
-   }
-  ],
-  "cashdoc": [],
-  "climate-action": [
-   {
-    "question": "전세계적으로 약 30만 개에 달하는 국립공원, 야생생물보호지역과 같은 자연 보호지역이 지정되어 있다.",
-    "answer": "O (그렇다)",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:00:51.666+09:00"
-   },
-   {
-    "question": "폭염이 심할 때 야외활동을 자제하지 않아도 온열질환 중 하나인 열사병으로부터 안전하다.",
-    "answer": "X (아니다)",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T01:22:11.632+09:00"
-   }
-  ],
-  "hpoint": [
-   {
-    "question": "H포인트 퀴즈 (퀴즈)",
-    "answer": "쿠폰딜",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:08:16.867+09:00"
-   }
-  ],
-  "bitbunny": [
-   {
-    "question": "OOOOO란, 직장에 다니면서도 맡은 업무 범위를 넘어서는 일은 최소화하고 정해진 일만 수행하는 태도예요.",
-    "answer": "조용한퇴사",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:13:56.511+09:00"
-   }
-  ],
-  "kakaopay": [],
-  "nh-allone": [],
-  "kb-star": [
-   {
-    "question": "자녀에게 증여 후 납부할 세액이 없더라도 가급적이면 신고를 해두는 것이 좋다.",
-    "answer": "O",
-    "note": "",
-    "source": "blog",
-    "publishedAt": "2026-08-09T00:06:07.519+09:00"
-   },
-   {
-    "question": "KB 별별퀴즈 — 8/8일자",
-    "answer": "2번 조형예술학",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T10:01:47.001+09:00"
-   }
-  ],
-  "kbank": [
-   {
-    "question": "동화 같은 색감과 장식으로 일상을 꾸미며 즐거움을 추구하는 Z세대의 라이프스타일 트렌드는?",
-    "answer": "윔지코어",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:00:51.666+09:00"
-   },
-   {
-    "question": "제품 구매를 추천하는 대신, 제품의 단점까지 솔직하게 리뷰하여 과소비를 경계하는 인플루언서 유형은?",
-    "answer": "디인플루언서",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T01:22:11.632+09:00"
-   }
-  ],
-  "hana-onq": [
-   {
-    "question": "축구 play 퀴즈 HANA",
-    "answer": "7경기",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:13:56.511+09:00"
-   },
-   {
-    "question": "슬기로운 금융생활 OX퀴즈",
-    "answer": "O",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:16:56.819+09:00"
-   }
-  ],
-  "monimo": [
-   {
-    "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
-    "answer": "O (예)",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:01:56.247+09:00"
-   },
-   {
-    "question": "오늘의 영어 퀴즈손뜨개질",
-    "answer": "dream, work",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T07:19:31.907+09:00"
-   }
-  ],
-  "paybooc": [],
-  "mydoctor": [
-   {
-    "question": "경구피임악은 피임 외에 여드름-생리불순 완화 목 적으로도 쓰인다.",
-    "answer": "O (그렇다)",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:00:51.666+09:00"
-   },
-   {
-    "question": "냉방병은 감기처럼 바이러스에 감염돼 걸리는 병 이다.",
-    "answer": "X (아니다)",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T01:22:11.632+09:00"
-   }
-  ],
-  "skstoa": [],
-  "auction": [
-   {
-    "question": "매일 플러스 퀴즈",
-    "answer": "베스트",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T03:32:43.508+09:00"
-   }
-  ],
-  "myhomeplus": [],
-  "syrup": [],
-  "doctornow": [
-   {
-    "question": "장염이 심할 때 커피가 도움 된다.",
-    "answer": "X (아니다)",
-    "note": "",
-    "source": "quizbells",
-    "publishedAt": "2026-08-09T00:00:51.666+09:00"
-   }
-  ]
- }
+  "date": "2026-08-09",
+  "updatedAt": "2026-08-09T15:18:12.030+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [
+      {
+        "question": "앱스토리몰 브리츠 오픈형 블루투스 이어폰",
+        "answer": "13, 20, ENC, 생활방수, 이어후크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      },
+      {
+        "question": "CJ더마켓 메가 더세페 상반기 최대 세일",
+        "answer": "30, 6588, 초특가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      },
+      {
+        "question": "픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      },
+      {
+        "question": "리얼마이즈 저당 고단백 허니버터맛 프로틴 시리얼",
+        "answer": "당함량",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      }
+    ],
+    "shinhan-sol": [
+      {
+        "question": "'트래블 Discover-Day! 준비부터 설레는 여행 필수 아이템 특가전'에서 판매되는 특가 상품이 아닌 것은?",
+        "answer": "썬캡",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-09T00:02:57.517+09:00"
+      },
+      {
+        "question": "폭염으로 인한 경기 취소로 2026 신한 SOL KBO 리그 가을 일정에 부담이 커졌습니다. KBO 정규시즌 한 팀당 치르는 경기수는 총 몇 경기 일까요?",
+        "answer": "144 경기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:02:57.517+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "포인트 잔액",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T03:32:43.507+09:00"
+      }
+    ],
+    "kakaobank": [
+      {
+        "question": "OX 퀴즈 8/9",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:12:40.410+09:00"
+      },
+      {
+        "question": "AI 이모지 오전퀴즈hd7561",
+        "answer": "이율",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T08:11:00.688+09:00"
+      },
+      {
+        "question": "AI 이모지 오후퀴즈",
+        "answer": "천체관측",
+        "note": "오후 12시 퀴즈 (게임톡 확인)",
+        "source": "gametoc",
+        "publishedAt": "2026-08-09T13:18:11+09:00"
+      }
+    ],
+    "ok-cashbag": [],
+    "kbpay": [
+      {
+        "question": "다음 중 조각, 도예, 금속공예, 설치미술 등 다양한 입체 예술을…(후략)",
+        "answer": "조형예술학",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-08-09T10:00:43.057+09:00"
+      }
+    ],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "전세계적으로 약 30만 개에 달하는 국립공원, 야생생물보호지역과 같은 자연 보호지역이 지정되어 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      },
+      {
+        "question": "폭염이 심할 때 야외활동을 자제하지 않아도 온열질환 중 하나인 열사병으로부터 안전하다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T01:22:11.632+09:00"
+      }
+    ],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "쿠폰딜",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:08:16.867+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 직장에 다니면서도 맡은 업무 범위를 넘어서는 일은 최소화하고 정해진 일만 수행하는 태도예요.",
+        "answer": "조용한퇴사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:13:56.511+09:00"
+      }
+    ],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [
+      {
+        "question": "자녀에게 증여 후 납부할 세액이 없더라도 가급적이면 신고를 해두는 것이 좋다.",
+        "answer": "O",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-09T00:06:07.519+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 8/8일자",
+        "answer": "2번 조형예술학",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T10:01:47.001+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "동화 같은 색감과 장식으로 일상을 꾸미며 즐거움을 추구하는 Z세대의 라이프스타일 트렌드는?",
+        "answer": "윔지코어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      },
+      {
+        "question": "제품 구매를 추천하는 대신, 제품의 단점까지 솔직하게 리뷰하여 과소비를 경계하는 인플루언서 유형은?",
+        "answer": "디인플루언서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T01:22:11.632+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "7경기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:13:56.511+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:16:56.819+09:00"
+      }
+    ],
+    "monimo": [
+      {
+        "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:01:56.247+09:00"
+      },
+      {
+        "question": "오늘의 영어 퀴즈손뜨개질",
+        "answer": "dream, work",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T07:19:31.907+09:00"
+      }
+    ],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "경구피임악은 피임 외에 여드름-생리불순 완화 목 적으로도 쓰인다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      },
+      {
+        "question": "냉방병은 감기처럼 바이러스에 감염돼 걸리는 병 이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T01:22:11.632+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [
+      {
+        "question": "매일 플러스 퀴즈",
+        "answer": "베스트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T03:32:43.508+09:00"
+      }
+    ],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "장염이 심할 때 커피가 도움 된다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T00:00:51.666+09:00"
+      }
+    ]
+  }
 }
