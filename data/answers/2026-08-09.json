@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "updatedAt": "2026-08-09T15:21:27.023+09:00",
+  "updatedAt": "2026-08-09T16:05:16.589+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -52,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-09T15:18:12.030+09:00"
+      },
+      {
+        "question": "두부과자 5봉 OOOO원 특가 오븐에 구워 더욱 바삭한 식감! 계속 손이 가는 담백한 맛! 국산콩 두부함량 25% 가볍게 즐기는 두부과자",
+        "answer": "8900",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-09T16:05:16.588+09:00"
       }
     ],
     "shinhan-sol": [
