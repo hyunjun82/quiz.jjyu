@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-10",
+  "updatedAt": "2026-08-10T00:00:53.957+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "폭염이 심할 때 야외활동을 자제하지 않아도 온열질환 중 하나인 열사병으로부터 안전하다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "제품 구매를 추천하는 대신, 제품의 단점까지 솔직하게 리뷰하여 과소비를 경계하는 인플루언서 유형은?",
+        "answer": "디인플루언서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "냉방병은 감기처럼 바이러스에 감염돼 걸리는 병 이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "사후피임약은 처방전 없이도 구매 가능하다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      }
+    ]
+  }
+}
