@@ -1,10 +1,25 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T00:02:33.733+09:00",
+  "updatedAt": "2026-08-10T00:03:03.030+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "에어팟",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:03:03.029+09:00"
+      },
+      {
+        "question": "2014년 오늘은 한 한국인 선수가 한국인으로는 최초로 메이저리그에서 일천 안타를 기록한 날입니다. 이 선수는 누구일까요?",
+        "answer": "추신수",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:03:03.030+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
