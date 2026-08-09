@@ -1,15 +1,15 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T00:25:34.158+09:00",
+  "updatedAt": "2026-08-10T01:24:08.099+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "신한 SOL페이 앱테크 미션 중 '2만원 쇼핑하고 OOO 당첨받기'가 있어요. OOO에 들어갈 경품은 무엇일까요?",
         "answer": "에어팟",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-10T00:03:03.029+09:00"
       },
       {
@@ -50,9 +50,40 @@
         "publishedAt": "2026-08-10T00:07:50.540+09:00"
       }
     ],
-    "bitbunny": [],
-    "kakaopay": [],
-    "nh-allone": [],
+    "bitbunny": [
+      {
+        "question": "OOO이란, 노동자가 사전 통보나 별도의 설명 없이 갑자기 출근하지 않고 직장을 떠나는 현상이에요.",
+        "answer": "고스팅",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T01:24:08.099+09:00"
+      }
+    ],
+    "kakaopay": [
+      {
+        "question": "참여하기 우리은행 퀴즈18p훃아",
+        "answer": "쿨팁",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T01:24:08.099+09:00"
+      },
+      {
+        "question": "참여하기 옵티멈 퀴즈18p너땜에짱나",
+        "answer": "하이드로웨이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T01:24:08.099+09:00"
+      }
+    ],
+    "nh-allone": [
+      {
+        "question": "매일매일 디깅퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T01:24:08.099+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "스타퀴즈 8/10일자",
@@ -67,6 +98,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-10T00:06:46.634+09:00"
+      },
+      {
+        "question": "내가 가진 자산의 가치가 오르면 소비를 늘리는 현상을 무엇이라고 할까요?",
+        "answer": "자산효과",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-10T01:24:08.098+09:00"
       }
     ],
     "kbank": [
@@ -78,7 +116,7 @@
         "publishedAt": "2026-08-10T00:00:53.957+09:00"
       },
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "question": "차세대 2차전지로, 배터리 열폭주 위험을 줄이기 위해 개발 중인 안전 배터리는?",
         "answer": "전고체 배터리",
         "note": "",
         "source": "quizbells",
@@ -110,7 +148,15 @@
         "publishedAt": "2026-08-10T00:01:59.091+09:00"
       }
     ],
-    "paybooc": [],
+    "paybooc": [
+      {
+        "question": "우리won뱅킹 8월 접속 180원피아소",
+        "answer": "페이북은 링크가 없어서 수동으로 들어가야됩니다~",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T01:24:08.099+09:00"
+      }
+    ],
     "mydoctor": [
       {
         "question": "냉방병은 감기처럼 바이러스에 감염돼 걸리는 병 이다.",
@@ -118,6 +164,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      },
+      {
+        "question": "충분히 쉬고 자도 나아지지 않는 피로가 오래 지속되면 만성피로를 의심할 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T01:24:08.099+09:00"
       }
     ],
     "skstoa": [],
