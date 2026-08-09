@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "updatedAt": "2026-08-09T10:02:07.020+09:00",
+  "updatedAt": "2026-08-09T12:16:30.220+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -46,10 +46,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "다음 중 조각, 도예, 금속공예, 설치미술 등 다양한 입체 예술을…(후략)",
         "answer": "조형예술학",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-09T10:00:43.057+09:00"
       }
     ],
