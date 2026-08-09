@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "updatedAt": "2026-08-09T08:11:23.893+09:00",
+  "updatedAt": "2026-08-09T10:00:43.057+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -44,7 +44,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "조형예술학",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-09T10:00:43.057+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
