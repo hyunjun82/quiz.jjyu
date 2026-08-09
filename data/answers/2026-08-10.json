@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T00:03:37.947+09:00",
+  "updatedAt": "2026-08-10T00:06:14.821+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -37,7 +37,15 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "스타퀴즈 8/10일자",
+        "answer": "1번 자산효과",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:06:14.821+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "제품 구매를 추천하는 대신, 제품의 단점까지 솔직하게 리뷰하여 과소비를 경계하는 인플루언서 유형은?",
