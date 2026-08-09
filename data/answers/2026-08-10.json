@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T00:06:14.821+09:00",
+  "updatedAt": "2026-08-10T00:06:46.634+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -44,6 +44,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-10T00:06:14.821+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "동명왕편",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:06:46.634+09:00"
       }
     ],
     "kbank": [
