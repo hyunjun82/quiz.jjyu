@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T10:03:31.551+09:00",
+  "updatedAt": "2026-08-10T10:03:37.697+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -110,10 +110,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "분양 소식이 궁금할 때, KB Pay 부동산서비스에서 '지금 핫한 분양'…(후략)",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-10T10:03:14.264+09:00"
       }
     ],
