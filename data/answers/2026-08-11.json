@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T00:08:31.230+09:00",
+  "updatedAt": "2026-08-11T00:08:45.930+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,7 +69,15 @@
         "publishedAt": "2026-08-11T00:01:01.562+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "2",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:08:45.930+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
