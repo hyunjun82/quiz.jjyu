@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T00:07:37.479+09:00",
+  "updatedAt": "2026-08-11T00:08:31.230+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -80,6 +80,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-11T00:07:26.004+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "강화도",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:08:31.230+09:00"
       }
     ],
     "kbank": [
