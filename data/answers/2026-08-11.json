@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T00:26:07.889+09:00",
+  "updatedAt": "2026-08-11T01:44:08.228+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -42,10 +42,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "제9회 셀럽 프로암 골프대회에 참가하는 LPGA 메이저대회 2관왕 프로 골퍼의 이름은 무엇일까요?",
         "answer": "유해란",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-11T00:05:15.486+09:00"
       },
       {
@@ -77,7 +77,7 @@
         "publishedAt": "2026-08-11T00:01:01.562+09:00"
       },
       {
-        "question": "기후행동 기회소득 8월 11일 오늘의 퀴즈 문제",
+        "question": "지난 34년 동안 우리나라의 해수면 상승률은 동해안이 가장 높다.",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -98,10 +98,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/11일자",
+        "question": "퇴직연금에 적립된 자금을 ETF에 투자하여 운용할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-11T00:07:26.004+09:00"
       },
       {
@@ -121,7 +121,7 @@
         "publishedAt": "2026-08-11T00:01:01.562+09:00"
       },
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "question": "삶과 소비를 작고 세밀한 단위로 나눠 짧은 시간 안에 다양한 경험을 추구하는 현대인의 라이프스타일은?",
         "answer": "픽셀라이프",
         "note": "",
         "source": "quizbells",
@@ -163,7 +163,7 @@
         "publishedAt": "2026-08-11T00:02:04.952+09:00"
       },
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터",
+        "question": "땀이 많이 나는 다한증과 겨드랑이 냄새가 나는 액취증은 같은 질환이다.",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
@@ -181,6 +181,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-11T00:01:01.562+09:00"
+      },
+      {
+        "question": "성병 검사는 보건소에서 무료로 받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T01:44:08.228+09:00"
       }
     ]
   }
