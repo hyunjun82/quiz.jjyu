@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T01:44:08.228+09:00",
+  "updatedAt": "2026-08-11T03:53:04.828+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -54,6 +54,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-11T00:05:15.486+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T03:53:04.828+09:00"
       }
     ],
     "kakaobank": [
@@ -93,7 +100,15 @@
         "publishedAt": "2026-08-11T00:08:45.930+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO이란, 같은 일을 하거나 유사한 조건에서 근무해도 성별에 따라 평균 임금에 차이가 발생하는 현상이에요.",
+        "answer": "성별임금격차",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T03:53:04.828+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
