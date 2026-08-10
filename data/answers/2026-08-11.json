@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T00:00:28.449+09:00",
+  "updatedAt": "2026-08-11T00:01:01.562+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -45,13 +45,29 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후변화로 인해 경기도의 폭염 일수는 감소하고있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:01:01.562+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "차세대 2차전지로, 배터리 열폭주 위험을 줄이기 위해 개발 중인 안전 배터리는?",
+        "answer": "전고체 배터리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:01:01.562+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
@@ -60,6 +76,14 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": []
+    "doctornow": [
+      {
+        "question": "​ 혓바늘을 없애려면 맵고 짠 음식을 먹는 게 좋다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:01:01.562+09:00"
+      }
+    ]
   }
 }
