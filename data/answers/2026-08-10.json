@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T19:12:55.524+09:00",
+  "updatedAt": "2026-08-10T20:05:21.973+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -321,6 +321,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-10T11:33:57.995+09:00"
+      },
+      {
+        "question": "베이직북16Ultra 고사양 출시! 라이브 최대 할인율은 OO%입니다. OO에 들어갈 숫자는 무엇일까요?",
+        "answer": "48",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-10T20:05:21.972+09:00"
       }
     ],
     "climate-action": [
