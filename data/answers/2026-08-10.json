@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T03:35:59.138+09:00",
+  "updatedAt": "2026-08-10T09:17:08.258+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -162,6 +162,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-10T01:24:08.099+09:00"
+      },
+      {
+        "question": "참여하기 미래엔초코 퀴즈 60p너땜에짱나",
+        "answer": "100원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T09:17:08.258+09:00"
       }
     ],
     "mydoctor": [
