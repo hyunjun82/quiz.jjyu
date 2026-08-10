@@ -575,6 +575,129 @@ async function collectFromBizwnews() {
   return results.flat();
 }
 
+/* ────────────── 소스 D: 게임톡 (gametoc.co.kr) ──────────────
+ *
+ * 2026-08-10 발굴. 언론사인데 퀴즈 정답 기사를 하루 수십 건, 당일 수 분~수십 분
+ * 안에 올린다(실측: 캐시워크 12:06 발행 기사가 12시 퀴즈 정답 포함). 커버 범위가
+ * 넓어(캐시워크·캐시닥·토스·카카오뱅크·오퀴즈·신한 등) 퀴즈벨 단일 의존을 깨는
+ * 두 번째 기둥이다. 비즈월드와 같은 CMS라 구조도 같다:
+ *   목록: articleList.html?view_type=sm → idxno + 제목
+ *   기사: JSON-LD datePublished(초 단위) + 본문 고정 문형
+ *     "문제는 '...'이다" / "정답은 [ X ]이다" / "정답은 'X'이다"
+ *     / "다른 문제의 정답은 'A' 또는 'B'이다"
+ */
+const GTOC_LIST = 'https://www.gametoc.co.kr/news/articleList.html?view_type=sm';
+const GTOC_ART = (id) => `https://www.gametoc.co.kr/news/articleView.html?idxno=${id}`;
+
+// 제목 → slug. 퀴즈 이름을 앱 이름보다 먼저 본다 — "토스 행운퀴즈 'H포인트…'"처럼
+// 제목에 다른 앱 이름이 끼어드는 경우가 실제로 있다(8/7 실측).
+const GTOC_TITLE_MAP = [
+  { slug: 'toss-lucky', re: /행운\s*퀴즈/ },
+  { slug: 'cashwalk', re: /캐시워크|돈버는\s*퀴즈/ },
+  { slug: 'cashdoc', re: /캐시닥|용돈\s*퀴즈/ },
+  { slug: 'kakaobank', re: /카카오뱅크/ },
+  { slug: 'ok-cashbag', re: /오퀴즈|OK\s*캐시백/i },
+  { slug: 'shinhan-sol', re: /쏠퀴즈|신한.*퀴즈팡팡/ },
+  { slug: 'kbank', re: /케이뱅크/ },
+];
+
+// `${today}:${slug}` → Set(idxno). 게임톡은 같은 퀴즈를 하루 여러 기사로 낸다.
+const gtocArticleCache = new Map();
+// 이미 정답을 뽑아낸 기사: idxno → items. 게임톡은 완성 기사를 한 번에 내므로
+// (실측: dateModified == datePublished) 성공한 기사는 다시 안 긁는다.
+const gtocParsed = new Map();
+let gtocListFetchedAt = 0;
+
+async function gtocDiscover(today) {
+  if (Date.now() - gtocListFetchedAt < 90_000) return;
+  gtocListFetchedAt = Date.now();
+  const res = await fetch(GTOC_LIST, {
+    headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+    signal: AbortSignal.timeout(20000),
+  });
+  if (!res.ok) return;
+  const html = await res.text();
+  for (const [, id, rawTitle] of html.matchAll(/articleView\.html\?idxno=(\d+)[^>]*>([^<]{5,120})/g)) {
+    const title = decodeEntities(rawTitle);
+    if (!/정답/.test(title)) continue; // 정답 기사만
+    const map = GTOC_TITLE_MAP.find((m) => m.re.test(title));
+    if (!map) continue;
+    const key = `${today}:${map.slug}`;
+    if (!gtocArticleCache.has(key)) gtocArticleCache.set(key, new Set());
+    gtocArticleCache.get(key).add(id);
+  }
+}
+
+function parseGametocArticle(html, slug, today) {
+  // 날짜 검증: JSON-LD datePublished가 오늘이어야 한다. 어제 기사를 오늘 정답으로
+  // 발행하는 사고를 막는 필수 관문(퀴즈벨 title 검증과 같은 역할).
+  const pub = html.match(/"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})/)?.[1];
+  if (pub !== today) return [];
+
+  // 게임톡은 비즈월드와 달리 본문 컨테이너가 <article>이 아니라 <div>다 (8/10 실측).
+  // 닫는 태그 매칭이 불안정하므로 컨테이너 시작 지점부터 넉넉히 잘라 쓴다.
+  const start = html.indexOf('article-view-content-div');
+  if (start === -1) return [];
+  const text = clean(html.slice(start, start + 20000));
+
+  const out = [];
+  // 본문 문형 1: 문제는 '...'이다  → 진짜 지문
+  const q = text.match(/문제는\s*['"“‘]([\s\S]{6,300}?)['"”’]\s*(?:이다|다|입니다)/)?.[1]?.trim();
+  // 본문 문형 2: 정답은 [ X ]이다  또는  정답은 'X'이다
+  const a =
+    text.match(/(?<!다른 문제의 )정답은\s*\[\s*([^\]]{1,40}?)\s*\]/)?.[1]?.trim() ||
+    text.match(/(?<!다른 문제의 )정답은\s*['"“‘]([^'"”’]{1,40}?)['"”’]/)?.[1]?.trim();
+  if (q && a && isSaneAnswer(a) && isSaneQuestion(q)) {
+    out.push({ slug, ...buildItem(q, [a]) });
+  }
+  // 본문 문형 3: 다른 문제의 정답은 'A' 또는 'B'이다 — 랜덤 출제형의 추가 정답
+  const extra = text.match(/다른 문제의 정답은\s*([^.]{2,120}?)(?:이다|다)\./)?.[1];
+  if (extra) {
+    const vals = [...extra.matchAll(/['"“‘]([^'"”’]{1,40}?)['"”’]/g)]
+      .map((m) => m[1].trim())
+      .filter(isSaneAnswer);
+    if (vals.length > 0) {
+      const label = BY_SLUG[slug]?.shortName || slug;
+      out.push({ slug, ...buildItem(`${label} — 오늘의 다른 문제`, vals) });
+    }
+  }
+  return out;
+}
+
+async function collectFromGametoc() {
+  const today = kstToday();
+  await gtocDiscover(today).catch(() => {});
+
+  const jobs = [];
+  for (const map of GTOC_TITLE_MAP) {
+    for (const id of gtocArticleCache.get(`${today}:${map.slug}`) ?? []) {
+      jobs.push({ slug: map.slug, id });
+    }
+  }
+
+  const results = await Promise.all(
+    jobs.map(async ({ slug, id }) => {
+      if (gtocParsed.has(id)) return gtocParsed.get(id);
+      try {
+        const res = await fetch(GTOC_ART(id), {
+          headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+          signal: AbortSignal.timeout(20000),
+        });
+        if (!res.ok) return [];
+        const items = parseGametocArticle(await res.text(), slug, today).map((r) => ({
+          ...r,
+          source: 'gametoc',
+        }));
+        if (items.length > 0) gtocParsed.set(id, items); // 성공한 기사만 캐시
+        return items;
+      } catch {
+        return [];
+      }
+    }),
+  );
+  return results.flat();
+}
+
 /* ────────────────────────── 조립 ────────────────────────── */
 
 function buildItem(question, answers) {
@@ -843,7 +966,7 @@ async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
 
-  const [a, b, c] = await Promise.all([
+  const [a, b, c, d] = await Promise.all([
     collectFromBlog().catch((e) => {
       console.error('블로그 소스 실패:', e.message);
       return [];
@@ -853,13 +976,18 @@ async function collectOnce() {
       console.error('비즈월드 소스 실패:', e.message);
       return [];
     }),
+    collectFromGametoc().catch((e) => {
+      console.error('게임톡 소스 실패:', e.message);
+      return [];
+    }),
   ]);
   // 순서 = 우선순위. 같은 정답이 여러 소스에서 오면 앞쪽 것이 채택된다(뒤는 중복 처리).
   // 블로그가 맨 앞인 이유: 문제 지문이 가장 길고 정확하다.
   // 비즈월드가 퀴즈벨보다 앞인 이유: 정답 표기가 언론사 교열을 거쳐 더 깔끔하다.
   // ※ "누가 먼저 올렸나"는 이 순서와 무관하다. 매 폴링마다 세 소스를 동시에 조회하므로
   //    실제로는 "그 시점에 정답을 갖고 있는 소스"가 이긴다 — 즉 가장 빨리 올린 곳이 이긴다.
-  const found = [...a, ...c, ...b];
+  // 게임톡(d)은 언론사 교열본이라 비즈월드 다음, 퀴즈벨 앞. (2026-08-10 추가)
+  const found = [...a, ...c, ...d, ...b];
 
   let added = 0;
   let upgraded = 0;
@@ -1080,6 +1208,8 @@ export {
   isSaneAnswer,
   isSaneQuestion,
   parseTeampljeon,
+  parseGametocArticle,
+  collectFromGametoc,
   sweepGarbage,
   isFullerAnswer,
   garbageReason,
