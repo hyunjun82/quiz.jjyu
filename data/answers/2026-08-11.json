@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T00:01:05.438+09:00",
+  "updatedAt": "2026-08-11T00:02:04.952+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,9 +69,25 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:02:04.952+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "충분히 쉬고 자도 나아지지 않는 피로가 오래 지속되면 만성피로를 의심할 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:02:04.952+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
