@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T00:02:14.072+09:00",
+  "updatedAt": "2026-08-11T00:05:15.486+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -40,7 +40,22 @@
         "publishedAt": "2026-08-11T00:00:28.449+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "유해란",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:05:15.486+09:00"
+      },
+      {
+        "question": "2026 신한 SOL KBO 리그가 오늘부터 다시 레이스를 이어갑니다. 폭염으로 다음 달 6일까지 조정된 경기 시작시간은 몇시일까요?",
+        "answer": "오후 7시",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T00:05:15.486+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
