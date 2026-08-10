@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T11:01:19.885+09:00",
+  "updatedAt": "2026-08-10T11:02:40.817+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -80,6 +80,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-10T10:04:10.980+09:00"
+      },
+      {
+        "question": "리얼마이즈 저당 토마토 파스타",
+        "answer": "18",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T11:02:40.817+09:00"
+      },
+      {
+        "question": "컷슬린 다이어트",
+        "answer": "9",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T11:02:40.817+09:00"
       }
     ],
     "shinhan-sol": [
