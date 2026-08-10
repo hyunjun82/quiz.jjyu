@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T18:54:55.151+09:00",
+  "updatedAt": "2026-08-10T18:58:55.935+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -131,11 +131,11 @@
         "publishedAt": "2026-08-10T18:16:26.309+09:00"
       },
       {
-        "question": "돈버는퀴즈 — 푸드루트",
-        "answer": "100, 500, 항산화, 스위스",
+        "question": "OOO산 DSM사 비타민C를 사용한 믿을 수 있는 면역비타민C! 여기서 OOO은? (힌트:ㅅㅇㅅ)",
+        "answer": "스위스 / 항산화 / 500 / 100",
         "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-10T18:16:26.310+09:00"
+        "source": "gametoc",
+        "publishedAt": "2026-08-10T18:58:55.933+09:00"
       }
     ],
     "shinhan-sol": [
