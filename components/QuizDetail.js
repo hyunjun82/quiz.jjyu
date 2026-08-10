@@ -1,5 +1,7 @@
 import {
   getQuizzes,
+  getAnswersByDate,
+  getLatestNonEmptyDate,
   formatKoreanDate,
   formatShortDate,
   formatTime,
@@ -12,6 +14,13 @@ import AdUnit from './AdUnit';
 export default function QuizDetail({ quiz, date, dates, data, isToday }) {
   const items = data?.answers?.[quiz.slug] ?? [];
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
+
+  // 오늘 정답이 아직 없으면 최근 정답을 대신 보여준다(빈 페이지 방지).
+  // 소스가 늦거나 그날 퀴즈가 없는 날에도 방문자가 볼 게 남는다.
+  const fallbackDate = items.length === 0 ? getLatestNonEmptyDate(quiz.slug, date) : null;
+  const fallbackItems = fallbackDate
+    ? getAnswersByDate(fallbackDate)?.answers?.[quiz.slug] ?? []
+    : [];
 
   const SITE_URL = 'https://quiz.jjyu.co.kr';
   const jsonLd = {
@@ -95,7 +104,7 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
 
       <AdUnit slot="9284435988" />
 
-      {items.length === 0 ? (
+      {items.length === 0 && (
         <div className="empty">
           <b>
             {isToday
@@ -111,7 +120,37 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
               ? '참여 링크가 공개되는 즉시 이 페이지가 자동으로 업데이트됩니다.'
               : '정답이 공개되는 즉시 이 페이지가 자동으로 업데이트됩니다.')}
         </div>
-      ) : (
+      )}
+
+      {/* 오늘 정답이 없을 때 — 최근 정답으로 화면을 채운다. 헛걸음 방지. */}
+      {items.length === 0 && fallbackItems.length > 0 && (
+        <section className="fallback-block">
+          <h2 className="fb-head">
+            가장 최근 정답 — {formatShortDate(fallbackDate)}
+            <span className="fb-n">{fallbackItems.length}건</span>
+          </h2>
+          <ol className="a-list">
+            {fallbackItems.map((item, i) => (
+              <li key={i}>
+                <a href={`/quiz/${quiz.slug}/${fallbackDate}/${i + 1}/`} className="a-row">
+                  <span className="a-time">{formatTime(item.publishedAt) || '—'}</span>
+                  <div className="a-main">
+                    <p className="a-q">{item.question}</p>
+                    <span className="a-go">
+                      {quiz.eventType ? '참여 링크 확인하기 →' : '정답 확인하기 →'}
+                    </span>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ol>
+          <p className="fb-more">
+            <a href={`/quiz/${quiz.slug}/monthly/`}>이번 달 정답 전체 보기 →</a>
+          </p>
+        </section>
+      )}
+
+      {items.length > 0 && (
         <ol className="a-list">
           {items.map((item, i) => (
             <li key={i}>

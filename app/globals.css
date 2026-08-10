@@ -913,3 +913,11 @@ main, header, footer { position: relative; z-index: 1; }
 .m-day-head a { color: var(--text); text-decoration: none; }
 .m-day-head a:hover { text-decoration: underline; }
 .m-day-n { font-size: 13px; font-weight: 600; color: var(--text-3); margin-left: 6px; }
+
+/* ── 오늘 정답이 없을 때 보여주는 최근 정답 블록 ── */
+.fallback-block { margin-top: 18px; }
+.fb-head { font-size: 16px; margin: 0 0 10px; color: var(--text-2); font-weight: 700; }
+.fb-n { font-size: 13px; color: var(--text-3); margin-left: 8px; font-weight: 600; }
+.fb-more { margin-top: 12px; font-size: 14px; }
+.fb-more a { color: var(--mint); text-decoration: none; font-weight: 600; }
+.fb-more a:hover { text-decoration: underline; }

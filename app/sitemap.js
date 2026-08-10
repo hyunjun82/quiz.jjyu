@@ -48,13 +48,19 @@ export default function sitemap() {
       priority: 0.9,
     })),
     ...questionUrls,
+    // 날짜 페이지 — 정답이 있는 것만 넣는다.
+    // 2026-08-10 실측: 575개 중 196개가 정답 0건이었고, 그 빈 페이지들을
+    // 사이트맵으로 "와서 보라"고 계속 부르고 있었다. 크롤 예산 낭비이자
+    // 빈 페이지 학습 유도라 제외한다(해당 페이지는 noindex도 함께 걸었다).
     ...quizzes.flatMap((q) =>
-      recent.map((d) => ({
-        url: `${base}/quiz/${q.slug}/${d}/`,
-        lastModified: now,
-        changeFrequency: 'daily',
-        priority: 0.6,
-      })),
+      recent
+        .filter((d) => (getAnswersByDate(d)?.answers?.[q.slug] ?? []).length > 0)
+        .map((d) => ({
+          url: `${base}/quiz/${q.slug}/${d}/`,
+          lastModified: now,
+          changeFrequency: 'daily',
+          priority: 0.6,
+        })),
     ),
   ];
 }
