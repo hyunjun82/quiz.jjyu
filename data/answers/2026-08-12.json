@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T00:12:33.219+09:00",
+  "updatedAt": "2026-08-12T00:17:09.811+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,7 +43,15 @@
         "publishedAt": "2026-08-12T00:06:08.863+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카뱅 AI 퀴즈 (OX 퀴즈)",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:17:09.811+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -91,6 +99,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-12T00:00:46.090+09:00"
+      },
+      {
+        "question": "삶과 소비를 작고 세밀한 단위로 나눠 짧은 시간 안에 다양한 경험을 추구하는 현대인의 라이프스타일은?",
+        "answer": "프렌드플레이션",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:17:09.811+09:00"
       }
     ],
     "hana-onq": [
