@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T01:49:32.733+09:00",
+  "updatedAt": "2026-08-12T03:58:02.315+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-12T00:06:08.863+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "부족한 영양소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T03:58:02.314+09:00"
       }
     ],
     "kakaobank": [
