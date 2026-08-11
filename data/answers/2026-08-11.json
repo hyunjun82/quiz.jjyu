@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T07:28:09.368+09:00",
+  "updatedAt": "2026-08-11T09:07:11.340+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -70,6 +70,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-11T00:19:06.078+09:00"
+      },
+      {
+        "question": "8월엔 파워 냉방? 실외기 OO 주의",
+        "answer": "화재",
+        "note": "AI 이모지 퀴즈 (위키트리 8/11 08:00 기사)",
+        "source": "wikitree",
+        "publishedAt": "2026-08-11T09:05:00+09:00"
       }
     ],
     "ok-cashbag": [],
