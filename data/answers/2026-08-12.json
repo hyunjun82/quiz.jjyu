@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T00:25:54.222+09:00",
+  "updatedAt": "2026-08-12T01:49:32.733+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
         "publishedAt": "2026-08-12T00:05:02.323+09:00"
       },
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "수요일은 슈퍼SOL! 파리바게뜨에서 신한 슈퍼SOL로 1만원 이상 결제시 받을 수 있는 총 혜택은?",
         "answer": "5천원",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-12T00:06:08.863+09:00"
       }
     ],
@@ -83,7 +83,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 (디깅퀴즈)",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T01:49:32.733+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "스타퀴즈 8/12일자",
@@ -98,6 +106,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-12T00:07:18.045+09:00"
+      },
+      {
+        "question": "KB비상금대출에 대한 내용으로 틀린 것은 무엇일까요?",
+        "answer": "4. 최대 100만원까지",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-12T01:49:32.732+09:00"
       }
     ],
     "kbank": [
