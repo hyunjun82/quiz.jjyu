@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T00:08:08.696+09:00",
+  "updatedAt": "2026-08-12T00:08:26.204+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,7 +56,15 @@
         "publishedAt": "2026-08-12T00:00:46.090+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "핫쇼페",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:08:26.203+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
