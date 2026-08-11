@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T12:03:52.256+09:00",
+  "updatedAt": "2026-08-11T12:27:33.365+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-11T12:02:49.313+09:00"
+      },
+      {
+        "question": "행운퀴즈린안파파",
+        "answer": "가왕쇼",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T12:27:33.364+09:00"
       }
     ],
     "cashwalk": [
