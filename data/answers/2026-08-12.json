@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T00:01:42.629+09:00",
+  "updatedAt": "2026-08-12T00:01:48.641+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,9 +56,25 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:01:48.641+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "땀이 많이 나는 다한증과 겨드랑이 냄새가 나는 액취증은 같은 질환이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:01:48.641+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
