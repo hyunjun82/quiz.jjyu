@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T12:27:33.365+09:00",
+  "updatedAt": "2026-08-11T12:42:45.024+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-11T12:27:33.364+09:00"
+      },
+      {
+        "question": "OOOO의 치열한 센터전쟁은 오직 티빙에서만 시청가능해요",
+        "answer": "역대가왕",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-11T12:42:45.024+09:00"
       }
     ],
     "cashwalk": [
