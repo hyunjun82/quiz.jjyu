@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T09:07:11.340+09:00",
+  "updatedAt": "2026-08-11T10:00:52.339+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -80,7 +80,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "편의점 모바일 쿠폰",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T10:00:52.339+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -140,6 +148,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-11T00:08:31.230+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 8/11일자",
+        "answer": "2번",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T10:00:52.339+09:00"
       }
     ],
     "kbank": [
