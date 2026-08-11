@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T12:42:45.024+09:00",
+  "updatedAt": "2026-08-11T15:05:08.898+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -60,6 +60,69 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-11T00:00:28.449+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.896+09:00"
+      },
+      {
+        "question": "CJ더마켓 메가 더세페 상반기 최대 세일",
+        "answer": "30, 6588, 초특가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.896+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.896+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.896+09:00"
+      },
+      {
+        "question": "픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.896+09:00"
+      },
+      {
+        "question": "소휘 전제품 소화효소",
+        "answer": "식후, 커피, 묵직함, 기름진",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.896+09:00"
+      },
+      {
+        "question": "리얼마이즈 저당 토마토 파스타소스",
+        "answer": "18",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.897+09:00"
+      },
+      {
+        "question": "푸드루트 비타민C",
+        "answer": "100, 500, 항산화, 스위스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.897+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T15:05:08.897+09:00"
       }
     ],
     "shinhan-sol": [
