@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T20:01:19.176+09:00",
+  "updatedAt": "2026-08-11T20:07:25.188+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-11T12:42:45.024+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 꾸룰꾸루루룰ㄹ",
+        "answer": "단백질",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T20:07:25.187+09:00"
       }
     ],
     "cashwalk": [
