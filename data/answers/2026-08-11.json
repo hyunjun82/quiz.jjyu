@@ -1,8 +1,16 @@
 {
   "date": "2026-08-11",
-  "updatedAt": "2026-08-11T11:58:32.848+09:00",
+  "updatedAt": "2026-08-11T12:02:49.313+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스Bulebabystar",
+        "answer": "온열사우나",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-11T12:02:49.313+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "자동 개폐 가능한 픽스 스마트 자동센서 휴지통은 터치&모션인식은 기본 OOOO까지 탑재한 스마트폰 휴지통입니다. (초성힌트 : ㅊㄱㅅㅅ)",
