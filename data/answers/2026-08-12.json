@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T00:00:18.404+09:00",
+  "updatedAt": "2026-08-12T00:00:46.090+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -32,13 +32,29 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "지난 34년 동안 우리나라의 해수면 상승률은 동해안이 가장 높다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:00:46.090+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "삶과 소비를 작고 세밀한 단위로 나눠 짧은 시간 안에 다양한 경험을 추구하는 현대인의 라이프스타일은?",
+        "answer": "픽셀라이프",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:00:46.090+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
@@ -47,6 +63,14 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": []
+    "doctornow": [
+      {
+        "question": "성병 검사는 보건소에서 무료로 받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T00:00:46.090+09:00"
+      }
+    ]
   }
 }
