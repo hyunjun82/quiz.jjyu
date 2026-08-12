@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T19:01:34.536+09:00",
+  "updatedAt": "2026-08-12T19:03:44.359+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -171,6 +171,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-12T11:03:34.829+09:00"
+      },
+      {
+        "question": "오후 7시 제습 환기청정기 숙면 구독료12개월 반값!",
+        "answer": "오",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T19:03:44.359+09:00"
       }
     ],
     "kbpay": [
