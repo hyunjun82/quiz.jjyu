@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T00:00:18.682+09:00",
+  "updatedAt": "2026-08-13T00:11:37.752+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,26 +19,89 @@
         "publishedAt": "2026-08-13T00:00:18.682+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "퀴즈팡팡 8/13일자",
+        "answer": "100만원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      },
+      {
+        "question": "야구상식 쏠퀴즈 8/13일자",
+        "answer": "정해영",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "경기도는 폭염에 지친 경기도민이 무더위를 피해 숲속에서 몸과 마음을 회복할 수 있도록 ‘산림치유 프로그램’을 추진한 바 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
-    "kbank": [],
+    "kb-star": [
+      {
+        "question": "스타퀴즈 8/13일자",
+        "answer": "2번 중개대상물 확인·설명서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "물가 상승으로 모임 비용 부담이 커지면서 친구와의 만남 자체를 줄이는 현상을 뜻하는 신조어는?",
+        "answer": "프렌드플레이션",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      }
+    ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "음식을 완전히 익혀 먹으면 모든 식중독을 막을 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": []
+    "doctornow": [
+      {
+        "question": "오래 서있으면 족저근막염이 생기기 쉽다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      }
+    ]
   }
 }
