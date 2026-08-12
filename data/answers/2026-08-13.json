@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T00:15:15.723+09:00",
+  "updatedAt": "2026-08-13T00:19:10.711+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -91,9 +91,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      },
+      {
+        "question": "물가 상승으로 모임 비용 부담이 커지면서 친구와의 만남 자체를 줄이는 현상을 뜻하는 신조어는?",
+        "answer": "양즈깐루",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:19:10.711+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "트래핑",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:19:10.711+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
@@ -111,6 +126,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      },
+      {
+        "question": "음식을 완전히 익혀 먹으면 모든 식중독을 막을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T00:19:10.711+09:00"
       }
     ],
     "skstoa": [],
