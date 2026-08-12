@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T11:00:31.005+09:00",
+  "updatedAt": "2026-08-12T11:03:34.829+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -73,6 +73,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-12T11:00:21.416+09:00"
+      },
+      {
+        "question": "오전 11시 제주항공 멤버스위크 최대 82% 할인!",
+        "answer": "15",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T11:03:34.829+09:00"
       }
     ],
     "kbpay": [
