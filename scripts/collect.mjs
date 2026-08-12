@@ -152,7 +152,10 @@ function isSaneAnswer(a) {
 function isSaneQuestion(q) {
   const s = String(q || '').trim();
   if (!s) return false;
-  if (/^\d{6}\s*\D/.test(s)) return false;
+  // 8/13 실측: 비트버니 지문이 정답을 "000000란, ..."처럼 0으로 마스킹해 시작하는데
+  // 아래 6자리 숫자 규칙(날짜형 커뮤니티 글 걸러내기)에 걸려 진짜 문제가 버려졌다.
+  // 전부 0인 선행 숫자는 날짜일 수 없으므로 마스킹으로 보고 통과시킨다.
+  if (/^\d{6}\s*\D/.test(s) && !/^0{3,}/.test(s)) return false;
   if (/https?:\/\//i.test(s)) return false;
   // 7/29 실측: 토스 표에 "퀴즈1234657 / 플립" 행이 섞여 들어와 진짜 문제
   // "새로운Z시리즈 예약시작 / 플립, 폴드, 울트라"를 밀어내고 발행됐다.
