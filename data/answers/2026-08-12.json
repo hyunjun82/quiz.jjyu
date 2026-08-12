@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T19:03:44.359+09:00",
+  "updatedAt": "2026-08-12T20:00:54.403+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -178,6 +178,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-12T19:03:44.359+09:00"
+      },
+      {
+        "question": "오후 8시 삐아 직잭 라이브 라이브 특가 보러가기",
+        "answer": "프라이머밤",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T20:00:54.402+09:00"
       }
     ],
     "kbpay": [
