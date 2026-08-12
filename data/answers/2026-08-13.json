@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T00:20:20.494+09:00",
+  "updatedAt": "2026-08-13T01:48:31.173+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -21,17 +21,17 @@
     ],
     "shinhan-sol": [
       {
-        "question": "퀴즈팡팡 8/13일자",
+        "question": "신한카드 고객이 신한 SOL LINK 계좌 개설 시 받을 수 있는 '꽝 없는 당첨' 혜택의 최대 금액은?",
         "answer": "100만원",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-13T00:11:37.752+09:00"
       },
       {
-        "question": "야구상식 쏠퀴즈 8/13일자",
+        "question": "최근 발표된 국군체육부대 최종 합격자 명단에 포함되어 12월 입대 확정 선수 중 KBO 리그 역대 최연소 150세이브를 달성한 투수는?",
         "answer": "정해영",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-13T00:11:37.752+09:00"
       }
     ],
@@ -82,6 +82,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:14:53.359+09:00"
+      },
+      {
+        "question": "집 계약할 때 시설 상태와 하자 여부를 확인하기 위해 꼭 살펴봐야 할 서류는 무엇일까요?",
+        "answer": "중개대상물 확인·설명서",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-13T01:48:31.172+09:00"
       }
     ],
     "kbank": [
@@ -153,6 +160,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      },
+      {
+        "question": "가래 제거를 위해선 코를 차갑게 해야 한다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T01:48:31.173+09:00"
       }
     ]
   }
