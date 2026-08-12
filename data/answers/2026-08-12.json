@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T10:01:51.748+09:00",
+  "updatedAt": "2026-08-12T10:02:24.691+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -62,10 +62,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "다비치·CU·GS25·이마트 등 제휴 브랜드에서 할인을 받을 수 있는 KB Pay 바로할인의 최대 할인율은?\" 관련",
         "answer": "7%",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-12T10:01:51.748+09:00"
       }
     ],
