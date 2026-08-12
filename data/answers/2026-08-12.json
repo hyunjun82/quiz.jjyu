@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updatedAt": "2026-08-12T10:02:27.971+09:00",
+  "updatedAt": "2026-08-12T10:39:03.821+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,7 +59,15 @@
         "publishedAt": "2026-08-12T00:17:09.811+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "유플투쁠 15pnopompu",
+        "answer": "정답",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-12T10:39:03.821+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "다비치·CU·GS25·이마트 등 제휴 브랜드에서 할인을 받을 수 있는 KB Pay 바로할인의 최대 할인율은?\" 관련",
