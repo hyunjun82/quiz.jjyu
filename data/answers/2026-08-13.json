@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T01:48:31.173+09:00",
+  "updatedAt": "2026-08-13T02:38:28.409+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -65,7 +65,15 @@
         "publishedAt": "2026-08-13T00:12:43.015+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "000000란, 한 분야에만 특화되지 않고 여러 분야의 지식과 역량을 폭넓게 갖춘 인재를 말해요.",
+        "answer": "제너럴리스트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T02:38:28.409+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
