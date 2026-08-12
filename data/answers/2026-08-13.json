@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T03:58:05.633+09:00",
+  "updatedAt": "2026-08-13T07:32:05.835+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -145,6 +145,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:11:37.752+09:00"
+      },
+      {
+        "question": "오늘의 영어 퀴즈배틀필드",
+        "answer": "오늘의 영어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T07:32:05.835+09:00"
       }
     ],
     "paybooc": [],
