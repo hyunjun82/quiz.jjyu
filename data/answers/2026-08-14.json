@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T00:05:37.374+09:00",
+  "updatedAt": "2026-08-14T00:06:42.957+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -34,10 +34,26 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 특정 지역에 관련 기업·연구기관·대학 등이 모여 협력과 경쟁을 통해 시너지 효과를 내는 산업 집적지를 말해요.",
+        "answer": "산업클러스터",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:06:42.957+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "스타퀴즈 8/14일자",
+        "answer": "3번 100만원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:06:42.957+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "최근 국내에서 검색량이 급증하며 화제가 된, 망고·자몽·사고를 조합한 홍콩식 여름 디저트는?",
