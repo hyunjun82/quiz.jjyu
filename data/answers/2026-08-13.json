@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T10:12:18.676+09:00",
+  "updatedAt": "2026-08-13T10:12:22.744+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -103,10 +103,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "마트·편의점·다이소·올리브영·커피 쿠폰부터 일상생활배상책임…(후략)",
         "answer": "이지라이프케어",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-13T10:02:39.210+09:00"
       }
     ],
