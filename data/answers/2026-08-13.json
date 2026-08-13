@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T13:26:00+09:00",
+  "updatedAt": "2026-08-13T15:05:00+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -279,6 +279,13 @@
         "note": "팁is팁 확인(10:04 게시)",
         "source": "ai-search",
         "publishedAt": "2026-08-13T13:26:00+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈타임 8/13 오후 추가 퀴즈",
+        "answer": "보너스",
+        "note": "슈퍼투데이 커뮤니티 확인(14:58 게시)",
+        "source": "ai-search",
+        "publishedAt": "2026-08-13T14:58:00+09:00"
       }
     ],
     "nh-allone": [],
