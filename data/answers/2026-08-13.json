@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T11:25:31.163+09:00",
+  "updatedAt": "2026-08-13T13:26:00+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -98,6 +98,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:12:43.015+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 8/13 (오전 8시)",
+        "answer": "사막",
+        "note": "게임톡 확인",
+        "source": "ai-search",
+        "publishedAt": "2026-08-13T13:26:00+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 8/13 (오후 12시)",
+        "answer": "베이킹",
+        "note": "게임톡 확인",
+        "source": "ai-search",
+        "publishedAt": "2026-08-13T13:26:00+09:00"
       }
     ],
     "ok-cashbag": [],
@@ -258,6 +272,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T10:02:39.210+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈타임 8/13 추가 퀴즈",
+        "answer": "백원",
+        "note": "팁is팁 확인(10:04 게시)",
+        "source": "ai-search",
+        "publishedAt": "2026-08-13T13:26:00+09:00"
       }
     ],
     "nh-allone": [],
@@ -300,9 +321,9 @@
         "publishedAt": "2026-08-13T00:11:37.752+09:00"
       },
       {
-        "question": "물가 상승으로 모임 비용 부담이 커지면서 친구와의 만남 자체를 줄이는 현상을 뜻하는 신조어는?",
+        "question": "최근 국내에서 검색량이 급증하며 화제가 된, 망고, 자몽, 사고를 조합한 홍콩식 여름 디저트는?",
         "answer": "양즈깐루",
-        "note": "",
+        "note": "질문-정답 짝 교정(리더유 확인)",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:19:10.711+09:00"
       }
@@ -357,7 +378,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 매일플러스 오늘의퀴즈 8/13",
+        "answer": "베스트",
+        "note": "팁is팁 확인",
+        "source": "ai-search",
+        "publishedAt": "2026-08-13T13:26:00+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
