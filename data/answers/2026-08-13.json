@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T10:03:39.550+09:00",
+  "updatedAt": "2026-08-13T10:04:45.306+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -169,6 +169,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-13T01:48:31.172+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 8/13일자",
+        "answer": "1번 이지라이프케어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T10:04:45.306+09:00"
       }
     ],
     "kbank": [
