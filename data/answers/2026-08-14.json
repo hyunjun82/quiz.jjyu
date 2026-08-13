@@ -1,15 +1,15 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T00:55:14.073+09:00",
+  "updatedAt": "2026-08-14T01:30:15.963+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "맘스터치에서 신한 슈퍼SOL로 8천원 이상 결제 시 받을 수 있는 월 최대 포인트 혜택은 얼마일까요?",
         "answer": "3,000P",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-14T00:05:37.374+09:00"
       },
       {
@@ -83,6 +83,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-14T00:07:46.210+09:00"
+      },
+      {
+        "question": "자동화기기에서 1회에 인출할 수 있는 현금 금액은 얼마일까요?",
+        "answer": "100만원",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-14T01:30:15.962+09:00"
       }
     ],
     "kbank": [
