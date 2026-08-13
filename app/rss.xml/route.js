@@ -42,13 +42,17 @@ export function GET() {
       list.forEach((item, i) => {
         const idx = i + 1;
         const url = `${SITE_URL}/quiz/${quiz.slug}/${date}/${idx}/`;
-        const answerText = item.answer || (item.choices ? `정답 후보: ${item.choices.join(' / ')}` : '');
+        // ⚠️ description에 정답 값을 넣지 않는다 — 메타 description과 같은 이유.
+        // RSS는 검색엔진·수집기가 통째로 긁어가는 통로라, 여기에 정답이 있으면
+        // 사이트 밖에서 정답이 보여 클릭할 이유가 사라진다(제로클릭).
+        // 대신 문제 지문 + "정답 공개됨" 신호(최신성)만 준다.
+        const hm = String(item.publishedAt || '').slice(11, 16);
         items.push({
           title: `${quiz.searchKeyword} ${formatKoreanDate(date)} — ${item.question}`,
           link: url,
           guid: url,
           pubDate: item.publishedAt,
-          description: answerText,
+          description: `${item.question} — ${quiz.name} ${formatKoreanDate(date)} 정답 공개됨${/^\d{2}:\d{2}$/.test(hm) ? ` (${hm} 업데이트)` : ''}. 정답은 페이지에서 확인.`,
         });
       });
     }
