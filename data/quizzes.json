@@ -473,6 +473,26 @@
         "00:00",
         "02:20"
       ]
+    },
+    {
+      "slug": "buzzvil",
+      "app": "버즈빌",
+      "name": "버즈빌 초성퀴즈",
+      "searchKeyword": "버즈빌 퀴즈 정답",
+      "shortName": "버즈빌 퀴즈",
+      "category": "reward",
+      "reward": "버즈빌 포인트",
+      "resetInfo": "비정기 출제",
+      "color": "#ff7a00",
+      "howTo": "버즈빌 제휴 앱(잠금화면 적립 앱)의 초성퀴즈 이벤트",
+      "estDaily": 30,
+      "rewardRange": "10~100원",
+      "iconUrl": "/icons/buzzvil.avif",
+      "sourceSlug": "buzzvil",
+      "releaseTimes": [],
+      "cadence": {
+        "type": "irregular"
+      }
     }
   ]
 }
