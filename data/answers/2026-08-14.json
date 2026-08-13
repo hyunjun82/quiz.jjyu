@@ -1,10 +1,25 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T00:03:30.751+09:00",
+  "updatedAt": "2026-08-14T00:05:37.374+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "3,000P",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:05:37.374+09:00"
+      },
+      {
+        "question": "신한은행은 오늘까지 2026 잠수교 10K 나이트런 참가 신청 접수 중입니다. 아래 중 본 레이스 신청 자격으로 맞는 것은?",
+        "answer": "신한 20플러스 뛰어요 가입고객",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:05:37.374+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
