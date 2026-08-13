@@ -921,3 +921,29 @@ main, header, footer { position: relative; z-index: 1; }
 .fb-more { margin-top: 12px; font-size: 14px; }
 .fb-more a { color: var(--mint); text-decoration: none; font-weight: 600; }
 .fb-more a:hover { text-decoration: underline; }
+
+/* ── 오늘의 퀴즈 정주행 그리드 ─────────────────────── */
+.tq { margin: 26px 0 8px; }
+.tq-head { font-size: 18px; margin: 0 0 2px; }
+.tq-sub { font-size: 13px; color: var(--text-3); margin: 0 0 10px; }
+.tq-bar { height: 6px; background: var(--surface-2); border-radius: 4px; overflow: hidden; }
+.tq-bar span { display: block; height: 100%; background: var(--accent-grad); border-radius: 4px; transition: width .4s; }
+.tq-next { display: block; margin: 10px 0 14px; font-size: 14.5px; font-weight: 700; color: #d92d20; text-decoration: none; }
+.tq-next b { text-decoration: underline; }
+.tq-done { color: #12b76a; }
+.tq-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px 8px; }
+@media (max-width: 640px) { .tq-grid { grid-template-columns: repeat(3, 1fr); } }
+.tq-item { display: flex; flex-direction: column; align-items: center; text-decoration: none; color: var(--text); gap: 4px; }
+.tq-ico { position: relative; }
+.tq-ico img { border-radius: 14px; box-shadow: var(--shadow-sm); }
+.tq-n { position: absolute; top: -5px; right: -5px; width: 18px; height: 18px; border-radius: 50%;
+  background: #d92d20; color: #fff; font-style: normal; font-size: 11px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center; animation: tqblink 1.1s infinite; }
+@keyframes tqblink { 50% { opacity: .25; } }
+.tq-ok { position: absolute; top: -5px; right: -5px; width: 18px; height: 18px; border-radius: 50%;
+  background: #12b76a; color: #fff; font-style: normal; font-size: 11px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center; }
+.tq-name { font-size: 12.5px; font-weight: 700; text-align: center; line-height: 1.3; }
+.tq-cnt { font-size: 11.5px; color: var(--text-3); font-weight: 600; }
+.tq-wait { opacity: .45; }
+.tq-seen .tq-ico img { filter: grayscale(.7); opacity: .75; }

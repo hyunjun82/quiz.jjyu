@@ -7,6 +7,8 @@ import {
   formatTime,
 } from '../lib/data';
 import AdUnit from './AdUnit';
+import TodayQuizGrid from './TodayQuizGrid';
+import { getTodayQuizGridItems } from '../lib/data';
 
 /**
  * 퀴즈 상세 화면 — 문제 목록. 정답은 문제별 페이지로 이동해 확인 (PV 극대화 구조)
@@ -168,19 +170,12 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
 
       <AdUnit slot="5919906049" />
 
-      <section className="related">
-        <h2>다른 퀴즈 정답</h2>
-        <div className="related-grid">
-          {others.map((q) => (
-            <a key={q.slug} href={`/quiz/${q.slug}/`} className="related-item">
-              <span className="mini-dot" style={{ background: q.color }}>
-                {q.app.slice(0, 1)}
-              </span>
-              {q.searchKeyword}
-            </a>
-          ))}
-        </div>
-      </section>
+      {/* 정주행 그리드 — 기존 텍스트 링크 목록을 아이콘 그리드+N배지+진행바로 교체 */}
+      <TodayQuizGrid
+        items={getTodayQuizGridItems().items}
+        currentSlug={quiz.slug}
+        today={getTodayQuizGridItems().today}
+      />
       </div>
       <aside className="rail">
         <AdUnit slot="4223680996" className="ad-slot rail-ad" />

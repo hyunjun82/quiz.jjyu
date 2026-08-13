@@ -7,9 +7,11 @@ import {
   formatKoreanDate,
   formatShortDate,
   formatTime,
+  getTodayQuizGridItems,
 } from '../../../../../lib/data';
 import AnswerBox from '../../../../../components/AnswerBox';
 import AdUnit from '../../../../../components/AdUnit';
+import TodayQuizGrid from '../../../../../components/TodayQuizGrid';
 
 /** 모든 (퀴즈 × 날짜 × 문제번호) 정답 페이지 생성 */
 export function generateStaticParams() {
@@ -200,19 +202,12 @@ export default function AnswerPage({ params }) {
 
       <AdUnit slot="9284435988" />
 
-      <section className="related">
-        <h2>다른 퀴즈 정답</h2>
-        <div className="related-grid">
-          {others.map((q) => (
-            <a key={q.slug} href={`/quiz/${q.slug}/`} className="related-item">
-              <span className="mini-dot" style={{ background: q.color }}>
-                {q.app.slice(0, 1)}
-              </span>
-              {q.searchKeyword}
-            </a>
-          ))}
-        </div>
-      </section>
+      {/* 정주행 그리드 — 정답 확인 직후, "오늘 다른 퀴즈도 있다"를 스크롤 없이 보여준다 */}
+      <TodayQuizGrid
+        items={getTodayQuizGridItems().items}
+        currentSlug={quiz.slug}
+        today={getTodayQuizGridItems().today}
+      />
       </div>
       <aside className="rail">
         <AdUnit slot="4223680996" className="ad-slot rail-ad" />
