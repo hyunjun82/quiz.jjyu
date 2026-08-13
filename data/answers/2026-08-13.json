@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T20:03:44.417+09:00",
+  "updatedAt": "2026-08-13T21:01:04.575+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -66,6 +66,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T10:02:39.210+09:00"
+      },
+      {
+        "question": "뷰카 오브제 듀얼 초미세 칫솔 시린이 치약",
+        "answer": "18",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T21:01:04.575+09:00"
       }
     ],
     "shinhan-sol": [
