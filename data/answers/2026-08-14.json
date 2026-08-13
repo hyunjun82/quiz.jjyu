@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T00:06:42.957+09:00",
+  "updatedAt": "2026-08-14T00:07:46.210+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -52,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-14T00:06:42.957+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "호패법을 시행하였다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:07:46.210+09:00"
       }
     ],
     "kbank": [
