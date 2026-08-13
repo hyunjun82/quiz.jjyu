@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T15:05:00+09:00",
+  "updatedAt": "2026-08-13T19:00:53.330+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -236,6 +236,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T11:02:49.309+09:00"
+      },
+      {
+        "question": "G마켓 호주 시드니 BEST 상품",
+        "answer": "G",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T19:00:53.330+09:00"
       }
     ],
     "climate-action": [
@@ -411,6 +418,7 @@
         "source": "quizbells",
         "publishedAt": "2026-08-13T01:48:31.173+09:00"
       }
-    ]
+    ],
+    "buzzvil": []
   }
 }
