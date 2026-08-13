@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T00:01:21.920+09:00",
+  "updatedAt": "2026-08-14T00:02:26.099+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -23,11 +23,27 @@
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "최근 국내에서 검색량이 급증하며 화제가 된, 망고·자몽·사고를 조합한 홍콩식 여름 디저트는?",
+        "answer": "양즈깐루",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:02:26.099+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "편도결석은 심각한 건강 문제를 일으키지 않아 꼭 제거하지 않아도 된다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:02:26.099+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
