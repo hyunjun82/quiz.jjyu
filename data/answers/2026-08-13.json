@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "updatedAt": "2026-08-13T19:01:16.124+09:00",
+  "updatedAt": "2026-08-13T20:00:44.803+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -243,6 +243,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T19:00:53.330+09:00"
+      },
+      {
+        "question": "베이직스 블루밍데이즈",
+        "answer": "42",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-13T20:00:44.802+09:00"
       }
     ],
     "climate-action": [
