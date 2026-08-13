@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T00:07:46.210+09:00",
+  "updatedAt": "2026-08-14T00:08:49.871+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -33,7 +33,15 @@
         "publishedAt": "2026-08-14T00:01:21.920+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "공방",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:08:49.871+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOOO란, 특정 지역에 관련 기업·연구기관·대학 등이 모여 협력과 경쟁을 통해 시너지 효과를 내는 산업 집적지를 말해요.",
@@ -70,7 +78,15 @@
         "publishedAt": "2026-08-14T00:02:26.099+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "서울",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T00:08:49.871+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
