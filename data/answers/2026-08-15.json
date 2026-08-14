@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T00:03:06.711+09:00",
+  "updatedAt": "2026-08-15T00:03:39.222+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,22 @@
         "publishedAt": "2026-08-15T00:01:28.424+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "스피드메이트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:03:39.222+09:00"
+      },
+      {
+        "question": "KIA 타이거즈 김도영 선수와 박재현 선수의 한 동물을 둘러싼 이색 논쟁이 야구팬들을 즐겁게 했습니다. 두 선수가 광주천에 서식 중인 모습을 직접 확인한 이 동물은 무엇일까요?",
+        "answer": "수달",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:03:39.222+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
