@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T10:01:47.147+09:00",
+  "updatedAt": "2026-08-14T10:03:56.418+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -39,10 +39,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "KB Pay 여행의 와이파이도시락에서 e심, 와이파이 사용 시 최대 20% 할인을 받을 수 있는 쿠폰번호는?",
         "answer": "KBPay10",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-14T10:01:47.147+09:00"
       }
     ],
