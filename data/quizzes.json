@@ -493,6 +493,123 @@
       "cadence": {
         "type": "irregular"
       }
+    },
+    {
+      "slug": "bitbunny-ox",
+      "app": "비트버니",
+      "name": "비트버니 OX 퀴즈",
+      "searchKeyword": "비트버니 OX 퀴즈 정답",
+      "shortName": "비트버니 OX",
+      "category": "reward",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#a78bfa",
+      "howTo": "비트버니 앱 → OX 퀴즈",
+      "estDaily": 50,
+      "rewardRange": "10~100P",
+      "iconUrl": "/icons/bitbunny.avif",
+      "sourceSlug": null,
+      "releaseTimes": [
+        "00:00"
+      ]
+    },
+    {
+      "slug": "adapter",
+      "app": "어댑터",
+      "name": "어댑터 데일리·라이브 퀴즈",
+      "searchKeyword": "어댑터 퀴즈 정답",
+      "shortName": "어댑터 퀴즈",
+      "category": "reward",
+      "reward": "포인트",
+      "resetInfo": "데일리 + 라이브 11·15·20시",
+      "color": "#38bdf8",
+      "howTo": "어댑터 앱 → 데일리 퀴즈 / 라이브 퀴즈",
+      "estDaily": 100,
+      "rewardRange": "10~200P",
+      "iconUrl": "/icons/adapter.avif",
+      "sourceSlug": null,
+      "releaseTimes": [
+        "11:00",
+        "15:00",
+        "20:00"
+      ]
+    },
+    {
+      "slug": "moneywalk",
+      "app": "머니워크",
+      "name": "머니워크 오늘의 퀴즈",
+      "searchKeyword": "머니워크 퀴즈 정답",
+      "shortName": "머니워크 퀴즈",
+      "category": "walk",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#22c55e",
+      "howTo": "머니워크 앱 → 오늘의 퀴즈",
+      "estDaily": 50,
+      "rewardRange": "10~100P",
+      "iconUrl": "/icons/moneywalk.avif",
+      "sourceSlug": null,
+      "releaseTimes": [
+        "00:00"
+      ]
+    },
+    {
+      "slug": "yoit",
+      "app": "요잇",
+      "name": "요잇 오늘의 퀴즈",
+      "searchKeyword": "요잇 퀴즈 정답",
+      "shortName": "요잇 퀴즈",
+      "category": "reward",
+      "reward": "포인트",
+      "resetInfo": "매일 갱신",
+      "color": "#f97316",
+      "howTo": "요잇 앱 → 오늘의 퀴즈",
+      "estDaily": 50,
+      "rewardRange": "10~100P",
+      "iconUrl": "/icons/yoit.avif",
+      "sourceSlug": null,
+      "releaseTimes": [
+        "00:00"
+      ]
+    },
+    {
+      "slug": "yes24",
+      "app": "예스24",
+      "name": "예스24 출석체크 퀴즈",
+      "searchKeyword": "예스24 출첵퀴즈 정답",
+      "shortName": "예스24 출첵",
+      "category": "shopping",
+      "reward": "YES포인트",
+      "resetInfo": "매일 출석 시",
+      "color": "#0ea5e9",
+      "howTo": "예스24 앱 → 출석체크 → 저자 이름 맞히기",
+      "estDaily": 30,
+      "rewardRange": "5~50P",
+      "iconUrl": "/icons/yes24.avif",
+      "sourceSlug": null,
+      "releaseTimes": [
+        "00:00"
+      ]
+    },
+    {
+      "slug": "fallcent",
+      "app": "폴센트",
+      "name": "폴센트 오늘의 퀴즈",
+      "searchKeyword": "폴센트 퀴즈 정답",
+      "shortName": "폴센트 퀴즈",
+      "category": "shopping",
+      "reward": "포인트",
+      "resetInfo": "광고 이벤트 있을 때",
+      "color": "#ef4444",
+      "howTo": "폴센트 앱 → 오늘의 퀴즈",
+      "estDaily": 50,
+      "rewardRange": "10~100P",
+      "iconUrl": "/icons/fallcent.avif",
+      "sourceSlug": null,
+      "releaseTimes": [],
+      "cadence": {
+        "type": "irregular"
+      }
     }
   ]
 }

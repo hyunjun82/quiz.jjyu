@@ -701,6 +701,191 @@ async function collectFromGametoc() {
   return results.flat();
 }
 
+/* ────────────── 소스 E: 토막스 (quiz.epostphone.kr) ──────────────
+ *
+ * 2026-08-14 발굴. 우리와 같은 퀴즈 정답 집계 사이트인데, 우리·퀴즈벨·게임톡이
+ * 하나로 묶어 다루는 퀴즈를 하위 유형까지 쪼개서 낸다. 특히 '비트버니 OX 퀴즈'는
+ * 네 소스 어디에도 없어 우리가 8/1~8/14 내내 하루 1건씩 놓치고 있었다(실측).
+ *
+ * 구조가 아주 단순하고 예측 가능하다:
+ *   상세: https://quiz.epostphone.kr/{YYYY-MM-DD}-{tmSlug}-quiz-answer
+ *         <p class="quiz-question">지문</p> … <div class="post-answer-value">정답</div>
+ *   날짜가 주소에 박혀 있어 목록을 훑을 필요가 없고, 아직 안 나온 날짜는 404다
+ *   (실측: 미래 날짜 요청 → 404). 즉 주소 하나만 때리면 되고 오발행 위험이 없다.
+ */
+const TOMAX_ART = (date, tm) => `https://quiz.epostphone.kr/${date}-${tm}-quiz-answer`;
+
+// 우리 slug → 토막스 slug. 여기 한 줄 추가하면 그 퀴즈가 바로 수집된다.
+const TOMAX_MAP = [{ slug: 'bitbunny-ox', tm: 'bitbunny_ox' }];
+
+// `${today}:${slug}` → items. 하루치 완성본이라 한 번 성공하면 다시 안 긁는다.
+const tomaxParsed = new Map();
+
+function parseTomax(html, slug) {
+  const questions = [...html.matchAll(/class="quiz-question"[^>]*>([\s\S]*?)<\/p>/g)].map((m) =>
+    clean(m[1]),
+  );
+  const answers = [...html.matchAll(/class="post-answer-value"[^>]*>([\s\S]*?)<\/div>/g)].map((m) =>
+    clean(m[1]),
+  );
+  const out = [];
+  for (let i = 0; i < Math.min(questions.length, answers.length); i += 1) {
+    // "O (맞아요)" 처럼 괄호 부연이 붙어 온다 — 앞의 실제 값만 쓴다.
+    const a = answers[i].replace(/\s*\([^)]*\)\s*$/, '').trim();
+    const q = questions[i];
+    if (q && a && isSaneQuestion(q) && isSaneAnswer(a)) out.push({ slug, ...buildItem(q, [a]) });
+  }
+  return out;
+}
+
+async function collectFromTomax() {
+  const today = kstToday();
+  const results = await Promise.all(
+    TOMAX_MAP.map(async ({ slug, tm }) => {
+      const key = `${today}:${slug}`;
+      if (tomaxParsed.has(key)) return tomaxParsed.get(key);
+      try {
+        const res = await fetch(TOMAX_ART(today, tm), {
+          headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+          signal: AbortSignal.timeout(20000),
+        });
+        if (!res.ok) return []; // 아직 미발행이면 404 — 정상 경로다
+        const items = parseTomax(await res.text(), slug).map((r) => ({ ...r, source: 'tomax' }));
+        if (items.length > 0) tomaxParsed.set(key, items);
+        return items;
+      } catch {
+        return [];
+      }
+    }),
+  );
+  return results.flat();
+}
+
+/* ────────────── 소스 F: 팁is팁 (tipistip.com) ──────────────
+ *
+ * 2026-08-14 발굴. 커뮤니티 게시판인데 어느 집계 사이트에도 없는 소형 퀴즈를
+ * 매일 올린다(어댑터·머니워크·요잇·예스24·폴센트). 이 다섯은 언론사도 안 다뤄서
+ * 검색 경쟁이 사실상 없다.
+ *
+ * ⚠️ 한계를 알고 쓴다 — 본문에 문제 지문이 없고 정답만 있다(실측).
+ *   본문 예: `어댑터 퀴즈] 라이브 11시<br><br>정답 : 1, X, 4`
+ *   그래서 제목을 지문 자리에 쓴다. 지문 기반 롱테일 전략은 이 다섯에는 못 쓰고,
+ *   대표 키워드("어댑터 퀴즈 정답")로만 노린다. 나중에 지문 있는 소스가 생기면
+ *   isBetterQuestion 규칙에 따라 자동으로 더 좋은 지문으로 갈아끼워진다.
+ *
+ * 구조:
+ *   목록: board.php?bo_table=quiz&page=N → <div class="bo_tit"> 안에 wr_id + 제목
+ *         제목 형식: `카테고리] 퀴즈이름 [2026년 08월 14일]`
+ *   본문: <div id="bo_v_con"> … 정답 : X </div>
+ */
+const TIP_LIST = (page) => `https://www.tipistip.com/bbs/board.php?bo_table=quiz&page=${page}`;
+const TIP_ART = (id) => `https://www.tipistip.com/bbs/board.php?bo_table=quiz&wr_id=${id}`;
+
+// 제목 → slug. 이미 다른 소스가 잘 잡고 있는 퀴즈는 넣지 않는다(중복 조회 낭비).
+const TIP_TITLE_MAP = [
+  { slug: 'adapter', re: /어댑터/ },
+  { slug: 'moneywalk', re: /머니워크/ },
+  { slug: 'yoit', re: /요잇/ },
+  { slug: 'yes24', re: /예스24/ },
+  { slug: 'fallcent', re: /폴센트/ },
+];
+
+const tipArticleCache = new Map(); // `${today}:${slug}` → Set(wr_id)
+const tipParsed = new Map(); // wr_id → items
+let tipListFetchedAt = 0;
+
+/** 목록 제목의 `[2026년 08월 14일]` 을 `2026-08-14` 로 바꾼다. */
+function tipTitleDate(title) {
+  const m = title.match(/\[(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일\]/);
+  if (!m) return null;
+  return `${m[1]}-${String(m[2]).padStart(2, '0')}-${String(m[3]).padStart(2, '0')}`;
+}
+
+/** 제목에서 날짜·카테고리 껍데기를 걷어내 지문 자리에 쓸 문장을 만든다. */
+function tipQuestion(title) {
+  return title
+    .replace(/\[\d{4}년[\s\S]*$/, '')
+    .replace(/^\(종료\)\s*/, '')
+    .replace(/^기타퀴즈\]\s*/, '') // 의미 없는 분류 라벨
+    .replace(/\]\s*/g, ' ')
+    .replace(/\s*-\s*/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+async function tipDiscover(today) {
+  if (Date.now() - tipListFetchedAt < 90_000) return;
+  tipListFetchedAt = Date.now();
+  // 한 페이지에 15건이고 하루 30~40건이 올라온다. 자정 직후엔 오늘 글이 1페이지지만
+  // 저녁이면 3페이지까지 밀린다(8/14 실측: 요잇·예스24가 3페이지에 있었다).
+  // 4페이지=60건이면 오늘치를 항상 덮는다. 날짜 필터가 어제 글을 걸러내므로 넉넉히 본다.
+  for (const page of [1, 2, 3, 4]) {
+    const res = await fetch(TIP_LIST(page), {
+      headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (!res.ok) continue;
+    const html = (await res.text()).replace(/&amp;/g, '&');
+    for (const [, block] of html.matchAll(/<div class="bo_tit">([\s\S]{0,500}?)<\/div>/g)) {
+      const id = block.match(/wr_id=(\d+)/)?.[1];
+      if (!id) continue;
+      const title = clean(block);
+      if (tipTitleDate(title) !== today) continue; // 오늘자만 — 어제 정답 오발행 차단
+      const map = TIP_TITLE_MAP.find((m) => m.re.test(title));
+      if (!map) continue;
+      const key = `${today}:${map.slug}`;
+      if (!tipArticleCache.has(key)) tipArticleCache.set(key, new Set());
+      tipArticleCache.get(key).add(id);
+    }
+  }
+}
+
+function parseTipArticle(html, slug, title) {
+  const start = html.indexOf('bo_v_con');
+  if (start === -1) return [];
+  const seg = html.slice(start, start + 4000).split('<!-- } 본문 내용 끝')[0];
+  const text = clean(seg.replace(/<br\s*\/?>/g, '\n')).replace(/^bo_v_con">/, '');
+  // 본문 문형: `정답 : O` / `정답: 1, X, 4` / `정답 : 주식투자 불패의 법칙`
+  const a = text.match(/정답\s*[:：]\s*([^\n<]{1,40})/)?.[1]?.trim();
+  if (!a || !isSaneAnswer(a)) return [];
+  const q = tipQuestion(title);
+  if (!isSaneQuestion(q)) return [];
+  return [{ slug, ...buildItem(q, [a]) }];
+}
+
+async function collectFromTipistip() {
+  const today = kstToday();
+  await tipDiscover(today).catch(() => {});
+
+  const jobs = [];
+  for (const map of TIP_TITLE_MAP) {
+    for (const id of tipArticleCache.get(`${today}:${map.slug}`) ?? []) {
+      jobs.push({ slug: map.slug, id });
+    }
+  }
+
+  const results = await Promise.all(
+    jobs.map(async ({ slug, id }) => {
+      if (tipParsed.has(id)) return tipParsed.get(id);
+      try {
+        const res = await fetch(TIP_ART(id), {
+          headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+          signal: AbortSignal.timeout(20000),
+        });
+        if (!res.ok) return [];
+        const html = await res.text();
+        const title = clean(html.match(/<title>([^<]*)<\/title>/)?.[1] || '').split('>')[0].trim();
+        const items = parseTipArticle(html, slug, title).map((r) => ({ ...r, source: 'tipistip' }));
+        if (items.length > 0) tipParsed.set(id, items);
+        return items;
+      } catch {
+        return [];
+      }
+    }),
+  );
+  return results.flat();
+}
+
 /* ────────────────────────── 조립 ────────────────────────── */
 
 function buildItem(question, answers) {
@@ -969,7 +1154,7 @@ async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
 
-  const [a, b, c, d] = await Promise.all([
+  const [a, b, c, d, e, f] = await Promise.all([
     collectFromBlog().catch((e) => {
       console.error('블로그 소스 실패:', e.message);
       return [];
@@ -983,6 +1168,14 @@ async function collectOnce() {
       console.error('게임톡 소스 실패:', e.message);
       return [];
     }),
+    collectFromTomax().catch((e) => {
+      console.error('토막스 소스 실패:', e.message);
+      return [];
+    }),
+    collectFromTipistip().catch((e) => {
+      console.error('팁is팁 소스 실패:', e.message);
+      return [];
+    }),
   ]);
   // 순서 = 우선순위. 같은 정답이 여러 소스에서 오면 앞쪽 것이 채택된다(뒤는 중복 처리).
   // 블로그가 맨 앞인 이유: 문제 지문이 가장 길고 정확하다.
@@ -990,7 +1183,9 @@ async function collectOnce() {
   // ※ "누가 먼저 올렸나"는 이 순서와 무관하다. 매 폴링마다 세 소스를 동시에 조회하므로
   //    실제로는 "그 시점에 정답을 갖고 있는 소스"가 이긴다 — 즉 가장 빨리 올린 곳이 이긴다.
   // 게임톡(d)은 언론사 교열본이라 비즈월드 다음, 퀴즈벨 앞. (2026-08-10 추가)
-  const found = [...a, ...c, ...d, ...b];
+  // 토막스(e)는 지문·정답이 온전해 퀴즈벨 앞. 팁is팁(f)은 지문이 없어 맨 뒤 —
+  // 다른 소스가 같은 정답을 지문과 함께 주면 그쪽이 이겨야 한다. (2026-08-14 추가)
+  const found = [...a, ...c, ...d, ...e, ...b, ...f];
 
   let added = 0;
   let upgraded = 0;

@@ -180,8 +180,15 @@ async function main() {
   for (const c of notPublished) {
     console.log(`  [미발행] ${c.q.slug} — 소스도 아직 없음`);
   }
+  // 감시자는 퀴즈벨만 대조한다. 퀴즈벨이 아예 안 다루는 퀴즈(토막스·팁is팁 전용)는
+  // sourceSlug가 없는 게 정상이므로, 진짜 구멍(소스 미연결)과 구분해서 표기한다.
+  const OTHER_SOURCE = new Set(['bitbunny-ox', 'adapter', 'moneywalk', 'yoit', 'yes24', 'fallcent']);
   for (const c of unknown) {
-    console.log(`  [판정불가] ${c.q.slug} — sourceSlug 없음`);
+    if (OTHER_SOURCE.has(c.q.slug)) {
+      console.log(`  [대조생략] ${c.q.slug} — 퀴즈벨 미취급(토막스/팁is팁 전용)`);
+    } else {
+      console.log(`  [판정불가] ${c.q.slug} — sourceSlug 없음`);
+    }
   }
 
   if (missed.length >= FAIL_THRESHOLD) {
