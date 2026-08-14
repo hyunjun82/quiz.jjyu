@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T00:12:41.040+09:00",
+  "updatedAt": "2026-08-15T00:14:02.397+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -83,6 +83,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-15T00:06:00.910+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "문화",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:14:02.397+09:00"
       }
     ],
     "kbank": [
@@ -101,6 +108,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-15T00:12:41.040+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:14:02.397+09:00"
       }
     ],
     "monimo": [
