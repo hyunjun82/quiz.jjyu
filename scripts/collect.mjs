@@ -178,8 +178,20 @@ function isFullerAnswer(oldA, newA) {
   return b.length > a.length && b.startsWith(a);
 }
 
+/**
+ * 정답 비교용 키. 표기 차이를 걷어내 같은 정답을 같게 만든다.
+ *
+ * 선택지 번호를 떼는 이유 — 소스마다 붙이기도 하고 안 붙이기도 한다.
+ * 8/14 실측: 같은 KB 한국사 정답이 퀴즈벨은 "호패법을 시행하였다",
+ * 토막스는 "2번 호패법을 시행하였다."로 와서 중복 판정을 빠져나가
+ * 한 페이지에 같은 정답이 두 번 실렸다. 번호는 표기일 뿐 정답의 일부가 아니다.
+ * (저장되는 값은 그대로 두고, 비교할 때만 뗀다.)
+ */
 function normalize(s) {
-  return String(s || '').replace(/[\s,.·/]/g, '').toLowerCase();
+  return String(s || '')
+    .replace(/^\s*\d{1,2}\s*번[\s.)]*/, '')
+    .replace(/[\s,.·/]/g, '')
+    .toLowerCase();
 }
 
 function itemKey(x) {
@@ -716,7 +728,18 @@ async function collectFromGametoc() {
 const TOMAX_ART = (date, tm) => `https://quiz.epostphone.kr/${date}-${tm}-quiz-answer`;
 
 // 우리 slug → 토막스 slug. 여기 한 줄 추가하면 그 퀴즈가 바로 수집된다.
-const TOMAX_MAP = [{ slug: 'bitbunny-ox', tm: 'bitbunny_ox' }];
+//
+// 토막스의 진짜 값어치는 '하위 유형을 쪼개 낸다'는 점이다. 다른 소스는 카뱅을
+// 한 덩어리로 다루는데 토막스는 OX와 AI 이모지를 따로 낸다. 그래서 다른 소스가
+// 늦거나 한 종류만 줄 때 나머지를 여기서 메운다.
+// 8/14 실측: 카뱅 AI 이모지 정답('제조업')이 우리 4소스엔 없고 토막스에만 있었다.
+const TOMAX_MAP = [
+  { slug: 'bitbunny-ox', tm: 'bitbunny_ox' }, // 다른 소스에 아예 없는 퀴즈
+  { slug: 'kakaobank', tm: 'kakaobank_ai' }, // 카뱅 AI 이모지 (OX와 별도 출제)
+  { slug: 'kb-star', tm: 'kbstar_hist' }, // KB 한국사 (스타퀴즈와 별도)
+  { slug: 'hana-onq', tm: 'hanalife' }, // 하나원큐 슬기로운 금융생활 OX
+  { slug: 'monimo', tm: 'monimo_eng' }, // 모니모 영어챌린지
+];
 
 // `${today}:${slug}` → items. 하루치 완성본이라 한 번 성공하면 다시 안 긁는다.
 const tomaxParsed = new Map();

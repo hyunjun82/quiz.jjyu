@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T15:06:36.340+09:00",
+  "updatedAt": "2026-08-14T15:26:38.592+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,6 +42,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-14T00:12:00.260+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈: 사물 관련 이모지를 보고 맞히는 오늘의 정답은?",
+        "answer": "제조업",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-14T15:25:42.405+09:00"
       }
     ],
     "ok-cashbag": [],
@@ -222,25 +229,18 @@
     ],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/14일자",
+        "question": "자동화기기에서 1회에 인출할 수 있는 현금 금액은 얼마일까요?",
         "answer": "3번 100만원",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-14T00:06:42.957+09:00"
       },
       {
-        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "question": "KB 스타뱅킹 한국사 퀴즈 8월 14일 출제 태종 이방원 업적 문제 정답",
         "answer": "호패법을 시행하였다",
         "note": "",
-        "source": "quizbells",
+        "source": "tomax",
         "publishedAt": "2026-08-14T00:07:46.210+09:00"
-      },
-      {
-        "question": "자동화기기에서 1회에 인출할 수 있는 현금 금액은 얼마일까요?",
-        "answer": "100만원",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-14T01:30:15.962+09:00"
       },
       {
         "question": "KB 별별퀴즈 — 8/14일자",
@@ -275,10 +275,10 @@
         "publishedAt": "2026-08-14T00:08:49.871+09:00"
       },
       {
-        "question": "슬기로운 금융생활 OX퀴즈",
+        "question": "하나원큐 놀이터 코너에서 진행되는 공룡알 찾기 이벤트의 최대 혜택이 3만 원과 넷마블 쿠폰이라는 설명은 사실일까?",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "tomax",
         "publishedAt": "2026-08-14T00:10:56.489+09:00"
       }
     ],
