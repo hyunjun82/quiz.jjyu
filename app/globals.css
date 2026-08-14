@@ -947,3 +947,31 @@ main, header, footer { position: relative; z-index: 1; }
 .tq-cnt { font-size: 11.5px; color: var(--text-3); font-weight: 600; }
 .tq-wait { opacity: .45; }
 .tq-seen .tq-ico img { filter: grayscale(.7); opacity: .75; }
+
+/* ── 상단 압축 스트립 ────────────────────────
+   전체 그리드를 상단에 올리면 본문(정답)이 밀린다. 오늘 정답 있는 퀴즈만
+   가로 한 줄로 깔아 세로 공간을 거의 안 먹으면서 첫 화면에 보이게 한다. */
+.tq-strip { margin: 14px 0 18px; }
+.tq-strip-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 10px; margin-bottom: 8px; flex-wrap: wrap;
+}
+.tq-strip-head b { font-size: 14.5px; }
+.tq-strip-head a { font-size: 13px; font-weight: 700; color: #d92d20; text-decoration: none; white-space: nowrap; }
+.tq-row {
+  display: flex; gap: 13px; overflow-x: auto;
+  padding: 5px 2px 8px; margin: 0 -2px;
+  scrollbar-width: thin; -webkit-overflow-scrolling: touch;
+}
+.tq-row::-webkit-scrollbar { height: 4px; }
+.tq-row::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+.tq-cell {
+  flex: 0 0 auto; width: 58px;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  text-decoration: none; color: var(--text);
+}
+.tq-cell .tq-ico img { border-radius: 12px; box-shadow: var(--shadow-sm); }
+.tq-cname {
+  font-size: 11px; font-weight: 700; line-height: 1.25; text-align: center;
+  overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}

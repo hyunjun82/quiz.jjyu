@@ -16,7 +16,7 @@ import { useEffect, useState } from 'react';
  *
  * 모든 이동은 순수 <a href> 전체 페이지 로드 — 전면광고 트리거 유지 (검증된 규칙).
  */
-export default function TodayQuizGrid({ items, currentSlug, today }) {
+export default function TodayQuizGrid({ items, currentSlug, today, variant }) {
   // items: [{slug, name, icon, count}] — 서버에서 오늘 정답 건수까지 계산해서 내려줌
   const [visited, setVisited] = useState([]);
 
@@ -38,6 +38,45 @@ export default function TodayQuizGrid({ items, currentSlug, today }) {
   const next = remaining[0];
   const done = withAnswers.length - remaining.length;
   const pct = withAnswers.length ? Math.round((done / withAnswers.length) * 100) : 0;
+
+  /**
+   * strip = 상단용 압축판. 세로 1줄 가로 스크롤.
+   *
+   * 왜 필요한가 — 전체 그리드(24개, 6줄)를 상단에 올렸더니 이번엔 그 페이지의
+   * 본문(최근 정답)이 화면 밖으로 밀려났다. "보여야 클릭한다"와 "정답이 먼저
+   * 보여야 한다"가 충돌한 것. 오늘 정답이 있는 퀴즈만 한 줄로 깔면 세로 공간을
+   * 거의 안 먹으면서 첫 화면에 노출된다. 전체 목록은 하단 그리드가 계속 담당.
+   */
+  if (variant === 'strip') {
+    if (withAnswers.length === 0) return null;
+    return (
+      <section className="tq-strip" aria-label="오늘 정답 나온 다른 퀴즈">
+        <div className="tq-strip-head">
+          <b>🔥 오늘 정답 나온 퀴즈 {withAnswers.length}개</b>
+          {next && <a href={`/quiz/${next.slug}/`}>바로가기: {next.name} →</a>}
+        </div>
+        <div className="tq-row">
+          {withAnswers.map((q) => {
+            const seen = visited.includes(q.slug);
+            return (
+              <a
+                key={q.slug}
+                href={`/quiz/${q.slug}/`}
+                className={`tq-cell ${seen ? 'tq-seen' : ''}`}
+              >
+                <span className="tq-ico">
+                  <img src={q.icon} alt="" width="44" height="44" loading="lazy" />
+                  {!seen && <i className="tq-n">{q.count}</i>}
+                  {seen && <i className="tq-ok">✓</i>}
+                </span>
+                <span className="tq-cname">{q.name}</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="tq" aria-label="오늘의 다른 퀴즈 정답">

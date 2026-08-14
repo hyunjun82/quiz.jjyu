@@ -134,17 +134,12 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
                 ? '참여 링크가 공개되는 즉시 이 페이지가 자동으로 업데이트됩니다.'
                 : '정답이 공개되는 즉시 이 페이지가 자동으로 업데이트됩니다.')}
           </div>
-          <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
+          <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} variant="strip" />
         </>
       )}
 
-      <div className="howto">
-        <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
-      </div>
-
-      <AdUnit slot="9284435988" />
-
-      {/* 오늘 정답이 없을 때 — 최근 정답으로 화면을 채운다. 헛걸음 방지. */}
+      {/* 오늘 정답이 없을 때 — 최근 정답으로 화면을 채운다. 헛걸음 방지.
+          한 줄 스트립 바로 아래 = 광고보다 위. 이 페이지의 본문이 밀리면 안 된다. */}
       {items.length === 0 && fallbackItems.length > 0 && (
         <section className="fallback-block">
           <h2 className="fb-head">
@@ -172,6 +167,12 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         </section>
       )}
 
+      <div className="howto">
+        <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
+      </div>
+
+      <AdUnit slot="9284435988" />
+
       {items.length > 0 && (
         <>
           <ol className="a-list">
@@ -187,10 +188,12 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
               </li>
             ))}
           </ol>
-          {/* 정답 목록 바로 다음 = 광고보다 위. 목적 달성 직후가 이동이 가장 잘 나오는 자리다. */}
-          <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
         </>
       )}
+
+      {/* 전체 그리드(24개) — 정답 목록 바로 다음 = 광고보다 위.
+          목적을 달성한 직후가 이동이 가장 잘 나오는 자리다. */}
+      <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
 
       <AdUnit slot="5919906049" />
       </div>
