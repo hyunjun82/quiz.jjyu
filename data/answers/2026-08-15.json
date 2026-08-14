@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T03:49:35.116+09:00",
+  "updatedAt": "2026-08-15T08:34:54.282+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -138,6 +138,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-15T00:02:32.028+09:00"
+      },
+      {
+        "question": "모니모 퀴즈 — 모니스쿨",
+        "answer": "아이스크림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T08:34:54.282+09:00"
       }
     ],
     "paybooc": [],
