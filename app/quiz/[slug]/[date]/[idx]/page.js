@@ -105,6 +105,7 @@ export default function AnswerPage({ params }) {
   if (!item) notFound();
 
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
+  const grid = getTodayQuizGridItems(); // 한 번만 계산해서 재사용
 
   const SITE_URL = 'https://quiz.jjyu.co.kr';
   const dateLabel = formatKoreanDate(params.date);
@@ -180,10 +181,14 @@ export default function AnswerPage({ params }) {
         />
       </article>
 
-      {/* 💰 최고 수익 슬롯: 정답 확인 직후 = 목적 달성 시점, 시선이 머무는 자리 */}
-      <AdUnit slot="5919906049" className="ad-slot ad-rect" />
-
-      {/* 문제 간 이동 — 자연스러운 추가 PV */}
+      {/* 문제 간 이동 — 자연스러운 추가 PV
+       *
+       * ⚠️ 예전엔 여기(정답 카드와 이동 버튼 사이)에 300px 광고가 끼어 있었다.
+       * 정답을 본 사람이 '다음 문제'로 손가락을 내리는 경로 한복판이라 실수 클릭이
+       * 대량으로 찍혔다. 2026-08-14 실측: 페이지 CTR 10.8%(정상 1~3%),
+       * 본문 광고 클릭당 $0.016 vs 전면광고 클릭당 $0.133 — 8배 차이.
+       * 값 없는 클릭은 스마트 프라이싱으로 단가를 깎으므로 광고를 경로 밖으로 내렸다.
+       */}
       <nav className="q-nav">
         {idx > 1 && (
           <a href={`/quiz/${quiz.slug}/${params.date}/${idx - 1}/`} className="q-nav-btn">
@@ -200,14 +205,11 @@ export default function AnswerPage({ params }) {
         )}
       </nav>
 
-      <AdUnit slot="9284435988" />
+      {/* 정주행 그리드 — 광고보다 위로. 스크롤 없이 "오늘 다른 퀴즈 N개" 가 보여야 이동이 난다. */}
+      <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
 
-      {/* 정주행 그리드 — 정답 확인 직후, "오늘 다른 퀴즈도 있다"를 스크롤 없이 보여준다 */}
-      <TodayQuizGrid
-        items={getTodayQuizGridItems().items}
-        currentSlug={quiz.slug}
-        today={getTodayQuizGridItems().today}
-      />
+      <AdUnit slot="5919906049" className="ad-slot ad-rect" />
+      <AdUnit slot="9284435988" />
       </div>
       <aside className="rail">
         <AdUnit slot="4223680996" className="ad-slot rail-ad" />
