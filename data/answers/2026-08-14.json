@@ -1,8 +1,16 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T11:00:38.122+09:00",
+  "updatedAt": "2026-08-14T12:03:11.164+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 행운 - 건조ip공개찬성",
+        "answer": "건조",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T12:03:11.163+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
