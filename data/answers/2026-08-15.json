@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T00:11:37.622+09:00",
+  "updatedAt": "2026-08-15T00:12:41.040+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -65,7 +65,15 @@
         "publishedAt": "2026-08-15T00:09:29.606+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 공급망의 효율성과 안정성을 높이기 위해 생산 기지를 본국과 가까운 국가로 이전하는 전략이에요.",
+        "answer": "니어쇼어링",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:12:41.040+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
@@ -86,7 +94,15 @@
         "publishedAt": "2026-08-15T00:01:28.424+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "대전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:12:41.040+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "일상 속 상해, 주택 화재에 대비하면서 운전자에게 필요한 보장까지 한 번에 준비할 수 있는 보험이 있다. 맞는 말일까요?",
