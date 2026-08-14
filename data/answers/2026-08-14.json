@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "updatedAt": "2026-08-14T19:01:13.246+09:00",
+  "updatedAt": "2026-08-14T19:02:49.446+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -328,6 +328,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-14T19:01:13.245+09:00"
+      },
+      {
+        "question": "G마켓 헤지스 반팔티셔츠",
+        "answer": "단색",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-14T19:02:49.446+09:00"
       }
     ],
     "climate-action": [
