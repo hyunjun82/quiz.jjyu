@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T08:34:54.282+09:00",
+  "updatedAt": "2026-08-15T08:39:09.883+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -113,6 +113,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-15T00:01:28.424+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "숏셜링",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T08:39:09.883+09:00"
       }
     ],
     "hana-onq": [
@@ -168,6 +175,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-15T00:01:28.424+09:00"
+      },
+      {
+        "question": "미녹시딜을 바르면 두피의 혈관이 확장되면서 머리카락이 자라나게 된다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T08:39:09.883+09:00"
       }
     ],
     "buzzvil": [],
