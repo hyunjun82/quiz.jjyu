@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-15",
+  "updatedAt": "2026-08-15T00:01:28.424+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [
+      {
+        "question": "진~한 토마토 풍미까지 믿고 먹을 수 있는 원재료로, 100% 캘리포니아산 OO 토마토를 사용했답니다. OO은 무엇일까요? (힌트:ㅇㅅ)",
+        "answer": "완숙",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-15T00:01:28.424+09:00"
+      },
+      {
+        "question": "WON뱅킹에서 OO 돌리면 여름 간식 8,000개를 받을 수 있다.(초성힌트 : ㄹㄹ)",
+        "answer": "룰렛 / 선풍기 / 아이스 / 3 / 쿨팁",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-15T00:01:28.424+09:00"
+      }
+    ],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "풍력 발전기는 야생조류의 충돌 사고를 유발하여 생태계에 심각한 피해를 주는 주요 원인 중 하나이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:01:28.424+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "2026년 여름, 야외 수영장·물놀이장을 개장하지 않는 한강공원은?",
+        "answer": "망원 한강공원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:01:28.424+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "복근 운동은 복부비만에 매우 효과적이다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-15T00:01:28.424+09:00"
+      }
+    ],
+    "buzzvil": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [],
+    "fallcent": []
+  }
+}
