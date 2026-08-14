@@ -189,7 +189,8 @@ function isFullerAnswer(oldA, newA) {
  */
 function normalize(s) {
   return String(s || '')
-    .replace(/^\s*\d{1,2}\s*번[\s.)]*/, '')
+    .replace(/^\s*\d{1,2}\s*번[\s.)]*/, '') // 선택지 번호: "2번 호패법…" → "호패법…"
+    .replace(/\s*[(（][^)）]*[)）]/g, '') // 괄호 부연: "O (맞아요)" → "O"
     .replace(/[\s,.·/]/g, '')
     .toLowerCase();
 }
@@ -201,7 +202,19 @@ function itemKey(x) {
 /**
  * 이미 있는 정답인지 판단. 소스마다 표기가 미묘하게 달라서("100만" vs "100만P",
  * "O" vs "O (그렇다)") 완전일치만 보면 같은 정답이 중복 등록된다.
- * 짧은 정답은 한쪽이 다른 쪽의 앞부분이면 같은 것으로 본다.
+ * 그래서 한쪽이 다른 쪽의 앞부분이면 같은 것으로 본다.
+ *
+ * ⚠️ 단, 짧은 쪽이 2자 이하면 접두사 규칙을 쓰지 않는다.
+ *
+ * 2026-08-14 발견: 이 규칙에 OX 정답이 걸린다.
+ *   'X'  vs 'XC90'    → 'xc90'.startsWith('x'), 길이차 3 → "같다" 판정
+ *   'O'  vs 'OK캐시백' → 길이차 4 → "같다" 판정
+ * 즉 O/X 정답이 이미 있으면, 같은 글자로 시작하는 진짜 정답이 통째로 버려진다.
+ * 실제로 7/17 신한에 'XC90'과 'X'가 나란히 있었다 — 하나만 늦게 들어왔다면
+ * 그날 정답 하나가 사라졌을 상황이다. OX 정답은 하나원큐 24건·카뱅 15건·
+ * KB 13건으로 흔하므로 언제든 재발한다.
+ *
+ * 1~2자 정답은 표기 흔들림이 거의 없으므로(O/X/예/아니오) 완전일치로 충분하다.
  */
 function dupIndex(current, item) {
   const key = itemKey(item);
@@ -209,7 +222,8 @@ function dupIndex(current, item) {
   return current.findIndex((x) => {
     const k = itemKey(x);
     if (k === key) return true;
-    if (k.length >= 1 && key.length >= 1 && (k.startsWith(key) || key.startsWith(k))) {
+    const shorter = Math.min(k.length, key.length);
+    if (shorter >= 3 && (k.startsWith(key) || key.startsWith(k))) {
       return Math.abs(k.length - key.length) <= 6;
     }
     return false;
