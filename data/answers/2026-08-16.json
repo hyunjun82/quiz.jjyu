@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T00:00:05.113+09:00",
+  "updatedAt": "2026-08-16T00:00:38.293+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -17,22 +17,54 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "바다에 버려진 플라스틱 쓰레기는 시간이 지나면 완전히 분해되어 사라진다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:00:38.293+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "숏셜링",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:00:38.293+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "약국에서 처방 없이 사는 수면유도제와 병원에서 처방받는 수면제는 같은 약이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:00:38.293+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "미녹시딜을 바르면 두피의 혈관이 확장되면서 머리카락이 자라나게 된다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:00:38.293+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
