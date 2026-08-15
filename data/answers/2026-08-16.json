@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T01:20:20.050+09:00",
+  "updatedAt": "2026-08-16T01:54:44.316+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -82,10 +82,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/16일자",
+        "question": "자격이 되어도 내가 직접 신청하지 않으면, 혜택을 받지 못할 수도 있는 복지제도를 OO주의라고 한다",
         "answer": "2번 신청",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-16T00:15:09.921+09:00"
       },
       {
