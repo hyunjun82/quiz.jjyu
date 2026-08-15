@@ -1,0 +1,964 @@
+{
+  "updatedAt": "2026-08-15T17:06:14.752+09:00",
+  "sources": [
+    "retail:jongrogx",
+    "krx:data.go.kr",
+    "fx:yahoo",
+    "intl.gold:yahoo",
+    "intl.silver:yahoo"
+  ],
+  "retail": {
+    "source": "종로금거래소",
+    "sourceUrl": "https://www.jongrogx.com/",
+    "quoteDate": "2026-08-15",
+    "unit": "원/돈",
+    "note": "내가 살 때 가격은 원문에 부가세 별도로 표기되어 있습니다.",
+    "items": [
+      {
+        "key": "gold24",
+        "name": "순금 24K",
+        "userSell": {
+          "price": 731000,
+          "change": 4000,
+          "dir": "up"
+        },
+        "userBuy": {
+          "price": 795000,
+          "change": 7000,
+          "dir": "up"
+        }
+      },
+      {
+        "key": "gold18",
+        "name": "18K",
+        "userSell": {
+          "price": 537300,
+          "change": 2900,
+          "dir": "up"
+        },
+        "userBuy": null
+      },
+      {
+        "key": "gold14",
+        "name": "14K",
+        "userSell": {
+          "price": 416700,
+          "change": 2300,
+          "dir": "up"
+        },
+        "userBuy": null
+      },
+      {
+        "key": "platinum",
+        "name": "백금",
+        "userSell": {
+          "price": 220000,
+          "change": 0,
+          "dir": "none"
+        },
+        "userBuy": {
+          "price": 321000,
+          "change": 6000,
+          "dir": "up"
+        }
+      },
+      {
+        "key": "silver",
+        "name": "은",
+        "userSell": {
+          "price": 8000,
+          "change": 0,
+          "dir": "none"
+        },
+        "userBuy": {
+          "price": 11080,
+          "change": 30,
+          "dir": "up"
+        }
+      }
+    ]
+  },
+  "krx": {
+    "source": "한국거래소 KRX 금시장 (공공데이터포털)",
+    "sourceUrl": "https://www.data.go.kr/data/15094805/openapi.do",
+    "item": "금 99.99_1kg",
+    "unit": "원/그램",
+    "note": "하루 1회 갱신되는 전 영업일 종가입니다. 실시간 시세가 아닙니다.",
+    "latest": {
+      "date": "2026-08-13",
+      "krwPerGram": 200570,
+      "krwPerDon": 752138,
+      "change": 100,
+      "changePct": 0.05
+    },
+    "history": [
+      {
+        "date": "2026-02-19",
+        "krwPerGram": 233270,
+        "krwPerDon": 874763,
+        "change": 2220,
+        "changePct": 0.96
+      },
+      {
+        "date": "2026-02-20",
+        "krwPerGram": 234040,
+        "krwPerDon": 877650,
+        "change": 770,
+        "changePct": 0.33
+      },
+      {
+        "date": "2026-02-23",
+        "krwPerGram": 239500,
+        "krwPerDon": 898125,
+        "change": 5460,
+        "changePct": 2.33
+      },
+      {
+        "date": "2026-02-24",
+        "krwPerGram": 240900,
+        "krwPerDon": 903375,
+        "change": 1400,
+        "changePct": 0.58
+      },
+      {
+        "date": "2026-02-25",
+        "krwPerGram": 238910,
+        "krwPerDon": 895913,
+        "change": -1990,
+        "changePct": -0.83
+      },
+      {
+        "date": "2026-02-26",
+        "krwPerGram": 237560,
+        "krwPerDon": 890850,
+        "change": -1350,
+        "changePct": -0.57
+      },
+      {
+        "date": "2026-02-27",
+        "krwPerGram": 239300,
+        "krwPerDon": 897375,
+        "change": 1740,
+        "changePct": 0.73
+      },
+      {
+        "date": "2026-03-03",
+        "krwPerGram": 249200,
+        "krwPerDon": 934500,
+        "change": 9900,
+        "changePct": 4.14
+      },
+      {
+        "date": "2026-03-04",
+        "krwPerGram": 243110,
+        "krwPerDon": 911663,
+        "change": -6090,
+        "changePct": -2.44
+      },
+      {
+        "date": "2026-03-05",
+        "krwPerGram": 241600,
+        "krwPerDon": 906000,
+        "change": -1510,
+        "changePct": -0.62
+      },
+      {
+        "date": "2026-03-06",
+        "krwPerGram": 241680,
+        "krwPerDon": 906300,
+        "change": 80,
+        "changePct": 0.03
+      },
+      {
+        "date": "2026-03-09",
+        "krwPerGram": 242520,
+        "krwPerDon": 909450,
+        "change": 840,
+        "changePct": 0.35
+      },
+      {
+        "date": "2026-03-10",
+        "krwPerGram": 242710,
+        "krwPerDon": 910163,
+        "change": 190,
+        "changePct": 0.08
+      },
+      {
+        "date": "2026-03-11",
+        "krwPerGram": 244000,
+        "krwPerDon": 915000,
+        "change": 1290,
+        "changePct": 0.53
+      },
+      {
+        "date": "2026-03-12",
+        "krwPerGram": 244190,
+        "krwPerDon": 915713,
+        "change": 190,
+        "changePct": 0.08
+      },
+      {
+        "date": "2026-03-13",
+        "krwPerGram": 243800,
+        "krwPerDon": 914250,
+        "change": -390,
+        "changePct": -0.16
+      },
+      {
+        "date": "2026-03-16",
+        "krwPerGram": 240400,
+        "krwPerDon": 901500,
+        "change": -3400,
+        "changePct": -1.39
+      },
+      {
+        "date": "2026-03-17",
+        "krwPerGram": 239550,
+        "krwPerDon": 898313,
+        "change": -850,
+        "changePct": -0.35
+      },
+      {
+        "date": "2026-03-18",
+        "krwPerGram": 237040,
+        "krwPerDon": 888900,
+        "change": -2510,
+        "changePct": -1.05
+      },
+      {
+        "date": "2026-03-19",
+        "krwPerGram": 231420,
+        "krwPerDon": 867825,
+        "change": -5620,
+        "changePct": -2.37
+      },
+      {
+        "date": "2026-03-20",
+        "krwPerGram": 226340,
+        "krwPerDon": 848775,
+        "change": -5080,
+        "changePct": -2.2
+      },
+      {
+        "date": "2026-03-23",
+        "krwPerGram": 208530,
+        "krwPerDon": 781988,
+        "change": -17810,
+        "changePct": -7.87
+      },
+      {
+        "date": "2026-03-24",
+        "krwPerGram": 211500,
+        "krwPerDon": 793125,
+        "change": 2970,
+        "changePct": 1.42
+      },
+      {
+        "date": "2026-03-25",
+        "krwPerGram": 219940,
+        "krwPerDon": 824775,
+        "change": 8440,
+        "changePct": 3.99
+      },
+      {
+        "date": "2026-03-26",
+        "krwPerGram": 214990,
+        "krwPerDon": 806213,
+        "change": -4950,
+        "changePct": -2.25
+      },
+      {
+        "date": "2026-03-27",
+        "krwPerGram": 216420,
+        "krwPerDon": 811575,
+        "change": 1430,
+        "changePct": 0.67
+      },
+      {
+        "date": "2026-03-30",
+        "krwPerGram": 220740,
+        "krwPerDon": 827775,
+        "change": 4320,
+        "changePct": 2
+      },
+      {
+        "date": "2026-03-31",
+        "krwPerGram": 224970,
+        "krwPerDon": 843638,
+        "change": 4230,
+        "changePct": 1.92
+      },
+      {
+        "date": "2026-04-01",
+        "krwPerGram": 228000,
+        "krwPerDon": 855000,
+        "change": 3030,
+        "changePct": 1.35
+      },
+      {
+        "date": "2026-04-02",
+        "krwPerGram": 223250,
+        "krwPerDon": 837188,
+        "change": -4750,
+        "changePct": -2.08
+      },
+      {
+        "date": "2026-04-03",
+        "krwPerGram": 227340,
+        "krwPerDon": 852525,
+        "change": 4090,
+        "changePct": 1.83
+      },
+      {
+        "date": "2026-04-06",
+        "krwPerGram": 225850,
+        "krwPerDon": 846938,
+        "change": -1490,
+        "changePct": -0.66
+      },
+      {
+        "date": "2026-04-07",
+        "krwPerGram": 224360,
+        "krwPerDon": 841350,
+        "change": -1490,
+        "changePct": -0.66
+      },
+      {
+        "date": "2026-04-08",
+        "krwPerGram": 228850,
+        "krwPerDon": 858188,
+        "change": 4490,
+        "changePct": 2
+      },
+      {
+        "date": "2026-04-09",
+        "krwPerGram": 225310,
+        "krwPerDon": 844913,
+        "change": -3540,
+        "changePct": -1.55
+      },
+      {
+        "date": "2026-04-10",
+        "krwPerGram": 226700,
+        "krwPerDon": 850125,
+        "change": 1390,
+        "changePct": 0.62
+      },
+      {
+        "date": "2026-04-13",
+        "krwPerGram": 226170,
+        "krwPerDon": 848138,
+        "change": -530,
+        "changePct": -0.23
+      },
+      {
+        "date": "2026-04-14",
+        "krwPerGram": 226820,
+        "krwPerDon": 850575,
+        "change": 650,
+        "changePct": 0.29
+      },
+      {
+        "date": "2026-04-15",
+        "krwPerGram": 228210,
+        "krwPerDon": 855788,
+        "change": 1390,
+        "changePct": 0.61
+      },
+      {
+        "date": "2026-04-16",
+        "krwPerGram": 228600,
+        "krwPerDon": 857250,
+        "change": 390,
+        "changePct": 0.17
+      },
+      {
+        "date": "2026-04-17",
+        "krwPerGram": 228000,
+        "krwPerDon": 855000,
+        "change": -600,
+        "changePct": -0.26
+      },
+      {
+        "date": "2026-04-20",
+        "krwPerGram": 227220,
+        "krwPerDon": 852075,
+        "change": -780,
+        "changePct": -0.34
+      },
+      {
+        "date": "2026-04-21",
+        "krwPerGram": 225750,
+        "krwPerDon": 846563,
+        "change": -1470,
+        "changePct": -0.65
+      },
+      {
+        "date": "2026-04-22",
+        "krwPerGram": 225780,
+        "krwPerDon": 846675,
+        "change": 30,
+        "changePct": 0.01
+      },
+      {
+        "date": "2026-04-23",
+        "krwPerGram": 223920,
+        "krwPerDon": 839700,
+        "change": -1860,
+        "changePct": -0.82
+      },
+      {
+        "date": "2026-04-24",
+        "krwPerGram": 222770,
+        "krwPerDon": 835388,
+        "change": -1150,
+        "changePct": -0.51
+      },
+      {
+        "date": "2026-04-27",
+        "krwPerGram": 221630,
+        "krwPerDon": 831113,
+        "change": -1140,
+        "changePct": -0.51
+      },
+      {
+        "date": "2026-04-28",
+        "krwPerGram": 218730,
+        "krwPerDon": 820238,
+        "change": -2900,
+        "changePct": -1.31
+      },
+      {
+        "date": "2026-04-29",
+        "krwPerGram": 217060,
+        "krwPerDon": 813975,
+        "change": -1670,
+        "changePct": -0.76
+      },
+      {
+        "date": "2026-04-30",
+        "krwPerGram": 217240,
+        "krwPerDon": 814650,
+        "change": 180,
+        "changePct": 0.08
+      },
+      {
+        "date": "2026-05-04",
+        "krwPerGram": 216530,
+        "krwPerDon": 811988,
+        "change": -710,
+        "changePct": -0.33
+      },
+      {
+        "date": "2026-05-06",
+        "krwPerGram": 217050,
+        "krwPerDon": 813938,
+        "change": 520,
+        "changePct": 0.24
+      },
+      {
+        "date": "2026-05-07",
+        "krwPerGram": 220510,
+        "krwPerDon": 826913,
+        "change": 3460,
+        "changePct": 1.59
+      },
+      {
+        "date": "2026-05-08",
+        "krwPerGram": 223110,
+        "krwPerDon": 836663,
+        "change": 2600,
+        "changePct": 1.18
+      },
+      {
+        "date": "2026-05-11",
+        "krwPerGram": 220100,
+        "krwPerDon": 825375,
+        "change": -3010,
+        "changePct": -1.35
+      },
+      {
+        "date": "2026-05-12",
+        "krwPerGram": 223470,
+        "krwPerDon": 838013,
+        "change": 3370,
+        "changePct": 1.53
+      },
+      {
+        "date": "2026-05-13",
+        "krwPerGram": 224530,
+        "krwPerDon": 841988,
+        "change": 1060,
+        "changePct": 0.47
+      },
+      {
+        "date": "2026-05-14",
+        "krwPerGram": 223600,
+        "krwPerDon": 838500,
+        "change": -930,
+        "changePct": -0.41
+      },
+      {
+        "date": "2026-05-15",
+        "krwPerGram": 220140,
+        "krwPerDon": 825525,
+        "change": -3460,
+        "changePct": -1.55
+      },
+      {
+        "date": "2026-05-18",
+        "krwPerGram": 218360,
+        "krwPerDon": 818850,
+        "change": -1780,
+        "changePct": -0.81
+      },
+      {
+        "date": "2026-05-19",
+        "krwPerGram": 218710,
+        "krwPerDon": 820163,
+        "change": 350,
+        "changePct": 0.16
+      },
+      {
+        "date": "2026-05-20",
+        "krwPerGram": 215900,
+        "krwPerDon": 809625,
+        "change": -2810,
+        "changePct": -1.28
+      },
+      {
+        "date": "2026-05-21",
+        "krwPerGram": 217860,
+        "krwPerDon": 816975,
+        "change": 1960,
+        "changePct": 0.91
+      },
+      {
+        "date": "2026-05-22",
+        "krwPerGram": 219080,
+        "krwPerDon": 821550,
+        "change": 1220,
+        "changePct": 0.56
+      },
+      {
+        "date": "2026-05-26",
+        "krwPerGram": 218020,
+        "krwPerDon": 817575,
+        "change": -1060,
+        "changePct": -0.48
+      },
+      {
+        "date": "2026-05-27",
+        "krwPerGram": 214880,
+        "krwPerDon": 805800,
+        "change": -3140,
+        "changePct": -1.44
+      },
+      {
+        "date": "2026-05-28",
+        "krwPerGram": 210020,
+        "krwPerDon": 787575,
+        "change": -4860,
+        "changePct": -2.26
+      },
+      {
+        "date": "2026-05-29",
+        "krwPerGram": 216500,
+        "krwPerDon": 811875,
+        "change": 6480,
+        "changePct": 3.09
+      },
+      {
+        "date": "2026-06-01",
+        "krwPerGram": 215720,
+        "krwPerDon": 808950,
+        "change": -780,
+        "changePct": -0.36
+      },
+      {
+        "date": "2026-06-02",
+        "krwPerGram": 218270,
+        "krwPerDon": 818513,
+        "change": 2550,
+        "changePct": 1.18
+      },
+      {
+        "date": "2026-06-04",
+        "krwPerGram": 218240,
+        "krwPerDon": 818400,
+        "change": -30,
+        "changePct": -0.01
+      },
+      {
+        "date": "2026-06-05",
+        "krwPerGram": 218550,
+        "krwPerDon": 819563,
+        "change": 310,
+        "changePct": 0.14
+      },
+      {
+        "date": "2026-06-08",
+        "krwPerGram": 211920,
+        "krwPerDon": 794700,
+        "change": -6630,
+        "changePct": -3.03
+      },
+      {
+        "date": "2026-06-09",
+        "krwPerGram": 210000,
+        "krwPerDon": 787500,
+        "change": -1920,
+        "changePct": -0.91
+      },
+      {
+        "date": "2026-06-10",
+        "krwPerGram": 205400,
+        "krwPerDon": 770250,
+        "change": -4600,
+        "changePct": -2.19
+      },
+      {
+        "date": "2026-06-11",
+        "krwPerGram": 200030,
+        "krwPerDon": 750113,
+        "change": -5370,
+        "changePct": -2.61
+      },
+      {
+        "date": "2026-06-12",
+        "krwPerGram": 204000,
+        "krwPerDon": 765000,
+        "change": 3970,
+        "changePct": 1.98
+      },
+      {
+        "date": "2026-06-15",
+        "krwPerGram": 208820,
+        "krwPerDon": 783075,
+        "change": 4820,
+        "changePct": 2.36
+      },
+      {
+        "date": "2026-06-16",
+        "krwPerGram": 209640,
+        "krwPerDon": 786150,
+        "change": 820,
+        "changePct": 0.39
+      },
+      {
+        "date": "2026-06-17",
+        "krwPerGram": 209700,
+        "krwPerDon": 786375,
+        "change": 60,
+        "changePct": 0.03
+      },
+      {
+        "date": "2026-06-18",
+        "krwPerGram": 209890,
+        "krwPerDon": 787088,
+        "change": 190,
+        "changePct": 0.09
+      },
+      {
+        "date": "2026-06-19",
+        "krwPerGram": 202520,
+        "krwPerDon": 759450,
+        "change": -7370,
+        "changePct": -3.51
+      },
+      {
+        "date": "2026-06-22",
+        "krwPerGram": 206050,
+        "krwPerDon": 772688,
+        "change": 3530,
+        "changePct": 1.74
+      },
+      {
+        "date": "2026-06-23",
+        "krwPerGram": 202730,
+        "krwPerDon": 760238,
+        "change": -3320,
+        "changePct": -1.61
+      },
+      {
+        "date": "2026-06-24",
+        "krwPerGram": 201600,
+        "krwPerDon": 756000,
+        "change": -1130,
+        "changePct": -0.56
+      },
+      {
+        "date": "2026-06-25",
+        "krwPerGram": 196110,
+        "krwPerDon": 735413,
+        "change": -5490,
+        "changePct": -2.72
+      },
+      {
+        "date": "2026-06-26",
+        "krwPerGram": 196890,
+        "krwPerDon": 738338,
+        "change": 780,
+        "changePct": 0.4
+      },
+      {
+        "date": "2026-06-29",
+        "krwPerGram": 199730,
+        "krwPerDon": 748988,
+        "change": 2840,
+        "changePct": 1.44
+      },
+      {
+        "date": "2026-06-30",
+        "krwPerGram": 198450,
+        "krwPerDon": 744188,
+        "change": -1280,
+        "changePct": -0.64
+      },
+      {
+        "date": "2026-07-01",
+        "krwPerGram": 197190,
+        "krwPerDon": 739463,
+        "change": -1260,
+        "changePct": -0.63
+      },
+      {
+        "date": "2026-07-02",
+        "krwPerGram": 202550,
+        "krwPerDon": 759563,
+        "change": 5360,
+        "changePct": 2.72
+      },
+      {
+        "date": "2026-07-03",
+        "krwPerGram": 204340,
+        "krwPerDon": 766275,
+        "change": 1790,
+        "changePct": 0.88
+      },
+      {
+        "date": "2026-07-06",
+        "krwPerGram": 203780,
+        "krwPerDon": 764175,
+        "change": -560,
+        "changePct": -0.27
+      },
+      {
+        "date": "2026-07-07",
+        "krwPerGram": 202010,
+        "krwPerDon": 757538,
+        "change": -1770,
+        "changePct": -0.87
+      },
+      {
+        "date": "2026-07-08",
+        "krwPerGram": 198910,
+        "krwPerDon": 745913,
+        "change": -3100,
+        "changePct": -1.53
+      },
+      {
+        "date": "2026-07-09",
+        "krwPerGram": 197810,
+        "krwPerDon": 741788,
+        "change": -1100,
+        "changePct": -0.55
+      },
+      {
+        "date": "2026-07-10",
+        "krwPerGram": 198270,
+        "krwPerDon": 743513,
+        "change": 460,
+        "changePct": 0.23
+      },
+      {
+        "date": "2026-07-13",
+        "krwPerGram": 195510,
+        "krwPerDon": 733163,
+        "change": -2760,
+        "changePct": -1.39
+      },
+      {
+        "date": "2026-07-14",
+        "krwPerGram": 192980,
+        "krwPerDon": 723675,
+        "change": -2530,
+        "changePct": -1.29
+      },
+      {
+        "date": "2026-07-15",
+        "krwPerGram": 192000,
+        "krwPerDon": 720000,
+        "change": -980,
+        "changePct": -0.51
+      },
+      {
+        "date": "2026-07-16",
+        "krwPerGram": 191420,
+        "krwPerDon": 717825,
+        "change": -580,
+        "changePct": -0.3
+      },
+      {
+        "date": "2026-07-20",
+        "krwPerGram": 190000,
+        "krwPerDon": 712500,
+        "change": -1420,
+        "changePct": -0.74
+      },
+      {
+        "date": "2026-07-21",
+        "krwPerGram": 192460,
+        "krwPerDon": 721725,
+        "change": 2460,
+        "changePct": 1.29
+      },
+      {
+        "date": "2026-07-22",
+        "krwPerGram": 195830,
+        "krwPerDon": 734363,
+        "change": 3370,
+        "changePct": 1.75
+      },
+      {
+        "date": "2026-07-23",
+        "krwPerGram": 193990,
+        "krwPerDon": 727463,
+        "change": -1840,
+        "changePct": -0.94
+      },
+      {
+        "date": "2026-07-24",
+        "krwPerGram": 189810,
+        "krwPerDon": 711788,
+        "change": -4180,
+        "changePct": -2.15
+      },
+      {
+        "date": "2026-07-27",
+        "krwPerGram": 192600,
+        "krwPerDon": 722250,
+        "change": 2790,
+        "changePct": 1.47
+      },
+      {
+        "date": "2026-07-28",
+        "krwPerGram": 189500,
+        "krwPerDon": 710625,
+        "change": -3100,
+        "changePct": -1.61
+      },
+      {
+        "date": "2026-07-29",
+        "krwPerGram": 187180,
+        "krwPerDon": 701925,
+        "change": -2320,
+        "changePct": -1.22
+      },
+      {
+        "date": "2026-07-30",
+        "krwPerGram": 185990,
+        "krwPerDon": 697463,
+        "change": -1190,
+        "changePct": -0.64
+      },
+      {
+        "date": "2026-07-31",
+        "krwPerGram": 187460,
+        "krwPerDon": 702975,
+        "change": 1470,
+        "changePct": 0.79
+      },
+      {
+        "date": "2026-08-03",
+        "krwPerGram": 186430,
+        "krwPerDon": 699113,
+        "change": -1030,
+        "changePct": -0.55
+      },
+      {
+        "date": "2026-08-04",
+        "krwPerGram": 186720,
+        "krwPerDon": 700200,
+        "change": 290,
+        "changePct": 0.16
+      },
+      {
+        "date": "2026-08-05",
+        "krwPerGram": 190800,
+        "krwPerDon": 715500,
+        "change": 4080,
+        "changePct": 2.19
+      },
+      {
+        "date": "2026-08-06",
+        "krwPerGram": 194360,
+        "krwPerDon": 728850,
+        "change": 3560,
+        "changePct": 1.87
+      },
+      {
+        "date": "2026-08-07",
+        "krwPerGram": 195540,
+        "krwPerDon": 733275,
+        "change": 1180,
+        "changePct": 0.61
+      },
+      {
+        "date": "2026-08-10",
+        "krwPerGram": 198280,
+        "krwPerDon": 743550,
+        "change": 2740,
+        "changePct": 1.4
+      },
+      {
+        "date": "2026-08-11",
+        "krwPerGram": 199730,
+        "krwPerDon": 748988,
+        "change": 1450,
+        "changePct": 0.73
+      },
+      {
+        "date": "2026-08-12",
+        "krwPerGram": 200470,
+        "krwPerDon": 751763,
+        "change": 740,
+        "changePct": 0.37
+      },
+      {
+        "date": "2026-08-13",
+        "krwPerGram": 200570,
+        "krwPerDon": 752138,
+        "change": 100,
+        "changePct": 0.05
+      }
+    ]
+  },
+  "fx": {
+    "usdkrw": 1412,
+    "change": -6.13,
+    "changePct": -0.43,
+    "dir": "down",
+    "source": "Yahoo Finance"
+  },
+  "intl": {
+    "gold": {
+      "name": "금",
+      "usdPerOz": 4437.3,
+      "changePct": 0.38,
+      "dir": "up",
+      "krwPerGram": 201439,
+      "krwPerDon": 755398,
+      "source": "Yahoo Finance (COMEX 선물)"
+    },
+    "silver": {
+      "name": "은",
+      "usdPerOz": 65.11,
+      "changePct": 0.18,
+      "dir": "up",
+      "krwPerGram": 2956,
+      "krwPerDon": 11084,
+      "source": "Yahoo Finance (COMEX 선물)"
+    }
+  }
+}
