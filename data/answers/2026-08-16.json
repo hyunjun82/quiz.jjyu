@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T07:58:27.630+09:00",
+  "updatedAt": "2026-08-16T08:19:08.996+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -49,6 +49,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-08-16T00:54:56.121+09:00"
+      },
+      {
+        "question": "AI 이모지 오전퀴즈hd7561",
+        "answer": "타율",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T08:19:08.996+09:00"
       }
     ],
     "ok-cashbag": [],
