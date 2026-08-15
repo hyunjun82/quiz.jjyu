@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T17:02:57.635+09:00",
+  "updatedAt": "2026-08-15T18:47:21.067+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -442,6 +442,14 @@
         "publishedAt": "2026-08-15T00:03:06.711+09:00"
       }
     ],
-    "fallcent": []
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 애플",
+        "answer": "심박수",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-15T18:47:21.067+09:00"
+      }
+    ]
   }
 }
