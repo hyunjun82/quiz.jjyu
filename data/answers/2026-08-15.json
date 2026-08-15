@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T10:04:13.892+09:00",
+  "updatedAt": "2026-08-15T10:05:51.138+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -101,6 +101,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-15T10:03:35.886+09:00"
+      },
+      {
+        "question": "배달의민족 배짱할인에서는 처갓집양념치킨, OO치킨 등 10개 이상의 브랜드 할인 쿠폰을 드려요",
+        "answer": "네네 / 처갓집 / 배짱",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-15T10:05:51.138+09:00"
       }
     ],
     "shinhan-sol": [
