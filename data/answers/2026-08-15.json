@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updatedAt": "2026-08-15T10:05:51.138+09:00",
+  "updatedAt": "2026-08-15T10:55:38.146+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -291,7 +291,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "국가 비상금인 외환보유고, 과연 어떤 역할을 할까요?",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-15T10:55:38.145+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
