@@ -178,6 +178,8 @@ export default function AnswerPage({ params }) {
           answer={item.answer}
           choices={item.choices}
           label={quiz.eventType ? '오늘의 참여 링크' : '오늘의 정답'}
+          /* 공유 문구 — 제목만. 정답은 넣지 않는다(받은 사람이 링크를 눌러야 하니까). */
+          shareText={`${quiz.searchKeyword} ${dateLabel}`}
         />
       </article>
 

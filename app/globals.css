@@ -975,3 +975,16 @@ main, header, footer { position: relative; z-index: 1; }
   font-size: 11px; font-weight: 700; line-height: 1.25; text-align: center;
   overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
 }
+
+/* ── 정답 공유 버튼 ──────────────────────────
+   정답 복사(앱 붙여넣기용)와 시각적으로 분리한다. 정답 박스 바로 아래,
+   '다음 문제' 버튼보다는 위. 눌러도 페이지 이동이 아니라 공유창이 뜬다. */
+.af-share {
+  display: block; width: 100%; margin: 10px 0 0;
+  padding: 12px 14px; border: 1px solid var(--border); border-radius: 12px;
+  background: var(--surface); color: var(--text-2);
+  font-size: 14px; font-weight: 700; cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.af-share:hover { background: var(--surface-2); color: var(--text); border-color: var(--text-3); }
+.af-share:active { transform: translateY(1px); }
