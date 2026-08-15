@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T03:24:03.048+09:00",
+  "updatedAt": "2026-08-16T07:55:24.462+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -84,7 +84,15 @@
         "publishedAt": "2026-08-16T00:54:56.122+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 특정국가나 기업에 대한 경제적 의존도를 줄이기 위해 원자재와 부품의 공급처를 여러 곳으로 분산하는 전략이에요.",
+        "answer": "공급망다변화",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T07:55:24.462+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
