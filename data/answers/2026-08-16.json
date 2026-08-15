@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T00:03:23.512+09:00",
+  "updatedAt": "2026-08-16T00:03:41.967+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-08-16T00:00:05.113+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "17만 포인트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:03:41.967+09:00"
+      },
+      {
+        "question": "야구 역사 퀴즈입니다. 1986년 오늘은 비운의 선수로 알려진 김영신 선수가 한국 프로야구 최초의 영구결번 선수로 등록된 날입니다. 김영신 선수는 어느 팀 소속이었을까요?",
+        "answer": "OB 베어스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:03:41.967+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
