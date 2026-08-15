@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T00:03:58.273+09:00",
+  "updatedAt": "2026-08-16T00:07:10.915+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -100,7 +100,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-16T00:07:10.915+09:00"
+      }
+    ],
     "yes24": [],
     "fallcent": []
   }
