@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T00:32:14+09:00",
+  "updatedAt": "2026-08-16T00:54:56.122+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -35,6 +35,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-16T00:14:02.429+09:00"
+      },
+      {
+        "question": "8월 16일 카카오뱅크 AI 이모지 퀴즈 사물 관련 정답은 무엇인가요?",
+        "answer": "광복절",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-16T00:54:56.121+09:00"
       }
     ],
     "ok-cashbag": [],
@@ -61,6 +68,13 @@
         ],
         "note": "AI 보완 수집 (leaderyou.co.kr)",
         "publishedAt": "2026-08-16T00:32:14+09:00"
+      },
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "모델 스테파니 미쵸바",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:54:56.122+09:00"
       }
     ],
     "bitbunny": [],
@@ -73,6 +87,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-16T00:15:09.921+09:00"
+      },
+      {
+        "question": "빈칸에 들어갈 인물을 쓰시오.",
+        "answer": "조광조",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-16T00:54:56.121+09:00"
       }
     ],
     "kbank": [
@@ -82,9 +103,31 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-16T00:00:38.293+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "히트플레이션",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:54:56.122+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 앱 쿠폰함은 검색의 번거로움 없이 전체 메뉴 상단에서 바로 확인할 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-16T00:54:56.121+09:00"
+      },
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "안산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:54:56.122+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "여름을 시원하게 보내는 데 도움이 되는 슈퍼 푸드가 아닌 것은?",
@@ -102,6 +145,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-16T00:00:38.293+09:00"
+      },
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T00:54:56.122+09:00"
       }
     ],
     "skstoa": [],
@@ -118,7 +168,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "FTA는 국가 간에 관세를 낮추거나 철폐하여 교역을 원활하게 만드는 무역협정인가요?",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-16T00:54:56.121+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
