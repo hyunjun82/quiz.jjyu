@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:01:36.100+09:00",
+  "updatedAt": "2026-08-17T00:02:42.064+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-08-17T00:01:17.974+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "100원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T00:02:42.064+09:00"
+      },
+      {
+        "question": "MLB 상식 퀴즈입니다. 메이저리그 뉴욕양키스의 가장 대표적인 라이벌 팀으로 아메리칸리그 동부지구에 소속된 이 팀은 어느 팀일까요?",
+        "answer": "보스턴 레드삭스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T00:02:42.064+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
