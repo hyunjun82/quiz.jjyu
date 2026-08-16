@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:06:00.214+09:00",
+  "updatedAt": "2026-08-17T00:06:49.554+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -131,7 +131,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:06:49.554+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
