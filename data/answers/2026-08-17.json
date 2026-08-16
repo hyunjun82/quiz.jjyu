@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:02:42.064+09:00",
+  "updatedAt": "2026-08-17T00:02:56.246+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -42,7 +42,15 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "패권경쟁",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:02:56.246+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -90,10 +98,26 @@
     ],
     "buzzvil": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "3, 2, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:02:56.246+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "김애란",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:02:56.246+09:00"
+      }
+    ],
     "fallcent": []
   }
 }
