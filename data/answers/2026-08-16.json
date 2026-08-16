@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T09:50:43.038+09:00",
+  "updatedAt": "2026-08-16T10:02:43.140+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -74,7 +74,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "4천명",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T10:02:43.140+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
