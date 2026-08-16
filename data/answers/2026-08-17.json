@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:03:16.594+09:00",
+  "updatedAt": "2026-08-17T00:03:34.535+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -41,7 +41,15 @@
         "publishedAt": "2026-08-17T00:01:17.974+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "브랜드 바로배송",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:03:34.535+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "비트버니 오늘의 퀴즈",
