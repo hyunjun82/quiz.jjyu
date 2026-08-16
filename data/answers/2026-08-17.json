@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:14:57.665+09:00",
+  "updatedAt": "2026-08-17T00:16:02.969+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -75,10 +75,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOO이란, 미국과 중국의 갈등처럼 강대국들이 경제·기술·군사 등의 주도권을 두고 경쟁하는 구조에요.",
         "answer": "패권경쟁",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-17T00:02:56.246+09:00"
       },
       {
@@ -123,6 +123,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-17T00:12:45.704+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T00:16:02.969+09:00"
       }
     ],
     "monimo": [
