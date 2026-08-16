@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T15:01:28.629+09:00",
+  "updatedAt": "2026-08-16T15:06:41.446+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -32,6 +32,76 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-16T00:00:05.113+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "CJ더마켓 메가 더세페 상반기 최대 세일",
+        "answer": "30, 6588, 초특가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "소이비랩 천연감미료 알룰로스 저당두유",
+        "answer": "콩의영양분",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "우리은행 WON뱅킹 여름 간식",
+        "answer": "3, 룰렛, 쿨팁, 아이스, 선풍기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "리얼마이즈 저당 파스타소스",
+        "answer": "완숙",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
+      },
+      {
+        "question": "배달의민족 배민 배짱할인 처갓집 선착순 쿠폰",
+        "answer": "네네, 배짱, 처갓집",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T15:06:41.446+09:00"
       }
     ],
     "shinhan-sol": [
