@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:07:22.205+09:00",
+  "updatedAt": "2026-08-17T00:12:45.704+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -93,7 +93,15 @@
         "publishedAt": "2026-08-17T00:01:17.974+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "금요일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T00:12:45.704+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "여름을 시원하게 보내는 데 도움이 되는 슈퍼 푸드가 아닌 것은?",
