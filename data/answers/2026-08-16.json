@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T15:07:23.246+09:00",
+  "updatedAt": "2026-08-16T17:46:35.465+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -153,10 +153,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "'무더위 싹 날려줄 시원템, 랜덤으로 쏘는 여름 선물' 이벤트에서…(후략)",
         "answer": "4천명",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-16T10:02:43.140+09:00"
       }
     ],
