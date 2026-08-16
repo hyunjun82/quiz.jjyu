@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:25:31.439+09:00",
+  "updatedAt": "2026-08-17T00:54:59.202+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -105,6 +105,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-17T00:07:03.300+09:00"
+      },
+      {
+        "question": "다음 보기의 사실들을 일어난 순서대로 옳게 나열한 것은?",
+        "answer": "② (나)-(가)-",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-17T00:54:59.200+09:00"
       }
     ],
     "kbank": [
@@ -125,10 +132,10 @@
         "publishedAt": "2026-08-17T00:12:45.704+09:00"
       },
       {
-        "question": "슬기로운 금융생활 OX퀴즈",
+        "question": "기존에는 조회일-2일전 해지건부터 가능했지만, 7/23부터 당일 해지건부터 조회 가능하도록 기능이 개선되었어요!",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "tomax",
         "publishedAt": "2026-08-17T00:16:02.969+09:00"
       }
     ],
@@ -144,7 +151,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터",
+        "question": "손목터널증후군은 손목 힘줄에 염증이 생겨 아픈 병이다",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -157,10 +164,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈",
+        "question": "안암은 냉동 치료가 가능하다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-17T00:01:17.974+09:00"
       }
     ],
