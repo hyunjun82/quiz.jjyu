@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T03:23:48.782+09:00",
+  "updatedAt": "2026-08-17T08:48:29.413+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -204,7 +204,15 @@
         "publishedAt": "2026-08-17T00:02:56.246+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T08:48:29.413+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 오늘의퀴즈",
