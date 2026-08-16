@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T11:02:57.491+09:00",
+  "updatedAt": "2026-08-16T12:03:17.069+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-16T09:50:43.038+09:00"
+      },
+      {
+        "question": "[토스]정답달려봐_하니",
+        "answer": "소스마스터챌린지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-16T12:03:17.068+09:00"
       }
     ],
     "cashwalk": [
