@@ -1,8 +1,23 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:13:35.403+09:00",
+  "updatedAt": "2026-08-17T00:14:43.613+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "제니퍼룸 전자동 커피머신",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:14:43.613+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "매직캔 휴지통",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:14:43.613+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "저당 고단백 프로틴 시리얼 45% 할인 설탕 대신 알룰로스시럽과 OOOO꿀분말로 달콤함을 살렸어요.(힌트:ㅇㅋㅅㅇ)",
@@ -28,7 +43,15 @@
         "publishedAt": "2026-08-17T00:02:42.064+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "OX 퀴즈 8/17",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T00:14:43.613+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
