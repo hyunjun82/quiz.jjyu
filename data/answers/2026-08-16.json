@@ -1,8 +1,23 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T08:19:39.956+09:00",
+  "updatedAt": "2026-08-16T09:50:43.038+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "더킹라이트 엘사 크리스탈",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-16T09:50:43.038+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "병아리 무드등",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-16T09:50:43.038+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "배달의민족 배짱할인에서는 처갓집양념치킨, OO치킨 등 10개 이상의 브랜드 할인 쿠폰을 드려요",

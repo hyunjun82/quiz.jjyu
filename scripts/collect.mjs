@@ -818,14 +818,120 @@ async function collectFromTomax() {
 const TIP_LIST = (page) => `https://www.tipistip.com/bbs/board.php?bo_table=quiz&page=${page}`;
 const TIP_ART = (id) => `https://www.tipistip.com/bbs/board.php?bo_table=quiz&wr_id=${id}`;
 
-// 제목 → slug. 이미 다른 소스가 잘 잡고 있는 퀴즈는 넣지 않는다(중복 조회 낭비).
+/**
+ * 제목 → slug 매핑.
+ *
+ * ⚠️ 8/15·8/16 연속 사고에서 배운 것 — 이 목록은 '보너스'가 아니라 '안전망'이다.
+ *
+ * 예전 주석은 "다른 소스가 잘 잡는 퀴즈는 넣지 않는다(중복 조회 낭비)"였다.
+ * 그 전제가 틀렸다. 8/15 팁is팁에 옥션(정답 "베스트")과 토스 두근두근이 버젓이
+ * 올라와 있었는데 우리는 0건이었고, 8/16에도 토스를 또 놓쳤다. 퀴즈벨은 그날
+ * 제목만 올리고 정답 칸을 안 채운 상태였다(parseTeampljeon 이 정상적으로 빈 배열
+ * 반환). 즉 "다른 소스가 잘 잡는다"는 보장이 애초에 없다.
+ *
+ * 조회 몇 번 아끼는 것보다 정답 하나 놓치는 손해가 훨씬 크다. 그래서 퀴즈벨이
+ * 늦거나 빠뜨리는 퀴즈까지 전부 등록해 이중화한다.
+ *
+ * ⚠️ 매칭은 위에서부터 첫 일치가 이긴다. 애매한 패턴을 넣으면 엉뚱한 퀴즈에
+ * 남의 정답이 붙는다 — 그건 못 가져오는 것보다 훨씬 나쁘다. 반드시 지킬 것:
+ *   - 카테고리 라벨(`오퀴즈]`)까지 포함해 앵커를 건다.
+ *   - 같은 앱이 여러 퀴즈를 내면(하나원큐 축구/트래블, 카카오뱅크 이모지/OX,
+ *     모니모 모니스쿨/영어, KB 한국사/스타퀴즈) 구분 단어를 넣거나 아예 뺀다.
+ *   - `토스 행운퀴즈]`(랜덤 출제형)와 `토스 이벤트] 두근두근`은 완전히 다른 퀴즈다.
+ */
+/**
+ * `backup: true` 는 "그 퀴즈에 오늘 정답이 하나도 없을 때만 쓴다"는 뜻이다.
+ *
+ * ⚠️ 이 구분이 없으면 틀린 정답을 발행한다. 8/16 실측으로 확인한 사고 시나리오:
+ *   닥터나우는 하루 2회(00:00, 02:20) 출제한다. 우리는 퀴즈벨에서 지문과 함께
+ *   "미녹시딜을 바르면… → O"를 이미 받아뒀는데, 팁is팁 오늘 글의 정답은 "X"였다.
+ *   팁is팁은 본문에 지문이 없어서 그 X가 '어느 문제의 답인지' 확정할 수 없다.
+ *   그대로 넣었으면 같은 퀴즈 페이지에 O와 X가 나란히 붙었을 것이다.
+ *   케이뱅크("히트플레이션" vs "1번 히트플레이션"), 기후행동("X (아니다)" vs "아니다")도
+ *   같은 답인데 표기만 달라, 지문 없이 넣으면 중복 판정을 빠져나가 두 줄이 된다.
+ *
+ * 못 가져오는 손해보다 틀린 답을 내보내는 손해가 훨씬 크다. 그래서 지문 있는 소스가
+ * 이미 답을 확보한 퀴즈에는 팁is팁을 쓰지 않는다 — 빈 곳만 메운다.
+ *
+ * backup 이 아닌 것(=항상 사용):
+ *   - 팁is팁 전용 퀴즈: 다른 소스가 아예 안 다뤄서 여기 아니면 못 가져온다.
+ *   - 토스 두근두근: 퀴즈벨 경로도 지문이 '(오전)/(오후)' 고정이라 형태가 같다.
+ *     지문이 일치하므로 중복 판정이 정상 작동한다.
+ */
 const TIP_TITLE_MAP = [
+  // ── 항상 사용 ──
+  { slug: 'toss-lucky', re: /^토스 이벤트\][\s\S]*두근두근/ },
   { slug: 'adapter', re: /어댑터/ },
   { slug: 'moneywalk', re: /머니워크/ },
   { slug: 'yoit', re: /요잇/ },
   { slug: 'yes24', re: /예스24/ },
   { slug: 'fallcent', re: /폴센트/ },
+  // ── 빈 곳 메우기 전용(backup) ──
+  // 앱 하나가 퀴즈를 여러 개 내는 경우가 많아서, 어느 퀴즈인지 확정되는
+  // 구분 단어(AI 이모지 / 한국사 / 슬기로운 / 오늘의영어)까지 넣어 앵커를 건다.
+  { slug: 'ok-cashbag', re: /^오퀴즈\]/, backup: true },
+  { slug: 'paybooc', re: /^페이북 퀴즈\]/, backup: true },
+  { slug: 'kakaopay', re: /^카카오페이\]/, backup: true },
+  { slug: 'auction', re: /^옥션 퀴즈\]/, backup: true },
+  { slug: 'nh-allone', re: /올원뱅크 디깅퀴즈/, backup: true },
+  { slug: 'kakaobank', re: /카카오뱅크 AI 이모지/, backup: true },
+  { slug: 'kb-star', re: /^KB 스타뱅킹\][\s\S]*한국사/, backup: true },
+  { slug: 'hana-onq', re: /하나원큐 슬기로운 금융생활/, backup: true },
+  { slug: 'monimo', re: /모니모 오늘의영어/, backup: true },
+  { slug: 'shinhan-sol', re: /^신한페이판\][\s\S]*팡팡퀴즈/, backup: true },
+  { slug: 'kbank', re: /^케이뱅크\]/, backup: true },
+  { slug: 'climate-action', re: /기후행동/, backup: true },
+  { slug: 'hpoint', re: /^Hpoint/, backup: true },
+  { slug: 'bitbunny-ox', re: /비트버니\s*-\s*OX/, backup: true },
+  { slug: 'bitbunny', re: /비트버니\s*-\s*오늘의/, backup: true },
+  { slug: 'doctornow', re: /닥터나우/, backup: true },
+  { slug: 'mydoctor', re: /^나만의 닥터\]/, backup: true },
 ];
+
+/**
+ * 매핑하지 않기로 '판단을 끝낸' 제목들.
+ *
+ * 미매칭 보고를 쓸모 있게 만들려면 아는 것과 모르는 것을 갈라야 한다. 매일 나오는
+ * 같은 제목 14줄이 계속 뜨면 사람이 안 본다. 여기 걸리는 건 조용히 넘기고,
+ * 여기에도 TIP_TITLE_MAP 에도 없는 '처음 보는 제목'만 보고한다.
+ *
+ * 목록에 넣은 이유를 반드시 같이 적는다. 나중에 판단을 뒤집을 근거가 된다.
+ */
+const TIP_REVIEWED = [
+  // 우리 kb-star 는 '한국사 매일 퀴즈'다. 스타퀴즈는 별개 퀴즈라 정답이 다르다.
+  /^KB 스타뱅킹\][\s\S]*스타퀴즈/,
+  // 우리 shinhan-sol 은 쏠퀴즈·퀴즈팡팡·출석퀴즈다. 야구퀴즈는 별개 출제다.
+  /^신한 쏠야구퀴즈\]/,
+  /^신한페이판 출석퀴즈\]/,
+  // 우리 kakaobank 는 AI 이모지 퀴즈다. OX퀴즈(혜택)는 별개 출제다.
+  /카카오뱅크 OX퀴즈/,
+  // 우리 hana-onq 는 슬기로운 금융생활 OX다. 트래블미션·축구Play 는 별개다.
+  /하나원큐 트래블미션/,
+  /하나원큐 \(오른쪽 하단/,
+  // 우리 monimo 는 오늘의영어다. 모니스쿨 N교시는 별개 출제다.
+  /모니모 모니스쿨/,
+  // 랜덤 출제형(글자수·초성 힌트로 답이 매번 달라짐). 우리 cashwalk/cashdoc 가
+  // 전용 경로로 따로 처리하므로 제목 매칭으로 가져오면 오히려 잘못된 답이 붙는다.
+  /문제는 랜덤입니다/,
+  // 우리가 다루지 않는 앱들. 다룰지 말지는 별도 판단 사항이라 여기서 침묵시킨다.
+  /^메모리워드/,
+  /^지니어트/,
+  // 이미 종료된 이벤트 — 오늘자로 올라와도 발행하면 안 된다.
+  /^\(종료\)/,
+];
+
+/**
+ * 오늘자인데 위 매핑 어디에도 안 걸린 제목들. `제목 → wr_id`.
+ *
+ * 화이트리스트의 근본 약점은 "모르는 건 영원히 모른다"이다. 8/15에 옥션·토스를
+ * 놓친 것도, 목록에 없으니 화면에 보여도 그냥 지나쳤기 때문이다. 이 그물이 그걸 깬다.
+ *
+ * 두 가지를 동시에 잡는다.
+ *   ① 매핑 누락 — 우리가 다루는 퀴즈인데 제목 형식이 바뀌어 안 걸리는 경우
+ *   ② 신규 퀴즈 발굴 — 아직 우리 30종에 없는 퀴즈(예: 네이버페이 랜덤 포인트 퀴즈)
+ * healthcheck 가 이걸 출력하므로 사람은 보고 판단만 하면 된다.
+ */
+export const TIP_UNMAPPED = new Map();
 
 const tipArticleCache = new Map(); // `${today}:${slug}` → Set(wr_id)
 const tipParsed = new Map(); // wr_id → items
@@ -869,7 +975,18 @@ async function tipDiscover(today) {
       const title = clean(block);
       if (tipTitleDate(title) !== today) continue; // 오늘자만 — 어제 정답 오발행 차단
       const map = TIP_TITLE_MAP.find((m) => m.re.test(title));
-      if (!map) continue;
+      if (!map) {
+        // 안 걸린 오늘자 글은 버리지 말고 남긴다 — healthcheck 가 이걸 보고한다.
+        // 단 '판단을 끝낸' 제목은 조용히 넘긴다. 그래야 보고가 신호로 남는다.
+        if (!TIP_REVIEWED.some((re) => re.test(title))) {
+          const bare = title
+            .replace(/\s*N?\s*새글\s*$/, '')
+            .replace(/\s*\[\d{4}년[^\]]*\]\s*$/, '')
+            .trim();
+          TIP_UNMAPPED.set(bare, id);
+        }
+        continue;
+      }
       const key = `${today}:${map.slug}`;
       if (!tipArticleCache.has(key)) tipArticleCache.set(key, new Set());
       tipArticleCache.get(key).add(id);
@@ -883,19 +1000,52 @@ function parseTipArticle(html, slug, title) {
   const seg = html.slice(start, start + 4000).split('<!-- } 본문 내용 끝')[0];
   const text = clean(seg.replace(/<br\s*\/?>/g, '\n')).replace(/^bo_v_con">/, '');
   // 본문 문형: `정답 : O` / `정답: 1, X, 4` / `정답 : 주식투자 불패의 법칙`
-  const a = text.match(/정답\s*[:：]\s*([^\n<]{1,40})/)?.[1]?.trim();
-  if (!a || !isSaneAnswer(a)) return [];
+  //
+  // ⚠️ 예전엔 {1,40}으로 잘랐다. 그래서 토스처럼 한 줄에 두 답이 들어오는 형식
+  //   `정답 : 오전 - 더킹라이트 엘사 크리스탈, 오후 - 병아리 무드등` (8/16 실측)
+  // 이 40자에서 잘려 나가 통째로 버려졌다. 넉넉히 받아서 아래에서 쪼갠다.
+  const raw = text.match(/정답\s*[:：]\s*([^\n<]{1,120})/)?.[1]?.trim();
+  if (!raw) return [];
+
   const q = tipQuestion(title);
   if (!isSaneQuestion(q)) return [];
-  return [{ slug, ...buildItem(q, [a]) }];
+
+  // 오전/오후가 한 줄에 같이 오는 형식은 두 건으로 분리한다.
+  // 지문 문구를 퀴즈벨 경로(parseTeampljeon)와 똑같이 맞춰야 중복 판정이 걸려
+  // 같은 정답이 두 줄로 발행되지 않는다.
+  if (/오전\s*[-–—:]/.test(raw) && /오후\s*[-–—:]/.test(raw)) {
+    const am = raw.match(/오전\s*[-–—:]\s*(.+?)(?=\s*[,·]?\s*오후\s*[-–—:]|$)/)?.[1]?.replace(/[,·]\s*$/, '').trim();
+    const pm = raw.match(/오후\s*[-–—:]\s*(.+)$/)?.[1]?.trim();
+    const out = [];
+    const base = slug === 'toss-lucky' ? '토스 두근두근 1등 찍기 팀플전' : q;
+    if (am && isSaneAnswer(am)) out.push({ slug, ...buildItem(`${base} (오전)`, [am]) });
+    if (pm && isSaneAnswer(pm)) out.push({ slug, ...buildItem(`${base} (오후)`, [pm]) });
+    return out;
+  }
+
+  if (!isSaneAnswer(raw)) return [];
+  return [{ slug, ...buildItem(q, [raw]) }];
 }
 
-async function collectFromTipistip() {
+/**
+ * @param existing 오늘자 기존 데이터(loadExisting 결과). 주면 backup 항목을
+ *                 '아직 정답이 하나도 없는 퀴즈'에만 적용한다. 안 주면 전부 조회한다
+ *                 (단위 테스트·감시용 호출 경로).
+ */
+async function collectFromTipistip(existing = null) {
   const today = kstToday();
   await tipDiscover(today).catch(() => {});
 
+  const have = new Set(
+    Object.entries(existing?.answers ?? {})
+      .filter(([, v]) => Array.isArray(v) && v.length > 0)
+      .map(([slug]) => slug),
+  );
+
   const jobs = [];
   for (const map of TIP_TITLE_MAP) {
+    // 지문 없는 소스로 '이미 답이 있는 퀴즈'를 덮으면 틀린 답이 붙는다(위 주석 참고).
+    if (map.backup && existing && have.has(map.slug)) continue;
     for (const id of tipArticleCache.get(`${today}:${map.slug}`) ?? []) {
       jobs.push({ slug: map.slug, id });
     }
@@ -1209,7 +1359,7 @@ async function collectOnce() {
       console.error('토막스 소스 실패:', e.message);
       return [];
     }),
-    collectFromTipistip().catch((e) => {
+    collectFromTipistip(existing).catch((e) => {
       console.error('팁is팁 소스 실패:', e.message);
       return [];
     }),
@@ -1457,4 +1607,9 @@ export {
   upcomingBlock,
   pendingIn,
   fmtMin,
+  // healthcheck 가 팁is팁까지 대조하려면 이 둘이 필요하다.
+  // 감시자가 수집기와 '같은 눈'을 쓰면 같은 걸 못 본다 — 그래서 감시 쪽에서는
+  // 여기서 나온 결과를 우리 데이터와 대조만 하고, 판정 기준은 더 느슨하게 잡는다.
+  collectFromTipistip,
+  TIP_TITLE_MAP,
 };

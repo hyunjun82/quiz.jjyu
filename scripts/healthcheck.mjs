@@ -14,7 +14,13 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { parseQuizbells, parseTeampljeon, isSaneQuestion } from './collect.mjs';
+import {
+  parseQuizbells,
+  parseTeampljeon,
+  isSaneQuestion,
+  collectFromTipistip,
+  TIP_UNMAPPED,
+} from './collect.mjs';
 
 const KST_OFFSET = 9 * 60 * 60 * 1000;
 const kstNow = () => new Date(Date.now() + KST_OFFSET);
@@ -116,6 +122,26 @@ async function main() {
   const problems = [];
   const notes = [];
 
+  /**
+   * 팁is팁 오늘자 상태를 미리 받아둔다.
+   *
+   * ⚠️ 8/15·8/16 사고의 진짜 원인이 여기였다. 감시자가 퀴즈벨만 대조했기 때문에,
+   * 팁is팁에 옥션·토스 정답이 버젓이 올라와 있는데도 "소스도 아직 미발행(정상)"으로
+   * 판정했다. 놓친 걸 놓친 줄도 몰랐다는 게 가장 나쁜 상태다.
+   *
+   * existing 을 넘기지 않는다 = backup 항목까지 전부 조회한다. 감시자는 수집기보다
+   * 넓게 봐야 수집기 쪽 구멍이 감시망에 걸린다(수집기와 같은 눈을 쓰면 같은 걸 못 본다).
+   */
+  const tipBySlug = new Map();
+  try {
+    for (const it of await collectFromTipistip()) {
+      if (!tipBySlug.has(it.slug)) tipBySlug.set(it.slug, []);
+      tipBySlug.get(it.slug).push(it);
+    }
+  } catch (e) {
+    console.log(`(팁is팁 대조 생략 — ${e.message})`);
+  }
+
   // 1) 오늘자 파일 자체가 없다 — 초기화조차 안 돌았다는 뜻.
   if (!fs.existsSync(file)) {
     console.error(`치명: 오늘자 정답 파일이 없음 (${today}.json)`);
@@ -141,8 +167,22 @@ async function main() {
     if (lateBy > 0) overdue.push({ q, lateBy });
   }
 
+  // 처음 보는 팁is팁 제목은 지연 여부와 무관하게 항상 보고한다.
+  // 매핑 누락(우리가 다루는 퀴즈인데 제목이 바뀜)과 신규 퀴즈 발굴을 동시에 잡는 그물이다.
+  const reportUnmapped = () => {
+    if (TIP_UNMAPPED.size === 0) return;
+    console.log(`\n=== ⚠️ 처음 보는 팁is팁 오늘자 글 ${TIP_UNMAPPED.size}건 ===`);
+    console.log('우리 30종에도, 판단 완료 목록(TIP_REVIEWED)에도 없는 제목입니다.');
+    console.log('매핑이 빠졌거나(제목 형식 변경) 새 퀴즈입니다. 사람이 보고 판단해주세요.');
+    for (const [title, id] of TIP_UNMAPPED) {
+      console.log(`  · ${title}`);
+      console.log(`    https://www.tipistip.com/bbs/board.php?bo_table=quiz&wr_id=${id}`);
+    }
+  };
+
   if (overdue.length === 0) {
     console.log(`정상 — 지연된 퀴즈 없음 (${today} ${String(now.getUTCHours()).padStart(2, '0')}:${String(now.getUTCMinutes()).padStart(2, '0')} KST)`);
+    reportUnmapped();
     return;
   }
 
@@ -155,10 +195,19 @@ async function main() {
     })),
   );
 
-  const missed = checked.filter((c) => c.state?.clean === true);
-  const suspect = checked.filter((c) => c.state && !c.state.clean && c.state.any);
-  const notPublished = checked.filter((c) => c.state && !c.state.clean && !c.state.any);
-  const unknown = checked.filter((c) => c.state === null);
+  // 퀴즈벨에 없어도 팁is팁에 있으면 그건 '미발행'이 아니라 우리가 놓친 것이다.
+  for (const c of checked) {
+    c.tip = tipBySlug.get(c.q.slug) ?? [];
+  }
+
+  const missed = checked.filter((c) => c.state?.clean === true || c.tip.length > 0);
+  const suspect = checked.filter(
+    (c) => c.tip.length === 0 && c.state && !c.state.clean && c.state.any,
+  );
+  const notPublished = checked.filter(
+    (c) => c.tip.length === 0 && c.state && !c.state.clean && !c.state.any,
+  );
+  const unknown = checked.filter((c) => c.tip.length === 0 && c.state === null);
 
   console.log(`검사 시각: ${today} ${String(now.getUTCHours()).padStart(2, '0')}:${String(now.getUTCMinutes()).padStart(2, '0')} KST`);
   console.log(`지연 ${overdue.length}건 중 —`);
@@ -168,7 +217,17 @@ async function main() {
   console.log(`  2차 소스 없어 판정 불가: ${unknown.length}건`);
 
   for (const c of missed) {
-    console.log(`  [놓침] ${c.q.slug} (${c.q.name}) — 공개 후 ${Math.round(c.lateBy + GRACE_MINUTES)}분 경과`);
+    const where = [c.state?.clean ? '퀴즈벨' : null, c.tip.length ? '팁is팁' : null]
+      .filter(Boolean)
+      .join('·');
+    console.log(
+      `  [놓침] ${c.q.slug} (${c.q.name}) — ${where}에 있음, 공개 후 ${Math.round(
+        c.lateBy + GRACE_MINUTES,
+      )}분 경과`,
+    );
+    for (const it of c.tip) {
+      console.log(`      팁is팁: ${it.question} → ${JSON.stringify(it.answers ?? it.answer)}`);
+    }
   }
   for (const c of suspect) {
     console.log(
@@ -209,6 +268,7 @@ async function main() {
     process.exit(1);
   }
 
+  reportUnmapped();
   console.log('\n임계 미만 — 장애로 판정하지 않음');
 }
 
