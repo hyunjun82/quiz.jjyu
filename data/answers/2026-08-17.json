@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T01:20:47.074+09:00",
+  "updatedAt": "2026-08-17T01:55:11.919+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -179,7 +179,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "뱅크런은 예금자들이 한꺼번에 몰려 예금을 인출하려는 상황을 말해요.",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-17T01:55:11.917+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
