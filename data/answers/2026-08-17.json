@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T00:02:56.246+09:00",
+  "updatedAt": "2026-08-17T00:03:16.594+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -49,6 +49,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-17T00:02:56.246+09:00"
+      },
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T00:03:16.594+09:00"
       }
     ],
     "kakaopay": [],
