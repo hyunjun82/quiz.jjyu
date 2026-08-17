@@ -169,7 +169,52 @@ async function main() {
 
   // 처음 보는 팁is팁 제목은 지연 여부와 무관하게 항상 보고한다.
   // 매핑 누락(우리가 다루는 퀴즈인데 제목이 바뀜)과 신규 퀴즈 발굴을 동시에 잡는 그물이다.
+  /**
+   * 교차 오염 감지 — 서로 다른 퀴즈에 같은 정답이 떠 있는가.
+   *
+   * 2026-08-17 발견: 퀴즈벨의 KB스타뱅킹 페이지에 KB Pay 정답("1번 필름 카메라")이
+   * 섞여 있었다. 소스가 두 퀴즈를 한 표에 담은 것인데, 우리는 그걸 그대로 받아
+   * KB별별퀴즈 정답 자리에 남의 답을 올렸다. 정답을 보러 온 사람에게 틀린 답을 준 셈이다.
+   *
+   * 소스 쪽 문제라 우리가 막을 수 없다. 대신 '같은 날 서로 다른 퀴즈에 똑같은 정답'이
+   * 뜨면 보고한다. 사람이 원문을 보고 판단하면 된다.
+   *
+   * ⚠️ 흔한 정답은 당연히 겹친다(O, X, 1번, 3). 그래서 다음만 본다.
+   *   - 한글·영문 4자 이상 (숫자·기호만인 건 제외)
+   *   - OX·선택지 번호 형태 제외
+   * 이 조건이 없으면 매일 수십 건이 떠서 아무도 안 본다.
+   */
+  const reportCrossContamination = () => {
+    const norm = (s) =>
+      String(s || '')
+        .replace(/^\s*\d{1,2}\s*번[\s.)]*/, '')
+        .replace(/^\s*[①②③④⑤]\s*/, '')
+        .replace(/\s*[(（][^)）]*[)）]/g, '')
+        .replace(/\s+/g, '')
+        .toLowerCase();
+    const seen = new Map(); // 정규화 정답 → [{slug, answer}]
+    for (const [slug, items] of Object.entries(answers)) {
+      for (const x of items) {
+        for (const a of x.choices?.length ? x.choices : [x.answer]) {
+          const k = norm(a);
+          if (!k) continue;
+          if (k.replace(/[^가-힣A-Za-z]/g, '').length < 4) continue; // 짧은 답·숫자 제외
+          if (!seen.has(k)) seen.set(k, []);
+          if (!seen.get(k).some((v) => v.slug === slug)) seen.get(k).push({ slug, answer: a });
+        }
+      }
+    }
+    const dirty = [...seen.entries()].filter(([, v]) => v.length >= 2);
+    if (dirty.length === 0) return;
+    console.log(`\n=== ⚠️ 서로 다른 퀴즈에 같은 정답 ${dirty.length}건 ===`);
+    console.log('소스가 두 퀴즈를 섞어 넣었을 수 있습니다. 원문 확인이 필요합니다.');
+    for (const [, v] of dirty) {
+      console.log(`  · ${v.map((x) => `${x.slug}="${x.answer}"`).join('  vs  ')}`);
+    }
+  };
+
   const reportUnmapped = () => {
+    reportCrossContamination();
     if (TIP_UNMAPPED.size === 0) return;
     console.log(`\n=== ⚠️ 처음 보는 팁is팁 오늘자 글 ${TIP_UNMAPPED.size}건 ===`);
     console.log('우리 30종에도, 판단 완료 목록(TIP_REVIEWED)에도 없는 제목입니다.');

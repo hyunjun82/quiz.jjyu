@@ -891,6 +891,8 @@ const TIP_TITLE_MAP = [
   // ── 빈 곳 메우기 전용(backup) ──
   // 앱 하나가 퀴즈를 여러 개 내는 경우가 많아서, 어느 퀴즈인지 확정되는
   // 구분 단어(AI 이모지 / 한국사 / 슬기로운 / 오늘의영어)까지 넣어 앵커를 건다.
+  // 2026-08-17: TIP_UNMAPPED 보고로 발견. 팁is팁은 KB Pay 를 옛 이름(리브메이트)으로 부른다.
+  { slug: 'kbpay', re: /^리브메이트 퀴즈\]/, backup: true },
   { slug: 'ok-cashbag', re: /^오퀴즈\]/, backup: true },
   { slug: 'paybooc', re: /^페이북 퀴즈\]/, backup: true },
   { slug: 'kakaopay', re: /^카카오페이\]/, backup: true },
