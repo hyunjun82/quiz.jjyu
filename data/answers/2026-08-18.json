@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T00:55:29.752+09:00",
+  "updatedAt": "2026-08-18T01:23:28.345+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "포인트 적립 서비스와 리필 서비스를 탑재하여 새롭게 출시한 카드 시리즈의 이름은 무엇일까요?",
         "answer": "Hi-Point Plan",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-18T00:03:44.007+09:00"
       },
       {
@@ -89,10 +89,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOO이란, 상대국의 관세 인상이나 무역제한 조치에 대응해 추가로 부과하는 관세에요.",
         "answer": "보복관세",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-18T00:03:06.338+09:00"
       }
     ],
@@ -100,10 +100,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/18일자",
+        "question": "아파트 거래량이 늘면 집값이 반드시 오른다",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-18T00:07:20.775+09:00"
       },
       {
