@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T10:11:25.886+09:00",
+  "updatedAt": "2026-08-17T11:00:24.934+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -57,6 +57,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-17T00:14:43.613+09:00"
+      },
+      {
+        "question": "음식 관련 이모지 보고 퀴즈 풀기",
+        "answer": "도우",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-17T11:00:24.934+09:00"
       }
     ],
     "ok-cashbag": [],
