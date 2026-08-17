@@ -188,11 +188,20 @@ function isFullerAnswer(oldA, newA) {
  * (저장되는 값은 그대로 두고, 비교할 때만 뗀다.)
  */
 function normalize(s) {
-  return String(s || '')
+  const base = String(s || '')
     .replace(/^\s*\d{1,2}\s*번[\s.)]*/, '') // 선택지 번호: "2번 호패법…" → "호패법…"
-    .replace(/\s*[(（][^)）]*[)）]/g, '') // 괄호 부연: "O (맞아요)" → "O"
-    .replace(/[\s,.·/]/g, '')
-    .toLowerCase();
+    .replace(/^\s*[①②③④⑤⑥⑦⑧⑨⑩]\s*/, ''); // 원문자 번호: "② (나)-(가)" → "(나)-(가)"
+
+  // 괄호 부연 제거: "O (맞아요)" → "O"
+  //
+  // ⚠️ 2026-08-17 발견 — 괄호가 '부연'이 아니라 '내용 자체'인 정답이 있다.
+  //   한국사 순서나열 문제의 정답이 "(나)-(가)-(다)" 다. 여기서 괄호를 다 떼면
+  //   "--" 만 남아서, 서로 다른 정답이 전부 "--" 로 뭉개진다. 중복 판정이 무너진다.
+  // 그래서 떼고 나서 한글·영숫자가 하나도 안 남으면 떼지 않은 원본으로 비교한다.
+  const stripped = base.replace(/\s*[(（][^)）]*[)）]/g, '');
+  const usable = /[가-힣A-Za-z0-9]/.test(stripped) ? stripped : base;
+
+  return usable.replace(/[\s,.·/]/g, '').toLowerCase();
 }
 
 function itemKey(x) {
@@ -768,7 +777,20 @@ function parseTomax(html, slug) {
   const out = [];
   for (let i = 0; i < Math.min(questions.length, answers.length); i += 1) {
     // "O (맞아요)" 처럼 괄호 부연이 붙어 온다 — 앞의 실제 값만 쓴다.
-    const a = answers[i].replace(/\s*\([^)]*\)\s*$/, '').trim();
+    //
+    // ⚠️ 2026-08-17 사고: 이 규칙이 정답을 잘라먹었다.
+    //   토막스 원문 "② (나)-(가)-(다)" → 끝의 "(다)"를 부연으로 오인해 제거 →
+    //   "② (나)-(가)-" 가 라이브에 발행됐다. 한국사 순서나열 문제라 괄호가
+    //   부연이 아니라 정답 내용 자체였다. 답이 안 되는 값을 내보낸 셈이다.
+    //
+    // 구분 기준: 괄호가 문자열 전체에 딱 하나면 부연으로 본다. 둘 이상이면
+    // 나열·수식의 일부이므로 손대지 않는다.
+    //   "O (맞아요)"        괄호 1개 → 제거 → "O"
+    //   "② (나)-(가)-(다)"  괄호 3개 → 그대로
+    const raw = answers[i];
+    const parenCount = (raw.match(/\(/g) || []).length;
+    const trimmed = raw.replace(/\s*\([^)]*\)\s*$/, '').trim();
+    const a = parenCount === 1 && trimmed ? trimmed : raw.trim();
     const q = questions[i];
     if (q && a && isSaneQuestion(q) && isSaneAnswer(a)) out.push({ slug, ...buildItem(q, [a]) });
   }
@@ -1612,4 +1634,9 @@ export {
   // 여기서 나온 결과를 우리 데이터와 대조만 하고, 판정 기준은 더 느슨하게 잡는다.
   collectFromTipistip,
   TIP_TITLE_MAP,
+  // 회귀 테스트용 — 8/17 '② (나)-(가)-' 잘림 사고 이후 추가.
+  parseTomax,
+  parseTipArticle,
+  normalize,
+  itemKey,
 };
