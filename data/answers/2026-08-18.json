@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T00:03:06.338+09:00",
+  "updatedAt": "2026-08-18T00:03:20.266+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -96,7 +96,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T00:03:20.266+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
