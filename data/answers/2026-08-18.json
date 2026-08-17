@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T00:03:44.007+09:00",
+  "updatedAt": "2026-08-18T00:05:00.968+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -55,7 +55,15 @@
         "publishedAt": "2026-08-18T00:01:25.227+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "4%",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T00:05:00.968+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "비트버니 오늘의 퀴즈",
@@ -130,7 +138,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T00:05:00.968+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
