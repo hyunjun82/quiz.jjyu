@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T08:48:29.413+09:00",
+  "updatedAt": "2026-08-17T10:02:52.394+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -60,8 +60,122 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
-    "cashdoc": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "필름 카메라",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      }
+    ],
+    "cashdoc": [
+      {
+        "question": "1알이면 막혀도 안아프게 비워요",
+        "answer": "한샷, 물엿, 애사비, 젤라틴",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "이번주만 인기템 1+1",
+        "answer": "식후, 소비톨, 인위적, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "소비자24 소비자 포털 피해 예방",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "소비자24 일상생활 제품 사용시 주의사항 예방방법",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "소비자24 24시간 열린 소비자포털 공정거래위원회 비교정보 서비스",
+        "answer": "비교공감",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "판토딜 포헤어 두피관리케어 탈모앰플",
+        "answer": "두피, 영양, 탈모",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "용돈퀴즈 — 멜라듀스",
+        "answer": "8, 탄력, 미백",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "용돈퀴즈 — 멕시카나",
+        "answer": "와삭칸, 치필링, 고추화삭",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "G마켓 탄산 워싱소다",
+        "answer": "프리미엄",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      },
+      {
+        "question": "G마켓 곡물 클렌징폼",
+        "answer": "모공",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "풍력 발전기의 소음은 주거지역 생활소음 규제기준을 초과하여 인체에 피해를 준다.",
@@ -119,6 +233,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-08-17T00:54:59.200+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 8/17일자",
+        "answer": "1번 필름 카메라",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
       }
     ],
     "kbank": [
@@ -173,7 +294,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "1000",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T10:02:52.394+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
