@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T20:00:54.735+09:00",
+  "updatedAt": "2026-08-17T20:55:31.059+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,20 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-17T20:00:54.734+09:00"
+      },
+      {
+        "question": "OOO이 부담스러울 땐 펌킨샷, 아침마다 무너지는 V라인엔 그린티샷까지! (힌트 : ㅋㅍㅇ)",
+        "answer": "카페인 / 정제효소 / 입터짐 / 그린티샷",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-17T20:55:31.058+09:00"
+      },
+      {
+        "question": "소휘 전제품 혜택 소휘 소화효소 애사비구미 그린티샷",
+        "answer": "입터짐, 카페인, 정제효소, 그린티샷",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T20:55:31.058+09:00"
       }
     ],
     "shinhan-sol": [
@@ -481,6 +495,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-17T15:01:45.439+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시",
+        "answer": "4, 1, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T20:55:31.059+09:00"
       }
     ],
     "moneywalk": [
