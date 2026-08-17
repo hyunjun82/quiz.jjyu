@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T18:04:01.523+09:00",
+  "updatedAt": "2026-08-17T18:55:09.068+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -482,6 +482,14 @@
         "publishedAt": "2026-08-17T00:02:56.246+09:00"
       }
     ],
-    "fallcent": []
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 코카콜라",
+        "answer": "혜택",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-17T18:55:09.068+09:00"
+      }
+    ]
   }
 }
