@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T00:03:20.266+09:00",
+  "updatedAt": "2026-08-18T00:03:44.007+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -26,7 +26,22 @@
         "publishedAt": "2026-08-18T00:01:25.227+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "Hi-Point Plan",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T00:03:44.007+09:00"
+      },
+      {
+        "question": "8월 11일 2026 신한 SOL KBO리그가 역대 최소인 505경기 만에 달성한 관중 돌파 기록으로 맞는 것은?",
+        "answer": "900만 관중",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T00:03:44.007+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
