@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T00:25:19.865+09:00",
+  "updatedAt": "2026-08-18T00:55:29.752+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,6 +69,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T00:01:25.227+09:00"
+      },
+      {
+        "question": "자동차 타이어도 재활용할 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T00:55:29.750+09:00"
       }
     ],
     "hpoint": [
@@ -98,6 +105,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T00:07:20.775+09:00"
+      },
+      {
+        "question": "다음 설명에 대한 O/X 정답으로 올바른 것은?",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-18T00:55:29.748+09:00"
       }
     ],
     "kbank": [
@@ -107,9 +121,31 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T00:01:25.227+09:00"
+      },
+      {
+        "question": "2026년 새롭게 도입된 최상위 단계의 폭염 특보는?",
+        "answer": "폭염중대경보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T00:55:29.750+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "페어플레이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T00:55:29.750+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T00:55:29.750+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "여름을 시원하게 보내는 데 도움이 되는 슈퍼 푸드가 아닌 것은?",
@@ -145,10 +181,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "기준금리를 올리면 시중 대출금리도 함께 오르는 게 일반적이에요.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-18T00:03:20.266+09:00"
       }
     ],
