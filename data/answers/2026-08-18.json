@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T00:02:42.167+09:00",
+  "updatedAt": "2026-08-18T00:03:06.338+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -41,7 +41,15 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "보복관세",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T00:03:06.338+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -89,10 +97,26 @@
     ],
     "buzzvil": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "4, 3, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T00:03:06.338+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "오건영",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T00:03:06.338+09:00"
+      }
+    ],
     "fallcent": []
   }
 }
