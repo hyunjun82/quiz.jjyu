@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T15:55:54.683+09:00",
+  "updatedAt": "2026-08-17T16:40:31.812+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -95,6 +95,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-17T12:02:46.817+09:00"
+      },
+      {
+        "question": "CJ웰케어 쓰리핏 유산균 다이어트",
+        "answer": "쓰리핏",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-17T16:40:31.812+09:00"
       }
     ],
     "shinhan-sol": [
