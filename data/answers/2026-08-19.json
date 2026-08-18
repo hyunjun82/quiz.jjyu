@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T00:07:01.014+09:00",
+  "updatedAt": "2026-08-19T00:08:09.958+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,16 +63,24 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "0000이란, 외국인 투자자금이나 국내 자금이 해외로 대규모로 빠져나가는 현상이에요.",
         "answer": "자본유출",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-19T00:05:38.465+09:00"
       }
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "스타퀴즈 8/19일자",
+        "answer": "3번 9월 21일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:08:09.958+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "2026년 새롭게 도입된 최상위 단계의 폭염 특보는?",
