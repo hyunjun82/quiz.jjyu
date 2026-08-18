@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T10:03:45.089+09:00",
+  "updatedAt": "2026-08-18T10:03:59.516+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,6 +37,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T10:02:05.539+09:00"
+      },
+      {
+        "question": "알바는 원래 알바몬",
+        "answer": "기업인증, 알바빠르게구하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T10:03:59.515+09:00"
       }
     ],
     "cashwalk": [
@@ -172,6 +179,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T10:03:10.285+09:00"
+      },
+      {
+        "question": "푸드루트 비타민D",
+        "answer": "세포, 셀레늄, 유해산소, 골다공증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T10:03:59.515+09:00"
       }
     ],
     "shinhan-sol": [
@@ -389,6 +403,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T10:01:24.525+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 — 8/18일자",
+        "answer": "2번 LNG",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T10:03:59.515+09:00"
       }
     ],
     "kbank": [
