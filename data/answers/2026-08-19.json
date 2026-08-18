@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-19",
+  "updatedAt": "2026-08-19T00:01:20.015+09:00",
+  "answers": {
+    "toss-lucky": [
+      {
+        "question": "믿을 수 있는 기업인지 알고 싶다면 안심공고배지 중 OOOO을 체크해요",
+        "answer": "기업인증",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-19T00:01:20.014+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제",
+        "answer": null,
+        "choices": [
+          "안심공고배지",
+          "알바빠르게구하기"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-08-19T00:01:20.014+09:00"
+      }
+    ],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "자동차 타이어도 재활용할 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:01:20.015+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [
+      {
+        "question": "2026년 새롭게 도입된 최상위 단계의 폭염 특보는?",
+        "answer": "폭염중대경보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:01:20.015+09:00"
+      }
+    ],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "감자는 아침 공복에 먹으면 좋은 음식이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:01:20.015+09:00"
+      }
+    ],
+    "buzzvil": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
