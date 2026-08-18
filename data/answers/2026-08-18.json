@@ -615,6 +615,15 @@
         "publishedAt": "2026-08-18T00:03:06.338+09:00"
       }
     ],
-    "fallcent": []
+    "fallcent": [],
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "정보태그",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T13:53:34.809+09:00"
+      }
+    ]
   }
 }

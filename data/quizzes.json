@@ -630,6 +630,26 @@
       "cadence": {
         "type": "irregular"
       }
+    },
+    {
+      "slug": "naverpay",
+      "app": "네이버페이",
+      "name": "네이버페이 랜덤 포인트 퀴즈",
+      "searchKeyword": "네이버페이 랜덤 포인트 퀴즈 정답",
+      "shortName": "랜덤 포인트 퀴즈",
+      "category": "finance",
+      "reward": "네이버페이 포인트",
+      "resetInfo": "부정기 공개 (2026년 7~8월 실측 월 6~9회)",
+      "color": "#03C75A",
+      "howTo": null,
+      "estDaily": 0,
+      "rewardRange": "랜덤",
+      "iconUrl": "/icons/naverpay.avif",
+      "sourceSlug": null,
+      "releaseTimes": [],
+      "cadence": {
+        "type": "irregular"
+      }
     }
   ]
 }
