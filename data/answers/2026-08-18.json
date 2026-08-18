@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T10:54:22.966+09:00",
+  "updatedAt": "2026-08-18T10:58:16.222+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,6 +58,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-18T10:17:37.630+09:00"
+      },
+      {
+        "question": "가나브이기리니기리니",
+        "answer": "31",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T07:21:06.572+09:00"
       }
     ],
     "cashwalk": [
@@ -239,6 +246,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T00:15:06.545+09:00"
+      },
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기 (정답: 만두피)",
+        "answer": "만두피",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-18T10:58:16.221+09:00"
       }
     ],
     "ok-cashbag": [],
