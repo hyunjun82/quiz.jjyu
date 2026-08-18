@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T15:05:38.956+09:00",
+  "updatedAt": "2026-08-18T18:36:22.159+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,6 +83,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T15:05:21.051+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 토스접속회원",
+        "answer": "순금수저",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T18:36:22.157+09:00"
       }
     ],
     "cashwalk": [
@@ -675,7 +682,15 @@
         "publishedAt": "2026-08-18T00:03:06.338+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 FRANKLIIN",
+        "answer": "성분",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T18:36:22.159+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
