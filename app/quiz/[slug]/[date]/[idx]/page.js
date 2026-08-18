@@ -210,6 +210,17 @@ export default function AnswerPage({ params }) {
       {/* 정주행 그리드 — 광고보다 위로. 스크롤 없이 "오늘 다른 퀴즈 N개" 가 보여야 이동이 난다. */}
       <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
 
+      {/* 가이드로 보내는 띠 — 정답과 이동 버튼 아래에만. (QuizDetail.js 주석 참고)
+          정답 페이지는 CPC $0.02고 가이드는 금융 문맥이라 단가가 다르다.
+          목적을 달성한 사람만 여기서 한 번 더 권한다. */}
+      <a href="/guide/ranking/" className="guide-cta">
+        <span className="guide-cta-txt">
+          <b>어떤 앱이 제일 남을까 — 앱테크 수익 순위</b>
+          <span>27개 앱을 하루 적립액으로 줄 세웠습니다 · 14일 실측</span>
+        </span>
+        <span className="guide-cta-go">순위 보기 →</span>
+      </a>
+
       <AdUnit slot="5919906049" className="ad-slot ad-rect" />
       <AdUnit slot="9284435988" />
       </div>

@@ -988,3 +988,121 @@ main, header, footer { position: relative; z-index: 1; }
 }
 .af-share:hover { background: var(--surface-2); color: var(--text); border-color: var(--text-3); }
 .af-share:active { transform: translateY(1px); }
+
+/* ─────────────────────────────────────────────────────────────
+   가이드 페이지 (/guide/*)
+   ─────────────────────────────────────────────────────────────
+   정답 페이지와 목적이 다르다. 정답 페이지는 3초 안에 답을 보여주고 끝나지만,
+   여기는 표를 읽는 페이지라 체류가 길다. 그래서 줄 간격을 넉넉히 주고,
+   광고 밀도를 낮게 유지한다(정답 페이지가 372자당 광고 1개로 밀도 최악이었다).
+   ───────────────────────────────────────────────────────────── */
+.guide { padding-top: 28px; padding-bottom: 64px; }
+.guide h1 {
+  font-size: clamp(26px, 5vw, 38px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  margin: 0 0 14px;
+}
+.guide h2 {
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 44px 0 14px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+}
+.guide h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 26px 0 8px;
+  color: var(--text);
+}
+.guide p { font-size: 15.5px; line-height: 1.85; color: var(--text-2); margin: 0 0 14px; }
+.guide p b, .guide p strong { color: var(--text); font-weight: 700; }
+.guide a { color: var(--blue); font-weight: 600; }
+.guide a:hover { text-decoration: underline; }
+
+.g-lead {
+  font-size: 16.5px !important;
+  line-height: 1.8 !important;
+  color: var(--text-2);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-bottom: 24px !important;
+}
+.g-note {
+  font-size: 13.5px !important;
+  line-height: 1.7 !important;
+  color: var(--text-3);
+  margin-top: 10px !important;
+}
+
+/* 카드 목록 (허브) */
+.g-cards { display: grid; gap: 14px; grid-template-columns: 1fr; margin: 8px 0 28px; }
+@media (min-width: 760px) { .g-cards { grid-template-columns: repeat(3, 1fr); } }
+.g-card {
+  display: flex; flex-direction: column; gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-decoration: none;
+  transition: border-color .15s, transform .15s;
+}
+.g-card:hover { border-color: var(--border-strong); transform: translateY(-2px); text-decoration: none; }
+.g-card-tag {
+  align-self: flex-start;
+  font-size: 11.5px; font-weight: 800; letter-spacing: .02em;
+  color: var(--mint); background: var(--mint-bg);
+  padding: 4px 9px; border-radius: 999px;
+}
+.g-card strong { font-size: 17px; font-weight: 800; color: var(--text); letter-spacing: -0.02em; }
+.g-card-desc { font-size: 13.5px; line-height: 1.65; color: var(--text-2); }
+.g-card-go { font-size: 13px; font-weight: 700; color: var(--blue); margin-top: 2px; }
+
+/* 표 — 모바일에서 가로 스크롤 */
+.g-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  -webkit-overflow-scrolling: touch;
+}
+.g-table { width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 420px; }
+.g-table th {
+  text-align: left; font-size: 12.5px; font-weight: 700; color: var(--text-3);
+  padding: 12px 14px; border-bottom: 1px solid var(--border);
+  background: var(--surface-2); white-space: nowrap;
+}
+.g-table td { padding: 13px 14px; border-bottom: 1px solid var(--border); color: var(--text-2); }
+.g-table tr:last-child td { border-bottom: 0; }
+.g-table td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.g-table td.small { font-size: 13px; color: var(--text-3); }
+.g-table td b { color: var(--text); }
+.g-table a { color: var(--text); font-weight: 700; }
+
+/* 퀴즈로 돌아가는 링크 묶음 */
+.g-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 8px; }
+.g-link {
+  font-size: 13.5px; font-weight: 700; color: var(--text-2) !important;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 999px; padding: 8px 14px; text-decoration: none;
+}
+.g-link:hover { border-color: var(--border-strong); color: var(--text) !important; text-decoration: none; }
+.g-back { margin-top: 36px; font-size: 14px; }
+
+/* 정답 페이지 → 가이드로 보내는 띠 (정답 아래에만 붙는다) */
+.guide-cta {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 18px; margin: 20px 0;
+  text-decoration: none;
+}
+.guide-cta:hover { border-color: var(--border-strong); text-decoration: none; }
+.guide-cta-txt { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.guide-cta-txt b { font-size: 15px; font-weight: 800; color: var(--text); letter-spacing: -0.02em; }
+.guide-cta-txt span { font-size: 13px; color: var(--text-3); line-height: 1.5; }
+.guide-cta-go { font-size: 13px; font-weight: 800; color: var(--blue); white-space: nowrap; }

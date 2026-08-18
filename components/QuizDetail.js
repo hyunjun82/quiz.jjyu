@@ -61,6 +61,35 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       //    이건 규칙 위반이었고, 동시에 정답 20건을 통째로 넘겨주는 통로였다.
       //
       // BreadcrumbList는 계속 지원되므로 유지한다.
+      //
+      // ── ItemList 추가 (2026-08-18) ──────────────────────────────
+      // 경쟁사 4곳을 실측했더니 전부 콘텐츠 스키마를 갖고 있었다.
+      //   토막스   ItemList, CollectionPage, FAQPage
+      //   퀴즈코리아 Article, FAQPage, SpeakableSpecification
+      //   똑답     ItemList, CollectionPage
+      //   퀴즈벨   FAQPage, SoftwareApplication
+      //   우리     BreadcrumbList 뿐 ← 페이지 내용을 설명하는 게 하나도 없었다
+      //
+      // ⚠️ 정답 값은 절대 넣지 않는다. 예전 FAQPage가 정답 20건을 통째로
+      // 넘겨주는 통로였고(위 주석), 검색결과에 정답이 뜨면 클릭할 이유가 사라진다.
+      // 여기서는 '문제 목록과 각 문제의 주소'만 선언한다 — 화면에 실제로 보이는
+      // 것과 정확히 일치하므로 구조화 데이터 정책에도 맞는다.
+      ...(items.length > 0
+        ? [
+            {
+              '@type': 'ItemList',
+              name: `${quiz.searchKeyword} ${date}`,
+              numberOfItems: items.length,
+              itemListOrder: 'https://schema.org/ItemListOrderAscending',
+              itemListElement: items.map((it, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                name: String(it.question || `${quiz.name} ${i + 1}번 문제`).slice(0, 110),
+                url: `${SITE_URL}/quiz/${quiz.slug}/${date}/${i + 1}/`,
+              })),
+            },
+          ]
+        : []),
     ],
   };
 
@@ -194,6 +223,23 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       {/* 전체 그리드(24개) — 정답 목록 바로 다음 = 광고보다 위.
           목적을 달성한 직후가 이동이 가장 잘 나오는 자리다. */}
       <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
+
+      {/* 가이드로 보내는 띠.
+       *
+       * 정답 페이지는 CPC $0.02다 — "오늘 답 뭐야"로 온 사람에게 광고주가 붙일 게
+       * 없어서다. 가이드 페이지는 은행·금융 문맥이라 단가가 다르다.
+       * 그래서 목적을 달성한 사람(정답 다 봄)만 여기서 한 번 더 권한다.
+       *
+       * ⚠️ 반드시 정답과 그리드 '아래'에만 둔다. 정답을 찾는 경로 위에 끼우면
+       * 정답까지 도달하는 길이 길어지고, 그건 지금 잘 나오는 순위를 깎는다.
+       */}
+      <a href="/guide/bank-quiz/" className="guide-cta">
+        <span className="guide-cta-txt">
+          <b>은행 앱 퀴즈, 어디가 가장 남을까</b>
+          <span>KB·신한·하나·케이뱅크 적립액을 14일 실측으로 비교했습니다</span>
+        </span>
+        <span className="guide-cta-go">비교 보기 →</span>
+      </a>
 
       <AdUnit slot="5919906049" />
       </div>

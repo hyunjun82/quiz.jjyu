@@ -32,8 +32,20 @@ export default function sitemap() {
     }
   }
 
+  // 가이드 — 주소가 안 바뀌는 고정 페이지라 신뢰가 누적된다.
+  // 정답 페이지와 검색어가 달라서 서로 순위를 잡아먹지 않는다.
+  const guideUrls = ['/guide/', '/guide/bank-quiz/', '/guide/ranking/', '/guide/timetable/'].map(
+    (p) => ({
+      url: `${base}${p}`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    }),
+  );
+
   return [
     { url: `${base}/`, lastModified: now, changeFrequency: 'hourly', priority: 1 },
+    ...guideUrls,
     ...quizzes.map((q) => ({
       url: `${base}/quiz/${q.slug}/`,
       lastModified: now,
