@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T00:15:04.924+09:00",
+  "updatedAt": "2026-08-19T00:22:44.102+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,6 +58,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-19T00:01:20.015+09:00"
+      },
+      {
+        "question": "태양광 발전은 온도가 굉장히 높은 사막과 같은 지역에서 가장 효율적이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:22:44.102+09:00"
       }
     ],
     "hpoint": [
