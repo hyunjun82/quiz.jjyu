@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T11:07:07.411+09:00",
+  "updatedAt": "2026-08-18T11:29:52.382+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -269,7 +269,15 @@
         "publishedAt": "2026-08-18T10:58:16.221+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 글로하이퍼 (광고모아보기)",
+        "answer": "2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-18T11:29:52.382+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "KB Pay KB오토핏 '내 차 관리'에서 확인할 수 없는 유가정보는…(후략)",
