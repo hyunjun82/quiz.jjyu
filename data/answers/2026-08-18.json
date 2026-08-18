@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T11:35:15.798+09:00",
+  "updatedAt": "2026-08-18T12:08:55.112+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -260,6 +260,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-08-18T10:58:16.221+09:00"
+      },
+      {
+        "question": "AI 퀴즈기리니기리니",
+        "answer": "보행",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T12:08:55.111+09:00"
       }
     ],
     "ok-cashbag": [
