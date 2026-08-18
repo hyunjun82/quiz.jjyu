@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T00:03:28.877+09:00",
+  "updatedAt": "2026-08-19T00:04:01.142+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -112,7 +112,15 @@
     ],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "스즈키 유이",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-19T00:04:01.142+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
