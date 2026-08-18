@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T20:54:49.079+09:00",
+  "updatedAt": "2026-08-18T21:00:56.544+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -288,6 +288,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-18T15:04:46.684+09:00"
+      },
+      {
+        "question": "컷슬린 데일리 보리한잔",
+        "answer": "12900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T21:00:56.543+09:00"
       }
     ],
     "shinhan-sol": [
