@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T10:02:31.683+09:00",
+  "updatedAt": "2026-08-18T10:02:54.237+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -132,10 +132,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay KB오토핏 '내 차 관리'에서 확인할 수 없는 유가정보는…(후략)",
         "answer": "2번 LNG",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-08-18T10:01:24.525+09:00"
       }
     ],
