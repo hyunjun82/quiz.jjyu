@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T00:01:20.015+09:00",
+  "updatedAt": "2026-08-19T00:02:25.443+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,7 +54,15 @@
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "전립선비대증이 있으면 감기약을 임의로 사서 먹 지 않는 것이 좋다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:02:25.443+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
