@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T00:08:16.899+09:00",
+  "updatedAt": "2026-08-19T00:09:15.808+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -79,6 +79,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-19T00:08:09.958+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:09:15.807+09:00"
       }
     ],
     "kbank": [
