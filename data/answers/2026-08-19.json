@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T01:27:33.200+09:00",
+  "updatedAt": "2026-08-19T01:54:56.458+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -86,7 +86,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 (디깅퀴즈)",
+        "answer": "4번 해외아이돌봄신청.",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T01:54:56.458+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 조이올팍 페스티벌 티켓 이벤트 진행 중! KB 조이올팍 페스티벌이 열리는 일자가 아닌 것은 언제일까요?",
