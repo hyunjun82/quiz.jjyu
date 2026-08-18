@@ -1106,3 +1106,19 @@ main, header, footer { position: relative; z-index: 1; }
 .guide-cta-txt b { font-size: 15px; font-weight: 800; color: var(--text); letter-spacing: -0.02em; }
 .guide-cta-txt span { font-size: 13px; color: var(--text-3); line-height: 1.5; }
 .guide-cta-go { font-size: 13px; font-weight: 800; color: var(--blue); white-space: nowrap; }
+
+/* 가이드 링크 묶음 — 정답 그리드 아래에서만 쓴다 (2026-08-18)
+   1개였던 링크를 3개 + 허브로 늘린다. 사이트맵에는 있는데 내부 링크가 없어
+   사용자 이동도, 크롤러 발견도 막혀 있던 걸 푸는 목적. */
+.guide-cta-group { margin: 22px 0 4px; }
+.guide-cta-head {
+  font-size: 12px; font-weight: 800; color: var(--text-3);
+  letter-spacing: 0.04em; margin: 0 0 8px;
+}
+.guide-cta-group .guide-cta { margin: 0 0 8px; }
+.guide-cta-all {
+  display: block; text-align: center; padding: 11px 14px;
+  border: 1px dashed var(--border); border-radius: var(--radius);
+  font-size: 13px; font-weight: 800; color: var(--text-3); text-decoration: none;
+}
+.guide-cta-all:hover { border-color: var(--border-strong); color: var(--text); text-decoration: none; }

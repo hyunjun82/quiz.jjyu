@@ -233,13 +233,43 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
        * ⚠️ 반드시 정답과 그리드 '아래'에만 둔다. 정답을 찾는 경로 위에 끼우면
        * 정답까지 도달하는 길이 길어지고, 그건 지금 잘 나오는 순위를 깎는다.
        */}
-      <a href="/guide/bank-quiz/" className="guide-cta">
-        <span className="guide-cta-txt">
-          <b>은행 앱 퀴즈, 어디가 가장 남을까</b>
-          <span>KB·신한·하나·케이뱅크 적립액을 14일 실측으로 비교했습니다</span>
-        </span>
-        <span className="guide-cta-go">비교 보기 →</span>
-      </a>
+      {/* 2026-08-18: 1개 → 3개 + 허브로 확대.
+       * 사이트맵에는 가이드 4개가 다 들어 있는데 내부 링크가 bank-quiz 하나뿐이라
+       * /guide/(허브)·/ranking/·/timetable/ 로 가는 길이 사이트 안에 없었다.
+       * 크롤러 발견도 늦어지고, 무엇보다 사용자 이동이 안 생겨서
+       * 전면광고(노출RPM $6.74로 전 형식 중 최고)가 노출 674건에 갇혀 있었다.
+       * 이탈 직전 지점에서 갈 곳을 늘린다. 위치는 그대로 그리드 아래다. */}
+      <div className="guide-cta-group">
+        <p className="guide-cta-head">더 알아보기</p>
+
+        <a href="/guide/bank-quiz/" className="guide-cta">
+          <span className="guide-cta-txt">
+            <b>은행 앱 퀴즈, 어디가 가장 남을까</b>
+            <span>KB·신한·하나·케이뱅크 적립액을 14일 실측으로 비교했습니다</span>
+          </span>
+          <span className="guide-cta-go">비교 보기 →</span>
+        </a>
+
+        <a href="/guide/ranking/" className="guide-cta">
+          <span className="guide-cta-txt">
+            <b>앱테크 앱 수익 순위</b>
+            <span>하루 적립액으로 줄 세웠습니다 · 몇 개까지 하면 월 얼마인지까지</span>
+          </span>
+          <span className="guide-cta-go">순위 보기 →</span>
+        </a>
+
+        <a href="/guide/timetable/" className="guide-cta">
+          <span className="guide-cta-txt">
+            <b>퀴즈가 몇 시에 열리는지</b>
+            <span>앱 공지가 아니라 실제로 올라온 시각을 14일간 기록했습니다</span>
+          </span>
+          <span className="guide-cta-go">시간표 보기 →</span>
+        </a>
+
+        <a href="/guide/" className="guide-cta-all">
+          앱테크 가이드 전체 보기 →
+        </a>
+      </div>
 
       <AdUnit slot="5919906049" />
       </div>

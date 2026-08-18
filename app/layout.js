@@ -3,6 +3,18 @@ import Ticker from '../components/Ticker';
 
 const SITE_URL = 'https://quiz.jjyu.co.kr';
 
+/**
+ * 구글 서치콘솔 소유확인 코드.
+ *
+ * 2026-08-18 확인: 지난 7일 트래픽 소스에서 구글 유입이 $0으로,
+ * Bing($5.22)보다도 적었다. 네이버 인증 태그만 있고 구글은 없다.
+ *
+ * 넣는 법 — 서치콘솔 → 속성 추가 → 'URL 접두어'에 https://quiz.jjyu.co.kr 입력
+ * → 소유권 확인 방법에서 'HTML 태그' 선택 → 나오는 코드의 content="..." 안의
+ * 값만 아래 따옴표 사이에 붙여넣으면 된다. 빈 문자열이면 태그가 렌더링되지 않는다.
+ */
+const GOOGLE_SITE_VERIFICATION = '';
+
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
@@ -47,6 +59,9 @@ export default function RootLayout({ children }) {
           name="naver-site-verification"
           content="aeab35a19c380adc4d6926a966e13249ca4ac495"
         />
+        {GOOGLE_SITE_VERIFICATION ? (
+          <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
+        ) : null}
         <link
           rel="alternate"
           type="application/rss+xml"
