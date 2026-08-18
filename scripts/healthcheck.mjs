@@ -31,6 +31,32 @@ const QUIZZES = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/quizzes.json'),
 
 /** 공개 시각이 이만큼 지나도 없으면 "지연"으로 본다. 소스 자체가 늦는 경우가 있어 넉넉히 잡음. */
 const GRACE_MINUTES = 90;
+
+/* ── 물량 급감 감지 (2026-08-18 추가) ─────────────────────────────
+ *
+ * 왜 필요한가 — 기존 판정은 '0건'만 잡는다. 그래서 캐시워크가 하루 중앙값
+ * 16건인데 5건만 들어와도 알람이 울리지 않았다. 0건이 아니니까.
+ * 8/16 캐시닥 사고가 발견된 것도 하필 0건이었기 때문이고, 8건이었으면
+ * 지금도 몰랐을 것이다. 하루 16문제짜리 퀴즈에서 11건을 놓치는 건
+ * 0건 사고와 규모가 같다.
+ *
+ * 실측 근거 (2026-08-05~18, 14일):
+ *   캐시워크  18 13 16 [8] [8] 30 20 16 [10] 16 15 12 26 27   중앙값 16
+ *   캐시닥    16 16 15 14 14 19 18 19 18 23 13 [0] 16 15      중앙값 16
+ *   대괄호가 중앙값의 60% 미만 — 지금 구조로는 0건인 8/16만 잡혔다.
+ *
+ * 오탐을 막는 세 가지 조건:
+ *   1) 중앙값이 VOLUME_MIN_MEDIAN 이상인 퀴즈만 본다.
+ *      하루 1~2건짜리는 원래 변동 폭이 커서 매일 울린다.
+ *   2) 마지막 공개 시각 + VOLUME_GRACE_MINUTES 가 지난 뒤에만 판정한다.
+ *      낮에 보면 당연히 적다.
+ *   3) 급감이 보이면 바로 실패시키지 않고 소스를 다시 센다.
+ *      소스에도 적으면 앱이 적게 낸 것이므로 정상이다.
+ */
+const VOLUME_WINDOW_DAYS = 14;
+const VOLUME_MIN_MEDIAN = 6;
+const VOLUME_DROP_RATIO = 0.6;
+const VOLUME_GRACE_MINUTES = 30;
 /** 퀴즈벨에 떠 있는데 우리한테 없는 퀴즈가 이 수 이상이면 파이프라인 장애로 판정. */
 const FAIL_THRESHOLD = 3;
 
@@ -112,6 +138,99 @@ async function quizbellsState(sourceSlug, slug, today) {
   }
 }
 
+const median = (arr) => {
+  if (!arr.length) return 0;
+  const s = [...arr].sort((a, b) => a - b);
+  const m = Math.floor(s.length / 2);
+  return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+};
+
+/**
+ * 오늘을 뺀 최근 VOLUME_WINDOW_DAYS 일의 슬러그별 수집량 중앙값.
+ * 평균이 아니라 중앙값을 쓰는 이유: 캐시워크는 30건인 날과 8건인 날이
+ * 같이 있어서 평균은 한쪽으로 끌려간다. 중앙값이 '평소'에 가깝다.
+ */
+function volumeBaseline(today) {
+  const dir = path.join(ROOT, 'data/answers');
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.json') && f.slice(0, 10) !== today)
+    .sort()
+    .reverse()
+    .slice(0, VOLUME_WINDOW_DAYS);
+
+  const bucket = {};
+  for (const f of files) {
+    let d;
+    try {
+      d = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+    } catch {
+      continue;
+    }
+    for (const [slug, items] of Object.entries(d.answers ?? {})) {
+      if (!Array.isArray(items)) continue;
+      (bucket[slug] ??= []).push(items.length);
+    }
+  }
+  const base = {};
+  for (const [slug, counts] of Object.entries(bucket)) base[slug] = median(counts);
+  return { base, days: files.length };
+}
+
+/**
+ * 소스(퀴즈벨)에 오늘 몇 건이 떠 있는지 센다.
+ * quizbellsState 는 있다/없다만 돌려주는데, 급감 판정은 '몇 건'이 필요하다.
+ * 발행 파이프라인과 같은 관문(isSaneQuestion)을 통과한 것만 센다 —
+ * 그래야 "소스엔 있는데 우리 필터가 버렸다"가 아니라 진짜 누락만 남는다.
+ */
+async function quizbellsCount(sourceSlug, slug, today) {
+  try {
+    const res = await fetch(`https://quizbells.com/quiz/${sourceSlug}/today/answer`, {
+      headers: { 'user-agent': 'Mozilla/5.0 (quizday-healthcheck)' },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
+    const dm = title.match(/(\d{4})년 (\d{2})월 (\d{2})일/);
+    if (!dm || `${dm[1]}-${dm[2]}-${dm[3]}` !== today) return null; // 캐시된 옛 페이지
+    return parseQuizbells(html, slug, today).filter((r) => isSaneQuestion(r.question)).length;
+  } catch {
+    return null; // 네트워크 실패는 판정 불가. 오탐보다 미탐이 낫다.
+  }
+}
+
+/**
+ * 물량이 평소의 VOLUME_DROP_RATIO 미만으로 떨어진 퀴즈를 찾는다.
+ * @returns {{drops: Array, checkedAt: string}}
+ */
+async function checkVolumeDrop(answers, nowMin, today, dow) {
+  const { base, days } = volumeBaseline(today);
+  const drops = [];
+
+  for (const q of QUIZZES) {
+    if (!runsToday(q, dow)) continue;
+    const med = base[q.slug] ?? 0;
+    if (med < VOLUME_MIN_MEDIAN) continue; // 소량 퀴즈는 변동이 커서 제외
+
+    const times = (q.releaseTimes || []).map((t) => {
+      const [h, m] = t.split(':').map(Number);
+      return h * 60 + m;
+    });
+    if (times.length === 0) continue;
+    // 마지막 공개 시각이 지나고 유예가 끝나야 '하루가 끝났다'고 본다.
+    if (nowMin < Math.max(...times) + VOLUME_GRACE_MINUTES) continue;
+
+    const got = (answers[q.slug] || []).length;
+    if (got >= med * VOLUME_DROP_RATIO) continue;
+
+    // 급감이 보인다 — 소스를 다시 세어 '우리 문제'인지 '앱이 적게 낸 것'인지 가른다.
+    const src = q.sourceSlug ? await quizbellsCount(q.sourceSlug, q.slug, today) : null;
+    drops.push({ q, med, got, src, days });
+  }
+  return drops;
+}
+
 async function main() {
   const now = kstNow();
   const today = kstToday();
@@ -149,6 +268,39 @@ async function main() {
   }
   const data = JSON.parse(fs.readFileSync(file, 'utf8'));
   const answers = data.answers || {};
+
+  // 1-b) 물량 급감 — '0건'이 아니라 '평소보다 훨씬 적다'를 잡는다.
+  const volumeDrops = await checkVolumeDrop(answers, nowMin, today, dow);
+  const volumeConfirmed = volumeDrops.filter((d) => d.src !== null && d.src > d.got);
+  if (volumeDrops.length > 0) {
+    console.log(`\n=== ⚠️ 물량 급감 ${volumeDrops.length}건 ===`);
+    for (const d of volumeDrops) {
+      const srcTxt =
+        d.src === null ? '소스 확인 실패' : d.src > d.got ? `소스 ${d.src}건 — 우리가 놓침` : `소스도 ${d.src}건`;
+      console.log(
+        `  · ${d.q.slug} (${d.q.name}) — 오늘 ${d.got}건 / 최근 ${d.days}일 중앙값 ${d.med}건 · ${srcTxt}`,
+      );
+    }
+  }
+  if (volumeConfirmed.length > 0) {
+    console.error(
+      `\n장애: 물량 급감 ${volumeConfirmed.length}건이 소스 대조로 확정됐습니다 — ` +
+        volumeConfirmed
+          .map((d) => `${d.q.slug}(우리 ${d.got} vs 소스 ${d.src}, 평소 ${d.med})`)
+          .join(', ') +
+        `. 하루 물량이 많은 퀴즈라 0건이 아니어도 놓친 양이 큽니다.`,
+    );
+    process.exit(1);
+  }
+  // 소스 대조로 확정되지 않아도, 두 퀴즈에서 동시에 급감하면 수집 쪽 문제일 확률이 높다.
+  // (기존 suspect 판정과 같은 논리 — 하나면 우연, 둘이면 구조 문제)
+  if (volumeDrops.length >= 2) {
+    console.error(
+      `\n장애: ${volumeDrops.length}개 퀴즈에서 동시에 물량이 급감했습니다. ` +
+        `수집 워크플로가 일부 시간대를 통째로 놓쳤을 가능성이 높습니다.`,
+    );
+    process.exit(1);
+  }
 
   // 2) 공개 시각이 지났는데 우리한테 없는 퀴즈 추리기
   const overdue = [];
