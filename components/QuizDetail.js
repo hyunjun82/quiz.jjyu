@@ -207,8 +207,7 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
       </div>
 
-      <AdUnit slot="9284435988" />
-
+      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
       {items.length > 0 && (
         <>
           <ol className="a-list">

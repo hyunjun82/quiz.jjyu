@@ -80,7 +80,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <AdUnit slot="3353452458" />
+        {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
       </div>
 
       <QuizBoard quizzes={quizzes} counts={counts} />

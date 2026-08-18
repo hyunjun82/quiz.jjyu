@@ -134,8 +134,7 @@ export default function MonthlyPage({ params }) {
             <a href={`/quiz/${quiz.slug}/`}>오늘의 정답 페이지</a>로 가세요.
           </div>
 
-          <AdUnit slot="9284435988" />
-
+          {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
           {days.length === 0 ? (
             <div className="empty">
               <b>이번 달 정답이 아직 없습니다</b>
@@ -176,8 +175,7 @@ export default function MonthlyPage({ params }) {
             ))
           )}
 
-          <AdUnit slot="5919906049" />
-
+          {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
           <section className="related">
             <h2>다른 퀴즈 정답</h2>
             <div className="related-grid">
