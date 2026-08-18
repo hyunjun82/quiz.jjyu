@@ -101,7 +101,14 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       />
       <div className="detail-grid">
       <aside className="rail rail-left">
-        <AdUnit slot="4223680996" className="ad-slot rail-ad" />
+        {/* 2026-08-18: PC 레일 수동 광고 제거 (슬롯 4223680996).
+            트래픽의 82%가 모바일인데 이 자리는 PC에서만 뜬다. 애드센스 7일 실측에서
+            퀴즈 수동 단위 중 노출 최저 두 개(463건/1,575건) 중 하나가 이것이고,
+            어느 쪽이어도 7일 수익이 $0.08~$0.44 — 최악 손실 하루 6센트다.
+            반대편에 자동광고 노출RPM $2.60 vs 수동 $0.70(3.7배)라는 실측이 있어,
+            이 자리를 비워 구글 자동 '사이드 레일' 형식에 넘긴다.
+            aside 는 남겨둔다 — 지우면 PC 3단 그리드 폭이 바뀌어 본문이 움직인다.
+            판정: 3일 뒤 quiz.jjyu.co.kr 노출RPM. 안 오르면 되돌린다. */}
       </aside>
       <div className="detail-main">
       <p className="crumb">
@@ -274,7 +281,14 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       <AdUnit slot="5919906049" />
       </div>
       <aside className="rail">
-        <AdUnit slot="4223680996" className="ad-slot rail-ad" />
+        {/* 2026-08-18: PC 레일 수동 광고 제거 (슬롯 4223680996).
+            트래픽의 82%가 모바일인데 이 자리는 PC에서만 뜬다. 애드센스 7일 실측에서
+            퀴즈 수동 단위 중 노출 최저 두 개(463건/1,575건) 중 하나가 이것이고,
+            어느 쪽이어도 7일 수익이 $0.08~$0.44 — 최악 손실 하루 6센트다.
+            반대편에 자동광고 노출RPM $2.60 vs 수동 $0.70(3.7배)라는 실측이 있어,
+            이 자리를 비워 구글 자동 '사이드 레일' 형식에 넘긴다.
+            aside 는 남겨둔다 — 지우면 PC 3단 그리드 폭이 바뀌어 본문이 움직인다.
+            판정: 3일 뒤 quiz.jjyu.co.kr 노출RPM. 안 오르면 되돌린다. */}
       </aside>
       </div>
     </main>

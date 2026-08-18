@@ -106,7 +106,7 @@ export default function MonthlyPage({ params }) {
       />
       <div className="detail-grid">
         <aside className="rail rail-left">
-          <AdUnit slot="4223680996" className="ad-slot rail-ad" />
+          {/* 2026-08-18: PC 레일 수동 광고 제거 — QuizDetail.js 주석 참고 */}
         </aside>
         <div className="detail-main">
           <p className="crumb">
@@ -193,7 +193,7 @@ export default function MonthlyPage({ params }) {
           </section>
         </div>
         <aside className="rail">
-          <AdUnit slot="4223680996" className="ad-slot rail-ad" />
+          {/* 2026-08-18: PC 레일 수동 광고 제거 — QuizDetail.js 주석 참고 */}
         </aside>
       </div>
     </main>
