@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T11:30:26.987+09:00",
+  "updatedAt": "2026-08-18T11:35:15.798+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,13 +58,6 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-18T10:17:37.630+09:00"
-      },
-      {
-        "question": "가나브이기리니기리니",
-        "answer": "31",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-18T07:21:06.572+09:00"
       }
     ],
     "cashwalk": [
