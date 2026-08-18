@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T00:23:05.365+09:00",
+  "updatedAt": "2026-08-19T00:55:33.187+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -96,10 +96,10 @@
         "publishedAt": "2026-08-19T00:08:09.958+09:00"
       },
       {
-        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "question": "칠석은 음력 7월 7일로, 견우와 직녀가 오작교를 통해 만나는 날로 전해진다. 칠석 놀이를 하거나 시를 짓는 등의 풍속이 있었다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "tomax",
         "publishedAt": "2026-08-19T00:09:15.807+09:00"
       }
     ],
@@ -110,6 +110,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-19T00:01:20.015+09:00"
+      },
+      {
+        "question": "8.19(수) 오후 12:30에 시작되는 AI 퀴즈 챌린지의 라이브 퀴즈",
+        "answer": "우승 총 상금 1,000만원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T00:55:33.186+09:00"
       }
     ],
     "hana-onq": [
@@ -121,10 +128,10 @@
         "publishedAt": "2026-08-19T00:12:39.650+09:00"
       },
       {
-        "question": "슬기로운 금융생활 OX퀴즈",
+        "question": "하나원큐에서는 첫 국민연금 받기로 약속만 해도 신세계 상품권을 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "tomax",
         "publishedAt": "2026-08-19T00:14:46.162+09:00"
       }
     ],
@@ -163,10 +170,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "디플레이션은 물가가 지속적으로 오르는 현상을 말해요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-19T00:05:38.465+09:00"
       }
     ],
