@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T00:55:33.187+09:00",
+  "updatedAt": "2026-08-19T01:27:33.200+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -25,10 +25,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "생활요금 납부 이벤트를 통해 생활요금을 자동 납부하면 추첨을 통해 최대 10만원 캐시백 혜택을 받을 수 있다?",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-19T00:03:28.877+09:00"
       },
       {
@@ -89,10 +89,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/19일자",
+        "question": "KB 조이올팍 페스티벌 티켓 이벤트 진행 중! KB 조이올팍 페스티벌이 열리는 일자가 아닌 것은 언제일까요?",
         "answer": "3번 9월 21일",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-19T00:08:09.958+09:00"
       },
       {
