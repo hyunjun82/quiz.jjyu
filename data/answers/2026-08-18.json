@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T15:04:26.820+09:00",
+  "updatedAt": "2026-08-18T15:04:46.685+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -267,6 +267,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-18T14:00:57.850+09:00"
+      },
+      {
+        "question": "팬마음 트로트 가수 1위에게 투표해주세요",
+        "answer": "서울, 초대형, 인천공항, 트로트스타",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-18T15:04:46.684+09:00"
       }
     ],
     "shinhan-sol": [
