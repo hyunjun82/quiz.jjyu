@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "updatedAt": "2026-08-18T12:19:43.292+09:00",
+  "updatedAt": "2026-08-18T13:43:10.575+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,6 +58,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-18T10:17:37.630+09:00"
+      },
+      {
+        "question": "메트로시티 페밀리세일에서 최대 70%와 선착순쿠폰을 오전 OO시에 만나보세요",
+        "answer": "11",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-18T13:43:10.575+09:00"
       }
     ],
     "cashwalk": [
