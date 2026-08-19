@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T00:13:06.554+09:00",
+  "updatedAt": "2026-08-20T00:55:11.890+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-20T00:06:11.113+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "이자혜택받기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-20T00:55:11.890+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "목돈 마련하기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-20T00:55:11.890+09:00"
       }
     ],
     "cashwalk": [
@@ -98,6 +112,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-20T00:08:00.347+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "수원화성을 축조하였다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-20T00:55:11.889+09:00"
       }
     ],
     "kbank": [
@@ -109,7 +130,22 @@
         "publishedAt": "2026-08-20T00:01:11.964+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-20T00:55:11.889+09:00"
+      },
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "코너플레그",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-20T00:55:11.889+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "여름을 시원하게 보내는 데 도움이 되는 슈퍼 푸드가 아닌 것은?",
@@ -117,6 +153,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-20T00:02:18.687+09:00"
+      },
+      {
+        "question": "① ○○○ you later. (나중에 또 보자.) ② ○○○ you later. (나중에 보자.) ③ This is ○○○. (이것은 작별인사입니다.)",
+        "answer": "① Catch ② See ③ goodbye",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-20T00:55:11.888+09:00"
       }
     ],
     "paybooc": [],
