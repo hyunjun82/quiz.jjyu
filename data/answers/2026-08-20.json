@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T00:55:11.890+09:00",
+  "updatedAt": "2026-08-20T01:27:24.574+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -57,10 +57,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "리뉴얼된 앱테크 이벤트 체험만 하면 치킨, 아이스크림 기프티콘을 받을 수 있다. 마지막 3회차 경품지급일자는 언제일까요?",
         "answer": "9월 4일",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-20T00:02:18.687+09:00"
       }
     ],
@@ -107,10 +107,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/20일자",
+        "question": "외식비 부담으로 인해 점심 식사를 가볍고 효율적으로 챙기는 방식을 무엇이라고 할까요?",
         "answer": "2번 스내킹",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-20T00:08:00.347+09:00"
       },
       {
