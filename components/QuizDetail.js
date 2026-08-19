@@ -29,6 +29,8 @@ import { getTodayQuizGridItems } from '../lib/data';
  */
 export default function QuizDetail({ quiz, date, dates, data, isToday }) {
   const items = data?.answers?.[quiz.slug] ?? [];
+  // 오늘 사이트 전체 정답 건수 — 리드 문구용. 앱 하나만 세면 4개짜리 날이 초라해진다.
+  const totalToday = Object.values(data?.answers ?? {}).reduce((n, arr) => n + (arr?.length ?? 0), 0);
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
 
   // 오늘 정답이 아직 없으면 최근 정답을 대신 보여준다(빈 페이지 방지).
@@ -203,23 +205,18 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
 
       <AdUnit slot="3353452458" />
 
-      {/* 2026-08-19: 목록 = 정답 모음집 + 원터치 복사 (AnswerList).
+      {/* 목록 = 문제만 + [정답 확인]. 정답은 문제별 페이지에서 공개한다.
        *
-       * 예전엔 정답을 보려면 문제별 페이지를 하나씩 열어야 했다. PV 극대화 설계였지만
-       * 실제로는 자기 문제 하나만 찾고 나가서 나머지 페이지는 조회 0으로 남았다.
-       *
-       * 이제 목록에서 정답이 바로 보이고, 탭 한 번으로 복사된다. 특히 쉼표로 이어진
-       * 복수 정답(2026-08-19 실측: 66건 중 24건 = 36%)을 칩으로 쪼개서, 모바일에서
-       * 드래그 선택 없이 자기 힌트에 맞는 값 하나만 집을 수 있게 했다.
-       *
-       * 페이지 이동(전면광고 트리거)은 문제 지문 링크와 하단 '이번 달 전체'가 담당한다.
+       * 정답을 여기 깔면 상세로 들어갈 이유가 사라지고, 전 형식 중 가장 비싼
+       * 전면광고(RPM $7.26)가 통째로 죽는다. 대신 도착한 페이지에서 오늘 나머지 퀴즈와
+       * 정답을 전부 펼친다(TodayAllAnswers) — 이동도 살고 체류시간도 산다.
        * 설계 근거 전문은 AnswerList.js 상단 주석 참고. */}
       {items.length > 0 && (
         <AnswerList
           quiz={quiz}
           date={date}
-          dateLabel={formatKoreanDate(date)}
           items={items.map((it) => ({ ...it, time: formatTime(it.publishedAt) || '' }))}
+          totalToday={totalToday}
         />
       )}
 
