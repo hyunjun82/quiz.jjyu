@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T00:09:37.050+09:00",
+  "updatedAt": "2026-08-20T00:10:10.825+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -74,10 +74,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "0000란, 다른 나라의 통화와 비교해 미국 달러의 가치가 전반적으로 상승하는 현상이에요.",
         "answer": "달러강세",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-20T00:05:03.850+09:00"
       }
     ],
