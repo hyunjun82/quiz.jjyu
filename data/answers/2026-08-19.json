@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T10:08:13.171+09:00",
+  "updatedAt": "2026-08-19T10:59:04.779+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,6 +67,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-19T00:11:34.643+09:00"
+      },
+      {
+        "question": "음식 관련 이모지 보고 퀴즈 풀기",
+        "answer": "탄산",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-19T10:59:04.778+09:00"
       }
     ],
     "ok-cashbag": [
