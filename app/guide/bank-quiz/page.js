@@ -76,7 +76,7 @@ export default function BankQuizGuide() {
         <b>{(sumDaily * 30).toLocaleString()}원</b>입니다.
       </p>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="3353452458" />
       <h2>한눈에 비교</h2>
       <div className="g-table-wrap">
         <table className="g-table">
@@ -169,7 +169,7 @@ export default function BankQuizGuide() {
         <b>시간 초과</b>입니다. 퀴즈가 열린 뒤 일정 시간이 지나면 참여 자체가 닫힙니다.
       </p>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="9284435988" />
       <h2>오늘 정답 바로 확인하기</h2>
       <p className="g-lead">
         아래 은행 앱들의 오늘 정답은 공개 즉시 자동으로 올라옵니다.
