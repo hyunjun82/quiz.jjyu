@@ -79,7 +79,7 @@ export default function TimetableGuide() {
         ) : null}
       </p>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="3353452458" />
       <h2>시간대별 출제 표</h2>
       <div className="g-table-wrap">
         <table className="g-table">
@@ -134,7 +134,7 @@ export default function TimetableGuide() {
         몇 개인지 바로 보입니다.
       </p>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="9284435988" />
       <h2>앱별 출제 요약</h2>
       <div className="g-table-wrap">
         <table className="g-table">
