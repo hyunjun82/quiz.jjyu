@@ -74,7 +74,7 @@ export default function RankingGuide() {
         <b>{Math.round(sumQuestions)}개</b>입니다.
       </p>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="3353452458" />
       <h2>몇 개까지 하면 얼마가 되나</h2>
       <p>
         앱을 전부 깔 필요는 없습니다. 위에서부터 몇 개까지 했을 때 얼마가 되는지 계산했습니다.
@@ -142,7 +142,7 @@ export default function RankingGuide() {
         </table>
       </div>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="9284435988" />
       <h2>순위를 그대로 따라가면 안 되는 이유</h2>
 
       <h3>적립액과 걸리는 시간은 비례하지 않습니다</h3>
