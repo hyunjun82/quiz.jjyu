@@ -45,6 +45,8 @@ export default function sitemap() {
 
   return [
     { url: `${base}/`, lastModified: now, changeFrequency: 'hourly', priority: 1 },
+    // 오늘 전체 정답 모음 — 날짜 없는 고정 주소라 신뢰가 한곳에 쌓인다.
+    { url: `${base}/today/`, lastModified: now, changeFrequency: 'hourly', priority: 0.95 },
     ...guideUrls,
     ...quizzes.map((q) => ({
       url: `${base}/quiz/${q.slug}/`,
