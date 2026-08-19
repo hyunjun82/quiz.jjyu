@@ -145,7 +145,7 @@ export default function AnswerPage({ params }) {
       />
       <div className="detail-grid">
       <aside className="rail rail-left">
-        {/* 2026-08-18: PC 레일 수동 광고 제거 — QuizDetail.js 주석 참고 */}
+        <AdUnit slot="4223680996" />
       </aside>
       <div className="detail-main">
       <p className="crumb">
@@ -168,7 +168,7 @@ export default function AnswerPage({ params }) {
         </span>
       </div>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="3353452458" />
       <article className="q-card" data-idx={String(idx).padStart(2, '0')}>
         <p className="q-label">Question {idx}</p>
         <h2 className="q-title">{item.question}</h2>
@@ -220,11 +220,11 @@ export default function AnswerPage({ params }) {
         <span className="guide-cta-go">순위 보기 →</span>
       </a>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="9284435988" />
+      <AdUnit slot="5919906049" />
       </div>
       <aside className="rail">
-        {/* 2026-08-18: PC 레일 수동 광고 제거 — QuizDetail.js 주석 참고 */}
+        <AdUnit slot="4223680996" />
       </aside>
       </div>
     </main>
