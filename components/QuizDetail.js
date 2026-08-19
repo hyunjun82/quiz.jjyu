@@ -210,6 +210,12 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
       {items.length > 0 && (
         <>
+          <div className="a-lead">
+            <b>
+              오늘 {quiz.name}만 하더라도 무려 <em>{items.length}개</em> 허허허
+            </b>
+            <span>스크롤 내리시면 퀴즈와 정답 공개까지 ↓</span>
+          </div>
           <ol className="a-list">
             {items.map((item, i) => (
               <li key={i}>
@@ -217,7 +223,20 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
                   <span className="a-time">{formatTime(item.publishedAt) || '—'}</span>
                   <div className="a-main">
                     <p className="a-q">{item.question}</p>
-                    <span className="a-go">{quiz.eventType ? '참여 링크 확인하기 →' : '정답 확인하기 →'}</span>
+                    {item.note && <p className="a-hint">{item.note}</p>}
+                    <span className="a-go">
+                      {item.answer ? (
+                        <>
+                          정답: <b data-nosnippet>{item.answer}</b>
+                        </>
+                      ) : item.choices?.length ? (
+                        <span data-nosnippet>정답 후보 {item.choices.length}개 보기 →</span>
+                      ) : quiz.eventType ? (
+                        '참여 링크 확인하기 →'
+                      ) : (
+                        '정답 확인하기 →'
+                      )}
+                    </span>
                   </div>
                 </a>
               </li>
