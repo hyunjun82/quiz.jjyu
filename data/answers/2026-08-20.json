@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T00:05:01.023+09:00",
+  "updatedAt": "2026-08-20T00:05:03.850+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,8 +56,24 @@
         "publishedAt": "2026-08-20T00:01:11.964+09:00"
       }
     ],
-    "hpoint": [],
-    "bitbunny": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "Girl with Balloon",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-20T00:05:03.850+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "달러강세",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-20T00:05:03.850+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -104,7 +120,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-20T00:05:03.850+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
