@@ -8,6 +8,7 @@ import {
 } from '../lib/data';
 import AdUnit from './AdUnit';
 import TodayQuizGrid from './TodayQuizGrid';
+import AnswerList from './AnswerList';
 import { getTodayQuizGridItems } from '../lib/data';
 
 /**
@@ -207,42 +208,24 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
       </div>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      {/* 2026-08-19: 목록 = 정답 모음집 + 원터치 복사 (AnswerList).
+       *
+       * 예전엔 정답을 보려면 문제별 페이지를 하나씩 열어야 했다. PV 극대화 설계였지만
+       * 실제로는 자기 문제 하나만 찾고 나가서 나머지 페이지는 조회 0으로 남았다.
+       *
+       * 이제 목록에서 정답이 바로 보이고, 탭 한 번으로 복사된다. 특히 쉼표로 이어진
+       * 복수 정답(2026-08-19 실측: 66건 중 24건 = 36%)을 칩으로 쪼개서, 모바일에서
+       * 드래그 선택 없이 자기 힌트에 맞는 값 하나만 집을 수 있게 했다.
+       *
+       * 페이지 이동(전면광고 트리거)은 문제 지문 링크와 하단 '이번 달 전체'가 담당한다.
+       * 설계 근거 전문은 AnswerList.js 상단 주석 참고. */}
       {items.length > 0 && (
-        <>
-          <div className="a-lead">
-            <b>
-              오늘 {quiz.name}만 하더라도 무려 <em>{items.length}개</em> 허허허
-            </b>
-            <span>스크롤 내리시면 퀴즈와 정답 공개까지 ↓</span>
-          </div>
-          <ol className="a-list">
-            {items.map((item, i) => (
-              <li key={i}>
-                <a href={`/quiz/${quiz.slug}/${date}/${i + 1}/`} className="a-row">
-                  <span className="a-time">{formatTime(item.publishedAt) || '—'}</span>
-                  <div className="a-main">
-                    <p className="a-q">{item.question}</p>
-                    {item.note && <p className="a-hint">{item.note}</p>}
-                    <span className="a-go">
-                      {item.answer ? (
-                        <>
-                          정답: <b data-nosnippet>{item.answer}</b>
-                        </>
-                      ) : item.choices?.length ? (
-                        <span data-nosnippet>정답 후보 {item.choices.length}개 보기 →</span>
-                      ) : quiz.eventType ? (
-                        '참여 링크 확인하기 →'
-                      ) : (
-                        '정답 확인하기 →'
-                      )}
-                    </span>
-                  </div>
-                </a>
-              </li>
-            ))}
-          </ol>
-        </>
+        <AnswerList
+          quiz={quiz}
+          date={date}
+          dateLabel={formatKoreanDate(date)}
+          items={items.map((it) => ({ ...it, time: formatTime(it.publishedAt) || '' }))}
+        />
       )}
 
       {/* 전체 그리드(24개) — 정답 목록 바로 다음 = 광고보다 위.
