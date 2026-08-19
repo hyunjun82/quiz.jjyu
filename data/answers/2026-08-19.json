@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T16:25:19.407+09:00",
+  "updatedAt": "2026-08-19T18:41:19.511+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -521,7 +521,15 @@
         "publishedAt": "2026-08-19T00:04:01.142+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 삼다수",
+        "answer": "정수기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-19T18:41:19.511+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
