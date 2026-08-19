@@ -429,6 +429,31 @@ function parseTeampljeon(qCell, aCell) {
   return out;
 }
 
+/**
+ * 퀴즈벨 한 페이지에 여러 앱의 퀴즈가 섞여 있을 때, 남의 정답 행을 막는다.
+ *
+ * ── 2026-08-19 확정된 사고 ────────────────────────────────
+ * quizbells.com/quiz/kbstar 페이지 제목이 "KB스타 KBPAY 도전미션 스타퀴즈"다.
+ * 즉 한 표에 세 개의 다른 퀴즈가 들어 있다.
+ *   행1 "8/19일자"        -> KB Pay 도전미션   <- 우리가 kb-star 로 가져오고 있었다
+ *   행2 "한국사 퀴즈"      -> 한국사
+ *   행3 "스타퀴즈 8/19일자" -> 스타퀴즈
+ * 우리 kb-star 는 KB스타뱅킹 별별퀴즈이고, 진짜 별별퀴즈 정답은 blog 소스로
+ * 자정에 따로 들어온다. 즉 이 표에는 우리가 가져갈 행이 없다.
+ *
+ * 6일치 대조 결과 kb-star 에 들어간 quizbells 값이 kbpay 정답과 100% 일치했다:
+ *   08-19 트래블러스 체크카드 / 08-18 2번 LNG / 08-17 필름 카메라
+ *   08-16 4천명 / 08-15 촉법소년 / 08-14 KBPay10 (이름에 KBPay 가 박혀 있다)
+ * 우연이 아니라 구조적 오염이라 규칙으로 막는다.
+ *
+ * 이 차단은 수집기에만 건다. 헬스체크의 any 판정은 파서를 안 쓰고 표 행을
+ * 직접 보므로, 이 규칙 때문에 진짜 누락이 감시망에서 사라지지는 않는다.
+ */
+const QB_ROW_REJECT = {
+  // "8/19일자" 처럼 날짜만 있는 행 = KB Pay 도전미션. 별별퀴즈가 아니다.
+  'kb-star': [/^\d{1,2}\s*\/\s*\d{1,2}\s*일자$/],
+};
+
 function parseQuizbells(html, slug, today) {
   const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
   const dm = title.match(/(\d{4})년 (\d{2})월 (\d{2})일/);
@@ -455,6 +480,11 @@ function parseQuizbells(html, slug, today) {
     if (answers.length === 0) continue;
 
     let question = clean(qCell);
+
+    // 남의 퀴즈 행 차단 — 반드시 제목 보강 전에 본다.
+    // 보강되면 "8/19일자" 가 "KB 별별퀴즈 — 8/19일자" 로 바뀌어 규칙이 안 걸린다.
+    const rejects = QB_ROW_REJECT[slug];
+    if (rejects && rejects.some((re) => re.test(question))) continue;
     // 퀴즈벨은 문제 제목이 "퀴즈", "출석 퀴즈"처럼 지나치게 짧을 때가 있다.
     // 그대로 쓰면 우리 페이지 제목이 무의미해지므로 앱 이름(shortName)을 붙여 보강한다.
     // name이 아니라 shortName을 쓰는 이유: name은 '신한 쏠퀴즈 · 퀴즈팡팡 · 출석퀴즈'처럼
