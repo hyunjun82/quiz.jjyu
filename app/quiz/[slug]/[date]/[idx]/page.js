@@ -12,7 +12,7 @@ import {
 import AnswerBox from '../../../../../components/AnswerBox';
 import AdUnit from '../../../../../components/AdUnit';
 import TodayQuizGrid from '../../../../../components/TodayQuizGrid';
-import TodayAllAnswers from '../../../../../components/TodayAllAnswers';
+import MoreInQuiz from '../../../../../components/MoreInQuiz';
 
 /** 모든 (퀴즈 × 날짜 × 문제번호) 정답 페이지 생성 */
 export function generateStaticParams() {
@@ -108,31 +108,24 @@ export default function AnswerPage({ params }) {
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
   const grid = getTodayQuizGridItems(); // 한 번만 계산해서 재사용
 
-  /* 오늘 올라온 '나머지 퀴즈와 정답' 전부.
+  /* 이 앱의 오늘 문제 목록 — 지문과 시각만. 정답은 넣지 않는다.
    *
-   * 이 페이지는 [정답 확인]을 눌러 도착한 자리다 — 이동은 이미 일어났고(전면광고 소진),
-   * 여기서부터는 붙잡는 게 목적이다. 자기 문제 하나 찾으러 온 사람에게 오늘 풀 수 있는
-   * 정답을 전부 보여주면 다른 앱까지 챙겨 간다. 보고 있는 앱을 맨 위로 올린다. */
-  const todayAll = getAnswersByDate(params.date)?.answers ?? {};
-  const answerGroups = getQuizzes()
-    .map((q) => ({
-      slug: q.slug,
-      name: q.name,
-      eventType: q.eventType || null,
-      estDaily: q.estDaily || 0,
-      items: (todayAll[q.slug] ?? []).map((it, i) => ({
-        idx: i + 1,
-        question: it.question,
-        answer: it.answer ?? '',
-        choices: it.choices ?? null,
-        note: it.note ?? '',
-        time: formatTime(it.publishedAt) || '',
-      })),
-    }))
-    .filter((g) => g.items.length > 0)
-    .sort((a, b) => (a.slug === quiz.slug ? -1 : b.slug === quiz.slug ? 1 : b.items.length - a.items.length));
+   * 정답을 여기 실어 보내면 다음 문제 페이지로 갈 이유가 없어지고,
+   * 전 형식 중 가장 비싼 전면광고(RPM $7.26)의 트리거인 '페이지 이동'이 사라진다.
+   * 이 블록의 목적은 "이 앱 정답이 N개 더 남았다"를 알려 다음 페이지로 넘기는 것이다. */
+  const quizItems = items.map((it, i) => ({
+    idx: i + 1,
+    question: it.question,
+    time: formatTime(it.publishedAt) || '',
+  }));
 
-
+  /* 오늘 사이트 전체 정답 건수 — 모음집 버튼 후킹 문구에 쓴다.
+     모음집 자체는 /today/ 에 두고 여기서는 '버튼'만 노출한다. 버튼 클릭 = 페이지 이동 =
+     전면광고(RPM $7.26) 1회 추가. 정답을 여기 깔면 그 이동이 사라진다. */
+  const todayTotal = Object.values(getAnswersByDate(params.date)?.answers ?? {}).reduce(
+    (n, arr) => n + (arr?.length ?? 0),
+    0,
+  );
   const SITE_URL = 'https://quiz.jjyu.co.kr';
   const dateLabel = formatKoreanDate(params.date);
   const jsonLd = {
@@ -232,13 +225,26 @@ export default function AnswerPage({ params }) {
         )}
       </nav>
 
-      <TodayAllAnswers
-        groups={answerGroups}
+      <MoreInQuiz
+        quiz={quiz}
         date={params.date}
-        dateLabel={dateLabel}
-        currentSlug={quiz.slug}
+        items={quizItems}
         currentIdx={idx}
       />
+
+      {todayTotal > items.length && (
+        <a href="/today/" className="today-cta">
+          <span className="today-cta-txt">
+            <b>
+              오늘 퀴즈 <em>{todayTotal}개</em> 퀴즈와 정답 확인하기
+            </b>
+            <span>{quiz.name} 말고도 오늘 올라온 정답이 전부 모여 있어요</span>
+          </span>
+          <span className="today-cta-go">
+            전부 보기 <i aria-hidden="true">→</i>
+          </span>
+        </a>
+      )}
 
       {/* 정주행 그리드 — 광고보다 위로. 스크롤 없이 "오늘 다른 퀴즈 N개" 가 보여야 이동이 난다. */}
       <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
