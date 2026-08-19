@@ -84,12 +84,17 @@ export default function TodayQuizGrid({ items, currentSlug, today, variant }) {
       <p className="tq-sub">앱테크 하는 김에 오늘 정답 한 번에 확인하세요</p>
 
       <div className="tq-bar"><span style={{ width: pct + '%' }} /></div>
+      {/* 2026-08-19: 개수 → 원화 금액. 앱테크 사용자에게 "21개 남음"은 할 일이고
+          "₩1,340 안 받음"은 자기 돈이다. 금액은 quizzes.json estDaily 실데이터 합산 —
+          하드코딩 없음. 토막스도 이건 없다(개수만 보여줌). 나머지 구조는 무변경. */}
       {next ? (
         <a className="tq-next" href={`/quiz/${next.slug}/`}>
-          🎯 아직 {remaining.length}개 남음 — 다음: <b>{next.name}</b> →
+          💰 아직 안 받은 적립금{' '}
+          <b>₩{remaining.reduce((s, q) => s + (q.estDaily || 0), 0).toLocaleString()}</b>
+          {' '}— 다음: <b>{next.name}</b> →
         </a>
       ) : (
-        <p className="tq-next tq-done">✅ 오늘 정답 나온 퀴즈를 전부 확인했습니다</p>
+        <p className="tq-next tq-done">✅ 오늘 나온 적립금을 전부 확인했습니다</p>
       )}
 
       <div className="tq-grid">
