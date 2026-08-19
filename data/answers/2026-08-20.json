@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T01:55:17.863+09:00",
+  "updatedAt": "2026-08-20T03:30:12.513+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -62,6 +62,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-20T00:02:18.687+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "썸머",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-20T03:30:12.513+09:00"
       }
     ],
     "kakaobank": [
