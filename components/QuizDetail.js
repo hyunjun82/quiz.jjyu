@@ -102,14 +102,7 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       />
       <div className="detail-grid">
       <aside className="rail rail-left">
-        {/* 2026-08-18: PC 레일 수동 광고 제거 (슬롯 4223680996).
-            트래픽의 82%가 모바일인데 이 자리는 PC에서만 뜬다. 애드센스 7일 실측에서
-            퀴즈 수동 단위 중 노출 최저 두 개(463건/1,575건) 중 하나가 이것이고,
-            어느 쪽이어도 7일 수익이 $0.08~$0.44 — 최악 손실 하루 6센트다.
-            반대편에 자동광고 노출RPM $2.60 vs 수동 $0.70(3.7배)라는 실측이 있어,
-            이 자리를 비워 구글 자동 '사이드 레일' 형식에 넘긴다.
-            aside 는 남겨둔다 — 지우면 PC 3단 그리드 폭이 바뀌어 본문이 움직인다.
-            판정: 3일 뒤 quiz.jjyu.co.kr 노출RPM. 안 오르면 되돌린다. */}
+        <AdUnit slot="4223680996" />
       </aside>
       <div className="detail-main">
       <p className="crumb">
@@ -208,6 +201,8 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
       </div>
 
+      <AdUnit slot="3353452458" />
+
       {/* 2026-08-19: 목록 = 정답 모음집 + 원터치 복사 (AnswerList).
        *
        * 예전엔 정답을 보려면 문제별 페이지를 하나씩 열어야 했다. PV 극대화 설계였지만
@@ -231,6 +226,8 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       {/* 전체 그리드(24개) — 정답 목록 바로 다음 = 광고보다 위.
           목적을 달성한 직후가 이동이 가장 잘 나오는 자리다. */}
       <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
+
+      <AdUnit slot="9284435988" />
 
       {/* 가이드로 보내는 띠.
        *
@@ -279,23 +276,10 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         </a>
       </div>
 
-      {/* 2026-08-18: 페이지 하단 수동 광고 제거 (슬롯 5919906049).
-          오늘자 실측 — 자동 RPM $2.47 vs 수동 $0.68 (3.6배). 정답 페이지에는
-          수동이 2개(본문 중간 9284435988 + 여기 하단)였는데 하단을 뺀다.
-          이 자리는 가이드 링크 바로 아래라, 광고가 가이드 클릭을 뺏고 있었다 —
-          가이드로 이동하면 전면광고(RPM $6.74)가 뜨므로 광고끼리 잠식이었다.
-          본문 중간 것은 남긴다: 인페이지 자동 형식이 꺼져 있어(0/2) 다 빼면
-          본문 광고가 0이 된다. 판정: 8/21 노출RPM. 안 오르면 롤백. */}
+      <AdUnit slot="5919906049" />
       </div>
       <aside className="rail">
-        {/* 2026-08-18: PC 레일 수동 광고 제거 (슬롯 4223680996).
-            트래픽의 82%가 모바일인데 이 자리는 PC에서만 뜬다. 애드센스 7일 실측에서
-            퀴즈 수동 단위 중 노출 최저 두 개(463건/1,575건) 중 하나가 이것이고,
-            어느 쪽이어도 7일 수익이 $0.08~$0.44 — 최악 손실 하루 6센트다.
-            반대편에 자동광고 노출RPM $2.60 vs 수동 $0.70(3.7배)라는 실측이 있어,
-            이 자리를 비워 구글 자동 '사이드 레일' 형식에 넘긴다.
-            aside 는 남겨둔다 — 지우면 PC 3단 그리드 폭이 바뀌어 본문이 움직인다.
-            판정: 3일 뒤 quiz.jjyu.co.kr 노출RPM. 안 오르면 되돌린다. */}
+        <AdUnit slot="4223680996" />
       </aside>
       </div>
     </main>
