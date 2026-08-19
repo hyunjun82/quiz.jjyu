@@ -825,6 +825,73 @@ main, header, footer { position: relative; z-index: 1; }
 }
 .ac-month:hover { border-color: var(--border-strong); color: var(--text); }
 
+/* ── 문제별 페이지 하단 — 오늘 나머지 퀴즈와 정답 전부 ───────────
+   여기는 [정답 확인]을 눌러 도착한 자리다. 이동은 이미 났으니 붙잡는 게 목적이다. */
+.ta-wrap { margin: 26px 0 8px; }
+.ta-head { margin-bottom: 14px; }
+.ta-head h2 { font-size: 18px; font-weight: 800; letter-spacing: -0.025em; }
+.ta-head h2 em { font-style: normal; color: var(--mint); }
+.ta-head p { margin-top: 4px; font-size: 13px; color: var(--text-3); }
+
+.ta-grp {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+.ta-grp.ta-here { border-color: rgba(109, 92, 255, 0.35); box-shadow: 0 0 0 3px rgba(109, 92, 255, 0.07); }
+
+.ta-grp-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.ta-grp-head a { display: inline-flex; align-items: center; gap: 8px; }
+.ta-grp-head b { font-size: 15px; font-weight: 800; letter-spacing: -0.02em; }
+.ta-grp-head a:hover b { color: var(--mint); }
+.ta-n { font-size: 11.5px; font-weight: 800; color: var(--mint); background: var(--mint-bg); border-radius: 999px; padding: 3px 9px; }
+.ta-won { font-size: 12px; font-weight: 700; color: var(--text-3); }
+
+.ta-list { list-style: none; }
+.ta-row { padding: 12px 0; }
+.ta-row + .ta-row { border-top: 1px solid var(--border); }
+.ta-row.ta-cur { background: var(--mint-bg); margin: 0 -16px; padding: 12px 16px; border-radius: 10px; }
+.ta-badge { font-size: 10.5px; font-weight: 800; color: #fff; background: var(--mint); border-radius: 999px; padding: 3px 8px; }
+.ta-q { display: block; font-size: 14.5px; font-weight: 700; line-height: 1.5; letter-spacing: -0.015em; color: var(--text); }
+.ta-q:hover { color: var(--mint); }
+
+/* 정답 칩 — 탭 한 번 = 그 값만 복사. 모바일 최소 터치 크기 기준으로 잡는다. */
+.ac-wrap { display: flex; align-items: flex-start; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.ac-label { flex-shrink: 0; font-size: 12px; font-weight: 800; color: var(--text-3); padding-top: 8px; }
+.ac-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.ac-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 6px 12px;
+  background: var(--mint-bg);
+  border: 1px solid rgba(109, 92, 255, 0.22);
+  border-radius: 10px;
+  font-size: 14.5px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--mint);
+  cursor: pointer;
+  transition: transform 0.08s ease, background 0.15s ease, border-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.ac-chip:active { transform: scale(0.96); }
+.ac-chip .ac-ico { font-style: normal; font-size: 12px; opacity: 0.55; }
+.ac-chip.ac-copied { background: #e8fbf1; border-color: #9ee0bd; color: #12855a; }
+.ac-chip.ac-copied .ac-ico { opacity: 1; }
+
 /* 문제별 정답 페이지 */
 .q-card {
   position: relative;
