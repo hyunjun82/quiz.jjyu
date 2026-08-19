@@ -94,7 +94,7 @@ export default function GuideHome() {
         ))}
       </div>
 
-      {/* 2026-08-19: 수동 광고 제거 실험 — 자동만 (아래/상단 주석 참고) */}
+      <AdUnit slot="3353452458" />
       <section className="g-sec">
         <h2>이 수치는 어디서 나왔나</h2>
         <p>
