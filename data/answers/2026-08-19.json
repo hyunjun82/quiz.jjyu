@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T15:35:06.915+09:00",
+  "updatedAt": "2026-08-19T16:00:43.170+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -148,6 +148,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-19T14:02:43.582+09:00"
+      },
+      {
+        "question": "산지로드 수제 남원 김부각",
+        "answer": "9900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T16:00:43.170+09:00"
       }
     ],
     "shinhan-sol": [
