@@ -18,16 +18,15 @@
 export default function AnswerList({ quiz, date, items, totalToday }) {
   if (!items || items.length === 0) return null;
 
-  // 이 앱만 세면 4개짜리 날도 있다. 오늘 사이트 전체 건수로 말해야 "이만큼 있다"가 산다.
-  const total = totalToday && totalToday > items.length ? totalToday : items.length;
+  const noun = quiz.eventType ? '참여 링크' : '정답';
 
   return (
     <>
       <div className="a-lead">
         <b>
-          오늘 올라온 퀴즈 정답만 하더라도 무려 <em>{total}개</em> 허허허
+          오늘 {quiz.name}만 하더라도 무려 <em>{items.length}개</em> 허허허
         </b>
-        <span>정답 확인을 누르면 나머지 퀴즈와 정답까지 전부 펼쳐져요</span>
+        <span>{noun} 확인을 누르면 문제별로 바로 열려요</span>
       </div>
 
       <ol className="a-list">
@@ -47,6 +46,23 @@ export default function AnswerList({ quiz, date, items, totalToday }) {
           </li>
         ))}
       </ol>
+
+      {/* 오늘 전체 모음집으로 보내는 후킹 띠.
+          모음집을 이 페이지 안에 깔지 않고 버튼으로 뺀 이유 — 누르는 순간 페이지 이동이
+          발생하고, 그게 우리 형식 중 가장 비싼 전면광고(RPM $7.26)의 트리거다. */}
+      {totalToday > items.length && (
+        <a href="/today/" className="today-cta">
+          <span className="today-cta-txt">
+            <b>
+              오늘 퀴즈 <em>{totalToday}개</em> 퀴즈와 정답 확인하기
+            </b>
+            <span>{items.length}개는 이 앱 것이고, 나머지는 다른 앱에서 올라왔어요</span>
+          </span>
+          <span className="today-cta-go">
+            전부 보기 <i aria-hidden="true">→</i>
+          </span>
+        </a>
+      )}
 
       <div className="ac-foot">
         <a href={`/quiz/${quiz.slug}/monthly/`} className="ac-month">
