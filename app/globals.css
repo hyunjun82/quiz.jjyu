@@ -747,6 +747,38 @@ main, header, footer { position: relative; z-index: 1; }
   color: var(--mint);
 }
 
+/* 2026-08-19: 목록에 정답을 바로 노출('모음집' 전환).
+   정답 값은 한 단계 크고 진하게 — 이 줄이 페이지의 본체가 됐다. */
+.a-go b {
+  font-size: 15.5px;
+  font-weight: 900;
+  color: var(--blue);
+  letter-spacing: -0.01em;
+}
+
+/* 목록 위 안내 문구 — "하나가 아니다, 전부 아래에 있다" */
+.a-lead {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin: 18px 0 10px;
+  padding: 13px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.a-lead b { font-size: 15px; font-weight: 800; letter-spacing: -0.02em; }
+.a-lead span { font-size: 13.5px; color: var(--text-3); }
+.a-lead em { font-style: normal; font-weight: 800; color: var(--blue); }
+
+/* 초성 힌트 등 부연. 문제와 정답 사이에서 약하게 깔린다. */
+.a-hint {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.5;
+}
+
 /* 문제별 정답 페이지 */
 .q-card {
   position: relative;
