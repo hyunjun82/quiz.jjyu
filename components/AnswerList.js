@@ -15,16 +15,19 @@
  * 위로 빼면 글자 폭이 얼마든 겹칠 수가 없다.
  */
 
-export default function AnswerList({ quiz, date, items }) {
+export default function AnswerList({ quiz, date, items, totalToday }) {
   if (!items || items.length === 0) return null;
+
+  // 이 앱만 세면 4개짜리 날도 있다. 오늘 사이트 전체 건수로 말해야 "이만큼 있다"가 산다.
+  const total = totalToday && totalToday > items.length ? totalToday : items.length;
 
   return (
     <>
       <div className="a-lead">
         <b>
-          오늘 {quiz.name}만 하더라도 무려 <em>{items.length}개</em> 허허허
+          오늘 올라온 퀴즈 정답만 하더라도 무려 <em>{total}개</em> 허허허
         </b>
-        <span>스크롤 내리시면 퀴즈와 정답 공개까지</span>
+        <span>정답 확인을 누르면 나머지 퀴즈와 정답까지 전부 펼쳐져요</span>
       </div>
 
       <ol className="a-list">
