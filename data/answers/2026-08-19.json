@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updatedAt": "2026-08-19T11:01:57.883+09:00",
+  "updatedAt": "2026-08-19T12:05:10.808+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -74,6 +74,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-08-19T10:59:04.778+09:00"
+      },
+      {
+        "question": "AI 이모지 오후퀴즈hd7561",
+        "answer": "주행",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-19T12:05:10.808+09:00"
       }
     ],
     "ok-cashbag": [
