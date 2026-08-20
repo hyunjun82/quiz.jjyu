@@ -218,11 +218,11 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         />
       )}
 
+      <AdUnit slot="9284435988" />
+
       {/* 전체 그리드(24개) — 정답 목록 바로 다음 = 광고보다 위.
           목적을 달성한 직후가 이동이 가장 잘 나오는 자리다. */}
       <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
-
-      <AdUnit slot="9284435988" />
 
       {/* 가이드로 보내는 띠.
        *
