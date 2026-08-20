@@ -80,9 +80,9 @@ export default function HomePage() {
           </div>
         </div>
 
-      </div>
 
-      <AdUnit slot="9284435988" />
+        <AdUnit slot="9284435988" />
+      </div>
 
       <QuizBoard quizzes={quizzes} counts={counts} />
     </main>
