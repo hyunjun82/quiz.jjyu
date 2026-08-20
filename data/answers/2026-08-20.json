@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T10:44:36.058+09:00",
+  "updatedAt": "2026-08-20T10:44:51.081+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -195,10 +195,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "KB Pay 쇼핑 '매일10시' 단 하루, 할인 중인 농협안심한우 1등급 부채살 600g의 가격은 얼마일까요?",
         "answer": "30,900원",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-20T10:02:02.562+09:00"
       }
     ],
