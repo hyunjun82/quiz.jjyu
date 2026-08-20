@@ -8,11 +8,13 @@ import {
   formatShortDate,
   formatTime,
   getTodayQuizGridItems,
+  getShopPicks,
 } from '../../../../../lib/data';
 import AnswerBox from '../../../../../components/AnswerBox';
 import AdUnit from '../../../../../components/AdUnit';
 import TodayQuizGrid from '../../../../../components/TodayQuizGrid';
 import MoreInQuiz from '../../../../../components/MoreInQuiz';
+import { ShopInline, ShopExit } from '../../../../../components/ShopPicks';
 
 /** 모든 (퀴즈 × 날짜 × 문제번호) 정답 페이지 생성 */
 export function generateStaticParams() {
@@ -107,6 +109,7 @@ export default function AnswerPage({ params }) {
 
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
   const grid = getTodayQuizGridItems(); // 한 번만 계산해서 재사용
+  const shop = getShopPicks();
 
   /* 이 앱의 오늘 문제 목록 — 지문과 시각만. 정답은 넣지 않는다.
    *
@@ -119,9 +122,9 @@ export default function AnswerPage({ params }) {
     time: formatTime(it.publishedAt) || '',
   }));
 
-  /* 오늘 사이트 전체 정답 건수 — 모음집 버튼 후킹 문구에 쓴다.
-     모음집 자체는 /today/ 에 두고 여기서는 '버튼'만 노출한다. 버튼 클릭 = 페이지 이동 =
-     전면광고(RPM $7.26) 1회 추가. 정답을 여기 깔면 그 이동이 사라진다. */
+  /* 오늘 사이트 전체 정답 건수 — /today/ 링크 문구에 쓴다.
+     모음집 자체는 /today/ 에 두고 여기서는 '링크'만 노출한다. 정답을 여기 깔면
+     페이지 이동이 사라지고, 이동에 붙는 전면광고(RPM $7.26)도 같이 사라진다. */
   const todayTotal = Object.values(getAnswersByDate(params.date)?.answers ?? {}).reduce(
     (n, arr) => n + (arr?.length ?? 0),
     0,
@@ -232,22 +235,27 @@ export default function AnswerPage({ params }) {
         currentIdx={idx}
       />
 
+      {/* 2026-08-20: 3D 빨강 버튼 → 조용한 점선 링크.
+          같은 화면 아래에 토스쇼핑 카드가 붙어서, 강한 CTA를 하나로 줄였다. */}
       {todayTotal > items.length && (
-        <a href="/today/" className="today-cta">
-          <span className="today-cta-txt">
-            <b>
-              오늘 퀴즈 <em>{todayTotal}개</em> 퀴즈와 정답 확인하기
-            </b>
-            <span>{quiz.name} 말고도 오늘 올라온 정답이 전부 모여 있어요</span>
-          </span>
-          <span className="today-cta-go">
-            전부 보기 <i aria-hidden="true">→</i>
-          </span>
+        <a href="/today/" className="today-quiet">
+          <b>
+            오늘 올라온 퀴즈 정답 <em>{todayTotal}개</em> 한 번에 보기
+          </b>
+          <span>전체 보기 →</span>
         </a>
       )}
 
       {/* 정주행 그리드 — 광고보다 위로. 스크롤 없이 "오늘 다른 퀴즈 N개" 가 보여야 이동이 난다. */}
       <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
+
+      {/* 토스쇼핑 — 이동 장치(다음 문제·모음집·그리드)를 전부 지나온 자리에만 둔다.
+       *
+       * 위로 올리면 클릭률은 오르겠지만 '페이지 이동'을 뺏는다. 이동 1회 = 전면광고
+       * RPM $7.26이고, 쇼핑은 클릭해도 24시간 안에 결제가 나야 돈이 된다.
+       * 확실한 쪽을 먼저 태우고, 다 지나온 사람에게만 권하는 순서다.
+       * (수수료·정책 근거는 components/ShopPicks.js 상단 주석) */}
+      <ShopInline items={shop.items} daily={shop.daily} headline={shop.headline} />
 
       {/* 가이드로 보내는 띠 — 정답과 이동 버튼 아래에만. (QuizDetail.js 주석 참고)
           정답 페이지는 CPC $0.02고 가이드는 금융 문맥이라 단가가 다르다.
@@ -264,6 +272,10 @@ export default function AnswerPage({ params }) {
       <aside className="rail">
       </aside>
       </div>
+
+      {/* 나갈 때 한 번. 들어올 때 막는 오퍼월과 정반대 — 정답을 이미 다 본 뒤다.
+          ⚠️ 이 시트 안에는 애드센스 광고를 넣지 않는다(게재위치 정책). */}
+      <ShopExit items={shop.items} daily={shop.daily} />
     </main>
   );
 }
