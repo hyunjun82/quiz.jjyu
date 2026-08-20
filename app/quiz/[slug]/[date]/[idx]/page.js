@@ -223,6 +223,8 @@ export default function AnswerPage({ params }) {
         )}
       </nav>
 
+      <AdUnit slot="9284435988" />
+
       <MoreInQuiz
         quiz={quiz}
         date={params.date}
@@ -258,7 +260,6 @@ export default function AnswerPage({ params }) {
         <span className="guide-cta-go">순위 보기 →</span>
       </a>
 
-      <AdUnit slot="9284435988" />
       </div>
       <aside className="rail">
       </aside>
