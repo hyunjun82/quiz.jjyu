@@ -110,9 +110,9 @@ export default function TodayAllPage() {
             currentIdx={null}
           />
 
-          <TodayQuizGrid items={grid.items} currentSlug={null} today={grid.today} />
-
           <AdUnit slot="9284435988" />
+
+          <TodayQuizGrid items={grid.items} currentSlug={null} today={grid.today} />
 
           <div className="guide-cta-group">
             <p className="guide-cta-head">더 알아보기</p>
