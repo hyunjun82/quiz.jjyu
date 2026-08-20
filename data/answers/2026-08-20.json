@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T10:04:22.599+09:00",
+  "updatedAt": "2026-08-20T10:04:47.147+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -329,7 +329,15 @@
         "publishedAt": "2026-08-20T00:05:03.850+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "신용점수",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-20T10:04:47.147+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "디깅퀴즈 (디깅퀴즈)",
