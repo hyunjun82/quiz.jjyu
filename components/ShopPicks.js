@@ -81,11 +81,44 @@ function Grid({ items, daily }) {
   );
 }
 
+/**
+ * 정답 바로 아래에 붙는 한 줄 띠 — 상품 그리드로 데려가는 역할만 한다.
+ *
+ * ── 왜 필요했나 (2026-08-20) ─────────────────────────────
+ * 상품 그리드를 페이지 맨 아래(3,067px 지점)에 뒀더니 아무도 거기까지 안 내려갔다.
+ * 사장님이 직접 들어와서 "배너 안 뜨는데" 라고 했다. 안 보이면 0원이다.
+ * 그렇다고 그리드를 위로 올리면 '다음 문제 → 모음집 → 그리드' 로 이어지는 이동이
+ * 밀려서 전면광고(RPM $7.26)를 깎는다. 그래서 자리는 그대로 두고,
+ * 위에는 '가는 길'만 한 줄로 놓는다. 높이 60px 남짓이라 아무것도 밀어내지 않는다.
+ *
+ * ── 문구를 왜 '비교해보세요'로 쓰나 ──────────────────────
+ * "쿠x보다 싸다"는 비교광고다. 표시·광고의 공정화에 관한 법률상 비교 표시는
+ * 객관적으로 입증 가능한 사실이어야 하는데, 우리는 경쟁사 전 품목 가격을
+ * 대조할 방법이 없다. 한 건이라도 더 비싸면 그 순간 부당 비교광고가 된다.
+ * '싼지 비교해보세요'는 단정이 아니라 권유라 입증 책임이 생기지 않고,
+ * 후킹은 오히려 더 세다 — 사람은 단정보다 확인 욕구에 더 잘 반응한다.
+ */
+export function ShopTeaser({ items = [], daily = 0 }) {
+  if (!items.length) return null;
+  return (
+    <a href="#shop" className="sp-teaser">
+      <span className="sp-teaser-ico" aria-hidden="true">🛒</span>
+      <span className="sp-teaser-txt">
+        <b>쿠x보다 싼지 직접 비교해보세요</b>
+        <span>
+          오늘 퀴즈로 모은 {daily.toLocaleString()}원으로 뭘 살 수 있는지 계산해뒀어요
+        </span>
+      </span>
+      <span className="sp-teaser-go">전상품 확인 →</span>
+    </a>
+  );
+}
+
 /** 정답 아래 고정 섹션 — 6개까지 */
 export function ShopInline({ items = [], daily = 0, headline = '' }) {
   if (!items.length) return null;
   return (
-    <section className="sp-wrap">
+    <section className="sp-wrap" id="shop">
       <div className="sp-head">
         {/* 이 문장은 이 사이트만 쓸 수 있다. headline 은 data/shop.json 에서 받는다
             — 예: "설렁탕 한 그릇 값입니다" (8,900원 ÷ 5그릇 = 1,780원 ≈ 하루 적립액) */}
