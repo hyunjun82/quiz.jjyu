@@ -76,7 +76,6 @@ export default function BankQuizGuide() {
         <b>{(sumDaily * 30).toLocaleString()}원</b>입니다.
       </p>
 
-      <AdUnit slot="3353452458" />
       <h2>한눈에 비교</h2>
       <div className="g-table-wrap">
         <table className="g-table">
