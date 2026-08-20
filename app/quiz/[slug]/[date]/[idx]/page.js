@@ -164,7 +164,6 @@ export default function AnswerPage({ params }) {
       />
       <div className="detail-grid">
       <aside className="rail rail-left">
-        <AdUnit slot="4223680996" />
       </aside>
       <div className="detail-main">
       <p className="crumb">
@@ -187,7 +186,6 @@ export default function AnswerPage({ params }) {
         </span>
       </div>
 
-      <AdUnit slot="3353452458" />
       <article className="q-card" data-idx={String(idx).padStart(2, '0')}>
         <p className="q-label">Question {idx}</p>
         <h2 className="q-title">{item.question}</h2>
@@ -261,10 +259,8 @@ export default function AnswerPage({ params }) {
       </a>
 
       <AdUnit slot="9284435988" />
-      <AdUnit slot="5919906049" />
       </div>
       <aside className="rail">
-        <AdUnit slot="4223680996" />
       </aside>
       </div>
     </main>
