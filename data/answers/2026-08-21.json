@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T08:03:38.860+09:00",
+  "updatedAt": "2026-08-21T08:04:44.528+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -103,7 +103,15 @@
         "publishedAt": "2026-08-21T00:07:57.910+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 경단기 (혜택",
+        "answer": "경파르타",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T08:04:44.528+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "디깅퀴즈 (디깅퀴즈)",
