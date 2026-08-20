@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T07:23:10.720+09:00",
+  "updatedAt": "2026-08-21T08:03:38.860+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      },
+      {
+        "question": "경단기 경찰 합격퀴즈",
+        "answer": "경파르타",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-21T08:03:38.860+09:00"
       }
     ],
     "cashwalk": [],
