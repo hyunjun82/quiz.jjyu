@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T00:07:57.910+09:00",
+  "updatedAt": "2026-08-21T00:12:42.588+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -20,7 +20,15 @@
         "publishedAt": "2026-08-21T00:07:57.910+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "OX 퀴즈 8/21",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-21T00:12:42.588+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
