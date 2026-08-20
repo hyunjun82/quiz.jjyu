@@ -104,7 +104,6 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
       />
       <div className="detail-grid">
       <aside className="rail rail-left">
-        <AdUnit slot="4223680996" />
       </aside>
       <div className="detail-main">
       <p className="crumb">
@@ -203,7 +202,6 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
       </div>
 
-      <AdUnit slot="3353452458" />
 
       {/* 목록 = 문제만 + [정답 확인]. 정답은 문제별 페이지에서 공개한다.
        *
@@ -273,10 +271,8 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         </a>
       </div>
 
-      <AdUnit slot="5919906049" />
       </div>
       <aside className="rail">
-        <AdUnit slot="4223680996" />
       </aside>
       </div>
     </main>
