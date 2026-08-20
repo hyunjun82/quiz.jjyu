@@ -202,6 +202,8 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         <b>참여 방법</b> — {quiz.howTo} · {quiz.resetInfo}
       </div>
 
+      <AdUnit slot="9284435988" />
+
 
       {/* 목록 = 문제만 + [정답 확인]. 정답은 문제별 페이지에서 공개한다.
        *
@@ -218,7 +220,6 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
         />
       )}
 
-      <AdUnit slot="9284435988" />
 
       {/* 전체 그리드(24개) — 정답 목록 바로 다음 = 광고보다 위.
           목적을 달성한 직후가 이동이 가장 잘 나오는 자리다. */}
