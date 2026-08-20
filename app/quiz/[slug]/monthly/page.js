@@ -106,7 +106,6 @@ export default function MonthlyPage({ params }) {
       />
       <div className="detail-grid">
         <aside className="rail rail-left">
-          <AdUnit slot="4223680996" />
         </aside>
         <div className="detail-main">
           <p className="crumb">
@@ -134,7 +133,6 @@ export default function MonthlyPage({ params }) {
             <a href={`/quiz/${quiz.slug}/`}>오늘의 정답 페이지</a>로 가세요.
           </div>
 
-          <AdUnit slot="3353452458" />
           {days.length === 0 ? (
             <div className="empty">
               <b>이번 달 정답이 아직 없습니다</b>
@@ -191,7 +189,6 @@ export default function MonthlyPage({ params }) {
           </section>
         </div>
         <aside className="rail">
-          <AdUnit slot="4223680996" />
         </aside>
       </div>
     </main>
