@@ -1,8 +1,23 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T05:24:26.432+09:00",
+  "updatedAt": "2026-08-21T07:23:10.720+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "JMW 드라이기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "머메이드 원피스",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -37,7 +52,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "1번 연금저축펀드",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -181,10 +204,34 @@
         "publishedAt": "2026-08-21T02:19:09.997+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "1, 3, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "젠슨황",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
