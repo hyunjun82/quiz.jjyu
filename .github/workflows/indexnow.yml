@@ -42,6 +42,21 @@ jobs:
             "urlList": $URLS
           }
           EOF
-          curl -s -X POST "https://api.indexnow.org/indexnow" \
+          # ⚠️ 실패해도 워크플로를 빨간불로 만들지 않는다.
+          #
+          # 2026-08-20 #726 이 exit 35(curl SSL connect error) / HTTP 000 으로 죽었다.
+          # 우리 키·URL 문제가 아니라 그 순간 api.indexnow.org 쪽 TLS 연결이 끊긴 것이고,
+          # 3분 뒤 같은 코드로 돈 #728 은 127개 URL 을 정상 전송했다.
+          # IndexNow 핑은 '더 빨리 알리는' 보조 수단일 뿐이라(사이트맵은 그대로 있다)
+          # 한 회차 빠져도 손실이 없다. 그런데 실패 메일은 매번 온다 — 그게 더 손해다.
+          # 그래서 재시도 3회 후에도 안 되면 경고만 남기고 성공으로 끝낸다.
+          CODE=$(curl -s -X POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json; charset=utf-8" \
-            -d @payload.json -w "\nHTTP %{http_code}\n"
+            --retry 3 --retry-delay 5 --retry-all-errors \
+            --connect-timeout 15 --max-time 60 \
+            -d @payload.json -o /dev/null -w "%{http_code}") || CODE="000"
+          echo "IndexNow 응답: HTTP $CODE"
+          case "$CODE" in
+            200|202) echo "핑 성공" ;;
+            *) echo "::warning::IndexNow 핑 실패 (HTTP $CODE) — 다음 정답 수집 때 자동으로 다시 보냅니다" ;;
+          esac
