@@ -79,7 +79,6 @@ export default function TimetableGuide() {
         ) : null}
       </p>
 
-      <AdUnit slot="3353452458" />
       <h2>시간대별 출제 표</h2>
       <div className="g-table-wrap">
         <table className="g-table">
