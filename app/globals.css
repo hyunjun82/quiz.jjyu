@@ -1138,6 +1138,11 @@ main, header, footer { position: relative; z-index: 1; }
 }
 
 /* ── ad slots ─────────────────────────────── */
+/* 광고가 .container 밖에 놓여도 본문 폭을 벗어나지 않게 한다.
+   2026-08-20 실측: 홈 광고가 뷰포트 전폭(2036px)으로 퍼지고 내부 iframe 이
+   왼쪽 정렬돼 콘텐츠 밖으로 삐져나온 것처럼 보였다. */
+.ad-slot { max-width: 1032px; margin-left: auto; margin-right: auto; }
+
 .ad-slot {
   margin: 24px 0;
   min-height: 110px;
