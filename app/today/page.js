@@ -76,7 +76,6 @@ export default function TodayAllPage() {
     <main className="container detail">
       <div className="detail-grid">
         <aside className="rail rail-left">
-          <AdUnit slot="4223680996" />
         </aside>
         <div className="detail-main">
           <p className="crumb">
@@ -102,7 +101,6 @@ export default function TodayAllPage() {
             <b>이 페이지</b> — 오늘 올라온 앱테크 퀴즈 정답을 앱별로 전부 모았습니다 · 수시 갱신
           </div>
 
-          <AdUnit slot="3353452458" />
 
           <TodayAllAnswers
             groups={groups}
@@ -136,10 +134,8 @@ export default function TodayAllPage() {
             </a>
           </div>
 
-          <AdUnit slot="5919906049" />
         </div>
         <aside className="rail">
-          <AdUnit slot="4223680996" />
         </aside>
       </div>
     </main>
