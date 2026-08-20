@@ -101,7 +101,21 @@ function Grid({ items, daily }) {
 export function ShopTeaser({ items = [], daily = 0 }) {
   if (!items.length) return null;
   return (
-    <a href="#shop" className="sp-teaser">
+    <a
+      href="#shop"
+      className="sp-teaser"
+      onClick={(e) => {
+        /* ⚠️ 해시를 남기지 않는다.
+         * 크롬은 페이지 안 앵커 이동(#shop)에도 popstate 를 발생시킨다(2026-08-20 실측).
+         * 그러면 아래 ShopExit 의 '나갈 때' 감지가 오작동해서, 이 버튼을 누르는 순간
+         * 시트가 같이 떠버린다. 게다가 뒤로가기가 '페이지 위로' 가버려서 나가지도 못한다.
+         * 그래서 기본 동작을 막고 스크롤만 시킨다. */
+        const el = document.getElementById('shop');
+        if (!el) return;
+        e.preventDefault();
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }}
+    >
       <span className="sp-teaser-ico" aria-hidden="true">🛒</span>
       <span className="sp-teaser-txt">
         <b>쿠x보다 싼지 직접 비교해보세요</b>
@@ -142,12 +156,15 @@ export function ShopInline({ items = [], daily = 0, headline = '' }) {
 }
 
 /**
- * 나갈 때 한 번 뜨는 시트.
+ * 정답 화면에서 3초 뒤 한 번 뜨는 시트 (세션당 1회).
  *
- * 정답을 이미 본 뒤라 목적을 방해하지 않는다(들어올 때 막는 오퍼월과 다른 점).
- * 모바일은 뒤로가기, PC는 마우스가 화면 위로 빠질 때 감지한다.
+ * 처음엔 '나갈 때'만 띄웠는데 대부분 못 보고 나갔다. 배너를 봐야 들어가므로
+ * 3초 뒤 자동으로 띄운다. 3초 전에 나가는 사람은 나가는 순간에 잡는다
+ * (모바일 뒤로가기 / PC 마우스가 화면 위로 빠질 때).
+ *
  * ⚠️ 뒤로가기는 '한 번만' 잡는다. 두 번째엔 그냥 나가야 한다 —
  *    안 그러면 "뒤로가기가 안 먹네" 하고 짜증이 난다.
+ * ⚠️ 애드센스 전면광고 위를 덮지 않는다(정책: 광고를 가리는 콘텐츠 금지).
  */
 export function ShopExit({ items = [], daily = 0 }) {
   const [open, setOpen] = useState(false);
@@ -169,9 +186,36 @@ export function ShopExit({ items = [], daily = 0 }) {
       return true;
     };
 
-    // 모바일 — 뒤로가기 한 번을 붙잡는다
+    /* ── 3초 뒤 자동으로 띄운다 ──────────────────────────────
+     * 나갈 때만 띄웠더니 대부분 못 보고 나갔다. 배너를 봐야 들어갈 수 있으므로
+     * 정답 화면에서 3초 뒤에 띄운다.
+     *
+     * ⚠️ 단, 애드센스 전면광고(vignette)가 떠 있으면 미룬다.
+     * 우리 시트가 구글 광고 위를 덮으면 "광고를 가리는 콘텐츠"가 되어 정책 위반이다.
+     * 전면광고가 뜨면 주소창 해시가 #google_vignette 로 바뀌는 걸 실측했다(2026-08-20).
+     * 그걸 신호로 삼아, 사라질 때까지 2초 간격으로 최대 5번까지 기다린다. */
+    const vignetteUp = () => location.hash.includes('google_vignette');
+    let tries = 0;
+    let timer = setTimeout(function tick() {
+      if (vignetteUp() && tries < 5) {
+        tries += 1;
+        timer = setTimeout(tick, 2000);
+        return;
+      }
+      fire();
+    }, 3000);
+
+    // 3초를 못 채우고 먼저 나가는 사람도 있다 — 그때는 나가는 순간에 띄운다.
     history.pushState({ sp: 1 }, '');
+    let lastHash = location.hash;
     const onPop = () => {
+      /* 크롬은 페이지 안 앵커 이동(#shop)에도 popstate 를 쏜다(2026-08-20 실측).
+       * 해시가 바뀐 건 '나가는 것'이 아니므로 무시한다. 이 가드가 없으면
+       * 티저 버튼을 누르는 순간 시트가 같이 떠버린다. */
+      if (location.hash !== lastHash) {
+        lastHash = location.hash;
+        return;
+      }
       if (!fire()) return; // 이미 떴으면 붙잡지 않고 그대로 보낸다
       history.pushState({ sp: 1 }, ''); // 다음 뒤로가기는 실제로 나가게
     };
@@ -184,6 +228,7 @@ export function ShopExit({ items = [], daily = 0 }) {
     window.addEventListener('popstate', onPop);
     document.addEventListener('mouseout', onLeave);
     return () => {
+      clearTimeout(timer);
       window.removeEventListener('popstate', onPop);
       document.removeEventListener('mouseout', onLeave);
     };
