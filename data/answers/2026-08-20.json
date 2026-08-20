@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updatedAt": "2026-08-20T10:44:51.081+09:00",
+  "updatedAt": "2026-08-20T10:58:04.964+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -190,6 +190,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-20T00:10:44.552+09:00"
+      },
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기 (오전 8시)",
+        "answer": "전력",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-20T10:58:04.964+09:00"
       }
     ],
     "ok-cashbag": [],
@@ -459,10 +466,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "스태그플레이션은 경기 침체와 물가 상승이 동시에 나타나는 현상이에요.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-20T00:05:03.850+09:00"
       }
     ],
