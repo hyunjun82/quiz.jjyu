@@ -14,7 +14,7 @@ import AnswerBox from '../../../../../components/AnswerBox';
 import AdUnit from '../../../../../components/AdUnit';
 import TodayQuizGrid from '../../../../../components/TodayQuizGrid';
 import MoreInQuiz from '../../../../../components/MoreInQuiz';
-import { ShopInline, ShopExit } from '../../../../../components/ShopPicks';
+import { ShopTeaser, ShopInline, ShopExit } from '../../../../../components/ShopPicks';
 
 /** 모든 (퀴즈 × 날짜 × 문제번호) 정답 페이지 생성 */
 export function generateStaticParams() {
@@ -225,6 +225,11 @@ export default function AnswerPage({ params }) {
           </a>
         )}
       </nav>
+
+      {/* 상품 그리드는 페이지 맨 아래에 있다(이동 장치를 먼저 태우려고).
+          그런데 거기까지 안 내려가는 사람이 대부분이라 '가는 길'만 여기 한 줄로 깐다.
+          한 줄이라 '다음 문제' 버튼을 밀어내지 않는다. 설계 근거는 ShopPicks.js 주석. */}
+      <ShopTeaser items={shop.items} daily={shop.daily} />
 
       <AdUnit slot="9284435988" />
 
