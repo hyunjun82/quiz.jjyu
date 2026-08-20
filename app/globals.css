@@ -910,114 +910,29 @@ main, header, footer { position: relative; z-index: 1; }
 }
 .mq-q { font-size: 14.5px; font-weight: 700; line-height: 1.5; letter-spacing: -0.015em; color: var(--text); margin: 0; }
 
-/* ── 오늘 전체 모음집(/today/)으로 보내는 후킹 버튼 ───────────
-   이 클릭 한 번이 전면광고(RPM $7.26) 한 번이다. 페이지에서 제일 눈에 띄어야 한다.
-   페이지 기본색이 보라 계열이라, 대비되는 오렌지→핑크 그라데이션을 쓴다.
-   3D: 아래쪽에 두꺼운 단색 그림자를 깔아 '두께'를 만듦고, 누르면 그만큼 내려앉는다. */
-.today-cta {
-  position: relative;
+/* ── 오늘 전체 모음집(/today/)으로 보내는 링크 ────────────────
+   2026-08-20: 오렌지→핑크 3D 버튼을 걷어냈다.
+   토스쇼핑 카드를 같은 화면에 붙이는 순간 강한 CTA가 둘이 되는데, 눈은 하나만 본다.
+   빨강·주황은 토스 카드에 몰아주고, /today/ 로 가는 길은 조용한 링크로만 남긴다.
+   (링크 자체를 지우면 /today/ 가 내부링크 없는 고아 페이지가 되어 크롤러 발견이 늦어진다.) */
+.today-quiet {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 14px;
-  flex-wrap: wrap;
-  margin: 20px 0 16px;
-  padding: 18px 20px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, #ff8a3d 0%, #ff4d6d 55%, #f0399b 100%);
-  border: none;
-  color: #fff;
-  overflow: hidden;
-  box-shadow: 0 6px 0 #c22a5f, 0 14px 28px rgba(240, 57, 155, 0.32);
-  transform: translateY(0);
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
-  -webkit-tap-highlight-color: transparent;
+  gap: 10px;
+  margin: 18px 0 14px;
+  padding: 13px 16px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  text-decoration: none;
 }
-.today-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 0 #c22a5f, 0 18px 34px rgba(240, 57, 155, 0.42);
+.today-quiet:hover { border-color: var(--border-strong); text-decoration: none; }
+.today-quiet b {
+  font-size: 14px; font-weight: 800; color: var(--text); letter-spacing: -0.02em;
 }
-/* 누르면 두께만큼 내려앉는다 — 물리적으로 눌린 느낌 */
-.today-cta:active {
-  transform: translateY(6px);
-  box-shadow: 0 0 0 #c22a5f, 0 6px 14px rgba(240, 57, 155, 0.3);
-}
-
-/* 표면을 훑고 지나가는 빛. 가만히 있어도 살아 있는 버튼으로 읽힌다. */
-.today-cta::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -60%;
-  width: 40%;
-  height: 100%;
-  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.45), transparent);
-  transform: skewX(-18deg);
-  animation: tcSheen 3.4s ease-in-out infinite;
-  pointer-events: none;
-}
-@keyframes tcSheen {
-  0%, 62% { left: -60%; }
-  92%, 100% { left: 130%; }
-}
-
-.today-cta-txt { display: flex; flex-direction: column; gap: 4px; min-width: 0; position: relative; z-index: 1; }
-.today-cta-txt b {
-  font-size: 16.5px;
-  font-weight: 900;
-  letter-spacing: -0.03em;
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
-}
-.today-cta-txt b em {
-  font-style: normal;
-  font-weight: 900;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.24);
-  border-radius: 8px;
-  padding: 1px 8px;
-  margin: 0 2px;
-}
-.today-cta-txt > span { font-size: 12.5px; color: rgba(255, 255, 255, 0.9); }
-
-/* 화살표 배지 — 3.2초마다 한 바퀴 완전 회전 */
-.today-cta-go {
-  position: relative;
-  z-index: 1;
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13.5px;
-  font-weight: 900;
-  color: #fff;
-  white-space: nowrap;
-}
-.today-cta-go i {
-  font-style: normal;
-  width: 30px;
-  height: 30px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: #fff;
-  color: #f0399b;
-  font-size: 15px;
-  font-weight: 900;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.14);
-  animation: tcSpin 3.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-}
-@keyframes tcSpin {
-  0%, 70% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* 움직임을 줄이도록 설정한 사용자에게는 애니메이션을 끈다(멀미·주의력 문제 방지). */
-@media (prefers-reduced-motion: reduce) {
-  .today-cta::before,
-  .today-cta-go i { animation: none; }
-}
+.today-quiet b em { font-style: normal; color: var(--blue); }
+.today-quiet span { font-size: 13px; font-weight: 800; color: var(--text-3); white-space: nowrap; }
 
 /* 문제별 정답 페이지 */
 .q-card {
@@ -1399,3 +1314,147 @@ main, header, footer { position: relative; z-index: 1; }
   font-size: 13px; font-weight: 800; color: var(--text-3); text-decoration: none;
 }
 .guide-cta-all:hover { border-color: var(--border-strong); color: var(--text); text-decoration: none; }
+
+/* ─────────────────────────────────────────────────────────────
+   토스쇼핑 쉐어링크 (.sp-*)
+   설계 근거는 components/ShopPicks.js 상단 주석에 있다.
+
+   ⚠️ 애드센스 광고와 절대 헷갈리면 안 된다("콘텐츠가 광고와 유사하게 보이도록 하는
+   레이아웃" 금지 조항). 그래서 애드센스 슬롯(.ad-slot)과 다른 색·다른 테두리를 쓰고,
+   섹션 제목과 공정위 고지 문구를 항상 같이 둔다.
+   ───────────────────────────────────────────────────────────── */
+.sp-wrap {
+  margin: 22px 0 4px;
+  padding: 16px 14px 14px;
+  border: 1px solid #ffd9c2;
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, #fff7f0 0%, #ffffff 62%);
+}
+.sp-head { margin-bottom: 12px; }
+.sp-head h2 {
+  margin: 0 0 3px;
+  font-size: 16.5px; font-weight: 800; letter-spacing: -0.03em; color: var(--text);
+  line-height: 1.35;
+}
+.sp-head h2 em { font-style: normal; color: #f2542d; }
+.sp-head h2 br { display: block; content: ''; }
+.sp-head p { margin: 0; font-size: 13px; color: var(--text-3); line-height: 1.5; }
+
+.sp-list { display: flex; flex-direction: column; gap: 9px; }
+
+/* 카드 — 썸네일 + 정보 + 화살표 */
+.sp-card {
+  display: flex; align-items: center; gap: 12px;
+  padding: 11px 12px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-decoration: none;
+  transition: border-color 0.14s ease, transform 0.14s ease, box-shadow 0.14s ease;
+}
+.sp-card:hover {
+  border-color: #ffb08a; text-decoration: none;
+  box-shadow: 0 6px 18px rgba(242, 84, 45, 0.12);
+}
+.sp-card:active { transform: scale(0.99); }
+
+/* 맨 위 한 개는 크게 — 클릭이 전부인 구조라 첫 카드에 눈을 몰아준다 */
+.sp-big { padding: 13px; border-color: #ffc9a8; background: #fffaf6; }
+.sp-big .sp-thumb { width: 96px; height: 96px; }
+.sp-big .sp-name { font-size: 15px; }
+.sp-big .sp-price { font-size: 17px; }
+
+.sp-thumb {
+  position: relative; flex: 0 0 auto;
+  width: 72px; height: 72px;
+  border-radius: 11px; overflow: hidden;
+  background: var(--surface-2);
+}
+.sp-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sp-tag {
+  position: absolute; left: 0; bottom: 0;
+  font-style: normal; font-size: 10.5px; font-weight: 800; color: #fff;
+  background: rgba(242, 84, 45, 0.94);
+  padding: 3px 7px; border-radius: 0 8px 0 10px;
+  letter-spacing: -0.02em;
+}
+
+.sp-info { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1 1 auto; }
+.sp-name {
+  font-size: 14px; font-weight: 700; color: var(--text); letter-spacing: -0.02em;
+  line-height: 1.4;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.sp-note {
+  font-size: 12px; color: var(--text-3); line-height: 1.45;
+  display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
+}
+.sp-price {
+  display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap;
+  font-size: 15.5px; font-weight: 800; color: #f2542d;
+  font-variant-numeric: tabular-nums; margin-top: 1px;
+}
+/* "8,700원 = 적립금 5일치" — 쿠팡 배너는 못 쓰는 문장이다. 우리만 쓴다. */
+.sp-days {
+  font-style: normal; font-size: 11.5px; font-weight: 700; color: var(--text-3);
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: 999px; padding: 2px 8px;
+}
+/* 가격을 최소 단위로 쪼갠 한 줄 — 이 배너에서 제일 세게 읽혀야 하는 문장이다.
+   "8,700원"은 남의 돈이고 "1병에 109원"은 결정할 수 있는 숫자다. */
+.sp-unit { font-size: 12px; font-weight: 800; color: #e01e5a; letter-spacing: -0.01em; }
+.sp-big .sp-unit { font-size: 12.5px; }
+.sp-go { flex: 0 0 auto; font-size: 17px; font-weight: 800; color: #f2542d; }
+
+/* 공정위 고지 — 고정 섹션·팝업 양쪽 모두에 붙는다 */
+.sp-disc {
+  margin: 11px 0 0;
+  font-size: 11px; line-height: 1.55; color: var(--text-3);
+}
+
+/* ── 나갈 때 율는 시트 ─────────────────────────────────────
+   ⚠️ 이 안에는 애드센스 광고를 넣지 않는다(게재위치 정책). 토스 상품만 넣는다. */
+.sp-modal { position: fixed; inset: 0; z-index: 9000; }
+.sp-dim {
+  position: absolute; inset: 0;
+  background: rgba(15, 18, 24, 0.5);
+  animation: spFade 0.18s ease-out;
+}
+.sp-sheet {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  max-width: 560px; margin: 0 auto;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 20px 16px calc(16px + env(safe-area-inset-bottom));
+  max-height: 86vh; overflow-y: auto;
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.25);
+  animation: spUp 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.sp-sheet::before {
+  content: ''; display: block; width: 38px; height: 4px;
+  background: var(--border-strong); border-radius: 999px;
+  margin: -8px auto 14px;
+}
+.sp-close {
+  position: absolute; top: 12px; right: 12px;
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 0; background: var(--surface-2); color: var(--text-3);
+  font-size: 14px; cursor: pointer; line-height: 1;
+}
+.sp-later {
+  display: block; width: 100%; margin-top: 12px;
+  padding: 13px; border-radius: 12px;
+  border: 1px solid var(--border); background: var(--surface-2);
+  font-size: 14px; font-weight: 700; color: var(--text-3); cursor: pointer;
+}
+@keyframes spFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes spUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) {
+  .sp-dim, .sp-sheet { animation: none; }
+}
+
+@media (max-width: 480px) {
+  .sp-big .sp-thumb { width: 84px; height: 84px; }
+  .sp-thumb { width: 66px; height: 66px; }
+  .sp-head h2 { font-size: 15.5px; }
+}
