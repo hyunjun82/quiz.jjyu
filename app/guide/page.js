@@ -94,7 +94,8 @@ export default function GuideHome() {
         ))}
       </div>
 
-      <AdUnit slot="3353452458" />
+      <AdUnit slot="9284435988" />
+
       <section className="g-sec">
         <h2>이 수치는 어디서 나왔나</h2>
         <p>
