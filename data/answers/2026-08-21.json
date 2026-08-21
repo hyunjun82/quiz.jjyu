@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T18:00:29.149+09:00",
+  "updatedAt": "2026-08-21T18:33:31.465+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -503,7 +503,15 @@
         "publishedAt": "2026-08-21T07:23:10.720+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 펨퍼스",
+        "answer": "피부",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-21T18:33:31.465+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
