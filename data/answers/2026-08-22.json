@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:08:46.561+09:00",
+  "updatedAt": "2026-08-22T00:10:41.632+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -48,7 +48,15 @@
         "publishedAt": "2026-08-22T00:01:03.881+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "더현대Hi",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:10:41.632+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO란, 선물가격이 급변할 때 주식시장의 프로그램매매 호가 효력을 5분간 정지하는 제도예요.",
@@ -104,7 +112,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:10:41.632+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
@@ -115,8 +131,24 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:10:41.632+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "배경훈",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:10:41.632+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
