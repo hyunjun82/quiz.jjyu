@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T11:04:10.473+09:00",
+  "updatedAt": "2026-08-21T14:02:44.718+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -272,6 +272,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-21T11:02:00.476+09:00"
+      },
+      {
+        "question": "G마켓 게이밍 기어",
+        "answer": "퍼포먼스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-21T14:02:44.718+09:00"
       }
     ],
     "climate-action": [
