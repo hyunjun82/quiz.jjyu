@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:00:30.590+09:00",
+  "updatedAt": "2026-08-22T00:01:03.881+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -24,22 +24,54 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "경기도 내 ‘습지보호지역’으로 지정된 곳은 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-22T00:01:03.881+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "스포츠·선거·금융시장 등에서 중요 일정을 치르는 기간을 뜻하는 말은?",
+        "answer": "슈퍼위크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-22T00:01:03.881+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "쪼리는 발 아치를 받쳐주지 못해 족저근막염 위험을 높일 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-22T00:01:03.881+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "체했을 때 식혜를 먹으면 도움이 된다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-22T00:01:03.881+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
