@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:02:07.784+09:00",
+  "updatedAt": "2026-08-22T00:03:11.164+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,22 @@
         "publishedAt": "2026-08-22T00:00:30.590+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "디투어리즘",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-22T00:03:11.164+09:00"
+      },
+      {
+        "question": "20일 마이너리그 데뷔전에서 좋은 활약을 보여준 김성준 선수는 광주일고 출신 선수 중 5번째로 미국 프로리그에 진출한 선수입니다. 아래 중 광주일고를 졸업하지 않은 선수는?",
+        "answer": "김하성",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-22T00:03:11.164+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
