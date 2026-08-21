@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:12:17.490+09:00",
+  "updatedAt": "2026-08-22T00:17:02.402+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -166,6 +166,14 @@
       }
     ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "정보태그",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:17:02.402+09:00"
+      }
+    ]
   }
 }
