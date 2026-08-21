@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updatedAt": "2026-08-21T10:00:49.108+09:00",
+  "updatedAt": "2026-08-21T10:01:53.284+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -66,6 +66,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-21T07:23:10.720+09:00"
+      },
+      {
+        "question": "이번 '썸머 밸런스 PICK! Vol.3' 혜택으로 제공되는…(후략)",
+        "answer": "1만원",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-08-21T10:01:53.284+09:00"
       }
     ],
     "cashdoc": [
