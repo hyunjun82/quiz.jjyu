@@ -910,29 +910,114 @@ main, header, footer { position: relative; z-index: 1; }
 }
 .mq-q { font-size: 14.5px; font-weight: 700; line-height: 1.5; letter-spacing: -0.015em; color: var(--text); margin: 0; }
 
-/* ── 오늘 전체 모음집(/today/)으로 보내는 링크 ────────────────
-   2026-08-20: 오렌지→핑크 3D 버튼을 걷어냈다.
-   토스쇼핑 카드를 같은 화면에 붙이는 순간 강한 CTA가 둘이 되는데, 눈은 하나만 본다.
-   빨강·주황은 토스 카드에 몰아주고, /today/ 로 가는 길은 조용한 링크로만 남긴다.
-   (링크 자체를 지우면 /today/ 가 내부링크 없는 고아 페이지가 되어 크롤러 발견이 늦어진다.) */
-.today-quiet {
+/* ── 오늘 전체 모음집(/today/)으로 보내는 후킹 버튼 ───────────
+   이 클릭 한 번이 전면광고(RPM $7.26) 한 번이다. 페이지에서 제일 눈에 띄어야 한다.
+   페이지 기본색이 보라 계열이라, 대비되는 오렌지→핑크 그라데이션을 쓴다.
+   3D: 아래쪽에 두꺼운 단색 그림자를 깔아 '두께'를 만듦고, 누르면 그만큼 내려앉는다. */
+.today-cta {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  margin: 18px 0 14px;
-  padding: 13px 16px;
-  border: 1px dashed var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
-  text-decoration: none;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 20px 0 16px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ff8a3d 0%, #ff4d6d 55%, #f0399b 100%);
+  border: none;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 6px 0 #c22a5f, 0 14px 28px rgba(240, 57, 155, 0.32);
+  transform: translateY(0);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  -webkit-tap-highlight-color: transparent;
 }
-.today-quiet:hover { border-color: var(--border-strong); text-decoration: none; }
-.today-quiet b {
-  font-size: 14px; font-weight: 800; color: var(--text); letter-spacing: -0.02em;
+.today-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 #c22a5f, 0 18px 34px rgba(240, 57, 155, 0.42);
 }
-.today-quiet b em { font-style: normal; color: var(--blue); }
-.today-quiet span { font-size: 13px; font-weight: 800; color: var(--text-3); white-space: nowrap; }
+/* 누르면 두께만큼 내려앉는다 — 물리적으로 눌린 느낌 */
+.today-cta:active {
+  transform: translateY(6px);
+  box-shadow: 0 0 0 #c22a5f, 0 6px 14px rgba(240, 57, 155, 0.3);
+}
+
+/* 표면을 훑고 지나가는 빛. 가만히 있어도 살아 있는 버튼으로 읽힌다. */
+.today-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+  transform: skewX(-18deg);
+  animation: tcSheen 3.4s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes tcSheen {
+  0%, 62% { left: -60%; }
+  92%, 100% { left: 130%; }
+}
+
+.today-cta-txt { display: flex; flex-direction: column; gap: 4px; min-width: 0; position: relative; z-index: 1; }
+.today-cta-txt b {
+  font-size: 16.5px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+.today-cta-txt b em {
+  font-style: normal;
+  font-weight: 900;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 8px;
+  padding: 1px 8px;
+  margin: 0 2px;
+}
+.today-cta-txt > span { font-size: 12.5px; color: rgba(255, 255, 255, 0.9); }
+
+/* 화살표 배지 — 3.2초마다 한 바퀴 완전 회전 */
+.today-cta-go {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 900;
+  color: #fff;
+  white-space: nowrap;
+}
+.today-cta-go i {
+  font-style: normal;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+  color: #f0399b;
+  font-size: 15px;
+  font-weight: 900;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.14);
+  animation: tcSpin 3.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+@keyframes tcSpin {
+  0%, 70% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 움직임을 줄이도록 설정한 사용자에게는 애니메이션을 끈다(멀미·주의력 문제 방지). */
+@media (prefers-reduced-motion: reduce) {
+  .today-cta::before,
+  .today-cta-go i { animation: none; }
+}
 
 /* 문제별 정답 페이지 */
 .q-card {
@@ -1355,42 +1440,6 @@ main, header, footer { position: relative; z-index: 1; }
 .sp-head h2 .hl { color: #3182f6; }
 .sp-head p { margin: 0; font-size: 12.5px; font-weight: 500; color: var(--text-3); }
 .sp-body { padding: 12px; }
-
-/* ── 정답 바로 아래 한 줄 띠 ───────────────────────────────
-   그리드가 페이지 맨 아래라 아무도 못 봤다(2026-08-20). 그래서 '가는 길'만 위에 깐다.
-   높이 60px 남짓 — '다음 문제' 버튼을 밀어내지 않는다.
-   ⚠️ 애드센스 슬롯과 헷갈리면 안 되므로 파랑 계열 + 장바구니 아이콘으로 성격을 드러낸다. */
-.sp-teaser {
-  display: flex; align-items: center; gap: 12px;
-  margin: 14px 0;
-  padding: 13px 14px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, #3182f6 0%, #1b64da 100%);
-  color: #fff; text-decoration: none;
-  box-shadow: 0 4px 14px rgba(49, 130, 246, 0.28);
-}
-.sp-teaser:hover { text-decoration: none; filter: brightness(1.05); }
-.sp-teaser:active { transform: scale(0.995); }
-.sp-teaser-ico {
-  flex: 0 0 auto; width: 34px; height: 34px; border-radius: 10px;
-  display: inline-flex; align-items: center; justify-content: center;
-  background: rgba(255, 255, 255, 0.2); font-size: 17px;
-}
-.sp-teaser-txt { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1 1 auto; }
-.sp-teaser-txt b {
-  font-size: 15px; font-weight: 800; letter-spacing: -0.03em; color: #fff;
-}
-.sp-teaser-txt > span {
-  font-size: 12px; color: rgba(255, 255, 255, 0.88); line-height: 1.45;
-  display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
-}
-.sp-teaser-go {
-  flex: 0 0 auto; font-size: 12.5px; font-weight: 800; color: #1b64da;
-  background: #fff; border-radius: 999px; padding: 7px 12px; white-space: nowrap;
-}
-@media (max-width: 380px) {
-  .sp-teaser-txt > span { display: none; }
-}
 
 /* 2열 그리드 — 토스쇼핑 목록과 같은 형태 */
 .tgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
