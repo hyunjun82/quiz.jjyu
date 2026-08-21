@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:06:51.942+09:00",
+  "updatedAt": "2026-08-22T00:08:46.561+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -49,7 +49,15 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 선물가격이 급변할 때 주식시장의 프로그램매매 호가 효력을 5분간 정지하는 제도예요.",
+        "answer": "사이드카",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-22T00:08:46.561+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
