@@ -1,8 +1,23 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:17:02.402+09:00",
+  "updatedAt": "2026-08-22T00:20:12.392+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "하림 텐더스틱 냉동",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:20:12.392+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "유닉스 세라믹 매직기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:20:12.392+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "OOOOO의 과학적인 설계로 탄생! 뉴질랜드산 버터를 채워, 실패없는 식욕관리!(힌트: ㅂㅁㅈㅁㅇ)",
