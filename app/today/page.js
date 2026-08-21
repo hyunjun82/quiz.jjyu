@@ -10,7 +10,6 @@ import {
 import AdUnit from '../../components/AdUnit';
 import TodayAllAnswers from '../../components/TodayAllAnswers';
 import TodayQuizGrid from '../../components/TodayQuizGrid';
-import { ShopInline } from '../../components/ShopPicks';
 
 /**
  * /today/ — 오늘 올라온 모든 앱의 퀴즈 정답을 한 페이지에 모은다.
@@ -52,7 +51,12 @@ export default function TodayAllPage() {
   const date = data?.date || getAnswerDates()[0];
   const dateLabel = date ? formatKoreanDate(date) : '';
   const grid = getTodayQuizGridItems();
-  const shop = getShopPicks();
+  /* 토스쇼핑 그리드는 2026-08-21 에 화면에서 내렸다.
+     RPM 복구를 깨끗하게 측정하려고 변수를 하나 줄인 것이고, 이 그리드 자체가
+     문제였던 건 아니다(맨 아래라 광고도 이동도 안 가렸다).
+     다시 켜려면 아래 한 줄과 import 만 살리면 된다:
+       <ShopInline items={shop.items} daily={shop.daily} headline={shop.headline} /> */
+  const shop = getShopPicks(); // eslint-disable-line no-unused-vars
 
   const answers = data?.answers ?? {};
   const groups = getQuizzes()
@@ -116,10 +120,6 @@ export default function TodayAllPage() {
           <AdUnit slot="9284435988" />
 
           <TodayQuizGrid items={grid.items} currentSlug={null} today={grid.today} />
-
-          {/* 여기가 사이트의 마지막 페이지다 — 오늘 것을 다 본 사람은 더 갈 데가 없다.
-              이동으로 벌 수 있는 건 다 벌었으니 이 자리에서 쇼핑을 권한다. */}
-          <ShopInline items={shop.items} daily={shop.daily} headline={shop.headline} />
 
           <div className="guide-cta-group">
             <p className="guide-cta-head">더 알아보기</p>
