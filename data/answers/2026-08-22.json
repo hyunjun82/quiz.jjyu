@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:26:21.160+09:00",
+  "updatedAt": "2026-08-22T01:29:15.383+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "디스커버 소탐생활 참여하고 포인트받기! 유명 관광지보다 잘 알려지지 않은 소도시, 대체 도시로 발길을 돌리는 여행 트렌드는 무엇일까요?",
         "answer": "디투어리즘",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-22T00:03:11.164+09:00"
       },
       {
@@ -93,11 +93,18 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/22일자",
+        "question": "문자로 개인정보 등을 탈취하는 사기 수법인 '스미싱' 위험이 있는 링크를 탐지하면 바로 알려주는 보안서비스의 이름은 무엇일까요?",
         "answer": "3번 안티스미싱",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-22T00:12:17.490+09:00"
+      },
+      {
+        "question": "(가)에 들어갈 사절단으로 옳은 것은?",
+        "answer": "1번 보빙사",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-22T01:29:15.383+09:00"
       }
     ],
     "kbank": [
@@ -145,10 +152,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "액면분할을 하면 회사의 시가총액도 그만큼 늘어나요. (O / X)",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-22T00:10:41.632+09:00"
       }
     ],
