@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T03:32:26.905+09:00",
+  "updatedAt": "2026-08-22T08:30:54.871+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,6 +64,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-22T00:11:14.287+09:00"
+      },
+      {
+        "question": "음식 관련 이모지 보고 퀴즈 풀기",
+        "answer": "과수원",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-22T08:30:54.871+09:00"
       }
     ],
     "ok-cashbag": [],
