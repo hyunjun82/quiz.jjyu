@@ -14,7 +14,7 @@ import AnswerBox from '../../../../../components/AnswerBox';
 import AdUnit from '../../../../../components/AdUnit';
 import TodayQuizGrid from '../../../../../components/TodayQuizGrid';
 import MoreInQuiz from '../../../../../components/MoreInQuiz';
-import { ShopTeaser, ShopInline, ShopExit } from '../../../../../components/ShopPicks';
+import { ShopInline } from '../../../../../components/ShopPicks';
 
 /** 모든 (퀴즈 × 날짜 × 문제번호) 정답 페이지 생성 */
 export function generateStaticParams() {
@@ -226,11 +226,6 @@ export default function AnswerPage({ params }) {
         )}
       </nav>
 
-      {/* 상품 그리드는 페이지 맨 아래에 있다(이동 장치를 먼저 태우려고).
-          그런데 거기까지 안 내려가는 사람이 대부분이라 '가는 길'만 여기 한 줄로 깐다.
-          한 줄이라 '다음 문제' 버튼을 밀어내지 않는다. 설계 근거는 ShopPicks.js 주석. */}
-      <ShopTeaser items={shop.items} daily={shop.daily} />
-
       <AdUnit slot="9284435988" />
 
       <MoreInQuiz
@@ -240,14 +235,20 @@ export default function AnswerPage({ params }) {
         currentIdx={idx}
       />
 
-      {/* 2026-08-20: 3D 빨강 버튼 → 조용한 점선 링크.
-          같은 화면 아래에 토스쇼핑 카드가 붙어서, 강한 CTA를 하나로 줄였다. */}
+      {/* ⚠️ 2026-08-20 에 이 3D 버튼을 조용한 점선 링크로 바꿨다가 하루 만에 되돌렸다.
+          그날 페이지RPM $3~4 → $0.90, CTR 12% → 4.8% 로 무너졌다.
+          이동(=전면광고 트리거)을 만드는 장치는 눈에 띄어야 한다. */}
       {todayTotal > items.length && (
-        <a href="/today/" className="today-quiet">
-          <b>
-            오늘 올라온 퀴즈 정답 <em>{todayTotal}개</em> 한 번에 보기
-          </b>
-          <span>전체 보기 →</span>
+        <a href="/today/" className="today-cta">
+          <span className="today-cta-txt">
+            <b>
+              오늘 퀴즈 <em>{todayTotal}개</em> 퀴즈와 정답 확인하기
+            </b>
+            <span>{quiz.name} 말고도 오늘 올라온 정답이 전부 모여 있어요</span>
+          </span>
+          <span className="today-cta-go">
+            전부 보기 <i aria-hidden="true">→</i>
+          </span>
         </a>
       )}
 
@@ -278,9 +279,6 @@ export default function AnswerPage({ params }) {
       </aside>
       </div>
 
-      {/* 나갈 때 한 번. 들어올 때 막는 오퍼월과 정반대 — 정답을 이미 다 본 뒤다.
-          ⚠️ 이 시트 안에는 애드센스 광고를 넣지 않는다(게재위치 정책). */}
-      <ShopExit items={shop.items} daily={shop.daily} />
     </main>
   );
 }
