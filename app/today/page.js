@@ -10,7 +10,7 @@ import {
 import AdUnit from '../../components/AdUnit';
 import TodayAllAnswers from '../../components/TodayAllAnswers';
 import TodayQuizGrid from '../../components/TodayQuizGrid';
-import { ShopTeaser, ShopInline, ShopExit } from '../../components/ShopPicks';
+import { ShopInline } from '../../components/ShopPicks';
 
 /**
  * /today/ — 오늘 올라온 모든 앱의 퀴즈 정답을 한 페이지에 모은다.
@@ -104,8 +104,6 @@ export default function TodayAllPage() {
             <b>이 페이지</b> — 오늘 올라온 앱테크 퀴즈 정답을 앱별로 전부 모았습니다 · 수시 갱신
           </div>
 
-          <ShopTeaser items={shop.items} daily={shop.daily} />
-
 
           <TodayAllAnswers
             groups={groups}
@@ -147,8 +145,6 @@ export default function TodayAllPage() {
         <aside className="rail">
         </aside>
       </div>
-
-      <ShopExit items={shop.items} daily={shop.daily} />
     </main>
   );
 }
