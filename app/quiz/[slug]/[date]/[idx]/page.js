@@ -14,7 +14,6 @@ import AnswerBox from '../../../../../components/AnswerBox';
 import AdUnit from '../../../../../components/AdUnit';
 import TodayQuizGrid from '../../../../../components/TodayQuizGrid';
 import MoreInQuiz from '../../../../../components/MoreInQuiz';
-import { ShopInline } from '../../../../../components/ShopPicks';
 
 /** 모든 (퀴즈 × 날짜 × 문제번호) 정답 페이지 생성 */
 export function generateStaticParams() {
@@ -109,7 +108,12 @@ export default function AnswerPage({ params }) {
 
   const others = getQuizzes().filter((q) => q.slug !== quiz.slug);
   const grid = getTodayQuizGridItems(); // 한 번만 계산해서 재사용
-  const shop = getShopPicks();
+  /* 토스쇼핑 그리드는 2026-08-21 에 화면에서 내렸다.
+     RPM 복구를 깨끗하게 측정하려고 변수를 하나 줄인 것이고, 이 그리드 자체가
+     문제였던 건 아니다(맨 아래라 광고도 이동도 안 가렸다).
+     다시 켜려면 아래 한 줄과 import 만 살리면 된다:
+       <ShopInline items={shop.items} daily={shop.daily} headline={shop.headline} /> */
+  const shop = getShopPicks(); // eslint-disable-line no-unused-vars
 
   /* 이 앱의 오늘 문제 목록 — 지문과 시각만. 정답은 넣지 않는다.
    *
@@ -254,14 +258,6 @@ export default function AnswerPage({ params }) {
 
       {/* 정주행 그리드 — 광고보다 위로. 스크롤 없이 "오늘 다른 퀴즈 N개" 가 보여야 이동이 난다. */}
       <TodayQuizGrid items={grid.items} currentSlug={quiz.slug} today={grid.today} />
-
-      {/* 토스쇼핑 — 이동 장치(다음 문제·모음집·그리드)를 전부 지나온 자리에만 둔다.
-       *
-       * 위로 올리면 클릭률은 오르겠지만 '페이지 이동'을 뺏는다. 이동 1회 = 전면광고
-       * RPM $7.26이고, 쇼핑은 클릭해도 24시간 안에 결제가 나야 돈이 된다.
-       * 확실한 쪽을 먼저 태우고, 다 지나온 사람에게만 권하는 순서다.
-       * (수수료·정책 근거는 components/ShopPicks.js 상단 주석) */}
-      <ShopInline items={shop.items} daily={shop.daily} headline={shop.headline} />
 
       {/* 가이드로 보내는 띠 — 정답과 이동 버튼 아래에만. (QuizDetail.js 주석 참고)
           정답 페이지는 CPC $0.02고 가이드는 금융 문맥이라 단가가 다르다.
