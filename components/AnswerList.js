@@ -47,19 +47,24 @@ export default function AnswerList({ quiz, date, items, totalToday }) {
         ))}
       </ol>
 
-      {/* 오늘 전체 모음집(/today/) 링크.
-       *
-       * 2026-08-20: 오렌지→핑크 3D 버튼을 걷어냈다. 토스쇼핑 카드가 같은 화면에 들어오는데
-       * 강한 CTA가 둘이면 서로 잡아먹는다 — 눈은 하나만 본다. 빨강은 토스에 몰아준다.
-       * 그렇다고 링크까지 지우면 /today/ 가 내부링크 없는 고아 페이지가 되므로
-       * (사이트맵에만 있고 사이트 안에서 갈 길이 없어지면 크롤러 발견이 늦어진다)
-       * 조용한 점선 링크로 남긴다. */}
+      {/* 오늘 전체 모음집으로 보내는 후킹 띠.
+          누르는 순간 페이지 이동이 발생하고, 그게 우리 형식 중 가장 비싼
+          전면광고(RPM $7.26)의 트리거다.
+
+          ⚠️ 2026-08-20 에 이걸 조용한 점선 링크로 바꿨다가 하루 만에 되돌렸다.
+          그날 페이지RPM 이 $3~4 → $0.90, CTR 12% → 4.8% 로 무너졌다.
+          이동을 만드는 장치는 눈에 띄어야 한다. 다시 건드리지 말 것. */}
       {totalToday > items.length && (
-        <a href="/today/" className="today-quiet">
-          <b>
-            오늘 올라온 퀴즈 정답 <em>{totalToday}개</em> 한 번에 보기
-          </b>
-          <span>전체 보기 →</span>
+        <a href="/today/" className="today-cta">
+          <span className="today-cta-txt">
+            <b>
+              오늘 퀴즈 <em>{totalToday}개</em> 퀴즈와 정답 확인하기
+            </b>
+            <span>{items.length}개는 이 앱 것이고, 나머지는 다른 앱에서 올라왔어요</span>
+          </span>
+          <span className="today-cta-go">
+            전부 보기 <i aria-hidden="true">→</i>
+          </span>
         </a>
       )}
 
