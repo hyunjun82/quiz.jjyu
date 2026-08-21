@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T00:03:11.164+09:00",
+  "updatedAt": "2026-08-22T00:06:51.942+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -97,7 +97,15 @@
     ],
     "buzzvil": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "1, 1, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T00:06:51.942+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
     "yes24": [],
