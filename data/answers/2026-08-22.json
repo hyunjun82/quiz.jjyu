@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T17:14:11.959+09:00",
+  "updatedAt": "2026-08-22T17:21:02.895+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -96,6 +96,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-22T10:00:39.619+09:00"
+      },
+      {
+        "question": "올여름 7일간 진행되는 KB Pay 여행 유심사 해외데이터…(후략)",
+        "answer": "8월 18일~8월 31일",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-08-22T17:21:02.895+09:00"
       }
     ],
     "cashdoc": [],
