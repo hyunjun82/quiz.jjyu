@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T00:02:38.269+09:00",
+  "updatedAt": "2026-08-23T00:03:05.741+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -27,7 +27,15 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "옴니채널",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-23T00:03:05.741+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
