@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T01:19:35.465+09:00",
+  "updatedAt": "2026-08-23T01:55:00.431+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,10 +92,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/23일자",
+        "question": "OO는 24절기 중 14번째 절기로 더위가 물러가고, 가을 기운이 시작되는 시기입니다",
         "answer": "2번 처서",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-23T00:04:49.537+09:00"
       },
       {
