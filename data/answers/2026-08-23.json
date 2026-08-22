@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T03:24:31.823+09:00",
+  "updatedAt": "2026-08-23T08:09:32.839+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,6 +63,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-23T00:16:36.751+09:00"
+      },
+      {
+        "question": "AI 이모지 오전퀴즈hd7561",
+        "answer": "백열전구",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T08:09:32.838+09:00"
       }
     ],
     "ok-cashbag": [],
