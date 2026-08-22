@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T10:00:39.619+09:00",
+  "updatedAt": "2026-08-22T10:03:52.800+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,10 +76,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "올여름 7일간 진행되는 KB Pay 여행 유심사 해외데이터 50% 할인 기간은 언제일까요?",
         "answer": "8월 18일 ~ 8월 24일",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-22T10:00:39.619+09:00"
       }
     ],
