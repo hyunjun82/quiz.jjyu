@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T00:00:58.666+09:00",
+  "updatedAt": "2026-08-23T00:01:01.161+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -17,15 +17,39 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "경기도 내 ‘습지보호지역’으로 지정된 곳은 없다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:01:01.161+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "스포츠·선거·금융시장 등에서 중요 일정을 치르는 기간을 뜻하는 말은?",
+        "answer": "슈퍼위크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:01:01.161+09:00"
+      }
+    ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "여름을 시원하게 보내는 데 도움이 되는 슈퍼 푸드가 아닌 것은?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:01:01.161+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
