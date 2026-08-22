@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T00:02:09.004+09:00",
+  "updatedAt": "2026-08-23T00:02:38.269+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,7 +78,15 @@
     ],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "배경훈",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-23T00:02:38.269+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
