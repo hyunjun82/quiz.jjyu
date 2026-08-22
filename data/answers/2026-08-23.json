@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T08:48:44.693+09:00",
+  "updatedAt": "2026-08-23T08:49:19.894+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -95,10 +95,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOO이란, 온라인과 오프라인의 여러 판매 채널을 통해 소비자가 끊김 없이 쇼핑할 수 있도록 하는 전략이에요",
         "answer": "옴니채널",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-23T00:03:05.741+09:00"
       }
     ],
