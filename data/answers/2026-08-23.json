@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T00:03:05.741+09:00",
+  "updatedAt": "2026-08-23T00:04:11.614+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -12,7 +12,22 @@
       }
     ],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "마이신한포인트 5천P 적립",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:04:11.613+09:00"
+      },
+      {
+        "question": "2008년 오늘은 올림픽 야구 결승전에서 대한민국이 쿠바를 꺾고 9전 전승으로 올림픽 야구 사상 첫 금메달을 획득한 날입니다. 당시 올림픽은 어느 도시에서 개최되었을까요?",
+        "answer": "베이징",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:04:11.613+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
