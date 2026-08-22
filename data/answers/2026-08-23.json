@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T00:04:45.864+09:00",
+  "updatedAt": "2026-08-23T00:04:49.537+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,7 +53,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "스타퀴즈 8/23일자",
+        "answer": "2번 처서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:04:49.537+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "스포츠·선거·금융시장 등에서 중요 일정을 치르는 기간을 뜻하는 말은?",
