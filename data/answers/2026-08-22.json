@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T17:21:02.895+09:00",
+  "updatedAt": "2026-08-22T19:20:14.385+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -290,7 +290,15 @@
         "publishedAt": "2026-08-22T00:10:41.632+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 이클립스",
+        "answer": "야근",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T19:20:14.385+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
