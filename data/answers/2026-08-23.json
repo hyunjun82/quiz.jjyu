@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T00:06:44.212+09:00",
+  "updatedAt": "2026-08-23T00:06:57.695+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -26,6 +26,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-23T00:04:11.613+09:00"
+      },
+      {
+        "question": "퀴즈팡팡 8/23일자",
+        "answer": "신한마이포인트 5천P 적립",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:06:57.695+09:00"
       }
     ],
     "kakaobank": [],
