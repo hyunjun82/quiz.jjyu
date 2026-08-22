@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updatedAt": "2026-08-22T13:03:35.463+09:00",
+  "updatedAt": "2026-08-22T15:36:10.950+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -203,7 +203,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "1000",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T15:36:10.950+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
@@ -232,9 +240,31 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-22T00:06:51.942+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 15시",
+        "answer": "3, 2, 4",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T15:36:10.950+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시",
+        "answer": "4, X, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T15:36:10.950+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-22T15:36:10.950+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 오늘의퀴즈",
