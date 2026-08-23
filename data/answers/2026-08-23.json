@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T15:33:42.929+09:00",
+  "updatedAt": "2026-08-23T16:00:44.600+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,6 +109,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-23T14:15:00.065+09:00"
+      },
+      {
+        "question": "산지로드 오븐에 구운 두부과자",
+        "answer": "8900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T16:00:44.600+09:00"
       }
     ],
     "shinhan-sol": [
