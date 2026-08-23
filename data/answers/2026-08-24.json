@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T00:06:44.856+09:00",
+  "updatedAt": "2026-08-24T00:11:30.207+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -52,7 +52,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
+        "answer": "뮤지컬",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-24T00:11:30.207+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [
       {
