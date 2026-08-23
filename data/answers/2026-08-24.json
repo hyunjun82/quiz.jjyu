@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T00:55:38.926+09:00",
+  "updatedAt": "2026-08-24T01:20:50.807+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "온가족이 함께 즐기는 제25회 꼬마피카소 그림축제 행사일은 언제일까요?",
         "answer": "9월 19일",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-24T00:03:11.951+09:00"
       },
       {
@@ -83,6 +83,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-08-24T00:55:38.925+09:00"
+      },
+      {
+        "question": "퇴직연금은 실제 수령할 때 세금을 내는 OOOO 구조이다.",
+        "answer": "과세이연",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-24T01:20:50.806+09:00"
       }
     ],
     "kbank": [
