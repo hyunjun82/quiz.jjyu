@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T07:17:53.958+09:00",
+  "updatedAt": "2026-08-24T07:55:02.306+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -46,6 +46,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T00:00:58.346+09:00"
+      },
+      {
+        "question": "수소에너지는 교통수단뿐만 아니라 건물, 발전 등 다양한 분야에서 활용될 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T07:55:02.306+09:00"
       }
     ],
     "hpoint": [
@@ -99,6 +106,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T00:00:58.346+09:00"
+      },
+      {
+        "question": "24절기 중 14번째 절기로, ‘더위가 그친다’는 뜻을 지닌 절기는?",
+        "answer": "1번 EBS국제다큐영화제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T07:55:02.306+09:00"
       }
     ],
     "hana-onq": [
