@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T11:03:22.717+09:00",
+  "updatedAt": "2026-08-23T13:02:46.514+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-23T00:55:07.438+09:00"
+      },
+      {
+        "question": "경단기 치킨이벤트 혜택",
+        "answer": "3000",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T13:02:46.514+09:00"
       }
     ],
     "cashwalk": [],
