@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updatedAt": "2026-08-23T10:07:32.170+09:00",
+  "updatedAt": "2026-08-23T10:07:36.374+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,10 +83,10 @@
     ],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "'가을 새학기 준비' 이벤트의 당첨 경품이 아닌 것은 무엇일까요?",
         "answer": "아이폰 17 Pro",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-23T10:02:24.520+09:00"
       }
     ],
