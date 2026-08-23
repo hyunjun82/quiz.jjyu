@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T08:03:42.594+09:00",
+  "updatedAt": "2026-08-24T08:55:07.277+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-24T00:55:38.926+09:00"
+      },
+      {
+        "question": "80년 샘표의 발효 기술로 양조간장OOO이 탄생했어요",
+        "answer": "801",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-24T08:55:07.277+09:00"
       }
     ],
     "cashwalk": [],
