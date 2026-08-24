@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T10:04:20.412+09:00",
+  "updatedAt": "2026-08-24T10:05:13.976+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,6 +172,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-24T10:02:53.746+09:00"
+      },
+      {
+        "question": "돈버는퀴즈 — 소휘 그린티샷",
+        "answer": "커피, 식후, 기름진, 묵직함",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T10:05:13.975+09:00"
       }
     ],
     "shinhan-sol": [
