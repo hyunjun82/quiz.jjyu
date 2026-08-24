@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T10:03:12.584+09:00",
+  "updatedAt": "2026-08-24T10:03:16.072+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -210,10 +210,10 @@
     ],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay '바로 할인' 서비스로 제휴 브랜드에서 최대 몇  % 할인을…(후략)",
         "answer": "3번 7%",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-08-24T10:01:26.668+09:00"
       }
     ],
