@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T00:17:18.312+09:00",
+  "updatedAt": "2026-08-25T01:33:08.470+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "새로워진 신한 슈퍼SOL을 설치한 고객 대상으로 추첨을 통해 증정하는 이벤트 경품은 무엇일까요?",
         "answer": "다이슨 슈퍼소닉 r",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-25T00:03:44.014+09:00"
       },
       {
@@ -98,7 +98,22 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "SM 아티스트와 함께 달리고 공연도 즐길 수 있는 SMRUN 26 티켓 오픈! 행사가 열리는 장소는 어디일까요?",
+        "answer": "인천",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-25T01:33:08.469+09:00"
+      },
+      {
+        "question": "빈칸에 들어갈 인물의 이름을 쓰시오.",
+        "answer": "주시경",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-25T01:33:08.470+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "2026년 8월 24일부터 30일까지 열리는 제23회 다큐멘터리 영화제는?",
@@ -106,9 +121,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T00:01:28.723+09:00"
+      },
+      {
+        "question": "독일 쾰른에서 매년 8월에 열리는 유럽 대표 게임 전시회는?",
+        "answer": "게임스컴",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T01:33:08.470+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "불편한 금융거래한도계좌, 해제신청을 하나원큐에서도 할 수 있어요. 다음 버튼을 누르고 신청하면 확인해 보세요",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-25T01:33:08.470+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
