@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T09:19:42+09:00",
+  "updatedAt": "2026-08-24T09:44:42.663+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-24T08:55:07.277+09:00"
+      },
+      {
+        "question": "경제 Q. AI 활용 능력을 요구하는 채용 공고는 1년 사이 70%이상 늘었다?",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T09:44:42.662+09:00"
       }
     ],
     "cashwalk": [],
@@ -86,6 +93,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T00:04:10.567+09:00"
+      },
+      {
+        "question": "상장 리츠(REITs)는 부동산에 투자하면서 주식처럼 거래소에서 거래돼요.",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T09:44:42.663+09:00"
       }
     ],
     "kakaopay": [],
