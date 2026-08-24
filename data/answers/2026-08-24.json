@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T18:03:27.807+09:00",
+  "updatedAt": "2026-08-24T18:55:25.418+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -580,7 +580,15 @@
         "publishedAt": "2026-08-24T00:04:10.567+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈",
+        "answer": "피부자극",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-24T18:55:25.418+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
