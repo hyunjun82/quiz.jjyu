@@ -122,7 +122,36 @@ function stripTags(s) {
   return String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-const clean = (s) => decodeEntities(stripTags(s));
+/**
+ * 언론사 저작권 문구 제거 — 2026-08-24 추가.
+ *
+ * 왜 필요한가 — 퀴즈벨이 bnt뉴스 기사를 긁어오면서 기사 하단 저작권 문구를
+ * 문제·정답 칸에 통째로 밀어 넣는다. 8/23 실측 피해 5건:
+ *   · 토스 정답이 "bnt뉴스의 저작물입니다3000" 으로 발행됨 (진짜 정답은 3000).
+ *     사용자가 복사해서 앱에 붙이면 그대로 오답 처리된다.
+ *   · 캐시워크는 문제 제목에 꼬리로 붙었고, 한 건은 문제 자체가
+ *     "본 내용는 bnt뉴스의 저작물입니다" 인 가짜 퀴즈 페이지가 생성됐다.
+ *
+ * 소스가 언제 다른 매체 문구를 섞을지 모르므로 매체명은 느슨하게(\w+뉴스) 잡는다.
+ * clean() 에 물려두면 A~F 모든 소스의 문제·정답·비고가 한 번에 걸러진다.
+ */
+const BOILERPLATE = [
+  /사전\s*허가\s*없는\s*복제[·\s]*전재[·\s]*재배포[\s\S]*?(?:이루어질\s*수\s*있습니다|금지하며[\s\S]*?있습니다|금지)/g,
+  /본\s*(?:기사|내용)는\s*[A-Za-z가-힣]+뉴스의\s*저작물입니다/g,
+  /[A-Za-z가-힣]+뉴스의\s*저작물입니다/g,
+  /무단\s*(?:전재|복제)\s*(?:및|·)?\s*재배포\s*금지/g,
+];
+
+function stripBoilerplate(s) {
+  let t = String(s || '');
+  for (const re of BOILERPLATE) t = t.replace(re, ' ');
+  return t
+    .replace(/\s{2,}/g, ' ')
+    .replace(/^[\s,·]+|[\s,·]+$/g, '')
+    .trim();
+}
+
+const clean = (s) => stripBoilerplate(decodeEntities(stripTags(s)));
 
 const PLACEHOLDER = new Set(['잠시 후 공개', '준비중', '준비 중', '미공개', 'ㅡ', '-', '?', '']);
 
