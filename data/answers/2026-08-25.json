@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T01:33:08.470+09:00",
+  "updatedAt": "2026-08-25T02:05:15.289+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -174,10 +174,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "예금자보호제도는 한 금융회사당 원금과 이자를 합쳐 최대 1억 원까지 보호해줘요.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-25T00:11:54.881+09:00"
       }
     ],
