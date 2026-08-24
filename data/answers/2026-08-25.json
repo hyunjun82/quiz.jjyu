@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T00:03:44.014+09:00",
+  "updatedAt": "2026-08-25T00:05:22.947+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,22 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "팬슈머",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T00:05:22.947+09:00"
+      },
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T00:05:22.947+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -123,7 +138,15 @@
     ],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "조금 더 도전적인 두뇌 활동을 원하는 독자",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T00:05:22.947+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
