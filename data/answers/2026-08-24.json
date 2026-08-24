@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T19:34:11.369+09:00",
+  "updatedAt": "2026-08-24T20:06:30.781+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -253,6 +253,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T12:03:07.936+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시)",
+        "answer": "격투기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T20:06:30.780+09:00"
       }
     ],
     "ok-cashbag": [
@@ -364,6 +371,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-24T19:34:11.366+09:00"
+      },
+      {
+        "question": "\"✔ 100% OO원사로 시원한 착용감 ✔ 자외선 차단 기능까지 갖춘 여름 필수템 ✔ 무지 반팔 티셔츠 3장 세트 (1+1+1) 정상가 49,600원 → 9,900원 🔥 단 하루 80% 할인 쇼츠딜 특가!\"",
+        "answer": "냉감",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-24T20:06:30.779+09:00"
       }
     ],
     "climate-action": [
@@ -558,6 +572,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-24T15:03:32.628+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시",
+        "answer": "O, O, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-24T20:06:30.781+09:00"
       }
     ],
     "moneywalk": [
