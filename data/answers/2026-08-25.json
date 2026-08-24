@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T07:22:00.775+09:00",
+  "updatedAt": "2026-08-25T08:04:18.495+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,15 @@
         "publishedAt": "2026-08-25T00:03:44.014+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "왕관",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T08:04:18.495+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [
       {
