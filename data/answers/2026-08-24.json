@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T08:56:29.584+09:00",
+  "updatedAt": "2026-08-24T09:06:38.605+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -156,6 +156,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T00:00:58.346+09:00"
+      },
+      {
+        "question": "콜레스테롤은 종류와 상관없이 무조건 낮을수록 좋다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T09:06:38.605+09:00"
       }
     ],
     "skstoa": [],
@@ -169,6 +176,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T00:00:58.346+09:00"
+      },
+      {
+        "question": "빈대 물린 자국은 모기 물린 자국과 비슷하다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T09:06:38.605+09:00"
       }
     ],
     "buzzvil": [],
