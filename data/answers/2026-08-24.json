@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T12:48:22.365+09:00",
+  "updatedAt": "2026-08-24T13:03:26.237+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T09:44:42.662+09:00"
+      },
+      {
+        "question": "경단기 검색치킨 이벤트",
+        "answer": "70",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T13:03:26.237+09:00"
       }
     ],
     "cashwalk": [
