@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T11:06:34.973+09:00",
+  "updatedAt": "2026-08-24T11:07:09.937+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -495,10 +495,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "상장 리츠(REITs)는 부동산에 투자하면서 주식처럼 거래소에서 거래돼요.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-24T00:04:10.567+09:00"
       }
     ],
