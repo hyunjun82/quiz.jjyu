@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T00:11:54.881+09:00",
+  "updatedAt": "2026-08-25T00:17:18.312+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,7 +52,15 @@
     ],
     "kakaobank": [],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "4번 인천",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T00:17:18.312+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
