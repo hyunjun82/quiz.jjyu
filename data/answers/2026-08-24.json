@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T10:05:25.755+09:00",
+  "updatedAt": "2026-08-24T10:41:02.754+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -383,6 +383,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-24T01:20:50.806+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "7%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T10:41:02.754+09:00"
       }
     ],
     "kbank": [
