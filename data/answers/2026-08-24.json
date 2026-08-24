@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updatedAt": "2026-08-24T15:33:30.927+09:00",
+  "updatedAt": "2026-08-24T18:03:27.807+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,6 +37,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-24T13:03:26.237+09:00"
+      },
+      {
+        "question": "퇴직연금도 키움증권",
+        "answer": "2, 30000, 편하게",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-24T18:03:27.806+09:00"
       }
     ],
     "cashwalk": [
