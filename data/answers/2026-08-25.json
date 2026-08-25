@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T12:05:51.141+09:00",
+  "updatedAt": "2026-08-25T12:18:42.019+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,6 +211,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T10:01:55.321+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시)",
+        "answer": "물류",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T12:18:42.019+09:00"
       }
     ],
     "ok-cashbag": [
