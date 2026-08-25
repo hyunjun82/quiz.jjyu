@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T15:08:00.282+09:00",
+  "updatedAt": "2026-08-25T15:08:32+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -379,6 +379,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T10:01:55.321+09:00"
+      },
+      {
+        "question": "퀴즈타임 (혜택)",
+        "answer": "주스왕",
+        "note": "tipistip 실측",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T13:57:00+09:00"
       }
     ],
     "nh-allone": [],
