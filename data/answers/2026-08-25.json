@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T10:03:34.708+09:00",
+  "updatedAt": "2026-08-25T10:03:36.169+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -131,6 +131,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-25T00:17:18.312+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 8월25일",
+        "answer": "퀀텀 Mini LED",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-25T10:03:36.168+09:00"
       }
     ],
     "cashdoc": [
