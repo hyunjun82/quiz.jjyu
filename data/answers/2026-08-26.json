@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T03:35:06.704+09:00",
+  "updatedAt": "2026-08-26T07:22:57.719+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -111,7 +111,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "NH 디깅퀴즈칼리브",
+        "answer": "4번 혈당지수",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T07:22:57.718+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "보증금을 돌려받지 못했을 때 전세 피해 상담을 받을 수 있는 곳은 어디일까요?",
