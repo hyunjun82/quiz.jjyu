@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T00:55:24.551+09:00",
+  "updatedAt": "2026-08-26T01:33:10.400+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-26T00:00:08.094+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "로보락 로봇청소기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T01:33:10.400+09:00"
       }
     ],
     "cashwalk": [
@@ -43,10 +50,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "메가MGC커피에서 신한 슈퍼SOL로 1천원 이상 결제 시, 받을 수 있는 마이신한포인트는 최대 얼마일까요?",
         "answer": "1,000P",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-26T00:01:52.684+09:00"
       },
       {
@@ -100,17 +107,17 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "스타퀴즈 8/26일자",
+        "question": "보증금을 돌려받지 못했을 때 전세 피해 상담을 받을 수 있는 곳은 어디일까요?",
         "answer": "1번 전세사기 피해지원센터",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-26T00:07:01.640+09:00"
       },
       {
-        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "question": "다음 설명에 대한 O/X 정답으로 올바른 것은?",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "tomax",
         "publishedAt": "2026-08-26T00:55:24.551+09:00"
       }
     ],
@@ -132,10 +139,10 @@
         "publishedAt": "2026-08-26T00:55:24.551+09:00"
       },
       {
-        "question": "슬기로운 금융생활 OX퀴즈",
+        "question": "1년이상 자동화기기를 통해 거래가 없는 계좌의 인출한도가 축소된 경우 ATM출금한도 제한해제를 통해 한도복원되어 종전과 동일하게 정상이용 가능합니다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "tomax",
         "publishedAt": "2026-08-26T00:55:24.551+09:00"
       }
     ],
@@ -172,11 +179,43 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
-    "adapter": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T01:33:10.400+09:00"
+      }
+    ],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "4, 1, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T01:33:10.400+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T01:33:10.400+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "두뇌 활동을 시작하고 싶은 분",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T01:33:10.400+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
