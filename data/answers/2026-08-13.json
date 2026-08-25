@@ -406,7 +406,7 @@
       },
       {
         "question": "음식을 완전히 익혀 먹으면 모든 식중독을 막을 수 있다.",
-        "answer": "O (그렇다)",
+        "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-13T00:19:10.711+09:00"
