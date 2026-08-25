@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T12:00:46.783+09:00",
+  "updatedAt": "2026-08-25T12:03:27.145+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,6 +144,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-25T12:00:41.709+09:00"
+      },
+      {
+        "question": "돈버는퀴즈 — 제주항공",
+        "answer": "12, 오카다, 멤버십",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T12:03:27.144+09:00"
       }
     ],
     "shinhan-sol": [
