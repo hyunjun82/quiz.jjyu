@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T00:07:01.640+09:00",
+  "updatedAt": "2026-08-26T00:12:12.792+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -57,7 +57,15 @@
         "publishedAt": "2026-08-26T00:01:52.684+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "OX 퀴즈 8/26",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:12:12.791+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
