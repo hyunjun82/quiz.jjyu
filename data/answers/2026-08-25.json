@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T19:16:37+09:00",
+  "updatedAt": "2026-08-25T19:29:04.080+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -352,6 +352,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T00:01:28.723+09:00"
+      },
+      {
+        "question": "산불은 도심권에서 발생하지 않는다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T19:29:04.079+09:00"
       }
     ],
     "hpoint": [
@@ -468,6 +475,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T00:01:28.723+09:00"
+      },
+      {
+        "question": "턱관절 장애는 주로 노년층에서 나타나는 문제다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T19:29:04.080+09:00"
       }
     ],
     "skstoa": [],
@@ -489,6 +503,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T00:01:28.723+09:00"
+      },
+      {
+        "question": "인데놀은 먹은 뒤 1~2시간에 효과가 나타난다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T19:29:04.080+09:00"
       }
     ],
     "buzzvil": [],
