@@ -213,6 +213,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-10T22:58:13.173+09:00"
+      },
+      {
+        "question": "리얼마이즈 저당 토마토 파스타소스",
+        "answer": "18",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T22:58:13.173+09:00"
       }
     ],
     "shinhan-sol": [
@@ -398,11 +405,25 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-10T20:05:21.972+09:00"
+      },
+      {
+        "question": "YELO 아이스 넥쿨러 쿨링 넥밴드",
+        "answer": "1",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T20:05:21.972+09:00"
       }
     ],
     "climate-action": [
       {
         "question": "폭염이 심할 때 야외활동을 자제하지 않아도 온열질환 중 하나인 열사병으로부터 안전하다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      },
+      {
+        "question": "기후변화로 인해 경기도의 폭염 일수는 감소하고있다.",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
@@ -576,6 +597,13 @@
     "doctornow": [
       {
         "question": "사후피임약은 처방전 없이도 구매 가능하다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-10T00:00:53.957+09:00"
+      },
+      {
+        "question": "​ 혓바늘을 없애려면 맵고 짠 음식을 먹는 게 좋다.",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
