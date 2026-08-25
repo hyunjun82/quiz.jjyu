@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T15:08:32+09:00",
+  "updatedAt": "2026-08-25T16:01:21.415+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -165,6 +165,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-25T12:05:36.774+09:00"
+      },
+      {
+        "question": "종근당건강 아이클리어",
+        "answer": "49900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T16:01:21.414+09:00"
       }
     ],
     "shinhan-sol": [
