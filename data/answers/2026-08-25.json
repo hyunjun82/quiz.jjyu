@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T16:04:19.603+09:00",
+  "updatedAt": "2026-08-25T18:54:54.312+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -544,7 +544,15 @@
         "publishedAt": "2026-08-25T00:05:22.947+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 돌돌말이 대패삼겹살",
+        "answer": "냉장고",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T18:54:54.312+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
