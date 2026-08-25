@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T00:00:08.094+09:00",
+  "updatedAt": "2026-08-26T00:00:43.299+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -46,22 +46,54 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "산불은 도심권에서 발생하지 않는다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:00:43.299+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "독일 쾰른에서 매년 8월에 열리는 유럽 대표 게임 전시회는?",
+        "answer": "게임스컴",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:00:43.299+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "턱관절 장애는 주로 노년층에서 나타나는 문제다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:00:43.299+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "인데놀은 먹은 뒤 1~2시간에 효과가 나타난다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:00:43.299+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
