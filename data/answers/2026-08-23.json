@@ -162,6 +162,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-23T08:09:32.838+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시)",
+        "answer": "출판사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T08:09:32.838+09:00"
       }
     ],
     "ok-cashbag": [
@@ -186,6 +193,13 @@
     "climate-action": [
       {
         "question": "경기도 내 ‘습지보호지역’으로 지정된 곳은 없다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-23T00:01:01.161+09:00"
+      },
+      {
+        "question": "수소에너지는 교통수단뿐만 아니라 건물, 발전 등 다양한 분야에서 활용될 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -273,6 +287,13 @@
         "answer": "① too / late ② too / late ③ too / late",
         "note": "",
         "source": "tomax",
+        "publishedAt": "2026-08-23T00:55:07.437+09:00"
+      },
+      {
+        "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
         "publishedAt": "2026-08-23T00:55:07.437+09:00"
       }
     ],
