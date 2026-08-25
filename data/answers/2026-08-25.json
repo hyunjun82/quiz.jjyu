@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T19:29:04.080+09:00",
+  "updatedAt": "2026-08-25T20:06:00.979+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -225,6 +225,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T12:18:42.019+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시)",
+        "answer": "생체인식",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-25T20:06:00.978+09:00"
       }
     ],
     "ok-cashbag": [
@@ -536,6 +543,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-25T15:07:30.430+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시",
+        "answer": "2, 2, 4",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-25T20:06:00.979+09:00"
       }
     ],
     "moneywalk": [
