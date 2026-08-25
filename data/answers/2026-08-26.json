@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T00:00:43.299+09:00",
+  "updatedAt": "2026-08-26T00:01:52.684+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,7 +41,22 @@
         "publishedAt": "2026-08-26T00:00:08.094+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "1,000P",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:01:52.684+09:00"
+      },
+      {
+        "question": "아시안게임 한국 야구대표팀 코치진 구성이 완료되었습니다. 대표팀 류지현 감독은 선수, 코치, 감독까지 한 팀에서만 활동한 대표적인 원클럽맨입니다. 아래 중 어느 팀에서 주로 활동했을까요?",
+        "answer": "LG트윈스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:01:52.684+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
@@ -70,7 +85,15 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:01:52.684+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
