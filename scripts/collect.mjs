@@ -274,22 +274,94 @@ function itemKey(x) {
  *
  * 1~2자 정답은 표기 흔들림이 거의 없으므로(O/X/예/아니오) 완전일치로 충분하다.
  */
-function dupIndex(current, item) {
+/**
+ * 정답이 같더라도 "명백히 다른 문제"인가.
+ *
+ * ── 2026-08-25 확정된 구멍 ────────────────────────────────
+ * dupIndex 는 itemKey(=정답)만 봤다. 지문은 아예 비교하지 않았다.
+ * 그래서 같은 날 같은 앱에서 정답이 겹치면 두 번째 문제가 통째로 버려졌다.
+ * OX 퀴즈는 답이 O/X 둘뿐이라, 하루에 두 문제가 나오면 확률이 아니라
+ * 구조적으로 반드시 하나가 사라진다. 8/25 실측:
+ *   나만의닥터  콜레스테롤(X) 수집됨 / 턱관절 장애(X) 버려짐
+ *   닥터나우    빈대 물린 자국(O) 수집됨 / 인데놀 효과(O) 버려짐
+ * OX 를 내는 앱은 하나원큐·카카오뱅크·KB·나만의닥터·닥터나우로 상시 5개다.
+ *
+ * 그렇다고 정답 중복 판정을 그냥 풀면 안 된다. 소스마다 같은 문제를 다른
+ * 표기로 주기 때문이다. 8/25 1차 수정에서 실제로 겪은 오탐:
+ *   "리얼마이즈 저당 파스타 소스 푸드위크"        (퀴즈벨 — 브랜드만)
+ *   "리얼마이즈 저당 토마토 파스타 소스는 설탕..."  (블로그 — 진짜 지문)
+ * 둘 다 길이는 충분해서 "알맹이 있음"만으로는 못 걸렀다. 그래서 판정의 축을
+ * 길이가 아니라 "핵심 단어가 겹치는가"로 바꾼다. 같은 상품·같은 주제를 다루면
+ * 브랜드명·상품명이 반드시 겹치고, 서로 다른 문제면 거의 겹치지 않는다.
+ *
+ * 별개 문제로 인정하는 조건 — 전부 만족해야 한다:
+ *   1) 양쪽 지문이 둘 다 알맹이가 있다 (isGenericQuestion 아님)
+ *   2) 한쪽이 다른 쪽의 앞부분이 아니다 (소스마다 뒤가 잘려 들어온다)
+ *   3) 앞 12자가 다르다
+ *   4) 공통 낱말이 2개 미만이다 (2개 이상 겹치면 같은 문제로 본다)
+ * 하나라도 어긋나면 예전처럼 중복 처리한다 — 이 변경은 "버려지던 것을 살리는"
+ * 쪽으로만 작동하고, 합쳐지던 것을 쪼개지 않는다.
+ */
+function questionTokens(q, slug) {
+  let s = String(q || '');
+  const meta = BY_SLUG[slug] || {};
+  for (const name of [meta.app, meta.name, meta.shortName, meta.searchKeyword]) {
+    for (const tok of String(name || '').split(/[\s()/]+/)) {
+      if (tok.length >= 2) s = s.split(tok).join(' ');
+    }
+  }
+  s = s
+    .replace(/\d{1,2}\s*월\s*\d{1,2}\s*일/g, ' ')
+    .replace(/\d{4}[-./]\d{1,2}[-./]\d{1,2}/g, ' ')
+    .replace(/오늘의|오늘|스타퀴즈|퀴즈팡팡|용돈퀴즈|행운퀴즈|초성퀴즈|퀴즈|정답|문제/g, ' ');
+  return [...new Set(s.match(/[가-힣]{2,}|[A-Za-z0-9]{2,}/g) || [])].map((t) => t.toLowerCase());
+}
+
+/** 한쪽이 다른 쪽의 앞부분이면 같은 낱말로 본다("소스" ⊂ "소스는"). */
+function sharedTokenCount(ta, tb) {
+  let n = 0;
+  for (const x of ta) {
+    if (tb.some((y) => x === y || x.startsWith(y) || y.startsWith(x))) n += 1;
+  }
+  return n;
+}
+
+function isDistinctQuestion(oldQ, newQ, slug) {
+  const a = String(oldQ || '').trim();
+  const b = String(newQ || '').trim();
+  if (!a || !b) return false;
+  if (isGenericQuestion(a, slug) || isGenericQuestion(b, slug)) return false;
+  const norm = (s) => s.replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+  const na = norm(a);
+  const nb = norm(b);
+  if (!na || !nb) return false;
+  if (na === nb || na.startsWith(nb) || nb.startsWith(na)) return false;
+  if (na.slice(0, 12) === nb.slice(0, 12)) return false;
+  return sharedTokenCount(questionTokens(a, slug), questionTokens(b, slug)) < 2;
+}
+
+function dupIndex(current, item, slug) {
   const key = itemKey(item);
   if (!key) return -2; // 정답이 없는 쓰레기 — 넣지도 말고 갱신하지도 말 것
   return current.findIndex((x) => {
     const k = itemKey(x);
-    if (k === key) return true;
-    const shorter = Math.min(k.length, key.length);
-    if (shorter >= 3 && (k.startsWith(key) || key.startsWith(k))) {
-      return Math.abs(k.length - key.length) <= 6;
+    let sameAnswer = false;
+    if (k === key) {
+      sameAnswer = true;
+    } else {
+      const shorter = Math.min(k.length, key.length);
+      if (shorter >= 3 && (k.startsWith(key) || key.startsWith(k))) {
+        sameAnswer = Math.abs(k.length - key.length) <= 6;
+      }
     }
-    return false;
+    if (!sameAnswer) return false;
+    // 정답은 같다. 지문까지 봐서 별개 문제면 중복이 아니다.
+    return !isDistinctQuestion(x.question, item.question, slug);
   });
 }
 
-function isDuplicate(current, item) {
-  return dupIndex(current, item) !== -1;
+function isDuplicate(current, item, slug) {
+  return dupIndex(current, item, slug) !== -1;
 }
 
 /**
@@ -1354,14 +1426,20 @@ function mergeAnswerData(base, incoming) {
   for (const slug of slugs) {
     const merged = [];
     for (const item of [...(base.answers?.[slug] || []), ...(incoming.answers?.[slug] || [])]) {
-      const hit = merged.find((x) => itemKey(x) && itemKey(x) === itemKey(item));
+      // 정답이 같아도 지문이 명백히 다르면 별개 문제다(2026-08-25 dupIndex 주석 참고).
+      const hit = merged.find(
+        (x) =>
+          itemKey(x) &&
+          itemKey(x) === itemKey(item) &&
+          !isDistinctQuestion(x.question, item.question, slug),
+      );
       if (hit) {
         if (item.publishedAt && (!hit.publishedAt || item.publishedAt < hit.publishedAt)) {
           hit.publishedAt = item.publishedAt;
         }
         continue;
       }
-      if (isDuplicate(merged, item)) continue;
+      if (isDuplicate(merged, item, slug)) continue;
       merged.push({ ...item });
     }
     out.answers[slug] = merged;
@@ -1498,7 +1576,7 @@ async function collectOnce() {
       console.log(`지문 거부 [${f.slug}] "${item.question}" — 커뮤니티 글로 판단`);
       continue;
     }
-    const at = dupIndex(current, item);
+    const at = dupIndex(current, item, f.slug);
     if (at === -2) continue;
     if (at >= 0) {
       // 이미 있는 정답 — 다만 새 값이 "더 완전한" 정답이면 통째로 갈아끼운다.
