@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T00:19:07.413+09:00",
+  "updatedAt": "2026-08-26T00:55:24.551+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,7 +78,15 @@
         "publishedAt": "2026-08-26T00:00:43.299+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "자동차",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:55:24.551+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "0000란, 제품을 소비하는 데 그치지 않고 직접 생산 이나 개발 과정에도 참여하는 소비자를 말해요.",
@@ -97,6 +105,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-26T00:07:01.640+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:55:24.551+09:00"
       }
     ],
     "kbank": [
@@ -108,7 +123,22 @@
         "publishedAt": "2026-08-26T00:00:43.299+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "축구 play 퀴즈 HANA",
+        "answer": "대전 vs 울산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:55:24.551+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T00:55:24.551+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
