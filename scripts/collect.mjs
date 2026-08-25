@@ -344,6 +344,28 @@ function dupIndex(current, item, slug) {
   const key = itemKey(item);
   if (!key) return -2; // 정답이 없는 쓰레기 — 넣지도 말고 갱신하지도 말 것
   return current.findIndex((x) => {
+    // ① 지문이 같으면 정답이 달라도 같은 문제다.
+    //
+    // 2026-08-25 실측한 사고 6건: 소스가 한때 지문과 정답을 잘못 짝지어 노출했고,
+    // 우리는 그걸 "정답이 다르니 새 문제"로 보고 한 줄 더 넣었다. 그 결과 같은
+    // 문제에 서로 반대인 답이 나란히 박혔다.
+    //   08-12 케이뱅크 "삶과 소비를 작고 세밀한…"  픽셀라이프(정답) + 프렌드플레이션(오답)
+    //   08-13 나만의닥터 "음식을 완전히 익혀 먹으면…"  X(정답) + O(오답)
+    //   08-20 기후행동 "태양광 발전은 사막에서…"      X(정답) + O(오답)
+    //   08-22 모니모  "여름 슈퍼푸드가 아닌 것은?"    아이스크림(정답) + X (아니요)(오답)
+    // OX 퀴즈에서 이러면 둘 중 하나는 반드시 오답이라 사용자가 그대로 틀린다.
+    // 같은 지문이면 한 줄로 유지하고, 더 완전한 답이 오면 위쪽 갱신 경로가 갈아끼운다.
+    //
+    // 뭉뚱그린 제목("KB 별별퀴즈 — 8/19일자")은 하루치 여러 문제를 한 이름으로
+    // 부르므로 이 규칙에서 뺀다 — 묶으면 진짜 다른 문제가 사라진다.
+    const qa = String(x.question || '').trim();
+    const qb = String(item.question || '').trim();
+    if (qa && qb && !isGenericQuestion(qa, slug) && !isGenericQuestion(qb, slug)) {
+      const norm = (s) => s.replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+      if (norm(qa) && norm(qa) === norm(qb)) return true;
+    }
+
+    // ② 지문이 다르면 정답으로 판단한다.
     const k = itemKey(x);
     let sameAnswer = false;
     if (k === key) {
