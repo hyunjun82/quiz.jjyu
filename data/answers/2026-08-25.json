@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updatedAt": "2026-08-25T10:04:09.189+09:00",
+  "updatedAt": "2026-08-25T10:10:00.745+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,6 +44,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-25T10:03:00.984+09:00"
+      },
+      {
+        "question": "소원상점에선 원하는 OO를 만들어줘요",
+        "answer": "하루",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-25T10:10:00.745+09:00"
       }
     ],
     "cashwalk": [
