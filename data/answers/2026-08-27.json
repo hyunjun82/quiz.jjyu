@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T00:19:20.525+09:00",
+  "updatedAt": "2026-08-27T00:19:45.454+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -70,7 +70,15 @@
         "publishedAt": "2026-08-27T00:17:34.530+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 (퀴즈)",
+        "answer": "Apple Pencil Pro",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:19:45.454+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "0000란, 경기 침체나 사회적 제약으로 억눌렸던 소비 욕구가 상황이 나아진 뒤 한꺼번에 분출되는 현상 이에요.",
@@ -89,6 +97,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-27T00:07:04.128+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (한국사 퀴즈)",
+        "answer": "신사 참배가 강요되었다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:19:45.454+09:00"
       }
     ],
     "kbank": [
