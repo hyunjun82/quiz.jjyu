@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T07:41:41.770+09:00",
+  "updatedAt": "2026-08-27T08:00:49.626+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,6 +78,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-27T00:13:22.143+09:00"
+      },
+      {
+        "question": "AI 퀴즈기리니기리니",
+        "answer": "번개",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T08:00:49.626+09:00"
       }
     ],
     "ok-cashbag": [],
