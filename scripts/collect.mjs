@@ -620,7 +620,56 @@ function parseQuizbells(html, slug, today) {
     }
     out.push({ slug, ...buildItem(question, answers), source: 'quizbells' });
   }
-  return out;
+
+  /* ── 모순 행 보류 ───────────────────────────────────────────────
+     퀴즈벨 표에는 같은 지문이 두 줄로 들어가고 한쪽이 오답인 경우가 있다.
+     사용자 참여로 정답이 채워지는 구조라, 정정 전 값이 한동안 같이 남는다.
+
+     실측(2026-08-20~26):
+       "독일 쾰른에서 매년 8월에 열리는 유럽 대표 게임 전시회는?"
+          → "3번 4연패"(오답) / "게임스컴"(정답)
+        "24절기 중 14번째 절기로, ‘더위가 그치다’는…"
+           → "1번 EBS국제다큐영화제"(오답) / "처서"(정답)
+        "인데놀은 먹은 뒤 1~2시간에 효과가 나타난다" → X / O
+
+     dupIndex 쪽 수정으로 "두 줄이 되는 것"은 막았지만, 오답이 먼저 도착하면
+     그게 박혀 하루 종일 오답이 나간다. 표만 보고는 어느 쪽이 맞는지 알 수 없으니
+     이 지문은 통째로 넘긴다 — 다른 소스(블로그·비즈월드·게임톡·토막스)가 같은
+     문제를 주면 그쪽이 채택되고, 아무도 안 주면 다음 폴링에서 소스가 정리된 뒤
+     들어온다. 오답을 내보내는 것보다 몇 분 늦는 편이 낫다.
+
+     같은 답을 표기만 달리한 경우("4번 롤러코스피" vs "롤러코스피")는 모순이
+     아니다 — 앞의 보기 번호만 떼고 비교해서 같으면 그대로 통과시킨다. */
+  const bare = (s) =>
+    String(s || '')
+      .replace(/^\s*\d+\s*(?:번|\.)\s*/, '')
+      .replace(/[^가-힣0-9A-Za-z]/g, '')
+      .toLowerCase();
+  const qkey = (q) => String(q || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+  const byQ = new Map();
+  for (const r of out) {
+    const k = qkey(r.question);
+    if (!k) continue;
+    if (!byQ.has(k)) byQ.set(k, []);
+    byQ.get(k).push(r);
+  }
+  const held = new Set();
+  for (const [k, group] of byQ) {
+    if (group.length < 2) continue;
+    // 뭉뚱그린 제목은 하루치 여러 문제를 한 이름으로 부른다 — 모순이 아니다.
+    if (isGenericQuestion(group[0].question, slug)) continue;
+    if (new Set(group.map((r) => bare(r.answer))).size > 1) held.add(k);
+  }
+  if (!held.size) return out;
+  for (const k of held) {
+    const g = byQ.get(k);
+    console.log(
+      `모순 보류 [${slug}] "${String(g[0].question).slice(0, 40)}" — 소스가 답을 ${g.length}개로 준다: ${g
+        .map((r) => r.answer)
+        .join(' / ')}`,
+    );
+  }
+  return out.filter((r) => !held.has(qkey(r.question)));
 }
 
 async function collectFromQuizbells() {
