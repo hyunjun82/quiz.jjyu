@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T09:03:22.109+09:00",
+  "updatedAt": "2026-08-26T09:05:02.411+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-26T09:02:41.329+09:00"
+      },
+      {
+        "question": "오늘의집 친구초대이벤트",
+        "answer": "3, 이메일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T09:05:02.410+09:00"
       }
     ],
     "cashwalk": [
