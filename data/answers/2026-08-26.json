@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T11:16:29.714+09:00",
+  "updatedAt": "2026-08-26T12:11:28.896+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -253,6 +253,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-26T08:02:50.048+09:00"
+      },
+      {
+        "question": "AI 퀴즈기리니기리니",
+        "answer": "인증번호",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T12:11:28.895+09:00"
       }
     ],
     "ok-cashbag": [],
