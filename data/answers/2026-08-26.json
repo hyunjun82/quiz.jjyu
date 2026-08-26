@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T18:26:11.559+09:00",
+  "updatedAt": "2026-08-26T18:40:22.749+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -577,7 +577,15 @@
         "publishedAt": "2026-08-26T01:33:10.400+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 스탠리",
+        "answer": "순간",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T18:40:22.749+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
