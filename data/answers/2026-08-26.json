@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T10:06:53.968+09:00",
+  "updatedAt": "2026-08-26T10:17:51.037+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,6 +37,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-26T09:05:02.410+09:00"
+      },
+      {
+        "question": "친구 초대 선물은 친구가 가입할 때마다 최대 O번 받아요",
+        "answer": "3",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-26T10:17:51.034+09:00"
       }
     ],
     "cashwalk": [
