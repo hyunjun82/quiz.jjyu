@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T00:13:48.419+09:00",
+  "updatedAt": "2026-08-27T00:17:34.531+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -61,6 +61,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      },
+      {
+        "question": "기후행동 기회소득 8월 27일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:17:34.530+09:00"
       }
     ],
     "hpoint": [],
