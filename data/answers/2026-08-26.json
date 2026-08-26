@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T10:02:52.622+09:00",
+  "updatedAt": "2026-08-26T10:02:57.231+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -153,10 +153,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "결제가 필요할 때 위젯이나 엣지패널로 바로 실행해, 간편하게…(후략)",
         "answer": "2번 결제 mini",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-08-26T10:01:53.830+09:00"
       }
     ],
