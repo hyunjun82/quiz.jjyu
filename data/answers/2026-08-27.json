@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T00:01:33.442+09:00",
+  "updatedAt": "2026-08-27T00:02:42.583+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -26,7 +26,22 @@
         "publishedAt": "2026-08-27T00:01:26.364+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "경험",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:02:42.583+09:00"
+      },
+      {
+        "question": "아래 선수 중 8월 25일 경기에서 올해 처음이자 KBO 리그 통산 33번째 사이클링 히트를 기록한 선수는?",
+        "answer": "오스틴 딘",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:02:42.583+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
