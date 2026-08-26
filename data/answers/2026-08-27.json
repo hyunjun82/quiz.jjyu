@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T00:25:08.581+09:00",
+  "updatedAt": "2026-08-27T00:54:54.782+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -103,7 +103,15 @@
         "publishedAt": "2026-08-27T00:09:10.042+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 케이뱅크 (혜택",
+        "answer": "100",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-27T00:54:54.782+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
@@ -163,6 +171,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-27T00:00:55.810+09:00"
+      },
+      {
+        "question": "두드러기가 6주 이상 계속되면 만성두드러기일 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:54:54.781+09:00"
       }
     ],
     "skstoa": [],
@@ -171,7 +186,7 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 퀴즈 — 닥터나우",
+        "question": "모공각화증은 다른 사람에게 전염되는 질환이다",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
