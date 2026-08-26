@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T00:20:59.090+09:00",
+  "updatedAt": "2026-08-27T00:22:59.390+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -122,6 +122,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-27T00:20:51.672+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:22:59.390+09:00"
       }
     ],
     "monimo": [
