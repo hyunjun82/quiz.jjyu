@@ -1,23 +1,69 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T00:00:55.810+09:00",
+  "updatedAt": "2026-08-27T00:01:26.364+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "리얼마이즈 알룰로스는 설탕, 꿀, 올리고당 대신 사용할 OOO OOO를 원하시는분께 적극 추천드려요! OOOOOO은 무엇일까요? (초성힌트 : ㄱㄱㅎㄷㅊㅈ)",
+        "answer": "건강한대체재",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      },
+      {
+        "question": "네이버플러스 스토어 오늘끝딜은 매일 O번, 4시간 타임딜이 진행됩니다. O에 들어갈 숫자는 무엇일까요?",
+        "answer": "6",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      },
+      {
+        "question": "리얼마이즈 프로틴 시리얼만의 포인트 국내산 OOO로 더욱 바삭하게 살린 크런치볼! OOO은 무엇일까요? (힌트:ㅆㄱㄹ)",
+        "answer": "쌀가루",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 8월 27일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "4연패",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      }
+    ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -32,7 +78,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 퀴즈 — 닥터나우",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T00:01:26.364+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
