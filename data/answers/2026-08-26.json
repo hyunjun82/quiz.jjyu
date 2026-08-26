@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T15:01:29.247+09:00",
+  "updatedAt": "2026-08-26T18:26:08.889+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -520,10 +520,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "주택청약종합저축은 이자 수령만을 위한 상품이라 아파트 청약과는 관련이 없어요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-26T01:33:10.400+09:00"
       }
     ],
