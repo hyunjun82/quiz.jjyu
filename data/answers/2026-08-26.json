@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T18:40:22.749+09:00",
+  "updatedAt": "2026-08-26T19:02:54.584+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -363,6 +363,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-26T11:03:24.299+09:00"
+      },
+      {
+        "question": "G마켓 CJ 스팸 라이트 선물세트",
+        "answer": "쇼핑백",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T19:02:54.584+09:00"
       }
     ],
     "climate-action": [
