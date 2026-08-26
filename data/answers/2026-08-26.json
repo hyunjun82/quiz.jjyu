@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T20:01:46.816+09:00",
+  "updatedAt": "2026-08-26T21:01:06.313+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -214,6 +214,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-26T11:00:40.911+09:00"
+      },
+      {
+        "question": "뉴트리원 김희애가 선택한 카무트효소",
+        "answer": "31900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T21:01:06.311+09:00"
       }
     ],
     "shinhan-sol": [
