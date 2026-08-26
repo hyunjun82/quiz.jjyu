@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T11:00:58.770+09:00",
+  "updatedAt": "2026-08-26T11:03:24.300+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -349,6 +349,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-26T10:03:03.102+09:00"
+      },
+      {
+        "question": "G마켓 윙크학습 무료체험",
+        "answer": "유아동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T11:03:24.299+09:00"
       }
     ],
     "climate-action": [
