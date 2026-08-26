@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T01:45:48.733+09:00",
+  "updatedAt": "2026-08-27T04:44:06.807+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,6 +55,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-27T00:02:42.583+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 (출석 퀴즈)",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T04:44:06.806+09:00"
       }
     ],
     "kakaobank": [
