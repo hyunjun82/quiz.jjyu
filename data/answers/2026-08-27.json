@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T04:44:06.807+09:00",
+  "updatedAt": "2026-08-27T07:41:41.770+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-27T00:23:11.440+09:00"
+      },
+      {
+        "question": "토스 김중근99강화빠루",
+        "answer": "김중근",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T07:41:41.770+09:00"
       }
     ],
     "cashwalk": [
@@ -119,7 +126,15 @@
         "publishedAt": "2026-08-27T00:54:54.782+09:00"
       }
     ],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "nh 디깅퀴즈칼리브",
+        "answer": "3번 장발장",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T07:41:41.770+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "스타뱅킹 결제 서비스의 내용으로 틀린 것은 무엇일까요?",
