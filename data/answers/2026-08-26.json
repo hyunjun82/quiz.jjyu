@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T08:45:00+09:00",
+  "updatedAt": "2026-08-26T09:02:41.330+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-26T01:33:10.400+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 토스",
+        "answer": "이메일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-26T09:02:41.329+09:00"
       }
     ],
     "cashwalk": [
