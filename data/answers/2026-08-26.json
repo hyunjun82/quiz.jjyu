@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updatedAt": "2026-08-26T10:01:05.828+09:00",
+  "updatedAt": "2026-08-26T10:01:53.830+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,7 +144,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "2번 결제 mini",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T10:01:53.830+09:00"
+      }
+    ],
     "cashdoc": [
       {
         "question": "\"오늘만! 2PACK 원더바스 레몬청 팩 클렌저 허니레몬 특가✨ 각질은 걷어내고 OO으로 꽉-채우는 레몬쏙촉 버블팩클렌저! 마누카꿀 추출물 보습광채! 자동미세버블! G마켓 특가 놓치지마세요~!\"",
@@ -274,7 +282,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "새로",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-26T10:01:53.830+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
