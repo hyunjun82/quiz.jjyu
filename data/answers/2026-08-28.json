@@ -1,8 +1,23 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T00:24:25.321+09:00",
+  "updatedAt": "2026-08-28T00:54:49.399+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "도루코 식도",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T00:54:49.399+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "포트메리온 미니접시",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T00:54:49.399+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "뷰카 프레쉬민트 치약은 치아불소 강화를 통해 확실한 튼튼한 잇몸케어에 효과적인데요! 프레쉬민트의 불소는 ○○○○ppm입니다.",
@@ -48,7 +63,15 @@
         "publishedAt": "2026-08-28T00:01:19.733+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "자스퍼",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T00:54:49.399+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOOO란, 많은 사람이 선택한다는 이유로 자신도 같은 상품이나 유행을 따라 선택하는 현상이에요.",
@@ -59,7 +82,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
+        "answer": "현악기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T00:54:49.399+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [
       {
@@ -70,7 +101,15 @@
         "publishedAt": "2026-08-28T00:01:19.733+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T00:54:49.399+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
@@ -123,7 +162,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T00:54:49.399+09:00"
+      }
+    ],
     "yes24": [],
     "fallcent": [],
     "naverpay": []
