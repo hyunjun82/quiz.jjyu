@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T16:01:10.032+09:00",
+  "updatedAt": "2026-08-27T16:02:59.158+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-27T16:01:10.029+09:00"
+      },
+      {
+        "question": "김소형 헤밀레 무첨가 그릭요거트",
+        "answer": "8500",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T16:02:59.154+09:00"
       }
     ],
     "shinhan-sol": [
