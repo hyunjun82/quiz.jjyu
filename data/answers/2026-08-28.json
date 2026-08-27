@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T00:04:53.707+09:00",
+  "updatedAt": "2026-08-28T00:08:41.952+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -49,7 +49,15 @@
       }
     ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 많은 사람이 선택한다는 이유로 자신도 같은 상품이나 유행을 따라 선택하는 현상이에요.",
+        "answer": "밴드웨건효과",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T00:08:41.952+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
