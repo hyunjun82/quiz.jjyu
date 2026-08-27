@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T01:54:51.762+09:00",
+  "updatedAt": "2026-08-28T02:24:24+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,6 +61,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-28T00:01:19.733+09:00"
+      },
+      {
+        "question": "라벨이 없거나, 쉽게 분리되는 제품을 구매하는 것은 일상 속 탄소중립 실천으로 볼 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T02:24:24+09:00"
       }
     ],
     "hpoint": [
@@ -135,6 +142,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-28T00:01:19.733+09:00"
+      },
+      {
+        "question": "자외선은 한여름에 가장 강하고 가을이 되면 약해진다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T02:24:24+09:00"
       }
     ],
     "skstoa": [],
