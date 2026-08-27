@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T16:10:59.565+09:00",
+  "updatedAt": "2026-08-27T18:55:01.143+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -488,7 +488,15 @@
       }
     ],
     "yes24": [],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 자연퐁",
+        "answer": "스팀워시",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-27T18:55:01.143+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
