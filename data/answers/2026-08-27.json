@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updatedAt": "2026-08-27T19:18:23.596+09:00",
+  "updatedAt": "2026-08-27T19:57:21.655+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -322,6 +322,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-27T16:05:11.129+09:00"
+      },
+      {
+        "question": "종료된 하나은행 보이스피싱 예방",
+        "answer": "하나",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-27T19:57:21.654+09:00"
       }
     ],
     "climate-action": [
