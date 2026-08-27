@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T00:01:19.733+09:00",
+  "updatedAt": "2026-08-28T00:02:59.407+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,22 @@
         "publishedAt": "2026-08-28T00:01:19.733+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "오픈뱅킹",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T00:02:59.407+09:00"
+      },
+      {
+        "question": "유난히 특정 팀에 어려움을 겪는 투수들이 있습니다. 아래 중 26일 NC를 상대로 무려 2975일만에 승리를 거둔 투수는?",
+        "answer": "임찬규",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T00:02:59.407+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
