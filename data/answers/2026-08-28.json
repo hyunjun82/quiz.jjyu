@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T18:01:04.277+09:00",
+  "updatedAt": "2026-08-28T18:03:57.584+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,13 +23,6 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-28T08:04:36.164+09:00"
-      },
-      {
-        "question": "U+ 커피 증정 이벤트",
-        "answer": "아이폰",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-28T11:06:57.791+09:00"
       },
       {
         "question": "동원몰 토스 행운퀴즈",
@@ -151,6 +144,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-28T18:01:04.275+09:00"
+      },
+      {
+        "question": "기프또 앱에 가입하면 받은 복권으로 로또 또는 ○○○○○ 복권에 응모할 수 있습니다. ○○○○○에 들어갈 단어는 무엇일까요? (초성 힌트: ㅁㄱㅁㄹㅇ)",
+        "answer": "메가밀리언",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-28T18:03:57.579+09:00"
       }
     ],
     "shinhan-sol": [
