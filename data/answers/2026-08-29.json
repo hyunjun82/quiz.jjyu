@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T00:05:33.175+09:00",
+  "updatedAt": "2026-08-29T00:09:04.632+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -73,10 +73,10 @@
         "publishedAt": "2026-08-29T00:05:24.113+09:00"
       },
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "Q. OOOOO이란, 다른 사람들이 얻는 투자 기회나 유행에서 자신만 뒤처질까 불안해하는 심리 상태예요.",
         "answer": "포모증후군",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-29T00:05:24.113+09:00"
       }
     ],
