@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T18:11:39.486+09:00",
+  "updatedAt": "2026-08-28T18:39:11.356+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -487,7 +487,15 @@
       }
     ],
     "yes24": [],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 크리넥스",
+        "answer": "천연코튼",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T18:39:11.356+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
