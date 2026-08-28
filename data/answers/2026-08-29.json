@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T00:03:44.521+09:00",
+  "updatedAt": "2026-08-29T00:05:24.113+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -55,8 +55,31 @@
         "publishedAt": "2026-08-29T00:00:36.332+09:00"
       }
     ],
-    "hpoint": [],
-    "bitbunny": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "Vintage Mood (빈티지 무드)",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-29T00:05:24.113+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-29T00:05:24.113+09:00"
+      },
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "포모증후군",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-29T00:05:24.113+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -114,7 +137,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-29T00:05:24.113+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
