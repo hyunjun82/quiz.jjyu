@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T10:02:59.613+09:00",
+  "updatedAt": "2026-08-28T10:03:04.233+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,10 +69,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "KB Pay 쇼핑 매일10시 '뉴트리원 저분자 콜라겐 대용량'의 구매…(후략)",
         "answer": "3세트 구매 시 1세트 추가 증정",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-28T10:01:18.943+09:00"
       }
     ],
