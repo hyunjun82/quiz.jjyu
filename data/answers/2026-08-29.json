@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T00:01:18.878+09:00",
+  "updatedAt": "2026-08-29T00:01:26.964+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -55,7 +55,15 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T00:01:26.964+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
