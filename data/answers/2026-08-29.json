@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T08:06:25.247+09:00",
+  "updatedAt": "2026-08-29T08:06:58.212+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -121,6 +121,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-29T00:00:36.333+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "2번 소버린 AI",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T08:06:58.212+09:00"
       }
     ],
     "hana-onq": [],
