@@ -42,7 +42,15 @@ const published = fs.existsSync(file)
   ? JSON.parse(fs.readFileSync(file, 'utf-8')).answers || {}
   : {};
 
-const norm = (s) => String(s || '').replace(/[\s,.·/()]/g, '').toLowerCase();
+// 객관식 번호 접두("1번 ", "① ")는 표기 차이일 뿐 같은 정답이다 — healthcheck.mjs의 norm과
+// 같은 규칙. 퀴즈벨이 같은 문제를 "리밸런싱"/"1번 리밸런싱" 두 표기로 싣는 날(8/28 kbank),
+// 이걸 안 벗기면 어느 쪽을 저장해도 "누락" 오탐이 나서 수집 봇이 표기만 계속 뒤집는다.
+const norm = (s) =>
+  String(s || '')
+    .replace(/^\s*\d{1,2}\s*번[\s.)]*/, '')
+    .replace(/^\s*[①②③④⑤]\s*/, '')
+    .replace(/[\s,.·/()]/g, '')
+    .toLowerCase();
 
 async function fetchText(url) {
   const res = await fetch(url, {
