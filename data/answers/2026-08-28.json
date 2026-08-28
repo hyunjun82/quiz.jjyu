@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T17:55:14.707+09:00",
+  "updatedAt": "2026-08-28T18:01:04.277+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,6 +144,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-28T11:02:46.174+09:00"
+      },
+      {
+        "question": "돈버는미션 매일매일 혜택쌓기 기프또",
+        "answer": "메가밀리언",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T18:01:04.275+09:00"
       }
     ],
     "shinhan-sol": [
