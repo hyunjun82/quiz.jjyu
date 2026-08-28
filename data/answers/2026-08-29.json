@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T00:16:48.895+09:00",
+  "updatedAt": "2026-08-29T01:54:54.281+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,10 +43,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "'지켜드림'은 중/장년 고객의 어떤 피해를 예방하고 보상하는 서비스일까요?",
         "answer": "보이스피싱, 카드 분실 피해",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-29T00:02:36.139+09:00"
       },
       {
@@ -97,7 +97,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "도수치료의 기본적인 횟수 제한은 주 O회이다",
+        "answer": "2",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-29T01:54:54.279+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "시장 변동으로 인해 목표로 정한 자산 비중이 달라졌을 때, 다시 원래 비율에 맞추는 투자 방법은?",
