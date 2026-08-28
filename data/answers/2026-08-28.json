@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T09:36:33.596+09:00",
+  "updatedAt": "2026-08-28T10:01:18.943+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,7 +67,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "3세트 구매 시 1세트 추가 증정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T10:01:18.943+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
