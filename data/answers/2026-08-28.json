@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T11:00:32.423+09:00",
+  "updatedAt": "2026-08-28T11:01:07.415+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -118,7 +118,15 @@
         "publishedAt": "2026-08-28T00:08:41.952+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "78",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-28T11:01:07.415+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
