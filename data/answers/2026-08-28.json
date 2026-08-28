@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T11:04:53.916+09:00",
+  "updatedAt": "2026-08-28T11:06:57.793+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-28T08:04:36.164+09:00"
+      },
+      {
+        "question": "U+ 커피 증정 이벤트",
+        "answer": "아이폰 웰스 브랜드데이정답 - 52, 카포드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T11:06:57.791+09:00"
       }
     ],
     "cashwalk": [
