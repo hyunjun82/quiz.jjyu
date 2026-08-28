@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T00:00:36.333+09:00",
+  "updatedAt": "2026-08-29T00:00:44.068+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -57,7 +57,15 @@
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "자외선은 한여름에 가장 강하고 가을이 되면 약해진다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T00:00:44.068+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
