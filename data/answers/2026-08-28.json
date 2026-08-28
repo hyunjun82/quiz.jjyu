@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T19:02:38.394+09:00",
+  "updatedAt": "2026-08-28T20:01:06.706+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-28T19:02:38.392+09:00"
+      },
+      {
+        "question": "사랑의열매 크라우드펀딩에 참여하세요",
+        "answer": "기자재",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T20:01:06.705+09:00"
       }
     ],
     "shinhan-sol": [
