@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T00:00:09.145+09:00",
+  "updatedAt": "2026-08-29T00:00:36.333+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -31,13 +31,29 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "라벨이 없거나, 쉽게 분리되는 제품을 구매하는 것은 일상 속 탄소중립 실천으로 볼 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T00:00:36.332+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "시장 변동으로 인해 목표로 정한 자산 비중이 달라졌을 때, 다시 원래 비율에 맞추는 투자 방법은?",
+        "answer": "리밸런싱",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T00:00:36.333+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
@@ -46,7 +62,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "칼슘은 갑상선호르몬제나 일부 항생제의 흡수를 방해할 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T00:00:36.333+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
