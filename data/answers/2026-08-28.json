@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T15:01:22.262+09:00",
+  "updatedAt": "2026-08-28T15:07:29+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -155,6 +155,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-28T08:04:36.165+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (오후 12시)",
+        "answer": "열쇠고리",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-08-28T15:07:29+09:00"
       }
     ],
     "ok-cashbag": [],
