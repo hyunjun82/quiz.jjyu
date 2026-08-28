@@ -474,7 +474,10 @@ function parseEntry(entry) {
     const qMatch = block.match(/quiz-question">([\s\S]*?)<\/p>/);
     const question = qMatch ? clean(qMatch[1]) : '';
 
-    const answers = [...block.matchAll(/quiz-answer-highlight[^"]*">([\s\S]*?)<\/span>/g)]
+    // 8/28 실측: 토스 글의 정답 span 은 class 뒤에 style 속성이 붙어
+    // (`class="a2 quiz-answer-highlight" style="..."`) 기존 [^"]*"> 패턴이 못 잡았다.
+    // 동원몰(케바삭)·U+(아이폰)이 이 때문에 블로그에서 누락 — 태그 끝(>)까지 통째로 본다.
+    const answers = [...block.matchAll(/quiz-answer-highlight[^>]*>([\s\S]*?)<\/span>/g)]
       .map((m) => clean(m[1]))
       .filter(isSaneAnswer);
     if (answers.length === 0) continue; // 아직 정답 미공개
