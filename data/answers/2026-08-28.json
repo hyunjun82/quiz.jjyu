@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updatedAt": "2026-08-28T18:40:41.492+09:00",
+  "updatedAt": "2026-08-28T19:02:38.394+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-28T18:03:57.579+09:00"
+      },
+      {
+        "question": "리얼마이즈 대용량 저당 파스타 소스",
+        "answer": "맛은그대로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-28T19:02:38.392+09:00"
       }
     ],
     "shinhan-sol": [
