@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T00:01:55.923+09:00",
+  "updatedAt": "2026-08-29T00:02:36.139+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -26,7 +26,22 @@
         "publishedAt": "2026-08-29T00:00:02.511+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "보이스피싱, 카드 분실 피해",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T00:02:36.139+09:00"
+      },
+      {
+        "question": "MLB 소식입니다. 김하성 선수가 2경기 연속안타를 기록하며 상승세를 보였습니다. 아래 중 현재까지 김 선수가 속했던 메이저리그 구단이 아닌 것은?",
+        "answer": "디트로이트 타이거스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T00:02:36.139+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
