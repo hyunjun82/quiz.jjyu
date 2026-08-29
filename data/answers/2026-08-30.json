@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T00:54:46.580+09:00",
+  "updatedAt": "2026-08-30T01:54:49.830+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -14,10 +14,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "새로워진 슈퍼SOL로 카드결제만 해도 포인트가! 매월 선착순 혜택을 받을 수 있는 인원은 몇 명일까요?",
         "answer": "10만명",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-08-30T00:03:50.590+09:00"
       },
       {
@@ -34,7 +34,7 @@
     "cashdoc": [],
     "climate-action": [
       {
-        "question": "기후행동 기회소득 8월 30일 오늘의 퀴즈 문제",
+        "question": "‘탄소마이너스’란 온실가스 배출을 줄이는 동시에 대기 중 탄소를 추가로 흡수하여 온실가스의 순 배출량을 마이너스로 만드는 것을 말한다.",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -68,6 +68,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-08-30T00:13:30.009+09:00"
+      },
+      {
+        "question": "전세사기를 예방하기 위해 해야할 사항이 아닌 것은 무엇일까요?",
+        "answer": "특약 작성 생략하기",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-30T01:54:49.825+09:00"
       }
     ],
     "kbank": [
@@ -77,6 +84,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-30T00:01:23.758+09:00"
+      },
+      {
+        "question": "허블 우주망원경보다 100배 넓은 시야로 2026년 8월 30일 발사 예정인 NASA의 우주망원경의 이름은?",
+        "answer": "낸시 그레이스 로먼",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-30T01:54:49.829+09:00"
       }
     ],
     "hana-onq": [
@@ -95,10 +109,25 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-30T00:01:23.758+09:00"
+      },
+      {
+        "question": "영어로 '의심스럽다'는 표현을 배워보자. ① That sounds ○○○. (그건 좀 수상하게 들리네요.) ② That seems ○○○. (의심스러워 보이네요.) ③ That sounds ○○○ ○○○ to me. (아주 명확하게 이해돼.)",
+        "answer": "① shady ② suspicious ③ perfectly / clear",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-30T01:54:49.827+09:00"
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "귀에서 삐 소리가 나는 이명은 귀 자체의 문제로만 생긴다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-30T01:54:49.829+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
