@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T08:06:58.212+09:00",
+  "updatedAt": "2026-08-29T10:01:26.200+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,7 +67,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "장거리 여행 유형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-29T10:01:26.199+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
