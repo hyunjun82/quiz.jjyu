@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T00:03:50.590+09:00",
+  "updatedAt": "2026-08-30T00:06:50.822+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -33,8 +33,24 @@
         "publishedAt": "2026-08-30T00:01:23.758+09:00"
       }
     ],
-    "hpoint": [],
-    "bitbunny": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "40%",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T00:06:50.822+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "뇌동매매",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T00:06:50.822+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -73,7 +89,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T00:06:50.822+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
@@ -84,8 +108,24 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T00:06:50.822+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "배경훈",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T00:06:50.822+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
