@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T00:13:30.009+09:00",
+  "updatedAt": "2026-08-30T00:15:06.617+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -44,10 +44,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOO란, 충분한 분석 없이 시장 분위기나 다른 투자자의 행동을 따라 자산을 사고파는 투자행위에요.",
         "answer": "뇌동매매",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-30T00:06:50.822+09:00"
       }
     ],
