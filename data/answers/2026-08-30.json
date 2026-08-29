@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T07:55:02.414+09:00",
+  "updatedAt": "2026-08-30T08:24:12.469+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -35,7 +35,15 @@
         "publishedAt": "2026-08-30T00:03:50.590+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "필기도구",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T08:24:12.469+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
