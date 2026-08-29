@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T02:18:46.614+09:00",
+  "updatedAt": "2026-08-30T07:55:02.414+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-30T00:16:44.097+09:00"
+      },
+      {
+        "question": "사용자마다 문제가 랜덤으로 다르게 출제됩니다.",
+        "answer": "777",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-08-30T07:55:02.413+09:00"
       }
     ],
     "cashwalk": [],
