@@ -1,10 +1,25 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T00:03:03.326+09:00",
+  "updatedAt": "2026-08-30T00:03:50.590+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "10만명",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-30T00:03:50.590+09:00"
+      },
+      {
+        "question": "현재 진행 중인 삼성과 kt의 주말 3연전은 2026 정규리그 1위 경쟁의 분수령이 될 것으로 보입니다. 아래 중 kt wiz가 첫 정규시즌 우승을 차지한 해는?",
+        "answer": "2021년",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-30T00:03:50.590+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
