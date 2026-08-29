@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updatedAt": "2026-08-29T15:06:42.188+09:00",
+  "updatedAt": "2026-08-29T19:44:44.221+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -139,10 +139,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "'행복한 한가위 나의 추석 스타일' 이벤트에서 선택할 수 없는 유형은 무엇일까요?",
         "answer": "장거리 여행 유형",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-29T10:01:26.199+09:00"
       }
     ],
@@ -309,7 +309,15 @@
         "publishedAt": "2026-08-29T00:03:37.626+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 그린핑거",
+        "answer": "엠보싱",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-29T19:44:44.221+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
