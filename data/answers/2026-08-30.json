@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T02:18:12.247+09:00",
+  "updatedAt": "2026-08-30T02:18:46.614+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,10 +144,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "모라토리엄은 빚 자체를 완전히 없애주는 조치예요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-30T00:06:50.822+09:00"
       }
     ],
