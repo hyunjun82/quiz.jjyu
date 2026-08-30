@@ -73,6 +73,16 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fundingchoicesmessages.google.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossOrigin="anonymous" />
+        {/* Offerwall 선로드 태그 — 애드센스 스크립트가 끝난 뒤에야 오퍼월을 부르면
+            표시까지 2.2초가 걸린다(2026-08-31 PC 실측). 이 태그를 직접 두면
+            애드센스와 병렬로 시작해 표시 시점이 1초 이상 앞당겨진다. */}
+        <script async src="https://fundingchoicesmessages.google.com/i/ca-pub-2442517902625121?ers=1" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){function s(){if(!window.frames['googlefcPresent']){if(document.body){var i=document.createElement('iframe');i.style='width:0;height:0;border:none;z-index:-1000;left:-1000px;top:-1000px;';i.style.display='none';i.name='googlefcPresent';document.body.appendChild(i);}else{setTimeout(s,0);}}}s();})();",
+          }}
+        />
         {/* Google AdSense — 사이트 소유 확인 및 광고 게재 */}
         <script
           async
