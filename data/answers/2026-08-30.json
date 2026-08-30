@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T10:01:58.815+09:00",
+  "updatedAt": "2026-08-30T10:02:15.025+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -82,7 +82,15 @@
         "publishedAt": "2026-08-30T00:06:50.822+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "200",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T10:02:15.025+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
@@ -152,7 +160,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "한가위",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T10:02:15.025+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
