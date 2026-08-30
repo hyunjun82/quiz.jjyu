@@ -69,6 +69,10 @@ export default function RootLayout({ children }) {
           href="/rss.xml"
         />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        {/* 오퍼월/광고 서버 연결 선점 — 정답 페이지 도착 후 오퍼월이 뜨기까지의 지연을 줄인다 (DNS+TLS 선연결) */}
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fundingchoicesmessages.google.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossOrigin="anonymous" />
         {/* Offerwall 표시 제어 — 정답이 공개되는 페이지(/today, /quiz/앱/날짜…)에서만 오퍼월을 허용한다.
             목록 페이지(문제만 보임)에서는 오퍼월을 보류해, "정답 확인 클릭 → 정답 페이지 도착 → 오퍼월 → 광고 → 정답" 순서를 만든다.
             반드시 애드센스 스크립트보다 먼저 실행돼야 한다(구글 공식 controlledMessagingFunction 규격).
