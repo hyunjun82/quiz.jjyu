@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T00:16:08.351+09:00",
+  "updatedAt": "2026-08-31T00:17:45.584+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,7 +76,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-31T00:17:45.584+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "허블 우주망원경보다 100배 넓은 시야로 2026년 8월 30일 발사 예정인 NASA의 우주망원경의 이름은?",
