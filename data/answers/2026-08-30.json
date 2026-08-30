@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T17:00:46.110+09:00",
+  "updatedAt": "2026-08-30T17:01:16.840+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-30T17:00:43.715+09:00"
+      },
+      {
+        "question": "아이소이 3겹 속보습템 크림",
+        "answer": "아이소이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-30T17:01:16.839+09:00"
       }
     ],
     "shinhan-sol": [
