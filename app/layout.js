@@ -69,6 +69,16 @@ export default function RootLayout({ children }) {
           href="/rss.xml"
         />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        {/* Offerwall 표시 제어 — 정답이 공개되는 페이지(/today, /quiz/앱/날짜…)에서만 오퍼월을 허용한다.
+            목록 페이지(문제만 보임)에서는 오퍼월을 보류해, "정답 확인 클릭 → 정답 페이지 도착 → 오퍼월 → 광고 → 정답" 순서를 만든다.
+            반드시 애드센스 스크립트보다 먼저 실행돼야 한다(구글 공식 controlledMessagingFunction 규격).
+            오퍼월 외 다른 메시지 유형은 건드리지 않는다. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "window.googlefc=window.googlefc||{};googlefc.callbackQueue=googlefc.callbackQueue||[];googlefc.controlledMessagingFunction=function(m){var p=location.pathname;var reveal=/^\\/today(\\/|$)/.test(p)||/^\\/quiz\\/[^/]+\\/\\d{4}-\\d{2}-\\d{2}(\\/|$)/.test(p);if(reveal){m.proceed(true);}else{var t=[];try{if(window.googlefc.MessageTypeEnum){t.push(window.googlefc.MessageTypeEnum.OFFERWALL);}}catch(e){}m.proceed(false,t);}};",
+          }}
+        />
         {/* Google AdSense — 사이트 소유 확인 및 광고 게재 */}
         <script
           async
