@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T00:55:11.114+09:00",
+  "updatedAt": "2026-08-31T00:55:15.036+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -142,7 +142,7 @@
     "doctornow": [
       {
         "question": "혓바늘 치료를 위해선 면역력 회복이 중요하다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-31T00:02:00.939+09:00"
