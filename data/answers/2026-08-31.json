@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T00:25:21.518+09:00",
+  "updatedAt": "2026-08-31T00:55:11.114+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,10 +85,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 한국사 매일 퀴즈",
+        "question": "1931년 강주룡은 평양 을밀대 지붕 위에서 임금 삭감에 항의하며 농성 투쟁을 전개하였다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-08-31T00:17:45.584+09:00"
       }
     ],
@@ -99,6 +99,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-31T00:00:47.112+09:00"
+      },
+      {
+        "question": "2026년 8월 29일부터 30일까지 부산 해운대 APEC나루공원에서 열린 야간 걷기 축제 명칭은?",
+        "answer": "부산나이트워크42K",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:55:11.113+09:00"
       }
     ],
     "hana-onq": [],
@@ -119,6 +126,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-31T00:00:47.112+09:00"
+      },
+      {
+        "question": "통풍이 있을 때 굶다시피 급하게 살을 빼면 증상이 더 나빠질 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:55:11.113+09:00"
       }
     ],
     "skstoa": [],
@@ -127,10 +141,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈",
+        "question": "혓바늘 치료를 위해선 면역력 회복이 중요하다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-08-31T00:02:00.939+09:00"
       }
     ],
@@ -142,6 +156,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-31T00:06:30.697+09:00"
+      },
+      {
+        "question": "우선주는 보통주보다 의결권이 훨씬 강한 주식이에요.",
+        "answer": "X 아니에요",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-08-31T00:55:11.111+09:00"
       }
     ],
     "adapter": [
