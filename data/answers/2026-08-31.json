@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T00:02:53.889+09:00",
+  "updatedAt": "2026-08-31T00:02:56.997+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,22 @@
         "publishedAt": "2026-08-31T00:00:14.443+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "10,000원 캐시백",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:02:56.997+09:00"
+      },
+      {
+        "question": "28일부터 공연법 개정안이 시행되어 앞으로 공연이나 스포츠 경기 입장권을 부정 유통하면 과징금이 부과됩니다. 과징금 규모는 판매금액의 몇배일까요?",
+        "answer": "50배",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:02:56.997+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
