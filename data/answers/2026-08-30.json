@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T21:28:20.150+09:00",
+  "updatedAt": "2026-08-30T21:50:15.290+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -202,10 +202,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "KB Pay 여행 제휴사 '무브'에서 인천공항 이동 서비스 왕복 이용 시…(후략)",
         "answer": "2026.7.1(수)~10.5(월)",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-08-30T10:01:40.384+09:00"
       }
     ],
