@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T00:00:17.447+09:00",
+  "updatedAt": "2026-08-31T00:00:47.112+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -24,17 +24,49 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "‘탄소마이너스’란 온실가스 배출을 줄이는 동시에 대기 중 탄소를 추가로 흡수하여 온실가스의 순 배출량을 마이너스로 만드는 것을 말한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:00:47.112+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "허블 우주망원경보다 100배 넓은 시야로 2026년 8월 30일 발사 예정인 NASA의 우주망원경의 이름은?",
+        "answer": "낸시 그레이스 로먼",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:00:47.112+09:00"
+      }
+    ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:00:47.112+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "귀에서 삐 소리가 나는 이명은 귀 자체의 문제로만 생긴다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T00:00:47.112+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
