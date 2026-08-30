@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updatedAt": "2026-08-30T17:04:56.050+09:00",
+  "updatedAt": "2026-08-30T18:55:47.619+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -395,7 +395,15 @@
         "publishedAt": "2026-08-30T00:06:50.822+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 삼다수",
+        "answer": "미래",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-30T18:55:47.619+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
