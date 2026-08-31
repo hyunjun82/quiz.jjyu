@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-01",
+  "updatedAt": "2026-09-01T00:00:10.757+09:00",
+  "answers": {
+    "toss-lucky": [
+      {
+        "question": "공유 이벤트 참여하면 전상품 1만원 쿠폰 혹은 OOO 할인쿠폰을 드려요",
+        "answer": "왕교자",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-01T00:00:10.757+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제",
+        "answer": null,
+        "choices": [
+          "10",
+          "16000"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-09-01T00:00:10.757+09:00"
+      },
+      {
+        "question": "인기상품을 한정수량으로 드리는 제일특가 오픈런은 매일 오전 OO시에 시작돼요",
+        "answer": "10",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-01T00:00:10.757+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제",
+        "answer": null,
+        "choices": [
+          "16000",
+          "왕교자"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-09-01T00:00:10.757+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "숙소 최대 ○○% 할인, 댓글 이벤트까지! 지금 퀴즈에 참여하고 히로시마의 매력을 직접 경험해보세요!",
+        "answer": "10 / 9",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-01T00:00:10.757+09:00"
+      }
+    ],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "monimo": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
