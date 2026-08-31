@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T00:03:25.709+09:00",
+  "updatedAt": "2026-09-01T00:05:36.121+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -49,7 +49,22 @@
         "publishedAt": "2026-09-01T00:00:10.757+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "올리브영",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T00:05:36.121+09:00"
+      },
+      {
+        "question": "두산의 영건 최민석 선수가 8월에만 4승을 추가하며 다승 부문 단독 선두로 올라섰습니다. 8월 31일 현재 최 선수는 몇 승을 기록 중일까요?",
+        "answer": "13승",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T00:05:36.121+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
@@ -63,8 +78,24 @@
         "publishedAt": "2026-09-01T00:00:45.007+09:00"
       }
     ],
-    "hpoint": [],
-    "bitbunny": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "뉴문",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T00:05:36.121+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "환율조작국",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T00:05:36.121+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -111,7 +142,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T00:05:36.121+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
@@ -122,8 +161,24 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T00:05:36.121+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "행동이 운명을 이긴다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T00:05:36.121+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
