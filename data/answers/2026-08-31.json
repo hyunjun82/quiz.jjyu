@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T15:37:46.722+09:00",
+  "updatedAt": "2026-08-31T16:01:09.778+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -209,6 +209,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-31T12:36:47.832+09:00"
+      },
+      {
+        "question": "종근당건강 락토핏 코어",
+        "answer": "59900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T16:01:09.777+09:00"
       }
     ],
     "shinhan-sol": [
