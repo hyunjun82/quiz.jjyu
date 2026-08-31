@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T09:02:53.998+09:00",
+  "updatedAt": "2026-08-31T09:49:16.466+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -164,6 +164,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-08-31T00:06:30.697+09:00"
+      },
+      {
+        "question": "비트버니 퀴즈 — 0000",
+        "answer": "레셀테크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:49:16.466+09:00"
       }
     ],
     "kakaopay": [],
