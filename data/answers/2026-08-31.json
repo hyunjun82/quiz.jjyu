@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T08:04:43.493+09:00",
+  "updatedAt": "2026-08-31T09:02:45.624+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -25,6 +25,83 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-08-31T00:00:14.443+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.623+09:00"
+      },
+      {
+        "question": "CJ더마켓 메가 더세페 상반기 최대 세일",
+        "answer": "30, 6588, 초특가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.623+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.623+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.623+09:00"
+      },
+      {
+        "question": "픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.623+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.623+09:00"
+      },
+      {
+        "question": "픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.624+09:00"
+      },
+      {
+        "question": "돈버는미션 매일매일 혜택쌓기 기프또 앱",
+        "answer": "메가밀리언",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.624+09:00"
+      },
+      {
+        "question": "리얼마이즈 대용량 저당 파스타 소스 키토선생 푸드위크",
+        "answer": "맛은그대로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.624+09:00"
+      },
+      {
+        "question": "아이소이 올영세일 울퉁불퉁 요철 개선 치트키",
+        "answer": "3, 99, 흔적요철",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.624+09:00"
+      },
+      {
+        "question": "아이소이 올영세일 3겹 속보습템 수분크림 특가",
+        "answer": "장벽, 장수진, 티트리, 아이소이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T09:02:45.624+09:00"
       }
     ],
     "shinhan-sol": [
