@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T12:00:58.301+09:00",
+  "updatedAt": "2026-08-31T12:03:38.755+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -188,6 +188,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-31T12:00:43.569+09:00"
+      },
+      {
+        "question": "제주항공 취향저격 여행지 히로시마 특가",
+        "answer": "9, 10",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T12:03:38.753+09:00"
       }
     ],
     "shinhan-sol": [
