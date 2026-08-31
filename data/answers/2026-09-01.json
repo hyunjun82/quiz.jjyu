@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T00:19:57.462+09:00",
+  "updatedAt": "2026-09-01T01:55:12.809+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,10 +58,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "1일부터 3일까지 진행되는 마이샵 최대 혜택 기간인 '마이샵데이'의 참여 브랜드가 아닌 곳은?",
         "answer": "올리브영",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-01T00:05:36.121+09:00"
       },
       {
@@ -83,6 +83,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-01T00:00:45.007+09:00"
+      },
+      {
+        "question": "경기도 김포시와 평택시는 온실가스 측정소에서 실시간으로 온실가스를 측정하고 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T01:55:12.808+09:00"
       }
     ],
     "hpoint": [
@@ -105,7 +112,22 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "'통장 묶기 사기'는 사기범이 무고한 계좌에 소액을 입금한 뒤 보이스피싱 계좌로 신고해 OOOO 시키는 수법이다.",
+        "answer": "지급정지",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-01T01:55:12.807+09:00"
+      },
+      {
+        "question": "(가) 시대의 생활 모습으로 옳은 것은?",
+        "answer": "거푸집을 이용하여 비파형 동검을 만들었다.",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-01T01:55:12.808+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "2026년 8월 29일부터 30일까지 부산 해운대 APEC나루공원에서 열린 야간 걷기 축제 명칭은?",
@@ -113,6 +135,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      },
+      {
+        "question": "9월 서울 DDP와 롯데월드타워 일대에서 열리는 K-패션 대표 글로벌 패션 행사는?",
+        "answer": "서울패션위크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T01:55:12.808+09:00"
       }
     ],
     "hana-onq": [
@@ -141,6 +170,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      },
+      {
+        "question": "독감 예방접종은 빨리 맞을수록 좋다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T01:55:12.808+09:00"
       }
     ],
     "skstoa": [],
@@ -154,6 +190,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      },
+      {
+        "question": "대머리는 정력의 세기와 관련이 있다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T01:55:12.808+09:00"
       }
     ],
     "buzzvil": [],
