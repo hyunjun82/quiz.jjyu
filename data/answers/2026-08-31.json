@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T10:00:33.982+09:00",
+  "updatedAt": "2026-08-31T10:01:09.090+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,6 +109,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-08-31T10:00:26.714+09:00"
+      },
+      {
+        "question": "푸드루트 필수 뼈건강 비타민",
+        "answer": "K",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T10:01:09.089+09:00"
       }
     ],
     "shinhan-sol": [
