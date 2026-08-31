@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T00:05:36.121+09:00",
+  "updatedAt": "2026-09-01T00:14:31.526+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,10 +144,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "국가나 기업의 신용등급이 내려가면 자금 조달 비용이 낮아져요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-01T00:05:36.121+09:00"
       }
     ],
