@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T07:58:49.728+09:00",
+  "updatedAt": "2026-09-01T08:04:32.122+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -72,7 +72,15 @@
         "publishedAt": "2026-09-01T00:05:36.121+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "사이클링",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T08:04:32.122+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
