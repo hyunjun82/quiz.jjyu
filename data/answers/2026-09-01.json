@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T00:00:10.757+09:00",
+  "updatedAt": "2026-09-01T00:00:45.008+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,22 +54,62 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "컴퓨터 ‘절전기능’을 사용하더라도 일상 속에서 전기 사용을 줄이는 탄소중립 실천이라고 볼 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T00:00:45.007+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "2026년 8월 29일부터 30일까지 부산 해운대 APEC나루공원에서 열린 야간 걷기 축제 명칭은?",
+        "answer": "부산나이트워크42K",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      }
+    ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "해외에서 신용카드로 결제할 때 일반적으로 현지 통화보다 원화(KRW)로 결제하는 것이 수수료가 더 적다. 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "통풍이 있을 때 굶다시피 급하게 살을 빼면 증상이 더 나빠질 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "혓바늘 치료를 위해선 면역력 회복이 중요하다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
