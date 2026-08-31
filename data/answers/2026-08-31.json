@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T20:02:40.835+09:00",
+  "updatedAt": "2026-08-31T21:00:55.658+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -237,6 +237,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-31T17:06:47.579+09:00"
+      },
+      {
+        "question": "푸드루트 피로회복 활력 비타민B",
+        "answer": "8",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-08-31T21:00:55.656+09:00"
       }
     ],
     "shinhan-sol": [
