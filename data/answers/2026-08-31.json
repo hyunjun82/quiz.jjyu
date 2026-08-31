@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updatedAt": "2026-08-31T17:06:55.655+09:00",
+  "updatedAt": "2026-08-31T18:25:38.492+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -588,7 +588,15 @@
         "publishedAt": "2026-08-31T00:02:53.889+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 라운드랩",
+        "answer": "저자극",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-31T18:25:38.492+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
