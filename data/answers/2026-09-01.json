@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T12:01:20.543+09:00",
+  "updatedAt": "2026-09-01T12:03:04.963+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -287,6 +287,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-01T12:00:53.935+09:00"
+      },
+      {
+        "question": "컷슬린 추석 GIFT",
+        "answer": "혈당, 체지방, 다이어트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T12:03:04.962+09:00"
       }
     ],
     "climate-action": [
