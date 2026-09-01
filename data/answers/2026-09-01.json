@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T10:02:27.056+09:00",
+  "updatedAt": "2026-09-01T10:03:10.983+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -126,7 +126,22 @@
         "publishedAt": "2026-09-01T00:05:36.121+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "3000",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T10:03:10.983+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "유메르",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T10:03:10.983+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
