@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T20:10:38.728+09:00",
+  "updatedAt": "2026-09-01T20:55:35.866+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,6 +52,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-01T10:03:16.034+09:00"
+      },
+      {
+        "question": "무탠다드 FW 신상 깃털처럼 가벼운 OOOOO 신상 쿠폰 받고 구매해요",
+        "answer": "라이트다운",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-01T20:55:35.857+09:00"
       }
     ],
     "cashwalk": [
@@ -351,6 +358,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-01T19:00:54.666+09:00"
+      },
+      {
+        "question": "🚗 불스원 밸런스업 간편세차 600ml 2개 단하루 10,900원! ✅O 없이 간편하게 세차 ✅부드러운 세정력 ✅카나우바 왁스로 광택 케어 ✅뿌리고 닦고 광내는 초간편 3단계 케어",
+        "answer": "물",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-01T20:55:35.854+09:00"
       }
     ],
     "climate-action": [
@@ -560,6 +574,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-01T15:01:07.241+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시",
+        "answer": "3, 3, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T20:55:35.865+09:00"
       }
     ],
     "moneywalk": [
