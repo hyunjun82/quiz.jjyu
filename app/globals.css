@@ -1143,8 +1143,18 @@ main, header, footer { position: relative; z-index: 1; }
    왼쪽 정렬돼 콘텐츠 밖으로 삐져나온 것처럼 보였다. */
 .ad-slot { max-width: 1032px; margin-left: auto; margin-right: auto; }
 
+/* 여백을 넉넉히 두는 이유 — 2026-09-01 실측.
+   CPC $0.06 (정상 $0.10~0.30의 절반), 페이지 CTR 7.61% (정상 1~3%).
+   높은 CTR + 낮은 CPC = 의도하지 않은 클릭이 섞였다는 신호다.
+   정답 페이지는 [다음 문제 정답 →] 버튼 바로 24px 아래가 광고라
+   모바일에서 스크롤하다 손가락이 미끄러지면 그대로 눌린다.
+   그런 클릭은 광고주에게 가치가 0이라 구글이 입찰가를 내리고,
+   반복되면 무효 클릭으로 차감까지 간다.
+   광고를 줄이는 대신 실수로 닿지 않을 만큼 떼어놓는다. */
 .ad-slot {
-  margin: 24px 0;
+  /* margin-left/right 는 auto 를 유지해야 위의 가운데 정렬 규칙이 살아남는다.
+     40px 0 으로 쓰면 좌우가 0 이 되어 홈 광고가 다시 왼쪽으로 쏠린다. */
+  margin: 40px auto;
   min-height: 110px;
   border-radius: 12px;
   display: flex;
@@ -1152,9 +1162,27 @@ main, header, footer { position: relative; z-index: 1; }
   justify-content: center;
   overflow: hidden;
 }
-/* 모바일: 반응형 광고가 보통 300×250으로 렌더링 → 높이를 미리 예약해 레이아웃 밀림(CLS) 방지 */
+/* 모바일: 반응형 광고가 보통 300×250으로 렌더링 → 높이를 미리 예약해 레이아웃 밀림(CLS) 방지.
+   여백은 위 56px / 아래 40px — 위를 더 크게 둔 건 사용자가 위에서 아래로
+   스크롤하며 내려오다 누르기 때문이다. 광고 위쪽 경계가 위험 구간이다. */
 @media (max-width: 767px) {
-  .ad-slot { min-height: 280px; }
+  .ad-slot {
+    min-height: 280px;
+    margin: 56px auto 40px;
+  }
+}
+
+/* 버튼 바로 다음에 오는 광고는 더 떼어놓는다.
+   [다음 문제 정답 →] 같은 이동 버튼 밑이 오클릭이 제일 많이 나는 자리다. */
+.q-nav + .ad-slot,
+.howto + .ad-slot {
+  margin-top: 64px;
+}
+@media (max-width: 767px) {
+  .q-nav + .ad-slot,
+  .howto + .ad-slot {
+    margin-top: 80px;
+  }
 }
 
 .ad-rect { min-height: 300px; }
