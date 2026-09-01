@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T00:55:01.755+09:00",
+  "updatedAt": "2026-09-02T01:53:35.624+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,10 +29,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "앱테크 미션 달성하고 가을맞이 경품 받기! 포인트줍줍 체험 시 받을 수 있는 경품은 무엇일까요?",
         "answer": "투썸플레이스 수정과+식혜 상품권",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-02T00:03:21.980+09:00"
       },
       {
@@ -90,6 +90,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-09-02T00:55:01.753+09:00"
+      },
+      {
+        "question": "재산세를 내는 달이 아닌 것은 언제일까요?",
+        "answer": "5월",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-02T01:53:35.622+09:00"
       }
     ],
     "kbank": [
@@ -110,10 +117,10 @@
     ],
     "hana-onq": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나은행 통장으로 급여를 받으면 매달 달달한 보너스를 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-02T00:55:01.755+09:00"
       }
     ],
@@ -154,6 +161,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-02T00:01:02.584+09:00"
+      },
+      {
+        "question": "9월은 잡초류 꽃가루가 많이 날려 비염 환자가 급증한다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T01:53:35.624+09:00"
       }
     ],
     "buzzvil": [],
