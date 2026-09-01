@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T00:01:37.790+09:00",
+  "updatedAt": "2026-09-02T00:03:21.980+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -20,7 +20,22 @@
         "publishedAt": "2026-09-02T00:01:37.790+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "투썸플레이스 수정과+식혜 상품권",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:03:21.980+09:00"
+      },
+      {
+        "question": "큰 무대 도전 후 고우석 선수가 친정 팀 LG로 복귀한다는 보도입니다. 아래 중 고우석 선수가 속했던 미국 구단이 아닌 것은?",
+        "answer": "LA 다저스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:03:21.980+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
