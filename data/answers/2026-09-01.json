@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T08:04:32.122+09:00",
+  "updatedAt": "2026-09-01T10:01:21.494+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -82,7 +82,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "백화점 상품권",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T10:01:21.494+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
