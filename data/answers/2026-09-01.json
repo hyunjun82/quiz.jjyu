@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T17:02:24.504+09:00",
+  "updatedAt": "2026-09-01T18:30:26.835+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -566,7 +566,15 @@
         "publishedAt": "2026-09-01T00:05:36.121+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 평창수",
+        "answer": "암반",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T18:30:26.835+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
