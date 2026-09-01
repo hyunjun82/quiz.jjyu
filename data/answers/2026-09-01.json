@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T10:04:40.245+09:00",
+  "updatedAt": "2026-09-01T10:05:13.735+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -182,10 +182,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "KB Pay 여행 제휴사 '찜카'에서 가을 시즌 전 세계 렌터카 이용 시 제공하는 혜택이 아닌 것은 무엇일까요?",
         "answer": "백화점 상품권",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-01T10:01:21.494+09:00"
       }
     ],
