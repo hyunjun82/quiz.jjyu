@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T00:08:59.978+09:00",
+  "updatedAt": "2026-09-02T00:55:01.755+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-09-02T00:01:37.790+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "최대금리",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
       }
     ],
     "cashwalk": [
@@ -47,9 +54,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-02T00:01:02.584+09:00"
+      },
+      {
+        "question": "2025년 기준 우리나라의 신·재생에너지 발전비율은 전체의 20% 수준이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:55:01.754+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "커피 쿠폰 증정",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "00000란, 정상 가격보다 싸게 들여와 국내 산업에 피해를 주는 수입품에 매기는 관세예요.",
@@ -61,7 +83,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "궁예에 대한 설명으로 옳지 않은 것은?",
+        "answer": "3. 고창 전투에서 후백제군과 싸워 승리하였다.",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-02T00:55:01.753+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "9월 서울 DDP와 롯데월드타워 일대에서 열리는 K-패션 대표 글로벌 패션 행사는?",
@@ -69,9 +99,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-02T00:01:37.790+09:00"
+      },
+      {
+        "question": "9.2(수) 오후 12:30에 시작되는 AI 퀴즈 챌린지의 라이브 퀴즈",
+        "answer": "우승 총 상금 1,000만원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:55:01.754+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
@@ -89,6 +134,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-02T00:01:02.584+09:00"
+      },
+      {
+        "question": "아토피 상처를 긁으면 뇌에서 엔돌핀과 도파민이 분비돼 진통제보다 강한 진통 효과가 난다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
       }
     ],
     "skstoa": [],
@@ -105,12 +157,52 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
-    "adapter": [],
+    "bitbunny-ox": [
+      {
+        "question": "전환사채(CB)는 발행 시부터 주식으로만 취급되는 증권이에요.",
+        "answer": "X",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-02T00:55:01.753+09:00"
+      }
+    ],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "3, 4, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "노무현 평전",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      }
+    ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "네이버캘린더",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      }
+    ]
   }
 }
