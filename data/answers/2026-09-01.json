@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T10:05:14.061+09:00",
+  "updatedAt": "2026-09-01T10:22:51.729+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -297,6 +297,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-01T00:00:45.008+09:00"
+      },
+      {
+        "question": "모니모 퀴즈 — 모니스쿨",
+        "answer": "명동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T10:22:51.729+09:00"
       }
     ],
     "paybooc": [],
