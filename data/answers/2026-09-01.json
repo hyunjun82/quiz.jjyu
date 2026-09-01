@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T10:03:10.983+09:00",
+  "updatedAt": "2026-09-01T10:03:16.035+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -45,6 +45,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-01T00:19:57.462+09:00"
+      },
+      {
+        "question": "마마망 회원은 0원",
+        "answer": "무료체험키트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-01T10:03:16.034+09:00"
       }
     ],
     "cashwalk": [
