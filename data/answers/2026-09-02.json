@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T01:53:35.624+09:00",
+  "updatedAt": "2026-09-02T08:03:09.850+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,7 +43,15 @@
         "publishedAt": "2026-09-02T00:03:21.980+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "서식",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T08:03:09.850+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
