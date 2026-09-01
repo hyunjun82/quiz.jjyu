@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updatedAt": "2026-09-01T11:03:23.647+09:00",
+  "updatedAt": "2026-09-01T11:21:16.543+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -238,6 +238,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-01T10:03:10.983+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "수분선세럼",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-01T11:21:16.543+09:00"
       }
     ],
     "nh-allone": [
