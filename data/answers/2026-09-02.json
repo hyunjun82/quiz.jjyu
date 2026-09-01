@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-02",
+  "updatedAt": "2026-09-02T00:01:02.584+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [
+      {
+        "question": "경기도 김포시와 평택시는 온실가스 측정소에서 실시간으로 온실가스를 측정하고 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:01:02.584+09:00"
+      }
+    ],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "monimo": [
+      {
+        "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
+        "answer": "명동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:01:02.584+09:00"
+      }
+    ],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "독감 예방접종은 빨리 맞을수록 좋다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:01:02.584+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "대머리는 정력의 세기와 관련이 있다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T00:01:02.584+09:00"
+      }
+    ],
+    "buzzvil": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
