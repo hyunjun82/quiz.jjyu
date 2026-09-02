@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T00:00:46.524+09:00",
+  "updatedAt": "2026-09-03T00:01:19.649+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,7 +56,15 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
+        "answer": "명동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:01:19.649+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
