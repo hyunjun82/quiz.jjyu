@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T08:34:43.411+09:00",
+  "updatedAt": "2026-09-02T10:00:41.596+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,7 +53,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "바로할인",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T10:00:41.595+09:00"
+      }
+    ],
     "cashdoc": [
       {
         "question": "1알이면 막혀도 안아프게 비워요",
