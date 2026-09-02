@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T11:03:28.007+09:00",
+  "updatedAt": "2026-09-02T11:04:52.850+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      },
+      {
+        "question": "올해 단 한번의 기회",
+        "answer": "챔피언십",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-02T11:04:52.846+09:00"
       }
     ],
     "cashwalk": [
