@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T10:01:07.437+09:00",
+  "updatedAt": "2026-09-02T10:01:33.995+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -182,7 +182,15 @@
         "publishedAt": "2026-09-02T00:08:59.978+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "432",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T10:01:33.995+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
