@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T10:03:23.991+09:00",
+  "updatedAt": "2026-09-02T10:03:29.089+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,10 +55,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "9월 5일까지 진행하는 올리브영 세일 기간에 5% 추가 할인까지 받을 수 있는 KB Pay 서비스 이름은?",
         "answer": "바로할인",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-02T10:00:41.595+09:00"
       }
     ],
