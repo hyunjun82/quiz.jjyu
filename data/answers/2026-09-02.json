@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T11:00:44.438+09:00",
+  "updatedAt": "2026-09-02T11:01:36.548+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -326,6 +326,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-02T00:55:01.755+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시",
+        "answer": "O, 2, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T11:01:36.548+09:00"
       }
     ],
     "moneywalk": [],
