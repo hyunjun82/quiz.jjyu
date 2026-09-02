@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T00:01:19.649+09:00",
+  "updatedAt": "2026-09-03T00:03:02.624+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -27,7 +27,22 @@
         "publishedAt": "2026-09-03T00:00:10.517+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "40%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:03:02.623+09:00"
+      },
+      {
+        "question": "6일까지 슈퍼 SOL에서 응모 가능한 2026 신한 SOL KBO 리그 8월 월간 MVP 후보 8명 중 외국인 선수는 총 몇 명일까요?",
+        "answer": "3명",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:03:02.623+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
