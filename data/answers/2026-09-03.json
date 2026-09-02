@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T01:33:40.795+09:00",
+  "updatedAt": "2026-09-03T06:55:16.998+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -88,10 +88,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "0000000이란, 어떤 물건이 어느 나라에서 만들어 졌는지를 판정하는 무역 기준이에요.",
         "answer": "원산지결정기준",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-03T00:05:27.913+09:00"
       }
     ],
