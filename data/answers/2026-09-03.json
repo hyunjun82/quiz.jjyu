@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T00:14:42.171+09:00",
+  "updatedAt": "2026-09-03T00:21:38.457+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -111,6 +111,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-03T00:00:46.524+09:00"
+      },
+      {
+        "question": "천식 환자는 운동을 피하는 것이 좋다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:21:38.457+09:00"
       }
     ],
     "skstoa": [],
