@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T00:00:10.517+09:00",
+  "updatedAt": "2026-09-03T00:00:46.524+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -32,22 +32,54 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "2025년 기준 우리나라의 신·재생에너지 발전비율은 전체의 20% 수준이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:00:46.524+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "9.2(수) 오후 12:30에 시작되는 AI 퀴즈 챌린지의 라이브 퀴즈",
+        "answer": "우승 총 상금 1,000만원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:00:46.524+09:00"
+      }
+    ],
     "hana-onq": [],
     "monimo": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "아토피 상처를 긁으면 뇌에서 엔돌핀과 도파민이 분비돼 진통제보다 강한 진통 효과가 난다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:00:46.524+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "9월은 잡초류 꽃가루가 많이 날려 비염 환자가 급증한다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:00:46.524+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
