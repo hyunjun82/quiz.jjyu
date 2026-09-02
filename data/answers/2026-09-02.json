@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T15:02:20.315+09:00",
+  "updatedAt": "2026-09-02T16:25:34.655+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,7 +29,7 @@
         "answer": "챔피언십",
         "note": "",
         "source": "blog",
-        "publishedAt": "2026-09-02T12:05:53.162+09:00"
+        "publishedAt": "2026-09-02T16:25:34.650+09:00"
       }
     ],
     "cashwalk": [
@@ -190,6 +190,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-02T08:03:09.850+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (오후 12시)",
+        "answer": "타지마할",
+        "note": "",
+        "publishedAt": "2026-09-02T12:00:00+09:00",
+        "source": "gametoc"
       }
     ],
     "ok-cashbag": [
