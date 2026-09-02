@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T00:25:45.268+09:00",
+  "updatedAt": "2026-09-03T00:54:59.196+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -95,7 +95,15 @@
         "publishedAt": "2026-09-03T00:05:27.913+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 자코모 (혜택",
+        "answer": "정성",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-03T00:54:59.196+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [],
     "kbank": [
@@ -105,6 +113,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-03T00:00:46.524+09:00"
+      },
+      {
+        "question": "2026년 8월, 국내 기상관측 사상 최고기온인 42.5도가 기록된 지역은?",
+        "answer": "양산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:54:59.194+09:00"
       }
     ],
     "hana-onq": [],
@@ -145,6 +160,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-03T00:00:46.524+09:00"
+      },
+      {
+        "question": "철결핍성 빈혈로 인한 어지럼증은 며칠 안에 바로 사라진다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T00:54:59.195+09:00"
       }
     ],
     "buzzvil": [],
@@ -186,6 +208,14 @@
       }
     ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "일본",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-03T00:54:59.196+09:00"
+      }
+    ]
   }
 }
