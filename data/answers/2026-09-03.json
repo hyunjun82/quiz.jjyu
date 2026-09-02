@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T00:54:59.196+09:00",
+  "updatedAt": "2026-09-03T01:33:40.795+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,10 +43,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "탑스 쿠폰으로 버거킹에서 신제품 펜타치즈와퍼와 불고기와퍼주니어 2인팩 구매 시, 즉시 적용되는 할인율은?",
         "answer": "40%",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-03T00:03:02.623+09:00"
       },
       {
@@ -105,7 +105,22 @@
       }
     ],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB스타뱅킹에서 등록한 모바일신분증의 효력은 실물 신분증과 동일하다",
+        "answer": "O",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-03T01:33:40.793+09:00"
+      },
+      {
+        "question": "삼한은 5월과 10월에 계절제를 열어 하늘에 제사를 지냈다.",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-03T01:33:40.794+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "9.2(수) 오후 12:30에 시작되는 AI 퀴즈 챌린지의 라이브 퀴즈",
@@ -122,7 +137,15 @@
         "publishedAt": "2026-09-03T00:54:59.194+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐에서 대출금을 상환할 수 있는 시간은 365일 24시간이다.",
+        "answer": "X",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-03T01:33:40.794+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
@@ -172,10 +195,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "인덱스펀드는 특정 지수의 움직임을 따라가도록 설계된 펀드예요.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-03T00:05:27.913+09:00"
       }
     ],
