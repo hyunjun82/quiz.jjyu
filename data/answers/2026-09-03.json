@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T00:05:27.913+09:00",
+  "updatedAt": "2026-09-03T00:07:10.398+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,7 +56,15 @@
         "publishedAt": "2026-09-03T00:00:46.524+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "자음생크림",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-03T00:07:10.398+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "비트버니 오늘의 퀴즈",
@@ -131,7 +139,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-03T00:07:10.398+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
