@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updatedAt": "2026-09-02T16:55:23.910+09:00",
+  "updatedAt": "2026-09-02T18:55:12.657+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -501,7 +501,15 @@
         "publishedAt": "2026-09-02T00:55:01.755+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 비비고",
+        "answer": "동글동글",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-02T18:55:12.656+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
