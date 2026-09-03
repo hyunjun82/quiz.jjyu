@@ -1,8 +1,23 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T00:21:07.797+09:00",
+  "updatedAt": "2026-09-04T00:22:41.536+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "달콤바삭 BBQ",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T00:22:41.536+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "단짠국룰 BHC",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T00:22:41.536+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "천연펄프 100%, 국내생산, OOm로 더 길어지고 106mm 지폭으로 더 넓어진 프리미엄 화장지 입니다.",
