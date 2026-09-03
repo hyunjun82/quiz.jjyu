@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T07:58:44.278+09:00",
+  "updatedAt": "2026-09-04T08:03:27.553+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,7 +43,15 @@
         "publishedAt": "2026-09-04T00:02:42.961+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "훌라댄스",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T08:03:27.553+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [
