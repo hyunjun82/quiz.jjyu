@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T00:22:41.536+09:00",
+  "updatedAt": "2026-09-04T00:55:31.753+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,7 @@
         "publishedAt": "2026-09-04T00:00:56.651+09:00"
       },
       {
-        "question": "기후행동 기회소득 9월 4일 오늘의 퀴즈 문제",
+        "question": "경기도의 가뭄 발생 지역은 대부분 ‘도심지역’에 집중되어 있다.",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
@@ -82,10 +82,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOO이란, 회원국끼리는 관세를 없애고 비회원국엔 공동 관세를 매기는 무역 협력체예요.",
         "answer": "관세동맹",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-04T00:03:50.826+09:00"
       }
     ],
@@ -135,6 +135,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-04T00:01:31.312+09:00"
+      },
+      {
+        "question": "치질은 여름보다 겨울에 더 자주 발생한다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T00:55:31.752+09:00"
       }
     ],
     "skstoa": [],
@@ -148,6 +155,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-04T00:00:56.651+09:00"
+      },
+      {
+        "question": "얼굴용 여드름 약은 몸 여드름에도 그대로 발라도 안전하다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T00:55:31.753+09:00"
       }
     ],
     "buzzvil": [],
