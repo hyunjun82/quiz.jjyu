@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T01:56:02.111+09:00",
+  "updatedAt": "2026-09-04T07:55:40.083+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
+        "answer": "인도",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T07:55:40.083+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "금관가야는 풍부한 철 생산을 바탕으로 낙랑과 왜에 철을 수출하였다.",
@@ -197,7 +205,15 @@
         "publishedAt": "2026-09-04T00:02:07.652+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T07:55:40.083+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 오늘의퀴즈",
