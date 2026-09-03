@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T20:05:36.095+09:00",
+  "updatedAt": "2026-09-03T21:01:38.182+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -123,6 +123,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-03T15:02:48.119+09:00"
+      },
+      {
+        "question": "모나리자 프리미엄 천연펄프 하이엔드",
+        "answer": "40",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-03T21:01:38.181+09:00"
       }
     ],
     "shinhan-sol": [
