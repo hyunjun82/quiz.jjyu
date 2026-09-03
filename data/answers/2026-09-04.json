@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T00:05:27.012+09:00",
+  "updatedAt": "2026-09-04T00:10:28.060+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -151,6 +151,14 @@
       }
     ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "피드코인",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T00:10:28.060+09:00"
+      }
+    ]
   }
 }
