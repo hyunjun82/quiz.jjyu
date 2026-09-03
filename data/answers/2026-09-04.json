@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T00:00:56.651+09:00",
+  "updatedAt": "2026-09-04T00:01:31.312+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -49,9 +49,25 @@
       }
     ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
+        "answer": "명동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T00:01:31.312+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "천식 환자는 운동을 피하는 것이 좋다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T00:01:31.312+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
