@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T15:03:24.291+09:00",
+  "updatedAt": "2026-09-03T18:22:29.321+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -459,7 +459,15 @@
         "publishedAt": "2026-09-03T00:05:27.913+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 초고에몽",
+        "answer": "연구원",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-03T18:22:29.321+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
