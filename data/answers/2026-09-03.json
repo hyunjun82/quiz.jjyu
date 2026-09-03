@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T10:27:19.658+09:00",
+  "updatedAt": "2026-09-03T10:27:38.251+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,10 +69,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "KB Pay 쇼핑에서 '2026 GHOST 페스티벌' 티켓 구매 시 제공되는 혜택이 아닌 것은?",
         "answer": "포인트리 추가 적립",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-03T10:03:07.796+09:00"
       },
       {
