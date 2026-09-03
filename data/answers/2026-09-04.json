@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T00:10:28.060+09:00",
+  "updatedAt": "2026-09-04T00:18:52.269+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,7 +69,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T00:18:52.269+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "2026년 8월, 국내 기상관측 사상 최고기온인 42.5도가 기록된 지역은?",
