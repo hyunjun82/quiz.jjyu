@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updatedAt": "2026-09-03T10:27:55.144+09:00",
+  "updatedAt": "2026-09-03T10:39:02.391+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -160,6 +160,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-03T10:03:07.796+09:00"
+      },
+      {
+        "question": "마데카 ㅇㅇㅇㅇ/애프터크림 증정 주문인증 10명 추첨 메가커피 아메리카노 증정",
+        "answer": "발필링팩",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-03T10:39:02.389+09:00"
       }
     ],
     "climate-action": [
