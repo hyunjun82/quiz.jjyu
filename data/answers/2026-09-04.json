@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T00:20:31.040+09:00",
+  "updatedAt": "2026-09-04T00:21:07.797+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -47,6 +47,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-04T00:00:56.651+09:00"
+      },
+      {
+        "question": "기후행동 기회소득 9월 4일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T00:21:07.797+09:00"
       }
     ],
     "hpoint": [
