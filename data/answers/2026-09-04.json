@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T00:02:07.652+09:00",
+  "updatedAt": "2026-09-04T00:02:42.962+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-09-04T00:00:21.775+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "1,000P",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T00:02:42.961+09:00"
+      },
+      {
+        "question": "현재 1위 삼성 라이온즈가 시즌 70승을 돌파했습니다. 2025년 이후 144 경기 체제에서 KBO 리그 역대 단일 시즌 최고 승수인 93승을 두번 기록한 팀은?",
+        "answer": "두산 베어스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T00:02:42.961+09:00"
+      }
+    ],
     "kakaobank": [],
     "ok-cashbag": [],
     "kbpay": [],
