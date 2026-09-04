@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T05:56:05.388+09:00",
+  "updatedAt": "2026-09-05T06:55:29.012+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-09-05T05:56:05.387+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "큰 혜택",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "바로 받기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
       }
     ],
     "cashwalk": [
@@ -70,8 +84,24 @@
         "publishedAt": "2026-09-05T01:56:49.999+09:00"
       }
     ],
-    "hpoint": [],
-    "bitbunny": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "소유진",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "교역조건",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
@@ -171,11 +201,43 @@
         "publishedAt": "2026-09-05T03:56:56.208+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "3, 1, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "헬로키티",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
+      }
+    ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "1900",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T06:55:29.012+09:00"
+      }
+    ]
   }
 }
