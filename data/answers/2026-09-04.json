@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T16:56:26.218+09:00",
+  "updatedAt": "2026-09-04T17:08:42.488145+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,13 +16,6 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-04T00:22:41.536+09:00"
-      },
-      {
-        "question": "사용자마다 문제가 랜덤으로 다르게 출제됩니다.",
-        "answer": "10",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-09-04T16:56:26.210+09:00"
       }
     ],
     "cashwalk": [
@@ -183,11 +176,6 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-04T08:03:27.553+09:00"
-      },
-      {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (오후 12시)",
-        "answer": "첨부파일",
-        "publishedAt": "2026-09-04T13:35:03+09:00"
       }
     ],
     "ok-cashbag": [
