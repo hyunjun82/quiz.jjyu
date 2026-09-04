@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T16:02:46.230+09:00",
+  "updatedAt": "2026-09-04T16:28:26.101523+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,13 +16,6 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-04T00:22:41.536+09:00"
-      },
-      {
-        "question": "사용자마다 문제가 랜덤으로 다르게 출제됩니다.",
-        "answer": "10",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-09-04T16:02:46.227+09:00"
       }
     ],
     "cashwalk": [
