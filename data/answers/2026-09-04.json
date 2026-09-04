@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T13:07:34+09:00",
+  "updatedAt": "2026-09-04T13:40:00+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -176,6 +176,11 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-04T08:03:27.553+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (오후 12시)",
+        "answer": "첨부파일",
+        "publishedAt": "2026-09-04T13:35:03+09:00"
       }
     ],
     "ok-cashbag": [
