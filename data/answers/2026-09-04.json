@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T11:01:54.474+09:00",
+  "updatedAt": "2026-09-04T13:07:34+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -203,6 +203,96 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-09-04T00:00:21.775+09:00"
+      },
+      {
+        "question": "소휘 푸룬구미 - \"당류, 칼로리는 OO% 이상 다운 시켜\" 여기서 OO는?",
+        "answer": "50",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "PM12 발포로빼 - \"발포로빼는 식약처에 OOOOOO으로 인정을 받은 제품\"",
+        "answer": "건강기능식품",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "나우케어 콜레스타 - \"총 콜레스테롤 수치와 000콜레스테롤 수치가 낮아졌다\"",
+        "answer": "LDL",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "소휘 애사비 구미 - \"000, 물엿, 젤라틴 무첨가한 비건인증\"",
+        "answer": "말티톨",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "컷슬린 - \"OO관리에 관심을 가지고 계신 분\" (초성: ㅎㄷ)",
+        "answer": "혈당",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "리비힐 - \"엑소좀 바디크림 3개를 OOOOO원에\"",
+        "answer": "38900",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "소휘 효소 - \"특허기술로 만든 100% 통곡물 OOO 발효 효소\"",
+        "answer": "저분자",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "소휘 푸룬구미(2차) - \"평소 OOOO 군것질이 많은 분도\"",
+        "answer": "습관적인",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "소휘 그린티샷 - \"중요한 날 3일전 OOOO 레시피\"",
+        "answer": "긴급관리",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "소휘 애사비구미(2차) - \"식이섬유 시너지 3종 000, 귀리, 난소화성말토덱스트린\"",
+        "answer": "치커리",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "메디픽미 - \"카올린, 규조토, OOOOO 3가지 성분\" (초성: ㅂㅌㄴㅇㅌ)",
+        "answer": "벤토나이트",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "경동나비엔 - \"경동나비엔 최대OO 선점하기\"",
+        "answer": "혜택",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "G마켓 나이키 - \"나이키 OOO 그래픽 오버핏 반팔 티셔츠\"",
+        "answer": "NSW",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "센텔리안24 멜라앰플패드 - \"라이브 중 5만원 이상 구매 시 선마데카크림 ㅇㅇml 1개 증정\"",
+        "answer": "50",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
+      },
+      {
+        "question": "롯데온 모두투어 - \"대만 대표 간식 제공: OOO\"",
+        "answer": "펑리수",
+        "note": "AI 보완(bnt news)",
+        "publishedAt": "2026-09-04T13:07:34+09:00"
       }
     ],
     "climate-action": [
