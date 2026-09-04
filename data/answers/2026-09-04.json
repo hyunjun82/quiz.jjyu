@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T10:10:22.331+09:00",
+  "updatedAt": "2026-09-04T10:11:33.073+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -231,7 +231,15 @@
         "publishedAt": "2026-09-04T00:03:50.826+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "수분흔적",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T10:11:33.073+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
