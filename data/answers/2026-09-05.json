@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T07:55:38.698+09:00",
+  "updatedAt": "2026-09-05T08:25:04.653+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,15 @@
         "publishedAt": "2026-09-05T00:03:28.234+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "이집트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T08:25:04.653+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
