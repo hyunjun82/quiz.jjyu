@@ -11,6 +11,10 @@ import { useEffect, useRef } from 'react';
 export default function AdUnit({ slot, className = 'ad-slot' }) {
   const ref = useRef(null);
 
+  // 2026-09-04 오클릭 검증 실험: 수동 디스플레이 quzi3(9284435988) 일시 중단.
+  //   되돌리려면 아래 한 줄만 지우면 된다.
+  if (String(slot) === '9284435988') return null;
+
   useEffect(() => {
     // 보이지 않거나 폭이 없는 자리(모바일의 PC 레일)는 요청하지 않음
     if (!ref.current || ref.current.offsetWidth < 200) return;
