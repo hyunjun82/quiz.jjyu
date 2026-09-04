@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T03:56:56.209+09:00",
+  "updatedAt": "2026-09-05T05:56:05.388+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-05T00:03:28.234+09:00"
+      },
+      {
+        "question": "슬릭+분크 콜라보 에디션 면도세트와 OOOO까지 3만원대 한정판 구성이에요",
+        "answer": "카드지갑",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-05T05:56:05.387+09:00"
       }
     ],
     "cashwalk": [
