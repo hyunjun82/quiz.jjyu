@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T10:00:31.117+09:00",
+  "updatedAt": "2026-09-04T10:03:14.612+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -179,7 +179,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "신세계 모바일상품권 1만원권",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-04T10:03:14.612+09:00"
+      }
+    ],
     "cashdoc": [
       {
         "question": "마데카 ㅇㅇㅇㅇ/애프터크림 증정 주문인증 10명 추첨 메가커피 아메리카노 증정",
