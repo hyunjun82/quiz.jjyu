@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T10:59:56.557Z",
+  "updatedAt": "2026-09-04T20:56:38.859+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-04T00:22:41.536+09:00"
+      },
+      {
+        "question": "사용자마다 문제가 랜덤으로 다르게 출제됩니다.",
+        "answer": "10",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-04T20:56:38.853+09:00"
       }
     ],
     "cashwalk": [
@@ -480,6 +487,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-04T15:01:23.840+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시",
+        "answer": "4, O, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T20:56:38.859+09:00"
       }
     ],
     "moneywalk": [
