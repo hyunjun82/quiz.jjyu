@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T10:03:49.720+09:00",
+  "updatedAt": "2026-09-04T10:06:03.330+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -181,10 +181,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "종근당건강 명절 선물전에서 7만원 이상 구매하면 받을 수 있는 혜택은 무엇일까요?",
         "answer": "신세계 모바일상품권 1만원권",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-04T10:03:14.612+09:00"
       }
     ],
