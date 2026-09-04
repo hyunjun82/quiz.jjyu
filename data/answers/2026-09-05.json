@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T06:55:29.012+09:00",
+  "updatedAt": "2026-09-05T07:55:38.698+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -95,10 +95,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "Q. OOOO이란, 수출품 한 단위로 수입품을 얼마나 살 수 있는지를 나타내는 무역의 채산성 지표예요.",
         "answer": "교역조건",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-05T06:55:29.012+09:00"
       }
     ],
