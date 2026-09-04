@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updatedAt": "2026-09-04T18:05:50+09:00",
+  "updatedAt": "2026-09-04T18:55:34.575+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-04T00:22:41.536+09:00"
+      },
+      {
+        "question": "사용자마다 문제가 랜덤으로 다르게 출제됩니다.",
+        "answer": "10",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-04T18:55:34.568+09:00"
       }
     ],
     "cashwalk": [
@@ -509,7 +516,15 @@
         "publishedAt": "2026-09-04T00:03:50.826+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 삼다수",
+        "answer": "미네랄",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-04T18:55:34.575+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
