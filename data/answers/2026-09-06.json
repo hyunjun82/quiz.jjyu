@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T05:56:12.052+09:00",
+  "updatedAt": "2026-09-06T06:54:07.797+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-09-06T00:01:09.924+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "갤러리 에너지 에디션",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "홍삼정",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
       }
     ],
     "cashwalk": [
@@ -55,9 +69,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-06T00:01:09.924+09:00"
+      },
+      {
+        "question": "식단계획과 유통기한을 고려해 최소한의 식재료를 구입하고, 식재료를 소분하여 용기에 보관하는 것은 음식물쓰레기를 줄이는 데 도움이 될 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴",
+        "answer": "100만 H.Point",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [
@@ -107,7 +136,15 @@
         "publishedAt": "2026-09-06T05:56:12.051+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
@@ -148,12 +185,52 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
-    "adapter": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "4, 4, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
-    "yes24": [],
+    "yoit": [
+      {
+        "question": "요잇 오늘의퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "독성 인간",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "피드코인",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ]
   }
 }
