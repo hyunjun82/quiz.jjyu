@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T11:26:52.087+09:00",
+  "updatedAt": "2026-09-05T13:28:55+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -178,7 +178,15 @@
         "publishedAt": "2026-09-05T08:25:04.653+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "핫딜몰 9월특가! 포인트로 결제하면 OOO! 빙그레 아메리카노 오늘의 핫딜 오늘만 행사하는 핫딜몰 놓치지 마세요",
+        "answer": "최저가",
+        "note": "",
+        "source": "joongangenews",
+        "publishedAt": "2026-09-05T10:00:00+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
