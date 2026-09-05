@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T16:12:38.661+09:00",
+  "updatedAt": "2026-09-05T16:12:44.045+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -196,10 +196,10 @@
     ],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "해외에서도 실물카드 없이 KB Pay로 결제할 수 있는 서비스 이름은…(후략)",
         "answer": "1번 해외현장결제",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-09-05T10:01:54.043+09:00"
       }
     ],
