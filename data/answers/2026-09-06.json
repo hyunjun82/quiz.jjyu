@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T00:03:19.644+09:00",
+  "updatedAt": "2026-09-06T00:56:10.094+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,7 +36,15 @@
         "publishedAt": "2026-09-06T00:03:19.644+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기",
+        "answer": "제야의종",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-06T00:56:10.093+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
