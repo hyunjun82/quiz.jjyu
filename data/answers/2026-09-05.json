@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updatedAt": "2026-09-05T10:03:31.951+09:00",
+  "updatedAt": "2026-09-05T10:13:00.518+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -223,7 +223,15 @@
         "publishedAt": "2026-09-05T06:55:29.012+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "흔적요철",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T10:13:00.518+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
@@ -339,7 +347,15 @@
         "publishedAt": "2026-09-05T06:55:29.012+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-05T10:13:00.518+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 오늘의퀴즈",
