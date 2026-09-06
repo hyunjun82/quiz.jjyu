@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T16:56:37.826+09:00",
+  "updatedAt": "2026-09-06T19:14:30.644+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -409,7 +409,15 @@
         "publishedAt": "2026-09-06T06:54:07.797+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 애플",
+        "answer": "스피커",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-06T19:14:30.644+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
