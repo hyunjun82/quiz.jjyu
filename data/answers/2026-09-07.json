@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T01:03:57.061+09:00",
+  "updatedAt": "2026-09-07T01:41:29.682+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-07T00:24:22.879+09:00"
+      },
+      {
+        "question": "추석 한우선물 얼리버드",
+        "answer": "보자기, 조기품절, 이타닉가든",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T01:41:29.681+09:00"
       }
     ],
     "cashwalk": [
@@ -36,10 +43,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "탑스 쿠폰으로 공차 베스트셀러 메뉴 14종 구매 시, 몇 % 할인을 받을 수 있을까요?",
         "answer": "30%",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-07T00:03:34.893+09:00"
       },
       {
@@ -62,6 +69,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T00:01:24.473+09:00"
+      },
+      {
+        "question": "배달앱을 통해 배달음식을 주문할 때 1회용품을 받지 않도록 설정하더라도 일상에서 온실가스 배출을 줄일 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T01:41:29.681+09:00"
       }
     ],
     "hpoint": [
@@ -84,7 +98,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "2027년 월력요항에 따르면 주 5일제 직장인은 내년에 총 OOO일의 휴일을 갖는다",
+        "answer": "119",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-07T01:41:29.680+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "AI 토큰 사용량을 통제하고 업무 목적에 맞는 AI를 배정해 비용 대비 효율을 높이는 전략은?",
