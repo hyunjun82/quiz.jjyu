@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T09:39:20.645+09:00",
+  "updatedAt": "2026-09-06T10:01:14.645+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,7 +151,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈",
+        "answer": "2개월 전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-06T10:01:14.644+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
