@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T00:00:51.235+09:00",
+  "updatedAt": "2026-09-07T00:01:24.473+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -18,17 +18,49 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "식단계획과 유통기한을 고려해 최소한의 식재료를 구입하고, 식재료를 소분하여 용기에 보관하는 것은 음식물쓰레기를 줄이는 데 도움이 될 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T00:01:24.473+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "AI 토큰 사용량을 통제하고 업무 목적에 맞는 AI를 배정해 비용 대비 효율을 높이는 전략은?",
+        "answer": "토큰노믹스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T00:01:24.473+09:00"
+      }
+    ],
     "hana-onq": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
+        "answer": "명동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T00:01:24.473+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "이소트레티노인 복용 초기 2주 안에는 여드름이 일시적으로 악화될 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T00:01:24.473+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
