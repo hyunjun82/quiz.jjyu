@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T07:01:14.160+09:00",
+  "updatedAt": "2026-09-07T07:06:03.129+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -205,7 +205,15 @@
         "publishedAt": "2026-09-07T00:02:30.053+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T07:06:03.129+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 오늘의퀴즈",
