@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T00:18:19.563+09:00",
+  "updatedAt": "2026-09-07T00:24:22.879+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T00:05:39.180+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "선크림",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T00:24:22.879+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "메이크업 픽서",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T00:24:22.879+09:00"
       }
     ],
     "cashwalk": [
