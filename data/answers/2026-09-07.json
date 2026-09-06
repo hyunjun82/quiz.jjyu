@@ -1,8 +1,16 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T00:03:08.562+09:00",
+  "updatedAt": "2026-09-07T00:03:34.893+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "추석 한우선물 얼리버드",
+        "answer": "조기품절, 이타닉가든",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T00:03:34.893+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "케이뱅크 첫 가입 시, CU 간식 당첨 확률은 '000'% 입니다.",
@@ -12,7 +20,22 @@
         "publishedAt": "2026-09-07T00:00:19.113+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "30%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T00:03:34.893+09:00"
+      },
+      {
+        "question": "삼성과 치열한 1위 경쟁 중인 kt wiz가 수원화성문화제의 성공개최를 기원하는 취지로 정조대왕 유니폼을 출시합니다. 정조는 조선의 몇 대 국왕이었을까요?",
+        "answer": "22대",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T00:03:34.893+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
