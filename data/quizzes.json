@@ -104,6 +104,25 @@
       ]
     },
     {
+      "slug": "kakaobank-ox",
+      "app": "카카오뱅크",
+      "name": "카카오뱅크 OX 퀴즈",
+      "searchKeyword": "카카오뱅크 OX 퀴즈 정답",
+      "shortName": "카뱅 OX 퀴즈",
+      "category": "finance",
+      "reward": "현금",
+      "resetInfo": "매일 갱신",
+      "color": "#ffcd00",
+      "howTo": "카카오뱅크 앱 → 혜택 탭 → OX 퀴즈",
+      "estDaily": 50,
+      "rewardRange": "1~10원",
+      "iconUrl": "/icons/kakaobank.avif",
+      "sourceSlug": null,
+      "releaseTimes": [
+        "00:00"
+      ]
+    },
+    {
       "slug": "ok-cashbag",
       "app": "OK캐쉬백",
       "name": "OK캐쉬백 오퀴즈",
