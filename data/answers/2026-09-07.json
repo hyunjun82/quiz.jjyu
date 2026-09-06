@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T04:01:28.100+09:00",
+  "updatedAt": "2026-09-07T04:56:01.382+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-07T00:24:22.879+09:00"
+      },
+      {
+        "question": "추석 한우선물 얼리버드",
+        "answer": "보자기, 조기품절, 이타닉가든",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T04:56:01.381+09:00"
       }
     ],
     "cashwalk": [
