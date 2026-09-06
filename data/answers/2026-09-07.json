@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T00:01:25.263+09:00",
+  "updatedAt": "2026-09-07T00:02:05.077+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -65,7 +65,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T00:02:05.077+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
