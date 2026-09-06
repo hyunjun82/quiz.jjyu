@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T10:04:13.055+09:00",
+  "updatedAt": "2026-09-06T10:08:52+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -148,6 +148,13 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-09-06T00:56:10.093+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (오전 8시)",
+        "answer": "에펠탑",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-06T10:08:52+09:00"
       }
     ],
     "ok-cashbag": [],
