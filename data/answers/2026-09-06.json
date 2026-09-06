@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T09:03:38.140+09:00",
+  "updatedAt": "2026-09-06T09:05:19.589+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -286,10 +286,10 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "육아휴직급여는 근로자가 아니라 사업주에게 전액 지급되는 지원금이에요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-06T06:54:07.797+09:00"
       }
     ],
