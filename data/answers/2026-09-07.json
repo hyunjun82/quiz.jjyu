@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T00:03:44.873+09:00",
+  "updatedAt": "2026-09-07T00:04:32.958+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -110,7 +110,15 @@
     ],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "행동이 운명을 이긴다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T00:04:32.958+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
