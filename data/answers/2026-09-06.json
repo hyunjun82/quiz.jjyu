@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T15:09:12.013+09:00",
+  "updatedAt": "2026-09-06T15:09:47.610+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -167,10 +167,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
-        "answer": "2개월 전",
+        "question": "통합 앱 '코레일+'에서는 열차 출발 몇 개월 전부터 승차권을…(후략)",
+        "answer": "2개월전 전",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-09-06T10:01:14.644+09:00"
       }
     ],
