@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T05:56:43.104+09:00",
+  "updatedAt": "2026-09-07T07:01:14.160+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -97,7 +97,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T07:01:14.160+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "2027년 월력요항에 따르면 주 5일제 직장인은 내년에 총 OOO일의 휴일을 갖는다",
