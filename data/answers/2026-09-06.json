@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updatedAt": "2026-09-06T07:21:11.926Z",
+  "updatedAt": "2026-09-06T07:28:59.243Z",
   "answers": {
     "toss-lucky": [
       {
@@ -410,6 +410,15 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-06T06:54:07.797+09:00"
+      }
+    ],
+    "kakaobank-ox": [
+      {
+        "question": "'표르디 만나고 혜택 받기'에서는 매일 혜택을 받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "epostphone",
+        "publishedAt": "2026-09-06T16:40:00.000+09:00"
       }
     ]
   }
