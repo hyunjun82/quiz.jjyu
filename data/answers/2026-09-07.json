@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T02:18:58.596+09:00",
+  "updatedAt": "2026-09-07T02:19:01.851+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -165,7 +165,7 @@
     "doctornow": [
       {
         "question": "잠이 안올 때 술을 마시는 것은 도움이 된다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T00:02:05.077+09:00"
