@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T08:01:32.479+09:00",
+  "updatedAt": "2026-09-07T08:03:01.610+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,7 +67,15 @@
       }
     ],
     "kakaobank-ox": [],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 DMZ (광고모아보기)",
+        "answer": "중급",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T08:03:01.610+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
