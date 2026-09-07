@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T00:00:22.026+09:00",
+  "updatedAt": "2026-09-08T00:01:28.272+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,24 +54,64 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "배달앱을 통해 배달음식을 주문할 때 1회용품을 받지 않도록 설정하더라도 일상에서 온실가스 배출을 줄일 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T00:01:28.272+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "2026년 한국형 우주발사체 누리호의 5차 발사 예정일은?",
+        "answer": "10월 7일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T00:01:28.272+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
+        "answer": "명동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T00:01:28.272+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "스트레스로 인한 탈모는 스트레스를 받은 직후부터 바로 시작된",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T00:01:28.272+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "잠이 안올 때 술을 마시는 것은 도움이 된다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T00:01:28.272+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
