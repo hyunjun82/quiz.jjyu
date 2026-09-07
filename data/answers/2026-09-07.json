@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T14:56:09.295+09:00",
+  "updatedAt": "2026-09-07T15:04:37.604+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -514,13 +514,6 @@
         "note": "",
         "source": "tomax",
         "publishedAt": "2026-09-07T12:32:47.536+09:00"
-      },
-      {
-        "question": "동대문엽기떡볶이가 OO명에게 엽떡 쏜다",
-        "answer": "1만",
-        "note": "",
-        "source": "tomax",
-        "publishedAt": "2026-09-07T10:02:27.969+09:00"
       }
     ],
     "nh-allone": [
@@ -658,6 +651,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-07T11:01:29.544+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 15시",
+        "answer": "4, 2, 4",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T15:04:37.604+09:00"
       }
     ],
     "moneywalk": [
