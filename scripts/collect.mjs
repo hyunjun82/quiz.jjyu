@@ -1105,9 +1105,16 @@ function parseTomax(html, slug) {
  * 숫자 접미사는 -2부터 하나씩 올려 보고 404가 나오면 멈춘다(보통 1~2회 추가 요청).
  * 시각 접미사는 퀴즈마다 고정이라 표에 직접 적는다.
  */
-async function fetchTomaxPage(today, tm, slug) {
+/**
+ * ⚠️ 접미사 위치를 틀리면 조용히 404가 나고 회차를 통째로 잃는다. 실측으로 확정한 형태:
+ *     .../{날짜}-{tm}-quiz-answer-{접미사}     ← 맞음 (HTTP 200)
+ *     .../{날짜}-{tm}-{접미사}-quiz-answer     ← 틀림 (HTTP 404)
+ * 2026-09-07 오후에 이 실수로 카뱅 AI 12시 회차("레이업")를 놓쳤다.
+ */
+async function fetchTomaxPage(today, tm, slug, suffix = '') {
+  const url = TOMAX_ART(today, tm) + (suffix ? `-${suffix}` : '');
   try {
-    const res = await fetch(TOMAX_ART(today, tm), {
+    const res = await fetch(url, {
       headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
       signal: AbortSignal.timeout(20000),
     });
@@ -1134,14 +1141,22 @@ async function collectFromTomax() {
       if (base) out.push(...base);
 
       for (const v of variants || []) {
-        const got = await fetchTomaxPage(today, `${tm}-${v}`, slug);
+        const got = await fetchTomaxPage(today, tm, slug, v);
         if (got) out.push(...got);
       }
 
       if (serial) {
+        // 번호가 중간에 하나 비어도 뒤에 더 있을 수 있어(소스가 회차를 건너뛰기도 한다)
+        // 첫 실패에서 멈추지 않고 두 번 연속 비었을 때 멈춘다.
+        let miss = 0;
         for (let n = 2; n <= TOMAX_SERIAL_MAX; n += 1) {
-          const got = await fetchTomaxPage(today, `${tm}-${n}`, slug);
-          if (!got) break; // 연속 번호라 하나 비면 그 뒤도 없다
+          const got = await fetchTomaxPage(today, tm, slug, String(n));
+          if (!got) {
+            miss += 1;
+            if (miss >= 2) break;
+            continue;
+          }
+          miss = 0;
           out.push(...got);
         }
       }
