@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:34:45.096+09:00",
+  "updatedAt": "2026-09-07T11:35:11.470+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -647,13 +647,6 @@
         "answer": "X",
         "note": "",
         "source": "tomax",
-        "publishedAt": "2026-09-07T00:17:07.073+09:00"
-      },
-      {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
-        "answer": "X",
-        "note": "",
-        "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
