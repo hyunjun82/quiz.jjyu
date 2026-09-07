@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T12:02:07.714+09:00",
+  "updatedAt": "2026-09-07T12:02:40.761+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T04:56:01.381+09:00"
+      },
+      {
+        "question": "스킨1004 추석+세일",
+        "answer": "51",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T12:02:40.757+09:00"
       }
     ],
     "cashwalk": [
@@ -654,6 +661,13 @@
         "answer": "X",
         "note": "",
         "source": "tomax",
+        "publishedAt": "2026-09-07T00:17:07.073+09:00"
+      },
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
