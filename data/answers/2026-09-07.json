@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:30:22.564+09:00",
+  "updatedAt": "2026-09-07T11:30:43.974+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -401,6 +401,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-07T11:30:22.555+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 앰플은 두피 밸런스 케어에 집중해 ㅇㅇ 빠짐 52.7%를 개선하는 변화를 만들어냈습니다. ㅇㅇ은 무엇일까요? (초성 : ㅁㅂ)",
+        "answer": "모발",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-07T11:30:43.965+09:00"
       }
     ],
     "climate-action": [
@@ -626,6 +633,13 @@
         "answer": "X",
         "note": "",
         "source": "tomax",
+        "publishedAt": "2026-09-07T00:17:07.073+09:00"
+      },
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
