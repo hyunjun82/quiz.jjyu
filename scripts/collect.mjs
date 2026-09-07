@@ -1382,6 +1382,61 @@ function fileFor(today) {
   return path.join(ANSWERS_DIR, `${today}.json`);
 }
 
+/* ──────────────────── 삭제 기억(tombstone) ────────────────────
+ * 왜 필요한가 — 2026-09-07 실측.
+ * 감사 스크립트가 "중복"으로 지목한 항목을 사람/봇이 지우면, 바로 다음 수집이
+ * 같은 항목을 소스에서 다시 읽어 그대로 되살렸다. 지우는 쪽과 넣는 쪽이 서로를
+ * 모르니 영원히 반복된다. 9/7 하루에 같은 커밋이 5번 찍혔다:
+ *   00:32 / 01:03 / 02:26 / 03:26 / 04:01
+ *   "추석 한우선물 얼리버드" → "보자기, 조기품절, 이타닉가든"
+ * 사용자 눈에는 같은 정답이 있었다 없었다 하니 "정답이 틀리다"로 보인다.
+ *
+ * 그래서 삭제를 기록으로 남긴다. 지운 항목의 키는 그날 하루 재삽입되지 않는다.
+ * 날짜가 바뀌면 자동으로 풀린다(다음 날 같은 문제는 정상 수집돼야 하니까).
+ * 삭제는 반드시 scripts/drop.mjs 를 통해 한다 — 손으로 JSON을 고치면 기록이 안 남는다.
+ */
+function deletedFileFor(today) {
+  return path.join(ANSWERS_DIR, `${today}.deleted.json`);
+}
+
+/** 문제+정답을 함께 본다. 정답만 보면 같은 답을 쓰는 다른 문제까지 막힌다. */
+function tombKey(it) {
+  return `${normalize(it.question)}|${itemKey(it)}`;
+}
+
+function loadTombstones(today) {
+  const file = deletedFileFor(today);
+  if (!fs.existsSync(file)) return {};
+  try {
+    const raw = JSON.parse(fs.readFileSync(file, 'utf-8'));
+    const out = {};
+    for (const [slug, keys] of Object.entries(raw.deleted || {})) out[slug] = new Set(keys);
+    return out;
+  } catch {
+    return {};
+  }
+}
+
+function recordTombstone(today, slug, item, reason) {
+  const file = deletedFileFor(today);
+  const raw = fs.existsSync(file)
+    ? JSON.parse(fs.readFileSync(file, 'utf-8'))
+    : { date: today, deleted: {}, log: [] };
+  raw.deleted[slug] = raw.deleted[slug] || [];
+  const key = tombKey(item);
+  if (!raw.deleted[slug].includes(key)) raw.deleted[slug].push(key);
+  raw.log = raw.log || [];
+  raw.log.push({
+    slug,
+    question: item.question,
+    answer: item.answer,
+    reason: reason || '',
+    at: kstStamp(),
+  });
+  fs.writeFileSync(file, `${JSON.stringify(raw, null, 2)}\n`);
+  return key;
+}
+
 function loadExisting(today) {
   const file = fileFor(today);
   if (fs.existsSync(file)) {
@@ -1509,9 +1564,61 @@ function upcomingBlock(nowMin, dow) {
   return all.find((b) => b.b > nowMin) || null;
 }
 
-/** 구간에 속한 퀴즈 중 아직 정답이 없는 것들 */
-function pendingIn(block, existing) {
-  return [...block.slugs].filter((s) => (existing.answers[s] || []).length === 0);
+const hhmmToMin = (t) => {
+  const [h, m] = String(t).split(':').map(Number);
+  return h * 60 + m;
+};
+
+/** 지금(KST)의 분 단위 시각. */
+const curMin = () => {
+  const n = kstNow();
+  return n.getUTCHours() * 60 + n.getUTCMinutes();
+};
+
+/**
+ * 오늘 지금까지 지나간 공개 시각 수 = "이 시각이면 최소 몇 건은 있어야 하는가".
+ * releaseTimes 를 모르는 퀴즈는 1건으로 본다(있으면 됨).
+ */
+function dueByNow(slug, nowMin) {
+  const times = BY_SLUG[slug]?.releaseTimes || [];
+  if (!times.length) return 1;
+  return Math.max(1, times.filter((t) => hhmmToMin(t) <= nowMin).length);
+}
+
+/**
+ * 구간에 속한 퀴즈 중 아직 덜 걷힌 것들.
+ *
+ * ── 2026-09-07 수정 ───────────────────────────────────────────────
+ * 이전 구현은 `answers[slug].length === 0` 이었다. 즉 하루에 1건이라도 잡히면
+ * 그 퀴즈는 그날 내내 감시 대상에서 빠졌다. 회차 퀴즈에 치명적이다.
+ * 캐시워크(하루 21회)는 자정 1건이 들어오는 순간 나머지 20회가 통째로
+ * 감시 밖으로 나갔고, 그 결과 정답이 "실시간 감시"가 아니라 매시 54분
+ * 트리거의 곁다리 전체훑기로 뒤늦게 주워졌다.
+ * 실측(2026-08-24~09-06, 904건): 전체의 81%가 :54~:08 구간에 찍혔다.
+ * 시계 비중으로는 25%인 구간이다 — 초 단위 선점 설계가 사실상 죽어 있었다.
+ * 캐시워크 91% · 어댑터 92% · 쏠퀴즈 91%가 이 경로였다.
+ *
+ * 그래서 판정 축을 "0건인가"에서 "지난 회차 수만큼 있는가"로 바꾼다.
+ * 회차가 하나 더 지나면 그 퀴즈는 자동으로 다시 감시 대상이 된다.
+ */
+function pendingIn(block, existing, nowMin = curMin()) {
+  return [...block.slugs].filter(
+    (s) => (existing.answers[s] || []).length < dueByNow(s, nowMin),
+  );
+}
+
+/**
+ * 이 구간 안에 아직 오지 않은 공개 시각이 남아 있는가.
+ * 남아 있으면 지금 미수집이 0건이어도 구간을 떠나면 안 된다 —
+ * 떠나는 순간 뒤 회차는 다음 트리거(최대 1시간 뒤)까지 방치된다.
+ */
+function moreComingIn(block, nowMin = curMin()) {
+  return [...block.slugs].some((s) =>
+    (BY_SLUG[s]?.releaseTimes || []).some((t) => {
+      const m = hhmmToMin(t);
+      return m > nowMin && m <= block.b;
+    }),
+  );
 }
 
 const fmtMin = (m) => {
@@ -1636,6 +1743,8 @@ function gitCommitPush(message, attempt = 0) {
 async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
+  const tombstones = loadTombstones(today);
+  const tombReported = new Set();
 
   const [a, b, c, d, e, f] = await Promise.all([
     collectFromBlog().catch((e) => {
@@ -1678,6 +1787,14 @@ async function collectOnce() {
     const item = { question: f.question, answer: f.answer, ...(f.choices ? { choices: f.choices } : {}), note: f.note };
     if (!isSaneQuestion(item.question)) {
       console.log(`지문 거부 [${f.slug}] "${item.question}" — 커뮤니티 글로 판단`);
+      continue;
+    }
+    // 오늘 이미 지운 항목이면 다시 넣지 않는다 — 감사↔수집 무한 루프 차단.
+    if (tombstones[f.slug]?.has(tombKey(item))) {
+      if (!tombReported.has(f.slug)) {
+        console.log(`재삽입 차단 [${f.slug}] "${String(item.question).slice(0, 30)}" — 오늘 삭제된 항목`);
+        tombReported.add(f.slug);
+      }
       continue;
     }
     const at = dupIndex(current, item, f.slug);
@@ -1795,12 +1912,14 @@ async function main() {
   let pending = pendingIn(block, loadExisting(kstToday()));
   console.log(`[감시 시작] ${label} — 미수집 ${pending.length}개: ${pending.join(', ') || '없음'}`);
 
-  while (Date.now() < endAt && pending.length > 0) {
+  // 미수집이 0이어도 이 구간에 아직 안 온 회차가 남았으면 자리를 지킨다.
+  // 예전엔 여기서 곧장 빠져나가 뒤 회차를 다음 트리거까지 놓쳤다.
+  while (Date.now() < endAt && (pending.length > 0 || moreComingIn(block))) {
     const r = await collectOnce();
     const elapsed = Math.round((Date.now() - t0) / 1000);
     absorb(r, `[감시 ${elapsed}초]`);
     pending = pendingIn(block, r.existing);
-    if (pending.length === 0) break;
+    if (pending.length === 0 && !moreComingIn(block)) break;
     const left = endAt - Date.now();
     if (left <= 0) break;
     await sleep(Math.min(POLL_SECONDS * 1000, left));
@@ -1913,4 +2032,15 @@ export {
   parseTipArticle,
   normalize,
   itemKey,
+  // 회차 인식 · 삭제 기억 (2026-09-07 추가)
+  dueByNow,
+  moreComingIn,
+  loadExisting,
+  fileFor,
+  deletedFileFor,
+  loadTombstones,
+  recordTombstone,
+  tombKey,
+  kstToday,
+  kstStamp,
 };

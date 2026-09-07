@@ -65,6 +65,11 @@ const missing = [];   // 소스에 있는데 우리에겐 없음
 const partial = [];   // 우리 정답이 소스 정답의 일부만 담음
 const unknown = [];   // 우리에게만 있고 소스엔 없음 (참고용)
 const unreachable = [];
+// 소스가 오늘 걸 아직 안 올려서 "대조 자체를 못 한" 퀴즈.
+// 예전에는 이걸 그냥 건너뛰어서, 22개 중 15개를 안 보고도 "누락 0건 · 부분 0건"으로
+// 초록불이 켜졌다(2026-09-07 09:56 실측). "이상 없음"과 "확인 못 함"이 같은 화면이었다.
+// 둘을 갈라서 보고한다 — 초록불의 뜻이 분명해야 감시가 의미가 있다.
+const unchecked = [];
 
 for (const q of QUIZZES) {
   if (!q.sourceSlug) continue;
@@ -77,7 +82,11 @@ for (const q of QUIZZES) {
     unreachable.push(`${q.slug}(${e.message})`);
     continue;
   }
-  if (!rows.length) continue; // 소스가 아직 오늘 걸 안 올렸다 — 우리 잘못 아님
+  if (!rows.length) {
+    // 소스가 아직 오늘 걸 안 올렸다 — 우리 잘못은 아니지만 "검증됨"도 아니다.
+    unchecked.push({ slug: q.slug, held: (published[q.slug] || []).length });
+    continue;
+  }
 
   const mine = (published[q.slug] || []).filter((it) => !garbageReason(it));
 
@@ -112,7 +121,22 @@ for (const q of QUIZZES) {
 
 const line = (x) => `    - [${x.slug}] ${x.question ? `"${x.question}" ` : ''}`;
 
+const sourced = QUIZZES.filter((q) => q.sourceSlug).length;
+const checked = sourced - unchecked.length - unreachable.length;
+
 console.log(`[verify] ${today} — 퀴즈벨 원본 대조`);
+console.log(`  대조 범위                       : ${checked}/${sourced}개 검증 · ${unchecked.length}개 미검증(소스 미발행)`);
+if (unchecked.length) {
+  const withData = unchecked.filter((x) => x.held > 0);
+  console.log(
+    `    미검증 목록: ${unchecked.map((x) => `${x.slug}(${x.held}건)`).join(', ')}`,
+  );
+  if (withData.length) {
+    console.log(
+      `    ⚠ 이 중 ${withData.length}개는 우리에게 정답이 있는데 대조를 못 했다 — 맞는지 아무도 안 봄`,
+    );
+  }
+}
 console.log(`  누락(소스엔 있고 우리에겐 없음) : ${missing.length}건`);
 for (const x of missing) console.log(`${line(x)}소스 정답 "${x.source}"`);
 console.log(`  부분(정답이 일부만 발행됨)      : ${partial.length}건`);
@@ -165,6 +189,10 @@ const status = {
   fixed,
   unknown: unknown.length,
   unreachable: unreachable.length,
+  // 대조 자체를 못 한 퀴즈 수. 0에 가까울수록 위의 숫자를 믿어도 된다.
+  unchecked: unchecked.length,
+  checked,
+  sourced,
 };
 const changed =
   prev.date !== status.date ||
