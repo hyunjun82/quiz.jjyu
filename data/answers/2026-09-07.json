@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T00:26:16.237Z",
+  "updatedAt": "2026-09-07T09:55:56.462+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "epostphone",
         "publishedAt": "2026-09-07T09:12:00.000+09:00"
+      },
+      {
+        "question": "하나원큐 축구Play의 퀴즈HANA는 ○○○ 문제로 출제된다. (X)",
+        "answer": "X",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-07T09:55:56.460+09:00"
       }
     ],
     "monimo": [
