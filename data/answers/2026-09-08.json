@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T05:55:33.594+09:00",
+  "updatedAt": "2026-09-08T07:05:50.014+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-08T00:04:44.459+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "유리 티포트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T07:05:50.013+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "아넬라 생과일 디저트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T07:05:50.013+09:00"
       }
     ],
     "cashwalk": [
@@ -273,7 +287,15 @@
         "publishedAt": "2026-09-08T00:04:59.463+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T07:05:50.013+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 오늘의퀴즈",
