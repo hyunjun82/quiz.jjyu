@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T02:18:44.601+09:00",
+  "updatedAt": "2026-09-08T02:32:51.012+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -198,7 +198,15 @@
         "publishedAt": "2026-09-08T00:56:08.306+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "외환혜택 라운지에는 환전손님께 드리는 특별한 선물이 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "ai-search",
+        "publishedAt": "2026-09-08T02:45:00+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "국내 대표 백화점 상권에서 현재는 외국인 관광객이 사랑하는 서울의 K-뷰티 성지가 된 '이곳'은 어디일까요?",
@@ -247,7 +255,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "실업급여는 자발적으로 퇴사한 사람에게도 사유에 관계없이 항상 지급돼요",
+        "answer": "X (아니에요)",
+        "note": "",
+        "source": "ai-search",
+        "publishedAt": "2026-09-08T02:45:00+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
