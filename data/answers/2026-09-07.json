@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T16:04:00.483+09:00",
+  "updatedAt": "2026-09-07T16:44:58.722+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -32,10 +32,10 @@
         "publishedAt": "2026-09-07T04:56:01.381+09:00"
       },
       {
-        "question": "스킨1004 추석+세일",
+        "question": "스킨1004 추석+세일 연간 BEST 제품 최대 OO% 할인중이에요",
         "answer": "51",
         "note": "",
-        "source": "quizbells",
+        "source": "gametoc",
         "publishedAt": "2026-09-07T12:02:40.757+09:00"
       }
     ],
