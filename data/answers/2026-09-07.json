@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T00:12:20.249Z",
+  "updatedAt": "2026-09-07T00:26:16.237Z",
   "answers": {
     "toss-lucky": [
       {
@@ -164,13 +164,6 @@
     ],
     "hana-onq": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
-        "answer": "X",
-        "note": "",
-        "source": "tipistip",
-        "publishedAt": "2026-09-07T00:17:07.073+09:00"
-      },
-      {
         "question": "축구 경기에서 승부차기가 진행될 경우, 양 팀은 먼저 몇 명씩 키커로 나서게 될까요?",
         "answer": "5명",
         "note": "",
@@ -185,13 +178,6 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T00:01:24.473+09:00"
-      },
-      {
-        "question": "모니모 영어챌린지 — ① I ○○○ ○○○ back. (방금 한 말 취소할게.) ② I ○○○ ○○○ my words. (제 말을 취소합니다.) ③ I ○○○ my ○○○ back. (약속을 취소할게요.)",
-        "answer": "① take / that ② take / back ③ take / promise",
-        "note": "",
-        "source": "epostphone",
-        "publishedAt": "2026-09-07T09:12:00.000+09:00"
       }
     ],
     "paybooc": [],
@@ -278,6 +264,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-07T00:56:16.298+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-07T00:17:07.073+09:00"
+      }
+    ],
+    "monimo-eng": [
+      {
+        "question": "모니모 영어챌린지 — ① I ○○○ ○○○ back. (방금 한 말 취소할게.) ② I ○○○ ○○○ my words. (제 말을 취소합니다.) ③ I ○○○ my ○○○ back. (약속을 취소할게요.)",
+        "answer": "① take / that ② take / back ③ take / promise",
+        "note": "",
+        "source": "epostphone",
+        "publishedAt": "2026-09-07T09:12:00.000+09:00"
       }
     ]
   }
