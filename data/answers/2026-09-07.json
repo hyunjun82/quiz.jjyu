@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T10:33:34.799+09:00",
+  "updatedAt": "2026-09-07T10:34:51.872+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -349,14 +349,21 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-07T00:06:58.327+09:00"
+      },
+      {
+        "question": "현대백화점이 직접 기획한 카페 틸, 화이트! 매일 아침 구워지는 식빵과 다양한 스프레드, 그리고 스페셜티 커피를 즐겨보세요. 다음 중 틸, 화이트가 입점하지 않은 점포를 맞춰주세요. (○○○)",
+        "answer": "New York Central Park Store",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-07T10:34:51.866+09:00"
       }
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOOO이란, 나라가 위기에 대비해 다른 나라에서 자유롭게 찾아 쓸 수 있는 국제 준비 자산이에요.",
         "answer": "특별인출권",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-07T00:04:53.844+09:00"
       }
     ],
@@ -371,10 +378,10 @@
     ],
     "nh-allone": [
       {
-        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
+        "question": "대한민국이 처음으로 아시안게임 종합순위 2위를 기록한 대회는 1986년 서울 아시안게임이다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-07T07:01:14.160+09:00"
       }
     ],

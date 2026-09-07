@@ -1015,15 +1015,50 @@ const TOMAX_ART = (date, tm) => `https://quiz.epostphone.kr/${date}-${tm}-quiz-a
 //    분리됐다(hana-life / monimo-eng). 이 표가 옛 슬러그를 가리키고 있으면 정답이
 //    매일 엉뚱한 카드에 들어가고, 사람이 손으로 옮겨야 한다(9/7 09:26 커밋이 그 작업이었다).
 //    두 슬러그는 퀴즈벨에 없어서 여기가 유일한 소스다 — 반드시 새 슬러그를 가리켜야 한다.
+// ⚠️ 슬러그 이름을 추측하지 말 것. 토막스 첫 화면의 카테고리 목록이 정본이다.
+//    특히 tm='kakaobank' 는 AI 이모지가 아니라 "카카오뱅크 OX 퀴즈"다.
+//    (2026-09-07: 우리 kakaobank-ox 카드가 14일 중 13일 비어 있었는데, 소스가 없어서가
+//     아니라 이 표에 없어서였다. tm='kakaobank_ox' 는 존재하지 않는 주소다.)
+//
+//    2026-09-07 실측으로 확인한 토막스 전체 슬러그:
+//      cashwalk cashdoc okcashbag shinhan kbpay toss kakaopay kakaobank kakaobank_ai
+//      bitbunny bitbunny_ox hpoint doctornow hanaonecue hanalife nhallone climate
+//      buzzvil monimo monimo_eng auction kbank kbstar kbstar_hist
+//    이 중 우리 카드가 있는 것은 전부 아래에 연결했다.
+//      serial: true  → -2, -3 … 로 회차가 이어지는 퀴즈 (404 나올 때까지 훑는다)
+//      variants      → 고정 시각 접미사
 const TOMAX_MAP = [
+  // ── 회차 없는 퀴즈 ────────────────────────────────────────────
   { slug: 'bitbunny-ox', tm: 'bitbunny_ox' }, // 다른 소스에 아예 없는 퀴즈
-  { slug: 'kakaobank', tm: 'kakaobank_ai' }, // 카뱅 AI 이모지 (OX와 별도 출제)
   { slug: 'kb-star', tm: 'kbstar_hist' }, // KB 한국사 (스타퀴즈와 별도)
-  // 스타퀴즈 본편. 토막스는 정답을 "③ 119일"처럼 단위까지 붙여 주므로 우리 "119"를
-  // 더 완전한 표기로 갈아끼워 준다(9/7 외부대조에서 표기 차이로 잡힌 건). (2026-09-07 추가)
+  // 스타퀴즈 본편. 토막스는 "③ 119일"처럼 단위까지 붙여 주므로 우리 "119"를 보강해 준다.
   { slug: 'kb-star', tm: 'kbstar' },
   { slug: 'hana-life', tm: 'hanalife' }, // 하나원큐 슬기로운 금융생활 OX (분리된 슬러그)
-  { slug: 'monimo-eng', tm: 'monimo_eng' }, // 모니모 영어챌린지 (분리된 슬러그)
+  { slug: 'hana-onq', tm: 'hanaonecue' }, // 하나원큐 본편
+  { slug: 'kbpay', tm: 'kbpay' },
+  { slug: 'shinhan-sol', tm: 'shinhan' },
+  { slug: 'bitbunny', tm: 'bitbunny', serial: true },
+  { slug: 'hpoint', tm: 'hpoint' },
+  { slug: 'nh-allone', tm: 'nhallone' },
+  { slug: 'climate-action', tm: 'climate' },
+  { slug: 'auction', tm: 'auction' },
+  { slug: 'buzzvil', tm: 'buzzvil' },
+  { slug: 'monimo', tm: 'monimo' }, // 모니모 모니스쿨 (영어챌린지와 별도)
+  { slug: 'monimo-eng', tm: 'monimo_eng', serial: true }, // 모니모 영어챌린지 (분리된 슬러그)
+  { slug: 'ok-cashbag', tm: 'okcashbag', serial: true },
+
+  // ── 회차 퀴즈 ─────────────────────────────────────────────────
+  // 카카오뱅크 OX. 우리 kakaobank-ox 카드의 유일한 소스다.
+  { slug: 'kakaobank-ox', tm: 'kakaobank' },
+  // 카뱅 AI 이모지 — 08·12·20시 3회차를 시각 접미사로 나눠 싣는다.
+  // quizzes.json의 releaseTimes(00:00/08:00/12:00)와 여기가 어긋나면 회차가 샌다.
+  { slug: 'kakaobank', tm: 'kakaobank_ai', variants: ['8h', '12h', '20h'] },
+  { slug: 'toss-lucky', tm: 'toss', serial: true },
+  { slug: 'cashwalk', tm: 'cashwalk', serial: true, variants: ['3h', '4h'] },
+  { slug: 'cashdoc', tm: 'cashdoc', serial: true },
+  { slug: 'kakaopay', tm: 'kakaopay', serial: true },
+  { slug: 'doctornow', tm: 'doctornow', serial: true },
+  { slug: 'kbank', tm: 'kbank', serial: true },
 ];
 
 // `${today}:${slug}` → items. 하루치 완성본이라 한 번 성공하면 다시 안 긁는다.
@@ -1059,24 +1094,60 @@ function parseTomax(html, slug) {
   return out;
 }
 
+/**
+ * 토막스는 회차를 URL 접미사로 쪼갠다. 실측(2026-09-07 아카이브):
+ *   cashwalk / -2 / -3 / -4 / -5 / -6 / -7 / -3h / -4h
+ *   cashdoc / -2 ... -5,  toss / -2 / -3,  kakaopay / -2 / -3,  doctornow / -2 / -3
+ *   kakaobank_ai-8h / -12h / -20h        (AI 이모지 08·12·20시 3회차)
+ * 그동안 우리는 접미사 없는 기본 주소 하나만 읽었다. 즉 회차 퀴즈의 2회차 이후를
+ * 이 소스에서 통째로 버리고 있었다. 카뱅 AI 12시 회차가 매일 늦게 들어온 이유이기도 하다.
+ *
+ * 숫자 접미사는 -2부터 하나씩 올려 보고 404가 나오면 멈춘다(보통 1~2회 추가 요청).
+ * 시각 접미사는 퀴즈마다 고정이라 표에 직접 적는다.
+ */
+async function fetchTomaxPage(today, tm, slug) {
+  try {
+    const res = await fetch(TOMAX_ART(today, tm), {
+      headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (!res.ok) return null; // 아직 미발행이면 404 — 정상 경로다
+    return parseTomax(await res.text(), slug).map((r) => ({ ...r, source: 'tomax' }));
+  } catch {
+    return null;
+  }
+}
+
+const TOMAX_SERIAL_MAX = 9;
+
 async function collectFromTomax() {
   const today = kstToday();
   const results = await Promise.all(
-    TOMAX_MAP.map(async ({ slug, tm }) => {
-      const key = `${today}:${slug}`;
-      if (tomaxParsed.has(key)) return tomaxParsed.get(key);
-      try {
-        const res = await fetch(TOMAX_ART(today, tm), {
-          headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
-          signal: AbortSignal.timeout(20000),
-        });
-        if (!res.ok) return []; // 아직 미발행이면 404 — 정상 경로다
-        const items = parseTomax(await res.text(), slug).map((r) => ({ ...r, source: 'tomax' }));
-        if (items.length > 0) tomaxParsed.set(key, items);
-        return items;
-      } catch {
-        return [];
+    TOMAX_MAP.map(async ({ slug, tm, variants, serial }) => {
+      const multi = Boolean(variants || serial);
+      const key = `${today}:${slug}:${tm}`;
+      // 회차가 없는 퀴즈만 캐시한다. 회차 퀴즈를 캐시하면 그날 첫 회차에서 얼어붙는다.
+      if (!multi && tomaxParsed.has(key)) return tomaxParsed.get(key);
+
+      const out = [];
+      const base = await fetchTomaxPage(today, tm, slug);
+      if (base) out.push(...base);
+
+      for (const v of variants || []) {
+        const got = await fetchTomaxPage(today, `${tm}-${v}`, slug);
+        if (got) out.push(...got);
       }
+
+      if (serial) {
+        for (let n = 2; n <= TOMAX_SERIAL_MAX; n += 1) {
+          const got = await fetchTomaxPage(today, `${tm}-${n}`, slug);
+          if (!got) break; // 연속 번호라 하나 비면 그 뒤도 없다
+          out.push(...got);
+        }
+      }
+
+      if (!multi && out.length > 0) tomaxParsed.set(key, out);
+      return out;
     }),
   );
   return results.flat();
@@ -2048,6 +2119,7 @@ export {
   TIP_TITLE_MAP,
   // 회귀 테스트용 — 8/17 '② (나)-(가)-' 잘림 사고 이후 추가.
   parseTomax,
+  collectFromTomax,
   parseTipArticle,
   normalize,
   itemKey,
