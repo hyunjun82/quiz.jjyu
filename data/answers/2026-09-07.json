@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T08:03:13.511+09:00",
+  "updatedAt": "2026-09-07T00:12:20.249Z",
   "answers": {
     "toss-lucky": [
       {
@@ -66,7 +66,15 @@
         "publishedAt": "2026-09-07T08:01:25.626+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "표르디 만나고 혜택 받기'에서 모을 수 있는 표르디는 10종이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "epostphone",
+        "publishedAt": "2026-09-07T09:12:00.000+09:00"
+      }
+    ],
     "ok-cashbag": [
       {
         "question": "오퀴즈 DMZ (광고모아보기)",
@@ -161,6 +169,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
+      },
+      {
+        "question": "축구 경기에서 승부차기가 진행될 경우, 양 팀은 먼저 몇 명씩 키커로 나서게 될까요?",
+        "answer": "5명",
+        "note": "",
+        "source": "epostphone",
+        "publishedAt": "2026-09-07T09:12:00.000+09:00"
       }
     ],
     "monimo": [
@@ -170,6 +185,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T00:01:24.473+09:00"
+      },
+      {
+        "question": "모니모 영어챌린지 — ① I ○○○ ○○○ back. (방금 한 말 취소할게.) ② I ○○○ ○○○ my words. (제 말을 취소합니다.) ③ I ○○○ my ○○○ back. (약속을 취소할게요.)",
+        "answer": "① take / that ② take / back ③ take / promise",
+        "note": "",
+        "source": "epostphone",
+        "publishedAt": "2026-09-07T09:12:00.000+09:00"
       }
     ],
     "paybooc": [],
