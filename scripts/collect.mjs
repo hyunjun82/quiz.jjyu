@@ -1925,6 +1925,18 @@ async function main() {
     await sleep(Math.min(POLL_SECONDS * 1000, left));
   }
 
+  // 3-B) 시간 상한(MAX_MINUTES)에 걸려 끊겼는데 구간은 아직 진행 중인 경우.
+  //      이때 "[감시 완료]"를 찍으면 호출하는 쪽(예약 작업)이 다 끝난 줄 알고 멈춘다.
+  //      실제로는 07:58~16:25 같은 긴 구간이 몇 시간 남아 있다 — 반드시 이어받아야 한다.
+  const blockOngoing = curMin() < block.b || moreComingIn(block);
+  if (Date.now() >= hardStop && blockOngoing) {
+    console.log(
+      `[감시 종료] 시간 상한 ${MAX_MINUTES}분 도달 — 구간 ${label} 아직 진행 중. 즉시 이어서 실행할 것`,
+    );
+    console.log(total > 0 ? `완료 — 총 ${report(total, allBySlug)}` : '완료 — 새 정답 없음');
+    return;
+  }
+
   // 4) 전부 잡았으면 남은 시간을 낭비하지 않고 바로 끝낸다.
   //    다만 뭉뚱그린 지문("KB Pay 오늘의 퀴즈")으로 잡힌 게 있으면 바로 끄지 않는다.
   //    퀴즈벨이 몇십 초 먼저 도착하는 일이 흔한데, 여기서 끄면 뒤따라올 비즈월드의
