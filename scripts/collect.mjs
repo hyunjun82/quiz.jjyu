@@ -160,9 +160,27 @@ const PLACEHOLDER = new Set(['잠시 후 공개', '준비중', '준비 중', '�
  * quizbells는 일부 퀴즈(토스 등)에 커뮤니티가 남긴 잡담이 정답 칸에 그대로 들어오는
  * 경우가 있다 — 실측 확인됨. 길이·개행·URL로 걸러낸다.
  */
+/**
+ * 보기 나열형 정답인가 — "① stay / touch ② keep / in ③ collaborate / future" 처럼
+ * 문항 여러 개의 답을 한 줄에 싣는 형식. 모니모 영어챌린지가 매일 이 형태다.
+ *
+ * 2026-09-08 실측: 이 정답이 49자여서 40자 제한에 걸려 통째로 버려졌다. 9/7에는 44자였고
+ * 그날은 AI 보완이 우연히 메웠지만, 자동 수집으로는 구조적으로 매일 탈락하는 상태였다.
+ * 길이 제한은 "잡담·지문 혼입"을 막는 규칙이지 이런 정답을 막으라는 규칙이 아니다.
+ * 원 번호(①②③ 또는 1) 2) 3))가 두 개 이상 들어 있을 때만 한도를 늘린다 —
+ * 잡담에는 이런 번호가 연달아 나오지 않는다.
+ */
+function isEnumeratedAnswer(a) {
+  const circled = (String(a).match(/[①-⑳]/g) || []).length;
+  const numbered = (String(a).match(/(?:^|\s)\d\s*[).]/g) || []).length;
+  return circled >= 2 || numbered >= 2;
+}
+
 function isSaneAnswer(a) {
   if (!a || PLACEHOLDER.has(a)) return false;
-  if (a.length > 40) return false; // 정답은 대부분 10자 이내. 40자 넘으면 잡담/지문 혼입.
+  // 정답은 대부분 10자 이내. 40자 넘으면 잡담/지문 혼입.
+  // 단 보기 나열형(①②③)은 원래 길다 — 이 경우만 100자까지 허용한다.
+  if (a.length > (isEnumeratedAnswer(a) ? 100 : 40)) return false;
   if (/https?:\/\//i.test(a)) return false;
   // "지금 0시 23분 ..." 류 커뮤니티 글 걸러내기.
   // 8/28 보정: "오후 6시 30분"(8/20 쏠퀴즈 KBO 정답)처럼 시각 그 자체가 정답인 경우가
