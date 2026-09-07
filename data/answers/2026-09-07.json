@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:05:39.146+09:00",
+  "updatedAt": "2026-09-07T11:17:12.316+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -359,6 +359,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T11:05:16.474+09:00"
+      },
+      {
+        "question": "멜라듀스 미백앰플 할인",
+        "answer": "탄력, 홈케어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T11:17:12.315+09:00"
       }
     ],
     "climate-action": [
