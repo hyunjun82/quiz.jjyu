@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:36:27.510+09:00",
+  "updatedAt": "2026-09-07T12:01:25.662+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,6 +172,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-07T11:00:17.733+09:00"
+      },
+      {
+        "question": "AGE20S 인텐스 팩트",
+        "answer": "71",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T12:01:25.660+09:00"
       }
     ],
     "shinhan-sol": [
