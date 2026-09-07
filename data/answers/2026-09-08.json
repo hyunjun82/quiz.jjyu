@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T00:14:44.498+09:00",
+  "updatedAt": "2026-09-08T00:56:08.308+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,8 +78,24 @@
         "publishedAt": "2026-09-08T00:04:44.459+09:00"
       }
     ],
-    "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈(시트): 사물 관련 이모지 보고 퀴즈 풀기 (○○○)",
+        "answer": "도화선",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T00:56:08.307+09:00"
+      }
+    ],
+    "kakaobank-ox": [
+      {
+        "question": "죠르디 만나고 혜택 받기'에서 모은 쪼르디는 내 캐릭터로 바꿀 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T00:56:08.307+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -90,6 +106,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-08T00:01:28.272+09:00"
+      },
+      {
+        "question": "전기에너지는 사용 시온실가스가 거의 배출되지 않지만, 전기를 생산하는 과정에서 온실가스가 배출될 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T00:56:08.307+09:00"
       }
     ],
     "hpoint": [
@@ -99,20 +122,35 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-08T00:06:38.247+09:00"
+      },
+      {
+        "question": "더현대Hi에서 9월 7일부터 11일까지 제주항공 BIG SALE이 진행됩니다. 진행 중인 제주항공 BIG SALE 및 H.Point 모바일상품권 혜택으로 맞지 않는 것은 무엇일까요?",
+        "answer": "제주항공 이용 고객 카페H 쿠폰 1매 제공",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T00:56:08.307+09:00"
       }
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOOOOO란, 기축통화 발행국이 세계에 돈을 공급하려면 스스로 적자를 감수해야 하는 모순이에요.",
         "answer": "트리핀의딜레마",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-08T00:06:38.247+09:00"
       }
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "최우가 왕에게 강화도로 천도할 것을 주청하였다는 내용과 관련된 시기의 역사적 사실로 옳은 것은?",
+        "answer": "3번 대장도감에서 팔만대장경이 간행되었다",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T00:56:08.306+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "2026년 한국형 우주발사체 누리호의 5차 발사 예정일은?",
@@ -129,6 +167,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-08T00:14:42.403+09:00"
+      },
+      {
+        "question": "지난 9월 5일(토), K리그2 김해 vs 전남 경기는 총 4골 무승부로 종료되었습니다. 최종 스코어는 몇 대 몇이었을까요?",
+        "answer": "4번 2대2",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T00:56:08.306+09:00"
       }
     ],
     "hana-life": [],
@@ -163,6 +208,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-08T00:01:28.272+09:00"
+      },
+      {
+        "question": "만성 질병에 의해 무기력증이 생길 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T00:56:08.308+09:00"
       }
     ],
     "buzzvil": [],
