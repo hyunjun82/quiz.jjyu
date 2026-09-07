@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:04:32.614+09:00",
+  "updatedAt": "2026-09-07T11:05:16.475+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -352,6 +352,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-07T11:00:40.867+09:00"
+      },
+      {
+        "question": "컷슬린 안티스파이크 포 다이어트 추석 GIFT",
+        "answer": "혈당, 체지방, 다이어트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T11:05:16.474+09:00"
       }
     ],
     "climate-action": [
@@ -577,13 +584,6 @@
         "answer": "X",
         "note": "",
         "source": "tomax",
-        "publishedAt": "2026-09-07T00:17:07.073+09:00"
-      },
-      {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
-        "answer": "X",
-        "note": "",
-        "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
