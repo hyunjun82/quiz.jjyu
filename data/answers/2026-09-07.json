@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T15:07:32.593+09:00",
+  "updatedAt": "2026-09-07T16:01:19.170+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -193,6 +193,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T14:01:27.978+09:00"
+      },
+      {
+        "question": "산지로드 무항생제 구운란",
+        "answer": "10980",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T16:01:19.167+09:00"
       }
     ],
     "shinhan-sol": [
