@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T10:09:03.594+09:00",
+  "updatedAt": "2026-09-07T10:19:11.770+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -282,9 +282,9 @@
     "kb-star": [
       {
         "question": "2027년 월력요항에 따르면 주 5일제 직장인은 내년에 총 OOO일의 휴일을 갖는다",
-        "answer": "119",
+        "answer": "③ 119일",
         "note": "",
-        "source": "blog",
+        "source": "tomax",
         "publishedAt": "2026-09-07T01:41:29.680+09:00"
       },
       {
@@ -318,13 +318,6 @@
         "note": "",
         "source": "epostphone",
         "publishedAt": "2026-09-07T09:12:00.000+09:00"
-      },
-      {
-        "question": "하나원큐 축구Play의 퀴즈HANA는 ○○○ 문제로 출제된다. (X)",
-        "answer": "X",
-        "note": "",
-        "source": "tomax",
-        "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
     "monimo": [
@@ -432,10 +425,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 축구Play의 퀴즈HANA는 ○○○ 문제로 출제된다. (X)",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],

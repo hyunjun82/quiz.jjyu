@@ -1011,12 +1011,19 @@ const TOMAX_ART = (date, tm) => `https://quiz.epostphone.kr/${date}-${tm}-quiz-a
 // 한 덩어리로 다루는데 토막스는 OX와 AI 이모지를 따로 낸다. 그래서 다른 소스가
 // 늦거나 한 종류만 줄 때 나머지를 여기서 메운다.
 // 8/14 실측: 카뱅 AI 이모지 정답('제조업')이 우리 4소스엔 없고 토막스에만 있었다.
+// ⚠️ 2026-09-07: 하나원큐 금융생활 OX와 모니모 영어챌린지가 각각 별도 슬러그로
+//    분리됐다(hana-life / monimo-eng). 이 표가 옛 슬러그를 가리키고 있으면 정답이
+//    매일 엉뚱한 카드에 들어가고, 사람이 손으로 옮겨야 한다(9/7 09:26 커밋이 그 작업이었다).
+//    두 슬러그는 퀴즈벨에 없어서 여기가 유일한 소스다 — 반드시 새 슬러그를 가리켜야 한다.
 const TOMAX_MAP = [
   { slug: 'bitbunny-ox', tm: 'bitbunny_ox' }, // 다른 소스에 아예 없는 퀴즈
   { slug: 'kakaobank', tm: 'kakaobank_ai' }, // 카뱅 AI 이모지 (OX와 별도 출제)
   { slug: 'kb-star', tm: 'kbstar_hist' }, // KB 한국사 (스타퀴즈와 별도)
-  { slug: 'hana-onq', tm: 'hanalife' }, // 하나원큐 슬기로운 금융생활 OX
-  { slug: 'monimo', tm: 'monimo_eng' }, // 모니모 영어챌린지
+  // 스타퀴즈 본편. 토막스는 정답을 "③ 119일"처럼 단위까지 붙여 주므로 우리 "119"를
+  // 더 완전한 표기로 갈아끼워 준다(9/7 외부대조에서 표기 차이로 잡힌 건). (2026-09-07 추가)
+  { slug: 'kb-star', tm: 'kbstar' },
+  { slug: 'hana-life', tm: 'hanalife' }, // 하나원큐 슬기로운 금융생활 OX (분리된 슬러그)
+  { slug: 'monimo-eng', tm: 'monimo_eng' }, // 모니모 영어챌린지 (분리된 슬러그)
 ];
 
 // `${today}:${slug}` → items. 하루치 완성본이라 한 번 성공하면 다시 안 긁는다.

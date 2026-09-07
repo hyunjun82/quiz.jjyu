@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-07",
+  "deleted": {
+    "hana-onq": [
+      "하나원큐축구play의퀴즈hana는○○○문제로출제된다|x"
+    ]
+  },
+  "log": [
+    {
+      "slug": "hana-onq",
+      "question": "하나원큐 축구Play의 퀴즈HANA는 ○○○ 문제로 출제된다. (X)",
+      "answer": "X",
+      "reason": "중복: 분리된 hana-life 카드에 있는 문제. 옛 TOMAX_MAP이 잘못 넣음",
+      "at": "2026-09-07T10:19:11.771+09:00"
+    }
+  ]
+}
