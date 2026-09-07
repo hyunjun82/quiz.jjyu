@@ -356,6 +356,25 @@
       ]
     },
     {
+      "slug": "hana-life",
+      "app": "하나원큐",
+      "name": "하나원큐 슬기로운 금융생활 OX",
+      "searchKeyword": "하나원큐 슬기로운 금융생활 OX 정답",
+      "shortName": "하나원큐 금융생활 OX",
+      "category": "finance",
+      "reward": "하나머니",
+      "resetInfo": "매일 갱신",
+      "howTo": "하나원큐 앱 → 슬기로운 금융생활",
+      "color": "#008485",
+      "estDaily": 50,
+      "rewardRange": "10~100원",
+      "iconUrl": "/icons/hana-onq.avif",
+      "sourceSlug": null,
+      "releaseTimes": [
+        "00:00"
+      ]
+    },
+    {
       "slug": "monimo",
       "app": "모니모",
       "name": "모니모 모니스쿨 오늘의 퀴즈",
@@ -370,6 +389,25 @@
       "rewardRange": "젤리 리워드",
       "iconUrl": "/icons/monimo.avif",
       "sourceSlug": "monimo",
+      "releaseTimes": [
+        "00:00"
+      ]
+    },
+    {
+      "slug": "monimo-eng",
+      "app": "모니모",
+      "name": "모니모 영어챌린지",
+      "searchKeyword": "모니모 영어챌린지 정답",
+      "shortName": "모니모 영어",
+      "category": "finance",
+      "reward": "모니머니",
+      "resetInfo": "매일 오전",
+      "howTo": "모니모 앱 → 영어챌린지",
+      "color": "#FF6F0F",
+      "estDaily": 50,
+      "rewardRange": "젤리 리워드",
+      "iconUrl": "/icons/monimo.avif",
+      "sourceSlug": null,
       "releaseTimes": [
         "00:00"
       ]
@@ -671,4 +709,4 @@
       }
     }
   ]
-}
+    }
