@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:17:20.046+09:00",
+  "updatedAt": "2026-09-07T11:19:21.901+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -366,6 +366,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-07T11:17:12.315+09:00"
+      },
+      {
+        "question": "멜라듀스 미백앰플 할인",
+        "answer": "탄력, 수분광, 홈케어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T11:19:21.900+09:00"
       }
     ],
     "climate-action": [
@@ -591,13 +598,6 @@
         "answer": "X",
         "note": "",
         "source": "tomax",
-        "publishedAt": "2026-09-07T00:17:07.073+09:00"
-      },
-      {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
-        "answer": "X",
-        "note": "",
-        "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
