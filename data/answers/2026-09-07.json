@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T21:02:38.835+09:00",
+  "updatedAt": "2026-09-07T21:03:14.650+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -214,6 +214,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-07T21:02:25.343+09:00"
+      },
+      {
+        "question": "픽스 맥세이프 전기종 고속무선충전",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T21:03:14.646+09:00"
       }
     ],
     "shinhan-sol": [
