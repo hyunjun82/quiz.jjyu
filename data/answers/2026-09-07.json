@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:32:27.066+09:00",
+  "updatedAt": "2026-09-07T11:32:45.942+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -415,6 +415,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-07T11:31:51.932+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 앰플 두피 밸런스 케어",
+        "answer": "모발, 롤온, 탈모",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T11:32:45.941+09:00"
       }
     ],
     "climate-action": [
@@ -640,13 +647,6 @@
         "answer": "X",
         "note": "",
         "source": "tomax",
-        "publishedAt": "2026-09-07T00:17:07.073+09:00"
-      },
-      {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
-        "answer": "X",
-        "note": "",
-        "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
