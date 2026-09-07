@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T11:31:33.577+09:00",
+  "updatedAt": "2026-09-07T11:31:51.939+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -408,6 +408,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-07T11:30:43.965+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 앰플은 ㅇㅇ 타입 앰플로 위생적인 두피 케어가 가능합니다. ㅇㅇ은 무엇일까요? (초성 : ㄹㅇ)",
+        "answer": "롤온",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-07T11:31:51.932+09:00"
       }
     ],
     "climate-action": [
@@ -633,6 +640,13 @@
         "answer": "X",
         "note": "",
         "source": "tomax",
+        "publishedAt": "2026-09-07T00:17:07.073+09:00"
+      },
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
         "publishedAt": "2026-09-07T00:17:07.073+09:00"
       }
     ],
