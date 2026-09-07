@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T00:04:44.459+09:00",
+  "updatedAt": "2026-09-08T00:04:59.463+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -143,10 +143,26 @@
     ],
     "buzzvil": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈",
+        "answer": "1, 4, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T00:04:59.463+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "예스24 출첵퀴즈 매일 저자이름 맞추면 출첵",
+        "answer": "오디세우스",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T00:04:59.463+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
