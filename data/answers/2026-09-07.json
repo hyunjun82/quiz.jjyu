@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T12:36:45.312+09:00",
+  "updatedAt": "2026-09-07T14:01:27.981+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -186,6 +186,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-07T12:01:25.660+09:00"
+      },
+      {
+        "question": "종근당건강 아이클리어 할인 증정 혜택 받기",
+        "answer": "49900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-07T14:01:27.978+09:00"
       }
     ],
     "shinhan-sol": [
