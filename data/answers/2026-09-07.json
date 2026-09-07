@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updatedAt": "2026-09-07T14:01:37.139+09:00",
+  "updatedAt": "2026-09-07T14:56:09.295+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -502,10 +502,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "동대문엽기떡볶이가 OO명에게 엽떡 쏜다",
         "answer": "1만",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-07T10:02:27.969+09:00"
       },
       {
