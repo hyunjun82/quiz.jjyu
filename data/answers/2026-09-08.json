@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T10:00:34.677+09:00",
+  "updatedAt": "2026-09-08T10:01:30.722+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -153,7 +153,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "2번 틴업 체크카드",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T10:01:30.722+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -306,7 +314,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "2900",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T10:01:30.722+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
