@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T12:01:40.056+09:00",
+  "updatedAt": "2026-09-08T12:02:46.479+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -214,6 +214,20 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-08T10:00:33.600+09:00"
+      },
+      {
+        "question": "메르헨트 고체탈취제",
+        "answer": "350",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T12:02:46.478+09:00"
+      },
+      {
+        "question": "제주항공 마카오 항공권 선착순 할인",
+        "answer": "3, 48, 10000",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T12:02:46.478+09:00"
       }
     ],
     "shinhan-sol": [
