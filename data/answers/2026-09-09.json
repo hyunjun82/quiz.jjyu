@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T00:00:39.651+09:00",
+  "updatedAt": "2026-09-09T00:01:47.406+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -57,15 +57,39 @@
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "\"모든 일시납 연금보험은 중도인출을 할 수 없고, 급한 돈이 필요할 땐 무조건 해지하는 방법 밖에 없다.\" 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-09T00:01:47.406+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "건선은 노년층보다 20대에서 가장 많이 발생한다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-09T00:01:47.406+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "만성 질병에 의해 무기력증이 생길 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-09T00:01:47.406+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [],
     "adapter": [],
