@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T00:57:16.391+09:00",
+  "updatedAt": "2026-09-09T01:56:45.584+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,10 +50,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "오늘의 신한 SOL페이 땡겨요 Day! 최대 13,000원 할인 받을 수 있는 오늘의 땡데이 브랜드는 무엇일까요?",
         "answer": "노랑통닭",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-09T00:03:00.561+09:00"
       },
       {
@@ -105,7 +105,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB스타뱅킹의 '국민오락실'에서 즐길 수 있는 게임은 총 몇 가지일까요?",
+        "answer": "7가지",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-09T01:56:45.582+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [
       {
@@ -157,10 +165,10 @@
         "publishedAt": "2026-09-09T00:01:47.406+09:00"
       },
       {
-        "question": "닥터나우 퀴즈 — 닥터나우",
+        "question": "만 13세 이상이라면 독감 백신을 무료로 접종받을 수 있다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-09T00:02:24.591+09:00"
       }
     ],
