@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T14:01:08.553+09:00",
+  "updatedAt": "2026-09-08T14:03:12.495+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -295,6 +295,13 @@
         "note": "",
         "source": "ai-search",
         "publishedAt": "2026-09-08T08:59:00+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (오후 12시): 이모지를 보고 떠오르는 단어 맞히기",
+        "answer": "할리우드",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-08T12:05:00+09:00"
       }
     ],
     "kakaobank-ox": [
