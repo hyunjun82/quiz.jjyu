@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T17:10:24.138+09:00",
+  "updatedAt": "2026-09-08T18:23:50.689+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -593,7 +593,15 @@
         "publishedAt": "2026-09-08T00:04:59.463+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 곰곰",
+        "answer": "돼지고기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-08T18:23:50.688+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
