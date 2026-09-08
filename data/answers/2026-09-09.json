@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T00:16:12.227+09:00",
+  "updatedAt": "2026-09-09T00:57:06.288+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,6 +76,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-09T00:00:39.651+09:00"
+      },
+      {
+        "question": "‘V2G(Vehicle-to-Grid)’ 기술은 전기차 배터리에 저장된 전력을 전력망으로 다시 공급하는 기술이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-09T00:57:06.287+09:00"
       }
     ],
     "hpoint": [
@@ -100,7 +107,15 @@
     "nh-allone": [],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T00:57:06.288+09:00"
+      }
+    ],
     "hana-life": [],
     "monimo": [
       {
@@ -120,6 +135,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-09T00:01:47.406+09:00"
+      },
+      {
+        "question": "판콜에이 같은 경구용 감기약의 코막힘 완화 성분은 흡수가 잘 안 될 때 효과가 떨어질 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-09T00:57:06.288+09:00"
       }
     ],
     "skstoa": [],
