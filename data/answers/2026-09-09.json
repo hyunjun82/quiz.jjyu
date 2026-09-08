@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T07:58:59.261+09:00",
+  "updatedAt": "2026-09-09T08:02:17.026+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,15 @@
         "publishedAt": "2026-09-09T00:03:00.561+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "블루투스",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T08:02:17.026+09:00"
+      }
+    ],
     "kakaobank-ox": [],
     "ok-cashbag": [
       {
