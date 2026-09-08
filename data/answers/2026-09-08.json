@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T11:52:50.173+09:00",
+  "updatedAt": "2026-09-08T12:01:19.083+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -334,10 +334,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "동양 속 작은 유럽 반값 특가로 예약 가능한 이곳은 마카오이다",
         "answer": "마카오",
         "note": "",
-        "source": "tipistip",
+        "source": "tomax",
         "publishedAt": "2026-09-08T10:06:05.494+09:00"
       }
     ],
