@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T08:02:17.026+09:00",
+  "updatedAt": "2026-09-09T08:02:54.740+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -120,7 +120,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
+        "answer": "1번 홍삼선물세트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T08:02:54.740+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB스타뱅킹의 '국민오락실'에서 즐길 수 있는 게임은 총 몇 가지일까요?",
