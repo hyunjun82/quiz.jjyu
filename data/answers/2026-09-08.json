@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T09:33:12.925+09:00",
+  "updatedAt": "2026-09-08T09:36:44.871+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,6 +90,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-08T00:04:44.459+09:00"
+      },
+      {
+        "question": "신한 슈펀OL에서는 주식 모으기(정기투자) 기능이 있다",
+        "answer": "O",
+        "note": "",
+        "source": "tomax",
+        "publishedAt": "2026-09-08T09:36:44.869+09:00"
       }
     ],
     "kakaobank": [
