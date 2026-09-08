@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T14:34:18.032+09:00",
+  "updatedAt": "2026-09-08T15:03:12.510+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -256,6 +256,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-08T10:00:33.600+09:00"
+      },
+      {
+        "question": "레이데이 연어 PDRN 재생앰플",
+        "answer": "16900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-08T15:03:12.509+09:00"
       }
     ],
     "shinhan-sol": [
