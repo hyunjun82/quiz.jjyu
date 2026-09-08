@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T00:06:06.351+09:00",
+  "updatedAt": "2026-09-09T00:15:50.471+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-09-09T00:00:39.650+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "롯데 모바일 상품권",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T00:15:50.471+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "결합쿠폰",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T00:15:50.471+09:00"
       }
     ],
     "cashwalk": [
