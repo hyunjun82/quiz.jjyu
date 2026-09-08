@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T07:05:33.723+09:00",
+  "updatedAt": "2026-09-09T07:57:59.094+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -66,7 +66,15 @@
     ],
     "kakaobank": [],
     "kakaobank-ox": [],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 하림펫푸드 (광고모아보기)",
+        "answer": "오븐",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T07:57:59.094+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
