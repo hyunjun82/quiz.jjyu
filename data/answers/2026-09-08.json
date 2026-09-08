@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updatedAt": "2026-09-08T10:11:39.093+09:00",
+  "updatedAt": "2026-09-08T10:12:13.180+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -260,10 +260,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "만 7세부터 발급 가능하고, 연령에 따라 혜택이 더해지는 성장형 체크카드는?",
         "answer": "2번 틴업 체크카드",
         "note": "",
-        "source": "tipistip",
+        "source": "blog",
         "publishedAt": "2026-09-08T10:01:30.722+09:00"
       }
     ],
