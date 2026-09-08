@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T01:56:45.584+09:00",
+  "updatedAt": "2026-09-09T07:05:33.723+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -114,7 +114,15 @@
         "publishedAt": "2026-09-09T01:56:45.582+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지",
+        "answer": "1번 RMR",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T07:05:33.723+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
@@ -183,7 +191,15 @@
         "publishedAt": "2026-09-09T00:04:12.897+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T07:05:33.723+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 오늘의퀴즈",
