@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T08:39:31.823+09:00",
+  "updatedAt": "2026-09-10T08:41:29.202+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -87,10 +87,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "question": "08:00 자연 관련 이모지 보고 퀴즈 풀기",
         "answer": "꽃망울",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-10T08:03:20.785+09:00"
       }
     ],
