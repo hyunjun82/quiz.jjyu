@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T09:13:19.985+09:00",
+  "updatedAt": "2026-09-09T09:20:56.560+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -181,6 +181,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-09T09:00:55.942+09:00"
+      },
+      {
+        "question": "AI영양분석을 하는 목적은?",
+        "answer": "② 건강 관리",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:20:56.555+09:00"
       }
     ],
     "kakaobank": [
