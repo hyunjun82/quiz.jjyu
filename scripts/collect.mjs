@@ -1282,6 +1282,122 @@ async function collectFromApptech() {
   }
 }
 
+/* ────────────── 소스 H: 다비야 (daviya.co.kr) ──────────────
+ *
+ * 왜 넣는가 — 2026-09-10 실측.
+ * 요잇·예스24는 팁is팁이 유일한 통로였다. 평소 00:04~00:06 에 들어오는데 이날은
+ * 07:30 까지 0건이었다 — 우리가 놓친 게 아니라 팁is팁이 그날 늦었다.
+ * 소스가 하나뿐이면 그 소스가 늦는 날 우리도 그만큼 늦는다. 전날 토막스 차단과 같은 구조다.
+ * 다비야는 같은 시각 이미 두 퀴즈를 다 갖고 있었다(요잇 id=68268, 예스24 id=68263).
+ *
+ * 구조: Next.js 라 목록·상세 모두 __NEXT_DATA__ 에 JSON 이 그대로 들어 있다.
+ *   목록 /quiz/        → props.pageProps.quizzes[] { id, title, quiz_type:{name} }
+ *   상세 /quiz/detail/N → props.pageProps.quiz.details[] { question, answer }
+ *
+ * ⚠️ 목록에는 지난 날짜 글이 섞여 있다. 제목의 "M월D일" 로 오늘 것만 고른다.
+ *    quiz_type.name 은 앱 이름이 아니라 퀴즈 이름이다 — 예컨대 'AI 오늘의 퀴즈' 는
+ *    카카오뱅크가 아니라 케이뱅크다(2026-09-07 에 이걸 헷갈려 오탐을 냈다).
+ *    그래서 확인한 것만 표에 넣고, 모르는 종류는 조용히 건너뛴다.
+ */
+const DAVIYA_LIST = 'https://www.daviya.co.kr/quiz/';
+const DAVIYA_DETAIL = (id) => `https://www.daviya.co.kr/quiz/detail/${id}`;
+const DAVIYA_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
+
+// quiz_type.name → 우리 slug. 실측으로 확인한 것만 넣는다.
+const DAVIYA_MAP = {
+  '요잇 오늘의 퀴즈': 'yoit',
+  '오늘의 출석체크 퀴즈': 'yes24',
+  '토스': 'toss-lucky',
+  '캐시워크': 'cashwalk',
+  '캐시닥': 'cashdoc',
+  '카카오뱅크 OX 퀴즈': 'kakaobank-ox',
+  '카카오뱅크 AI 퀴즈': 'kakaobank',
+  '슬기로운 금융생활 OX퀴즈': 'hana-life',
+  '퀴즈HANA': 'hana-onq',
+  '스타퀴즈': 'kb-star',
+  '카카오페이 퀴즈타임': 'kakaopay',
+  '닥터나우 오늘의 퀴즈': 'doctornow',
+  '돈버는 건강 퀴즈': 'mydoctor',
+  '옥션 매일플러스 퀴즈': 'auction',
+  'H.Point': 'hpoint',
+  '오늘의 OX 퀴즈': 'bitbunny-ox',
+  '오늘의 상식 퀴즈': 'bitbunny',
+  '신한플러스 출석 퀴즈': 'shinhan-sol',
+  '야구상식 쏠퀴즈': 'shinhan-sol',
+  '신한플레이 오늘의 OX퀴즈': 'shinhan-sol',
+  '모니모 영어챌린지': 'monimo-eng',
+  '모니모 모니스쿨 퀴즈': 'monimo',
+  '오퀴즈': 'ok-cashbag',
+};
+
+const nextData = (html) => {
+  const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+  if (!m) return null;
+  try {
+    return JSON.parse(m[1]);
+  } catch {
+    return null;
+  }
+};
+
+async function collectFromDaviya() {
+  const today = kstToday();
+  const [, mo, dy] = today.split('-').map(Number);
+  // 제목이 "9월10일" / "9월 10일" 두 표기를 오간다.
+  const todayRe = new RegExp(`${mo}월\\s?${dy}일`);
+
+  let list;
+  try {
+    const res = await fetch(DAVIYA_LIST, {
+      headers: { 'user-agent': DAVIYA_UA },
+      signal: AbortSignal.timeout(20000),
+      redirect: 'follow',
+    });
+    if (!res.ok) return [];
+    const j = nextData(await res.text());
+    list = j?.props?.pageProps?.quizzes;
+  } catch {
+    return [];
+  }
+  if (!Array.isArray(list)) return [];
+
+  const targets = list
+    .filter((q) => todayRe.test(String(q.title || '')))
+    .filter((q) => DAVIYA_MAP[q.quiz_type?.name])
+    .slice(0, 30); // 하루치가 이보다 많을 일은 없다. 폭주 방지.
+
+  const results = await Promise.all(
+    targets.map(async (q) => {
+      const slug = DAVIYA_MAP[q.quiz_type.name];
+      try {
+        const res = await fetch(DAVIYA_DETAIL(q.id), {
+          headers: { 'user-agent': DAVIYA_UA },
+          signal: AbortSignal.timeout(20000),
+        });
+        if (!res.ok) return [];
+        const d = nextData(await res.text())?.props?.pageProps?.quiz;
+        const out = [];
+        for (const it of d?.details || []) {
+          // "문제 : " 접두어가 붙어 오는 날이 있다.
+          const question = clean(String(it.question || '').replace(/^\s*문제\s*[:：]\s*/, ''));
+          const answer = clean(String(it.answer || ''));
+          if (!answer || !isSaneAnswer(answer)) continue;
+          const q2 = question && question.length >= 8
+            ? question
+            : `${BY_SLUG[slug]?.shortName || BY_SLUG[slug]?.name || slug} 오늘의 퀴즈`;
+          if (!isSaneQuestion(q2)) continue;
+          out.push({ slug, ...buildItem(q2, [answer]), source: 'daviya' });
+        }
+        return out;
+      } catch {
+        return [];
+      }
+    }),
+  );
+  return results.flat();
+}
+
 /* ────────────── 소스 F: 팁is팁 (tipistip.com) ──────────────
  *
  * 2026-08-14 발굴. 커뮤니티 게시판인데 어느 집계 사이트에도 없는 소형 퀴즈를
@@ -1953,7 +2069,7 @@ async function collectOnce() {
   const tombstones = loadTombstones(today);
   const tombReported = new Set();
 
-  const [a, b, c, d, e, f, g] = await Promise.all([
+  const [a, b, c, d, e, f, g, h] = await Promise.all([
     collectFromBlog().catch((e) => {
       console.error('블로그 소스 실패:', e.message);
       return [];
@@ -1979,6 +2095,10 @@ async function collectOnce() {
       console.error('앱테크퀴즈 소스 실패:', e.message);
       return [];
     }),
+    collectFromDaviya().catch((e) => {
+      console.error('다비야 소스 실패:', e.message);
+      return [];
+    }),
   ]);
   // 순서 = 우선순위. 같은 정답이 여러 소스에서 오면 앞쪽 것이 채택된다(뒤는 중복 처리).
   // 블로그가 맨 앞인 이유: 문제 지문이 가장 길고 정확하다.
@@ -1990,7 +2110,7 @@ async function collectOnce() {
   // 다른 소스가 같은 정답을 지문과 함께 주면 그쪽이 이겨야 한다. (2026-08-14 추가)
   // 앱테크퀴즈(g)는 토막스(e) 다음, 퀴즈벨(b) 앞이다. 지문이 온전해 퀴즈벨보다 제목이 좋고,
   // 토막스처럼 회차를 쪼개 주지는 않아 토막스 뒤에 둔다. (2026-09-09 추가)
-  const found = [...a, ...c, ...d, ...e, ...g, ...b, ...f];
+  const found = [...a, ...c, ...d, ...e, ...g, ...b, ...h, ...f];
 
   let added = 0;
   let upgraded = 0;
@@ -2258,6 +2378,7 @@ export {
   parseTipArticle,
   parseApptech,
   collectFromApptech,
+  collectFromDaviya,
   normalize,
   itemKey,
   // 회차 인식 · 삭제 기억 (2026-09-07 추가)
