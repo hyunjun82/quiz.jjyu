@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T11:06:33.849+09:00",
+  "updatedAt": "2026-09-09T12:05:41.955+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,6 +211,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-09T08:02:17.026+09:00"
+      },
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기",
+        "answer": "이유식",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T12:05:41.950+09:00"
       }
     ],
     "kakaobank-ox": [
