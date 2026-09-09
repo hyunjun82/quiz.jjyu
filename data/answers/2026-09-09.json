@@ -1,6 +1,5 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T18:28:30.649+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +22,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-09T00:15:50.471+09:00"
+      },
+      {
+        "question": "마마망은 좋은 것만 골라서 잘 보여주고 싶은 ㅍㄹㅁㅇ 육아 플랫폼이에요",
+        "answer": "프리미엄",
+        "note": "",
+        "source": "minsimnews",
+        "publishedAt": "2026-09-09T18:30:00+09:00"
       }
     ],
     "cashwalk": [
@@ -524,5 +530,6 @@
       }
     ],
     "naverpay": []
-  }
+  },
+  "updatedAt": "2026-09-09T19:08:39+09:00"
 }
