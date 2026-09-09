@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T05:11:02.112+09:00",
+  "updatedAt": "2026-09-10T07:06:04.082+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "bnt",
         "publishedAt": "2026-09-10T05:11:02.112+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 오늘의 퀴즈",
+        "answer": "2. 건강사전",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T07:06:04.081+09:00"
       }
     ],
     "kakaobank": [],
