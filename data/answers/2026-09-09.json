@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T09:03:17.425+09:00",
+  "updatedAt": "2026-09-09T09:04:37.921+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -246,10 +246,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOO이란, 환율 변동으로 생길 손실을 막기 위해 미리 환율을 고정해두는 위험 회피예요.",
         "answer": "환헤지",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-09-09T00:06:02.346+09:00"
       }
     ],
