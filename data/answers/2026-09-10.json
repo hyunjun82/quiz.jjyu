@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T08:04:58.670+09:00",
+  "updatedAt": "2026-09-10T08:39:31.823+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,6 +76,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-10T07:06:04.081+09:00"
+      },
+      {
+        "question": "복잡한 증상부터 예상보험금까지 쉽게 검색하는 신한라이프의 서비스는?",
+        "answer": "건강사전",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-10T08:39:31.822+09:00"
       }
     ],
     "kakaobank": [
