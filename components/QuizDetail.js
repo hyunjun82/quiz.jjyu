@@ -84,10 +84,15 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
               name: `${quiz.searchKeyword} ${date}`,
               numberOfItems: items.length,
               itemListOrder: 'https://schema.org/ItemListOrderAscending',
+              // 2026-09-09: 110자 절단이 "같은 문구를 여러 회차가 나눠 쓰고 빈칸
+              // 위치만 다른" 캐시워크류 시리즈(예: 6·7번 문제가 빈칸 전까지 119자를
+              // 공유)에서 감사 스크립트가 서로 다른 두 문제를 "중복"으로 오판하게 만든
+              // 원인이었다. 정답 값은 여전히 넣지 않으므로(위 경고 참고) 길이를 늘려도
+              // 정책 위반은 없다 — 200자로 늘려 이런 시리즈도 빈칸 지점까지 포함시킨다.
               itemListElement: items.map((it, i) => ({
                 '@type': 'ListItem',
                 position: i + 1,
-                name: String(it.question || `${quiz.name} ${i + 1}번 문제`).slice(0, 110),
+                name: String(it.question || `${quiz.name} ${i + 1}번 문제`).slice(0, 200),
                 url: `${SITE_URL}/quiz/${quiz.slug}/${date}/${i + 1}/`,
               })),
             },
