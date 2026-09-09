@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T00:55:59.335+09:00",
+  "updatedAt": "2026-09-10T01:56:13.890+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,10 +29,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "간단 미션으로 포인트 받기! 쿠팡, 네이버, 컬리 쇼핑하고 매일 출석 포인트 + OOO 룰렛! 빈칸에 알맞은 것은?",
         "answer": "에어팟",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-10T00:03:04.565+09:00"
       },
       {
@@ -44,7 +44,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "AI로 검색 결과를 확인하고 캐시를 받는 이벤트가 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.888+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -55,13 +63,66 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-10T00:00:54.224+09:00"
+      },
+      {
+        "question": "비행기 사고의 주범인 '난기류' 발생빈도가 기후변화로 인해 줄어들고 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.890+09:00"
       }
     ],
-    "hpoint": [],
-    "bitbunny": [],
+    "hpoint": [
+      {
+        "question": "리바트몰에서는 국내 공방 장인들의 핸드메이드 오브제를 만날 수 있는 기획전이 진행중입니다. 리바트몰 공방 기획전에서 만날 수 있는 상품이 아닌 것은 무엇일까요?",
+        "answer": "④ 가전제품",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 미래의 특정 날짜에 정해진 환율로 외화를 사고팔기로 미리 약속하는 거래예요",
+        "answer": "선물환거래",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
+      }
+    ],
     "kakaopay": [],
-    "nh-allone": [],
-    "kb-star": [],
+    "nh-allone": [
+      {
+        "question": "근대 올림픽의 창시자로 알려진 인물은 누구일까요?",
+        "answer": "③ 피에르 드 쿠베르탱",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
+      }
+    ],
+    "kb-star": [
+      {
+        "question": "대포통장 개설을 사전에 차단하기 위한 단기간 다수계좌 개설목적 확인제도에 따라 계좌 신규요청일을 포함하여 OO영업일 이내에는 신규 계좌 개설이 제한된다.",
+        "answer": "20",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-10T01:56:13.887+09:00"
+      },
+      {
+        "question": "대포통장 개설을 사전에 차단하기 위한 '단기간 다수계좌 개설목적 확인제도'에 따라 계좌 신규요청일을 포함하여 OO영업일 이내에는 신규 계좌 개설이 제한된",
+        "answer": "② 20일",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.888+09:00"
+      },
+      {
+        "question": "밑줄 친 ‘그’에 대한 설명으로 옳은 것은?",
+        "answer": "④ 청해진을 거점으로 해상 무역을 전개하였다.",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "케이뱅크 AI퀴즈 오늘의 퀴즈",
@@ -69,12 +130,27 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-10T00:01:26.498+09:00"
+      },
+      {
+        "question": "통신 3사가 공동 운영하는 본인확인·전자서명 통합 인증 앱의 이름은?",
+        "answer": "④ 패스(PASS)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "축구 리그에서 경기 결과에 따라 각 팀에 쌓이며, 순위를 결정하는 기준이 되는 점수를 무엇이라고 할까요?",
+        "answer": "① 승점",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
+      }
+    ],
     "hana-life": [
       {
-        "question": "하나원큐 금융생활 OX 오늘의 퀴즈",
+        "question": "하나원큐 놀이터에는 공룡알 찾기 성공하면 최대 3만원에 넷마블 쿠폰까지 받을 수 있는 이벤트가 있다.",
         "answer": "X (아니다)",
         "note": "",
         "source": "apptech",
@@ -99,6 +175,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-10T00:00:54.224+09:00"
+      },
+      {
+        "question": "요로결석은 겨울보다 여름에 더 자주 발생한다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
       }
     ],
     "skstoa": [],
@@ -112,10 +195,25 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-10T00:01:26.498+09:00"
+      },
+      {
+        "question": "실내 습도를 40~60%로 유지하는 게 비염 예방에 좋다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "조세피난처는 세율이 낮거나 없어 기업들이 세금 부담을 줄이기 위해 법인을 세우기도 하는 지역이에요.",
+        "answer": "O (맞아요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T01:56:13.889+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
