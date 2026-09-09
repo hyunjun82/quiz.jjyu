@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T07:58:31.518+09:00",
+  "updatedAt": "2026-09-10T08:03:20.785+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,15 @@
         "publishedAt": "2026-09-10T07:06:04.081+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "꽃망울",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-10T08:03:20.785+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "AI로 검색 결과를 확인하고 캐시를 받는 이벤트가 있다.",
