@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T10:01:41.290+09:00",
+  "updatedAt": "2026-09-09T10:02:46.569+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -224,7 +224,15 @@
         "publishedAt": "2026-09-09T07:57:59.094+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay에 내 부동산을 등록하면 확인할 수 있는 것은?",
+        "answer": "부동산 정보와 시세",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-09-09T10:02:46.567+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
