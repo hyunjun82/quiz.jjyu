@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T00:00:19.628+09:00",
+  "updatedAt": "2026-09-10T00:00:54.224+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -25,7 +25,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "‘V2G(Vehicle-to-Grid)’ 기술은 전기차 배터리에 저장된 전력을 전력망으로 다시 공급하는 기술이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-10T00:00:54.224+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
@@ -37,7 +45,15 @@
     "monimo": [],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "판콜에이 같은 경구용 감기약의 코막힘 완화 성분은 흡수가 잘 안 될 때 효과가 떨어질 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-10T00:00:54.224+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
