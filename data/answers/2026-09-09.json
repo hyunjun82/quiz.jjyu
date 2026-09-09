@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T10:06:13.363+09:00",
+  "updatedAt": "2026-09-09T10:10:51.012+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -282,6 +282,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-09T09:00:55.941+09:00"
+      },
+      {
+        "question": "□□로 결제하면 굿딜 전 제품 50% 할인받을 수 있어요",
+        "answer": "굿딜",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T10:10:51.008+09:00"
       }
     ],
     "nh-allone": [
