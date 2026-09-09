@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updatedAt": "2026-09-09T15:21:44.674+09:00",
+  "updatedAt": "2026-09-09T18:27:11.706+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -514,7 +514,15 @@
         "publishedAt": "2026-09-09T00:04:12.897+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 삼성전자",
+        "answer": "진동판",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-09T18:27:11.706+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
