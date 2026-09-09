@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T08:03:46.386+09:00",
+  "updatedAt": "2026-09-10T08:04:45.322+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,20 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-10T07:34:58.122+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "찜갈비세트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-10T08:04:45.321+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "국내산 고추가루",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-10T08:04:45.321+09:00"
       }
     ],
     "cashwalk": [
