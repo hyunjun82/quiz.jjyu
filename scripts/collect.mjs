@@ -1186,6 +1186,102 @@ async function collectFromTomax() {
   return results.flat();
 }
 
+/* ────────────── 소스 G: 앱테크퀴즈 (apptech.spacexai.workers.dev) ──────────────
+ *
+ * 왜 넣는가 — 2026-09-09 실측.
+ * 토막스가 Cloudflare 403으로 통째로 막혔다(홈까지 403, UA를 바꿔도 동일).
+ * 그런데 kakaobank-ox · hana-life · monimo-eng · bitbunny-ox 는 퀴즈벨에 없어서
+ * 토막스가 유일한 통로였다. 그날 이 넷이 전부 0건이 됐고, 외부 대조(quiz-xcheck)도
+ * 기준선이 토막스라 같이 멈췄다 — 놓친 걸 잡아줄 장치까지 함께 사라졌다.
+ * 소스가 하나뿐인 퀴즈를 남겨두면 그 소스가 죽는 날 그 퀴즈도 죽는다.
+ *
+ * 이 소스의 장점:
+ *   · 서버 렌더링 HTML — JS 없이 한 번의 요청으로 전부 읽힌다(빠르다)
+ *   · 앵커 id 가 우리 슬러그와 거의 1:1 이라 매핑 사고가 날 여지가 적다
+ *   · 지문이 온전하다 — 뭉뚱그린 제목이 아니라 실제 문제 문장이 들어온다
+ *
+ * ⚠️ 한 카드 안에 "지난 정답" 블록이 붙어 있다(9/8, 9/7 …). 섹션을 그대로 훑으면
+ *    어제 정답을 오늘 것으로 넣는다 — 가장 흔한 사고다. 그래서 "지난 정답" 이전까지만
+ *    자른 뒤 첫 번째 Q/정답 쌍만 취한다.
+ */
+const APPTECH_URL = 'https://apptech.spacexai.workers.dev/';
+
+// 앵커 id → 우리 slug. 여러 앵커가 한 슬러그로 모이는 것은 정상이다
+// (KB 스타퀴즈/한국사, 신한 출석/쏠퀴즈/솔페이는 우리 쪽에서 한 카드로 묶여 있다).
+const APPTECH_MAP = {
+  'quiz-kakaopay': 'kakaopay',
+  'quiz-kakaobank-emoji': 'kakaobank',
+  'quiz-kakaobank-ox': 'kakaobank-ox',
+  'quiz-kb-star': 'kb-star',
+  'quiz-kb-history': 'kb-star',
+  'quiz-shinhan-attendance': 'shinhan-sol',
+  'quiz-shinhan-sol': 'shinhan-sol',
+  'quiz-shinhan-pay': 'shinhan-sol',
+  'quiz-hana-soccer': 'hana-onq',
+  'quiz-hana-ox': 'hana-life',
+  'quiz-kbank': 'kbank',
+  'quiz-nh-allone': 'nh-allone',
+  'quiz-hpoint': 'hpoint',
+  'quiz-bitbunny-quiz': 'bitbunny',
+  'quiz-bitbunny-ox': 'bitbunny-ox',
+  'quiz-doctornow': 'doctornow',
+  'quiz-mydoctor': 'mydoctor',
+  'quiz-climate-action': 'climate-action',
+};
+
+function parseApptech(html, today) {
+  // 날짜 검증 — 헤더의 "2026년 9월 9일" 이 오늘이 아니면 통째로 버린다.
+  const dm = html.match(/(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일/);
+  if (!dm) return [];
+  const pageDate = `${dm[1]}-${String(dm[2]).padStart(2, '0')}-${String(dm[3]).padStart(2, '0')}`;
+  if (pageDate !== today) return [];
+
+  const ids = Object.keys(APPTECH_MAP)
+    .map((id) => ({ id, at: html.indexOf(`id="${id}"`) }))
+    .filter((x) => x.at >= 0)
+    .sort((a, b) => a.at - b.at);
+
+  const out = [];
+  for (let i = 0; i < ids.length; i += 1) {
+    const end = i + 1 < ids.length ? ids[i + 1].at : html.length;
+    let seg = html.slice(ids[i].at, end);
+    // "지난 정답" 블록을 잘라낸다 — 여기부터는 어제·그제 정답이다.
+    const past = seg.indexOf('지난 정답');
+    if (past > 0) seg = seg.slice(0, past);
+
+    const q = seg.match(/>Q\.\s*(?:<!--\s*-->)?\s*([\s\S]*?)<\/p>/);
+    const a = seg.match(/>정답:\s*(?:<!--\s*-->)?\s*([\s\S]*?)<\/p>/);
+    if (!a) continue;
+    const answer = clean(a[1]);
+    if (!isSaneAnswer(answer)) continue;
+
+    const slug = APPTECH_MAP[ids[i].id];
+    // 지문이 없는 퀴즈(신한 출석처럼 Q 줄이 없는 날)는 앱 이름으로 보강한다.
+    let question = q ? clean(q[1]) : '';
+    if (!question || question.length < 8) {
+      const label = BY_SLUG[slug]?.shortName || BY_SLUG[slug]?.name || slug;
+      question = question ? `${label} — ${question}` : `${label} 오늘의 퀴즈`;
+    }
+    if (!isSaneQuestion(question)) continue;
+    out.push({ slug, ...buildItem(question, [answer]), source: 'apptech' });
+  }
+  return out;
+}
+
+async function collectFromApptech() {
+  const today = kstToday();
+  try {
+    const res = await fetch(APPTECH_URL, {
+      headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (!res.ok) return [];
+    return parseApptech(await res.text(), today);
+  } catch {
+    return [];
+  }
+}
+
 /* ────────────── 소스 F: 팁is팁 (tipistip.com) ──────────────
  *
  * 2026-08-14 발굴. 커뮤니티 게시판인데 어느 집계 사이트에도 없는 소형 퀴즈를
@@ -1857,7 +1953,7 @@ async function collectOnce() {
   const tombstones = loadTombstones(today);
   const tombReported = new Set();
 
-  const [a, b, c, d, e, f] = await Promise.all([
+  const [a, b, c, d, e, f, g] = await Promise.all([
     collectFromBlog().catch((e) => {
       console.error('블로그 소스 실패:', e.message);
       return [];
@@ -1879,6 +1975,10 @@ async function collectOnce() {
       console.error('팁is팁 소스 실패:', e.message);
       return [];
     }),
+    collectFromApptech().catch((e) => {
+      console.error('앱테크퀴즈 소스 실패:', e.message);
+      return [];
+    }),
   ]);
   // 순서 = 우선순위. 같은 정답이 여러 소스에서 오면 앞쪽 것이 채택된다(뒤는 중복 처리).
   // 블로그가 맨 앞인 이유: 문제 지문이 가장 길고 정확하다.
@@ -1888,7 +1988,9 @@ async function collectOnce() {
   // 게임톡(d)은 언론사 교열본이라 비즈월드 다음, 퀴즈벨 앞. (2026-08-10 추가)
   // 토막스(e)는 지문·정답이 온전해 퀴즈벨 앞. 팁is팁(f)은 지문이 없어 맨 뒤 —
   // 다른 소스가 같은 정답을 지문과 함께 주면 그쪽이 이겨야 한다. (2026-08-14 추가)
-  const found = [...a, ...c, ...d, ...e, ...b, ...f];
+  // 앱테크퀴즈(g)는 토막스(e) 다음, 퀴즈벨(b) 앞이다. 지문이 온전해 퀴즈벨보다 제목이 좋고,
+  // 토막스처럼 회차를 쪼개 주지는 않아 토막스 뒤에 둔다. (2026-09-09 추가)
+  const found = [...a, ...c, ...d, ...e, ...g, ...b, ...f];
 
   let added = 0;
   let upgraded = 0;
@@ -2154,6 +2256,8 @@ export {
   parseTomax,
   collectFromTomax,
   parseTipArticle,
+  parseApptech,
+  collectFromApptech,
   normalize,
   itemKey,
   // 회차 인식 · 삭제 기억 (2026-09-07 추가)

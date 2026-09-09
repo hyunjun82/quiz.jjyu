@@ -90,6 +90,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-09T00:03:00.561+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 오늘의 퀴즈",
+        "answer": "2. 건강 관리",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.942+09:00"
       }
     ],
     "kakaobank": [
@@ -101,7 +108,15 @@
         "publishedAt": "2026-09-09T08:02:17.026+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "‘쪼르디 만나고 혜택 받기’에서 쪼르디 알은 하루에 1개 받을 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.941+09:00"
+      }
+    ],
     "ok-cashbag": [
       {
         "question": "오퀴즈 하림펫푸드 (광고모아보기)",
@@ -136,6 +151,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-09T00:06:02.346+09:00"
+      },
+      {
+        "question": "현대홈쇼핑에서 신선 식품, 리빙 필수템 등을 알뜰하게 구매할 수 있는 현대톱마트 행사가 9월 8일(화)부터 9월 14일(월)까지 진행됩니다! 다음 보기 중, 행사에서 찾아볼 수 없는 상품 카테고리는 무엇일까요?",
+        "answer": "④ 반려용품",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.943+09:00"
       }
     ],
     "bitbunny": [
@@ -145,9 +167,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-09T00:06:02.346+09:00"
+      },
+      {
+        "question": "OOO이란, 환율 변동으로 생길 손실을 막기 위해 미리 환율을 고정해두는 위험 회피예요.",
+        "answer": "환헤지",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T00:06:02.346+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "타이밍에 맞춰 □□□버튼을 누르면 포인트 받을 수 있어요",
+        "answer": "멈추기",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.941+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활",
@@ -155,6 +192,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-09T08:02:54.740+09:00"
+      },
+      {
+        "question": "현재 공동구매 서비스에서 구매할 수 있는 추석선물세트는 무엇일까요?",
+        "answer": "① 한삼인 홍삼 선물세트",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.943+09:00"
       }
     ],
     "kb-star": [
@@ -164,6 +208,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-09T01:56:45.582+09:00"
+      },
+      {
+        "question": "다음 대화의 상황 이후에 있었던 사실로 옳은 것은?",
+        "answer": "④ 강동 6주가 고려의 영토로 편입되었다.",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.942+09:00"
       }
     ],
     "kbank": [
@@ -182,9 +233,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-09T00:57:06.288+09:00"
+      },
+      {
+        "question": "오늘 강원도에 위치한 강릉하이원아레나에서 열리는 K리그1 28라운드 경기는 어느 팀 간의 맞대결일까요?",
+        "answer": "③ 강원 vs 전북",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.942+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐에서도 주가지수를 확인할 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.942+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "\"모든 일시납 연금보험은 중도인출을 할 수 없고, 급한 돈이 필요할 땐 무조건 해지하는 방법 밖에 없다.\" 맞는 말일까요?",
@@ -233,7 +299,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "이전가격(transfer pricing)은 다국적 기업이 계열사 간 거래 가격을 조정해 세금 부담이 낮은 곳으로 이익을 옮기는 데 활용되기도 해요",
+        "answer": "O (맞아요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-09T09:00:55.943+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
