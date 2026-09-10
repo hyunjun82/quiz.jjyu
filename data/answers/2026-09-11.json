@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T02:18:31.814+09:00",
+  "updatedAt": "2026-09-11T02:20:50.069+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -108,6 +108,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "조수미",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T02:20:50.068+09:00"
       }
     ],
     "hana-onq": [
