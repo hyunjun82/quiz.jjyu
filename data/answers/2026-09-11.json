@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T07:58:25.891+09:00",
+  "updatedAt": "2026-09-11T08:03:55.801+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-09-11T07:58:25.889+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "골밀도",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-11T08:03:55.801+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카뱅 OX 퀴즈 오늘의 퀴즈",
