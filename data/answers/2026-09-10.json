@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T11:01:53.115+09:00",
+  "updatedAt": "2026-09-10T12:05:39.833+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -183,6 +183,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-10T08:03:20.785+09:00"
+      },
+      {
+        "question": "자연 관련 이모지 보고 퀴즈 풀기",
+        "answer": "효모",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-10T12:05:39.830+09:00"
       }
     ],
     "kakaobank-ox": [
