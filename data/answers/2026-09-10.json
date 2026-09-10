@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T10:05:22.806+09:00",
+  "updatedAt": "2026-09-10T10:06:03.402+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -264,9 +264,9 @@
     "kakaopay": [
       {
         "question": "카카오페이 퀴즈 타임 (혜택)",
-        "answer": "하이퍼",
+        "answer": "하이퍼 더바넷",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-09-10T10:03:26.765+09:00"
       },
       {
