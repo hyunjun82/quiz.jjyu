@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T00:04:32.894+09:00",
+  "updatedAt": "2026-09-11T00:55:50.127+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -107,10 +107,10 @@
         "publishedAt": "2026-09-11T00:01:51.395+09:00"
       },
       {
-        "question": "닥터나우 오늘의 퀴즈",
+        "question": "만성 피로가 계속되면 대부분 간이 안 좋다는 신호다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-11T00:03:49.415+09:00"
       }
     ],
