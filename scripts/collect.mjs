@@ -173,7 +173,14 @@ const PLACEHOLDER = new Set(['잠시 후 공개', '준비중', '준비 중', '�
 function isEnumeratedAnswer(a) {
   const circled = (String(a).match(/[①-⑳]/g) || []).length;
   const numbered = (String(a).match(/(?:^|\s)\d\s*[).]/g) || []).length;
-  return circled >= 2 || numbered >= 2;
+  // 2026-09-10 추가 — 빈칸 짝 나열형.
+  // 모니모 영어챌린지는 한 회차에 빈칸 문제가 3개라 정답도 3쌍이다.
+  // 토막스는 "① take / that ② take / back" 처럼 번호를 붙여 와서 통과했지만,
+  // 팁is팁은 "fully/booked, any/vacancies, reservation/another" 처럼 번호 없이 온다.
+  // 48자라 40자 상한에 걸려 조용히 버려졌고, 토막스가 막힌 날 이 퀴즈가 0건이 됐다.
+  // 'a/b' 짝이 둘 이상이면 나열형으로 본다 — 일반 문장에는 이런 모양이 거의 없다.
+  const pairs = (String(a).match(/[A-Za-z가-힣]+\s*\/\s*[A-Za-z가-힣]+/g) || []).length;
+  return circled >= 2 || numbered >= 2 || pairs >= 2;
 }
 
 function isSaneAnswer(a) {
@@ -1485,7 +1492,13 @@ const TIP_TITLE_MAP = [
   { slug: 'kakaobank', re: /카카오뱅크 AI 이모지/, backup: true },
   { slug: 'kb-star', re: /^KB 스타뱅킹\][\s\S]*한국사/, backup: true },
   { slug: 'hana-onq', re: /하나원큐 슬기로운 금융생활/, backup: true },
-  { slug: 'monimo', re: /모니모 오늘의영어/, backup: true },
+  // 2026-09-10 수정 — 슬러그가 틀려 있었다.
+  // 팁is팁의 "모니모 오늘의영어"는 모니모 '영어챌린지'(monimo-eng)이지
+  // '모니스쿨 퀴즈'(monimo)가 아니다. 엉뚱한 슬러그로 들어가는 데다 backup 이라,
+  // 모니스쿨이 퀴즈벨에서 이미 채워진 날은 통째로 버려졌다.
+  // 그 결과 monimo-eng 는 사실상 토막스 단일 소스였고, 토막스가 막힌 9/9~10 에
+  // 이틀 연속 0건이 됐다. 다른 소스가 없으므로 backup 이 아니라 '항상 사용'이다.
+  { slug: 'monimo-eng', re: /모니모 오늘의영어/ },
   { slug: 'shinhan-sol', re: /^신한페이판\][\s\S]*팡팡퀴즈/, backup: true },
   { slug: 'kbank', re: /^케이뱅크\]/, backup: true },
   { slug: 'climate-action', re: /기후행동/, backup: true },
@@ -1674,7 +1687,12 @@ async function collectFromTipistip(existing = null) {
         });
         if (!res.ok) return [];
         const html = await res.text();
-        const title = clean(html.match(/<title>([^<]*)<\/title>/)?.[1] || '').split('>')[0].trim();
+        // 제목 끝의 사이트 꼬리표(" > 퀴즈정답 | 팁is팁")만 떼어낸다.
+        // 2026-09-10: 예전엔 첫 '>' 에서 잘랐는데, "모니모 오늘의영어 (더보기 &gt; 혜택)"
+        // 처럼 제목 안에 '>' 가 들어가는 글이 있어 지문이 "(더보기" 에서 잘려 나갔다.
+        const title = clean(html.match(/<title>([^<]*)<\/title>/)?.[1] || '')
+          .replace(/\s*>\s*퀴즈정답\s*\|[\s\S]*$/, '')
+          .trim();
         const items = parseTipArticle(html, slug, title).map((r) => ({ ...r, source: 'tipistip' }));
         if (items.length > 0) tipParsed.set(id, items);
         return items;

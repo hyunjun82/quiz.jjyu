@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T09:09:14.787+09:00",
+  "updatedAt": "2026-09-10T09:22:38.941+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -231,7 +231,15 @@
         "publishedAt": "2026-09-10T00:01:26.498+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "fully/booked, any/vacancies, reservation/another",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-10T09:22:38.941+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
