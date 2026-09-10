@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T07:14:27.164+09:00",
+  "updatedAt": "2026-09-11T07:58:25.891+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-11T00:03:43.839+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 오늘의 퀴즈",
+        "answer": "1. 신한 SOL페이 앱",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T07:58:25.889+09:00"
       }
     ],
     "kakaobank": [],
@@ -231,7 +238,15 @@
         "publishedAt": "2026-09-11T00:03:49.415+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-11T07:58:25.891+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "장기요양보험은 국민건강보험 가입자만 이용할 수 있다?",
