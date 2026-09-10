@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T00:01:11.995+09:00",
+  "updatedAt": "2026-09-11T00:01:51.396+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -18,7 +18,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "비행기 사고의 주범인 '난기류' 발생빈도가 기후변화로 인해 줄어들고 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [
       {
@@ -32,20 +40,60 @@
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "통신 3사가 공동 운영하는 본인확인·전자서명 통합 인증 앱의 이름은?",
+        "answer": "패스(PASS)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "\"모든 일시납 연금보험은 중도인출을 할 수 없고, 급한 돈이 필요할 땐 무조건 해지하는 방법 밖에 없다.\" 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "요로결석은 겨울보다 여름에 더 자주 발생한다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "실내 습도를 40~60%로 유지하는 게 비염 예방에 좋다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      }
+    ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "우회상장은 일반적인 기업공개(IPO) 대신 이미 상장된 회사와의 합병 등을 통해 상장 효과를 얻는 방식이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
