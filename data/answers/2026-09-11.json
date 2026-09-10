@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T00:55:50.127+09:00",
+  "updatedAt": "2026-09-11T01:56:25.514+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -14,10 +14,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "깔끔하게 비우고 쾌적하게 채우는 가을맞이! '클린업 Discover-Day'에서 슈퍼 SOL 결제 EVENT 경품이 아닌 것은?",
         "answer": "브리오신 욕실 클리너",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-11T00:03:43.839+09:00"
       },
       {
@@ -62,7 +62,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "집의 상당 부분을 공장에서 미리 만들고, 현장에서는 블록처럼 조립하는 방식으로 ‘레고형주택’이라고도 불리는 이것은 무엇일까요?",
+        "answer": "모듈러주택",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-11T01:56:25.512+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "통신 3사가 공동 운영하는 본인확인·전자서명 통합 인증 앱의 이름은?",
