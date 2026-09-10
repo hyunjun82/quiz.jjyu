@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T02:14:32.750+09:00",
+  "updatedAt": "2026-09-11T02:18:31.814+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -29,7 +29,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카뱅 OX 퀴즈 오늘의 퀴즈",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T02:18:31.813+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -40,6 +48,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      },
+      {
+        "question": "탄소 예산'이란 지구 온도 상승을 1.5°C 이내로 제한하기 위해 허용된 온실가스 배출 총량을 말한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T02:18:31.814+09:00"
       }
     ],
     "hpoint": [
@@ -131,6 +146,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-11T00:01:51.395+09:00"
+      },
+      {
+        "question": "나만의닥터 퀴즈 오늘의 퀴즈",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T02:18:31.814+09:00"
       }
     ],
     "skstoa": [],
