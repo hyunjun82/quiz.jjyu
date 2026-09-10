@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T00:00:35.723+09:00",
+  "updatedAt": "2026-09-11T00:01:11.995+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO란, 자국 통화를 특정 외국 통화에 고정해 환율을 일정하게 유지하는 제도예요.",
+        "answer": "페그제",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-11T00:01:11.995+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
