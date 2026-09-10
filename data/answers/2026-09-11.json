@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T01:56:25.514+09:00",
+  "updatedAt": "2026-09-11T02:14:32.750+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -61,7 +61,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "디깅퀴즈 오늘의 퀴즈",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T02:14:32.747+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "집의 상당 부분을 공장에서 미리 만들고, 현장에서는 블록처럼 조립하는 방식으로 ‘레고형주택’이라고도 불리는 이것은 무엇일까요?",
@@ -69,6 +77,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-11T01:56:25.512+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 오늘의 퀴즈",
+        "answer": "④ 혼일강리역대국도지도",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T02:14:32.747+09:00"
       }
     ],
     "kbank": [
@@ -80,8 +95,24 @@
         "publishedAt": "2026-09-11T00:01:51.395+09:00"
       }
     ],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 퀴즈 오늘의 퀴즈",
+        "answer": "④ 어드밴티지",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T02:14:32.747+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 금융생활 OX 오늘의 퀴즈",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T02:14:32.747+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "\"모든 일시납 연금보험은 중도인출을 할 수 없고, 급한 돈이 필요할 땐 무조건 해지하는 방법 밖에 없다.\" 맞는 말일까요?",
