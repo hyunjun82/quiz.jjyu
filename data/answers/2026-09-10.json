@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T09:00:43.103+09:00",
+  "updatedAt": "2026-09-10T09:09:14.787+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -103,7 +103,15 @@
         "publishedAt": "2026-09-10T01:56:13.888+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "지마켓 추석 빅세일 마지막 할인! LG그램에서 보여드리는 최대 60% 할인된 가격으로 ○○인치 노트북을 구매하세요",
+        "answer": "16",
+        "note": "",
+        "source": "ai-search",
+        "publishedAt": "2026-09-10T09:09:14.787+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
