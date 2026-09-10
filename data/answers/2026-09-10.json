@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T09:22:38.941+09:00",
+  "updatedAt": "2026-09-10T10:01:56.216+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -112,7 +112,15 @@
         "publishedAt": "2026-09-10T09:09:14.787+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "세탁 23kg & 건조 20kg",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-10T10:01:56.216+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
