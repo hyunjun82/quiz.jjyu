@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T00:03:07.063+09:00",
+  "updatedAt": "2026-09-11T00:03:43.839+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-09-11T00:00:35.723+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "브리오신 욕실 클리너",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T00:03:43.839+09:00"
+      },
+      {
+        "question": "일본 야구의 전설 재일교포 출신 장훈 선수가 별세했습니다. 고인의 명복을 빕니다. 장훈 선수는 일본 프로야구 최다 안타 기록 보유자입니다. 장 선수는 통산 총 몇개의 안타를 기록했을까요?",
+        "answer": "3085개",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T00:03:43.839+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
