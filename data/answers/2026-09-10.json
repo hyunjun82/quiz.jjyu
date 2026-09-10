@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T13:11:09.381+09:00",
+  "updatedAt": "2026-09-10T14:10:00+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -208,6 +208,13 @@
         "note": "",
         "source": "ai-search",
         "publishedAt": "2026-09-10T09:09:14.787+09:00"
+      },
+      {
+        "question": "9/10 오후 2시 NS홈쇼핑에서 라이나 생명 ○○○○ 암보험 상담예약 남기고 가입하면 신세계 상품권 3만원 (오후 2시)",
+        "answer": "첫날부터",
+        "note": "",
+        "publishedAt": "2026-09-10T14:05:00+09:00",
+        "source": "ai-search"
       }
     ],
     "kbpay": [
@@ -233,7 +240,64 @@
         "publishedAt": "2026-09-10T10:02:45.461+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "NEW 리엔케이 OOO 글로우 컬러 크림 (오전 10시)",
+        "answer": "리프팅",
+        "note": "",
+        "publishedAt": "2026-09-10T10:05:00+09:00",
+        "source": "ai-search"
+      },
+      {
+        "question": "(1+1) OOO 프로월드컵 덴탈마스크 200매입 (오전 10시)",
+        "answer": "pwx",
+        "note": "",
+        "publishedAt": "2026-09-10T10:05:00+09:00",
+        "source": "ai-search"
+      },
+      {
+        "question": "마데카크림 타이트리프팅&타임리버스 라이브 중 8만원 이상 구매 시 솔루션 OOO 퍼펙션120ml (오전 10시)",
+        "answer": "에센스",
+        "note": "",
+        "publishedAt": "2026-09-10T10:05:00+09:00",
+        "source": "ai-search"
+      },
+      {
+        "question": "앰플을 그대로 굳힌 OOO 겔마스크 (오전 10시)",
+        "answer": "고농축",
+        "note": "",
+        "publishedAt": "2026-09-10T10:05:00+09:00",
+        "source": "ai-search"
+      },
+      {
+        "question": "발몽 뷰세라 OOO 트라이얼 환절기 피부 솔루션 (낮 12시)",
+        "answer": "하이드라",
+        "note": "",
+        "publishedAt": "2026-09-10T12:05:00+09:00",
+        "source": "ai-search"
+      },
+      {
+        "question": "G마켓 추희자두, 과육이 단단하고 OO와 향이 뛰어납니다 (낮 12시)",
+        "answer": "당도",
+        "note": "",
+        "publishedAt": "2026-09-10T12:05:00+09:00",
+        "source": "ai-search"
+      },
+      {
+        "question": "호밍스 찌개 4종 세트, 3분이면 완성! OOO (낮 12시)",
+        "answer": "초간편",
+        "note": "",
+        "publishedAt": "2026-09-10T12:05:00+09:00",
+        "source": "ai-search"
+      },
+      {
+        "question": "0000은 공정하고 정확한 시험 및 조사를 통해 다양한 제품의 가격과 품질을 한눈에 비교해 볼 수 있는 비교정보 서비스입니다 (오후 2시)",
+        "answer": "비교공감",
+        "note": "",
+        "publishedAt": "2026-09-10T14:05:00+09:00",
+        "source": "ai-search"
+      }
+    ],
     "climate-action": [
       {
         "question": "‘V2G(Vehicle-to-Grid)’ 기술은 전기차 배터리에 저장된 전력을 전력망으로 다시 공급하는 기술이다.",
