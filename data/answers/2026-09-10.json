@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updatedAt": "2026-09-10T10:03:26.765+09:00",
+  "updatedAt": "2026-09-10T10:03:55.283+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -268,6 +268,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-10T10:03:26.765+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "더바넷",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-10T10:03:55.282+09:00"
       }
     ],
     "nh-allone": [
