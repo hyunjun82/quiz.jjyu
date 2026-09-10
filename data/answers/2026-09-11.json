@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T06:56:08.252+09:00",
+  "updatedAt": "2026-09-11T07:04:27.035+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -159,7 +159,15 @@
         "publishedAt": "2026-09-11T00:01:51.395+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "eager/pitch, eager/pitch, eager/pitch",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-11T07:04:27.035+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -175,6 +183,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-11T02:18:31.814+09:00"
+      },
+      {
+        "question": "탄수화물은 뇌 기능에 필수적이다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-11T07:04:27.034+09:00"
       }
     ],
     "skstoa": [],
