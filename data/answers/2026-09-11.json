@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T08:03:55.801+09:00",
+  "updatedAt": "2026-09-11T10:00:20.500+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,10 +158,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 금융생활 OX 오늘의 퀴즈",
+        "question": "하나원큐의 모바일 번호표 메뉴에서 방문할 영업점의 대기손님 수를 확인할 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "apptech",
+        "source": "daviya",
         "publishedAt": "2026-09-11T02:14:32.747+09:00"
       }
     ],
