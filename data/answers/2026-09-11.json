@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T20:17:26.887+09:00",
+  "updatedAt": "2026-09-11T20:34:04.019+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -359,6 +359,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-11T20:03:34.346+09:00"
+      },
+      {
+        "question": "동국제약 톡딜위크 구강세정기",
+        "answer": "민트볼",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T20:34:04.016+09:00"
       }
     ],
     "climate-action": [
