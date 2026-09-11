@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T12:44:51.991+09:00",
+  "updatedAt": "2026-09-11T13:06:48.480+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -374,6 +374,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-11T10:01:43.267+09:00"
+      },
+      {
+        "question": "퀴즈타임 오늘의 퀴즈",
+        "answer": "1200 글로니",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T13:06:48.475+09:00"
       }
     ],
     "nh-allone": [
