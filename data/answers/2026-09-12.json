@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T04:18:00.854+09:00",
+  "updatedAt": "2026-09-12T04:56:46.033+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-12T02:29:42.004+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "스톡옵션",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-12T04:56:46.033+09:00"
       }
     ],
     "hana-onq": [
