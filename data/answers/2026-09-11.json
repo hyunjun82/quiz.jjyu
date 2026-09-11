@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T10:03:02.043+09:00",
+  "updatedAt": "2026-09-11T10:03:40.712+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -270,10 +270,10 @@
     ],
     "hana-onq": [
       {
-        "question": "하나원큐 퀴즈 오늘의 퀴즈",
+        "question": "축구 경기에서 반칙이 발생해도 공격팀에 유리한 상황이라면, 심판이 경기를 멈추지 않고 계속 진행시는 것을 무엇이라고 할까요?",
         "answer": "④ 어드밴티지",
         "note": "",
-        "source": "apptech",
+        "source": "daviya",
         "publishedAt": "2026-09-11T02:14:32.747+09:00"
       }
     ],
@@ -329,7 +329,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "2900",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-11T10:03:40.712+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
