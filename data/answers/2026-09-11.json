@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T10:04:19.234+09:00",
+  "updatedAt": "2026-09-11T10:05:38.379+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -176,10 +176,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "트래블러스 체크카드로 해외 가맹점에서 이용하면 받을 수 있는 할인율은 얼마일까요?",
         "answer": "3번 10%",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-09-11T10:01:43.267+09:00"
       }
     ],
