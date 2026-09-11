@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T02:29:42.006+09:00",
+  "updatedAt": "2026-09-12T03:26:07.929+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -40,20 +40,6 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-12T02:29:42.003+09:00"
-      },
-      {
-        "question": "신한 쏠퀴즈 오늘의 퀴즈",
-        "answer": "④ 3085개",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-12T02:29:42.003+09:00"
-      },
-      {
-        "question": "신한 쏠퀴즈 오늘의 퀴즈",
-        "answer": "③ 브리오신 욕실클리너",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-12T02:29:42.004+09:00"
       },
       {
         "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈)",
@@ -146,13 +132,6 @@
       {
         "question": "KB 별별퀴즈 오늘의 퀴즈",
         "answer": "① 모듈러주택",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-12T02:29:42.003+09:00"
-      },
-      {
-        "question": "KB 별별퀴즈 오늘의 퀴즈",
-        "answer": "④ 혼일강리역대국도지도",
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-12T02:29:42.003+09:00"
