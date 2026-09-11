@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T16:20:00+09:00",
+  "updatedAt": "2026-09-11T17:32:32.053+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -160,6 +160,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-11T10:12:11.137+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 오늘의 퀴즈",
+        "answer": "1. 신한 SOL페이 앱",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T17:32:32.046+09:00"
       }
     ],
     "kakaobank": [
@@ -384,9 +391,9 @@
       },
       {
         "question": "일본 파르코에서 카카오페이로 결제하고 OOOO엔 즉시할인 받아요",
-        "answer": "1200",
+        "answer": "1200 글로니",
         "note": "",
-        "source": "daviya",
+        "source": "apptech",
         "publishedAt": "2026-09-11T13:06:48.475+09:00"
       }
     ],
@@ -465,6 +472,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-11T07:04:27.035+09:00"
+      },
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "eager/pitch, eager/pitch, eager/pitch",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-11T17:32:32.053+09:00"
       }
     ],
     "paybooc": [],
