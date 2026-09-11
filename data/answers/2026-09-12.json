@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T03:57:13.640+09:00",
+  "updatedAt": "2026-09-12T04:18:00.854+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -47,13 +47,6 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-12T02:29:42.005+09:00"
-      },
-      {
-        "question": "신한 쏠퀴즈 오늘의 퀴즈",
-        "answer": "O (그렇다)",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-12T03:57:13.637+09:00"
       }
     ],
     "kakaobank": [],
@@ -64,13 +57,6 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-12T02:29:42.003+09:00"
-      },
-      {
-        "question": "카뱅 OX 퀴즈 오늘의 퀴즈",
-        "answer": "O (그렇다)",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-12T03:57:13.637+09:00"
       }
     ],
     "ok-cashbag": [],
@@ -172,13 +158,6 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-12T02:29:42.004+09:00"
-      },
-      {
-        "question": "케이뱅크 AI퀴즈 오늘의 퀴즈",
-        "answer": "③ 스톡옵션",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-12T03:57:13.638+09:00"
       }
     ],
     "hana-onq": [
@@ -195,13 +174,6 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-12T02:29:42.005+09:00"
-      },
-      {
-        "question": "하나원큐 퀴즈 오늘의 퀴즈",
-        "answer": "① 부천 vs 제주",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-12T03:57:13.638+09:00"
       }
     ],
     "hana-life": [
