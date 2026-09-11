@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T10:03:40.712+09:00",
+  "updatedAt": "2026-09-11T10:04:19.234+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -166,10 +166,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카뱅 OX 퀴즈 오늘의 퀴즈",
+        "question": "AI검색 이벤트는 딱 한번만 참여할 수 있다.",
         "answer": "X (아니다)",
         "note": "",
-        "source": "apptech",
+        "source": "daviya",
         "publishedAt": "2026-09-11T02:18:31.813+09:00"
       }
     ],
