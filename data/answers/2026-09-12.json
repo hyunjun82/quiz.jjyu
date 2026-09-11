@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T07:04:48.406+09:00",
+  "updatedAt": "2026-09-12T08:02:06.210+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -49,7 +49,15 @@
         "publishedAt": "2026-09-12T02:29:42.005+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "졸업증서",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-12T08:02:06.210+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카뱅 OX 퀴즈 오늘의 퀴즈",
