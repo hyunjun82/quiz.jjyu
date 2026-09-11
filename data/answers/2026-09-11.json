@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T11:09:17.048+09:00",
+  "updatedAt": "2026-09-11T12:02:17.435+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-11T08:03:55.801+09:00"
+      },
+      {
+        "question": "음식 관련 이모지 보고 퀴즈 풀기",
+        "answer": "세일",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-11T12:02:17.430+09:00"
       }
     ],
     "kakaobank-ox": [
