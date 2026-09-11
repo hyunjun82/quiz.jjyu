@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T20:02:52.955+09:00",
+  "updatedAt": "2026-09-11T20:03:34.348+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -345,6 +345,20 @@
         "note": "",
         "publishedAt": "2026-09-11T16:20:00+09:00",
         "source": "daviya"
+      },
+      {
+        "question": "G마켓 밀크T 무료체험",
+        "answer": "디지털",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T20:03:34.345+09:00"
+      },
+      {
+        "question": "G마켓 알티지 오메가3 식물성 캡슐 플러스",
+        "answer": "혈행",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-11T20:03:34.346+09:00"
       }
     ],
     "climate-action": [
