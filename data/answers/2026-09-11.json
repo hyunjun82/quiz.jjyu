@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T10:05:38.379+09:00",
+  "updatedAt": "2026-09-11T10:06:56.459+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -157,10 +157,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "question": "08:00 음식 관련 이모지 보고 퀴즈 풀기",
         "answer": "골밀도",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-11T08:03:55.801+09:00"
       }
     ],
