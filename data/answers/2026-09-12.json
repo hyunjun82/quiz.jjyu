@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T04:56:46.033+09:00",
+  "updatedAt": "2026-09-12T07:04:48.406+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -213,10 +213,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 오늘의 퀴즈",
+        "question": "고기 섭취는 항상 건강에 해롭다.",
         "answer": "X (아니다)",
         "note": "",
-        "source": "apptech",
+        "source": "daviya",
         "publishedAt": "2026-09-12T02:29:42.004+09:00"
       }
     ],
