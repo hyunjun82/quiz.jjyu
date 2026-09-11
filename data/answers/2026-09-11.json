@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updatedAt": "2026-09-11T14:37:11.120+09:00",
+  "updatedAt": "2026-09-11T16:20:00+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-11T10:03:02.040+09:00"
+      },
+      {
+        "question": "단 3시간! \"캐시딜\" 에서 모나리자 데일리 안심 키친타올 140매 x 4롤 x 2+2 (총4팩) 상품이 14,500원+무료배송으로 진행됩니다. 00펄프 100%에서 00는?",
+        "answer": "천연",
+        "note": "",
+        "publishedAt": "2026-09-11T16:20:00+09:00",
+        "source": "daviya"
       }
     ],
     "shinhan-sol": [
@@ -148,13 +155,6 @@
         "publishedAt": "2026-09-11T00:03:43.839+09:00"
       },
       {
-        "question": "신한 쏠퀴즈 오늘의 퀴즈",
-        "answer": "1. 신한 SOL페이 앱",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-11T07:58:25.889+09:00"
-      },
-      {
         "question": "피싱피해시 최대 2천만원까지 보상해주는 지켜드림 서비스는 어디에서 이용할 수 있을까요?",
         "answer": "신한 SOL페이 앱",
         "note": "",
@@ -171,7 +171,7 @@
         "publishedAt": "2026-09-11T08:03:55.801+09:00"
       },
       {
-        "question": "음식 관련 이모지 보고 퀴즈 풀기",
+        "question": "12:00 금융 관련 이모지 보고 퀴즈 풀기",
         "answer": "세일",
         "note": "",
         "source": "apptech",
@@ -331,6 +331,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-11T11:09:17.041+09:00"
+      },
+      {
+        "question": "[9월 한정] 멕시카나 앱에서 치필링 배달 주문 시 사이드 메뉴 무료 증정! 멕시카나 앱에서 치필링 시리즈 배달 주문만 해도 화제의 신메뉴 'OOO OOO'이 무료 증정됩니다. OOO OOO은?",
+        "answer": "치토스치즈볼",
+        "note": "",
+        "publishedAt": "2026-09-11T16:20:00+09:00",
+        "source": "daviya"
       }
     ],
     "climate-action": [
@@ -377,7 +384,7 @@
       },
       {
         "question": "일본 파르코에서 카카오페이로 결제하고 OOOO엔 즉시할인 받아요",
-        "answer": "1200 글로니",
+        "answer": "1200",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-11T13:06:48.475+09:00"
@@ -453,8 +460,8 @@
     ],
     "monimo-eng": [
       {
-        "question": "모니모 오늘의영어 (더보기 > 혜택)",
-        "answer": "eager/pitch, eager/pitch, eager/pitch",
+        "question": "I am eager to pitch in. (제가 열심히 돕고 싶습니다.) She's eager to pitch in. (그녀는 열심히 돕고 싶어 한다.) John is eager to pitch in at work. (John은 직장에서 열심히 일하고 싶어 한다.)",
+        "answer": "eager, pitch",
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-11T07:04:27.035+09:00"
@@ -482,6 +489,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-11T07:04:27.034+09:00"
+      },
+      {
+        "question": "급성 위염은 원인이 된 음식을 먹은 직후 바로 증상이 나타난다",
+        "answer": "X (아니다)",
+        "note": "",
+        "publishedAt": "2026-09-11T16:20:00+09:00",
+        "source": "daviya"
       }
     ],
     "skstoa": [],
