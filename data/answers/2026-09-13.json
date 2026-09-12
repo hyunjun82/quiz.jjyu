@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T00:29:53.495+09:00",
+  "updatedAt": "2026-09-13T00:34:50.512+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -183,10 +183,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 퀴즈 오늘의 퀴즈",
+        "question": "몸살 걸렸을 땐 바나나 섭취를 피해야 한다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "apptech",
+        "source": "daviya",
         "publishedAt": "2026-09-13T00:00:32.660+09:00"
       }
     ],
