@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T00:19:11.236+09:00",
+  "updatedAt": "2026-09-13T00:29:53.495+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -38,20 +38,6 @@
       {
         "question": "신한 쏠퀴즈 오늘의 퀴즈",
         "answer": "O (그렇다)",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-13T00:00:32.659+09:00"
-      },
-      {
-        "question": "신한 쏠퀴즈 오늘의 퀴즈",
-        "answer": "③ 110명",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-13T00:00:32.659+09:00"
-      },
-      {
-        "question": "신한 쏠퀴즈 오늘의 퀴즈",
-        "answer": "① 무료",
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-13T00:00:32.659+09:00"
@@ -139,13 +125,6 @@
       {
         "question": "KB 별별퀴즈 오늘의 퀴즈",
         "answer": "③ 적금",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-13T00:00:32.659+09:00"
-      },
-      {
-        "question": "KB 별별퀴즈 오늘의 퀴즈",
-        "answer": "계해",
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-13T00:00:32.659+09:00"
