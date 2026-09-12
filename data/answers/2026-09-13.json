@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-13",
+  "updatedAt": "2026-09-13T00:00:32.660+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [
+      {
+        "question": "단 한시간동안 진행되는 \"캐시딜\" 타임특가에서 질경이 여성청결제 데일리 에코아워시 젤타입(골드젤) ~ OOO 항균은 기본, 탄력과 보습까지 도움을 받고 싶다면 질경이에서 만나보세요. 빈칸에 들어갈 말은 무엇일까요?(힌트 ㅋㄷㄷ)",
+        "answer": "칸디다",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      },
+      {
+        "question": "뷰카의 베스트 구취케어 치약! 아쿠아○○을 가져갈 수 있는 바로 오늘! 빈칸에 들러갈 단어는 무엇일까요? (힌트:ㅁㅌ)",
+        "answer": "민트",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      }
+    ],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠퀴즈 오늘의 퀴즈",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 오늘의 퀴즈",
+        "answer": "③ 110명",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 오늘의 퀴즈",
+        "answer": "① 무료",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      }
+    ],
+    "kakaobank": [],
+    "kakaobank-ox": [
+      {
+        "question": "카뱅 OX 퀴즈 오늘의 퀴즈",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      }
+    ],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [
+      {
+        "question": "H포인트 퀴즈 오늘의 퀴즈",
+        "answer": "② 200만원",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "비트버니 퀴즈 오늘의 퀴즈",
+        "answer": "추가경정예산",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "kakaopay": [
+      {
+        "question": "퀴즈타임 오늘의 퀴즈",
+        "answer": "1200 글로니",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      }
+    ],
+    "nh-allone": [],
+    "kb-star": [
+      {
+        "question": "KB 별별퀴즈 오늘의 퀴즈",
+        "answer": "③ 적금",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 오늘의 퀴즈",
+        "answer": "계해",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.659+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI퀴즈 오늘의 퀴즈",
+        "answer": "③ 스톡옵션",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "하나원큐 퀴즈 오늘의 퀴즈",
+        "answer": "① 부천 vs 제주",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 금융생활 OX 오늘의 퀴즈",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "monimo": [],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 오늘의 퀴즈",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 퀴즈 오늘의 퀴즈",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "buzzvil": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 오늘의 퀴즈",
+        "answer": "O (맞아요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      }
+    ],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
