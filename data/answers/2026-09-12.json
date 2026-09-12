@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T12:44:21.637+09:00",
+  "updatedAt": "2026-09-12T12:50:39.590+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -47,6 +47,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-12T02:29:42.005+09:00"
+      },
+      {
+        "question": "슈퍼 SOL에서 국내ETF 종목을 거래량 순으로 조회할 후 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-12T12:50:39.589+09:00"
       }
     ],
     "kakaobank": [
