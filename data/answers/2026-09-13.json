@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T08:06:09.623+09:00",
+  "updatedAt": "2026-09-13T08:10:18.166+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -195,7 +195,15 @@
         "publishedAt": "2026-09-13T00:01:48.803+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "work, work, latest/project",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-13T08:10:18.166+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
