@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T01:43:29.474+09:00",
+  "updatedAt": "2026-09-13T07:05:00.529+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -196,6 +196,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-13T00:00:32.660+09:00"
+      },
+      {
+        "question": "스트레스를 받으면 면역 체계가 약해질 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-13T07:05:00.527+09:00"
       }
     ],
     "skstoa": [],
