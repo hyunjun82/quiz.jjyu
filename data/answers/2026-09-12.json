@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T12:36:30.574+09:00",
+  "updatedAt": "2026-09-12T12:39:06.665+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,6 +56,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-12T08:02:06.210+09:00"
+      },
+      {
+        "question": "12:00 음식 관련 이모지 보고 퀴즈 풀기",
+        "answer": "등심",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-12T12:39:06.664+09:00"
       }
     ],
     "kakaobank-ox": [
