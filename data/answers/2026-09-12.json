@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T16:03:31.414+09:00",
+  "updatedAt": "2026-09-12T19:11:43.384+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -465,7 +465,15 @@
         "publishedAt": "2026-09-12T02:29:42.004+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 샘표",
+        "answer": "함량",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-12T19:11:43.384+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
