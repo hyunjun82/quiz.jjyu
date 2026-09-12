@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T00:03:49.575+09:00",
+  "updatedAt": "2026-09-13T00:04:08.369+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -199,16 +199,24 @@
     "buzzvil": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 오늘의 퀴즈",
+        "question": "GNI(국민총소득)는 국내 거주 경제주체가 해외에서 벌어들인 소득도 반영하는 지표예요.",
         "answer": "O (맞아요)",
         "note": "",
-        "source": "apptech",
+        "source": "daviya",
         "publishedAt": "2026-09-13T00:00:32.660+09:00"
       }
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "당뇨 환자는 식전에 과일을 먹는 것이 식후에 먹는 것보다 좋다?",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-13T00:04:08.369+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
