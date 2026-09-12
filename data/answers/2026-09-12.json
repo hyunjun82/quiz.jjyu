@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T12:34:40.608+09:00",
+  "updatedAt": "2026-09-12T12:36:06.891+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -65,6 +65,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-12T02:29:42.003+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI로 다양한 금융 정보를 확인할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-12T12:36:06.891+09:00"
       }
     ],
     "ok-cashbag": [],
