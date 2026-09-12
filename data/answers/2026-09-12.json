@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updatedAt": "2026-09-12T10:02:32.776+09:00",
+  "updatedAt": "2026-09-12T10:03:10.395+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -70,10 +70,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "가을 바람 살~랑!' 이벤트에서 1백만원 여행지원금을 받을 수 있는…(후략)",
         "answer": "10명",
         "note": "",
-        "source": "quizbells",
+        "source": "bizwnews",
         "publishedAt": "2026-09-12T10:00:50.304+09:00"
       }
     ],
