@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T10:04:20.006+09:00",
+  "updatedAt": "2026-09-13T10:04:29.464+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,10 +78,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈",
+        "question": "대중교통 적립 혜택에 생활서비스 적립까지, 교통비 부담을 덜어주는 체크카드는 무엇일까요?",
         "answer": "K-패스 체크카드",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-13T10:02:42.350+09:00"
       }
     ],
