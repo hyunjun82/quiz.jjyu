@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T00:24:48.355+09:00",
+  "updatedAt": "2026-09-14T00:55:31.855+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,7 +69,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈",
+        "answer": "조광조",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T00:55:31.855+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
@@ -79,7 +87,15 @@
         "publishedAt": "2026-09-14T00:01:36.774+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T00:55:31.855+09:00"
+      }
+    ],
     "hana-life": [],
     "monimo": [
       {
@@ -120,6 +136,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      },
+      {
+        "question": "발톱을 짧게 깎으면 내성 발톱이 생길 수 있다",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-14T00:55:31.854+09:00"
       }
     ],
     "buzzvil": [],
