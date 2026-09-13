@@ -1,8 +1,23 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T00:04:33.555+09:00",
+  "updatedAt": "2026-09-14T00:21:06.602+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
+        "answer": "엘지디스플레이",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T00:21:06.602+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후)",
+        "answer": "포스코",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T00:21:06.602+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
