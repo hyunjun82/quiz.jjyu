@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T15:03:15.607+09:00",
+  "updatedAt": "2026-09-13T16:01:50.226+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-13T15:03:15.605+09:00"
+      },
+      {
+        "question": "산지로드 두부과자",
+        "answer": "7920",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-13T16:01:50.224+09:00"
       }
     ],
     "shinhan-sol": [
