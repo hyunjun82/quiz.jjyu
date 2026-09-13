@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T10:10:15.755+09:00",
+  "updatedAt": "2026-09-13T10:00:00+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,7 +68,7 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카뱅 OX 퀴즈 오늘의 퀴즈",
+        "question": "AI로 검색하면 매일 랜덤캐시 이벤트는 하루 최대 5천원을 받을 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
         "source": "apptech",
@@ -76,129 +76,8 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [
-      {
-        "question": "대중교통 적립 혜택에 생활서비스 적립까지, 교통비 부담을 덜어주는 체크카드는 무엇일까요?",
-        "answer": "K-패스 체크카드",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      }
-    ],
-    "cashdoc": [
-      {
-        "question": "이번주만 인기템 1+1",
-        "answer": "식후, 소비톨, 인위적, 정제효소",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      },
-      {
-        "question": "타임스프레드 구독캘린더",
-        "answer": "구독, 캘린더, 연예인, 구독하기",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      },
-      {
-        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
-        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      },
-      {
-        "question": "타임스프레드 최애 연예인 캘린더 구독",
-        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      },
-      {
-        "question": "타임스프레드 최애 연예인 일정 구독",
-        "answer": "구독, 캘린더, 구독하기, 개별일정",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      },
-      {
-        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
-        "answer": "식후, 약속, 인위적, 임산부",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      },
-      {
-        "question": "소비자24 소비자 포털 피해 예방",
-        "answer": "소비자",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.350+09:00"
-      },
-      {
-        "question": "소비자24 일상생활 제품 사용시 주의사항 예방방법",
-        "answer": "안전정보",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "소비자24 24시간 열린 소비자포털 공정거래위원회 비교정보 서비스",
-        "answer": "비교공감",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "리비힐 추석 선물대전 엑소좀 샘플 쇼핑백 증정",
-        "answer": "고영양, 줄기세포, 안티에이징",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "컷슬린 안티스파이크 포 다이어트 추석 GIFT",
-        "answer": "혈당, 체지방, 다이어트",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "멜라듀스 미백앰플 할인 멜라듀스 브라이트닝 솔루션",
-        "answer": "탄력, 수분광, 홈케어",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "판토딜 포 헤어 앰플 두피 밸런스 케어",
-        "answer": "모발, 롤온, 탈모",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "페르니 메디테이션 향기로운 탈모케어",
-        "answer": "독일산, 녹나무잎, 하수오뿌리, 유해성분무첨가",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "멕시카나 치토스 치즈볼",
-        "answer": "치토스치즈볼",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      },
-      {
-        "question": "오늘만! 얇지 않은 니트릴장갑 특가 찬스✨ 200매입 9천원대 특가! ✅ OO적인 비닐 봉투 마감 ✅ 깨끗한 공정 ✅ 미세한 엠보싱 G마켓 특가 놓치지마세요~!",
-        "answer": "위생",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-09-13T10:02:42.351+09:00"
-      }
-    ],
+    "kbpay": [],
+    "cashdoc": [],
     "climate-action": [
       {
         "question": "기후변화로 인해 지구의 자전 속도가 변하여 하루의 길이가 지금보다 미세하게 더 길어질 수 있다.",
@@ -247,15 +126,7 @@
         "publishedAt": "2026-09-13T00:01:09.731+09:00"
       }
     ],
-    "kakaopay": [
-      {
-        "question": "퀴즈타임 오늘의 퀴즈",
-        "answer": "1200 글로니",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-13T00:00:32.659+09:00"
-      }
-    ],
+    "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
       {
@@ -282,7 +153,7 @@
         "publishedAt": "2026-09-13T00:00:32.660+09:00"
       },
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "question": "올 가을 경복궁 특별관람으로 개방되는 왕실 가족의 휴식 공간이었던 육각형 정자의 이름은?",
         "answer": "향원정",
         "note": "",
         "source": "quizbells",
@@ -307,18 +178,10 @@
         "publishedAt": "2026-09-13T00:00:32.660+09:00"
       }
     ],
-    "monimo": [
-      {
-        "question": "\"모든 일시납 연금보험은 중도인출을 할 수 없고, 급한 돈이 필요할 땐 무조건 해지하는 방법 밖에 없다.\" 맞는 말일까요?",
-        "answer": "X (아니요)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T00:01:48.803+09:00"
-      }
-    ],
+    "monimo": [],
     "monimo-eng": [
       {
-        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "question": "① How's ○○○ going? (요즘 일은 어때?) ② Is ○○○ okay? ③ ○○○ / ○○○ — 모니모 영어챌린지 9월 13일",
         "answer": "work, work, latest/project",
         "note": "",
         "source": "tipistip",
@@ -343,15 +206,7 @@
       }
     ],
     "skstoa": [],
-    "auction": [
-      {
-        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
-        "answer": "7",
-        "note": "",
-        "source": "tipistip",
-        "publishedAt": "2026-09-13T10:03:19.559+09:00"
-      }
-    ],
+    "auction": [],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
