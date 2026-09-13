@@ -1,10 +1,25 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T00:01:36.775+09:00",
+  "updatedAt": "2026-09-14T00:02:46.521+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡",
+        "answer": "2만원 이상",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T00:02:46.521+09:00"
+      },
+      {
+        "question": "오늘은 아이치 나고야 아시안게임 야구 대표팀이 소집되는 날입니다. 이번 대한민국 야구 대표팀을 이끌게 되는 감독은 누구일까요?",
+        "answer": "류지현",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T00:02:46.521+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
