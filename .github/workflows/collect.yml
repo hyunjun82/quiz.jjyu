@@ -41,6 +41,14 @@ on:
     # 블록 밖이면 스크립트가 한 바퀴만 돌고 수십 초 만에 끝난다.
     - cron: '0 */2 * * *'
   workflow_dispatch: {} # 수동 실행 버튼
+  # [2026-09-13 추가] push 트리거 — 예약 cron이 12%만 실행되는 문제의 우회.
+  # 예약작업(CCR 봇)이 매시 54분에 아래 파일을 갱신·푸시하면 이 워크플로가 몇 초 안에 뜬다.
+  # (healthcheck.yml 실측 주석: "push 트리거는 몇 초 만에 뜬다")
+  # 봇 샌드박스는 소스 사이트·GitHub API가 403이지만 git push는 되므로 이 길만 확실하다.
+  push:
+    branches: [main]
+    paths:
+      - '.github/trigger/**'
 
 permissions:
   contents: write
