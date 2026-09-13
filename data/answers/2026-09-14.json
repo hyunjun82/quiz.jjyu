@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T00:55:31.855+09:00",
+  "updatedAt": "2026-09-14T01:56:26.145+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,6 +76,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-14T00:55:31.855+09:00"
+      },
+      {
+        "question": "인공지능 패러다임을 주도하는 글로벌 핵심 기업 5곳의 앞 글자를 딴 ‘돈다’에 해당하지 않는 기업은 무엇일까요?",
+        "answer": "구글",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-14T01:56:26.143+09:00"
       }
     ],
     "kbank": [
@@ -118,7 +125,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터",
+        "question": "부모에게 당뇨 가족력이 있으면 자녀도 반드시 당뇨에 걸린다",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
