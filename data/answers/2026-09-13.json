@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T16:16:57.333+09:00",
+  "updatedAt": "2026-09-13T16:22:23.059+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -370,13 +370,6 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-13T01:43:29.474+09:00"
-      },
-      {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
-        "answer": "스톡옵션",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T16:16:57.332+09:00"
       }
     ],
     "hana-onq": [
@@ -415,13 +408,6 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-13T07:05:00.527+09:00"
-      },
-      {
-        "question": "나만의닥터 퀴즈 — 나만의닥터",
-        "answer": "X (아니다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-13T16:16:57.332+09:00"
       }
     ],
     "skstoa": [],

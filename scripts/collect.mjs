@@ -1236,6 +1236,9 @@ const APPTECH_MAP = {
   'quiz-climate-action': 'climate-action',
 };
 
+// 같은 차단 사유를 폴링마다(30초) 반복 출력하지 않는다 — 한 실행에 한 번만.
+const APPTECH_REPORTED = new Set();
+
 function parseApptech(html, today) {
   // 날짜 검증 — 헤더의 "2026년 9월 9일" 이 오늘이 아니면 통째로 버린다.
   const dm = html.match(/(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일/);
@@ -1272,7 +1275,11 @@ function parseApptech(html, today) {
     const pastText = past > 0 ? clean(full.slice(past).replace(/<[^>]+>/g, ' ')) : '';
     const yesterday = pastText.match(/\d{1,2}\/\d{1,2}\s+(.+?)(?=\s+\d{1,2}\/\d{1,2}\s|\s+지난 정답 더보기|$)/)?.[1]?.trim();
     if (yesterday && normalize(yesterday) === normalize(answer)) {
-      console.log(`앱테크 이월값 차단 [${slug}] "${answer}" — 어제(지난 정답 첫 줄)와 동일`);
+      const tag = `${slug}|${answer}`;
+      if (!APPTECH_REPORTED.has(tag)) {
+        APPTECH_REPORTED.add(tag);
+        console.log(`앱테크 이월값 차단 [${slug}] "${answer}" — 어제(지난 정답 첫 줄)와 동일`);
+      }
       continue;
     }
 
@@ -1282,7 +1289,11 @@ function parseApptech(html, today) {
     // 지문 없는 정답은 다른 소스(퀴즈벨·토막스·다비야)가 지문과 함께 준다.
     const question = q ? clean(q[1]) : '';
     if (!question || question.length < 8) {
-      console.log(`앱테크 지문 없음 [${slug}] "${answer}" — 자리표시자 지문은 넣지 않음`);
+      const tag = `${slug}|noq|${answer}`;
+      if (!APPTECH_REPORTED.has(tag)) {
+        APPTECH_REPORTED.add(tag);
+        console.log(`앱테크 지문 없음 [${slug}] "${answer}" — 자리표시자 지문은 넣지 않음`);
+      }
       continue;
     }
     if (!isSaneQuestion(question)) continue;
@@ -1761,6 +1772,25 @@ function tombKey(it) {
   return `${normalize(it.question)}|${itemKey(it)}`;
 }
 
+/**
+ * 오늘 지운 항목인가. 기본은 지문+정답 키(tombKey) 완전일치.
+ *
+ * 2026-09-13 16:16 실측 — 지문이 껍데기("케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈")인 항목은
+ * 소스마다 껍데기 문구가 달라서 tombKey 가 안 맞고, 지운 정답이 다른 껍데기를 달고
+ * 그대로 다시 들어왔다("스톡옵션"). 껍데기 지문은 정보가 없으니 이 경우엔 같은 퀴즈에서
+ * 오늘 지운 정답값 자체를 막는다. 알맹이 있는 지문은 예전처럼 지문까지 같아야 막는다.
+ */
+function isTombstoned(tombstones, slug, item) {
+  const keys = tombstones[slug];
+  if (!keys) return false;
+  if (keys.has(tombKey(item))) return true;
+  if (!isGenericQuestion(item.question, slug)) return false;
+  const ans = itemKey(item);
+  if (!ans) return false;
+  for (const k of keys) if (k.slice(k.lastIndexOf('|') + 1) === ans) return true;
+  return false;
+}
+
 function loadTombstones(today) {
   const file = deletedFileFor(today);
   if (!fs.existsSync(file)) return {};
@@ -1850,7 +1880,7 @@ function sweepGarbage(today) {
   for (const [slug, arr] of Object.entries(d.answers || {})) {
     if (!Array.isArray(arr) || !arr.length) continue;
     const kept = arr.filter((it) => {
-      if (tombstones[slug]?.has(tombKey(it))) {
+      if (isTombstoned(tombstones, slug, it)) {
         console.log(`[자가치유] 삭제 항목 부활 차단 [${slug}] "${it.question}" = "${it.answer}"`);
         removed += 1;
         return false;
@@ -2105,7 +2135,7 @@ function gitCommitPush(message, attempt = 0) {
       for (const [slug, arr] of Object.entries(mine.answers || {})) {
         if (!Array.isArray(arr) || !tomb[slug]) continue;
         mine.answers[slug] = arr.filter((it) => {
-          if (tomb[slug].has(tombKey(it))) {
+          if (isTombstoned(tomb, slug, it)) {
             revived += 1;
             return false;
           }
@@ -2183,7 +2213,7 @@ async function collectOnce() {
       continue;
     }
     // 오늘 이미 지운 항목이면 다시 넣지 않는다 — 감사↔수집 무한 루프 차단.
-    if (tombstones[f.slug]?.has(tombKey(item))) {
+    if (isTombstoned(tombstones, f.slug, item)) {
       if (!tombReported.has(f.slug)) {
         console.log(`재삽입 차단 [${f.slug}] "${String(item.question).slice(0, 30)}" — 오늘 삭제된 항목`);
         tombReported.add(f.slug);
@@ -2465,6 +2495,7 @@ export {
   loadTombstones,
   recordTombstone,
   tombKey,
+  isTombstoned,
   kstToday,
   kstStamp,
 };
