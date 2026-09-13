@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T02:23:14.597+09:00",
+  "updatedAt": "2026-09-14T03:31:04.133+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡",
+        "question": "컬리 첫 구매 고객에게 1만 2천원 할인 혜택을 드려요! 최소 얼마 이상 구매해야 혜택이 적용될까요?",
         "answer": "2만원 이상",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-14T00:02:46.521+09:00"
       },
       {
