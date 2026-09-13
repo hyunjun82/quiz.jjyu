@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T00:01:00.441+09:00",
+  "updatedAt": "2026-09-14T00:01:36.775+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -10,26 +10,82 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "바다는 대기보다 더 많은 열을 흡수하지 못하기 때문에 지구온난화를 억제하는 정도가 매우 미미하다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      }
+    ],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO란, 특정한 목적에만 쓰도록 사용처를 미리 정해둔 세금이에요.",
+        "answer": "목적세",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈",
+        "answer": "향원정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "\"모든 일시납 연금보험은 중도인출을 할 수 없고, 급한 돈이 필요할 땐 무조건 해지하는 방법 밖에 없다.\" 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 퀴즈 — 닥터나우",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      }
+    ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "경기선행지수는 실제 경기 변동이 나타난 이후에 뒤늦게 그 결과를 보여주는 지표예요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
