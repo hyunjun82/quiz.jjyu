@@ -1363,6 +1363,12 @@ const DAVIYA_MAP = {
   '모니모 영어챌린지': 'monimo-eng',
   '모니모 모니스쿨 퀴즈': 'monimo',
   '오퀴즈': 'ok-cashbag',
+  // 2026-09-13 실측 추가 — 아래 둘은 매일 있는데 매핑이 없어 조용히 버려졌다.
+  //   '나만의닥터 건강퀴즈' = 나만의닥터의 두 번째 퀴즈(9/13 "자전거 타기…" X). '돈버는 건강 퀴즈'와 별개 항목.
+  //   '버즈빌 초성퀴즈' = 제휴사별(케이뱅크 퀴즈타임·캐시는내차지 등)로 하루 여러 건. 9/2 이후 buzzvil 이 0건이었던 이유.
+  '나만의닥터 건강퀴즈': 'mydoctor',
+  'AI 오늘의 퀴즈': 'kbank',
+  '버즈빌 초성퀴즈': 'buzzvil',
 };
 
 const nextData = (html) => {
@@ -1414,8 +1420,14 @@ async function collectFromDaviya() {
         const out = [];
         for (const it of d?.details || []) {
           // "문제 : " 접두어가 붙어 오는 날이 있다.
-          const question = clean(String(it.question || '').replace(/^\s*문제\s*[:：]\s*/, ''));
+          let question = clean(String(it.question || '').replace(/^\s*문제\s*[:：]\s*/, ''));
           const answer = clean(String(it.answer || ''));
+          // 버즈빌은 제휴사마다 별개 퀴즈다. 제목("케이뱅크 퀴즈타임 9월13일 08시 퀴즈 정답")에서
+          // 제휴사·회차를 뽑아 지문 앞에 붙여 같은 날 여러 건이 서로 구분되게 한다.
+          if (slug === 'buzzvil') {
+            const brand = String(q.title || '').replace(todayRe, '').replace(/퀴즈\s*정답\s*$/, '').replace(/\s+/g, ' ').trim();
+            if (brand && question && !question.startsWith('[')) question = `[${brand}] ${question}`;
+          }
           if (!answer || !isSaneAnswer(answer)) continue;
           const q2 = question && question.length >= 8
             ? question
@@ -1786,7 +1798,9 @@ function isTombstoned(tombstones, slug, item) {
   if (keys.has(tombKey(item))) return true;
   if (!isGenericQuestion(item.question, slug)) return false;
   const ans = itemKey(item);
-  if (!ans) return false;
+  // OX·한 자리 숫자처럼 짧은 정답은 서로 다른 문제가 우연히 같은 값을 갖는다(나만의닥터는 하루 두 문제가 다 OX).
+  // 9/13 실측: 지운 X 하나 때문에 진짜 두 번째 문제의 X 까지 막혔다. 3자 이상일 때만 정답값으로 막는다.
+  if (!ans || ans.length < 3) return false;
   for (const k of keys) if (k.slice(k.lastIndexOf('|') + 1) === ans) return true;
   return false;
 }
