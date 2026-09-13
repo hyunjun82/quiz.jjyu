@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-13",
-  "lastRun": "2026-09-13T21:55:39.146+09:00",
-  "missing": 3,
+  "date": "2026-09-14",
+  "lastRun": "2026-09-14T00:24:55.208+09:00",
+  "missing": 0,
   "partial": 0,
   "fixed": 0,
-  "unknown": 8,
+  "unknown": 0,
   "unreachable": 0,
-  "unchecked": 12,
-  "checked": 10,
+  "unchecked": 16,
+  "checked": 6,
   "sourced": 22
 }
