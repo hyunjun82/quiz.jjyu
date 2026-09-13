@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updatedAt": "2026-09-13T17:18:23.729+09:00",
+  "updatedAt": "2026-09-13T19:31:54.907+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -505,7 +505,15 @@
         "publishedAt": "2026-09-13T00:01:09.731+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 애플",
+        "answer": "충전",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-13T19:31:54.907+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
