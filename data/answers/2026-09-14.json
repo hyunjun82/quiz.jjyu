@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T07:58:52.476+09:00",
+  "updatedAt": "2026-09-14T08:09:59.819+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -35,7 +35,15 @@
         "publishedAt": "2026-09-14T00:02:46.521+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "소방관",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T08:09:59.819+09:00"
+      }
+    ],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
