@@ -1838,6 +1838,69 @@ function recordTombstone(today, slug, item, reason) {
   return key;
 }
 
+/* ──────────────── 전날 항목 재등장 차단 (2026-09-14) ────────────────
+ * 자정 직후 소스(특히 퀴즈벨)는 페이지 날짜만 오늘로 바뀌고 표에는 어제 문제가 그대로 남아 있다.
+ * 9/14 00:01 실측: 케이뱅크 "향원정"(9/13 정답), 기후행동 "바다는 대기보다…"(9/13 문항)이
+ * 오늘 자로 들어왔다. 9/13 00:01 에도 9/12 기후행동 문항이 같은 경로로 들어와 감사가 지웠다.
+ * 페이지 날짜 검증으로는 못 막는다. 어제 파일(+어제 삭제 기록)에 같은 문항이 있으면 오늘 것으로 넣지 않는다.
+ *   · 지문이 알맹이 있으면: 지문 동일 → 차단
+ *   · 지문이 껍데기면: 정답 동일(3자 이상) → 차단  (OX 는 우연히 겹치므로 제외)
+ * ⚠️ 예외 — 문항이 며칠씩 유지되는 캠페인형 퀴즈는 여기서 뺀다. 9/13 실측: 예스24 출석체크
+ *   "이 책의 저자는? 조정래"는 9/12·9/13 동일했고 팁is팁·다비야가 독립적으로 재확인했다.
+ */
+const REPEAT_OK = new Set(['yes24']);
+
+function loadYesterdayKeys(today) {
+  const d = new Date(`${today}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() - 1);
+  const y = d.toISOString().slice(0, 10);
+  const out = {}; // slug -> { q: Set(normalized question), a: Set(itemKey) }
+  const add = (slug, q, a) => {
+    const o = out[slug] || (out[slug] = { q: new Set(), a: new Set() });
+    if (q) o.q.add(q);
+    if (a) o.a.add(a);
+  };
+  try {
+    const f = JSON.parse(fs.readFileSync(fileFor(y), 'utf-8'));
+    for (const [slug, arr] of Object.entries(f.answers || {})) {
+      for (const it of arr || []) {
+        const nq = String(it.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+        add(slug, isGenericQuestion(it.question, slug) ? '' : nq, itemKey(it));
+      }
+    }
+  } catch { /* 어제 파일 없음 */ }
+  try {
+    const t = JSON.parse(fs.readFileSync(deletedFileFor(y), 'utf-8'));
+    for (const [slug, keys] of Object.entries(t.deleted || {})) {
+      for (const k of keys || []) {
+        const bar = k.lastIndexOf('|');
+        const qPart = bar >= 0 ? k.slice(0, bar) : '';
+        const nq = qPart.replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+        // 어제 지운 항목도 "어제 것"이다 — 지운 이유가 대개 '전날 것 재등장'이니 더더욱.
+        add(slug, isGenericQuestion(qPart, slug) ? '' : nq, bar >= 0 ? k.slice(bar + 1) : '');
+      }
+    }
+  } catch { /* 어제 삭제 기록 없음 */ }
+  return out;
+}
+
+// 항목마다 날짜가 붙는 소스(팁is팁·다비야·블로그·언론 기사)는 그 날짜를 믿는다.
+// 페이지 하나에 오늘·어제가 섞이는 소스만 이 규칙을 적용한다.
+const UNDATED_SOURCES = new Set(['quizbells', 'apptech']);
+
+function isYesterdaysItem(ykeys, slug, item, source) {
+  if (REPEAT_OK.has(slug)) return false;
+  if (source && !UNDATED_SOURCES.has(source)) return false;
+  const y = ykeys[slug];
+  if (!y) return false;
+  if (isGenericQuestion(item.question, slug)) {
+    const a = itemKey(item);
+    return !!a && a.length >= 3 && y.a.has(a);
+  }
+  const nq = String(item.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+  return !!nq && y.q.has(nq);
+}
+
 function loadExisting(today) {
   const file = fileFor(today);
   if (fs.existsSync(file)) {
@@ -2172,6 +2235,8 @@ async function collectOnce() {
   const existing = loadExisting(today);
   const tombstones = loadTombstones(today);
   const tombReported = new Set();
+  const ykeys = loadYesterdayKeys(today);
+  const yReported = new Set();
 
   const [a, b, c, d, e, f, g, h] = await Promise.all([
     collectFromBlog().catch((e) => {
@@ -2231,6 +2296,14 @@ async function collectOnce() {
       if (!tombReported.has(f.slug)) {
         console.log(`재삽입 차단 [${f.slug}] "${String(item.question).slice(0, 30)}" — 오늘 삭제된 항목`);
         tombReported.add(f.slug);
+      }
+      continue;
+    }
+    if (isYesterdaysItem(ykeys, f.slug, item, f.source)) {
+      const tag = `${f.slug}|${itemKey(item)}`;
+      if (!yReported.has(tag)) {
+        yReported.add(tag);
+        console.log(`전날 항목 재등장 차단 [${f.slug}] "${String(item.question).slice(0, 30)}" = "${item.answer}" (${f.source || '?'})`);
       }
       continue;
     }
@@ -2510,6 +2583,8 @@ export {
   recordTombstone,
   tombKey,
   isTombstoned,
+  loadYesterdayKeys,
+  isYesterdaysItem,
   kstToday,
   kstStamp,
 };
