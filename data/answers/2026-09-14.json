@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T00:22:51.962+09:00",
+  "updatedAt": "2026-09-14T00:24:48.355+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,15 @@
         "publishedAt": "2026-09-14T00:01:36.774+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Snap/out, Get, daydreaming",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T00:24:48.355+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
