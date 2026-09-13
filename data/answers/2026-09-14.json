@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T03:31:04.133+09:00",
+  "updatedAt": "2026-09-14T07:58:52.476+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,7 +68,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T07:58:52.476+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 스타뱅킹 한국사 매일 퀴즈",
@@ -137,6 +145,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-14T00:01:36.774+09:00"
+      },
+      {
+        "question": "튀긴 음식은 피부 건강을 악화시킬 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-14T07:58:52.475+09:00"
       }
     ],
     "skstoa": [],
