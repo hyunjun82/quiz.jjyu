@@ -1251,10 +1251,10 @@ function parseApptech(html, today) {
   const out = [];
   for (let i = 0; i < ids.length; i += 1) {
     const end = i + 1 < ids.length ? ids[i + 1].at : html.length;
-    let seg = html.slice(ids[i].at, end);
+    const full = html.slice(ids[i].at, end);
     // "지난 정답" 블록을 잘라낸다 — 여기부터는 어제·그제 정답이다.
-    const past = seg.indexOf('지난 정답');
-    if (past > 0) seg = seg.slice(0, past);
+    const past = full.indexOf('지난 정답');
+    const seg = past > 0 ? full.slice(0, past) : full;
 
     const q = seg.match(/>Q\.\s*(?:<!--\s*-->)?\s*([\s\S]*?)<\/p>/);
     const a = seg.match(/>정답:\s*(?:<!--\s*-->)?\s*([\s\S]*?)<\/p>/);
@@ -1263,11 +1263,27 @@ function parseApptech(html, today) {
     if (!isSaneAnswer(answer)) continue;
 
     const slug = APPTECH_MAP[ids[i].id];
-    // 지문이 없는 퀴즈(신한 출석처럼 Q 줄이 없는 날)는 앱 이름으로 보강한다.
-    let question = q ? clean(q[1]) : '';
+
+    // ⚠️ 2026-09-13 실측 — 이 소스의 가장 큰 함정.
+    // 페이지 머리의 날짜는 오늘인데, 아직 새 문제가 안 나온 카드는 "정답:" 칸에
+    // 어제 값을 그대로 보여준다(카카오페이 "1200 글로니"가 9/11·9/12·9/13 세 날 동일,
+    // 신한 "③ 110명"·H포인트 "② 200만원"이 9/12·9/13 동일). 페이지 날짜 검증만으로는
+    // 못 거른다. "지난 정답" 블록의 첫 줄(= 어제 값)과 오늘 값이 같으면 이월값이다.
+    const pastText = past > 0 ? clean(full.slice(past).replace(/<[^>]+>/g, ' ')) : '';
+    const yesterday = pastText.match(/\d{1,2}\/\d{1,2}\s+(.+?)(?=\s+\d{1,2}\/\d{1,2}\s|\s+지난 정답 더보기|$)/)?.[1]?.trim();
+    if (yesterday && normalize(yesterday) === normalize(answer)) {
+      console.log(`앱테크 이월값 차단 [${slug}] "${answer}" — 어제(지난 정답 첫 줄)와 동일`);
+      continue;
+    }
+
+    // 지문(Q 줄)이 없는 카드는 받지 않는다.
+    // 9/9 소스 추가 이후 "○○ 오늘의 퀴즈" 자리표시자 지문이 하루 1건 → 8건까지 늘었고,
+    // 감사가 그걸 '지문 동일 = 중복'으로 지우고 수집이 되살리는 악순환의 출발점이었다.
+    // 지문 없는 정답은 다른 소스(퀴즈벨·토막스·다비야)가 지문과 함께 준다.
+    const question = q ? clean(q[1]) : '';
     if (!question || question.length < 8) {
-      const label = BY_SLUG[slug]?.shortName || BY_SLUG[slug]?.name || slug;
-      question = question ? `${label} — ${question}` : `${label} 오늘의 퀴즈`;
+      console.log(`앱테크 지문 없음 [${slug}] "${answer}" — 자리표시자 지문은 넣지 않음`);
+      continue;
     }
     if (!isSaneQuestion(question)) continue;
     out.push({ slug, ...buildItem(question, [answer]), source: 'apptech' });
@@ -1826,10 +1842,19 @@ function sweepGarbage(today) {
   const file = fileFor(today);
   if (!fs.existsSync(file)) return 0;
   const d = JSON.parse(fs.readFileSync(file, 'utf-8'));
+  // 오늘 지운 항목(deleted.json)이 어떤 경로로든 다시 들어와 있으면 여기서 걷어낸다.
+  // 2026-09-13 실측: 큐에서 몇 시간 기다린 Actions job 이 옛 sha 로 체크아웃한 채
+  // push 충돌 → 항목 합집합 병합을 하면서 지운 항목을 되살렸다(10:57, 15:01 두 번).
+  const tombstones = loadTombstones(today);
   let removed = 0;
   for (const [slug, arr] of Object.entries(d.answers || {})) {
     if (!Array.isArray(arr) || !arr.length) continue;
     const kept = arr.filter((it) => {
+      if (tombstones[slug]?.has(tombKey(it))) {
+        console.log(`[자가치유] 삭제 항목 부활 차단 [${slug}] "${it.question}" = "${it.answer}"`);
+        removed += 1;
+        return false;
+      }
       const why = garbageReason(it);
       if (why) {
         console.log(`[자가치유] 쓰레기 삭제 [${slug}] "${it.question}" = "${it.answer}" (${why})`);
@@ -2071,6 +2096,23 @@ function gitCommitPush(message, attempt = 0) {
       } catch {
         /* 원격에 오늘자 파일이 없을 수도 있다 */
       }
+      // ⚠️ 2026-09-13 사고의 직접 원인. 내 사본(mine)은 job 이 체크아웃한 시점의
+      // 파일이라, 그 사이 원격에서 지운 항목이 그대로 들어 있다. 합집합으로 합치면
+      // 지운 게 되살아난다(원래 publishedAt 을 단 채로 — 이게 부활의 증거였다).
+      // 원격을 받은 지금 시점의 deleted.json 을 다시 읽어 mine 에서 먼저 걸러낸다.
+      const tomb = loadTombstones(today);
+      let revived = 0;
+      for (const [slug, arr] of Object.entries(mine.answers || {})) {
+        if (!Array.isArray(arr) || !tomb[slug]) continue;
+        mine.answers[slug] = arr.filter((it) => {
+          if (tomb[slug].has(tombKey(it))) {
+            revived += 1;
+            return false;
+          }
+          return true;
+        });
+      }
+      if (revived) console.log(`[git] 병합 전 삭제 항목 ${revived}건 제외 (원격 deleted.json 기준)`);
       const merged = mergeAnswerData(theirs, mine);
       fs.mkdirSync(ANSWERS_DIR, { recursive: true });
       fs.writeFileSync(file, JSON.stringify(merged, null, 2));
@@ -2219,6 +2261,21 @@ async function main() {
       gitCommitPush(`data: ${ts} ${what}`);
     }
   };
+
+  // -1) 원격 최신으로 맞추고 시작한다.
+  // Actions 예약 실행은 "큐에 들어간 순간"의 커밋에 고정된다. concurrency 큐 뒤에서
+  // 몇 시간 기다린 job 은 시작 시점엔 이미 몇 시간 묵은 데이터를 들고 있다
+  // (2026-09-13 #1121: 12:03 에 11:28 sha 로 잡혀 14:12 에 시작, 그 사이 13:17 삭제분을 모름).
+  // 그 상태로 수집을 시작하면 위 gitCommitPush 의 병합 경로가 옛 사본을 되살린다.
+  if (AUTO_PUSH) {
+    try {
+      execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'pipe' });
+      execFileSync('git', ['reset', '--hard', 'FETCH_HEAD'], { stdio: 'pipe' });
+      console.log('[git] origin/main 최신으로 동기화 후 시작');
+    } catch (e) {
+      console.log('[git] 시작 동기화 실패 — 체크아웃 상태로 진행:', (e.stderr?.toString() || e.message).split('\n')[0]);
+    }
+  }
 
   // 0) 이미 발행된 것 자가 검사 — 사람 손 없이 쓰레기를 스스로 걷어낸다.
   const swept = sweepGarbage(kstToday());
