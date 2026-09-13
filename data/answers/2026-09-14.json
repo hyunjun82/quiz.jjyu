@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T00:03:21.705+09:00",
+  "updatedAt": "2026-09-14T00:04:33.555+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -119,7 +119,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "체중이 많이 나가도 혈압이 오를 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-14T00:04:33.555+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
