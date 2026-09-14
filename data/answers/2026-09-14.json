@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T11:01:55.887+09:00",
+  "updatedAt": "2026-09-14T11:03:59.238+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -413,7 +413,15 @@
         "publishedAt": "2026-09-14T11:01:55.887+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T11:03:59.237+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "체중이 많이 나가도 혈압이 오를 수 있다?",
