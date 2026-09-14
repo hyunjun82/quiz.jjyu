@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T08:04:38.173+09:00",
+  "updatedAt": "2026-09-15T08:10:59.268+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -77,10 +77,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "question": "라이나생명 재료 개수 제한없이 보장되는 치료는?",
         "answer": "충전치료",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-09-15T08:04:38.173+09:00"
       }
     ],
