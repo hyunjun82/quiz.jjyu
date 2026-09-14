@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T10:24:55.614+09:00",
+  "updatedAt": "2026-09-14T10:39:19.021+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-14T10:05:28.253+09:00"
+      },
+      {
+        "question": "OOOO 걱정 없는 원료로 추석 걱정 싹 덜어내세요. 여기서 OOOO는? (힌트 : ㅅㅍㅇㅋ)",
+        "answer": "스파이크 / 유기농 / 물엿 / 젤라틴",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-14T10:39:19.017+09:00"
       }
     ],
     "shinhan-sol": [
