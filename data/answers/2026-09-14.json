@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T12:16:35.057+09:00",
+  "updatedAt": "2026-09-14T12:27:23.231+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -250,10 +250,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 9월14일",
+        "question": "KB Pay 여행에서 제공되는 신라면세점 혜택 3가지 중 틀린 것은",
         "answer": "서울점 신라선불 3천원",
         "note": "",
-        "source": "blog",
+        "source": "bizwnews",
         "publishedAt": "2026-09-14T10:04:07.658+09:00"
       }
     ],
