@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T00:03:05.558+09:00",
+  "updatedAt": "2026-09-15T00:03:40.555+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -45,7 +45,22 @@
         "publishedAt": "2026-09-15T00:00:42.547+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "캐시백 즉시 지급",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T00:03:40.555+09:00"
+      },
+      {
+        "question": "13일 kt wiz의 창단 첫 통합우승을 주장으로 이끈 황재균 선수가 눈물의 은퇴식을 가졌습니다. 황 선수가 프로 데뷔 당시 처음 입단한 구단은?",
+        "answer": "현대 유니콘스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T00:03:40.555+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
