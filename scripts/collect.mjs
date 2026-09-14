@@ -2570,9 +2570,11 @@ async function runVerify() {
   const beat = /VERIFY_HEARTBEAT=1/.test(out);
   if (AUTO_PUSH && (didFix || beat)) {
     const ts = kstStamp().slice(5, 16).replace('T', ' ');
-    // chore 커밋은 data/verify-status.json 만 바꾸므로 사이트 빌드가 필요 없다 → [CI Skip]
+    // chore 커밋은 data/verify-status.json 만 바꾸므로 사이트 빌드가 필요 없다 → [CF-Pages-Skip] 접두사.
     // (2026-09-14: Cloudflare Pages 월 빌드 한도 3,000 중 14일 만에 2,147 소진 실측)
-    gitCommitPush(didFix ? `data: ${ts} 소스 대조로 부분 정답 자동 교정` : `chore: ${ts} 소스 대조 결과 기록 [CI Skip]`);
+    // ⚠️ [CI Skip]/[Skip CI] 는 GitHub Actions 도 대소문자 무시로 건너뛰게 만들므로 쓰지 않는다.
+    //    [CF-Pages-Skip] 은 Cloudflare Pages 만 인식한다(공식 문서 github-integration 확인).
+    gitCommitPush(didFix ? `data: ${ts} 소스 대조로 부분 정답 자동 교정` : `[CF-Pages-Skip] chore: ${ts} 소스 대조 결과 기록`);
   }
 }
 
