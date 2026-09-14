@@ -2177,6 +2177,35 @@ function mergeAnswerData(base, incoming) {
  * 그래서 충돌 시엔 rebase를 쓰지 않고 origin/main으로 되감은 뒤
  * 정답을 항목 단위로 합쳐서 다시 커밋한다. 어느 쪽 정답도 잃지 않는다.
  */
+/**
+ * 푸시 간격 제한 (2026-09-14).
+ * Cloudflare Pages 는 main 에 push 가 올 때마다 빌드 1회를 쓴다. 월 한도 3,000 인데 9/1~9/14
+ * 에 2,147 을 썼다. 9/12~14 data 커밋 148건 중 78건이 직전 커밋 2분 안에 나온 것이라(캐시워크
+ * 회차가 30초 폴링에 연달아 잡히는 식), 커밋은 즉시 하되 push 는 직전 push 로부터 최소
+ * PUSH_MIN_GAP_MS 뒤에 몰아서 한다. 발행이 최대 2분 늦어지는 대신 빌드 수가 절반 가까이 준다.
+ * 한도를 넘기면 그달 남은 기간 사이트 갱신이 통째로 멈추므로 이게 더 싸다.
+ */
+const PUSH_MIN_GAP_MS = 120_000;
+let lastPushAt = 0;
+let pushPending = false;
+
+function flushPush(force = false) {
+  if (!pushPending) return false;
+  if (!force && Date.now() - lastPushAt < PUSH_MIN_GAP_MS) return false;
+  try {
+    execFileSync('git', ['push', 'origin', 'HEAD:main'], { stdio: 'pipe' });
+    lastPushAt = Date.now();
+    pushPending = false;
+    console.log('[git] 묶음 push 완료');
+    return true;
+  } catch (e) {
+    // 원격이 앞서간 경우 — gitCommitPush 의 병합 경로에 태운다(빈 커밋은 staged 없음으로 끝난다).
+    console.log('[git] 묶음 push 거절 — 병합 후 재시도');
+    pushPending = false;
+    return gitCommitPush('data: 묶음 push 병합', 1);
+  }
+}
+
 function gitCommitPush(message, attempt = 0) {
   const run = (args) => execFileSync('git', args, { stdio: 'pipe' }).toString().trim();
   const quiet = (args) => {
@@ -2203,7 +2232,14 @@ function gitCommitPush(message, attempt = 0) {
     const staged = execFileSync('git', ['diff', '--cached', '--name-only']).toString().trim();
     if (!staged) return false;
     run(['-c', 'user.name=quizday-bot', '-c', 'user.email=bot@quizday', 'commit', '-m', message]);
+    if (attempt === 0 && Date.now() - lastPushAt < PUSH_MIN_GAP_MS) {
+      pushPending = true;
+      console.log(`[git] 커밋만 — 직전 push ${Math.round((Date.now() - lastPushAt) / 1000)}초 전, 묶어서 push 예정`);
+      return true;
+    }
     run(['push', 'origin', 'HEAD:main']);
+    lastPushAt = Date.now();
+    pushPending = false;
     return true;
   } catch (e) {
     const msg = e.stderr?.toString() || e.message;
@@ -2479,6 +2515,7 @@ async function main() {
   // 미수집이 0이어도 이 구간에 아직 안 온 회차가 남았으면 자리를 지킨다.
   // 예전엔 여기서 곧장 빠져나가 뒤 회차를 다음 트리거까지 놓쳤다.
   while (Date.now() < endAt && (pending.length > 0 || moreComingIn(block))) {
+    if (AUTO_PUSH) flushPush();
     const r = await collectOnce();
     const elapsed = Math.round((Date.now() - t0) / 1000);
     absorb(r, `[감시 ${elapsed}초]`);
@@ -2518,6 +2555,7 @@ async function main() {
       console.log(`[지문 대기] 뭉뚱그린 지문 ${g.length}개(${g.join(', ')}) — 최대 ${GRACE_SECONDS}초 더 본다`);
     }
     while (g.length > 0 && Date.now() < graceEnd) {
+      if (AUTO_PUSH) flushPush();
       await sleep(Math.min(POLL_SECONDS * 1000, graceEnd - Date.now()));
       absorb(await collectOnce(), `[지문 ${Math.round((Date.now() - t0) / 1000)}초]`);
       g = genericLeft();
@@ -2537,6 +2575,8 @@ async function main() {
 const isEntry = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
 if (isEntry) {
   main()
+    // 남은 묶음 push 를 먼저 비운다 — 여기서 안 밀면 job 이 끝나며 커밋이 증발한다.
+    .then(() => { if (AUTO_PUSH) flushPush(true); })
     // 수집이 끝나면 곧바로 소스와 대조한다.
     // 규칙을 아무리 다듬어도 다음 버그는 다른 모양으로 온다. 그래서 "규칙 추가"가 아니라
     // "결과 대조"를 마지막 관문으로 둔다 — 우리가 발행한 것과 소스가 지금 말하는 것을
@@ -2544,6 +2584,7 @@ if (isEntry) {
     .then(() => runVerify())
     .catch((e) => {
       console.error(e);
+      try { if (AUTO_PUSH) flushPush(true); } catch { /* 마지막 시도 */ }
       process.exit(1);
     });
 }
@@ -2575,11 +2616,13 @@ async function runVerify() {
     // ⚠️ [CI Skip]/[Skip CI] 는 GitHub Actions 도 대소문자 무시로 건너뛰게 만들므로 쓰지 않는다.
     //    [CF-Pages-Skip] 은 Cloudflare Pages 만 인식한다(공식 문서 github-integration 확인).
     gitCommitPush(didFix ? `data: ${ts} 소스 대조로 부분 정답 자동 교정` : `[CF-Pages-Skip] chore: ${ts} 소스 대조 결과 기록`);
+    flushPush(true);
   }
 }
 
 export {
   gitCommitPush,
+  flushPush,
   mergeAnswerData,
   isDuplicate,
   isGenericQuestion,
