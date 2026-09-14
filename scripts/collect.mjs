@@ -1710,7 +1710,15 @@ async function collectFromTipistip(existing = null) {
   const jobs = [];
   for (const map of TIP_TITLE_MAP) {
     // 지문 없는 소스로 '이미 답이 있는 퀴즈'를 덮으면 틀린 답이 붙는다(위 주석 참고).
-    if (map.backup && existing && have.has(map.slug)) continue;
+    // ⚠️ 2026-09-14 실측: 카카오뱅크는 하루 3회차(08·12·20시)인데, 08시 정답이 들어온 뒤로는
+    //    backup 규칙 때문에 팁is팁을 아예 안 봤다. 12시 정답 "과육"이 팁is팁에 12시부터 있었는데
+    //    13:29 까지 우리 사이트엔 없었다. 회차가 여럿인 퀴즈는 "오늘 정답 있음"이 "다 받았음"이 아니다.
+    //    → 회차 수보다 적게 갖고 있으면 backup 이라도 계속 본다. 같은 회차 중복은 dupIndex 가 거른다.
+    if (map.backup && existing && have.has(map.slug)) {
+      const rounds = (BY_SLUG[map.slug]?.releaseTimes || []).length;
+      const got = (existing.answers[map.slug] || []).length;
+      if (rounds <= 1 || got >= rounds) continue;
+    }
     for (const id of tipArticleCache.get(`${today}:${map.slug}`) ?? []) {
       jobs.push({ slug: map.slug, id });
     }
