@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T00:01:19.584+09:00",
+  "updatedAt": "2026-09-15T00:01:53.381+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -86,7 +86,15 @@
     "syrup": [],
     "doctornow": [],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "노동생산성이 오르면 동일한 노동 투입으로 더 많은 산출물을 만들어낼 수 있어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-15T00:01:53.381+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
