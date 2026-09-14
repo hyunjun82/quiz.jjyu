@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T00:00:42.547+09:00",
+  "updatedAt": "2026-09-15T00:01:19.584+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,14 +53,30 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO란, 세금은 아니지만 사실상 세금처럼 강제로 내야 하는 각종 부담금이에요.",
+        "answer": "준조세",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-15T00:01:19.584+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "\"모든 일시납 연금보험은 중도인출을 할 수 없고, 급한 돈이 필요할 땐 무조건 해지하는 방법 밖에 없다.\" 맞는 말일까요?",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T00:01:19.584+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
