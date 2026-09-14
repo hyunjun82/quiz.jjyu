@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T19:04:15.862+09:00",
+  "updatedAt": "2026-09-14T19:11:45.137+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -101,14 +101,14 @@
         "publishedAt": "2026-09-14T09:03:09.221+09:00"
       },
       {
-        "question": "픽스 무선 전동 에어펌프",
+        "question": "픽스 무선 전동 에어펌프 PLUS는 무선은 기본, DC 충전 기능을 탑재해 충전된 배터리가 없을 땐 OOO을 연결하면 유선사용이 가능합니다.",
         "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-14T09:03:09.221+09:00"
       },
       {
-        "question": "신한은행 적금 9단 출시",
+        "question": "적금 9단은 선착순 OO만명만 가입할 수 있어요!",
         "answer": "20",
         "note": "",
         "source": "quizbells",
@@ -360,10 +360,10 @@
     ],
     "nh-allone": [
       {
-        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈",
+        "question": "대한민국 서울은 하계올림픽과 아시안게임을 모두 개최한 경험이 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-14T07:58:52.476+09:00"
       }
     ],
