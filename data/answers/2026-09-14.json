@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T13:37:33.273+09:00",
+  "updatedAt": "2026-09-14T14:01:22.030+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -204,6 +204,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-14T12:02:04.868+09:00"
+      },
+      {
+        "question": "순수식품 100포 홍삼",
+        "answer": "32900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T14:01:22.027+09:00"
       }
     ],
     "shinhan-sol": [
