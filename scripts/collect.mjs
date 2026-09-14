@@ -467,6 +467,7 @@ function questionSubstance(q, slug) {
     }
   }
   return s
+    .replace(/\(\s*\d{1,2}\s*회차\s*\)/g, ' ') // 회차 꼬리표는 알맹이가 아니다 (2026-09-14)
     .replace(/\d{1,2}\s*월\s*\d{1,2}\s*일/g, ' ')
     .replace(/\d{4}[-./]\d{1,2}[-./]\d{1,2}/g, ' ')
     .replace(/오늘의|오늘|스타퀴즈|퀴즈팡팡|용돈퀴즈|행운퀴즈|초성퀴즈|퀴즈|정답|문제/g, ' ')
@@ -477,6 +478,21 @@ function questionSubstance(q, slug) {
 /** 검색어로 쓸 수 없는 뭉뚱그린 제목인가 */
 function isGenericQuestion(q, slug) {
   return questionSubstance(q, slug) < 12;
+}
+
+/**
+ * 회차가 여럿인 퀴즈에 껍데기 지문(예: "카카오뱅크 AI 이모지 퀴즈")만 있으면 같은 날 항목들이
+ * 지문까지 똑같아져 사이트에 "2번 문제 = 1번 문제"로 보이고 감사가 [중복]으로 잡는다
+ * (2026-09-14 14:21 실측 — 08시 "소방관"·12시 "과육"이 둘 다 정답인데 지문이 같았다).
+ * 그런 항목에는 "(N회차)"를 붙여 그날 몇 번째 정답인지 드러낸다. questionSubstance 가
+ * 이 꼬리표를 걷어내므로 껍데기 판정·정답 기준 중복 판정은 그대로다.
+ */
+function roundLabel(slug, question, nth) {
+  const q = String(question || '').trim();
+  const rounds = (BY_SLUG[slug]?.releaseTimes || []).length;
+  if (rounds < 2 || !isGenericQuestion(q, slug)) return q;
+  if (/\(\s*\d{1,2}\s*회차\s*\)\s*$/.test(q)) return q;
+  return `${q} (${nth}회차)`;
 }
 
 function isBetterQuestion(oldQ, newQ, slug) {
@@ -2355,6 +2371,7 @@ async function collectOnce() {
       continue;
     }
     // source를 남긴다 — "어느 소스가 먼저 도달했나"를 나중에 확실히 판정하기 위해서.
+    item.question = roundLabel(f.slug, item.question, current.length + 1);
     current.push({ ...item, source: f.source || 'unknown', publishedAt: kstStamp() });
     added += 1;
     bySlug[f.slug] = (bySlug[f.slug] || 0) + 1;
@@ -2553,7 +2570,9 @@ async function runVerify() {
   const beat = /VERIFY_HEARTBEAT=1/.test(out);
   if (AUTO_PUSH && (didFix || beat)) {
     const ts = kstStamp().slice(5, 16).replace('T', ' ');
-    gitCommitPush(didFix ? `data: ${ts} 소스 대조로 부분 정답 자동 교정` : `chore: ${ts} 소스 대조 결과 기록`);
+    // chore 커밋은 data/verify-status.json 만 바꾸므로 사이트 빌드가 필요 없다 → [CI Skip]
+    // (2026-09-14: Cloudflare Pages 월 빌드 한도 3,000 중 14일 만에 2,147 소진 실측)
+    gitCommitPush(didFix ? `data: ${ts} 소스 대조로 부분 정답 자동 교정` : `chore: ${ts} 소스 대조 결과 기록 [CI Skip]`);
   }
 }
 
