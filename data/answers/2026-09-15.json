@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-15",
+  "updatedAt": "2026-09-15T00:00:42.547+09:00",
+  "answers": {
+    "toss-lucky": [
+      {
+        "question": "파르페by알레르망 FW 이불 신제품을 최대 OO% 할인한대요",
+        "answer": "69",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-15T00:00:42.547+09:00"
+      },
+      {
+        "question": "신규고객 기간 내 이벤트 신청하면 즉시 투자지원금 O만원 받아요",
+        "answer": "3",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-15T00:00:42.547+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (3회차)",
+        "answer": null,
+        "choices": [
+          "100",
+          "10"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-09-15T00:00:42.547+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "칼로리 걱정 없이 즐기는 OOO OOO! 누적 리뷰 1.4만건 이상! 지금 바로 만나보세요. OOOOOO은 무엇일까요? (힌트 : ㄱㄱㅎㄷㅋㅎ)",
+        "answer": "건강한달콤함",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-15T00:00:42.547+09:00"
+      },
+      {
+        "question": "OOOO 걱정 없는 원료로 추석 걱정 싹 덜어내세요. 여기서 OOOO는? (힌트 : ㅅㅍㅇㅋ)",
+        "answer": "스파이크 / 유기농 / 물엿 / 젤라틴",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-15T00:00:42.547+09:00"
+      }
+    ],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "monimo": [],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [
+      {
+        "question": "이 책의 저자는?",
+        "answer": "조정래",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-15T00:00:42.547+09:00"
+      }
+    ],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
