@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T09:03:09.221+09:00",
+  "updatedAt": "2026-09-14T09:17:28.510+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -111,6 +111,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-14T00:02:46.521+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL에서는 AI를 활용한 컨텐츠인 \"AI PB\"를 통해 대화형으로 투자 궁금증을 물어볼 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-14T09:17:28.509+09:00"
       }
     ],
     "kakaobank": [
