@@ -20,9 +20,10 @@ import {
   itemKey,
   kstToday,
 } from './collect.mjs';
+import { execFileSync } from 'child_process';
 
 const today = kstToday();
-const mine = loadExisting(today);
+let mine = loadExisting(today);
 
 const safe = (p, name) => p.catch((e) => { console.log(`  (${name} 실패: ${e.message})`); return []; });
 const [dv, tp, bl, qb] = await Promise.all([
@@ -49,13 +50,31 @@ const has = (slug, f) => {
   });
 };
 
-const missing = [];
-const seen = new Set();
-for (const f of ext) {
-  const tag = `${f.slug}|${itemKey(f)}`;
-  if (seen.has(tag)) continue;
-  seen.add(tag);
-  if (!has(f.slug, f)) missing.push(f);
+const findMissing = () => {
+  const out = [];
+  const seen = new Set();
+  for (const f of ext) {
+    const tag = `${f.slug}|${itemKey(f)}`;
+    if (seen.has(tag)) continue;
+    seen.add(tag);
+    if (!has(f.slug, f)) out.push(f);
+  }
+  return out;
+};
+let missing = findMissing();
+
+// 9/14 14:00 실측: 감시가 "누락"이라고 알린 홍삼 32900 은 14:01 에 들어왔다. 수집기는 30초마다 도니
+// 소스에 막 뜬 항목은 1~2분 뒤면 들어온다. 누락이 보이면 2분 기다렸다 원격 최신으로 다시 대조한다 —
+// 그래도 없는 것만 진짜 누락이다.
+if (missing.length) {
+  console.log(`  (누락 후보 ${missing.length}건 — 2분 뒤 재확인)`);
+  await new Promise((r) => setTimeout(r, 120000));
+  try {
+    execFileSync('git', ['fetch', '-q', 'origin', 'main'], { stdio: 'pipe' });
+    execFileSync('git', ['checkout', '-q', 'origin/main', '--', `data/answers/${today}.json`], { stdio: 'pipe' });
+  } catch { /* 원격 갱신 실패 시 현재 파일로 판정 */ }
+  mine = loadExisting(today);
+  missing = findMissing();
 }
 
 console.log(`[gapcheck] ${today} — 외부 ${ext.length}건(다비야 ${dv.length}·팁is팁 ${tp.length}·블로그 ${bl.length}·퀴즈벨 ${qb.length}) vs 우리 ${Object.values(mine.answers).reduce((n, a) => n + a.length, 0)}건`);
