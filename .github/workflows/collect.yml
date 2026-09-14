@@ -52,6 +52,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # deploy.yml 을 workflow_dispatch 로 깨우기 위해 (2026-09-14)
 
 concurrency:
   group: collect
@@ -80,6 +81,7 @@ jobs:
           POLL_SECONDS: '30' # 블록 안에서의 감시 간격
           LEAD_MINUTES: '70' # 블록이 이 시간 안에 오면 잠들어 기다린다
           MAX_MINUTES: '165' # job 하나의 자체 상한
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # push 뒤 deploy.yml 호출용
         run: node scripts/collect.mjs
 
       - name: 누락분 마무리 커밋
@@ -110,6 +112,21 @@ jobs:
             sleep 5
           done
           echo "푸시 실패 — 다음 주기에서 재시도됨"
+
+      - name: 사이트 배포 요청 (deploy.yml)
+        # GITHUB_TOKEN 푸시는 push 이벤트로 deploy.yml 을 못 깨우므로 여기서 직접 호출한다.
+        # job 시작 커밋과 지금 origin/main 이 다를 때만 — 변경이 없으면 배포할 것도 없다.
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch -q origin main
+          if [ "$(git rev-parse origin/main)" = "${{ github.sha }}" ]; then
+            echo "이번 job 동안 main 변경 없음 — 배포 요청 생략"
+            exit 0
+          fi
+          gh workflow run deploy.yml --ref main && echo "배포 요청 보냄"
 
       - name: IndexNow 핑 (수집 job 자체가 보냄)
         # 2026-09-14: GITHUB_TOKEN 푸시는 indexnow.yml 을 깨우지 못한다(9/14 새벽 커밋 20건에 핑 0회 실측).

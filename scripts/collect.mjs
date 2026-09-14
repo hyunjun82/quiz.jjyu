@@ -2188,6 +2188,33 @@ function mergeAnswerData(base, incoming) {
 const PUSH_MIN_GAP_MS = 120_000;
 let lastPushAt = 0;
 let pushPending = false;
+let deployNeeded = false; // 이번 push 묶음에 data/answers 변경이 들어 있는가
+
+/**
+ * 사이트 배포 요청 (2026-09-14).
+ * 빌드·배포는 Cloudflare Workers Builds 가 아니라 .github/workflows/deploy.yml 이 한다(무료 분 한도 때문).
+ * 그런데 GITHUB_TOKEN 으로 한 push 는 다른 워크플로를 깨우지 못한다 — 단 workflow_dispatch 는 예외다.
+ * 그래서 data/answers 가 바뀐 push 뒤에 deploy.yml 을 직접 호출한다. deploy 쪽 concurrency 가
+ * 연달아 온 요청을 마지막 하나로 합친다. 토큰이 없으면(로컬 실행) 아무것도 안 한다.
+ */
+function requestDeploy() {
+  const token = process.env.GITHUB_TOKEN;
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (!token || !repo) return;
+  try {
+    execFileSync('curl', [
+      '-sS', '-o', '/dev/null', '-w', '%{http_code}',
+      '-X', 'POST',
+      '-H', `Authorization: Bearer ${token}`,
+      '-H', 'Accept: application/vnd.github+json',
+      `https://api.github.com/repos/${repo}/actions/workflows/deploy.yml/dispatches`,
+      '-d', '{"ref":"main"}',
+    ], { stdio: 'pipe' });
+    console.log('[deploy] 배포 워크플로 호출');
+  } catch (e) {
+    console.log('[deploy] 호출 실패:', (e.stderr?.toString() || e.message).split('\n')[0]);
+  }
+}
 
 function flushPush(force = false) {
   if (!pushPending) return false;
@@ -2197,6 +2224,7 @@ function flushPush(force = false) {
     lastPushAt = Date.now();
     pushPending = false;
     console.log('[git] 묶음 push 완료');
+    if (deployNeeded) { deployNeeded = false; requestDeploy(); }
     return true;
   } catch (e) {
     // 원격이 앞서간 경우 — gitCommitPush 의 병합 경로에 태운다(빈 커밋은 staged 없음으로 끝난다).
@@ -2231,6 +2259,7 @@ function gitCommitPush(message, attempt = 0) {
     run(['add', ...paths]);
     const staged = execFileSync('git', ['diff', '--cached', '--name-only']).toString().trim();
     if (!staged) return false;
+    if (staged.includes('data/answers/')) deployNeeded = true;
     run(['-c', 'user.name=quizday-bot', '-c', 'user.email=bot@quizday', 'commit', '-m', message]);
     if (attempt === 0 && Date.now() - lastPushAt < PUSH_MIN_GAP_MS) {
       pushPending = true;
@@ -2240,6 +2269,7 @@ function gitCommitPush(message, attempt = 0) {
     run(['push', 'origin', 'HEAD:main']);
     lastPushAt = Date.now();
     pushPending = false;
+    if (deployNeeded) { deployNeeded = false; requestDeploy(); }
     return true;
   } catch (e) {
     const msg = e.stderr?.toString() || e.message;
