@@ -1,4 +1,4 @@
-import { getQuizzes, getLatestAnswers, formatKoreanDate } from '../lib/data';
+import { getQuizzes, getLatestAnswers, formatKoreanDate, formatTime } from '../lib/data';
 import QuizBoard from '../components/QuizBoard';
 import AdUnit from '../components/AdUnit';
 
@@ -21,13 +21,8 @@ export default function HomePage() {
   const estDailyAll = quizzes.reduce((s, q) => s + q.estDaily, 0);
   const estYear = estDailyAll * 365;
 
-  const updatedTime = data
-    ? new Date(data.updatedAt).toLocaleTimeString('ko-KR', {
-        timeZone: 'Asia/Seoul',
-        hour: '2-digit',
-        minute: '2-digit',
-      })
-    : '—';
+  // formatTime 은 ICU 없이 KST 로 직접 계산한다 (Actions 빌드에서 "PM 03:46" 으로 바뀌던 문제).
+  const updatedTime = data ? formatTime(data.updatedAt) || '—' : '—';
 
   const itemListJsonLd = {
     '@context': 'https://schema.org',
