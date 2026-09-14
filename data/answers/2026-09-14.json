@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T17:17:07.759+09:00",
+  "updatedAt": "2026-09-14T18:32:59.643+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -278,7 +278,29 @@
         "publishedAt": "2026-09-14T10:04:07.658+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "소비자24 24시 열린 소비자 포털 정보 맞춤형",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T18:32:59.639+09:00"
+      },
+      {
+        "question": "소비자24 나라에서 제공하는 든든한 안전정보 확인",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T18:32:59.639+09:00"
+      },
+      {
+        "question": "G마켓 LG생활건강 프로폴리스",
+        "answer": "호주",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T18:32:59.639+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "바다는 대기보다 더 많은 열을 흡수하지 못하기 때문에 지구온난화를 억제하는 정도가 매우 미미하다.",
