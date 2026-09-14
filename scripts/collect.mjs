@@ -1864,7 +1864,9 @@ function recordTombstone(today, slug, item, reason) {
  * ⚠️ 예외 — 문항이 며칠씩 유지되는 캠페인형 퀴즈는 여기서 뺀다. 9/13 실측: 예스24 출석체크
  *   "이 책의 저자는? 조정래"는 9/12·9/13 동일했고 팁is팁·다비야가 독립적으로 재확인했다.
  */
-const REPEAT_OK = new Set(['yes24']);
+// 모니모 모니스쿨도 월 단위 캠페인이라 같은 문항이 며칠 유지된다(9/11·9/13·9/14 퀴즈벨 동일 문항,
+// momonara '2026년 9월 정답' 월간 정리글 존재). 9/13 감사가 '어제와 동일'로 지운 것은 오판이었다.
+const REPEAT_OK = new Set(['yes24', 'monimo']);
 
 function loadYesterdayKeys(today) {
   const d = new Date(`${today}T00:00:00Z`);
