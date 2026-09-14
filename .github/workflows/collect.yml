@@ -117,3 +117,10 @@ jobs:
         if: always()
         continue-on-error: true
         run: bash scripts/indexnow-ping.sh
+
+      - name: 누락 대조 (날짜 붙은 소스 기준)
+        # 2026-09-14: 소스에는 있는데 우리 규칙이 막은 정답을 매 실행 끝에 잡아낸다. 빨간불로 만들지 않는다 —
+        # 감시 작업(매시 20분)이 같은 스크립트를 돌려 사장님께 알린다.
+        if: always()
+        continue-on-error: true
+        run: node scripts/gapcheck.mjs

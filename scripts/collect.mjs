@@ -2585,6 +2585,8 @@ export {
   // 감시자가 수집기와 '같은 눈'을 쓰면 같은 걸 못 본다 — 그래서 감시 쪽에서는
   // 여기서 나온 결과를 우리 데이터와 대조만 하고, 판정 기준은 더 느슨하게 잡는다.
   collectFromTipistip,
+  collectFromBlog,
+  collectFromQuizbells,
   TIP_TITLE_MAP,
   // 회귀 테스트용 — 8/17 '② (나)-(가)-' 잘림 사고 이후 추가.
   parseTomax,
