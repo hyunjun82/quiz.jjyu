@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T12:27:23.231+09:00",
+  "updatedAt": "2026-09-14T13:32:00.487+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -236,6 +236,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-14T08:09:59.819+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈",
+        "answer": "과육",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T13:32:00.487+09:00"
       }
     ],
     "kakaobank-ox": [
