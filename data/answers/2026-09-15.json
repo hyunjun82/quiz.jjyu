@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T08:02:40.731+09:00",
+  "updatedAt": "2026-09-15T08:04:38.173+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -75,7 +75,15 @@
         "publishedAt": "2026-09-15T00:03:40.555+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "answer": "충전치료",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T08:04:38.173+09:00"
+      }
+    ],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
@@ -249,7 +257,15 @@
         "publishedAt": "2026-09-15T00:57:21.097+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T08:04:38.173+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "류머티즘 관절염은 자가면역질환이다?",
