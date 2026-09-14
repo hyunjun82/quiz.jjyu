@@ -110,3 +110,10 @@ jobs:
             sleep 5
           done
           echo "푸시 실패 — 다음 주기에서 재시도됨"
+
+      - name: IndexNow 핑 (수집 job 자체가 보냄)
+        # 2026-09-14: GITHUB_TOKEN 푸시는 indexnow.yml 을 깨우지 못한다(9/14 새벽 커밋 20건에 핑 0회 실측).
+        # 그래서 이 job 이 끝날 때 오늘 자 페이지 전부를 직접 알린다. 실패해도 job 은 빨간불로 만들지 않는다.
+        if: always()
+        continue-on-error: true
+        run: bash scripts/indexnow-ping.sh

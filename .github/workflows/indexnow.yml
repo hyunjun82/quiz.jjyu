@@ -5,6 +5,9 @@ on:
   push:
     paths:
       - 'data/answers/**'
+      # 2026-09-14: 매시 54분 예약작업이 PAT 로 미는 트리거 파일에도 반응 → 최소 1시간에 1번은 핑이 나간다.
+      - '.github/trigger/**'
+  workflow_dispatch: {}
 
 jobs:
   ping:
