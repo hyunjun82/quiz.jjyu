@@ -468,6 +468,9 @@ function questionSubstance(q, slug) {
   }
   return s
     .replace(/\(\s*\d{1,2}\s*회차\s*\)/g, ' ') // 회차 꼬리표는 알맹이가 아니다 (2026-09-14)
+    // "(하단메뉴 생활 > 놀이터 > 디깅퀴즈" 같은 앱 메뉴 경로도 알맹이가 아니다 — 9/14 NH 가 이걸
+    // 진짜 지문으로 오인해 다비야의 실제 문항과 별개 문제로 갈라져 O 가 두 줄 실렸다.
+    .replace(/\([^)]*>[^)]*\)?/g, ' ')
     .replace(/\d{1,2}\s*월\s*\d{1,2}\s*일/g, ' ')
     .replace(/\d{4}[-./]\d{1,2}[-./]\d{1,2}/g, ' ')
     .replace(/오늘의|오늘|스타퀴즈|퀴즈팡팡|용돈퀴즈|행운퀴즈|초성퀴즈|퀴즈|정답|문제/g, ' ')
@@ -2344,6 +2347,118 @@ function gitCommitPush(message, attempt = 0) {
 }
 
 /** 한 바퀴 수집. 새로 추가된 건수를 반환한다. */
+/* ────────────── 소스 I: 언론사 (한스경제 등) ──────────────
+ *
+ * 왜 넣는가 — 2026-09-14.
+ *   9/9 토막스 차단 뒤로 문제 지문(전문)을 주는 소스가 사라졌다. 퀴즈벨은 캐시워크 광고 퀴즈를
+ *   "픽스 트랩 전기 파리 모기채"처럼 상품명만 주고, 다비야·팁is팁도 껍데기 지문이 많다.
+ *   지문 없는 항목 비율이 9/7~8 22% → 9/9 이후 27~44%로 올라갔고 사장님이 "질문이 없다"고 지적했다.
+ *   언론사(한스경제)는 문제 하나마다 기사 하나를 내고 본문에
+ *     문제는 "…"이다.  /  정답은 '…'이다.
+ *   형식으로 전문을 싣는다(9/14 17:00 "픽스 바람넣기" 기사 실측). 정답 공개보다 1~8시간 늦으므로
+ *   속도용이 아니라 "지문 보강"용이다 — 정답이 같은 항목에 지문만 채운다(isBetterQuestion).
+ *
+ * 접근: RSS(최근 50건)에서 제목에 '퀴즈'가 있고 오늘 날짜인 것만 고른다. 검색 페이지는 검색어를
+ *   무시하고 최신순을 돌려줘 못 쓴다(9/14 실측). 뉴스 서버 예의상 10분에 한 번만 읽고,
+ *   기사 본문은 링크별로 한 번만 받는다.
+ */
+const PRESS_FEEDS = [
+  { name: 'hansbiz', rss: 'https://www.hansbiz.co.kr/rss/allArticle.xml' },
+];
+// 기사 제목 → 퀴즈 slug. 위에서부터 먼저 맞는 것. 모르는 앱은 버린다(오탐보다 누락이 싸다).
+const PRESS_APP = [
+  [/캐시워크|돈버는\s*퀴즈/, 'cashwalk'],
+  [/캐시닥|용돈\s*퀴즈|타임스프레드/, 'cashdoc'],
+  [/카카오페이|퀴즈타임/, 'kakaopay'],
+  [/토스\s*행운|행운퀴즈|두근두근/, 'toss-lucky'],
+  [/비트버니\s*OX/, 'bitbunny-ox'],
+  [/비트버니/, 'bitbunny'],
+  [/케이뱅크|K뱅크/, 'kbank'],
+  [/H\.?포인트|H\.Point/i, 'hpoint'],
+  [/신한\s*쏠|쏠퀴즈|퀴즈팡팡/, 'shinhan-sol'],
+  [/KB\s*스타|별별퀴즈/i, 'kb-star'],
+  [/KB\s*Pay|KB페이|리브메이트/i, 'kbpay'],
+  [/하나원큐.*OX|슬기로운 금융생활/, 'hana-life'],
+  [/하나원큐|퀴즈하나/, 'hana-onq'],
+  [/NH올원|올원뱅크|디깅퀴즈/, 'nh-allone'],
+  [/OK캐쉬백|오퀴즈/, 'ok-cashbag'],
+  [/옥션/, 'auction'],
+  [/기후행동|기후동행/, 'climate-action'],
+  [/모니모.*영어|영어챌린지/, 'monimo-eng'],
+  [/모니모|모니스쿨/, 'monimo'],
+  [/나만의닥터/, 'mydoctor'],
+  [/닥터나우/, 'doctornow'],
+  [/버즈빌/, 'buzzvil'],
+  [/어댑터/, 'adapter'],
+  [/머니워크/, 'moneywalk'],
+  [/요잇/, 'yoit'],
+  [/예스24|YES24/i, 'yes24'],
+  [/폴센트/, 'fallcent'],
+  [/네이버페이|Npay/i, 'naverpay'],
+];
+const PRESS_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
+const pressCache = { at: 0, items: [], seen: new Map() }; // seen: link → 파싱 결과(재요청 방지)
+
+function pressBody(html) {
+  const i = html.indexOf('id="article-view-content-div"');
+  if (i < 0) return '';
+  let seg = html.slice(i, i + 40000);
+  seg = seg.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ');
+  return decodeEntities(seg.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+}
+
+// 본문에서 문제·정답을 뽑는다. 한 기사에 문제가 여러 개면 순서대로 짝짓는다.
+function parsePressBody(body) {
+  const qs = [...body.matchAll(/문제는\s*["“]([^"”]{8,300})["”]/g)].map((m) => m[1].trim());
+  const as = [...body.matchAll(/정답은\s*['‘"“]([^'’"”]{1,60})['’"”]/g)].map((m) => m[1].trim());
+  const out = [];
+  for (let i = 0; i < Math.min(qs.length, as.length); i++) out.push({ question: qs[i], answer: as[i] });
+  return out;
+}
+
+async function collectFromPress() {
+  if (Date.now() - pressCache.at < 10 * 60_000) return pressCache.items;
+  pressCache.at = Date.now();
+  const today = kstToday();
+  const items = [];
+  for (const feed of PRESS_FEEDS) {
+    let xml;
+    try {
+      const res = await fetch(feed.rss, { headers: { 'user-agent': PRESS_UA }, signal: AbortSignal.timeout(20000) });
+      if (!res.ok) continue;
+      xml = await res.text();
+    } catch {
+      continue;
+    }
+    for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+      const it = m[1];
+      const title = decodeEntities((it.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/) || [])[1] || '').trim();
+      const link = ((it.match(/<link>([\s\S]*?)<\/link>/) || [])[1] || '').trim();
+      const pub = ((it.match(/<pubDate>([\s\S]*?)<\/pubDate>/) || [])[1] || '').trim(); // "2026-09-14 17:00:00"
+      if (!title.includes('퀴즈') || !link) continue;
+      if (pub && !pub.startsWith(today)) continue; // 오늘 기사만
+      const hit = PRESS_APP.find(([re]) => re.test(title));
+      if (!hit) continue;
+      const slug = hit[1];
+      if (!BY_SLUG[slug]) continue;
+      let parsed = pressCache.seen.get(link);
+      if (!parsed) {
+        try {
+          const res = await fetch(link, { headers: { 'user-agent': PRESS_UA }, signal: AbortSignal.timeout(20000) });
+          if (!res.ok) continue;
+          parsed = parsePressBody(pressBody(await res.text()));
+        } catch {
+          continue;
+        }
+        pressCache.seen.set(link, parsed);
+      }
+      for (const r of parsed) items.push({ slug, ...buildItem(r.question, [r.answer]), source: 'press', note: '' });
+    }
+  }
+  pressCache.items = items;
+  return items;
+}
+
 async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
@@ -2352,7 +2467,7 @@ async function collectOnce() {
   const ykeys = loadYesterdayKeys(today);
   const yReported = new Set();
 
-  const [a, b, c, d, e, f, g, h] = await Promise.all([
+  const [a, b, c, d, e, f, g, h, i] = await Promise.all([
     collectFromBlog().catch((e) => {
       console.error('블로그 소스 실패:', e.message);
       return [];
@@ -2382,6 +2497,10 @@ async function collectOnce() {
       console.error('다비야 소스 실패:', e.message);
       return [];
     }),
+    collectFromPress().catch((e) => {
+      console.error('언론사 소스 실패:', e.message);
+      return [];
+    }),
   ]);
   // 순서 = 우선순위. 같은 정답이 여러 소스에서 오면 앞쪽 것이 채택된다(뒤는 중복 처리).
   // 블로그가 맨 앞인 이유: 문제 지문이 가장 길고 정확하다.
@@ -2393,7 +2512,8 @@ async function collectOnce() {
   // 다른 소스가 같은 정답을 지문과 함께 주면 그쪽이 이겨야 한다. (2026-08-14 추가)
   // 앱테크퀴즈(g)는 토막스(e) 다음, 퀴즈벨(b) 앞이다. 지문이 온전해 퀴즈벨보다 제목이 좋고,
   // 토막스처럼 회차를 쪼개 주지는 않아 토막스 뒤에 둔다. (2026-09-09 추가)
-  const found = [...a, ...c, ...d, ...e, ...g, ...b, ...h, ...f];
+  // 언론사(i)는 블로그 다음 — 문제 전문을 주므로 같은 정답의 껍데기 지문을 갈아끼우는 역할(2026-09-14).
+  const found = [...a, ...i, ...c, ...d, ...e, ...g, ...b, ...h, ...f];
 
   let added = 0;
   let upgraded = 0;
@@ -2418,6 +2538,24 @@ async function collectOnce() {
       if (!yReported.has(tag)) {
         yReported.add(tag);
         console.log(`전날 항목 재등장 차단 [${f.slug}] "${String(item.question).slice(0, 30)}" = "${item.answer}" (${f.source || '?'})`);
+      }
+      continue;
+    }
+    // 언론사(press)는 새 항목을 만들지 않는다 — 정답이 이미 있는 항목의 껍데기 지문만 채운다.
+    // 퀴즈벨은 빈칸 여러 개의 정답을 "7800, 원터치, 시거잭, …" 처럼 묶어 주고 기사는 그중 하나('시거잭')만
+    // 다루므로, 기사 정답이 기존 정답 목록의 한 조각과 같으면 같은 문제로 본다. (2026-09-14)
+    if (f.source === 'press') {
+      const pa = itemKey(item);
+      if (!pa) continue;
+      const hit = current.findIndex((x) => {
+        if (itemKey(x) === pa) return true;
+        const parts = String(x.answer || '').split(/\s*[,/·]\s*/).map((t) => t.replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase());
+        return parts.length > 1 && parts.includes(pa);
+      });
+      if (hit >= 0 && isGenericQuestion(current[hit].question, f.slug) && !isGenericQuestion(item.question, f.slug)) {
+        console.log(`지문 개선 [${f.slug}] "${current[hit].question}" → "${item.question}" (press)`);
+        current[hit].question = item.question;
+        upgraded += 1;
       }
       continue;
     }
@@ -2662,6 +2800,7 @@ async function runVerify() {
 
 export {
   gitCommitPush,
+  collectFromPress,
   flushPush,
   mergeAnswerData,
   isDuplicate,
