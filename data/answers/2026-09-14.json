@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T18:32:59.643+09:00",
+  "updatedAt": "2026-09-14T19:02:50.262+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -299,6 +299,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-14T18:32:59.639+09:00"
+      },
+      {
+        "question": "G마켓 종근당건강 홍삼녹용",
+        "answer": "국내",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T19:02:50.260+09:00"
       }
     ],
     "climate-action": [
