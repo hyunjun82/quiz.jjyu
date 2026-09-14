@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T00:12:52.952+09:00",
+  "updatedAt": "2026-09-15T00:23:14.516+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,7 +109,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "음식을 오래 씹는 습관은 치매 예방에도 도움이 될 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T00:23:14.516+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
