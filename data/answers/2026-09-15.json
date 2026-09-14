@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T00:03:40.555+09:00",
+  "updatedAt": "2026-09-15T00:04:15.486+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -120,7 +120,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "류머티즘 관절염은 자가면역질환이다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-15T00:04:15.486+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
