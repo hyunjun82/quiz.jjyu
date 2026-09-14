@@ -1393,6 +1393,12 @@ const DAVIYA_MAP = {
   '나만의닥터 건강퀴즈': 'mydoctor',
   'AI 오늘의 퀴즈': 'kbank',
   '버즈빌 초성퀴즈': 'buzzvil',
+  // 2026-09-14 사장님이 다비야 전체 목록 대조 요청 → 매핑 빠진 두 종 확인:
+  //   '매일매밀 디깅퀴즈' = NH올원뱅크 디깅퀴즈(OX). 9/13 우리 0건, 9/14 07:58(팁is팁)로 늦었다.
+  //   '오늘의 퀴즈' = KB Pay 오늘의퀴즈 — 상세의 link 가 webpay.kbcard.com/kbpay 임을 실측.
+  //   이름이 너무 일반적이라 아래 상세 파서에서 link 에 'kbpay' 가 있을 때만 받는다.
+  '매일매밀 디깅퀴즈': 'nh-allone',
+  '오늘의 퀴즈': 'kbpay',
 };
 
 const nextData = (html) => {
@@ -1441,6 +1447,8 @@ async function collectFromDaviya() {
         });
         if (!res.ok) return [];
         const d = nextData(await res.text())?.props?.pageProps?.quiz;
+        // '오늘의 퀴즈' 는 여러 앱이 쓰는 이름 — KB Pay 링크가 확인될 때만 kbpay 로 받는다.
+        if (slug === 'kbpay' && !/kbpay|kbcard/i.test(String(d?.link || ''))) return [];
         const out = [];
         for (const it of d?.details || []) {
           // "문제 : " 접두어가 붙어 오는 날이 있다.
