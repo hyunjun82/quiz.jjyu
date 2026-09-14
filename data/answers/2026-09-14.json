@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T10:03:22.163+09:00",
+  "updatedAt": "2026-09-14T10:04:07.661+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-14T00:21:06.602+09:00"
+      },
+      {
+        "question": "삼성증권 고객감사제혜택",
+        "answer": "3, 10, 100",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-14T10:04:07.658+09:00"
       }
     ],
     "cashwalk": [
@@ -174,7 +181,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 9월14일",
+        "answer": "서울점 신라선불 3천원",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-14T10:04:07.658+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [
@@ -291,7 +306,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-14T10:04:07.661+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
