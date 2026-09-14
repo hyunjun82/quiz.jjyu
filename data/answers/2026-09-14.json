@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T12:02:04.875+09:00",
+  "updatedAt": "2026-09-14T12:16:35.057+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-14T11:30:43.649+09:00"
+      },
+      {
+        "question": "파르페by알레르망 FW 이불 신제품을 최대 OO% 할인한대요",
+        "answer": "69",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-14T12:16:35.052+09:00"
       }
     ],
     "cashwalk": [
