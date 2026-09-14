@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T21:03:33.687+09:00",
+  "updatedAt": "2026-09-14T22:56:21.185+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -313,6 +313,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-14T13:32:00.487+09:00"
+      },
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기 (3회차)",
+        "answer": "항소",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-14T22:56:21.175+09:00"
       }
     ],
     "kakaobank-ox": [
