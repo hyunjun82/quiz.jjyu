@@ -711,6 +711,13 @@ function parseQuizbells(html, slug, today) {
     if (!byQ.has(k)) byQ.set(k, []);
     byQ.get(k).push(r);
   }
+  // 어제와 지문·정답이 똑같은 행은 어제 것이다(자정 이월). 모순 판정 전에 먼저 걷어낸다 —
+  // 그래야 "어제 X, 오늘 O"가 모순이 아니라 오늘 O 로 읽힌다(9/14 기후행동 실측).
+  const yk = loadYesterdayKeys(today);
+  for (const [k, group] of byQ) {
+    const kept = group.filter((r) => !isYesterdaysItem(yk, slug, { question: r.question, answer: r.answer }, 'quizbells'));
+    if (kept.length !== group.length) byQ.set(k, kept);
+  }
   const held = new Set();
   for (const [k, group] of byQ) {
     if (group.length < 2) continue;
@@ -718,7 +725,8 @@ function parseQuizbells(html, slug, today) {
     if (isGenericQuestion(group[0].question, slug)) continue;
     if (new Set(group.map((r) => bare(r.answer))).size > 1) held.add(k);
   }
-  if (!held.size) return out;
+  const notYesterday = (r) => !isYesterdaysItem(yk, slug, { question: r.question, answer: r.answer }, 'quizbells');
+  if (!held.size) return out.filter(notYesterday);
   for (const k of held) {
     const g = byQ.get(k);
     console.log(
@@ -727,7 +735,7 @@ function parseQuizbells(html, slug, today) {
         .join(' / ')}`,
     );
   }
-  return out.filter((r) => !held.has(qkey(r.question)));
+  return out.filter((r) => !held.has(qkey(r.question)) && notYesterday(r));
 }
 
 async function collectFromQuizbells() {
@@ -1862,11 +1870,12 @@ function loadYesterdayKeys(today) {
   const d = new Date(`${today}T00:00:00Z`);
   d.setUTCDate(d.getUTCDate() - 1);
   const y = d.toISOString().slice(0, 10);
-  const out = {}; // slug -> { q: Set(normalized question), a: Set(itemKey) }
+  const out = {}; // slug -> { q: Set(normalized question), a: Set(itemKey), qa: Set('q|a') }
   const add = (slug, q, a) => {
-    const o = out[slug] || (out[slug] = { q: new Set(), a: new Set() });
+    const o = out[slug] || (out[slug] = { q: new Set(), a: new Set(), qa: new Set() });
     if (q) o.q.add(q);
     if (a) o.a.add(a);
+    if (q && a) o.qa.add(`${q}|${a}`);
   };
   try {
     const f = JSON.parse(fs.readFileSync(fileFor(y), 'utf-8'));
@@ -1905,8 +1914,11 @@ function isYesterdaysItem(ykeys, slug, item, source) {
     const a = itemKey(item);
     return !!a && a.length >= 3 && y.a.has(a);
   }
+  // 2026-09-14 13:40 정정: 지문만 같다고 막으면 안 된다. 기후행동은 9/13 과 같은 문장을 9/14 에
+  // 다시 냈고 정답이 X→O 로 바뀌었다(kgosu 9/14 글로 확인). 지문+정답이 모두 같을 때만 "어제 것"이다.
   const nq = String(item.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
-  return !!nq && y.q.has(nq);
+  const a = itemKey(item);
+  return !!nq && !!a && y.qa.has(`${nq}|${a}`);
 }
 
 function loadExisting(today) {
