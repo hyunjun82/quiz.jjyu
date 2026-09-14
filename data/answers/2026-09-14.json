@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updatedAt": "2026-09-14T09:23:55.468+09:00",
+  "updatedAt": "2026-09-14T09:25:57.977+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -129,7 +129,15 @@
         "publishedAt": "2026-09-14T08:09:59.819+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "요즘 사람들이 AI로 어떤 질문을 하는지 볼 수 있는 페이지가 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-14T09:25:57.976+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
