@@ -1882,7 +1882,9 @@ function recordTombstone(today, slug, item, reason) {
  */
 // 모니모 모니스쿨도 월 단위 캠페인이라 같은 문항이 며칠 유지된다(9/11·9/13·9/14 퀴즈벨 동일 문항,
 // momonara '2026년 9월 정답' 월간 정리글 존재). 9/13 감사가 '어제와 동일'로 지운 것은 오판이었다.
-const REPEAT_OK = new Set(['yes24', 'monimo']);
+// cashwalk: 광고 퀴즈가 여러 날 이어진다. 9/8~9/14 '픽스' 시리즈 10건이 매일 같은 지문·정답으로
+// 퀴즈벨에 실렸고 9/14 언론사(아주경제 '픽스 3in1 …' 기사)도 당일 퀴즈로 보도 — 어제와 같아도 오늘 것이다.
+const REPEAT_OK = new Set(['yes24', 'monimo', 'cashwalk']);
 
 function loadYesterdayKeys(today) {
   const d = new Date(`${today}T00:00:00Z`);
