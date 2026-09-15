@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T06:55:39.411+09:00",
+  "updatedAt": "2026-09-16T07:58:40.720+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -205,6 +205,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-16T00:16:16.827+09:00"
+      },
+      {
+        "question": "우유는 항상 골다공증 예방에 효과적이다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T07:58:40.719+09:00"
       }
     ],
     "skstoa": [],
