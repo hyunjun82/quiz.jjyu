@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T08:59:47.192+09:00",
+  "updatedAt": "2026-09-15T09:04:37.294+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -91,7 +91,15 @@
         "publishedAt": "2026-09-15T08:04:38.173+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 AI로 오늘의 급등주를 확인 할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-15T09:04:37.293+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
