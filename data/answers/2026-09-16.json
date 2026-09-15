@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:54:59.805+09:00",
+  "updatedAt": "2026-09-16T01:55:12.411+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,15 @@
         "publishedAt": "2026-09-16T00:01:27.908+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "오전 10시에 새로운 문제가 공개됩니다.",
+        "answer": "오전 10시에 새로운 문제가 공개됩니다.",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-16T01:55:12.409+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
