@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T01:55:12.411+09:00",
+  "updatedAt": "2026-09-16T06:55:39.411+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-16T00:03:44.054+09:00"
+      },
+      {
+        "question": "슈퍼SOL에서 국내ETF 종목을 거래량 순으로 조회할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T06:55:39.411+09:00"
       }
     ],
     "kakaobank": [],
@@ -99,7 +106,15 @@
         "publishedAt": "2026-09-16T01:55:12.409+09:00"
       }
     ],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "국립공원 시설 예약 서비스를 통해 예약할 수 있는 시설 중, 태백산 국립공원에는 '생태탐방원'이 있다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T06:55:39.411+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "나의 자산을 금융기관에 맡겨 생전에는 노후생활에 활용하고, 사후에는 공익법인 등에 기부하는 것을 OOOO이라고 한다",
@@ -114,6 +129,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-16T00:54:59.801+09:00"
+      },
+      {
+        "question": "나의 자산을 금융기관에 맡겨 생전에는 노후생활에 활용하고, 사후에는 공익법인 등에 기부하는 것을 0000이라고 한다",
+        "answer": "2. 기부신탁",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T06:55:39.411+09:00"
       }
     ],
     "kbank": [
@@ -139,9 +161,24 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-16T00:54:59.801+09:00"
+      },
+      {
+        "question": "오늘 하나원큐 앱에서 오픈하는 대한민국 VS 에콰도르 국가대표 친선경기 티켓 예매는 저녁 몇 시부터 시작될까요?",
+        "answer": "4. 19시",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T06:55:39.411+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐에는 출석체크 이벤트가 없다",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T06:55:39.411+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "손톱에 나타나는 건강 이상 신호가 아닌 것은?",
