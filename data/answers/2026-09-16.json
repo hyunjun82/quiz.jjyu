@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T08:02:47.934+09:00",
+  "updatedAt": "2026-09-16T08:08:14.117+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,10 +59,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "question": "이 사진을 보고 연상되는 단어는?",
         "answer": "화분",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-16T08:02:47.934+09:00"
       }
     ],
