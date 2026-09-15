@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T19:00:37.534+09:00",
+  "updatedAt": "2026-09-15T20:02:53.446+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -496,6 +496,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-15T17:11:42.015+09:00"
+      },
+      {
+        "question": "G마켓 스팸 알찬G호 (20회차)",
+        "answer": "쇼핑",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T20:02:53.442+09:00"
       }
     ],
     "climate-action": [
@@ -709,6 +716,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-15T15:02:04.762+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시 (4회차)",
+        "answer": "3, X, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T20:02:53.445+09:00"
       }
     ],
     "moneywalk": [
