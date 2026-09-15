@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T11:15:58.256+09:00",
+  "updatedAt": "2026-09-15T12:04:18.636+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -257,6 +257,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-15T08:04:38.173+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "보철치료",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T12:04:18.636+09:00"
       }
     ],
     "kakaobank-ox": [
