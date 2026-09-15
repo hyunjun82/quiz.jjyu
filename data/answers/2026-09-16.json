@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:00:53.939+09:00",
+  "updatedAt": "2026-09-16T00:01:27.908+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 경기 부양책이 갑자기 끝나면서 정부 지출이 급감해 경제가 위축되는 상황이에요.",
+        "answer": "재정절벽",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T00:01:27.908+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
