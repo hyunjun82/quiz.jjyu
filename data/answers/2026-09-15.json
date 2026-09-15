@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T10:03:29.225+09:00",
+  "updatedAt": "2026-09-15T10:04:15.561+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,6 +78,104 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-15T10:00:40.377+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채 (6회차)",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.558+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.558+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.558+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.558+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.558+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.559+09:00"
+      },
+      {
+        "question": "신한은행 적금 9단 출시 (12회차)",
+        "answer": "20",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.559+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.559+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.559+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.559+09:00"
+      },
+      {
+        "question": "소휘 애사비 구미 (16회차)",
+        "answer": "물엿, 유기농, 젤라틴, 스파이크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.559+09:00"
+      },
+      {
+        "question": "키토선생 소이비랩 저당두유",
+        "answer": "건강한달콤함",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.559+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.560+09:00"
+      },
+      {
+        "question": "푸드루트 비타민D (19회차)",
+        "answer": "비타민, 셀레늄, 골다공증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T10:04:15.560+09:00"
       }
     ],
     "shinhan-sol": [
@@ -131,7 +229,15 @@
         "publishedAt": "2026-09-15T10:03:29.221+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "\"오늘만! 세타필 로션 G마켓 특가 찬스✨ 세타필 로션 473ml 2개+크림 100g+20g 크림 선물 추천! 피부 OO 철통 보안! ✅ 세타필 모이스춰라이징 로션 G마켓 특가 놓치지마세요~!\"",
+        "answer": "장벽",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-15T10:04:15.557+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "기후변화로 인해 일부 채소와 과일과 같은 작물이 자라는 속도가 전보다 느려졌고 영양소는 더 풍부해졌다.",
