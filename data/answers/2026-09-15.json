@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T17:01:48.163+09:00",
+  "updatedAt": "2026-09-15T17:11:42.018+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -482,6 +482,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-15T17:01:02.283+09:00"
+      },
+      {
+        "question": "일상미당 콩쑥개떡 우리가족 최애 간식",
+        "answer": "송편, 국내산, 해풍쑥, 해썹인증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T17:11:42.015+09:00"
       }
     ],
     "climate-action": [
