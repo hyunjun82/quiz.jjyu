@@ -1,8 +1,23 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:16:16.827+09:00",
+  "updatedAt": "2026-09-16T00:22:13.772+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "한국시리즈 1차전 티켓",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-16T00:22:13.772+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "추석연휴 야구경기 티켓",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-16T00:22:13.772+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "팬마음 트로트 스타 76차 투표에서 3위를 달성한 스타에게 건대 oooo LED 광고를 선물해드려요!(초성 힌트: ㅅㅌㅅㅌ)",
@@ -79,7 +94,15 @@
         "publishedAt": "2026-09-16T00:08:54.829+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-16T00:22:13.772+09:00"
+      }
+    ],
     "hana-life": [],
     "monimo": [
       {
