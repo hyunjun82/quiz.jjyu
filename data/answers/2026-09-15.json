@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T10:06:28.727+09:00",
+  "updatedAt": "2026-09-15T10:07:18.600+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -384,7 +384,15 @@
         "publishedAt": "2026-09-15T00:01:19.584+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "휴대폰보험",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T10:07:18.600+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "대한민국은 아시안게임을 1회 개최했다",
@@ -487,7 +495,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T10:07:18.600+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
