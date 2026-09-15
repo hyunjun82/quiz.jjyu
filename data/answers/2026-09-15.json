@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T17:11:42.018+09:00",
+  "updatedAt": "2026-09-15T18:30:22.225+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -731,7 +731,15 @@
         "publishedAt": "2026-09-15T00:00:42.547+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 애플",
+        "answer": "배터리",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T18:30:22.225+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
