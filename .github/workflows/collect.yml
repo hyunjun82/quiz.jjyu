@@ -66,12 +66,12 @@ jobs:
     # 스크립트 자체가 MAX_MINUTES(165분)에서 스스로 정리하므로 그보다 조금 길게 둔다.
     timeout-minutes: 175
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # 스크립트가 실행 중에 fetch/reset 후 push 하므로 얕은 클론이면 곤란하다.
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
