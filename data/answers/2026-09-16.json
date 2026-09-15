@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:26:27.184+09:00",
+  "updatedAt": "2026-09-16T00:54:59.805+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "생활요금 자동납부 캐시백 이벤트에서 아파트 관리비, 도시가스, 전화요금, 전기요금 각 항목당 받을 수 있는 캐시백 금액은 얼마일까요?",
         "answer": "5천원",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-16T00:03:44.054+09:00"
       },
       {
@@ -51,7 +51,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "AI로 검색하고 랜덤캐시를 받는 이벤트는 종료되었다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-16T00:54:59.800+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -84,7 +92,22 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "나의 자산을 금융기관에 맡겨 생전에는 노후생활에 활용하고, 사후에는 공익법인 등에 기부하는 것을 OOOO이라고 한다",
+        "answer": "② 기부신탁",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-16T00:54:59.800+09:00"
+      },
+      {
+        "question": "밑줄 친 ‘이 전투’ 이후에 전개된 사실로 옳은 것은?",
+        "answer": "③ 명의 지원군이 조선에 파병되었다.",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-16T00:54:59.801+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "9.16(수) 오후 12:30에 시작되는 AI 퀴즈 챌린지의 라이브 퀴즈",
@@ -101,6 +124,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-16T00:22:13.772+09:00"
+      },
+      {
+        "question": "오늘 하나원큐 앱에서 오픈하는 대한민국 vs 에콰도르 국가대표 친선경기 티켓 예매는 저녁 몇 시부터 시작할까요?",
+        "answer": "④ 19시",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-16T00:54:59.801+09:00"
       }
     ],
     "hana-life": [],
@@ -138,10 +168,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "환절기에는 여러 자극 물질들이 코 점막을 자극해 비염 증상이 악화된다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-09-16T00:03:04.757+09:00"
       }
     ],
