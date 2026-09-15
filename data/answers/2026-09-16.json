@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:03:04.757+09:00",
+  "updatedAt": "2026-09-16T00:03:44.054+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,14 +19,37 @@
         "publishedAt": "2026-09-16T00:00:15.497+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "5천원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-16T00:03:44.054+09:00"
+      },
+      {
+        "question": "LA 다저스가 14년 연속 포스트시즌 진출을 확정하며 역대 최장 타이를 기록했습니다. 14년 연속 PS 진출기록을 함께 보유하게 된 팀은 어떤 팀일까요?",
+        "answer": "애틀랜타 브레이브스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-16T00:03:44.054+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보] 모바일 식권 업체 1위 OOOO은 회사 근처 식당 메뉴를 한눈에 확인하고, 지갑 없이 간편결제 및 식사를 할 수 있는 어플입니다. 해당 서비스를 이용하는 직원들은 특가대장 메뉴를 통해 현대이지웰에서 운영하는 최저가SHOP과 다양한 프로모션도 경험할 수 있습니다!해당 서비스는 무엇일까요?",
+        "answer": "식권대장",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T00:03:44.054+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO이란, 경기 부양책이 갑자기 끝나면서 정부 지출이 급감해 경제가 위축되는 상황이에요.",
