@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:25:09.194+09:00",
+  "updatedAt": "2026-09-16T00:26:27.184+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -113,7 +113,15 @@
         "publishedAt": "2026-09-16T00:00:53.939+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "pick/up, pick/up, pick/me",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-16T00:26:27.184+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
