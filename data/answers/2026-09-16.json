@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:01:27.908+09:00",
+  "updatedAt": "2026-09-16T00:02:24.300+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -60,7 +60,15 @@
     "syrup": [],
     "doctornow": [],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "트리핀 딜레마는 기축통화국이 세계에 유동성을 공급하는 과정에서 국제수지 적자를 지속할 수 있다는 딜레마예요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T00:02:24.300+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
