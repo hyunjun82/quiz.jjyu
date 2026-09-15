@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T10:11:49.425+09:00",
+  "updatedAt": "2026-09-15T10:20:35.485+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -261,7 +261,22 @@
         "publishedAt": "2026-09-15T09:04:37.293+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 지라이브 (광고모아보기) (1회차)",
+        "answer": "한가위",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T10:20:35.484+09:00"
+      },
+      {
+        "question": "오퀴즈 유뿔투뿔 (광고모아보기) (2회차)",
+        "answer": "100",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-15T10:20:35.484+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "KB Pay 추석상차림 기획전 '제주돼지 왕양념 칼집구이…(후략)",
