@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:00:15.497+09:00",
+  "updatedAt": "2026-09-16T00:00:53.939+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -34,7 +34,15 @@
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "손톱에 나타나는 건강 이상 신호가 아닌 것은?",
+        "answer": "분홍빛을 띠고 매끄럽다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-16T00:00:53.939+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -48,7 +56,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "1653년 제주도에 표류한 '헨드릭 하멜'은 어느 나라 사람일까요?",
+        "answer": "네덜란드",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T00:00:53.939+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
