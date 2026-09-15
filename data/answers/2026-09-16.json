@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T00:08:54.829+09:00",
+  "updatedAt": "2026-09-16T00:16:16.827+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -40,7 +40,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "환경문제에 민감한 취약계층이 공기질 오염에 대응할 수 있도록, 경기도에서는 2016년부터 ‘맑은 숨터’라는 맞춤형 실내공기질 개선 사업을 실시하고 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-16T00:16:16.827+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] 모바일 식권 업체 1위 OOOO은 회사 근처 식당 메뉴를 한눈에 확인하고, 지갑 없이 간편결제 및 식사를 할 수 있는 어플입니다. 해당 서비스를 이용하는 직원들은 특가대장 메뉴를 통해 현대이지웰에서 운영하는 최저가SHOP과 다양한 프로모션도 경험할 수 있습니다!해당 서비스는 무엇일까요?",
@@ -84,7 +92,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "알레르기 검사에서 음성이 나오면 비염이 아니라는 뜻이다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-16T00:16:16.827+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
