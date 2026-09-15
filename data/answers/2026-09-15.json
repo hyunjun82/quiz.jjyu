@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T15:02:04.762+09:00",
+  "updatedAt": "2026-09-15T16:00:57.849+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -260,6 +260,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-15T14:02:24.319+09:00"
+      },
+      {
+        "question": "프랑스산 콜라겐 달팽이 콜라겐 마스크팩",
+        "answer": "14500",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-15T16:00:57.844+09:00"
       }
     ],
     "shinhan-sol": [
