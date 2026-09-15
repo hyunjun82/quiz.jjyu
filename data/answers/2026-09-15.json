@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updatedAt": "2026-09-15T10:00:40.381+09:00",
+  "updatedAt": "2026-09-15T10:03:29.225+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -122,7 +122,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 추석상차림 기획전 '제주돼지 왕양념 칼집구이…(후략)",
+        "answer": "17,910원",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-09-15T10:03:29.221+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
