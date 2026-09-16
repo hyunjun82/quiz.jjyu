@@ -1,8 +1,23 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T00:23:45.143+09:00",
+  "updatedAt": "2026-09-17T03:11:15.504+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "아이폰 에어태그",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T03:11:15.504+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "지갑 or 가방 에어태그",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T03:11:15.504+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "[추석] 동의삼 프리미엄 홍삼진 / 홍삼스틱 / 산삼배양근스틱 / 활력침향단 모음전으로 □□□ !!!(힌트:ㅎㅂㅇ)",
@@ -21,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "9월 한 달간 메가FMCG커피에서 '이것'으로 1천원 이상 결제하면 1천P를 적립받을 수 있어요. '이것'으로 알맞은 것은?",
         "answer": "신한 슈퍼SOL",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-17T00:03:01.764+09:00"
       },
       {
@@ -36,7 +51,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크에는 퀴즈 통해 진을 완성하고 랜덤 캐시를 받는 이벤트가 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-17T03:11:15.501+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -68,8 +91,31 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
-    "kb-star": [],
+    "nh-allone": [
+      {
+        "question": "NH올원뱅크 등꽃길 그리기에서 다음 보너스 게임까지 기다려야 하는 시간은 몇시간일까요?",
+        "answer": "③ 3시간",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-17T03:11:15.502+09:00"
+      }
+    ],
+    "kb-star": [
+      {
+        "question": "생활에 필요한 금융 지식과 정보를 제공하는 전문성있고 신뢰도 높은 KB금융그룹의 콘텐츠 플랫폼은 무엇일까요?",
+        "answer": "KB의 생각",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-17T03:11:15.501+09:00"
+      },
+      {
+        "question": "(가) 제도에 대한 설명으로 옳은 것은?",
+        "answer": "④ 관청에 물품을 조달하는 공인이 등장하는 배경이 되었다",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-17T03:11:15.501+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "미국 LA시가 한국 콘텐츠를 통해 한국의 문화와 전통을 알린 성과를 기념해 9월 17일로 제정한 날은?",
@@ -79,7 +125,22 @@
         "publishedAt": "2026-09-17T00:07:39.093+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "9월 승리HANA 승/무/패 승부예측 완료하셨나요? 9월 승리HANA는 내일 마감됩니다. 마감일은 언제일까요?",
+        "answer": "① 9월 18일(금)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-17T03:11:15.501+09:00"
+      },
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T03:11:15.504+09:00"
+      }
+    ],
     "hana-life": [],
     "monimo": [
       {
@@ -90,14 +151,22 @@
         "publishedAt": "2026-09-17T00:00:44.304+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "you/lend, pass/salt, give/ride",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T03:11:15.504+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "대상포진이 전염됐을 때, 수두를 앓은 적 없는 사람은 대상포진이 아니라 수두로 나타난다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-17T00:23:45.143+09:00"
       }
     ],
@@ -107,7 +176,7 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 퀴즈 — 닥터나우 (1회차)",
+        "question": "과도한 목욕은 피부 건조증을 유발한다",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -124,7 +193,15 @@
         "publishedAt": "2026-09-17T00:01:50.837+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "1, 4, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T03:11:15.504+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [
       {
