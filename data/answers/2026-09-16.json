@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T20:04:49.246+09:00",
+  "updatedAt": "2026-09-16T20:10:58.548+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -302,6 +302,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-16T12:04:40.655+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (3회차)",
+        "answer": "구독경제",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-16T20:10:58.548+09:00"
       }
     ],
     "kakaobank-ox": [
