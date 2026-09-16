@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T00:00:44.304+09:00",
+  "updatedAt": "2026-09-17T00:01:17.495+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 일정 나이가 지나면 임금을 줄이는 대신 정년까지 고용을 보장하는 제도예요.",
+        "answer": "임금피크제",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-17T00:01:17.495+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
