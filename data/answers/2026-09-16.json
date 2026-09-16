@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T20:10:58.548+09:00",
+  "updatedAt": "2026-09-16T21:01:08.347+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -263,6 +263,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-16T16:00:57.984+09:00"
+      },
+      {
+        "question": "깨끗한나라 3겹화장지 (34회차)",
+        "answer": "깨끗",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-16T21:01:08.342+09:00"
       }
     ],
     "shinhan-sol": [
