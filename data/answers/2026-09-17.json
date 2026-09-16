@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T03:11:15.504+09:00",
+  "updatedAt": "2026-09-17T07:37:40.879+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -168,6 +168,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-17T00:23:45.143+09:00"
+      },
+      {
+        "question": "규칙적인 운동은 정신 건강에도 좋다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-17T07:37:40.878+09:00"
       }
     ],
     "skstoa": [],
