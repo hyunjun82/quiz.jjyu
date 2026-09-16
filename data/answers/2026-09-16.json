@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T18:02:53.479+09:00",
+  "updatedAt": "2026-09-16T18:33:16.232+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -352,6 +352,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-16T14:02:11.010+09:00"
+      },
+      {
+        "question": "G마켓 K자개 바디케어 선물세트",
+        "answer": "공예",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-16T18:33:16.230+09:00"
       }
     ],
     "climate-action": [
