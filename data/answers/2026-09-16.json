@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T10:03:04.099+09:00",
+  "updatedAt": "2026-09-16T10:03:46.752+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -218,10 +218,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "안드로이드 폰에서 앱을 열지 않고, 잠금만 풀고 터치해 결제할 수 있는 KB Pay 기능은 무엇일까요?",
         "answer": "1번 KB Pay 탭앤페이",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-09-16T10:03:04.099+09:00"
       }
     ],
