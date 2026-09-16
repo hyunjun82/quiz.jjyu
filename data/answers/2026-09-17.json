@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T00:07:39.093+09:00",
+  "updatedAt": "2026-09-17T00:11:07.585+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -40,7 +40,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 9월 17일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-17T00:11:07.584+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] 다음 중 현대면세점 '현데이' 대한항공 SKYPASS 마일리지 트리플 적립 대상 브랜드가 아닌 곳은 어디일까요?",
