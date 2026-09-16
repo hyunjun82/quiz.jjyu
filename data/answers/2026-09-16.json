@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T16:00:57.990+09:00",
+  "updatedAt": "2026-09-16T18:02:53.479+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-16T10:02:20.071+09:00"
+      },
+      {
+        "question": "온브릭스 추석 선물은 쿠폰팩 OOOOO원 할인 받을 수 있어요",
+        "answer": "37000",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T18:02:53.477+09:00"
       }
     ],
     "cashwalk": [
