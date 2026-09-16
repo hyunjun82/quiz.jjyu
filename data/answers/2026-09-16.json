@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updatedAt": "2026-09-16T11:02:14.675+09:00",
+  "updatedAt": "2026-09-16T11:02:56.509+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -236,6 +236,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-16T11:00:48.653+09:00"
+      },
+      {
+        "question": "오전 11시 제주항공 멤버스위크 최대 79% 할인!",
+        "answer": "50",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-16T11:02:56.508+09:00"
       }
     ],
     "kbpay": [
@@ -466,6 +473,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-16T00:03:04.757+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시 (2회차)",
+        "answer": "2, 1, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-16T11:02:56.508+09:00"
       }
     ],
     "moneywalk": [],
