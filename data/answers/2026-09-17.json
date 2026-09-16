@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T07:37:40.879+09:00",
+  "updatedAt": "2026-09-17T08:04:07.822+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-09-17T00:03:01.764+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "answer": "환율",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T08:04:07.822+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크에는 퀴즈 통해 진을 완성하고 랜덤 캐시를 받는 이벤트가 있다.",
