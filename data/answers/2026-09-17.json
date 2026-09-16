@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T00:04:10.284+09:00",
+  "updatedAt": "2026-09-17T00:07:39.093+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -62,7 +62,15 @@
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "오징어 게임의 날",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-17T00:07:39.093+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
     "monimo": [
@@ -81,7 +89,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 퀴즈 — 닥터나우 (1회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-17T00:07:39.093+09:00"
+      }
+    ],
     "buzzvil": [],
     "bitbunny-ox": [
       {
