@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T08:04:48.093+09:00",
+  "updatedAt": "2026-09-17T08:18:59.427+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -232,7 +232,15 @@
         "publishedAt": "2026-09-17T03:11:15.504+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T08:18:59.427+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "지나친 소금 섭취는 고혈압 위험을 높일 수 있다?",
