@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T00:03:36.246+09:00",
+  "updatedAt": "2026-09-17T00:04:10.284+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -94,7 +94,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "지나친 소금 섭취는 고혈압 위험을 높일 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-17T00:04:10.284+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "독립운동가 김구가 직접 쓴 자서전인 이 기록은 무엇일까요?",
