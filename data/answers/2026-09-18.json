@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T08:20:24.261+09:00",
+  "updatedAt": "2026-09-18T08:55:57.221+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-18T00:02:42.918+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 급여클럽+에서 봉투 모으기 미션이 아닌 것은 무엇일까요?",
+        "answer": "③ 신용카드 가입",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-18T08:55:57.219+09:00"
       }
     ],
     "kakaobank": [
