@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T00:02:06.101+09:00",
+  "updatedAt": "2026-09-18T00:02:42.918+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-09-18T00:00:20.712+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "월 최대 3,000P 적립",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T00:02:42.918+09:00"
+      },
+      {
+        "question": "미국에서 돌아온 고우석 선수가 LG 팬들을 들뜨게 만들고 있습니다. 고 선수는 16일 NC 전에서 몇 개의 스트라이크를 연속 성공시켰을까요?",
+        "answer": "13개",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T00:02:42.918+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
