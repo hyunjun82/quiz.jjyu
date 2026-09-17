@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T21:02:19.732+09:00",
+  "updatedAt": "2026-09-17T23:27:37.747+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -373,6 +373,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-17T20:07:27.675+09:00"
+      },
+      {
+        "question": "종료된 베이직스 추석 세일 노트북 특가전",
+        "answer": "51",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-17T23:27:37.744+09:00"
       }
     ],
     "climate-action": [
