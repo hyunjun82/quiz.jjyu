@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T00:18:21.554+09:00",
+  "updatedAt": "2026-09-18T00:20:43.065+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,7 +48,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 9월 18일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T00:20:43.065+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] Apple의 iPhone 18 Pro는 뛰어난 성능과 세련된 디자인으로 완성된 프리미엄 스마트폰입니다. 다음 중 이번 iPhone 18 Pro 라인업에 실제로 없는 컬러는 무엇일까요?",
