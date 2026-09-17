@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T00:24:50.791+09:00",
+  "updatedAt": "2026-09-18T01:56:36.440+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,10 +29,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "햄버거 싸게 먹는 법! 맘스터치에서 8천원 이상 슈퍼SOL로 결제하면 어떤 혜택이 있을까요?",
         "answer": "월 최대 3,000P 적립",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-18T00:02:42.918+09:00"
       },
       {
@@ -50,10 +50,10 @@
     "cashdoc": [],
     "climate-action": [
       {
-        "question": "기후행동 기회소득 9월 18일 오늘의 퀴즈 문제",
+        "question": "딱딱하고 뾰족한 이쑤시개나 담배도 음식물쓰레기로 배출해도 된다.",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-18T00:20:43.065+09:00"
       }
     ],
@@ -76,19 +76,58 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
-    "kb-star": [],
+    "nh-allone": [
+      {
+        "question": "추석은 음력으로 매년 언제일까요?",
+        "answer": "③ 8월 15일",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-18T01:56:36.437+09:00"
+      }
+    ],
+    "kb-star": [
+      {
+        "question": "KB국민 트래블러스 체크카드 사용 시 KB Pay 외화머니로 환전하면 받을 수 있는 환율 우대는 얼마일까요?",
+        "answer": "100%",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-18T01:56:36.437+09:00"
+      },
+      {
+        "question": "조선 영조는 붕당 간의 대립을 완화하기 위해 탕평책을 실시하고 성균관에 탕평비를 건립하였다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-18T01:56:36.437+09:00"
+      }
+    ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "question": "가격은 그대로 유지하면서 재료나 서비스의 품질을 낮추는 현상은?",
         "answer": "스킴플레이션",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-18T00:24:50.791+09:00"
       }
     ],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "오늘 하나원큐 앱에서 대한민국 vs 우루과이 국가대표 친선경기 티켓 예매가 시작됩니다. 경기가 열리는 서울에 위치한 경기장은 어디일까요?",
+        "answer": "② 서울월드컵경기장",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-18T01:56:36.437+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 놀이터에서는 고민을 생각하고 버튼을 누르면 의미심장한 한마디가 나온다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-18T01:56:36.437+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "손톱에 나타나는 건강 이상 신호가 아닌 것은?",
@@ -102,10 +141,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "치주염 치료를 잘 받으면 이미 녹은 잇몸뼈도 원래대로 차오른다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-18T00:24:50.791+09:00"
       }
     ],
@@ -115,10 +154,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "진통소염제(NSAIDs)를 복용하면 위궤양 위험이 크게 높아진다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-18T00:03:52.623+09:00"
       }
     ],
