@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T15:02:20.373+09:00",
+  "updatedAt": "2026-09-17T19:03:05.124+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -337,6 +337,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-17T14:03:56.322+09:00"
+      },
+      {
+        "question": "G마켓 동원 튜나 리챔 (16회차)",
+        "answer": "튜나",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-17T19:03:05.122+09:00"
       }
     ],
     "climate-action": [
