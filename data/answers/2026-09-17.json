@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T09:05:50.566+09:00",
+  "updatedAt": "2026-09-17T09:06:33.812+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,10 +59,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "question": "08:00 금융 관련 이모지 보고 퀴즈 풀기",
         "answer": "환율",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-17T08:04:07.822+09:00"
       }
     ],
