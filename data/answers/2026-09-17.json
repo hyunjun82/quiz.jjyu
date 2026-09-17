@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T10:00:33.191+09:00",
+  "updatedAt": "2026-09-17T10:02:43.533+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -97,7 +97,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "이번 '보름달처럼 꽉 찬 혜택! 100% 당첨되는 랜덤뽑기'에 참여…(후략)",
+        "answer": "KB Pay 고객 누구나",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-09-17T10:02:43.532+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -229,7 +237,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T10:02:43.533+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
