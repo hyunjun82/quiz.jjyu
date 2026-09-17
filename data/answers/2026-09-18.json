@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T01:56:36.440+09:00",
+  "updatedAt": "2026-09-18T02:20:21.806+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -155,7 +155,7 @@
     "doctornow": [
       {
         "question": "진통소염제(NSAIDs)를 복용하면 위궤양 위험이 크게 높아진다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-18T00:03:52.623+09:00"
