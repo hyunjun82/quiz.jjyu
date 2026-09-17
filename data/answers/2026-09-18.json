@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T00:00:58.217+09:00",
+  "updatedAt": "2026-09-18T00:01:31.851+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 정해진 기간만 일하기로 계약을 맺고 근무하는 고용 형태예요.",
+        "answer": "기간근로",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-18T00:01:31.851+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
