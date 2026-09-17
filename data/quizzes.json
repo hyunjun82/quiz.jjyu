@@ -572,6 +572,26 @@
       }
     },
     {
+      "slug": "harim-real",
+      "app": "하림펫푸드",
+      "name": "하림펫푸드 더리얼 퀴즈타임",
+      "searchKeyword": "하림더리얼 퀴즈 정답",
+      "shortName": "하림더리얼 퀴즈",
+      "category": "reward",
+      "reward": "버즈빌 포인트",
+      "resetInfo": "매일 (출제 시각 변동)",
+      "color": "#E5352B",
+      "howTo": "버즈빌 제휴 앱(잠금화면 적립 앱) → 퀴즈타임 → 하림펫푸드 더리얼",
+      "estDaily": 100,
+      "rewardRange": "10~100원",
+      "iconUrl": "/icons/buzzvil.avif",
+      "sourceSlug": null,
+      "releaseTimes": [],
+      "cadence": {
+        "type": "irregular"
+      }
+    },
+    {
       "slug": "bitbunny-ox",
       "app": "비트버니",
       "name": "비트버니 OX 퀴즈",
