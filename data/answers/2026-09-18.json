@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T00:00:20.712+09:00",
+  "updatedAt": "2026-09-18T00:00:58.217+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,7 +27,15 @@
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "손톱에 나타나는 건강 이상 신호가 아닌 것은?",
+        "answer": "분홍빛을 띠고 매끄럽다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T00:00:58.217+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -41,7 +49,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "건축·사주·관상 전문가이자, 유퀴즈 관악산 역술가로 알려진 이 책의 저자는?",
+        "answer": "박성준",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-18T00:00:58.217+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
