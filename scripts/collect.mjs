@@ -2470,6 +2470,28 @@ async function collectFromPress() {
   return items;
 }
 
+/**
+ * 한 슬러그에 묶여 오던 항목 중, 검색어가 따로 서는 것을 전용 슬러그로 보낸다.
+ *
+ * 2026-09-18 하림펫푸드 더리얼 — 버즈빌 퀴즈타임의 제휴사 문제라 buzzvil 에 들어갔는데,
+ * 사람들은 "버즈빌 퀴즈"가 아니라 "하림더리얼 퀴즈 정답"으로 찾는다. 9/17 네이버 검색
+ * 유입이 5 미만에서 100 이상으로 뛰었고 그 검색어로 들어온 블로그 글이 17개였다.
+ * buzzvil 페이지에 묻혀 있으면 제목이 검색어와 안 맞아 노출되지 않는다.
+ * 새 제휴사가 같은 상황이 되면 이 표에 한 줄만 추가하면 된다.
+ */
+const SUBSPLIT = [
+  { from: 'buzzvil', re: /하림\s*펫푸드|하림\s*더리얼|더리얼\s*그레인프리/, to: 'harim-real' },
+];
+
+function applySubsplit(item) {
+  for (const r of SUBSPLIT) {
+    if (item.slug === r.from && r.re.test(String(item.question || ''))) {
+      return { ...item, slug: r.to };
+    }
+  }
+  return item;
+}
+
 async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
@@ -2525,11 +2547,12 @@ async function collectOnce() {
   // 토막스처럼 회차를 쪼개 주지는 않아 토막스 뒤에 둔다. (2026-09-09 추가)
   // 언론사(i)는 블로그 다음 — 문제 전문을 주므로 같은 정답의 껍데기 지문을 갈아끼우는 역할(2026-09-14).
   const found = [...a, ...i, ...c, ...d, ...e, ...g, ...b, ...h, ...f];
+  const found2 = found.map(applySubsplit);
 
   let added = 0;
   let upgraded = 0;
   const bySlug = {};
-  for (const f of found) {
+  for (const f of found2) {
     const current = existing.answers[f.slug] || (existing.answers[f.slug] = []);
     const item = { question: f.question, answer: f.answer, ...(f.choices ? { choices: f.choices } : {}), note: f.note };
     if (!isSaneQuestion(item.question)) {
