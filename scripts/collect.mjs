@@ -1565,7 +1565,13 @@ const TIP_TITLE_MAP = [
   { slug: 'nh-allone', re: /올원뱅크 디깅퀴즈/, backup: true },
   { slug: 'kakaobank', re: /카카오뱅크 AI 이모지/, backup: true },
   { slug: 'kb-star', re: /^KB 스타뱅킹\][\s\S]*한국사/, backup: true },
-  { slug: 'hana-onq', re: /하나원큐 슬기로운 금융생활/, backup: true },
+  // 2026-09-17 수정 — 슬러그가 틀려 있었다.
+  // 2026-09-07 에 '슬기로운 금융생활 OX'가 hana-life 로 분리됐는데 이 줄만 옛 슬러그(hana-onq)를
+  // 가리킨 채 남았다. 그래서 팁is팁이 주는 하나생명 OX 정답이 매일 hana-onq 에 지문 없는
+  // 껍데기('하나원큐 슬기로운 금융생활 OX 퀴즈')로 박히고, 정작 hana-life 는 비었다
+  // (9/15~17 실측: hana-onq 에 3일 연속 같은 'X', 9/17 hana-life 0건).
+  // 다비야·앱테크 매핑(1255행·1377행)과 2381행 표는 처음부터 hana-life 였다 — 이 줄만 어긋나 있었다.
+  { slug: 'hana-life', re: /하나원큐 슬기로운 금융생활/, backup: true },
   // 2026-09-10 수정 — 슬러그가 틀려 있었다.
   // 팁is팁의 "모니모 오늘의영어"는 모니모 '영어챌린지'(monimo-eng)이지
   // '모니스쿨 퀴즈'(monimo)가 아니다. 엉뚱한 슬러그로 들어가는 데다 backup 이라,
@@ -1600,7 +1606,7 @@ const TIP_REVIEWED = [
   /^신한페이판 출석퀴즈\]/,
   // 우리 kakaobank 는 AI 이모지 퀴즈다. OX퀴즈(혜택)는 별개 출제다.
   /카카오뱅크 OX퀴즈/,
-  // 우리 hana-onq 는 슬기로운 금융생활 OX다. 트래블미션·축구Play 는 별개다.
+  // 우리 hana-onq 는 퀴즈HANA(축구Play)다. 슬기로운 금융생활 OX 는 hana-life 로 간다. 트래블미션은 별개다.
   /하나원큐 트래블미션/,
   /하나원큐 \(오른쪽 하단/,
   // 우리 monimo 는 오늘의영어다. 모니스쿨 N교시는 별개 출제다.
@@ -1895,7 +1901,11 @@ function recordTombstone(today, slug, item, reason) {
 // momonara '2026년 9월 정답' 월간 정리글 존재). 9/13 감사가 '어제와 동일'로 지운 것은 오판이었다.
 // cashwalk: 광고 퀴즈가 여러 날 이어진다. 9/8~9/14 '픽스' 시리즈 10건이 매일 같은 지문·정답으로
 // 퀴즈벨에 실렸고 9/14 언론사(아주경제 '픽스 3in1 …' 기사)도 당일 퀴즈로 보도 — 어제와 같아도 오늘 것이다.
-const REPEAT_OK = new Set(['yes24', 'monimo', 'cashwalk']);
+// 2026-09-17 monimo 제외 — 모니스쿨은 매일 새 문제가 나오는데 소스가 퀴즈벨 하나뿐이라,
+// 퀴즈벨이 갱신을 안 한 날 어제 문제가 그대로 오늘 것으로 다시 저장됐다
+// (9/15~17 실측: '손톱에 나타나는 건강 이상 신호가 아닌 것은? = 분홍빛을 띠고 매끄럽다' 3일 연속).
+// 지문과 정답이 모두 같을 때만 막으므로, 진짜로 같은 문제가 이틀 연속 나오는 경우에만 손해다.
+const REPEAT_OK = new Set(['yes24', 'cashwalk']);
 
 function loadYesterdayKeys(today) {
   const d = new Date(`${today}T00:00:00Z`);
