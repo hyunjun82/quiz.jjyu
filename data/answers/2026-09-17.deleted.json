@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-17",
+  "deleted": {
+    "hana-onq": [
+      "하나원큐슬기로운금융생활ox퀴즈|x"
+    ]
+  },
+  "log": [
+    {
+      "slug": "hana-onq",
+      "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+      "answer": "X",
+      "reason": "슬러그 오배정 — 하나생명(hana-life) 퀴즈가 hana-onq 로 잘못 들어옴 (collect.mjs 1574행 수정)",
+      "at": "2026-09-17T13:27:13.290+09:00"
+    }
+  ]
+}
