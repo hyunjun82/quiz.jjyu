@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updatedAt": "2026-09-17T19:44:37.861+09:00",
+  "updatedAt": "2026-09-17T20:01:52.536+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -222,7 +222,15 @@
         "publishedAt": "2026-09-17T03:11:15.501+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 동원 20시 (포인트 추첨) (1회차)",
+        "answer": "저나트륨",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T20:01:52.536+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "이번 '보름달처럼 꽉 찬 혜택! 100% 당첨되는 랜덤뽑기'에 참여…(후략)",
@@ -543,6 +551,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-17T15:02:20.373+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시 (4회차)",
+        "answer": "O, X, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-17T20:01:52.536+09:00"
       }
     ],
     "moneywalk": [
