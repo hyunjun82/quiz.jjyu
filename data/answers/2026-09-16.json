@@ -582,13 +582,6 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-16T09:02:00.769+09:00"
-      },
-      {
-        "question": "[하림펫푸드 더리얼 퀴즈타임 11시] 더리얼 그레인프리 ㅇㅂ베이크드 사료는 국내 최초 ㅇㅂ 공법을 사용해서 만들었다.",
-        "answer": "오븐",
-        "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-09-16T11:01:32.769+09:00"
       }
     ],
     "bitbunny-ox": [
@@ -650,6 +643,15 @@
       }
     ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [],
+    "harim-real": [
+      {
+        "question": "[하림펫푸드 더리얼 퀴즈타임 11시] 더리얼 그레인프리 ㅇㅂ베이크드 사료는 국내 최초 ㅇㅂ 공법을 사용해서 만들었다.",
+        "answer": "오븐",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-16T11:01:32.769+09:00"
+      }
+    ]
   }
 }
