@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T00:01:31.851+09:00",
+  "updatedAt": "2026-09-18T00:02:06.101+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -53,7 +53,15 @@
     "syrup": [],
     "doctornow": [],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "채권의 듀레이션이 길수록 금리 변동에 따른 가격 변동폭이 대체로 커요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-18T00:02:06.101+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
