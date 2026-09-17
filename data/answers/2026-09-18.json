@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T00:02:42.918+09:00",
+  "updatedAt": "2026-09-18T00:03:17.706+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -34,7 +34,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보] Apple의 iPhone 18 Pro는 뛰어난 성능과 세련된 디자인으로 완성된 프리미엄 스마트폰입니다. 다음 중 이번 iPhone 18 Pro 라인업에 실제로 없는 컬러는 무엇일까요?",
+        "answer": "바이올렛",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-18T00:03:17.706+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO란, 정해진 기간만 일하기로 계약을 맺고 근무하는 고용 형태예요.",
