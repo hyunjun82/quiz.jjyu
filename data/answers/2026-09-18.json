@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T07:38:14.740+09:00",
+  "updatedAt": "2026-09-18T08:03:26.645+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,7 +43,15 @@
         "publishedAt": "2026-09-18T00:02:42.918+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "answer": "수하물",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-18T08:03:26.645+09:00"
+      }
+    ],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
