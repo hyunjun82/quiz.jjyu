@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T18:00:53.598+09:00",
+  "updatedAt": "2026-09-18T18:24:07.902+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -517,7 +517,15 @@
         "publishedAt": "2026-09-18T00:00:58.217+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 애플",
+        "answer": "이어팁",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-18T18:24:07.902+09:00"
+      }
+    ],
     "naverpay": [],
     "harim-real": [
       {
