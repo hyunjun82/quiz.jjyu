@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T00:16:45.407+09:00",
+  "updatedAt": "2026-09-19T01:56:34.022+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-19T00:03:11.623+09:00"
+      },
+      {
+        "question": "9월19일 현대 에이치 H포인트 퀴즈 정답 홈쇼핑 에피소드에서 소개된 알프스오토메 과일 품종",
+        "answer": "바이올렛",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T01:56:34.021+09:00"
       }
     ],
     "bitbunny": [
@@ -61,10 +68,41 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "SMRUN 26 클럽키트와 완주메달을 받을 수 있는 비대면 러닝대회 기간이 아닌 것은 언제일까요?",
+        "answer": "1. 10월 2일",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-19T01:56:34.021+09:00"
+      },
+      {
+        "question": "9월19일 KB스타뱅킹 스타퀴즈 정답 SMRUN 26 클럽키트 러닝대회 기간",
+        "answer": "10월 2일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T01:56:34.021+09:00"
+      }
+    ],
     "kbank": [],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "9월19일 하나은행 하나원큐 축구퀴즈 정답 호두과자와 독립기념관으로 유명한 충청남도 지역의팀",
+        "answer": "천안",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T01:56:34.021+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T01:56:34.022+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "손톱에 나타나는 건강 이상 신호가 아닌 것은?",
