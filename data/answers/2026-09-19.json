@@ -1,8 +1,23 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T00:04:57.749+09:00",
+  "updatedAt": "2026-09-19T00:16:45.407+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "쿠쿠 압력밥솥",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T00:16:45.407+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "닭볶음탕 or 칫솔살균기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T00:16:45.407+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
