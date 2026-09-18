@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T00:01:59.293+09:00",
+  "updatedAt": "2026-09-19T00:02:35.161+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -45,10 +45,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "노로바이러스는 사람에게 전염되지 않는다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-19T00:01:59.293+09:00"
       }
     ],
