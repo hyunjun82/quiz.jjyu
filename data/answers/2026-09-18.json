@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T11:05:10.702+09:00",
+  "updatedAt": "2026-09-18T12:23:17.984+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -190,6 +190,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-18T08:03:26.645+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "등기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-18T12:23:17.983+09:00"
       }
     ],
     "kakaobank-ox": [
