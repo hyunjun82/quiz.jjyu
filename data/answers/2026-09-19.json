@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T08:28:21.269+09:00",
+  "updatedAt": "2026-09-19T08:28:59.816+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -127,10 +127,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 모임통장에서는 모임 게시판, 쿠폰 선물하기, 경조사 송금 기능을 이용할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-19T01:56:34.022+09:00"
       }
     ],
