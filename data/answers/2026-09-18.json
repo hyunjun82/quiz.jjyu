@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T08:55:57.221+09:00",
+  "updatedAt": "2026-09-18T09:03:39.480+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -232,7 +232,15 @@
         "publishedAt": "2026-09-18T00:03:52.623+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-18T09:03:39.480+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "신체의 청결 관리가 잘 되면 욕창 예방에 도움이 된다?",
