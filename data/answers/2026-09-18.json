@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T10:02:14.444+09:00",
+  "updatedAt": "2026-09-18T10:02:52.856+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,6 +53,104 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-18T10:02:14.442+09:00"
+      },
+      {
+        "question": "잘 먹어도 예전만큼 힘이 안나는 이유? 비타민B가 부족해서에요! 푸드루트 비타민B로 스트레스 탈출!지금만 65%할인🔥추석전 배송 마감임박⏰ 푸드루트 활력비타민B는 비타민B군 O종을 1포에 담아 불필요한 첨가물은 최대한 배제하고 유럽산 DSM사 비타민B만 함유했습니다.물없이 언제 어디서나 간편하게 1포로 체력관리⚡여기서 O은? (힌트:숫자)",
+        "answer": "8",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-18T10:02:52.852+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채 (7회차)",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "신한은행 적금 9단 출시 (13회차)",
+        "answer": "20",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.854+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.855+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.855+09:00"
+      },
+      {
+        "question": "돈버는퀴즈 — 소휘 소화효소 (18회차)",
+        "answer": "15, 외부, 효소, 탄수화물",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.855+09:00"
+      },
+      {
+        "question": "푸드루트 활력비타민B (19회차)",
+        "answer": "8, DSM, 첨가물, 비타민",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T10:02:52.855+09:00"
       }
     ],
     "shinhan-sol": [
@@ -99,10 +197,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "내 소비 정보 분석 및 마트·편의점·다이소 등 일상생활 할인쿠폰이…(후략)",
         "answer": "1번 9,900원",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-09-18T10:01:36.173+09:00"
       }
     ],
