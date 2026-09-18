@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T09:03:39.480+09:00",
+  "updatedAt": "2026-09-18T09:22:35.475+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,7 +59,15 @@
         "publishedAt": "2026-09-18T08:03:26.645+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "아낌e 보금자리론 집 짓고 캐시받기 이벤트에 참여하면 100% 랜덤 캐시를 받을 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-18T09:22:35.475+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
