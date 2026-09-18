@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T00:00:47.574+09:00",
+  "updatedAt": "2026-09-19T00:01:24.727+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 인력 회사에 소속돼 실제로는 다른 회사에 가서 일하는 근로 형태예요.",
+        "answer": "파견근로",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-19T00:01:24.727+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -42,7 +50,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "내 마음에 진짜 필요한 책 속 단어는?",
+        "answer": "자기돌봄",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-19T00:01:24.727+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
