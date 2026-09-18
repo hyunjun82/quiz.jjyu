@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T08:30:12.309+09:00",
+  "updatedAt": "2026-09-19T08:30:51.223+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,7 +51,15 @@
         "publishedAt": "2026-09-19T08:07:09.113+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "아낌e 보금자리론은 친구를 초대하면 내집마련 지원금을 더 많이 받을 수 있다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-19T08:30:51.222+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
