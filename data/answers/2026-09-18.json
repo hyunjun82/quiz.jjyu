@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T20:24:04.374+09:00",
+  "updatedAt": "2026-09-18T21:01:19.945+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-09-18T10:17:15.426+09:00"
+      },
+      {
+        "question": "소휘 고농축 애사비 구미 (21회차)",
+        "answer": "24900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T21:01:19.940+09:00"
       }
     ],
     "shinhan-sol": [
