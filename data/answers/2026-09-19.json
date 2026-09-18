@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T01:56:34.022+09:00",
+  "updatedAt": "2026-09-19T03:50:56.264+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "9월 한 달간 공차 매장에서 슈퍼SOL로 1만원 이상 결제 시 받을 수 있는 혜택은?",
         "answer": "5,000 포인트 적립",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-19T00:04:57.749+09:00"
       },
       {
@@ -66,7 +66,15 @@
         "publishedAt": "2026-09-19T00:01:24.727+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "머니건을 쏘면 □□□□□ 포인트 최대 3만P까지 받을 수 있어요!",
+        "answer": "카카오페이",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-19T03:50:56.263+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
