@@ -1,10 +1,25 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T00:04:22.614+09:00",
+  "updatedAt": "2026-09-19T00:04:57.749+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "5,000 포인트 적립",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T00:04:57.749+09:00"
+      },
+      {
+        "question": "최근 롯데 자이언츠는 투수 엘빈 로드리게스 선수의 고향인 이 국가의 문화와 전통을 알리는 인터내셔널데이 행사를 치렀습니다. 로드리게스 선수의 모국은 어느 나라일까요?",
+        "answer": "도미니카공화국",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T00:04:57.749+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
