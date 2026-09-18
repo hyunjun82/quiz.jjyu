@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T03:50:56.264+09:00",
+  "updatedAt": "2026-09-19T07:15:28.107+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -122,7 +122,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "오래 앉아 있으면 허리 통증이 생길 가능성이 높아진다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-19T07:15:28.107+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
