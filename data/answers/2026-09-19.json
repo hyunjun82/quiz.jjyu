@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T00:01:24.727+09:00",
+  "updatedAt": "2026-09-19T00:01:59.293+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -43,10 +43,26 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T00:01:59.293+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "IPO로 상장되는 모든 주식은 상장 첫날부터 아무 제한 없이 팔 수 있어요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-19T00:01:59.292+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
