@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T10:04:15.024+09:00",
+  "updatedAt": "2026-09-18T10:17:15.430+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-18T10:02:52.855+09:00"
+      },
+      {
+        "question": "유럽산 DSM사 OOOB만 함유했습니다.물없이 언제 어디서나 간편하게 1포로 체력관리여기서 OOO은? (힌트:ㅂㅌㅁ)",
+        "answer": "비타민 / 8 / 첨가물 / DSM",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-18T10:17:15.426+09:00"
       }
     ],
     "shinhan-sol": [
