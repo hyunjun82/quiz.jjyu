@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T10:00:45.627+09:00",
+  "updatedAt": "2026-09-18T10:01:36.173+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "1번 9,900원",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-18T10:01:36.173+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -215,7 +223,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-18T10:01:36.173+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
