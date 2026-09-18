@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T07:15:28.107+09:00",
+  "updatedAt": "2026-09-19T07:58:27.399+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,7 +92,15 @@
         "publishedAt": "2026-09-19T01:56:34.021+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "4번 핑크구아바",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T07:58:27.398+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "9월19일 하나은행 하나원큐 축구퀴즈 정답 호두과자와 독립기념관으로 유명한 충청남도 지역의팀",
@@ -120,7 +128,15 @@
         "publishedAt": "2026-09-19T00:00:47.574+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Sorry/something, tied/up, plans/going",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T07:58:27.398+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
