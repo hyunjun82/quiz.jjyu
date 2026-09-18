@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updatedAt": "2026-09-18T15:03:06.154+09:00",
+  "updatedAt": "2026-09-18T16:57:16.066+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -197,6 +197,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-18T12:23:17.983+09:00"
+      },
+      {
+        "question": "OX 퀴즈 9/18 (3회차)",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T16:57:16.063+09:00"
       }
     ],
     "kakaobank-ox": [
@@ -260,6 +267,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-18T13:35:56.256+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈 9월18일정답 머니건을 쏘면 모두가 받는 포인트 최대3만P",
+        "answer": "카카오페이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T16:57:16.063+09:00"
       }
     ],
     "nh-allone": [
@@ -285,6 +299,20 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-18T01:56:36.437+09:00"
+      },
+      {
+        "question": "9월18일 KB스타뱅킹 스타퀴즈 정답 (3회차)",
+        "answer": "4. 100%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T16:57:16.063+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 (4회차)",
+        "answer": "9,900원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T16:57:16.063+09:00"
       }
     ],
     "kbank": [
@@ -310,6 +338,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-18T09:30:10.827+09:00"
+      },
+      {
+        "question": "슬기로운 금융생활 OX퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T16:57:16.064+09:00"
       }
     ],
     "hana-life": [
@@ -339,7 +374,22 @@
         "publishedAt": "2026-09-18T07:38:14.740+09:00"
       }
     ],
-    "paybooc": [],
+    "paybooc": [
+      {
+        "question": "페이북 미션 사이트보기 40원",
+        "answer": "(전체에서도 4개가 보이나, 간혹 안보일때가 있어서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T16:57:16.064+09:00"
+      },
+      {
+        "question": "사신키우기2 최초접속 180원",
+        "answer": "Tip... 게스트로그인>>닉네임생성 창만 떠있는상태로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-18T16:57:16.064+09:00"
+      }
+    ],
     "mydoctor": [
       {
         "question": "치주염 치료를 잘 받으면 이미 녹은 잇몸뼈도 원래대로 차오른다",
