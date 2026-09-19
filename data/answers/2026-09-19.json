@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T12:02:00.172+09:00",
+  "updatedAt": "2026-09-19T12:04:04.845+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -183,6 +183,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-19T12:02:00.172+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (3회차)",
+        "answer": "귀중품",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T12:04:04.844+09:00"
       }
     ],
     "kakaobank-ox": [
