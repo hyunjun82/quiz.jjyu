@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T08:34:01.634+09:00",
+  "updatedAt": "2026-09-19T10:03:49.281+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -18,7 +18,127 @@
         "publishedAt": "2026-09-19T00:16:45.407+09:00"
       }
     ],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "배달의민족 OO할인에서는 60계치킨, 배스킨라빈스, 처갓집양념치킨 등 10개 이상의 브랜드 할인 쿠폰을 드려요 🎁✨ (힌트 : 초성 ㅂㅉ, 이벤트 페이지에서 확인할 수 있어요👀)",
+        "answer": "배짱",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-19T10:03:49.275+09:00"
+      },
+      {
+        "question": "배달의민족 배짱할인에서는 60계치킨, OOO라빈스, 처갓집양념치킨 등 10개 이상의 브랜드 할인 쿠폰을 드려요 🎁✨ (힌트 : 초성 ㅂㅅㅋ, 이벤트 페이지에서 확인할 수 있어요👀)",
+        "answer": "배스킨 처갓집 배짱",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.275+09:00"
+      },
+      {
+        "question": "배달의민족 배짱할인에서는 60계치킨, 배스킨라빈스, OOO양념치킨 등 10개 이상의 브랜드 할인 쿠폰을 드려요 🎁✨ (힌트 : 초성 ㅊㄱㅈ, 이벤트 페이지에서 확인할 수 있어요👀)",
+        "answer": "처갓집",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-19T10:03:49.275+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채 (4회차)",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.277+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.277+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.277+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.277+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.277+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.277+09:00"
+      },
+      {
+        "question": "신한은행 적금 9단 출시 (10회차)",
+        "answer": "20",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.278+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.278+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.278+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.278+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.278+09:00"
+      },
+      {
+        "question": "키토선생 추석세일 마지막 혜택 선착순 할인쿠폰",
+        "answer": "10",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.279+09:00"
+      },
+      {
+        "question": "푸드루트 활력비타민B (16회차)",
+        "answer": "8, DSM, 첨가물, 비타민",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.279+09:00"
+      },
+      {
+        "question": "배달의민족 배민 배짱할인 배스킨라빈스 선착순 쿠폰",
+        "answer": "배짱, 배스킨, 처갓집",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.279+09:00"
+      }
+    ],
     "shinhan-sol": [
       {
         "question": "9월 한 달간 공차 매장에서 슈퍼SOL로 1만원 이상 결제 시 받을 수 있는 혜택은?",
@@ -121,6 +241,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-19T01:56:34.021+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 (3회차)",
+        "answer": "500명",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T10:03:49.280+09:00"
       }
     ],
     "kbank": [
