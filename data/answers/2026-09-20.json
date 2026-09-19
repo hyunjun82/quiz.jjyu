@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T07:18:03.360+09:00",
+  "updatedAt": "2026-09-20T08:05:19.795+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -35,7 +35,15 @@
         "publishedAt": "2026-09-20T01:03:56.934+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "드립커피",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T08:05:19.794+09:00"
+      }
+    ],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
