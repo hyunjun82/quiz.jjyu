@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T19:04:31.865+09:00",
+  "updatedAt": "2026-09-19T19:05:09.909+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -566,7 +566,15 @@
         "publishedAt": "2026-09-19T00:01:24.727+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 나랑드 사이다",
+        "answer": "청량함",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T19:05:09.904+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
