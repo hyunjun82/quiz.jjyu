@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T03:34:13.340+09:00",
+  "updatedAt": "2026-09-20T07:18:03.360+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -149,9 +149,25 @@
         "publishedAt": "2026-09-20T01:03:56.934+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "pay/cash, cash/acceptable, change/large",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-20T07:18:03.359+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "계란 노른자는 항상 콜레스테롤 수치를 높인다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-20T07:18:03.358+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
