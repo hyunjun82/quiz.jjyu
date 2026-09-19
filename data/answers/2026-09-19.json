@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T20:54:42.693+09:00",
+  "updatedAt": "2026-09-19T20:55:20.305+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -176,6 +176,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-19T12:04:04.844+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (4회차)",
+        "answer": "마술쇼",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T20:55:20.297+09:00"
       }
     ],
     "kakaobank-ox": [
