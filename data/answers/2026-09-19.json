@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T10:03:49.281+09:00",
+  "updatedAt": "2026-09-19T10:04:00.366+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -181,7 +181,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "'나고야에 응원의 함성을!' 이벤트에서 배달의민족 5만원 모바일 상품권 당첨 인원은 몇 명일까요?",
+        "answer": "500명",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-19T10:04:00.362+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
