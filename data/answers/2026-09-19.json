@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updatedAt": "2026-09-19T10:04:00.366+09:00",
+  "updatedAt": "2026-09-19T10:05:16.778+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-19T00:16:45.407+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "닭볶음탕",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T10:05:16.777+09:00"
       }
     ],
     "cashwalk": [
@@ -180,7 +187,15 @@
         "publishedAt": "2026-09-19T08:30:51.222+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 운세툰 (1회차)",
+        "answer": "무제한",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T10:05:16.778+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "'나고야에 응원의 함성을!' 이벤트에서 배달의민족 5만원 모바일 상품권 당첨 인원은 몇 명일까요?",
@@ -328,7 +343,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-19T10:05:16.778+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
