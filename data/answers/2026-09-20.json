@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T01:03:56.936+09:00",
+  "updatedAt": "2026-09-20T01:59:33.001+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -47,6 +47,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-20T01:03:56.934+09:00"
+      },
+      {
+        "question": "2025년 기준 우리나라의 신·재생에너지 발전비율은 전체의 20% 수준이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T01:59:32.999+09:00"
       }
     ],
     "hpoint": [
@@ -90,8 +97,31 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
-    "kbank": [],
+    "kb-star": [
+      {
+        "question": "통장 속 여유자금을 하루만 맡겨도 이자를 얻을 수 있는 상품으로 틀린 것은 무엇일까요?",
+        "answer": "TDF",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-20T01:59:32.999+09:00"
+      },
+      {
+        "question": "9월20일 KB스타뱅킹 스타퀴즈 정답 (2회차)",
+        "answer": "4. TDF",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T01:59:32.999+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "그레셤의 법칙",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T01:59:32.999+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "9월20일 하나은행 하나원큐 축구퀴즈 정답",
