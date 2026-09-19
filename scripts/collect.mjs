@@ -2492,6 +2492,177 @@ function applySubsplit(item) {
   return item;
 }
 
+/**
+ * 빈칸 여러 개짜리 광고 퀴즈가 한 문제인데 여러 줄로 갈라지는 것을 합친다.
+ *
+ * ── 왜 필요한가 (2026-09-19 사장님 지적) ──────────────────────────
+ * 캐시워크 광고 퀴즈는 한 지문에 빈칸이 2~4개다. 소스마다 '뚫는 빈칸'이 달라서
+ * 같은 문제가 이렇게 들어온다(9/19 실측):
+ *   "배달의민족 OO할인에서는 60계치킨, 배스킨라빈스, 처갓집양념치킨…"  = 배짱
+ *   "배달의민족 배짱할인에서는 60계치킨, OOO라빈스, 처갓집양념치킨…"   = 배스킨
+ *   "배달의민족 배짱할인에서는 60계치킨, 배스킨라빈스, OOO양념치킨…"   = 처갓집
+ *   "배민 배짱할인 배스킨라빈스 선착순 쿠폰"                          = 배짱, 배스킨, 처갓집
+ * 지문 글자가 서로 달라서 기존 중복 판정(완전일치)을 그대로 빠져나간다.
+ * 정답이 틀린 건 아니지만 한 문제가 페이지에 네 줄로 보인다. 9/17 '소휘 효소'는
+ * 다섯 줄이었다.
+ *
+ * ── 판정 기준 ────────────────────────────────────────────────────
+ * 같은 퀴즈 안에서 (1) 한쪽 이상에 빈칸 표시(OO·○○·□□·__)가 있고
+ * (2) 지문 2글자 조각 유사도(Dice)가 0.90 이상이면 같은 문제로 본다.
+ * 2026년 8~9월 전체 데이터로 검증: 오탐 0건, 112줄이 합쳐졌다.
+ * 0.85 로 낮추면 표기만 다른 쌍까지 걸려 이득이 없어 0.90 으로 둔다.
+ *
+ * ── 합칠 때 ─────────────────────────────────────────────────────
+ * 지문은 가장 긴 것(정보가 가장 많은 것)을 남기고, 정답은 모든 줄의 낱낱을
+ * 순서대로 합친다. 부분 정답만 남기면 오히려 손해이므로 반드시 합집합이다.
+ * (isFullerAnswer 는 '앞부분이 같을 때'만 갈아끼우므로 이 경우를 못 잡는다.)
+ */
+const BLANK_MARK = /(?:[Oo○ㅇ□ㅁ_]){2,}/;
+
+function qBigrams(s) {
+  const m = new Map();
+  for (let i = 0; i < s.length - 1; i += 1) {
+    const g = s.slice(i, i + 2);
+    m.set(g, (m.get(g) || 0) + 1);
+  }
+  return m;
+}
+
+function qSimilarity(a, b) {
+  if (!a.length || !b.length) return 0;
+  const A = qBigrams(a);
+  const B = qBigrams(b);
+  let inter = 0;
+  let ta = 0;
+  let tb = 0;
+  for (const v of A.values()) ta += v;
+  for (const v of B.values()) tb += v;
+  for (const [g, v] of A) if (B.has(g)) inter += Math.min(v, B.get(g));
+  return (2 * inter) / (ta + tb);
+}
+
+function isBlankVariant(qa, qb) {
+  if (!qa || !qb) return false;
+  if (!BLANK_MARK.test(qa) && !BLANK_MARK.test(qb)) return false;
+  const n = (s) => String(s).replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+  const a = n(qa);
+  const b = n(qb);
+  if (!a || !b || a === b) return false;
+  if (a.length < 20 || b.length < 20) return false; // 짧은 지문은 우연히 닮는다
+  return qSimilarity(a, b) >= 0.9;
+}
+
+/** 정답 문자열을 낱낱으로 쪼갠다("탄수화물 / 외부 / 15" → [탄수화물, 외부, 15]). */
+function answerParts(a) {
+  return String(a || '')
+    .split(/\s*[,/·]\s*/)
+    .map((x) => x.trim())
+    .filter(Boolean);
+}
+
+/**
+ * 합친 정답 낱낱을 다듬는다. 세 가지를 정리한다.
+ *  1) 소스 하나가 여러 빈칸의 답을 띄어쓰기로 붙여 주는 경우("배스킨 처갓집 배짱").
+ *     그 낱말 중 하나라도 따로 들어와 있으면 붙여 쓴 것이니 낱말로 쪼갠다.
+ *  2) 같은 값이 두 번.
+ *  3) 표기만 다른 같은 값("20" 과 "② 20일" 과 "2. 20"). 정규화해서 앞부분이 같으면
+ *     긴 쪽만 남긴다 — KB 스타뱅킹이 소스마다 번호 표기를 달리 준다(9/10 실측).
+ */
+function tidyParts(parts) {
+  const standalone = new Set(parts.filter((p) => !/\s/.test(p)));
+  const flat = [];
+  for (const p of parts) {
+    const words = p.split(/\s+/).filter(Boolean);
+    if (words.length > 1 && words.some((w) => standalone.has(w))) flat.push(...words);
+    else flat.push(p);
+  }
+  const clean = (x) => normalize(String(x).replace(/^\s*\d{1,2}\s*[.)]\s*/, ''));
+  const out = [];
+  for (const p of flat) {
+    const c = clean(p);
+    if (!c) continue;
+    const hit = out.findIndex((q) => {
+      const d = clean(q);
+      return d === c || (Math.min(d.length, c.length) >= 2 && (d.startsWith(c) || c.startsWith(d)));
+    });
+    if (hit === -1) out.push(p);
+    else if (clean(p).length > clean(out[hit]).length) out[hit] = p; // 더 긴 표기를 남긴다
+  }
+  return out;
+}
+
+/**
+ * 정답 낱낱의 집합이 같은가(순서 무시).
+ * 소스가 지문을 짧게 줄여 보내면 지문 유사도로는 못 잡고 정답 집합으로만 알아본다.
+ * 다만 "1, 2" 나 "O, X" 처럼 흔한 값끼리는 서로 다른 문제가 우연히 같아질 수 있어,
+ * 두 글자 이상이고 숫자만도 O/X 도 아닌 낱낱이 2개 이상일 때만 인정한다.
+ */
+function sameAnswerSet(a, b) {
+  const A = tidyParts(answerParts(a));
+  const B = tidyParts(answerParts(b));
+  if (A.length < 2 || A.length !== B.length) return false;
+  const meaty = A.filter((x) => x.length >= 2 && !/^\d+$/.test(x) && !/^[OXox○Xx]$/.test(x));
+  if (meaty.length < 2) return false;
+  return [...A].sort().join('|') === [...B].sort().join('|');
+}
+
+/**
+ * 한 퀴즈의 배열에서 빈칸 변형들을 한 줄로 합친다. 합친 줄 수를 돌려준다.
+ * 같은 문제로 보는 두 경우:
+ *   ① 지문이 빈칸 위치만 다르고 0.9 이상 닮았다 (isBlankVariant)
+ *   ② 정답 낱낱의 집합이 완전히 같다 (소스가 지문을 짧게 줄여 보낸 경우)
+ * 먼저 무리를 다 지은 뒤 한 번에 합친다 — 두 줄씩 붙이면 합치는 순서에 따라
+ * "배스킨 처갓집 배짱" 같은 붙여쓴 정답이 군더더기로 남는다(9/19 실측).
+ */
+function mergeBlankVariants(arr) {
+  // 한 바퀴로는 덜 합쳐진다. 합치고 나서야 정답 집합이 같아지는 무리가 있다
+  // (9/18 캐시워크 비타민B: 낱낱 4줄이 먼저 뭉친 뒤에야 짧은 지문 줄과 같아진다).
+  let total = 0;
+  for (let pass = 0; pass < 3; pass += 1) {
+    const got = mergeBlankVariantsOnce(arr);
+    total += got;
+    if (!got) break;
+  }
+  return total;
+}
+
+function mergeBlankVariantsOnce(arr) {
+  const n = arr.length;
+  const group = arr.map((_, i) => i);
+  const find = (x) => (group[x] === x ? x : (group[x] = find(group[x])));
+  for (let i = 0; i < n; i += 1) {
+    for (let j = i + 1; j < n; j += 1) {
+      if (find(i) === find(j)) continue;
+      if (isBlankVariant(arr[i].question, arr[j].question) || sameAnswerSet(arr[i].answer, arr[j].answer))
+        group[find(j)] = find(i);
+    }
+  }
+  const buckets = new Map();
+  for (let i = 0; i < n; i += 1) {
+    const r = find(i);
+    if (!buckets.has(r)) buckets.set(r, []);
+    buckets.get(r).push(i);
+  }
+  const out = [];
+  let merged = 0;
+  for (const idxs of buckets.values()) {
+    const rows = idxs.map((i) => arr[i]);
+    if (rows.length === 1) {
+      out.push(rows[0]);
+      continue;
+    }
+    merged += rows.length - 1;
+    const parts = tidyParts(rows.flatMap((r) => answerParts(r.answer)));
+    const keep = rows.reduce((best, r) =>
+      String(r.question || '').length > String(best.question || '').length ? r : best);
+    keep.answer = parts.join(', ');
+    out.push(keep);
+  }
+  arr.length = 0;
+  arr.push(...out);
+  return merged;
+}
+
 async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
@@ -2625,7 +2796,14 @@ async function collectOnce() {
     bySlug[f.slug] = (bySlug[f.slug] || 0) + 1;
   }
 
-  if (added > 0 || upgraded > 0) {
+  // 빈칸 변형이 여러 줄로 갈라진 것을 한 줄로 합친다(캐시워크 다중빈칸 광고 퀴즈).
+  let mergedRows = 0;
+  for (const arr of Object.values(existing.answers)) {
+    if (Array.isArray(arr) && arr.length > 1) mergedRows += mergeBlankVariants(arr);
+  }
+  if (mergedRows > 0) console.log(`빈칸 변형 병합 ${mergedRows}줄`);
+
+  if (added > 0 || upgraded > 0 || mergedRows > 0) {
     existing.updatedAt = kstStamp();
     fs.mkdirSync(ANSWERS_DIR, { recursive: true });
     fs.writeFileSync(fileFor(today), JSON.stringify(existing, null, 2));
