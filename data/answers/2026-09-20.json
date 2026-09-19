@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T01:59:33.001+09:00",
+  "updatedAt": "2026-09-20T03:34:13.340+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "이벤트 마감 임박! 새로워진 신한 슈퍼SOL을 설치한 고객 대상으로 추첨을 통해 다이슨 슈퍼소닉 O을 드려요. O에 해당하는 알파벳은?",
         "answer": "r",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-20T01:03:56.933+09:00"
       },
       {
