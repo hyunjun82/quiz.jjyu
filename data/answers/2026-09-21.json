@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T08:20:52.591+09:00",
+  "updatedAt": "2026-09-21T08:31:13.240+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T00:03:47.473+09:00"
+      },
+      {
+        "question": "부족한 영양성분을 분석할 수 있는 서비스는 무엇일까요?",
+        "answer": "AI영양분석",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-21T08:31:13.239+09:00"
       }
     ],
     "kakaobank": [
