@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T00:01:21.798+09:00",
+  "updatedAt": "2026-09-21T00:01:57.068+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -54,7 +54,15 @@
     "doctornow": [],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "스팩(SPAC)은 이미 활발히 운영 중인 사업체가 추가 자금을 모으기 위해 상장하는 회사예요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-21T00:01:57.068+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
