@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T00:03:11.761+09:00",
+  "updatedAt": "2026-09-21T00:03:47.473+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-09-21T00:00:42.985+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "월",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T00:03:47.473+09:00"
+      },
+      {
+        "question": "오늘 오후 2시 2026 KBO 리그 신인 드래프트가 열립니다. 신인 드래프트 1순위로 지명될 가능성이 가장 높은 허현승 선수는 현재 어느 고등학교에 재학 중일까요?",
+        "answer": "부산고등학교",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T00:03:47.473+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -38,7 +53,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "9월21일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "솔잎",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T00:03:47.473+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
