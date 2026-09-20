@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T08:35:54.787+09:00",
+  "updatedAt": "2026-09-21T08:36:37.047+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,10 +151,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나은행으로 군 급여를 이체받으면 현금 5만원을 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-21T06:57:00.613+09:00"
       }
     ],
