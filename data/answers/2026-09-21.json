@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T02:20:33.592+09:00",
+  "updatedAt": "2026-09-21T05:17:47.007+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,10 +29,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "O요일에는 CU에서 슈퍼 SOL 결제로 get 아이스아메리카노XL를 단돈 100원에 마실 수 있어요! O에 해당하는 요일은 언제일까요?",
         "answer": "월",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-21T00:03:47.473+09:00"
       },
       {
