@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T00:01:57.068+09:00",
+  "updatedAt": "2026-09-21T00:02:32.936+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -51,7 +51,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "방광염 원인균의 80% 이상은 대장균이다",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-21T00:02:32.936+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "bitbunny-ox": [
