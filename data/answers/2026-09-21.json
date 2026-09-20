@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T08:31:13.240+09:00",
+  "updatedAt": "2026-09-21T08:33:51.345+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,7 +59,15 @@
         "publishedAt": "2026-09-21T08:03:06.054+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "아낌e 보금자리론 집 짓고 캐시받기 이벤트는 집을 계속 만들 수 있다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-21T08:33:51.344+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
