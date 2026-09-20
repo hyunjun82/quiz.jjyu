@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T10:18:00.978+09:00",
+  "updatedAt": "2026-09-20T10:18:41.321+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -155,10 +155,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 9월20일",
+        "question": "KB Pay 여행의 유심사에서 제공하는 해외데이터 30% 할인 방식은 무엇일까요?",
         "answer": "즉시 할인",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-09-20T10:04:08.849+09:00"
       }
     ],
