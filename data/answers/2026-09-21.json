@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T06:57:00.614+09:00",
+  "updatedAt": "2026-09-21T07:57:59.271+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -154,6 +154,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T02:17:09.545+09:00"
+      },
+      {
+        "question": "정기적인 스트레칭은 근육 피로를 줄이는 데 도움을 준다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-21T07:57:59.270+09:00"
       }
     ],
     "skstoa": [],
