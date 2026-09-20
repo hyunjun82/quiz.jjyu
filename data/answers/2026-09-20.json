@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T10:07:13.912+09:00",
+  "updatedAt": "2026-09-20T10:10:59.480+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -125,6 +125,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-20T01:03:56.934+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL에서는 주식 모으기(정기투자) 기능이 있다",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-20T10:10:59.475+09:00"
       }
     ],
     "kakaobank": [
