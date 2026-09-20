@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T10:02:54.112+09:00",
+  "updatedAt": "2026-09-20T10:04:08.856+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -138,7 +138,15 @@
     ],
     "kakaobank-ox": [],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 9월20일",
+        "answer": "즉시 할인",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-20T10:04:08.849+09:00"
+      }
+    ],
     "cashdoc": [
       {
         "question": "이번주만 인기템 1+1 (1회차)",
