@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T11:03:21.360+09:00",
+  "updatedAt": "2026-09-20T12:04:54.093+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -141,6 +141,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-20T08:05:19.794+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "회전초밥",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T12:04:54.090+09:00"
       }
     ],
     "kakaobank-ox": [
