@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T10:00:25.587+09:00",
+  "updatedAt": "2026-09-20T10:02:54.112+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -25,6 +25,90 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-20T10:00:25.586+09:00"
+      },
+      {
+        "question": "픽스 트랩 전기 파리 모기채 (2회차)",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "신한은행 적금 9단 출시 (8회차)",
+        "answer": "20",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
+      },
+      {
+        "question": "배달의민족 배민 배짱할인 배스킨라빈스 선착순 쿠폰",
+        "answer": "배짱, 배스킨, 처갓집",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.106+09:00"
       }
     ],
     "shinhan-sol": [
@@ -55,7 +139,99 @@
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "이번주만 인기템 1+1 (1회차)",
+        "answer": "식후, 소비톨, 인위적, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.107+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더 (2회차)",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.107+09:00"
+      },
+      {
+        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.107+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독 (4회차)",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.107+09:00"
+      },
+      {
+        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.107+09:00"
+      },
+      {
+        "question": "리비힐 추석 선물대전 엑소좀 샘플 쇼핑백 증정",
+        "answer": "고영양, 줄기세포, 안티에이징",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.107+09:00"
+      },
+      {
+        "question": "컷슬린 안티스파이크 포 다이어트 추석 GIFT",
+        "answer": "혈당, 체지방, 다이어트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.107+09:00"
+      },
+      {
+        "question": "멜라듀스 미백앰플 할인 멜라듀스 브라이트닝 솔루션",
+        "answer": "탄력, 수분광, 홈케어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.108+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 앰플 두피 밸런스 케어",
+        "answer": "모발, 롤온, 탈모",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.108+09:00"
+      },
+      {
+        "question": "페르니 메디테이션 향기로운 탈모케어",
+        "answer": "독일산, 녹나무잎, 하수오뿌리, 유해성분무첨가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.108+09:00"
+      },
+      {
+        "question": "일상미당 콩쑥개떡 우리가족 최애 간식",
+        "answer": "송편, 국내산, 해풍쑥, 해썹인증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.108+09:00"
+      },
+      {
+        "question": "소비자24 24시 열린 소비자 포털",
+        "answer": "비교공감",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.108+09:00"
+      },
+      {
+        "question": "동국제약 브랜드데이 마데카 메디패치",
+        "answer": "아크큐",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.108+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "기후행동 기회소득 9월 20일 오늘의 퀴즈 문제",
@@ -127,6 +303,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-20T01:59:32.999+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 (3회차)",
+        "answer": "즉시 할인",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T10:02:54.108+09:00"
       }
     ],
     "kbank": [
