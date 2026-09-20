@@ -1,8 +1,23 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T00:09:54.348+09:00",
+  "updatedAt": "2026-09-21T02:17:09.546+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "자녀",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-21T02:17:09.546+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "부모님",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-21T02:17:09.546+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "로코초코 프로틴볼은 설탕 대신 천연감미료를 사용해 달콤한 맛은 그대로 O OO은 최소로 낮췄어요. 속세 초코맛은 그대로, 건강하게 즐겨요! 추석 특가와 선착순 할인 쿠폰은 9/22 (화) 23:59 종료됩니다. OOO은 무엇일까요? (힌트:ㄷㅂㄷ)",
@@ -33,7 +48,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "빗물받이에 무심코 버린 담배꽁초가 하수구를 막아 폭우 시 위험한 상황이 올 수 있지만 해양생태계에는 아무런 영향을 끼치지 않는다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T02:17:09.545+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] 세계적인 럭셔리 호텔과 함께 단풍이 가장 아름다운 계절을 만끽할 수 있는 일본 여행을 제안합니다.더현대Hi에서 제안하는 가을 일본 여행 상품을 통해 품격있는 가을을 가볍게 다녀오실 수 있습니다. 다음 중 가을에 가기 좋은 일본 럭셔리 호텔이 아닌 것은 무엇일까요?",
@@ -69,9 +92,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T00:09:54.348+09:00"
+      },
+      {
+        "question": "KB Pay 바로할인 서비스의 설명으로 틀린 것은 무엇일까요?",
+        "answer": "실물카드 필수",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-21T02:17:09.545+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "커피 원두를 볶아 특유의 향과 맛을 내는 과정은?",
+        "answer": "로스팅",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T02:17:09.545+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "9월21일 하나은행 하나원큐 축구퀴즈 정답",
@@ -93,7 +131,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "커피는 요산 수치를 높이기 때문에 통풍이 있으면 피해야 한다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T02:17:09.545+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
@@ -118,7 +164,15 @@
         "publishedAt": "2026-09-21T00:01:57.068+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "X, 1, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-21T02:17:09.546+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [
       {
