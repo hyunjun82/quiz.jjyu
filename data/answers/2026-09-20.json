@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updatedAt": "2026-09-20T10:10:59.480+09:00",
+  "updatedAt": "2026-09-20T10:12:16.331+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -347,10 +347,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나은행에서 진행중인 혜택가득 이벤트를 놀이터에서 확인할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-20T01:03:56.934+09:00"
       }
     ],
