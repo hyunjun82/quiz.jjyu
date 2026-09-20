@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T00:03:47.473+09:00",
+  "updatedAt": "2026-09-21T00:04:23.303+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -104,7 +104,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "치매에는 알츠하이머병으로 인해 발생하는 질환이다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-21T00:04:23.303+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "4년 연속 베스트셀러 시리즈의 첫 번째 책 제목은?",
