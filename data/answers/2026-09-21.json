@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T21:03:24.606+09:00",
+  "updatedAt": "2026-09-21T21:04:09.123+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -338,6 +338,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T20:03:14.291+09:00"
+      },
+      {
+        "question": "G라이브 삼성 갤럭시 탭 (6회차)",
+        "answer": "연중",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T21:04:09.110+09:00"
       }
     ],
     "climate-action": [
