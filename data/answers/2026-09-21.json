@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T21:00:36.091+09:00",
+  "updatedAt": "2026-09-21T21:01:16.105+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -221,6 +221,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-21T18:34:33.004+09:00"
+      },
+      {
+        "question": "산과들에 달콤든든 간식 맛밤",
+        "answer": "7300",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T21:01:16.091+09:00"
       }
     ],
     "shinhan-sol": [
