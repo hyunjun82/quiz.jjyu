@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T10:05:20.895+09:00",
+  "updatedAt": "2026-09-21T10:07:33.054+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T10:05:20.885+09:00"
+      },
+      {
+        "question": "추석 단기알바는 알바몬 (4회차)",
+        "answer": "전통시장, 일하는기간, 매장단기알바",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T10:07:33.048+09:00"
       }
     ],
     "cashwalk": [
