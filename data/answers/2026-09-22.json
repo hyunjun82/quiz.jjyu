@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T00:01:28.606+09:00",
+  "updatedAt": "2026-09-22T00:02:05.473+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -61,7 +61,15 @@
     "doctornow": [],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "물적분할을 하면 신설 회사의 지분을 기존 회사가 아니라 기존 주주들이 직접 나눠 받아요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-22T00:02:05.473+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
