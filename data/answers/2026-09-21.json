@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T14:02:39.054+09:00",
+  "updatedAt": "2026-09-21T14:16:15.716+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -315,10 +315,10 @@
     ],
     "nh-allone": [
       {
-        "question": "9월21일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "추석에 먹는 대표적인 음식인 송편을 전통적으로 찔 때 함께 넣는 것은 무엇일까요?",
         "answer": "솔잎",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-21T00:03:47.473+09:00"
       },
       {
@@ -343,6 +343,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T10:05:20.887+09:00"
+      },
+      {
+        "question": "동학 농민 운동 중에 있었던 사실로 옳은 것은?",
+        "answer": "① 전주 화약이 체결되었다",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-21T14:16:15.712+09:00"
       }
     ],
     "kbank": [
