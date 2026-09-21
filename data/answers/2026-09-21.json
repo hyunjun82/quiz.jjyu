@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T13:15:51.367+09:00",
+  "updatedAt": "2026-09-21T14:01:15.062+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -268,6 +268,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T10:05:20.887+09:00"
+      },
+      {
+        "question": "용돈퀴즈 — 소비자24 (4회차)",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T14:01:15.059+09:00"
       }
     ],
     "climate-action": [
