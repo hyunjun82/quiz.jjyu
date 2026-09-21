@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T21:19:27.545+09:00",
+  "updatedAt": "2026-09-21T21:22:07.238+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -209,13 +209,6 @@
         "publishedAt": "2026-09-21T18:34:33.002+09:00"
       },
       {
-        "question": "우리금융 다함께 페스타는 10월 O일부터 진행된다. O에 들어갈 숫자는?",
-        "answer": "1, 알림, 만원, 다함께, 페스타",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-09-21T18:34:33.003+09:00"
-      },
-      {
         "question": "마블워크는 걷기, 000 굴리기, 다양한 콘텐츠를 통해 리워드를 받을 수 있는 신개념 앱테크 서비스입니다. 000는 무엇일까요? (초성퀴즈: ㅈㅅㅇ)",
         "answer": "주사위",
         "note": "",
@@ -267,6 +260,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T12:05:04.133+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (3회차)",
+        "answer": "식사예절",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-21T21:22:07.215+09:00"
       }
     ],
     "kakaobank-ox": [
@@ -552,6 +552,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-21T15:03:46.515+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시 (4회차)",
+        "answer": "X, O, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-21T21:22:07.214+09:00"
       }
     ],
     "moneywalk": [],
@@ -573,7 +580,15 @@
         "publishedAt": "2026-09-21T00:00:42.985+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 초록매실",
+        "answer": "매실음료",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-21T21:22:07.215+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
