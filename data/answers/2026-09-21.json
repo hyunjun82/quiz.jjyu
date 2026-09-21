@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T15:03:46.517+09:00",
+  "updatedAt": "2026-09-21T16:01:13.350+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,6 +172,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-21T11:00:47.622+09:00"
+      },
+      {
+        "question": "종근당건강 락토핏 당케어 더블 혜택 받기",
+        "answer": "60900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T16:01:13.344+09:00"
       }
     ],
     "shinhan-sol": [
