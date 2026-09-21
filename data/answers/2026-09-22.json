@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T00:06:14.654+09:00",
+  "updatedAt": "2026-09-22T00:17:20.179+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,7 +69,15 @@
         "publishedAt": "2026-09-22T00:03:13.047+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-22T00:17:20.178+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
