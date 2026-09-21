@@ -1,8 +1,23 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T02:23:36.609+09:00",
+  "updatedAt": "2026-09-22T07:58:53.360+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "단말기지원금",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-22T07:58:53.359+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "할부금 100퍼 할인",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-22T07:58:53.359+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "우리금융그룹이 준비한 역대급 혜택 행사 '우리금융 OOO 페스타'. OOO에 들어갈 말은? (초성힌트 : ㄷㅎㄲ)",
@@ -157,7 +172,15 @@
         "publishedAt": "2026-09-22T02:18:11.788+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "down/movie, down/walk, down/some",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-22T07:58:53.359+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -168,10 +191,10 @@
         "publishedAt": "2026-09-22T02:18:11.787+09:00"
       },
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (2회차)",
+        "question": "하루 8잔의 물을 마셔야만 건강하다.",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-09-22T02:18:11.788+09:00"
       }
     ],
