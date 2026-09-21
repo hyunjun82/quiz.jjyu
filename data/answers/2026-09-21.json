@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T12:07:50.263+09:00",
+  "updatedAt": "2026-09-21T13:15:51.367+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,6 +44,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T12:07:50.257+09:00"
+      },
+      {
+        "question": "추석 단기알바 구할 때 일하는 곳, OOOOO 등 선책하고 꼭 맞게 지원해요.",
+        "answer": "일하는기간",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-21T13:15:51.364+09:00"
       }
     ],
     "cashwalk": [
