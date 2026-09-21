@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T10:04:35.405+09:00",
+  "updatedAt": "2026-09-21T10:05:20.895+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-21T02:17:09.546+09:00"
+      },
+      {
+        "question": "추석 단기알바는 알바몬 (3회차)",
+        "answer": "전통시장, 일하는기간, 명절단기알바",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T10:05:20.885+09:00"
       }
     ],
     "cashwalk": [
@@ -183,6 +190,20 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-21T10:04:35.401+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독 (2회차)",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T10:05:20.887+09:00"
+      },
+      {
+        "question": "멕시카나 치토스 치즈볼 (3회차)",
+        "answer": "치토스치즈볼",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T10:05:20.887+09:00"
       }
     ],
     "climate-action": [
@@ -251,6 +272,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-21T02:17:09.545+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 (3회차)",
+        "answer": "5만원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T10:05:20.887+09:00"
       }
     ],
     "kbank": [
