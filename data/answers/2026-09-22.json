@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T00:00:54.638+09:00",
+  "updatedAt": "2026-09-22T00:01:28.606+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,14 +27,30 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 한 은행 앱에서 다른 은행 계좌까지 조회하고 이체할 수 있게 한 금융 서비스예요.",
+        "answer": "오픈뱅킹",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-22T00:01:28.606+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "손톱에 나타나는 건강 이상 신호가 아닌 것은?",
+        "answer": "분홍빛을 띠고 매끄럽다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-22T00:01:28.606+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
