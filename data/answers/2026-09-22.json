@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T00:17:20.179+09:00",
+  "updatedAt": "2026-09-22T00:18:33.359+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -80,7 +80,15 @@
     ],
     "kbank": [],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-22T00:18:33.359+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "손톱에 나타나는 건강 이상 신호가 아닌 것은?",
