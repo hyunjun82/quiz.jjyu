@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T00:02:39.460+09:00",
+  "updatedAt": "2026-09-22T00:03:13.048+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -41,7 +41,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보] 더현대Hi에서 새로운 뷰티 플랫폼의 오픈을 기념하여 9월 18일부터 9월 27일까지 100여개가 넘는 뷰티브랜드들이 참여하는 그랜드 오픈 뷰티 페스타를 진행합니다. 현대백화점에서 운영하는 새로운 뷰티 플랫폼의 이름은 무었일까요?",
+        "answer": "코오드",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-22T00:03:13.047+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO이란, 한 은행 앱에서 다른 은행 계좌까지 조회하고 이체할 수 있게 한 금융 서비스예요.",
@@ -52,7 +60,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "9월22일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "가운데",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-22T00:03:13.047+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
