@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T02:18:11.789+09:00",
+  "updatedAt": "2026-09-22T02:23:36.609+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -182,7 +182,7 @@
     "doctornow": [
       {
         "question": "등·가슴에 생긴 몸 여드름은 홈케어 제품만으로 충분히 없앨 수 있다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-22T00:02:39.460+09:00"
