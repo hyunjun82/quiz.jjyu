@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T23:57:28.818+09:00",
+  "updatedAt": "2026-09-21T23:58:25.662+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -221,6 +221,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-21T21:01:16.091+09:00"
+      },
+      {
+        "question": "우리금융 다함께 페스타는 10월 O일부터 진행된다. O에 들어갈 숫자는?",
+        "answer": "1",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-21T23:58:25.643+09:00"
       }
     ],
     "shinhan-sol": [
