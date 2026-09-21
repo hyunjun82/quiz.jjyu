@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updatedAt": "2026-09-21T20:02:29.729+09:00",
+  "updatedAt": "2026-09-21T20:03:14.301+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -324,6 +324,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-21T14:01:15.059+09:00"
+      },
+      {
+        "question": "G마켓 그래비티 탈모완화샴푸",
+        "answer": "카이스트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-21T20:03:14.291+09:00"
       }
     ],
     "climate-action": [
