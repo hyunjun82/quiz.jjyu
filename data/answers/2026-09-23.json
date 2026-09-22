@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T00:00:08.121+09:00",
+  "updatedAt": "2026-09-23T00:00:43.759+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -42,7 +42,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "이 책의 저자는?",
+        "answer": "앙드레 코스톨라니",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-23T00:00:43.759+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
