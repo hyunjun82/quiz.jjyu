@@ -1326,7 +1326,29 @@ function parseApptech(html, today) {
     if (!isSaneQuestion(question)) continue;
     out.push({ slug, ...buildItem(question, [answer]), source: 'apptech' });
   }
-  return out;
+  // ── 2026-09-23: 한 페이지에서 같은 지문이 두 퀴즈에 붙으면 둘 다 버린다 ──────────
+  // 9/22 02:18 실측: KB스타 문제 "주택 매매 시 발생하는 취득세…"가 비트버니 칸에도 붙어
+  // "…주택 가격에 자동으로 포함되어 계산된다 = 오픈뱅킹" 이라는 틀린 짝이 발행됐다.
+  // 페이지 구조가 흔들려 한 칸의 지문이 옆 칸으로 새는 것이다. 어느 쪽이 진짜 주인인지
+  // 여기서는 알 수 없으므로 둘 다 버린다 — 다른 소스(다비야·퀴즈벨·블로그)가 채운다.
+  // 틀린 짝을 싣는 것보다 잠깐 비는 게 낫다.
+  const qn = (x) => String(x || '').replace(/[^가-힣0-9A-Za-z]/g, '');
+  const seen = new Map();
+  for (const it of out) {
+    const k = qn(it.question);
+    if (!seen.has(k)) seen.set(k, new Set());
+    seen.get(k).add(it.slug);
+  }
+  return out.filter((it) => {
+    const slugs = seen.get(qn(it.question));
+    if (slugs.size <= 1) return true;
+    const tag = `leak|${qn(it.question).slice(0, 20)}`;
+    if (!APPTECH_REPORTED.has(tag)) {
+      APPTECH_REPORTED.add(tag);
+      console.log(`앱테크 지문 누수 차단 [${[...slugs].join(',')}] "${String(it.question).slice(0, 30)}"`);
+    }
+    return false;
+  });
 }
 
 async function collectFromApptech() {
@@ -2661,6 +2683,74 @@ function dropRedundantShells(arr, slug) {
 }
 
 /**
+ * 같은 정답이 번호 표기만 달리해 두 줄로 들어온 것을 한 줄로 합친다.
+ *
+ * ── 왜 필요한가 (2026-09-23 사장님 지시) ──────────────────────────
+ * 소스마다 선택지 번호를 다르게 붙인다. 같은 문제가 이렇게 두 줄이 된다(8~9월 58쌍 실측):
+ *   "② 기부신탁" / "2. 기부신탁"        (9/16 KB스타)
+ *   "천안" / "4. 천안"                  (9/19 하나원큐)
+ *   "③ 추분" / "추분"                   (9/23 KB스타 — 퀴즈벨은 지문 대신 "보기에는 ▲입추…"를 준다)
+ * 지문도 소스마다 달라 기존 중복 판정을 빠져나간다.
+ *
+ * ── 합치는 조건 (셋 다 맞아야) ────────────────────────────────────
+ *   1) 두 정답의 원문이 '다르다' — 원문까지 똑같은 "계란"/"계란" 은 서로 다른 광고 퀴즈일 수
+ *      있어 건드리지 않는다(9/14 캐시워크 실측: 서로 다른 광고 두 개가 둘 다 "계란").
+ *   2) 번호(①, 2., 4번)와 띄어쓰기·끝말(~시켰다)을 걷어내면 같다.
+ *   3) O/X·숫자만·한 글자 정답이 아니다 — 흔한 값은 우연히 겹친다.
+ *
+ * ── 남기는 쪽 ──────────────────────────────────────────────────────
+ *   지문: 빈칸(OO)이 있는 쪽 > 껍데기·"보기에는/또 다른 문제는" 이 아닌 쪽 > 더 긴 쪽.
+ *   정답: 더 긴 표기(번호가 붙은 "③ 추분" 이 "추분" 보다 정보가 많다).
+ */
+const QB_ARTIFACT = /^\s*(보기에는|또 다른 문제는)/;
+
+function answerCore(a) {
+  return normalize(String(a || '').replace(/^\s*\d{1,2}\s*[.)]\s*/, ''))
+    .replace(/(시켰다|하였다|했다|이다|였다|다)$/, '');
+}
+
+function isTrivialAnswer(a) {
+  const c = answerCore(a);
+  return c.length < 2 || /^\d+$/.test(c) || /^[ox○x]/i.test(String(a || '').trim().replace(/^\s*\d{1,2}\s*[.)번]\s*|^[①-⑩]\s*/, ''));
+}
+
+function questionRank(q, slug) {
+  const s = String(q || '');
+  let r = s.length;
+  if (BLANK_MARK.test(s)) r += 10000;
+  if (!isGenericQuestion(s, slug) && !QB_ARTIFACT.test(s)) r += 1000;
+  return r;
+}
+
+function mergeAnswerVariants(arr, slug) {
+  let merged = 0;
+  for (let i = 0; i < arr.length; i += 1) {
+    for (let j = arr.length - 1; j > i; j -= 1) {
+      const A = arr[i];
+      const B = arr[j];
+      const ra = String(A.answer || '').trim();
+      const rb = String(B.answer || '').trim();
+      if (!ra || !rb || ra === rb) continue;
+      if (/[,/]/.test(ra + rb)) continue; // 여러 칸짜리 정답은 빈칸 병합이 맡는다
+      if (isTrivialAnswer(ra) || isTrivialAnswer(rb)) continue;
+      const ca = answerCore(ra);
+      const cb = answerCore(rb);
+      const same =
+        ca === cb ||
+        (Math.min(ca.length, cb.length) >= 2 &&
+          (ca.startsWith(cb) || cb.startsWith(ca)) &&
+          Math.abs(ca.length - cb.length) <= 4);
+      if (!same) continue;
+      if (questionRank(B.question, slug) > questionRank(A.question, slug)) A.question = B.question;
+      if (rb.length > ra.length) A.answer = B.answer;
+      arr.splice(j, 1);
+      merged += 1;
+    }
+  }
+  return merged;
+}
+
+/**
  * 한 퀴즈의 배열에서 빈칸 변형들을 한 줄로 합친다. 합친 줄 수를 돌려준다.
  * 같은 문제로 보는 두 경우:
  *   ① 지문이 빈칸 위치만 다르고 0.9 이상 닮았다 (isBlankVariant)
@@ -2859,6 +2949,9 @@ async function collectOnce() {
   }
   for (const [slug, arr] of Object.entries(existing.answers)) {
     if (Array.isArray(arr) && arr.length > 1) mergedRows += dropRedundantShells(arr, slug);
+  }
+  for (const [slug, arr] of Object.entries(existing.answers)) {
+    if (Array.isArray(arr) && arr.length > 1) mergedRows += mergeAnswerVariants(arr, slug);
   }
   if (mergedRows > 0) console.log(`빈칸 변형 병합 ${mergedRows}줄`);
 
