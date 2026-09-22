@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T09:06:46.751+09:00",
+  "updatedAt": "2026-09-22T09:07:28.457+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -73,7 +73,15 @@
         "publishedAt": "2026-09-22T08:03:38.770+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "아낌e 보금자리론 집 짓고 캐시받기 이벤트는 집을 완성하면 포인트를 준다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-22T09:07:28.455+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
