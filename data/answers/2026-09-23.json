@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T00:03:01.742+09:00",
+  "updatedAt": "2026-09-23T00:03:35.838+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보] 현대면세점에서 Npay로 결제하시는 고객분들을 위한 구매왕 이벤트가 진행 중인데요, 다음 중 Npay 구매왕 혜택 내용으로 틀린 것은 ?",
+        "answer": "온라인점에서 가장 많이 구매한 고객에게 네이버포인트 50만 포인트 증정",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-23T00:03:35.837+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOOO이란, 쇼핑몰이나 배달 앱 같은 비금융 서비스 안에 결제·대출이 녹아든 금융 형태예요.",
@@ -79,7 +87,15 @@
         "publishedAt": "2026-09-23T00:01:51.133+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "1, 1, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-23T00:03:35.838+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
     "yes24": [
