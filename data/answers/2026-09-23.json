@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T00:00:43.759+09:00",
+  "updatedAt": "2026-09-23T00:01:17.033+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO이란, 쇼핑몰이나 배달 앱 같은 비금융 서비스 안에 결제·대출이 녹아든 금융 형태예요.",
+        "answer": "임베디드금융",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-23T00:01:17.033+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
