@@ -386,13 +386,6 @@
         "publishedAt": "2026-09-19T01:56:34.021+09:00"
       },
       {
-        "question": "9월19일 KB스타뱅킹 스타퀴즈 정답 SMRUN 26 클럽키트 러닝대회 기간",
-        "answer": "10월 2일",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-19T01:56:34.021+09:00"
-      },
-      {
         "question": "KB Pay 오늘의 퀴즈 (3회차)",
         "answer": "500명",
         "note": "",
@@ -402,34 +395,20 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "중남미가 원산지로, 분홍빛 과육과 달콤한 맛으로 최근 디 저트 시장에서 주목받는 이 과일은?",
         "answer": "4번 핑크구아바",
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-19T07:58:27.398+09:00"
-      },
-      {
-        "question": "중남미가 원산지로, 분홍빛 과육과 달콤한 맛으로 최근 디 저트 시장에서 주목받는 이 과일은?",
-        "answer": "4. 핑크구아바",
-        "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-09-19T08:34:01.633+09:00"
       }
     ],
     "hana-onq": [
       {
-        "question": "9월19일 하나은행 하나원큐 축구퀴즈 정답 호두과자와 독립기념관으로 유명한 충청남도 지역의팀",
-        "answer": "천안",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-19T01:56:34.021+09:00"
-      },
-      {
         "question": "오늘 K리그2 27라운드에서 충남아산과 맞붙는 호두과자와 독립기념관으로 유명한 충청남도 지역의 팀은 어디일까요?",
         "answer": "4. 천안",
         "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-09-19T08:30:12.309+09:00"
+        "source": "quizbells",
+        "publishedAt": "2026-09-19T01:56:34.021+09:00"
       }
     ],
     "hana-life": [

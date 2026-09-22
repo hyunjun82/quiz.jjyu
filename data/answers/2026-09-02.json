@@ -35,7 +35,7 @@
     "cashwalk": [
       {
         "question": "새롭게 바뀐 식품안심업소 표지판에는 OOO의 별과 빛나는 위생으로 안심의 기준을 제시하고 있습니다.(초성힌트: ㄷㅅㄱ)",
-        "answer": "다섯개 / 식품안심업소",
+        "answer": "다섯개, 식품안심업소",
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-09-02T00:01:37.790+09:00"
@@ -113,13 +113,6 @@
       {
         "question": "로코초코 당류낮은 초코볼",
         "answer": "달콤함",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-02T11:02:42.668+09:00"
-      },
-      {
-        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
-        "answer": "다섯개, 식품안심업소",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-02T11:02:42.668+09:00"

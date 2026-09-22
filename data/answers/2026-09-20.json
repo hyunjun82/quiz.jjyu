@@ -308,13 +308,6 @@
     ],
     "hpoint": [
       {
-        "question": "9월20일 현대 에이치 H포인트 퀴즈 정답",
-        "answer": "가매일식 IDAYLMESSAGE",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-20T01:03:56.934+09:00"
-      },
-      {
         "question": "[홍보] 현대백화점 판교점 9층에남도의 제철 식재료와 정통 일식의 섬세함을 한 상에 담아낸 새로운 일식 브랜드가 오픈했습니다. 이 브랜드의 이름에는‘아름다운 매화’라는 의미를 담고 있는데요. 정갈한 남도의 풍미를 선보이는이 일식 브랜드의 이름은 무엇일까요?",
         "answer": "가매일식",
         "note": "",
@@ -327,13 +320,6 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-20T01:03:56.934+09:00"
-      },
-      {
-        "question": "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴 > 퀴즈, 5P)",
-        "answer": "가매일식, 1day1message",
-        "note": "",
-        "source": "tipistip",
-        "publishedAt": "2026-09-20T01:03:56.935+09:00"
       }
     ],
     "bitbunny": [
@@ -350,16 +336,9 @@
     "kb-star": [
       {
         "question": "통장 속 여유자금을 하루만 맡겨도 이자를 얻을 수 있는 상품으로 틀린 것은 무엇일까요?",
-        "answer": "TDF",
-        "note": "",
-        "source": "blog",
-        "publishedAt": "2026-09-20T01:59:32.999+09:00"
-      },
-      {
-        "question": "9월20일 KB스타뱅킹 스타퀴즈 정답 (2회차)",
         "answer": "4. TDF",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-20T01:59:32.999+09:00"
       },
       {
@@ -372,34 +351,20 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
-        "answer": "그레셤의 법칙",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-20T01:59:32.999+09:00"
-      },
-      {
         "question": "실질 가치가 낮은 화폐가 좋은 화폐를 유통에서 몰아내는 현상을 설명하는 법칙은?",
         "answer": "1. 그레셤의 법칙",
         "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-09-20T10:18:00.974+09:00"
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T01:59:32.999+09:00"
       }
     ],
     "hana-onq": [
       {
-        "question": "9월20일 하나은행 하나원큐 축구퀴즈 정답",
-        "answer": "광주",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-20T01:03:56.934+09:00"
-      },
-      {
         "question": "오늘 K리그 1 30라운드에서 전북과 맞붙는 무등산과 비엔날레로 유명한 호남 지역의 팀은 어디일까요?",
         "answer": "3. 광주",
         "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-09-20T10:13:33.030+09:00"
+        "source": "quizbells",
+        "publishedAt": "2026-09-20T01:03:56.934+09:00"
       }
     ],
     "hana-life": [

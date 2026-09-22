@@ -385,18 +385,11 @@
         "publishedAt": "2026-08-04T00:07:51.425+09:00"
       },
       {
-        "question": "스타퀴즈 8/4일자",
-        "answer": "1번 달리자 메달 획득&이벤트 응모",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-04T00:08:57.503+09:00"
-      },
-      {
         "question": "'Hot한 달리자 이용하면 Cool하게 쏜다!' 이벤트에서 메가 ICE 아메리카노 쿠폰을 받을 수 있는 방법은 무엇일까요?",
         "answer": "1. 달리자 메달 획득 & 이벤트 응모",
         "note": "",
-        "source": "blog",
-        "publishedAt": "2026-08-04T01:55:24.809+09:00"
+        "source": "quizbells",
+        "publishedAt": "2026-08-04T00:08:57.503+09:00"
       },
       {
         "question": "KB 별별퀴즈 — 8/4일자",
@@ -440,18 +433,11 @@
     ],
     "monimo": [
       {
-        "question": "모니모 퀴즈 — 모니스쿨",
+        "question": "유럽 사람들이 최근 적극적으로 에어컨을 설치하려는 이유는 무엇일까요?",
         "answer": "2번 기록적인 폭염이 이어져서",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-08-04T00:02:31.006+09:00"
-      },
-      {
-        "question": "유럽 사람들이 최근 적극적으로 에어컨을 설치하려는 이유는 무엇일까요?",
-        "answer": "기록적인 폭염이 이어져서",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-08-04T00:23:05.240+09:00"
       }
     ],
     "paybooc": [],
