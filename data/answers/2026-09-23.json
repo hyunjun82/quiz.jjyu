@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T00:04:09.839+09:00",
+  "updatedAt": "2026-09-23T00:05:35.789+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-09-23T00:00:08.121+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "다이슨 슈퍼소닉 r",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-23T00:05:35.788+09:00"
+      },
+      {
+        "question": "대한민국 야구대표팀이 아시안게임 조별리그 1차전에서 난적 대만을 5대 0으로 꺾었습니다. 무결점 투구를 보여준 대만전의 승리투수는 아래 중 누구였을까요?",
+        "answer": "두산 곽빈",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-23T00:05:35.788+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
