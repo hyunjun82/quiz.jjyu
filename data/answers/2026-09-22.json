@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T08:57:15.335+09:00",
+  "updatedAt": "2026-09-22T09:00:24.074+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,6 +55,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-22T08:57:15.335+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출시와 함께, 가족 단위로 금융 거래를 할 수 있는 새로운 서비스의 이름은 무엇일까요?",
+        "answer": "SOL패밀리",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-22T09:00:24.073+09:00"
       }
     ],
     "kakaobank": [
