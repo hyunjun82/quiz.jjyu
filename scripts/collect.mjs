@@ -2720,6 +2720,8 @@ function mergeBlankVariantsOnce(arr) {
 async function collectOnce() {
   const today = kstToday();
   const existing = loadExisting(today);
+  // 이번 바퀴에서 실제로 내용이 바뀌었는지 판정하려고 시작 시점 정답을 떠 둔다(아래 저장부 주석 참고).
+  const answersBefore = JSON.stringify(existing.answers);
   const tombstones = loadTombstones(today);
   const tombReported = new Set();
   const ykeys = loadYesterdayKeys(today);
@@ -2860,7 +2862,19 @@ async function collectOnce() {
   }
   if (mergedRows > 0) console.log(`빈칸 변형 병합 ${mergedRows}줄`);
 
-  if (added > 0 || upgraded > 0 || mergedRows > 0) {
+  // ── 2026-09-23 수정: 내용이 실제로 바뀐 때만 저장한다 ──────────────────────
+  // 9/22 18~22시에 4시간 동안 "정답 1건" 커밋이 277번 찍혔다(분당 1회 이상).
+  // 커밋 내용은 updatedAt 한 줄뿐이었다. 원인: 소스가 주는 항목을 넣었다가, 바로 아래의
+  // 빈칸 병합·껍데기 제거가 같은 바퀴에서 다시 걷어냈다 → 정답은 그대로인데 added=1 이라
+  // 파일을 다시 쓰고 커밋 → 다음 폴링에서 또 반복. 커밋마다 배포·IndexNow 핑이 따라 나갔다.
+  // 그래서 "넣은 건수"가 아니라 "시작 때와 끝날 때 정답이 다른가"로 저장 여부를 정한다.
+  const answersChanged = JSON.stringify(existing.answers) !== answersBefore;
+  if (!answersChanged) {
+    added = 0;
+    upgraded = 0;
+  }
+
+  if (answersChanged) {
     existing.updatedAt = kstStamp();
     fs.mkdirSync(ANSWERS_DIR, { recursive: true });
     fs.writeFileSync(fileFor(today), JSON.stringify(existing, null, 2));
