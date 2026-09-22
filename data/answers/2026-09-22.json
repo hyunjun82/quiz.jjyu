@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T09:07:28.457+09:00",
+  "updatedAt": "2026-09-22T10:01:53.869+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,7 +83,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "추석 장보기, 이마트·트레이더스·롯데마트에서 많이 결제해도 2%…(후략)",
+        "answer": "바로할인",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-09-22T10:01:53.867+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -164,6 +172,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-22T02:18:11.785+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 (4회차)",
+        "answer": "바로할인",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-22T10:01:53.868+09:00"
       }
     ],
     "kbank": [
