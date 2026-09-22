@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T00:12:56.187+09:00",
+  "updatedAt": "2026-09-23T00:17:29.818+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -33,7 +33,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 9월 23일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-23T00:17:29.817+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] 현대면세점에서 Npay로 결제하시는 고객분들을 위한 구매왕 이벤트가 진행 중인데요, 다음 중 Npay 구매왕 혜택 내용으로 틀린 것은 ?",
