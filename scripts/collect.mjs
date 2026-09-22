@@ -2607,6 +2607,60 @@ function sameAnswerSet(a, b) {
 }
 
 /**
+ * 지문 없는 '껍데기' 줄인데 그 정답이 이미 다른 줄들에 다 들어 있으면 버린다.
+ *
+ * ── 왜 필요한가 (2026-09-21 사장님 지적) ──────────────────────────
+ * 퀴즈벨·팁is팁은 지문을 안 주고 그날 정답만 뭉쳐서 보낸다. 지문 있는 진짜 문제가
+ * 따로 들어와 있으면 같은 답이 두 번 실린다. 9/20 H포인트 실측 — 진짜 문제는 2개인데
+ * 페이지에는 4줄이었다:
+ *   "[홍보] … 이 일식 브랜드의 이름은?"                      = 가매일식        ← 진짜
+ *   "[홍보] … '하루에 한 통' … 브랜드의 이름은?"              = 1day1message   ← 진짜
+ *   "9월20일 현대 에이치 H포인트 퀴즈 정답"                    = 가매일식 IDAYLMESSAGE  ← 껍데기
+ *   "Hpoint 퀴즈 오늘의 퀴즈 (우측 상단메뉴 > 퀴즈, 5P)"       = 가매일식, 1day1message ← 껍데기
+ * 기후행동·닥터나우에서도 같은 모양이 나온다.
+ *
+ * ── 버리는 조건 (하나라도 어긋나면 그대로 둔다) ──────────────────
+ *   1) 그 줄의 지문이 껍데기다 (isGenericQuestion)
+ *   2) 알맹이 지문을 가진 줄이 같은 퀴즈에 하나 이상 있다
+ *   3) 껍데기 줄 정답의 낱낱이 전부 그 알맹이 줄들의 정답 안에 있다
+ * 즉 "새로 알려주는 게 하나도 없는 껍데기"만 버린다. 껍데기에만 있는 답이 하나라도
+ * 있으면 남긴다 — 정답을 잃는 쪽이 중복보다 훨씬 나쁘다.
+ *
+ * 2026년 8~9월 전체로 검증: 14줄만 걸렸고 정답이 사라지는 경우는 없었다.
+ */
+function dropRedundantShells(arr, slug) {
+  const real = arr.filter((r) => !isGenericQuestion(r.question, slug));
+  if (!real.length) return 0;
+  // 껍데기 소스는 영문·숫자를 자주 헷갈려 옮긴다(9/20 실측: "1day1message"를
+  // "IDAYLMESSAGE"로 보냈다). 이 대조에서만 1/i/l 과 0/o 를 같게 본다 — 저장값은 안 건드린다.
+  const fold = (x) => normalize(x).replace(/[il]/g, '1').replace(/o/g, '0');
+  const known = new Set();
+  for (const r of real)
+    for (const p of tidyParts(answerParts(r.answer))) known.add(fold(p));
+  if (!known.size) return 0;
+  const keep = [];
+  let dropped = 0;
+  for (const r of arr) {
+    if (isGenericQuestion(r.question, slug)) {
+      const parts = tidyParts(answerParts(r.answer))
+        .flatMap((p) => (/\s/.test(p) ? p.split(/\s+/) : [p]))
+        .map(fold)
+        .filter(Boolean);
+      if (parts.length && parts.every((p) => known.has(p))) {
+        dropped += 1;
+        continue;
+      }
+    }
+    keep.push(r);
+  }
+  if (dropped) {
+    arr.length = 0;
+    arr.push(...keep);
+  }
+  return dropped;
+}
+
+/**
  * 한 퀴즈의 배열에서 빈칸 변형들을 한 줄로 합친다. 합친 줄 수를 돌려준다.
  * 같은 문제로 보는 두 경우:
  *   ① 지문이 빈칸 위치만 다르고 0.9 이상 닮았다 (isBlankVariant)
@@ -2800,6 +2854,9 @@ async function collectOnce() {
   let mergedRows = 0;
   for (const arr of Object.values(existing.answers)) {
     if (Array.isArray(arr) && arr.length > 1) mergedRows += mergeBlankVariants(arr);
+  }
+  for (const [slug, arr] of Object.entries(existing.answers)) {
+    if (Array.isArray(arr) && arr.length > 1) mergedRows += dropRedundantShells(arr, slug);
   }
   if (mergedRows > 0) console.log(`빈칸 변형 병합 ${mergedRows}줄`);
 
