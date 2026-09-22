@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updatedAt": "2026-09-22T18:33:38.037+09:00",
+  "updatedAt": "2026-09-22T18:34:17.594+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -460,7 +460,15 @@
         "publishedAt": "2026-09-22T00:00:54.638+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 애플",
+        "answer": "혁신적인",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-22T18:34:17.588+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
