@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T00:25:10.622+09:00",
+  "updatedAt": "2026-09-23T02:54:56.756+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,10 +29,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "신한카드 인스타그램에서 참여 가능한 게임, 슈퍼 SOL 타임미션을 성공하면 받을 수 있는 경품이 아닌 것은?",
         "answer": "다이슨 슈퍼소닉 r",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-23T00:05:35.788+09:00"
       },
       {
@@ -44,7 +44,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "아낌e 보금자리론 집 짓고 캐시받기 이벤트에는 내집마련 지원금 혜택도 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-23T02:54:56.751+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -78,29 +86,44 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "9월23일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "NH올원뱅크에서 자동차보험을 조회하면 몇P를 받을 수 있을까요?",
         "answer": "5,000포인트",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-23T00:03:01.742+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "가을이 시작 되는 시기로 낮과 밤의 길이가 거의 같아지는 때를 뜻하는 절기는 무엇일까요?",
+        "answer": "③ 추분",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-23T02:54:56.751+09:00"
+      },
+      {
+        "question": "일본은 헤이그 특사 파견을 빌미로 고종을 강제 퇴위시켰다. 이후 정미 7조약과 부속 각서를 맺어 일본인을 대한 제국의 각 부 차관 등으로 임명하고 [ (가) ]",
+        "answer": "③ 대한 제국 군대를 해산시켰다.",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-23T02:54:56.751+09:00"
+      }
+    ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "question": "부동산을 보유한 사람에게 매년 부과되는 세금을 통틀어 이르는 말은?",
         "answer": "보유세",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-23T00:12:56.187+09:00"
       }
     ],
     "hana-onq": [
       {
-        "question": "9월23일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "축구 경기에서 정규시간 후 연장전을 진행할 경우, 연장 전·후반은 각각 몇 분일까요?",
         "answer": "15분",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-23T00:09:32.114+09:00"
       }
     ],
@@ -114,14 +137,22 @@
         "publishedAt": "2026-09-23T00:03:01.742+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "call/off, meeting/cancelled, schedule/new",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-23T02:54:56.755+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "추석 음식 재료를 냉동 보관할 때는 냉장고 문 쪽에 두는 것이 좋다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-23T00:08:08.364+09:00"
       }
     ],
@@ -131,10 +162,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "비대면진료로 처방받으면 누구나 약을 집으로 배송받을 수 있다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-23T00:01:51.133+09:00"
       }
     ],
