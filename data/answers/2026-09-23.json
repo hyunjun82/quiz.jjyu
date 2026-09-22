@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T02:54:56.756+09:00",
+  "updatedAt": "2026-09-23T08:45:08.423+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,7 +43,15 @@
         "publishedAt": "2026-09-23T00:05:35.788+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "운송수단 이모지 보고 퀴즈 풀기 (1회차)",
+        "answer": "귀성",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-23T08:45:08.420+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "아낌e 보금자리론 집 짓고 캐시받기 이벤트에는 내집마련 지원금 혜택도 있다.",
@@ -107,6 +115,20 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-23T02:54:56.751+09:00"
+      },
+      {
+        "question": "보기에는 ▲단발령을 시행 ▲외교권을 박탈 ▲대한제국 군대를 해산 ▲메가타를 재정고문으로 초빙이 제시됐다.",
+        "answer": "대한제국 군대를 해산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-23T08:45:08.421+09:00"
+      },
+      {
+        "question": "보기에는 ▲입추 ▲백로 ▲추분 ▲한로가 제시됐다.",
+        "answer": "추분",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-23T08:45:08.421+09:00"
       }
     ],
     "kbank": [
@@ -127,7 +149,15 @@
         "publishedAt": "2026-09-23T00:09:32.114+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-23T08:45:08.421+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "한국거래소(KOSPI, KOSDAQ)에서 개별 종목 주가는 전일 종가 대비 하루에 몇 퍼센트(%)까지 오르거나 내릴 수 있을까요?",
@@ -154,6 +184,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-23T00:08:08.364+09:00"
+      },
+      {
+        "question": "짧은 낮잠은 집중력을 향상시킬 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-23T08:45:08.421+09:00"
       }
     ],
     "skstoa": [],
@@ -189,7 +226,15 @@
         "publishedAt": "2026-09-23T00:03:35.838+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-23T08:45:08.421+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "뇌혈관성 질환의 증상으로는 발음의 변화가 있다?",
