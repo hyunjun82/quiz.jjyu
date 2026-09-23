@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T16:07:33.199+09:00",
+  "updatedAt": "2026-09-23T18:29:30.522+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -553,7 +553,15 @@
         "publishedAt": "2026-09-23T00:00:43.759+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 닌자",
+        "answer": "다지기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-23T18:29:30.509+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
