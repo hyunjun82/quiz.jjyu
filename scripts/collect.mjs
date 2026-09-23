@@ -2751,6 +2751,39 @@ function mergeAnswerVariants(arr, slug) {
 }
 
 /**
+ * OX 퀴즈 정답이 짝꿍 퀴즈(○○-ox 가 아닌 쪽)에 잘못 들어온 것을 제자리로 보낸다.
+ *
+ * ── 왜 필요한가 (2026-09-23 실측) ──────────────────────────────────
+ * 카카오뱅크·비트버니는 '단어 퀴즈'와 'OX 퀴즈'가 따로 있고 우리도 슬러그를 나눴다
+ * (kakaobank / kakaobank-ox, bitbunny / bitbunny-ox). 그런데 퀴즈벨·팁is팁은 두 퀴즈를
+ * 한 페이지에 싣는 날이 있어, OX 정답이 단어 퀴즈 쪽에 "O" 로 박혔다.
+ *   9/23 09:09 카카오뱅크 AI 이모지 퀴즈 (2회차) = O   ← 이모지 퀴즈 정답이 O 일 수 없다
+ *   9/18 카카오뱅크 = O,  8/17·8/25·8/29 비트버니 = O,  9/22 비트버니 "또 다른 문제는 물적분할…" = X
+ * 단어 퀴즈 칸에 정답이 O/X 하나뿐인 줄은 OX 퀴즈 것이다.
+ *
+ * ── 처리 ────────────────────────────────────────────────────────────
+ *   -ox 쪽에 이미 정답이 있으면 → 버린다(같은 것이 이미 제자리에 있다).
+ *   -ox 쪽이 비어 있으면        → 그쪽으로 옮긴다(정답을 잃지 않는다).
+ */
+const OX_SIBLINGS = [['kakaobank', 'kakaobank-ox'], ['bitbunny', 'bitbunny-ox']];
+const BARE_OX = /^\s*[OX○×]\s*(\([^)]*\))?\s*$/i;
+
+function routeOxToSibling(answers) {
+  let moved = 0;
+  for (const [word, ox] of OX_SIBLINGS) {
+    const src = answers[word];
+    if (!Array.isArray(src) || !src.length) continue;
+    const stray = src.filter((r) => BARE_OX.test(String(r.answer || '')));
+    if (!stray.length) continue;
+    answers[word] = src.filter((r) => !BARE_OX.test(String(r.answer || '')));
+    const dst = answers[ox] || (answers[ox] = []);
+    if (!dst.length) dst.push(...stray);
+    moved += stray.length;
+  }
+  return moved;
+}
+
+/**
  * 한 퀴즈의 배열에서 빈칸 변형들을 한 줄로 합친다. 합친 줄 수를 돌려준다.
  * 같은 문제로 보는 두 경우:
  *   ① 지문이 빈칸 위치만 다르고 0.9 이상 닮았다 (isBlankVariant)
@@ -2943,7 +2976,7 @@ async function collectOnce() {
   }
 
   // 빈칸 변형이 여러 줄로 갈라진 것을 한 줄로 합친다(캐시워크 다중빈칸 광고 퀴즈).
-  let mergedRows = 0;
+  let mergedRows = routeOxToSibling(existing.answers);
   for (const arr of Object.values(existing.answers)) {
     if (Array.isArray(arr) && arr.length > 1) mergedRows += mergeBlankVariants(arr);
   }
