@@ -2953,7 +2953,6 @@ async function collectOnce() {
   for (const [slug, arr] of Object.entries(existing.answers)) {
     if (Array.isArray(arr) && arr.length > 1) mergedRows += mergeAnswerVariants(arr, slug);
   }
-  if (mergedRows > 0) console.log(`빈칸 변형 병합 ${mergedRows}줄`);
 
   // ── 2026-09-23 수정: 내용이 실제로 바뀐 때만 저장한다 ──────────────────────
   // 9/22 18~22시에 4시간 동안 "정답 1건" 커밋이 277번 찍혔다(분당 1회 이상).
@@ -2971,8 +2970,13 @@ async function collectOnce() {
     existing.updatedAt = kstStamp();
     fs.mkdirSync(ANSWERS_DIR, { recursive: true });
     fs.writeFileSync(fileFor(today), JSON.stringify(existing, null, 2));
+    if (mergedRows > 0) console.log(`중복 정리 ${mergedRows}줄 (빈칸 병합·껍데기·번호 표기)`);
   }
-  return { added, upgraded, bySlug, existing };
+  // 새 정답·지문 개선 없이 '중복 정리'만 일어난 바퀴도 커밋해야 사이트에 반영된다.
+  // (9/23 실측: 정리한 파일을 디스크에만 써 두고 다음 새 정답이 올 때까지 안 올라갔다.)
+  // 내용이 실제로 바뀐 경우에만 센다 — 안 그러면 9/22 밤 같은 커밋 폭주가 다시 난다.
+  const cleaned = answersChanged ? mergedRows : 0;
+  return { added, upgraded, cleaned, bySlug, existing };
 }
 
 /**
@@ -2994,7 +2998,7 @@ async function main() {
   const allBySlug = {};
   const absorb = (r, tag) => {
     // 새 정답이 0건이어도 지문이 개선됐으면 반드시 내보낸다 — 제목이 곧 검색 유입이다.
-    if (r.added === 0 && !r.upgraded) return;
+    if (r.added === 0 && !r.upgraded && !r.cleaned) return;
     total += r.added;
     for (const [s, c] of Object.entries(r.bySlug)) allBySlug[s] = (allBySlug[s] || 0) + c;
     if (r.added > 0) console.log(`${tag} 새 정답 ${report(r.added, r.bySlug)}`);
@@ -3003,7 +3007,9 @@ async function main() {
       const ts = kstStamp().slice(5, 16).replace('T', ' ');
       const what = r.added > 0
         ? `정답 ${r.added}건${r.upgraded ? ` · 지문 ${r.upgraded}건` : ''}`
-        : `지문 개선 ${r.upgraded}건`;
+        : r.upgraded
+          ? `지문 개선 ${r.upgraded}건`
+          : `중복 정리 ${r.cleaned}줄`;
       gitCommitPush(`data: ${ts} ${what}`);
     }
   };
