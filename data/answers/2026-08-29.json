@@ -167,13 +167,6 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
-        "answer": "O",
-        "note": "",
-        "source": "tipistip",
-        "publishedAt": "2026-08-29T00:05:24.113+09:00"
-      },
-      {
         "question": "Q. OOOOO이란, 다른 사람들이 얻는 투자 기회나 유행에서 자신만 뒤처질까 불안해하는 심리 상태예요.",
         "answer": "포모증후군",
         "note": "",
@@ -258,7 +251,15 @@
       }
     ],
     "buzzvil": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-08-29T00:05:24.113+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈",
