@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T21:00:30.313+09:00",
+  "updatedAt": "2026-09-23T21:01:51.520+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-23T21:00:30.303+09:00"
+      },
+      {
+        "question": "AGE20S 더블루밍 팩트",
+        "answer": "콜라겐",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-23T21:01:51.510+09:00"
       }
     ],
     "shinhan-sol": [
