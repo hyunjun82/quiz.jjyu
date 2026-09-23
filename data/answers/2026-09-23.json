@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T10:01:21.924+09:00",
+  "updatedAt": "2026-09-23T10:03:29.511+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,7 +69,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "2028 대입안을 토대로 고교 과목 선택기준, 과목별 특징, 추천 과목…(후략)",
+        "answer": "선택 과목 가이드북",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-09-23T10:03:29.508+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -130,6 +138,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-23T02:54:56.751+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 (3회차)",
+        "answer": "선택 과목 가이드북",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-23T10:03:29.509+09:00"
       }
     ],
     "kbank": [
