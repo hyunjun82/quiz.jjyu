@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "updatedAt": "2026-09-23T09:09:43.431+09:00",
+  "updatedAt": "2026-09-23T09:13:25.129+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-23T00:05:35.788+09:00"
+      },
+      {
+        "question": "메가MGC커피에서 신한 슈퍼SOL로 1천원 이상 결제하면 마이신한포인트 1,000P가 적립된다? 맞으면 O, 틀리면 X를 선택해주세요!",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-23T09:13:25.129+09:00"
       }
     ],
     "kakaobank": [
