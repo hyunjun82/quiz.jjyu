@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T08:49:23.943+09:00",
+  "updatedAt": "2026-09-24T08:52:28.944+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,7 +44,15 @@
         "publishedAt": "2026-09-24T08:03:33.376+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "중고차를 알아볼 때 받을 수 있는 대출을 비교할 수 있는 서비스가 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-24T08:52:28.944+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
