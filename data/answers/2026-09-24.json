@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T15:02:09.870+09:00",
+  "updatedAt": "2026-09-24T18:46:00.861+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -313,7 +313,15 @@
         "publishedAt": "2026-09-24T01:03:17.178+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 버즈4",
+        "answer": "음성",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-24T18:46:00.860+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
