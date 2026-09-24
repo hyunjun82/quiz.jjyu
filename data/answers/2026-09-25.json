@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T00:01:29.113+09:00",
+  "updatedAt": "2026-09-25T00:02:02.549+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -54,7 +54,15 @@
     "doctornow": [],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "마이너스통장은 한도 내에서 필요할 때마다 자유롭게 빌리고 갚을 수 있는 대출 방식이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T00:02:02.549+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
