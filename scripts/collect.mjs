@@ -3074,108 +3074,115 @@ async function main() {
   const already = Object.values(first.existing.answers || {}).filter((v) => v.length > 0).length;
   console.log(`[스윕] 새 정답 ${first.added}건 · 오늘 정답 있는 퀴즈 ${already}/${QUIZZES.length}개`);
 
-  // 2) 다음 블록
-  // ⚠️ 2026-09-24: 예전엔 다음 블록이 LEAD_MINUTES(70분) 밖이면 여기서 바로 끝났다.
-  //    그런데 cron 은 12%만 뜨고 매시 54분 트리거 푸시도 들쭉날쭉해서, 새벽에 한 번 끝나면
-  //    몇 시간 동안 아무도 안 봤다(9/23 02:54→08:44, 9/24 01:03→08:03 수집 공백 실측).
-  //    공개 시각 목록에 없는 퀴즈·늦게 올라오는 소스를 그 사이에 통째로 놓친다.
-  //    → 끝내지 않고 IDLE_POLL_SECONDS(기본 5분)마다 한 바퀴씩 돌며 블록을 기다린다.
-  //      MAX_MINUTES 에 닿으면 끝낸다. 그동안 뜬 cron·트리거 실행은 concurrency 대기열에서 기다렸다가 곧바로 이어받는다.
-  const IDLE_POLL = Math.max(60, Number(process.env.IDLE_POLL_SECONDS ?? 300)) * 1000;
-  let now, nowMin, block, waitMin;
+  // ⚠️ 2026-09-25: 블록 하나를 다 잡으면 곧장 끝나던 것도 고친다. 9/25 03:18 블록을 03:32 에 다 잡고
+  //    job 이 끝나 07:59 까지 또 아무도 안 봤다(#1343 실측). 블록이 끝나도 상한까지 순찰로 돌아간다.
+  let doneBlock = null; // 방금 다 지킨 블록 — 같은 블록에 곧바로 다시 들어가 헛돌지 않게
   for (;;) {
-    now = kstNow();
-    nowMin = now.getUTCHours() * 60 + now.getUTCMinutes();
-    block = upcomingBlock(nowMin, now.getUTCDay());
-    waitMin = block ? block.a - nowMin : Infinity;
-    // 블록 시작이 이 job 의 상한(hardStop) 10분 전보다 늦으면 여기서 잠들지 않는다 —
-    // 잠든 채 timeout-minutes(175)에 걸려 강제 종료되면 그 블록을 통째로 놓친다. 순찰만 하다 넘긴다.
-    if (block && waitMin <= LEAD_MINUTES && Date.now() + Math.max(0, waitMin) * 60_000 < hardStop - 10 * 60_000) break;
-    const leftAll = hardStop - Date.now();
-    if (leftAll <= IDLE_POLL) {
-      console.log(`완료 — 대기 순찰 시간 상한 도달, 다음 실행이 이어받음 (누적 ${total}건)`);
+    // 2) 다음 블록
+    // ⚠️ 2026-09-24: 예전엔 다음 블록이 LEAD_MINUTES(70분) 밖이면 여기서 바로 끝났다.
+    //    그런데 cron 은 12%만 뜨고 매시 54분 트리거 푸시도 들쭉날쭉해서, 새벽에 한 번 끝나면
+    //    몇 시간 동안 아무도 안 봤다(9/23 02:54→08:44, 9/24 01:03→08:03 수집 공백 실측).
+    //    공개 시각 목록에 없는 퀴즈·늦게 올라오는 소스를 그 사이에 통째로 놓친다.
+    //    → 끝내지 않고 IDLE_POLL_SECONDS(기본 5분)마다 한 바퀴씩 돌며 블록을 기다린다.
+    //      MAX_MINUTES 에 닿으면 끝낸다. 그동안 뜬 cron·트리거 실행은 concurrency 대기열에서 기다렸다가 곧바로 이어받는다.
+    const IDLE_POLL = Math.max(60, Number(process.env.IDLE_POLL_SECONDS ?? 300)) * 1000;
+    let now, nowMin, block, waitMin;
+    for (;;) {
+      now = kstNow();
+      nowMin = now.getUTCHours() * 60 + now.getUTCMinutes();
+      block = upcomingBlock(nowMin, now.getUTCDay());
+      if (block && doneBlock && block.a === doneBlock.a && block.b === doneBlock.b) block = null; // 끝난 구간은 순찰만
+      waitMin = block ? block.a - nowMin : Infinity;
+      // 블록 시작이 이 job 의 상한(hardStop) 10분 전보다 늦으면 여기서 잠들지 않는다 —
+      // 잠든 채 timeout-minutes(175)에 걸려 강제 종료되면 그 블록을 통째로 놓친다. 순찰만 하다 넘긴다.
+      if (block && waitMin <= LEAD_MINUTES && Date.now() + Math.max(0, waitMin) * 60_000 < hardStop - 10 * 60_000) break;
+      const leftAll = hardStop - Date.now();
+      if (leftAll <= IDLE_POLL) {
+        console.log(`완료 — 대기 순찰 시간 상한 도달, 다음 실행이 이어받음 (누적 ${total}건)`);
+        return;
+      }
+      const nextTxt = !block ? '지금 지킬 감시 구간 없음' : waitMin > 0 ? `다음 감시 구간 ${fmtMin(block.a)}, ${waitMin}분 뒤` : `감시 구간 ${fmtMin(block.a)}~${fmtMin(block.b)} 진행 중(상한 임박)`;
+      console.log(`[순찰] ${nextTxt} — ${IDLE_POLL / 60000}분 뒤 다시 훑음`);
+      if (AUTO_PUSH) flushPush();
+      await sleep(IDLE_POLL);
+      absorb(await collectOnce(), `[순찰 ${Math.round((Date.now() - t0) / 1000)}초]`);
+    }
+
+    const label = `${fmtMin(block.a)}~${fmtMin(block.b)} KST · 퀴즈 ${block.slugs.size}개`;
+
+    // 절대 시각으로 고정해 둔다. 이렇게 하면 23:58~00:25 자정 넘김도 별도 처리가 필요 없다.
+    // (순찰하다 넘어온 경우가 있으므로 기준은 job 시작 t0 가 아니라 '지금'이다.)
+    const tNow = Date.now();
+    const startAt = tNow + Math.max(0, waitMin) * 60_000;
+    const endAt = Math.min(tNow + (block.b - nowMin) * 60_000, hardStop);
+
+    if (waitMin > 0) {
+      console.log(`[대기] 감시 구간 ${label} — ${waitMin}분 뒤 시작. 잠들었다 깨어남`);
+      await sleep(startAt - Date.now());
+    }
+
+    let pending = pendingIn(block, loadExisting(kstToday()));
+    console.log(`[감시 시작] ${label} — 미수집 ${pending.length}개: ${pending.join(', ') || '없음'}`);
+
+    // 미수집이 0이어도 이 구간에 아직 안 온 회차가 남았으면 자리를 지킨다.
+    // 예전엔 여기서 곧장 빠져나가 뒤 회차를 다음 트리거까지 놓쳤다.
+    while (Date.now() < endAt && (pending.length > 0 || moreComingIn(block))) {
+      if (AUTO_PUSH) flushPush();
+      const r = await collectOnce();
+      const elapsed = Math.round((Date.now() - t0) / 1000);
+      absorb(r, `[감시 ${elapsed}초]`);
+      pending = pendingIn(block, r.existing);
+      if (pending.length === 0 && !moreComingIn(block)) break;
+      const left = endAt - Date.now();
+      if (left <= 0) break;
+      await sleep(Math.min(POLL_SECONDS * 1000, left));
+    }
+
+    // 3-B) 시간 상한(MAX_MINUTES)에 걸려 끊겼는데 구간은 아직 진행 중인 경우.
+    //      이때 "[감시 완료]"를 찍으면 호출하는 쪽(예약 작업)이 다 끝난 줄 알고 멈춘다.
+    //      실제로는 07:58~16:25 같은 긴 구간이 몇 시간 남아 있다 — 반드시 이어받아야 한다.
+    const blockOngoing = curMin() < block.b || moreComingIn(block);
+    if (Date.now() >= hardStop && blockOngoing) {
+      console.log(
+        `[감시 종료] 시간 상한 ${MAX_MINUTES}분 도달 — 구간 ${label} 아직 진행 중. 즉시 이어서 실행할 것`,
+      );
+      console.log(total > 0 ? `완료 — 총 ${report(total, allBySlug)}` : '완료 — 새 정답 없음');
       return;
     }
-    const nextTxt = !block ? '오늘 남은 감시 구간 없음' : waitMin > 0 ? `다음 감시 구간 ${fmtMin(block.a)}, ${waitMin}분 뒤` : `감시 구간 ${fmtMin(block.a)}~${fmtMin(block.b)} 진행 중(상한 임박)`;
-    console.log(`[순찰] ${nextTxt} — ${IDLE_POLL / 60000}분 뒤 다시 훑음`);
-    if (AUTO_PUSH) flushPush();
-    await sleep(IDLE_POLL);
-    absorb(await collectOnce(), `[순찰 ${Math.round((Date.now() - t0) / 1000)}초]`);
-  }
 
-  const label = `${fmtMin(block.a)}~${fmtMin(block.b)} KST · 퀴즈 ${block.slugs.size}개`;
-
-  // 절대 시각으로 고정해 둔다. 이렇게 하면 23:58~00:25 자정 넘김도 별도 처리가 필요 없다.
-  // (순찰하다 넘어온 경우가 있으므로 기준은 job 시작 t0 가 아니라 '지금'이다.)
-  const tNow = Date.now();
-  const startAt = tNow + Math.max(0, waitMin) * 60_000;
-  const endAt = Math.min(tNow + (block.b - nowMin) * 60_000, hardStop);
-
-  if (waitMin > 0) {
-    console.log(`[대기] 감시 구간 ${label} — ${waitMin}분 뒤 시작. 잠들었다 깨어남`);
-    await sleep(startAt - Date.now());
-  }
-
-  let pending = pendingIn(block, loadExisting(kstToday()));
-  console.log(`[감시 시작] ${label} — 미수집 ${pending.length}개: ${pending.join(', ') || '없음'}`);
-
-  // 미수집이 0이어도 이 구간에 아직 안 온 회차가 남았으면 자리를 지킨다.
-  // 예전엔 여기서 곧장 빠져나가 뒤 회차를 다음 트리거까지 놓쳤다.
-  while (Date.now() < endAt && (pending.length > 0 || moreComingIn(block))) {
-    if (AUTO_PUSH) flushPush();
-    const r = await collectOnce();
-    const elapsed = Math.round((Date.now() - t0) / 1000);
-    absorb(r, `[감시 ${elapsed}초]`);
-    pending = pendingIn(block, r.existing);
-    if (pending.length === 0 && !moreComingIn(block)) break;
-    const left = endAt - Date.now();
-    if (left <= 0) break;
-    await sleep(Math.min(POLL_SECONDS * 1000, left));
-  }
-
-  // 3-B) 시간 상한(MAX_MINUTES)에 걸려 끊겼는데 구간은 아직 진행 중인 경우.
-  //      이때 "[감시 완료]"를 찍으면 호출하는 쪽(예약 작업)이 다 끝난 줄 알고 멈춘다.
-  //      실제로는 07:58~16:25 같은 긴 구간이 몇 시간 남아 있다 — 반드시 이어받아야 한다.
-  const blockOngoing = curMin() < block.b || moreComingIn(block);
-  if (Date.now() >= hardStop && blockOngoing) {
-    console.log(
-      `[감시 종료] 시간 상한 ${MAX_MINUTES}분 도달 — 구간 ${label} 아직 진행 중. 즉시 이어서 실행할 것`,
-    );
-    console.log(total > 0 ? `완료 — 총 ${report(total, allBySlug)}` : '완료 — 새 정답 없음');
-    return;
-  }
-
-  // 4) 전부 잡았으면 남은 시간을 낭비하지 않고 바로 끝낸다.
-  //    다만 뭉뚱그린 지문("KB Pay 오늘의 퀴즈")으로 잡힌 게 있으면 바로 끄지 않는다.
-  //    퀴즈벨이 몇십 초 먼저 도착하는 일이 흔한데, 여기서 끄면 뒤따라올 비즈월드의
-  //    진짜 지문을 영영 못 받는다 — 그러면 제목이 하루 종일 검색에 안 걸린다(7/28 실측).
-  if (pending.length === 0) {
-    const genericLeft = () => {
-      const cur = loadExisting(kstToday());
-      return [...block.slugs].filter((s) =>
-        (cur.answers[s] || []).some((it) => isGenericQuestion(it.question, s)),
+    // 4) 전부 잡았으면 남은 시간을 낭비하지 않고 바로 끝낸다.
+    //    다만 뭉뚱그린 지문("KB Pay 오늘의 퀴즈")으로 잡힌 게 있으면 바로 끄지 않는다.
+    //    퀴즈벨이 몇십 초 먼저 도착하는 일이 흔한데, 여기서 끄면 뒤따라올 비즈월드의
+    //    진짜 지문을 영영 못 받는다 — 그러면 제목이 하루 종일 검색에 안 걸린다(7/28 실측).
+    if (pending.length === 0) {
+      const genericLeft = () => {
+        const cur = loadExisting(kstToday());
+        return [...block.slugs].filter((s) =>
+          (cur.answers[s] || []).some((it) => isGenericQuestion(it.question, s)),
+        );
+      };
+      let g = genericLeft();
+      const graceEnd = Math.min(Date.now() + GRACE_SECONDS * 1000, endAt, hardStop);
+      if (g.length) {
+        console.log(`[지문 대기] 뭉뚱그린 지문 ${g.length}개(${g.join(', ')}) — 최대 ${GRACE_SECONDS}초 더 본다`);
+      }
+      while (g.length > 0 && Date.now() < graceEnd) {
+        if (AUTO_PUSH) flushPush();
+        await sleep(Math.min(POLL_SECONDS * 1000, graceEnd - Date.now()));
+        absorb(await collectOnce(), `[지문 ${Math.round((Date.now() - t0) / 1000)}초]`);
+        g = genericLeft();
+      }
+      console.log(
+        g.length
+          ? `[감시 완료] 정답 전부 수집 — 지문 미개선 ${g.join(', ')}`
+          : `[감시 완료] 구간 내 퀴즈 전부 수집`,
       );
-    };
-    let g = genericLeft();
-    const graceEnd = Math.min(Date.now() + GRACE_SECONDS * 1000, endAt, hardStop);
-    if (g.length) {
-      console.log(`[지문 대기] 뭉뚱그린 지문 ${g.length}개(${g.join(', ')}) — 최대 ${GRACE_SECONDS}초 더 본다`);
+    } else {
+      console.log(`[감시 종료] 아직 미공개: ${pending.join(', ')} — 다음 구간으로 넘어가 계속 봄`);
     }
-    while (g.length > 0 && Date.now() < graceEnd) {
-      if (AUTO_PUSH) flushPush();
-      await sleep(Math.min(POLL_SECONDS * 1000, graceEnd - Date.now()));
-      absorb(await collectOnce(), `[지문 ${Math.round((Date.now() - t0) / 1000)}초]`);
-      g = genericLeft();
-    }
-    console.log(
-      g.length
-        ? `[감시 완료] 정답 전부 수집 — 지문 미개선 ${g.join(', ')}`
-        : `[감시 완료] 구간 내 퀴즈 전부 수집 — 조기 종료`,
-    );
-  } else {
-    console.log(`[감시 종료] 아직 미공개: ${pending.join(', ')} — 다음 실행에서 계속`);
+    doneBlock = { a: block.a, b: block.b };
+    console.log(`[순찰 복귀] 누적 ${total}건 — 다음 구간까지 계속 훑음`);
   }
-  console.log(total > 0 ? `완료 — 총 ${report(total, allBySlug)}` : '완료 — 새 정답 없음');
 }
 
 // 직접 실행할 때만 돈다. 테스트에서 함수 단위로 import 할 수 있게 하기 위함.
