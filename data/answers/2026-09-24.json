@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T11:01:40.307+09:00",
+  "updatedAt": "2026-09-24T11:03:36.335+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -272,7 +272,15 @@
         "publishedAt": "2026-09-24T11:01:40.306+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-24T11:03:36.335+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "생선을 먹으면 심장질환 예방에 효과적이다?",
