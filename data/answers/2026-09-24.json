@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T08:52:28.944+09:00",
+  "updatedAt": "2026-09-24T10:01:48.986+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,7 +55,15 @@
     ],
     "ok-cashbag": [],
     "kbpay": [],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "G마켓 마나도 휴양여생 (1회차)",
+        "answer": "리하가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T10:01:48.985+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "‘세계식량안보지수(GFSI)’란 세계 국가들의 식량안보 수준을 종합적으로 평가하기 위해 개발된 지표를 말하며, 한국은 전세계 1위로 가장 높은 평가를 받고 있다.",
