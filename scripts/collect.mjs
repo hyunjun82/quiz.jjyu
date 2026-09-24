@@ -3075,27 +3075,41 @@ async function main() {
   console.log(`[스윕] 새 정답 ${first.added}건 · 오늘 정답 있는 퀴즈 ${already}/${QUIZZES.length}개`);
 
   // 2) 다음 블록
-  const now = kstNow();
-  const nowMin = now.getUTCHours() * 60 + now.getUTCMinutes();
-  const block = upcomingBlock(nowMin, now.getUTCDay());
-
-  if (!block) {
-    console.log(`완료 — 오늘 남은 감시 구간 없음 (누적 ${total}건)`);
-    return;
+  // ⚠️ 2026-09-24: 예전엔 다음 블록이 LEAD_MINUTES(70분) 밖이면 여기서 바로 끝났다.
+  //    그런데 cron 은 12%만 뜨고 매시 54분 트리거 푸시도 들쭉날쭉해서, 새벽에 한 번 끝나면
+  //    몇 시간 동안 아무도 안 봤다(9/23 02:54→08:44, 9/24 01:03→08:03 수집 공백 실측).
+  //    공개 시각 목록에 없는 퀴즈·늦게 올라오는 소스를 그 사이에 통째로 놓친다.
+  //    → 끝내지 않고 IDLE_POLL_SECONDS(기본 5분)마다 한 바퀴씩 돌며 블록을 기다린다.
+  //      MAX_MINUTES 에 닿으면 끝낸다. 그동안 뜬 cron·트리거 실행은 concurrency 대기열에서 기다렸다가 곧바로 이어받는다.
+  const IDLE_POLL = Math.max(60, Number(process.env.IDLE_POLL_SECONDS ?? 300)) * 1000;
+  let now, nowMin, block, waitMin;
+  for (;;) {
+    now = kstNow();
+    nowMin = now.getUTCHours() * 60 + now.getUTCMinutes();
+    block = upcomingBlock(nowMin, now.getUTCDay());
+    waitMin = block ? block.a - nowMin : Infinity;
+    // 블록 시작이 이 job 의 상한(hardStop) 10분 전보다 늦으면 여기서 잠들지 않는다 —
+    // 잠든 채 timeout-minutes(175)에 걸려 강제 종료되면 그 블록을 통째로 놓친다. 순찰만 하다 넘긴다.
+    if (block && waitMin <= LEAD_MINUTES && Date.now() + Math.max(0, waitMin) * 60_000 < hardStop - 10 * 60_000) break;
+    const leftAll = hardStop - Date.now();
+    if (leftAll <= IDLE_POLL) {
+      console.log(`완료 — 대기 순찰 시간 상한 도달, 다음 실행이 이어받음 (누적 ${total}건)`);
+      return;
+    }
+    const nextTxt = !block ? '오늘 남은 감시 구간 없음' : waitMin > 0 ? `다음 감시 구간 ${fmtMin(block.a)}, ${waitMin}분 뒤` : `감시 구간 ${fmtMin(block.a)}~${fmtMin(block.b)} 진행 중(상한 임박)`;
+    console.log(`[순찰] ${nextTxt} — ${IDLE_POLL / 60000}분 뒤 다시 훑음`);
+    if (AUTO_PUSH) flushPush();
+    await sleep(IDLE_POLL);
+    absorb(await collectOnce(), `[순찰 ${Math.round((Date.now() - t0) / 1000)}초]`);
   }
 
-  const waitMin = block.a - nowMin;
   const label = `${fmtMin(block.a)}~${fmtMin(block.b)} KST · 퀴즈 ${block.slugs.size}개`;
 
-  // 3) 아직 멀면 종료. 이 job은 여기서 끝난다(수십 초).
-  if (waitMin > LEAD_MINUTES) {
-    console.log(`완료 — 다음 감시 구간 ${label}, ${waitMin}분 뒤. 지금은 대기 안 함 (누적 ${total}건)`);
-    return;
-  }
-
   // 절대 시각으로 고정해 둔다. 이렇게 하면 23:58~00:25 자정 넘김도 별도 처리가 필요 없다.
-  const startAt = t0 + Math.max(0, waitMin) * 60_000;
-  const endAt = Math.min(t0 + (block.b - nowMin) * 60_000, hardStop);
+  // (순찰하다 넘어온 경우가 있으므로 기준은 job 시작 t0 가 아니라 '지금'이다.)
+  const tNow = Date.now();
+  const startAt = tNow + Math.max(0, waitMin) * 60_000;
+  const endAt = Math.min(tNow + (block.b - nowMin) * 60_000, hardStop);
 
   if (waitMin > 0) {
     console.log(`[대기] 감시 구간 ${label} — ${waitMin}분 뒤 시작. 잠들었다 깨어남`);
