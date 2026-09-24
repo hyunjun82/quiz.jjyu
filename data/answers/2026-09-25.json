@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T00:03:18.638+09:00",
+  "updatedAt": "2026-09-25T00:04:25.834+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -88,7 +88,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "치매 예방 수칙 중 적극적으로 실천해야 할 3가지는 운동, 식사, 독서이다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T00:04:25.834+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
