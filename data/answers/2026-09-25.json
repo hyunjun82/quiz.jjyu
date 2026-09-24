@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T07:59:39.143+09:00",
+  "updatedAt": "2026-09-25T08:00:21.502+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,7 +169,15 @@
         "publishedAt": "2026-09-25T00:56:19.856+09:00"
       }
     ],
-    "buzzvil": [],
+    "buzzvil": [
+      {
+        "question": "[케이뱅크 퀴즈타임 08시] 케이뱅크 첫 가입 시, CU 간식 당첨 확률은 [ 000% ] 일까요?",
+        "answer": "100",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T08:00:21.501+09:00"
+      }
+    ],
     "harim-real": [],
     "bitbunny-ox": [
       {
