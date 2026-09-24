@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T20:21:36.374+09:00",
+  "updatedAt": "2026-09-24T20:22:54.332+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -148,6 +148,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-24T20:21:36.370+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (5회차)",
+        "answer": "페널티킥",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:22:54.328+09:00"
       }
     ],
     "kakaobank-ox": [
