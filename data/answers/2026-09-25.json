@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T00:00:54.719+09:00",
+  "updatedAt": "2026-09-25T00:01:29.113+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO이란, 하나의 상품·서비스를 소수 기업이 장악해 경쟁이 제한된 시장 구조예요.",
+        "answer": "독과점",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T00:01:29.113+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
