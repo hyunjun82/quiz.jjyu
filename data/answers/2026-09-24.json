@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T11:03:36.335+09:00",
+  "updatedAt": "2026-09-24T12:04:46.461+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,6 +42,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-24T08:03:33.376+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "적립",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T12:04:46.460+09:00"
       }
     ],
     "kakaobank-ox": [
