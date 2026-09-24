@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updatedAt": "2026-09-24T18:46:00.861+09:00",
+  "updatedAt": "2026-09-24T20:01:14.785+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -11,7 +11,92 @@
         "publishedAt": "2026-09-24T01:03:17.178+09:00"
       }
     ],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "픽스 트랩 전기 파리 모기채 (1회차)",
+        "answer": "흡착, 수면, 안전망, 충전식, 자동살충",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.780+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.780+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.780+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.780+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.780+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.781+09:00"
+      },
+      {
+        "question": "신한은행 적금 9단 출시 (7회차)",
+        "answer": "20",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.781+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.781+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.781+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.781+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.781+09:00"
+      },
+      {
+        "question": "키토선생 베스트템 소이비랩 저당 검은콩두유 저당 딸기잼",
+        "answer": "42",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-24T20:01:14.781+09:00"
+      }
+    ],
     "shinhan-sol": [
       {
         "question": "아래 선수 중 2027 KBO 신인 드래프트에 지명된 선수 중 나이가 가장 많은 선수는?",
