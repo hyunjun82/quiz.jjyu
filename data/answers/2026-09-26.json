@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T06:30:49.480+09:00",
+  "updatedAt": "2026-09-26T07:01:34.044+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -163,10 +163,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "비타민 C는 철분 흡수를 돕는다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-09-26T00:01:50.670+09:00"
       }
     ],
