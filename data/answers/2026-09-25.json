@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T09:30:27.412+09:00",
+  "updatedAt": "2026-09-25T09:32:17.923+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -114,10 +114,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "9월25일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "추석은 매년 양력 9월 15일로 날짜가 정해져 있다.",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-09-25T03:09:23.877+09:00"
       }
     ],
