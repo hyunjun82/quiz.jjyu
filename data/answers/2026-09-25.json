@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T20:10:32.252+09:00",
+  "updatedAt": "2026-09-25T20:58:07.630+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -137,6 +137,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-25T20:03:05.872+09:00"
+      },
+      {
+        "question": "물 한 방울 안 섞은 블루베리 100% 주스, 한 포에 평균 약 OOO알의 블루베리가 들어갑니다. 빈칸 숫자는?",
+        "answer": "200",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-25T20:58:07.623+09:00"
       }
     ],
     "shinhan-sol": [
