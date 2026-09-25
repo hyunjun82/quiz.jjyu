@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T00:01:15.306+09:00",
+  "updatedAt": "2026-09-26T00:01:50.670+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,7 +69,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-26T00:01:50.670+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
@@ -85,7 +93,15 @@
     ],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "리볼빙 서비스는 결제 금액을 이월하지 않고 매달 전액을 반드시 결제해야 하는 방식이에요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-26T00:01:50.670+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
