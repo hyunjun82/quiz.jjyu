@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T10:03:29.809+09:00",
+  "updatedAt": "2026-09-25T10:07:55.617+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,10 +92,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "노리2 체크카드(KB Pay)를 신규 발급하고 3만원 이상 이용하면 받을 수 있는 캐시백은 얼마일까요? *준법감시인 심의필 260921-03177-KOP",
         "answer": "3번 3만원",
         "note": "",
-        "source": "tipistip",
+        "source": "blog",
         "publishedAt": "2026-09-25T10:01:34.022+09:00"
       }
     ],
