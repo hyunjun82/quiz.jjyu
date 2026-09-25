@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T09:07:29.111+09:00",
+  "updatedAt": "2026-09-25T09:26:43.784+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-25T09:07:29.110+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (4회차)",
+        "answer": "90",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T09:26:43.783+09:00"
+      },
+      {
+        "question": "화성호텔 ㅂㅂㅇ와 함께 추석연휴는 혜택 가득한 현대아울렛으로 놀러가요",
+        "answer": "벨보이",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T09:26:43.783+09:00"
       }
     ],
     "cashwalk": [
