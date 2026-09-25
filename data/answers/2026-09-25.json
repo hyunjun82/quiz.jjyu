@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T11:02:39.080+09:00",
+  "updatedAt": "2026-09-25T12:01:44.283+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -162,6 +162,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-25T08:03:16.948+09:00"
+      },
+      {
+        "question": "음식 관련 이모지 보고 퀴즈 풀기 (2회차)",
+        "answer": "덕담",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-25T12:01:44.278+09:00"
       }
     ],
     "kakaobank-ox": [
