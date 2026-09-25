@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T09:34:51.161+09:00",
+  "updatedAt": "2026-09-25T09:36:46.628+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,6 +211,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-25T00:56:19.856+09:00"
+      },
+      {
+        "question": "공복혈당이 100~125mg/dL면 정상 범위에 해당한다",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T09:36:46.626+09:00"
       }
     ],
     "buzzvil": [
