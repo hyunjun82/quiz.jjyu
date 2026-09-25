@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T00:25:42.667+09:00",
+  "updatedAt": "2026-09-26T00:30:52.516+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -36,7 +36,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "중고차 구매대출 비교서비스에서는 중고차 할부 상품 금리, 한도까지 비교해볼 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-26T00:30:52.516+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -87,8 +95,24 @@
         "publishedAt": "2026-09-26T00:01:15.306+09:00"
       }
     ],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "Q. 경기 종료 후 그 경기에서 가장 뛰어난 활약을 펼친 선수에게 흔히 붙는 표현(M.O.M)은 무엇일까요?",
+        "answer": "2. 맨 오브 더 매치",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-26T00:30:52.516+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "원픽통장 만들면 챔피언 키즈카페 이용권 또는 올리브영 2만원권 중 하나를 100% 받을 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-26T00:30:52.516+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "한국거래소(KOSPI, KOSDAQ)에서 개별 종목 주가는 전일 종가 대비 하루에 몇 퍼센트(%)까지 오르거나 내릴 수 있을까요?",
