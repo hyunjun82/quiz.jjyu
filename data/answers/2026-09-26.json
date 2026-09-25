@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T00:30:52.516+09:00",
+  "updatedAt": "2026-09-26T02:18:29.688+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -55,6 +55,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-26T00:01:15.306+09:00"
+      },
+      {
+        "question": "기후변화는 '곤충'의 다양성 및 생티태계에 직접적인 영향을 끼치지 않으며, 이는 인류의 생존에 긍정적인 영향을 끼친다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-26T02:18:29.686+09:00"
       }
     ],
     "hpoint": [
@@ -93,6 +100,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-26T00:01:15.306+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (2회차)",
+        "answer": "빅컷",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-26T02:18:29.687+09:00"
       }
     ],
     "hana-onq": [
