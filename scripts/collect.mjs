@@ -1930,6 +1930,11 @@ function recordTombstone(today, slug, item, reason) {
 // (9/17 한 번 뺐다가 오판으로 확인해 되돌림 — 다시 빼지 말 것.)
 const REPEAT_OK = new Set(['yes24', 'monimo', 'cashwalk']);
 
+/** 앞번호(1. / 1) / 1번 / ①)를 뗀 정답 키 — 어제 것 대조 전용 */
+function yCore(ans) {
+  return normalize(String(ans || '').replace(/^\s*(\d{1,2}\s*[.)번]|[①-⑩])\s*/, ''));
+}
+
 function loadYesterdayKeys(today) {
   const d = new Date(`${today}T00:00:00Z`);
   d.setUTCDate(d.getUTCDate() - 1);
@@ -1947,6 +1952,10 @@ function loadYesterdayKeys(today) {
       for (const it of arr || []) {
         const nq = String(it.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
         add(slug, isGenericQuestion(it.question, slug) ? '' : nq, itemKey(it));
+        // 번호만 뗀 정답도 같은 것으로 본다. 2026-09-26: 어제 "1. 손없는 날" 과 오늘 퀴즈벨의
+        // "손 없는 날"(어제 정답이 오늘 페이지에 딸려 옴)이 번호 차이로 어제 것 판정을 빠져나갔다.
+        const core = yCore(it.answer);
+        if (core && core !== itemKey(it)) add(slug, isGenericQuestion(it.question, slug) ? '' : nq, core);
       }
     }
   } catch { /* 어제 파일 없음 */ }
@@ -1976,13 +1985,15 @@ function isYesterdaysItem(ykeys, slug, item, source) {
   if (!y) return false;
   if (isGenericQuestion(item.question, slug)) {
     const a = itemKey(item);
-    return !!a && a.length >= 3 && y.a.has(a);
+    const c = yCore(item.answer);
+    return (!!a && a.length >= 3 && y.a.has(a)) || (!!c && c.length >= 3 && y.a.has(c));
   }
   // 2026-09-14 13:40 정정: 지문만 같다고 막으면 안 된다. 기후행동은 9/13 과 같은 문장을 9/14 에
   // 다시 냈고 정답이 X→O 로 바뀌었다(kgosu 9/14 글로 확인). 지문+정답이 모두 같을 때만 "어제 것"이다.
   const nq = String(item.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
   const a = itemKey(item);
-  return !!nq && !!a && y.qa.has(`${nq}|${a}`);
+  const c = yCore(item.answer);
+  return !!nq && ((!!a && y.qa.has(`${nq}|${a}`)) || (!!c && y.qa.has(`${nq}|${c}`)));
 }
 
 function loadExisting(today) {
