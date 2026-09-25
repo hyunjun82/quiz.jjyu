@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T06:20:33.445+09:00",
+  "updatedAt": "2026-09-26T06:30:49.480+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,7 +151,15 @@
         "publishedAt": "2026-09-26T00:01:15.306+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Lets/tune, Tune/into, tune/into",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-26T06:30:49.480+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
