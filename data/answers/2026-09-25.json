@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T10:36:48.947+09:00",
+  "updatedAt": "2026-09-25T10:37:29.594+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-25T09:26:43.783+09:00"
+      },
+      {
+        "question": "9월25일 토스 행운퀴즈 정답 현대아울렛 홀리데이 빅찬스 쇼핑혜택 할인쿠폰",
+        "answer": "90 벨보이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-25T10:37:29.592+09:00"
       }
     ],
     "cashwalk": [
