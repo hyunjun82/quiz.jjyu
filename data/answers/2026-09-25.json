@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T09:28:33.556+09:00",
+  "updatedAt": "2026-09-25T09:29:49.588+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -157,10 +157,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나은행 어린이 금융교실은 초등학생이라면 누구나 대면교육 현장에서 참여할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-25T00:56:19.857+09:00"
       }
     ],
