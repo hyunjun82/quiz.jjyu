@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T08:14:19.851+09:00",
+  "updatedAt": "2026-09-25T09:06:16.645+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -204,7 +204,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-25T09:06:16.645+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "치매 예방 수칙 중 적극적으로 실천해야 할 3가지는 운동, 식사, 독서이다?",
