@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T10:01:34.023+09:00",
+  "updatedAt": "2026-09-25T10:03:29.809+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -127,7 +127,15 @@
         "publishedAt": "2026-09-25T00:01:29.113+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "20",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-25T10:03:29.809+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "추석은 매년 양력 9월 15일로 날짜가 정해져 있다.",
@@ -216,7 +224,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "무료반품",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-25T10:03:29.809+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
