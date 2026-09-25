@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T09:32:17.923+09:00",
+  "updatedAt": "2026-09-25T09:32:55.444+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -80,7 +80,15 @@
         "publishedAt": "2026-09-25T08:03:16.948+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "신차를 알아볼 때 할부금을 조회하고 카드로 구매 시, 캐시백율을 비교할 수 있는 서비스가 없다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-25T09:32:55.443+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
