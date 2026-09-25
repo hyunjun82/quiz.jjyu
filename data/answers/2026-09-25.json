@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updatedAt": "2026-09-25T10:47:07.750+09:00",
+  "updatedAt": "2026-09-25T10:48:00.703+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -129,10 +129,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "중국 덤도덕에서 카카오페이로 결제하고 OO위안 즉시할인 받아요",
         "answer": "20",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-25T10:03:29.809+09:00"
       },
       {
