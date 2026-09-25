@@ -1,8 +1,16 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T06:15:10.913+09:00",
+  "updatedAt": "2026-09-26T06:20:33.445+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "황금알밤 열기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-26T06:20:33.444+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "물 한 방울 안 섞은 블루베리 100% 주스, 한 포에 평균 약 OOO알의 블루베리가 들어갑니다. 빈칸 숫자는?",
@@ -91,6 +99,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-26T00:25:42.667+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "2. 헌병 경찰 제도가 시행되었다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-26T06:20:33.445+09:00"
       }
     ],
     "kbank": [
