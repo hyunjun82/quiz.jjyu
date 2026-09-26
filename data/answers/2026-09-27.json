@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T00:00:34.753+09:00",
+  "updatedAt": "2026-09-27T00:01:10.068+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 원료 생산부터 판매까지 여러 단계를 한 기업이 통째로 거느리는 구조예요.",
+        "answer": "수직계열화",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-27T00:01:10.068+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
