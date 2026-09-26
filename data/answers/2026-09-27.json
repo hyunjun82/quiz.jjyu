@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T00:21:41.155+09:00",
+  "updatedAt": "2026-09-27T02:19:04.711+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "추석맞이 체크카드 이벤트에서 5만P를 받으려면 총 몇 개의 대결에서 정답을 맞혀야 할까요?",
         "answer": "4개",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-27T00:02:55.695+09:00"
       },
       {
@@ -68,6 +68,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-27T00:21:41.155+09:00"
+      },
+      {
+        "question": "KB스타뱅킹에서 KB국민은행이나 서민금융진흥원이 관리하고 있는 잠들어 있는 휴면예금을 조회할 수 있다",
+        "answer": "O",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-27T02:19:04.710+09:00"
       }
     ],
     "kbank": [
