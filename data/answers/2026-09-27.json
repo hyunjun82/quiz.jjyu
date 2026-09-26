@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T02:19:04.711+09:00",
+  "updatedAt": "2026-09-27T07:58:07.456+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -84,6 +84,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-27T00:01:45.103+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
+        "answer": "2번 국화",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T07:58:07.455+09:00"
       }
     ],
     "hana-onq": [
@@ -122,6 +129,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-27T00:01:45.103+09:00"
+      },
+      {
+        "question": "유제품을 섭취하면 항상 체중이 증가한다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-27T07:58:07.455+09:00"
       }
     ],
     "skstoa": [],
