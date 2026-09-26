@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T11:16:38.543+09:00",
+  "updatedAt": "2026-09-26T11:18:35.569+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -278,7 +278,15 @@
         "publishedAt": "2026-09-26T11:16:38.542+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-26T11:18:35.568+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "치매는 60세 이상부터 예방하면 된다?",
