@@ -1603,6 +1603,10 @@ const TIP_TITLE_MAP = [
   { slug: 'monimo-eng', re: /모니모 오늘의영어/ },
   { slug: 'shinhan-sol', re: /^신한페이판\][\s\S]*팡팡퀴즈/, backup: true },
   { slug: 'kbank', re: /^케이뱅크\]/, backup: true },
+  // 2026-09-27 추가 — 팁is팁 "카카오뱅크 OX퀴즈 (혜택)"은 우리 kakaobank-ox 와 같은 퀴즈다
+  // (9/26 팁is팁 O = 다비야 O 일치 확인). 8/16 에 kakaobank(AI 이모지)와 다르다고 무시 목록에 넣었는데,
+  // 그땐 kakaobank-ox 카드가 없었다. 다비야가 늦는 날(9/27) 이 카드가 통째로 비었다.
+  { slug: 'kakaobank-ox', re: /카카오뱅크 OX퀴즈/, backup: true },
   { slug: 'climate-action', re: /기후행동/, backup: true },
   { slug: 'hpoint', re: /^Hpoint/, backup: true },
   { slug: 'bitbunny-ox', re: /비트버니\s*-\s*OX/, backup: true },
@@ -1626,8 +1630,7 @@ const TIP_REVIEWED = [
   // 우리 shinhan-sol 은 쏠퀴즈·퀴즈팡팡·출석퀴즈다. 야구퀴즈는 별개 출제다.
   /^신한 쏠야구퀴즈\]/,
   /^신한페이판 출석퀴즈\]/,
-  // 우리 kakaobank 는 AI 이모지 퀴즈다. OX퀴즈(혜택)는 별개 출제다.
-  /카카오뱅크 OX퀴즈/,
+  // (카카오뱅크 OX퀴즈(혜택)는 2026-09-27 부터 kakaobank-ox 로 매핑 — 위 TIP_TITLE_MAP 참고)
   // 우리 hana-onq 는 퀴즈HANA(축구Play)다. 슬기로운 금융생활 OX 는 hana-life 로 간다. 트래블미션은 별개다.
   /하나원큐 트래블미션/,
   /하나원큐 \(오른쪽 하단/,
@@ -1986,7 +1989,11 @@ function isYesterdaysItem(ykeys, slug, item, source) {
   if (isGenericQuestion(item.question, slug)) {
     const a = itemKey(item);
     const c = yCore(item.answer);
-    return (!!a && a.length >= 3 && y.a.has(a)) || (!!c && c.length >= 3 && y.a.has(c));
+    // 2026-09-27: 3자 미만은 통과시켰더니 케이뱅크 "빅컷"(2자)이 어제 답 그대로 퀴즈벨에서 넘어왔다
+    // (그날 진짜 답은 팁is팁 "국화"). 2자라도 O/X·숫자가 아니면 막는다 — O/X·숫자는 서로 다른 문제가
+    // 우연히 같은 값을 갖는 일이 흔해(9/13 나만의닥터) 여기서 막으면 진짜 답이 버려진다.
+    const longEnough = (k) => !!k && (k.length >= 3 || (k.length === 2 && !/^[ox0-9]/.test(k)));
+    return (longEnough(a) && y.a.has(a)) || (longEnough(c) && y.a.has(c));
   }
   // 2026-09-14 13:40 정정: 지문만 같다고 막으면 안 된다. 기후행동은 9/13 과 같은 문장을 9/14 에
   // 다시 냈고 정답이 X→O 로 바뀌었다(kgosu 9/14 글로 확인). 지문+정답이 모두 같을 때만 "어제 것"이다.
