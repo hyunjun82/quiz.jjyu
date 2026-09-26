@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T08:02:24.089+09:00",
+  "updatedAt": "2026-09-27T08:03:02.753+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -35,7 +35,15 @@
         "publishedAt": "2026-09-27T00:02:55.695+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "예산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-27T08:03:02.752+09:00"
+      }
+    ],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
