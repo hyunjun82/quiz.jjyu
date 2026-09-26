@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T18:07:14.510+09:00",
+  "updatedAt": "2026-09-26T18:45:06.244+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -396,7 +396,15 @@
         "publishedAt": "2026-09-26T00:00:36.963+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 매일두유",
+        "answer": "설탕무첨가",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-26T18:45:06.236+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
