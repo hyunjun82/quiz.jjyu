@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T08:03:02.753+09:00",
+  "updatedAt": "2026-09-27T08:05:26.353+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,7 +44,15 @@
         "publishedAt": "2026-09-27T08:03:02.752+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T08:05:26.353+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -88,13 +96,6 @@
     "kbank": [
       {
         "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
-        "answer": "빅컷",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-27T00:01:45.103+09:00"
-      },
-      {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
         "answer": "2번 국화",
         "note": "",
         "source": "tipistip",
