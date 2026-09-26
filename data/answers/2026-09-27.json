@@ -1,8 +1,23 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T00:11:28.503+09:00",
+  "updatedAt": "2026-09-27T00:21:41.155+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "야식국룰 치킨",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T00:21:41.155+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "치즈폭탄 피자",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T00:21:41.155+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -46,7 +61,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "4. (다)-(나)-(가)",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T00:21:41.155+09:00"
+      }
+    ],
     "kbank": [
       {
         "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
@@ -65,7 +88,15 @@
         "publishedAt": "2026-09-27T00:11:28.502+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T00:21:41.155+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "한국거래소(KOSPI, KOSDAQ)에서 개별 종목 주가는 전일 종가 대비 하루에 몇 퍼센트(%)까지 오르거나 내릴 수 있을까요?",
