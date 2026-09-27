@@ -77,10 +77,48 @@ if (missing.length) {
   missing = findMissing();
 }
 
+// ── 오답 의심(불일치) — 2026-09-28 추가 ─────────────────────────────────────
+// 지금까지 이 스크립트는 '빠진 것'만 봤고 '틀린 것'은 못 봤다. 9/26~9/28 오답(케이뱅크 빅컷,
+// 닥터 O, 기후행동 곤충)은 모두 날짜 없는 소스(퀴즈벨·앱테크)에서 왔고, 그날 날짜 붙은 소스는
+// 다른 답을 주고 있었다. 그래서: 날짜 붙은 소스가 이 퀴즈에 답을 주고 있는데, 우리 행 중
+// 날짜 없는 소스에서 온 답이 그 어디에도 없고, 우리 행 수가 날짜 붙은 답 수보다 많으면 보고한다.
+// 자동으로 지우지는 않는다 — 날짜 붙은 소스가 두 번째 회차를 아직 안 올렸을 수도 있기 때문이다.
+const oxOf = (a) => {
+  const t = String(a || '').trim();
+  if (/^(O|○)(\s|\(|$)|^\(?(그렇다|맞아요|맞다)\)?(\s|\(|$)/i.test(t)) return 'o';
+  if (/^(X|×)(\s|\(|$)|^\(?(아니다|아니요|아니에요|틀리다)\)?(\s|\(|$)/i.test(t)) return 'x';
+  return null;
+};
+const coreAns = (a) => oxOf(a) || String(a || '').replace(/^\s*(\d{1,2}\s*[.)번]|[①-⑩])\s*/, '').replace(/\([^)]*\)/g, '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+const sameAns = (x, y) => x === y || (Math.min(x.length, y.length) >= 2 && (x.startsWith(y) || y.startsWith(x)));
+const SKIP_MISMATCH = new Set(['cashwalk', 'cashdoc', 'monimo', 'yes24']);
+const findMismatch = () => {
+  const dated = [...dv, ...tp, ...bl];
+  const out = [];
+  for (const [slug, rows] of Object.entries(mine.answers)) {
+    if (SKIP_MISMATCH.has(slug) || !rows.length) continue;
+    const dAns = [...new Set(dated.filter((f) => f.slug === slug).map((f) => coreAns(f.answer ?? (f.choices || []).join(','))).filter(Boolean))];
+    if (!dAns.length || rows.length <= dAns.length) continue;
+    for (const r of rows) {
+      if (!['quizbells', 'apptech'].includes(r.source)) continue;
+      const c = coreAns(r.answer);
+      if (c && !dAns.some((d) => sameAns(c, d))) out.push({ slug, r, dAns });
+    }
+  }
+  return out;
+};
+const mismatch = findMismatch();
+
 console.log(`[gapcheck] ${today} — 외부 ${ext.length}건(다비야 ${dv.length}·팁is팁 ${tp.length}·블로그 ${bl.length}·퀴즈벨 ${qb.length}) vs 우리 ${Object.values(mine.answers).reduce((n, a) => n + a.length, 0)}건`);
+if (mismatch.length) {
+  console.log(`🟠 [불일치] ${mismatch.length}건 — 날짜 없는 소스(퀴즈벨·앱테크)에서 온 우리 답이 날짜 붙은 소스 답과 다름 (오답 의심)`);
+  for (const { slug, r, dAns } of mismatch) {
+    console.log(`  · [${slug}] 우리 "${r.answer}" (${r.source}, "${String(r.question).slice(0, 30)}") ↔ 날짜 붙은 소스: ${dAns.join(' / ')}`);
+  }
+}
 if (!missing.length) {
   console.log('✅ 누락 없음 — 날짜 붙은 소스에 있는 정답은 전부 우리 사이트에 있음');
-  process.exit(0);
+  process.exit(mismatch.length ? 1 : 0);
 }
 console.log(`🔴 [누락] ${missing.length}건 — 소스에는 있는데 우리에 없음 (수집 규칙이 막았거나 아직 안 돈 것)`);
 for (const f of missing) {

@@ -659,7 +659,7 @@ const QB_ROW_REJECT = {
   ],
 };
 
-function parseQuizbells(html, slug, today) {
+function parseQuizbells(html, slug, today, opts = {}) {
   const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
   const dm = title.match(/(\d{4})년 (\d{2})월 (\d{2})일/);
   if (!dm || `${dm[1]}-${dm[2]}-${dm[3]}` !== today) return [];
@@ -702,6 +702,8 @@ function parseQuizbells(html, slug, today) {
     }
     out.push({ slug, ...buildItem(question, answers), source: 'quizbells' });
   }
+  // 전날 페이지 대조용 — 어제 거르기·모순 보류를 거치기 전의 '표 그대로'가 필요하다.
+  if (opts.raw) return out;
 
   /* ── 모순 행 보류 ───────────────────────────────────────────────
      퀴즈벨 표에는 같은 지문이 두 줄로 들어가고 한쪽이 오답인 경우가 있다.
@@ -762,6 +764,47 @@ function parseQuizbells(html, slug, today) {
   return out.filter((r) => !held.has(qkey(r.question)) && notYesterday(r));
 }
 
+/**
+ * 퀴즈벨 자기 전날 페이지 대조 (2026-09-28)
+ *
+ * 9/20~9/28 오답 12건이 전부 퀴즈벨에서 왔다. 퀴즈벨은 오늘 페이지에 어제 정답을 그대로 남긴다:
+ *   케이뱅크 9/25 [손 없는 날, KOAFEC] → 9/26 [빅컷, 손 없는 날] → 9/27 [빅컷]
+ *   기후행동 9/26 "곤충…" X → 9/27·9/28 페이지에도 그대로
+ *   닥터나우·나만의닥터 9/26 O → 9/27 에도 O (그날 진짜 답은 X)
+ * 예전엔 '우리가 어제 올린 답'과 비교했는데, 표기 차이("1. 손없는 날")·짧은 답(빅컷)·
+ * 우리가 어제 안 올린 답(곤충)이 번번이 빠져나가 하루 하나씩 규칙을 덧댔다(9/26·27·28).
+ * 이제는 퀴즈벨 자신의 전날 페이지(quizbells.com/quiz/{slug}/{어제}/answer)와 비교한다.
+ * 전날 표에 같은 지문·정답이 그대로 있으면 퀴즈벨 단독으로는 올리지 않는다.
+ * 진짜 오늘 답이면 날짜가 붙은 소스(다비야·팁is팁·블로그)가 곧 주고, 그쪽으로 올라간다.
+ * 반복 출제가 정상인 퀴즈(REPEAT_OK·캐시닥)는 제외한다.
+ */
+const QB_PREV_CACHE = new Map(); // `${어제}:${sourceSlug}` → Set(key) | null(가져오기 실패)
+const QB_PREV_REPORTED = new Set();
+const qbPrevKey = (it) =>
+  // 지문 속 날짜("9월22일 하나은행 … 정답")는 뗀다 — 날짜만 바뀐 같은 표 행이다(9/22 하나원큐 '베네수엘라' 실측).
+  `${String(it.question || '').replace(/\s*\(\d+회차\)\s*$/, '').replace(/\d{1,2}\s*월\s*\d{1,2}\s*일/g, '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase()}|${String(it.answer || '')
+    .replace(/^\s*(\d{1,2}\s*[.)번]|[①-⑩])\s*/, '')
+    .replace(/[^가-힣0-9A-Za-z]/g, '')
+    .toLowerCase()}`;
+
+async function quizbellsPrevKeys(q, today) {
+  const d = new Date(`${today}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() - 1);
+  const y = d.toISOString().slice(0, 10);
+  const ck = `${y}:${q.sourceSlug}`;
+  if (QB_PREV_CACHE.has(ck)) return QB_PREV_CACHE.get(ck);
+  let keys = null;
+  try {
+    const res = await fetch(`https://quizbells.com/quiz/${q.sourceSlug}/${y}/answer`, {
+      headers: { 'user-agent': 'Mozilla/5.0 (compatible; quizday-collector)' },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (res.ok) keys = new Set(parseQuizbells(await res.text(), q.slug, y, { raw: true }).map(qbPrevKey));
+  } catch { /* 실패는 캐시하지 않는다 — 다음 폴링에서 다시 시도 */ }
+  if (keys) QB_PREV_CACHE.set(ck, keys);
+  return keys;
+}
+
 async function collectFromQuizbells() {
   const today = kstToday();
   const targets = QUIZZES.filter((q) => q.sourceSlug);
@@ -773,10 +816,23 @@ async function collectFromQuizbells() {
           signal: AbortSignal.timeout(20000),
         });
         if (!res.ok) return [];
-        return parseQuizbells(await res.text(), q.slug, today).map((r) => ({
-          ...r,
-          source: 'quizbells',
-        }));
+        const items = parseQuizbells(await res.text(), q.slug, today);
+        if (!items.length) return [];
+        if (REPEAT_OK.has(q.slug) || q.slug === 'cashdoc') return items.map((r) => ({ ...r, source: 'quizbells' }));
+        // 전날 페이지를 못 가져오면 오늘 것을 내보내지 않는다 — 확인 못 한 걸 싣지 않는다.
+        const prev = await quizbellsPrevKeys(q, today);
+        if (!prev) return [];
+        return items
+          .filter((r) => {
+            if (!prev.has(qbPrevKey(r))) return true;
+            const tag = `${q.slug}|${qbPrevKey(r)}`;
+            if (!QB_PREV_REPORTED.has(tag)) {
+              QB_PREV_REPORTED.add(tag);
+              console.log(`퀴즈벨 전날 페이지와 동일 — 보류 [${q.slug}] "${String(r.question).slice(0, 30)}" = "${r.answer}"`);
+            }
+            return false;
+          })
+          .map((r) => ({ ...r, source: 'quizbells' }));
       } catch {
         return []; // 소스 하나가 죽어도 전체를 멈추지 않는다
       }
@@ -1938,11 +1994,6 @@ function recordTombstone(today, slug, item, reason) {
 // (9/17 한 번 뺐다가 오판으로 확인해 되돌림 — 다시 빼지 말 것.)
 const REPEAT_OK = new Set(['yes24', 'monimo', 'cashwalk']);
 
-/** 앞번호(1. / 1) / 1번 / ①)를 뗀 정답 키 — 어제 것 대조 전용 */
-function yCore(ans) {
-  return normalize(String(ans || '').replace(/^\s*(\d{1,2}\s*[.)번]|[①-⑩])\s*/, ''));
-}
-
 function loadYesterdayKeys(today) {
   const d = new Date(`${today}T00:00:00Z`);
   d.setUTCDate(d.getUTCDate() - 1);
@@ -1960,31 +2011,9 @@ function loadYesterdayKeys(today) {
       for (const it of arr || []) {
         const nq = String(it.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
         add(slug, isGenericQuestion(it.question, slug) ? '' : nq, itemKey(it));
-        // 번호만 뗀 정답도 같은 것으로 본다. 2026-09-26: 어제 "1. 손없는 날" 과 오늘 퀴즈벨의
-        // "손 없는 날"(어제 정답이 오늘 페이지에 딸려 옴)이 번호 차이로 어제 것 판정을 빠져나갔다.
-        const core = yCore(it.answer);
-        if (core && core !== itemKey(it)) add(slug, isGenericQuestion(it.question, slug) ? '' : nq, core);
       }
     }
   } catch { /* 어제 파일 없음 */ }
-  // 2026-09-28: 그저께 것도 본다 — 단, 지문이 실제 문장인 항목의 '지문+정답' 쌍만.
-  // 기후행동은 9/27(일)에 문제가 없었는데, 9/28 자정 퀴즈벨이 9/26 문제("곤충…" = X)를 그대로 띄웠다.
-  // 어제 파일이 비어 있어 '어제 것' 판정을 빠져나갔다. 정답값만으로는 막지 않는다(O/X·짧은 답 오차단 방지).
-  try {
-    const d2 = new Date(`${today}T00:00:00Z`);
-    d2.setUTCDate(d2.getUTCDate() - 2);
-    const f2 = JSON.parse(fs.readFileSync(fileFor(d2.toISOString().slice(0, 10)), 'utf-8'));
-    for (const [slug, arr] of Object.entries(f2.answers || {})) {
-      for (const it of arr || []) {
-        // 캐시닥은 광고형 문제가 이틀 걸러 같은 지문·정답으로 다시 나온다(8/17·9/13·9/15·9/17·9/25 실측) — 제외.
-        if (slug === 'cashdoc' || isGenericQuestion(it.question, slug)) continue;
-        const nq = String(it.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
-        if (nq.length < 10) continue;
-        const o = out[slug] || (out[slug] = { q: new Set(), a: new Set(), qa: new Set() });
-        for (const a of [itemKey(it), yCore(it.answer)]) if (a) o.qa.add(`${nq}|${a}`);
-      }
-    }
-  } catch { /* 그저께 파일 없음 */ }
   try {
     const t = JSON.parse(fs.readFileSync(deletedFileFor(y), 'utf-8'));
     for (const [slug, keys] of Object.entries(t.deleted || {})) {
@@ -2011,19 +2040,13 @@ function isYesterdaysItem(ykeys, slug, item, source) {
   if (!y) return false;
   if (isGenericQuestion(item.question, slug)) {
     const a = itemKey(item);
-    const c = yCore(item.answer);
-    // 2026-09-27: 3자 미만은 통과시켰더니 케이뱅크 "빅컷"(2자)이 어제 답 그대로 퀴즈벨에서 넘어왔다
-    // (그날 진짜 답은 팁is팁 "국화"). 2자라도 O/X·숫자가 아니면 막는다 — O/X·숫자는 서로 다른 문제가
-    // 우연히 같은 값을 갖는 일이 흔해(9/13 나만의닥터) 여기서 막으면 진짜 답이 버려진다.
-    const longEnough = (k) => !!k && (k.length >= 3 || (k.length === 2 && !/^[ox0-9]/.test(k)));
-    return (longEnough(a) && y.a.has(a)) || (longEnough(c) && y.a.has(c));
+    return !!a && a.length >= 3 && y.a.has(a);
   }
   // 2026-09-14 13:40 정정: 지문만 같다고 막으면 안 된다. 기후행동은 9/13 과 같은 문장을 9/14 에
   // 다시 냈고 정답이 X→O 로 바뀌었다(kgosu 9/14 글로 확인). 지문+정답이 모두 같을 때만 "어제 것"이다.
   const nq = String(item.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
   const a = itemKey(item);
-  const c = yCore(item.answer);
-  return !!nq && ((!!a && y.qa.has(`${nq}|${a}`)) || (!!c && y.qa.has(`${nq}|${c}`)));
+  return !!nq && !!a && y.qa.has(`${nq}|${a}`);
 }
 
 function loadExisting(today) {
