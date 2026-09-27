@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T18:32:52.954+09:00",
+  "updatedAt": "2026-09-27T18:33:31.674+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -152,10 +152,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "중고차 구매대출 비교서비스에서는 신용대출, 마이너스 통장 대출 금리, 한도는 비교해볼 수 없다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-27T08:05:26.353+09:00"
       }
     ],
