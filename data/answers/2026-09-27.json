@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T15:44:57.668+09:00",
+  "updatedAt": "2026-09-27T16:01:00.415+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,6 +109,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-27T11:27:42.966+09:00"
+      },
+      {
+        "question": "종근당건강 순도UP 프로메가 오메가3 특가",
+        "answer": "36900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-27T16:01:00.409+09:00"
       }
     ],
     "shinhan-sol": [
