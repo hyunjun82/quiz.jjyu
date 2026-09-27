@@ -1967,6 +1967,24 @@ function loadYesterdayKeys(today) {
       }
     }
   } catch { /* 어제 파일 없음 */ }
+  // 2026-09-28: 그저께 것도 본다 — 단, 지문이 실제 문장인 항목의 '지문+정답' 쌍만.
+  // 기후행동은 9/27(일)에 문제가 없었는데, 9/28 자정 퀴즈벨이 9/26 문제("곤충…" = X)를 그대로 띄웠다.
+  // 어제 파일이 비어 있어 '어제 것' 판정을 빠져나갔다. 정답값만으로는 막지 않는다(O/X·짧은 답 오차단 방지).
+  try {
+    const d2 = new Date(`${today}T00:00:00Z`);
+    d2.setUTCDate(d2.getUTCDate() - 2);
+    const f2 = JSON.parse(fs.readFileSync(fileFor(d2.toISOString().slice(0, 10)), 'utf-8'));
+    for (const [slug, arr] of Object.entries(f2.answers || {})) {
+      for (const it of arr || []) {
+        // 캐시닥은 광고형 문제가 이틀 걸러 같은 지문·정답으로 다시 나온다(8/17·9/13·9/15·9/17·9/25 실측) — 제외.
+        if (slug === 'cashdoc' || isGenericQuestion(it.question, slug)) continue;
+        const nq = String(it.question || '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
+        if (nq.length < 10) continue;
+        const o = out[slug] || (out[slug] = { q: new Set(), a: new Set(), qa: new Set() });
+        for (const a of [itemKey(it), yCore(it.answer)]) if (a) o.qa.add(`${nq}|${a}`);
+      }
+    }
+  } catch { /* 그저께 파일 없음 */ }
   try {
     const t = JSON.parse(fs.readFileSync(deletedFileFor(y), 'utf-8'));
     for (const [slug, keys] of Object.entries(t.deleted || {})) {
