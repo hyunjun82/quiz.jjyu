@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T18:34:49.449+09:00",
+  "updatedAt": "2026-09-27T18:35:26.489+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -155,6 +155,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-27T12:02:06.368+09:00"
+      },
+      {
+        "question": "음식 관련 이모지 보고 퀴즈 풀기 (3회차)",
+        "answer": "상영광",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-27T18:35:26.484+09:00"
       }
     ],
     "kakaobank-ox": [
