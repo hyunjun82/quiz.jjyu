@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:03:11.893+09:00",
+  "updatedAt": "2026-09-28T00:03:45.757+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-09-28T00:00:48.306+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "오픈뱅킹",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-28T00:03:45.756+09:00"
+      },
+      {
+        "question": "메이저리그 소식입니다. 아래 팀 중 MLB 아메리칸리그 포스트시즌 진출을 확정한 팀이 아닌 것은?",
+        "answer": "디트로이트 타이거스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-28T00:03:45.756+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -46,7 +61,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "9월28일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "베를린 장벽 붕괴",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-28T00:03:45.756+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
