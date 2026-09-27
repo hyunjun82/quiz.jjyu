@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T11:27:42.971+09:00",
+  "updatedAt": "2026-09-27T12:02:06.373+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -134,6 +134,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-27T08:03:02.752+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "상영관",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T12:02:06.368+09:00"
       }
     ],
     "kakaobank-ox": [
