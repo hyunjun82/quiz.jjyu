@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T08:08:29.022+09:00",
+  "updatedAt": "2026-09-27T09:18:44.147+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -129,7 +129,15 @@
         "publishedAt": "2026-09-27T00:01:45.103+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "knew/could, knew/right, knew/come",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T09:18:44.147+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
