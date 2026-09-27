@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T02:35:18.743+09:00",
+  "updatedAt": "2026-09-28T02:35:30.241+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -22,10 +22,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "SOL페이에 계좌 등록만 하면 결제부터 송금까지 간편하게 이용할 수 있는 서비스는?",
         "answer": "오픈뱅킹",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-09-28T00:03:45.756+09:00"
       },
       {
@@ -56,9 +56,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-28T00:01:24.301+09:00"
+      },
+      {
+        "question": "경기도 기후변화 적응대책 중 ‘건강’에 관련된 것은 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-28T02:35:30.239+09:00"
       }
     ],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보] 9월 28일 현대홈쇼핑 리바트 집테리어 라이브가 찾아옵니다!다양한 혜택과 함께하는 리바트 집테리어 라이브는 몇시에 진행될까요?",
+        "answer": "6시 30분",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-28T02:35:30.239+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO란, 인기 상품을 팔면서 잘 안 팔리는 상품을 함께 사도록 강제하는 판매 방식이에요.",
@@ -71,38 +86,53 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "9월28일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "1989년 동서 냉전 종식의 상징적인 사건으로 평가받는 것은 무엇일까요?",
         "answer": "베를린 장벽 붕괴",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-28T00:03:45.756+09:00"
       }
     ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "question": "물산 장려 운동은 1920년대 초 평양에서 조만식 등의 주도로 시작되었으며, ‘내 살림 내 것으로’라는 구호를 내세워 국산품 애용과 민족 산업 육성을 장려하였다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-09-28T00:22:24.645+09:00"
+      },
+      {
+        "question": "기업 실적이 시장 예상치보다 훨씬 좋은 경우를 무엇이라고 할까요?",
+        "answer": "어닝서프라이즈",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-28T02:35:30.237+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "온몸으로 혈액을 순환시키는 펌프 역할을 하는 우리 몸의 기관은?",
+        "answer": "③ 심장",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-28T02:35:30.238+09:00"
+      }
+    ],
     "hana-onq": [
       {
-        "question": "9월28일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "오늘 대한민국 축구 국가대표팀과 친선 경기를 치르는 남미에 위치한 초대 월드컵 우승 국가는 어디일까요?",
         "answer": "우루과이",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-28T00:07:18.124+09:00"
       }
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "휴면계좌 확인은 영업점에서만 가능하다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-09-28T00:22:24.645+09:00"
       }
     ],
@@ -119,7 +149,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "기침이 2주 넘게 이어지면 단순 감기가 아니라 기관지염을 의심해봐야 한다",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -132,7 +162,7 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 퀴즈 — 닥터나우 (1회차)",
+        "question": "임플라논은 삽입 후 36시간 이내에 피임 효과가 시작된다",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
