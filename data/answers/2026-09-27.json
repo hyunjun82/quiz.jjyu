@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T18:32:08.313+09:00",
+  "updatedAt": "2026-09-27T18:32:52.954+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -381,7 +381,15 @@
         "publishedAt": "2026-09-27T00:00:34.753+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 곰도리 온열안대",
+        "answer": "긴장",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T18:32:52.950+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
