@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T18:31:30.891+09:00",
+  "updatedAt": "2026-09-27T18:32:08.313+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -234,10 +234,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 가족손님 등록 서비스를 통해 가족을 등록하면, 등록된 모든 가족이 하나은행 최고 등급(Hana VIP) 혜택을 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-27T00:21:41.155+09:00"
       }
     ],
