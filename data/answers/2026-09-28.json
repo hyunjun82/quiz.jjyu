@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T08:01:22.732+09:00",
+  "updatedAt": "2026-09-28T08:03:18.147+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,7 +36,15 @@
         "publishedAt": "2026-09-28T00:03:45.756+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "세금계산서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-28T08:03:18.146+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
