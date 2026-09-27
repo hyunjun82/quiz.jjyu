@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T10:03:49.119+09:00",
+  "updatedAt": "2026-09-27T10:06:11.333+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -139,7 +139,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "다음 중 2026년 가을에 열리는 지역축제가 아닌 것은?",
+        "answer": "광양매화축제",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-27T10:06:11.328+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [
