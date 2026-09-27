@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:04:21.846+09:00",
+  "updatedAt": "2026-09-28T00:07:18.124+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -72,7 +72,15 @@
     ],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "9월28일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "우루과이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-28T00:07:18.124+09:00"
+      }
+    ],
     "hana-life": [],
     "monimo": [
       {
