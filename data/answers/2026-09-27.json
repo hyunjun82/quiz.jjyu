@@ -198,13 +198,6 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-27T02:19:04.710+09:00"
-      },
-      {
-        "question": "KB Pay 오늘의 퀴즈 (3회차)",
-        "answer": "광양매화축제",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-27T10:03:49.112+09:00"
       }
     ],
     "kbank": [
@@ -255,13 +248,6 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
-        "answer": "O (그렇다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-27T00:01:45.103+09:00"
-      },
-      {
         "question": "유제품을 섭취하면 항상 체중이 증가한다.",
         "answer": "X",
         "note": "",
@@ -289,13 +275,6 @@
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
-      {
-        "question": "닥터나우 퀴즈 — 닥터나우 (1회차)",
-        "answer": "O (그렇다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-09-27T00:01:45.103+09:00"
-      },
       {
         "question": "닥터나우 오늘의 퀴즈 (2회차)",
         "answer": "X",
