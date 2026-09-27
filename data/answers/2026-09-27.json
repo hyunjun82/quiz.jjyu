@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T11:04:39.090+09:00",
+  "updatedAt": "2026-09-27T11:06:27.877+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -340,7 +340,15 @@
         "publishedAt": "2026-09-27T11:04:39.087+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-27T11:06:27.875+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "병원에 입원한 상태에서도 장기요양 서비스를 받을 수 있다?",
