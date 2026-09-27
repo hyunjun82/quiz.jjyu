@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:01:24.301+09:00",
+  "updatedAt": "2026-09-28T00:01:59.280+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -78,7 +78,15 @@
     ],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "개인워크아웃은 법원이 아니라 신용회복위원회를 통해 진행되는 채무조정 절차예요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-28T00:01:59.280+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
