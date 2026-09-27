@@ -651,7 +651,12 @@ function parseTeampljeon(qCell, aCell) {
  */
 const QB_ROW_REJECT = {
   // "8/19일자" 처럼 날짜만 있는 행 = KB Pay 도전미션. 별별퀴즈가 아니다.
-  'kb-star': [/^\d{1,2}\s*\/\s*\d{1,2}\s*일자$/],
+  'kb-star': [
+    /^\d{1,2}\s*\/\s*\d{1,2}\s*일자$/,
+    // 2026-09-27: 9/18 부터 퀴즈벨이 같은 행 이름을 "KB Pay 오늘의 퀴즈"로 바꿔 위 규칙이 안 걸렸다.
+    // 그 뒤 열흘 동안 KB Pay 정답(9,900원·500명·…·광양매화축제)이 매일 kb-star 카드에 같이 올라갔다.
+    /KB\s*Pay/i,
+  ],
 };
 
 function parseQuizbells(html, slug, today) {
