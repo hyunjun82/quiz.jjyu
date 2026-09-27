@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T05:16:33.407+09:00",
+  "updatedAt": "2026-09-28T07:04:20.426+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -154,6 +154,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-28T00:01:24.301+09:00"
+      },
+      {
+        "question": "오렌지 주스는 면역력을 강화할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-28T07:04:20.426+09:00"
       }
     ],
     "skstoa": [],
