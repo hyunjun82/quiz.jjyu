@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T08:18:59.570+09:00",
+  "updatedAt": "2026-09-29T08:20:48.061+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,10 +144,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐에서 오늘의 운세를 보려면 복채를 내야한다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-29T01:00:14.391+09:00"
       }
     ],
