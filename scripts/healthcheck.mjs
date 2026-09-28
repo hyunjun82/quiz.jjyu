@@ -117,8 +117,11 @@ async function quizbellsState(sourceSlug, slug, today) {
     if (!dm || `${dm[1]}-${dm[2]}-${dm[3]}` !== today) return { clean: false, any: false };
 
     // 발행 파이프라인과 똑같은 최종 관문(isSaneQuestion)까지 통과해야 clean이다.
+    // 2026-09-29: '표 그대로' 파싱(raw)으로 본다. 어제 정답이 남은 행(퀴즈벨 이월)은 수집기가 일부러
+    // 거르는데, 걸러진 결과로 판정하면 "파서가 못 읽음"으로 오인해 장애 알림이 났다(9/29 02:29 #1808:
+    // 기후행동·케이뱅크·나만의닥터 = 전부 전날 값이 남은 행). 여기서는 '파서가 읽을 수 있는가'만 본다.
     const clean =
-      parseQuizbells(html, slug, today).filter((r) => isSaneQuestion(r.question)).length > 0;
+      parseQuizbells(html, slug, today, { raw: true }).filter((r) => isSaneQuestion(r.question)).length > 0;
 
     const table = html.match(/<table[^>]*>([\s\S]*?)<\/table>/)?.[1] ?? '';
     const rows = [
