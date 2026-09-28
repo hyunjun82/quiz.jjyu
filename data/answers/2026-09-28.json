@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T09:18:18.376+09:00",
+  "updatedAt": "2026-09-28T09:51:22.986+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,10 +54,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "자동차를 구매할 때 DSR이 다 찼을때에도 승인 여부를 조회해볼 수 있는 상품이 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-28T00:15:08.779+09:00"
       }
     ],
