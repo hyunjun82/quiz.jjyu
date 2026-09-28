@@ -91,7 +91,9 @@ const oxOf = (a) => {
 };
 const coreAns = (a) => oxOf(a) || String(a || '').replace(/^\s*(\d{1,2}\s*[.)번]|[①-⑩])\s*/, '').replace(/\([^)]*\)/g, '').replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase();
 const sameAns = (x, y) => x === y || (Math.min(x.length, y.length) >= 2 && (x.startsWith(y) || y.startsWith(x)));
-const SKIP_MISMATCH = new Set(['cashwalk', 'cashdoc', 'monimo', 'yes24']);
+// 신한(쏠퀴즈·팡팡·야구·출석)·KB스타(한국사·스타퀴즈)는 한 카드에 서로 다른 퀴즈가 여럿이라 정답끼리 비교가 안 된다
+// (9/29 오탐: 신한 야구 '5회'·KB 한국사 '④ 신간회…' 모두 팁is팁과 일치하는 정답이었다).
+const SKIP_MISMATCH = new Set(['cashwalk', 'cashdoc', 'monimo', 'yes24', 'shinhan-sol', 'kb-star']);
 const findMismatch = () => {
   const dated = [...dv, ...tp, ...bl];
   const out = [];
