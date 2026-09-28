@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T11:02:35.352+09:00",
+  "updatedAt": "2026-09-28T11:06:43.797+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -362,7 +362,15 @@
         "publishedAt": "2026-09-28T11:02:35.346+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-28T11:06:43.792+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "가까운 거리에 있는 시설이 가장 좋은 선택이다?",
