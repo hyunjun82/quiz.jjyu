@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T08:20:48.061+09:00",
+  "updatedAt": "2026-09-29T08:22:41.208+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,10 +53,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "장기렌트를 알아볼 때 이용할 수 있는 서비스가 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-29T01:00:14.391+09:00"
       }
     ],
