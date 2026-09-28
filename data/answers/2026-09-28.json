@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T16:43:12.814+09:00",
+  "updatedAt": "2026-09-28T18:32:23.092+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -538,7 +538,15 @@
         "publishedAt": "2026-09-28T00:00:48.306+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 동화약품",
+        "answer": "쿨링",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-28T18:32:23.084+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
