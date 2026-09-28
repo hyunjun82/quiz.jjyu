@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T03:40:42.009+09:00",
+  "updatedAt": "2026-09-29T07:59:02.103+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -146,6 +146,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-29T02:39:16.937+09:00"
+      },
+      {
+        "question": "꿀은 설탕보다 항상 건강에 좋다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-29T07:59:02.102+09:00"
       }
     ],
     "skstoa": [],
