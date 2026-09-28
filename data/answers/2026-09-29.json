@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T08:02:29.469+09:00",
+  "updatedAt": "2026-09-29T08:05:59.818+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,10 +37,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "question": "SSF샵 11주년 기념 파티는?",
         "answer": "생일파티",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-09-29T08:02:29.468+09:00"
       }
     ],
