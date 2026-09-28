@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T08:01:17.092+09:00",
+  "updatedAt": "2026-09-29T08:02:29.469+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -35,7 +35,15 @@
         "publishedAt": "2026-09-29T01:00:14.390+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "answer": "생일파티",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-29T08:02:29.468+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
