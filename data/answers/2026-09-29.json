@@ -35,15 +35,7 @@
         "publishedAt": "2026-09-29T01:00:14.390+09:00"
       }
     ],
-    "kakaobank": [
-      {
-        "question": "SSF샵 11주년 기념 파티는?",
-        "answer": "오전 8시 이후 정답을 확인해 주세요.",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-09-29T03:25:21.504+09:00"
-      }
-    ],
+    "kakaobank": [],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
