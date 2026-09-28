@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T03:25:21.505+09:00",
+  "updatedAt": "2026-09-29T03:40:42.009+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -163,7 +163,7 @@
     "doctornow": [
       {
         "question": "세르타코나졸은 곰팡이 세포막을 손상시켜 무좀을 치료하는 항진균제다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-29T01:00:14.391+09:00"
