@@ -60,7 +60,10 @@ jobs:
     runs-on: ubuntu-latest
     # 최악: KST 07:00에 깨어나 07:58까지 58분 대기 + 09:25까지 감시 = 145분.
     # 스크립트 자체가 MAX_MINUTES(165분)에서 스스로 정리하므로 그보다 조금 길게 둔다.
-    timeout-minutes: 175
+    # 2026-09-29: 165→340분. 5분 간격 cron 을 걸어도 실제로는 하루 8번 남짓만 떠서(9/28 16:40 다음이 9/29 00:59)
+    # 자정 구간을 통째로 놓쳤다(9/29 자정 정답이 01:00 에 올라감). job 하나가 5시간 반 넘게 지키면
+    # 그 사이 뜬 알람이 대기열에서 바로 이어받는다. GitHub job 상한은 360분.
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v5
         with:
@@ -76,7 +79,7 @@ jobs:
           AUTO_PUSH: '1' # 감시 도중 발견하면 바로 커밋·푸시 (다음 주기까지 안 기다림)
           POLL_SECONDS: '30' # 블록 안에서의 감시 간격
           LEAD_MINUTES: '70' # 블록이 이 시간 안에 오면 잠들어 기다린다
-          MAX_MINUTES: '165' # job 하나의 자체 상한
+          MAX_MINUTES: '340' # job 하나의 자체 상한 (timeout-minutes 355 보다 조금 짧게)
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # push 뒤 deploy.yml 호출용
         run: node scripts/collect.mjs
 
