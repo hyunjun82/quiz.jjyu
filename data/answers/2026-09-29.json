@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T02:35:42.869+09:00",
+  "updatedAt": "2026-09-29T02:36:54.539+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -86,7 +86,15 @@
       }
     ],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "IPO",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T02:36:54.538+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "9월29일 하나은행 하나원큐 축구퀴즈 정답",
