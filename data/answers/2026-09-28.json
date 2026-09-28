@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T09:51:22.986+09:00",
+  "updatedAt": "2026-09-28T09:52:42.476+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-28T00:03:45.756+09:00"
+      },
+      {
+        "question": "신한투자증권 마케팅 수신 동의 이벤트는 추첨으로 최대 10만 마이신한포인트를 지급한다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-28T09:52:42.474+09:00"
       }
     ],
     "kakaobank": [
