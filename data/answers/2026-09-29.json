@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T02:39:16.938+09:00",
+  "updatedAt": "2026-09-29T03:18:34.450+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "9월 한 달간 슈퍼SOL로 바나프레소 아메리카노 혜택을 받으려면, 어떻게 주문해야 할까요?",
         "answer": "바나프레소 앱오더에서 슈퍼SOL 결제",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-29T01:00:14.390+09:00"
       },
       {
@@ -50,7 +50,7 @@
     "cashdoc": [],
     "climate-action": [
       {
-        "question": "기후행동 기회소득 9월 29일 오늘의 퀴즈 문제",
+        "question": "우리나라의 경우 고농도 미세먼지 발생 중 국외 유입 기여도는 90% 수준으로 일정하다.",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
@@ -78,29 +78,44 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "9월29일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "프랑스 혁명 당시 습격당한 바스티유는 왕궁으로 사용되던 건물이었다.",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-29T01:00:14.390+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "실손24에 대한 설명으로 틀린 것은 무엇일까요?",
+        "answer": "④ 미성년자 자녀 보험금 청구는 불가능",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-29T03:18:34.447+09:00"
+      },
+      {
+        "question": "다음 격문이 발표된 민족 운동에 대한 설명으로 옳은 것은?",
+        "answer": "④ 신간회에서 진상 조사단을 파견하여 지원하였다",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-29T03:18:34.447+09:00"
+      }
+    ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "question": "기업이 처음으로 주식을 증권시장에 상장해 일반 투자자에게 공개하는 것은?",
         "answer": "IPO",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-29T02:36:54.538+09:00"
       }
     ],
     "hana-onq": [
       {
-        "question": "9월29일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "오늘 2026 아시안게임 여자축구 준결승에서 대한민국과 맞붙는 아시안게임 개최국은 어디일까요?",
         "answer": "일본",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-29T01:00:14.390+09:00"
       }
     ],
@@ -126,10 +141,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "숙취수액을 맞으면 알코올이 바로 해독돼 판단력도 즉시 회복된다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-29T02:39:16.937+09:00"
       }
     ],
@@ -139,10 +154,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "세르타코나졸은 곰팡이 세포막을 손상시켜 무좀을 치료하는 항진균제다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-29T01:00:14.391+09:00"
       }
     ],
