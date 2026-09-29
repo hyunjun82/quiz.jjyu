@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T08:08:48.794+09:00",
+  "updatedAt": "2026-09-30T08:09:24.620+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -72,10 +72,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "딜러 의존도 없이 직접 자동차 대출/할부 조건을 약 1분 정도 내로 비교해볼 수 있는 서비스가 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-09-30T00:12:15.454+09:00"
       }
     ],
