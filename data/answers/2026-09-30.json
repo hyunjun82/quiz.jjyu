@@ -1,9 +1,36 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T00:01:04.940+09:00",
+  "updatedAt": "2026-09-30T00:01:44.812+09:00",
   "answers": {
-    "toss-lucky": [],
-    "cashwalk": [],
+    "toss-lucky": [
+      {
+        "question": "CJ더마켓 회원가입만 해도 월 1회 OOOO과 최대 6%의 적립 혜택 드려요",
+        "answer": "무료배송",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-30T00:01:44.812+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (2회차)",
+        "answer": null,
+        "choices": [
+          "5000",
+          "20"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-09-30T00:01:44.812+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "단 1시간만 진행되는 대용량 바세린 바디로션+바디워시 1L 2개 역대급 할인 포근한 향과 촉촉한 제형으로 보습 관리의 필수템! OO단백질 추출물 함유로 윤기나고 매끄러운 피부를 선사합니다. 빈칸에 들어갈 단어는 무엇일까요?(힌트 : ㅇㅇ)",
+        "answer": "우유",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-30T00:01:44.812+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -27,7 +54,15 @@
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "한국거래소(KOSPI, KOSDAQ)에서 개별 종목 주가는 전일 종가 대비 하루에 몇 퍼센트(%)까지 오르거나 내릴 수 있을까요?",
+        "answer": "30%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T00:01:44.812+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -35,10 +70,26 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-30T00:01:44.812+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "분양가상한제가 적용되면 아파트 분양가는 주변 시세보다 높게 책정돼요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-30T00:01:44.812+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
