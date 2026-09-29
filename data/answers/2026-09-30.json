@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T00:04:34.620+09:00",
+  "updatedAt": "2026-09-30T00:07:10.712+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,7 +83,15 @@
     ],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "9월30일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "중국",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T00:07:10.711+09:00"
+      }
+    ],
     "hana-life": [],
     "monimo": [
       {
