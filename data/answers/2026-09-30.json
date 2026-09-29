@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T00:12:15.454+09:00",
+  "updatedAt": "2026-09-30T02:18:48.774+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -89,7 +89,15 @@
         "publishedAt": "2026-09-30T00:02:50.641+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 9월30일 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-30T02:18:48.773+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [
       {
