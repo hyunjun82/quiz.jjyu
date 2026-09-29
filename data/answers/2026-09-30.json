@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T02:18:48.774+09:00",
+  "updatedAt": "2026-09-30T04:45:24.304+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -60,7 +60,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "정부는 '순환경제의 활성화'를 위해 노력하여야 한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T04:45:24.304+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] 다음 중 현대면세점 온라인몰 '현데이'에서 산타마리아 노벨라 사은품으로 받지 못하는 것은?",
@@ -82,10 +90,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "9월30일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "NH올원뱅크에서 자원봉사 서비스를 가입하기만 해도 모바일 자원봉사자증이 발급된다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-30T00:02:50.641+09:00"
       }
     ],
@@ -101,10 +109,10 @@
     "kbank": [],
     "hana-onq": [
       {
-        "question": "9월30일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "오늘 2026 아시안게임 남자축구 준결승에서 대한민국과 맞붙는 '만리장성'으로 유명한 국가는 어디일까요",
         "answer": "중국",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-09-30T00:07:10.711+09:00"
       }
     ],
