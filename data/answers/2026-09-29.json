@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T15:49:13.045+09:00",
+  "updatedAt": "2026-09-29T15:50:36.417+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,24 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-29T15:49:13.025+09:00"
+      },
+      {
+        "question": "CJ더마켓 회원가입만 해도 월 1회 OOOO과 최대 6%의 적립 혜택 드려요",
+        "answer": "무료배송",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-29T15:50:36.391+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (6회차)",
+        "answer": null,
+        "choices": [
+          "5000",
+          "20"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-09-29T15:50:36.391+09:00"
       }
     ],
     "cashwalk": [
