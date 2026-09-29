@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T06:17:23.196+09:00",
+  "updatedAt": "2026-09-30T07:58:11.290+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -180,6 +180,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-30T04:55:43.720+09:00"
+      },
+      {
+        "question": "아침 운동은 저녁 운동보다 더 효과적이다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-30T07:58:11.289+09:00"
       }
     ],
     "skstoa": [],
