@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T04:45:24.304+09:00",
+  "updatedAt": "2026-09-30T04:50:34.754+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -45,6 +45,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-30T00:02:50.641+09:00"
+      },
+      {
+        "question": "1월 결제료 나만의 홈카페 아이템을 경품으로 받을 수 있는 '디스커버리 SOL개론!' 이벤트, 미당첨시에는 별도 혜택이 없다?",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-30T04:50:34.753+09:00"
       }
     ],
     "kakaobank": [],
@@ -99,10 +106,10 @@
     ],
     "kb-star": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 9월30일 (1회차)",
+        "question": "금융사고 예방을 위해 이체 한도가 제한되는 '금융거래한도계좌'는 1인 1계좌만 보유할 수 있다",
         "answer": "O",
         "note": "",
-        "source": "blog",
+        "source": "apptech",
         "publishedAt": "2026-09-30T02:18:48.773+09:00"
       }
     ],
