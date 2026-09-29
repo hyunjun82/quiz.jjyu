@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T14:02:03.245+09:00",
+  "updatedAt": "2026-09-29T14:04:05.513+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -60,6 +60,97 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-29T14:02:03.236+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.491+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.491+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.491+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.491+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.492+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.492+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.492+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.493+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.493+09:00"
+      },
+      {
+        "question": "푸드루트 면역 비타민C (16회차)",
+        "answer": "100, 500, 아연, 비타민",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.493+09:00"
+      },
+      {
+        "question": "키토선생 가을맞이 방탄커피 소이비랩 저당두유",
+        "answer": "든든한아침",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.494+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 초고속, 준고체, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.494+09:00"
+      },
+      {
+        "question": "팬마음 트로트 가수 1위에게 투표해주세요",
+        "answer": "트로트, 팬마음, 건대입구, 인천공항",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T14:04:05.495+09:00"
       }
     ],
     "shinhan-sol": [
