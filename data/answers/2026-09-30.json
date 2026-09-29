@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T04:55:43.721+09:00",
+  "updatedAt": "2026-09-30T05:00:51.885+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -120,7 +120,15 @@
         "publishedAt": "2026-09-30T04:55:43.719+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "9.30(수) 오후 12:30에 시작되는 AI 퀴즈 챌린지의 라이브 퀴즈",
+        "answer": "우승 총 상금 1,000만원",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-30T05:00:51.884+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "오늘 2026 아시안게임 남자축구 준결승에서 대한민국과 맞붙는 '만리장성'으로 유명한 국가는 어디일까요",
@@ -144,7 +152,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "은행 열매는 냄새만 고약할 뿐, 만진 손으로 눈을 비벼도 눈에는 문제가 없다",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
@@ -157,10 +165,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "철분이 부족하면 산소 운반이 줄어 쉽게 피로해질 수 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-09-30T00:01:44.812+09:00"
       }
     ],
