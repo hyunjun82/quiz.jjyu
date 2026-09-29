@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T08:09:24.620+09:00",
+  "updatedAt": "2026-09-30T08:17:17.172+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,10 +63,10 @@
     ],
     "kakaobank": [
       {
-        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "question": "08:00 매일 10시 초특가 브랜드 이름은?",
         "answer": "슈퍼딜",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-09-30T08:01:42.419+09:00"
       }
     ],
