@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T06:02:01.435+09:00",
+  "updatedAt": "2026-09-30T06:17:23.196+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -145,7 +145,15 @@
         "publishedAt": "2026-09-30T00:07:10.711+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-30T06:17:23.195+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "한국거래소(KOSPI, KOSDAQ)에서 개별 종목 주가는 전일 종가 대비 하루에 몇 퍼센트(%)까지 오르거나 내릴 수 있을까요?",
@@ -155,7 +163,15 @@
         "publishedAt": "2026-09-30T00:01:44.812+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "pay/card, possible/card, accept/credit",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-30T06:17:23.195+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
