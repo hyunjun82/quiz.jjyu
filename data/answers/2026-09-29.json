@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T15:02:23.615+09:00",
+  "updatedAt": "2026-09-29T15:05:05.435+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-29T01:00:14.391+09:00"
+      },
+      {
+        "question": "햇반, 비비고 멤버스특가 (3회차)",
+        "answer": "20, 5000, 무료배송",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T15:05:05.414+09:00"
       }
     ],
     "cashwalk": [
