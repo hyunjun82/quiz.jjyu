@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T19:03:50.051+09:00",
+  "updatedAt": "2026-09-29T20:04:00.949+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -229,6 +229,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-29T12:03:04.835+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "메종키츠네",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-29T20:04:00.942+09:00"
       }
     ],
     "kakaobank-ox": [
