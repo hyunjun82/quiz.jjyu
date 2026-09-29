@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T04:50:34.754+09:00",
+  "updatedAt": "2026-09-30T04:55:43.721+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -111,6 +111,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-30T02:18:48.773+09:00"
+      },
+      {
+        "question": "이윤재, 최현배 등이 중심이 된 □□□□□는 한글 맞춤법 통일안과 표준어를 제정하고 우리말 큰사전 편찬을 준비하였으나, 1942년 일제가 조작한 사건으로 회원들이 구속되며 강제로 해산되었다.",
+        "answer": "조선어학회",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-30T04:55:43.719+09:00"
       }
     ],
     "kbank": [],
@@ -135,7 +142,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T04:55:43.720+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
