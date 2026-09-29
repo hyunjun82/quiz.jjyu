@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T05:00:51.885+09:00",
+  "updatedAt": "2026-09-30T05:05:59.723+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,6 +52,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-09-30T04:50:34.753+09:00"
+      },
+      {
+        "question": "출근길 Mini 게임은 게임의 성공/실패와 무관하게 포인트를 받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-09-30T05:05:59.722+09:00"
       }
     ],
     "kakaobank": [],
