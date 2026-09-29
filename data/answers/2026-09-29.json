@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T11:00:34.433+09:00",
+  "updatedAt": "2026-09-29T11:18:36.025+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -272,7 +272,15 @@
         "publishedAt": "2026-09-29T01:00:14.391+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-29T11:18:36.023+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "고기를 잘 먹지 않는데 콜레스테롤이 높을 수 있다?",
