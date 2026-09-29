@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T00:01:44.812+09:00",
+  "updatedAt": "2026-09-30T00:02:50.642+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -31,7 +31,22 @@
         "publishedAt": "2026-09-30T00:01:44.812+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T00:02:50.641+09:00"
+      },
+      {
+        "question": "작년 오늘은 우리 시대 최고의 마무리 투수가 은퇴식을 진행하고 등번호 21번을 영구결번으로 남긴 날입니다. 이날 은퇴한 선수는 누구일까요?",
+        "answer": "오승환",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T00:02:50.641+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -49,7 +64,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "9월30일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T00:02:50.641+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
