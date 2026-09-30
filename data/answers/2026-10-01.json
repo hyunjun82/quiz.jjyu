@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:00:58.448+09:00",
+  "updatedAt": "2026-10-01T00:01:39.498+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,7 +42,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 세금·복지 산정 기준이 되도록 정부가 매년 정하는 부동산의 가격이에요.",
+        "answer": "공시가격",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-01T00:01:39.498+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -68,7 +76,15 @@
     "doctornow": [],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "재건축초과이익환수제는 재건축으로 조합원이 얻은 이익 중 일정 부분을 국가가 환수하는 제도예요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-01T00:01:39.498+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
