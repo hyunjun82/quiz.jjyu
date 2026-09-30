@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T08:02:12.648+09:00",
+  "updatedAt": "2026-10-01T08:06:26.477+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -66,10 +66,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "question": "11주년 룩북의 드레스코드는?",
         "answer": "팬츠",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-01T08:02:12.647+09:00"
       }
     ],
