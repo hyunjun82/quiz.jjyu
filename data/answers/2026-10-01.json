@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T01:07:00.441+09:00",
+  "updatedAt": "2026-10-01T01:12:10.992+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,10 +150,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 놀이터에는 3주간 매 주 참여할 때마다 선물을 주는 신나는 이벤트가 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-01T00:13:58.426+09:00"
       }
     ],
