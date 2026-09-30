@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:02:47.268+09:00",
+  "updatedAt": "2026-10-01T00:03:24.985+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,7 +41,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]H.Point에선 수요일마다 밸런스게임 'oooo'이 오픈합니다. 짬뽕 vs 짜장, 딱복 vs 물복 등 응답 비율이 갈리는 질문이 나오고, 다수결/소수결 결과에 따라 당첨 포인트 또한 달라지는데요.수요일마다 돌아오는 이 콘텐츠의 이름은 무엇일까요?",
+        "answer": "수요선택",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-01T00:03:24.985+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO이란, 세금·복지 산정 기준이 되도록 정부가 매년 정하는 부동산의 가격이에요.",
@@ -52,7 +60,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월1일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "1956년",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T00:03:24.985+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
