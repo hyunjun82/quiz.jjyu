@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T10:03:20.545+09:00",
+  "updatedAt": "2026-09-30T10:04:00.812+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -94,7 +94,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB오토핏 > KB차차차 프리미엄 서비스 '홈배송'은 며칠간 타보고 구매를 결정할 수 있을까요?",
+        "answer": "4일",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-09-30T10:04:00.810+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
