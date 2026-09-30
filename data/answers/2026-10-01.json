@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T07:50:05.147+09:00",
+  "updatedAt": "2026-10-01T08:02:12.648+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,15 @@
         "publishedAt": "2026-10-01T00:05:46.104+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "answer": "팬츠",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T08:02:12.647+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
