@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:12:10.680+09:00",
+  "updatedAt": "2026-10-01T00:13:58.426+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,7 +51,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T00:13:58.426+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -95,7 +103,15 @@
     ],
     "kbank": [],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T00:13:58.426+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "한국거래소(KOSPI, KOSDAQ)에서 개별 종목 주가는 전일 종가 대비 하루에 몇 퍼센트(%)까지 오르거나 내릴 수 있을까요?",
