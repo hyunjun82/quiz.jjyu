@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T09:01:48.382+09:00",
+  "updatedAt": "2026-09-30T09:24:51.873+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,6 +61,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-30T08:01:42.419+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (2회차)",
+        "answer": "블루투스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T09:24:51.871+09:00"
       }
     ],
     "kakaobank-ox": [
