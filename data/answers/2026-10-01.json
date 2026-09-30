@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:46:23.276+09:00",
+  "updatedAt": "2026-10-01T00:51:32.642+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,7 +151,15 @@
         "publishedAt": "2026-10-01T00:00:58.448+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "help/sort, help/sort, assist/sort",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T00:51:32.642+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
