@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:51:32.642+09:00",
+  "updatedAt": "2026-10-01T00:56:41.109+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -107,10 +107,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "10월1일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "국군의 날이 정식 국가기념일로 처음 제정된 시기는 언제일까요?",
         "answer": "1956년",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-01T00:03:24.985+09:00"
       }
     ],
@@ -132,7 +132,15 @@
         "publishedAt": "2026-10-01T00:31:05.513+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "현재 하나은행 K리그1 2026 1위인 FC서울은 20승에서 1승 모자란 OO승을 기록 중입니다. OO에 들어갈 정답은 무엇일까요?",
+        "answer": "④ 19승",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-01T00:56:41.108+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
