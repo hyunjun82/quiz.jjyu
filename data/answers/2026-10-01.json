@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T04:23:16.488+09:00",
+  "updatedAt": "2026-10-01T04:25:37.454+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -128,6 +128,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-01T01:07:00.439+09:00"
+      },
+      {
+        "question": "10월1일 KB스타뱅킹 스타퀴즈 정답 (3회차)",
+        "answer": "2. K",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T04:25:37.453+09:00"
       }
     ],
     "kbank": [
