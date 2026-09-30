@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T16:01:58.326+09:00",
+  "updatedAt": "2026-09-30T17:11:00.934+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -225,6 +225,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-30T16:01:16.439+09:00"
+      },
+      {
+        "question": "9월30일 컷슬린 24시간 깜짝 EVENT 캐시워크 정답",
+        "answer": "체지방 뱃살 혈당관리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T17:11:00.924+09:00"
       }
     ],
     "shinhan-sol": [
