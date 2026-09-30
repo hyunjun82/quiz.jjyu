@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:13:58.426+09:00",
+  "updatedAt": "2026-10-01T00:24:57.620+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,7 +63,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 10월 1일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T00:24:57.619+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]H.Point에선 수요일마다 밸런스게임 'oooo'이 오픈합니다. 짬뽕 vs 짜장, 딱복 vs 물복 등 응답 비율이 갈리는 질문이 나오고, 다수결/소수결 결과에 따라 당첨 포인트 또한 달라지는데요.수요일마다 돌아오는 이 콘텐츠의 이름은 무엇일까요?",
