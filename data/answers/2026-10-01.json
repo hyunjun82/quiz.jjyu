@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:31:05.513+09:00",
+  "updatedAt": "2026-10-01T00:46:23.276+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-01T00:00:58.447+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (3회차)",
+        "answer": "소바바 황금홀릭",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T00:46:23.276+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (4회차)",
+        "answer": "비비고 왕교자",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T00:46:23.276+09:00"
       }
     ],
     "cashwalk": [
@@ -65,10 +79,10 @@
     "cashdoc": [],
     "climate-action": [
       {
-        "question": "기후행동 기회소득 10월 1일 오늘의 퀴즈 문제",
+        "question": "‘탄소발자국’이라는 개념은 일반 대중의 기후 인식을 높이기 위해 환경단체가 처음으로 개발하여 보급했다.",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-01T00:24:57.619+09:00"
       }
     ],
