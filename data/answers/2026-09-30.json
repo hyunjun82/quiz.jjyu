@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T15:22:32.504+09:00",
+  "updatedAt": "2026-09-30T15:23:53.563+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,6 +211,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-09-30T15:22:32.494+09:00"
+      },
+      {
+        "question": "컷슬린 안티스파이크 포 다이어트",
+        "answer": "뱃살, 체지방, 혈당관리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T15:23:53.556+09:00"
       }
     ],
     "shinhan-sol": [
