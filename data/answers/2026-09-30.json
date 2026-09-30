@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T10:09:51.580+09:00",
+  "updatedAt": "2026-09-30T10:11:12.654+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -22,10 +22,10 @@
         "publishedAt": "2026-09-30T00:01:44.812+09:00"
       },
       {
-        "question": "MOUM 계좌개설이벤트 (3회차)",
+        "question": "MOUM에서 계좌개설하면 추첨을 통해 OOO명에게 하이닉스 주식 1주 드러요",
         "answer": "100, 300",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-09-30T10:03:20.544+09:00"
       }
     ],
