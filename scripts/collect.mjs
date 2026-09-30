@@ -2608,6 +2608,48 @@ function applySubsplit(item) {
  */
 const BLANK_MARK = /(?:[Oo○ㅇ□ㅁ_]){2,}/;
 
+/**
+ * 같은 OX 문제에 날짜 없는 소스(퀴즈벨·앱테크)와 날짜 붙은 소스(다비야·팁is팁·블로그 등)가 반대 답을 주면
+ * 날짜 없는 쪽을 내린다 (2026-09-30).
+ * 실측: 신한 "1원 결제로 나만의 홈카페… 미당첨시에는 별도 혜택이 없다?" — 블로그·다비야·퀴즈벨표·팁is팁 모두 X,
+ * 앱테크만 O. 앱테크 지문은 "1월 결제료…디스커버리 SOL개론"처럼 글자까지 깨져 있었다.
+ * OX 끼리만 본다 — 단답은 표기 차이("양키스/양키즈", "휴대폰보험/카카오페이 휴대폰보험")가 많아
+ * 9월 전체 재생에서 오탐만 나왔다. OX 반대 답은 9월 전체에서 이 1건뿐이었다.
+ */
+const UNDATED_SRC = new Set(['quizbells', 'apptech']);
+const oxValue = (a) => {
+  const t = String(a || '').trim();
+  if (/^(O|○)(\s|\(|$)|^\(?(그렇다|맞아요|맞다)\)?(\s|\(|$)/i.test(t)) return 'o';
+  if (/^(X|×)(\s|\(|$)|^\(?(아니다|아니요|아니에요|틀리다)\)?(\s|\(|$)/i.test(t)) return 'x';
+  return null;
+};
+function dropContradictedOx(arr, slug, today) {
+  const qn = (q) => String(q || '').replace(/[^가-힣0-9A-Za-z]/g, '');
+  let dropped = 0;
+  for (let i = arr.length - 1; i >= 0; i -= 1) {
+    const u = arr[i];
+    if (!UNDATED_SRC.has(u.source)) continue;
+    const uo = oxValue(u.answer);
+    if (!uo || isGenericQuestion(u.question, slug) || qn(u.question).length < 12) continue;
+    const d = arr.find(
+      (x) =>
+        x !== u &&
+        !UNDATED_SRC.has(x.source) &&
+        oxValue(x.answer) &&
+        oxValue(x.answer) !== uo &&
+        !isGenericQuestion(x.question, slug) &&
+        qn(x.question).length >= 12 &&
+        qSimilarity(qn(u.question), qn(x.question)) >= 0.6,
+    );
+    if (!d) continue;
+    console.log(`OX 반대 답 정리 [${slug}] "${String(u.question).slice(0, 30)}" ${u.answer}(${u.source}) → ${d.answer}(${d.source}) 채택`);
+    try { recordTombstone(today, slug, u, `OX 반대 답 — 날짜 붙은 소스(${d.source})는 ${d.answer}`); } catch { /* 기록 실패해도 정리는 한다 */ }
+    arr.splice(i, 1);
+    dropped += 1;
+  }
+  return dropped;
+}
+
 function qBigrams(s) {
   const m = new Map();
   for (let i = 0; i < s.length - 1; i += 1) {
@@ -3052,6 +3094,9 @@ async function collectOnce() {
   }
   for (const [slug, arr] of Object.entries(existing.answers)) {
     if (Array.isArray(arr) && arr.length > 1) mergedRows += mergeAnswerVariants(arr, slug);
+  }
+  for (const [slug, arr] of Object.entries(existing.answers)) {
+    if (Array.isArray(arr) && arr.length > 1) mergedRows += dropContradictedOx(arr, slug, today);
   }
 
   // ── 2026-09-23 수정: 내용이 실제로 바뀐 때만 저장한다 ──────────────────────
