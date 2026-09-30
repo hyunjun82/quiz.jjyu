@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T17:11:00.934+09:00",
+  "updatedAt": "2026-09-30T18:26:00.278+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -527,7 +527,15 @@
         "publishedAt": "2026-09-30T00:01:04.940+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 매일두유",
+        "answer": "영양성분",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-09-30T18:26:00.272+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
