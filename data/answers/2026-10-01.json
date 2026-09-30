@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:01:39.498+09:00",
+  "updatedAt": "2026-10-01T00:02:47.268+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -73,7 +73,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T00:02:47.268+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "bitbunny-ox": [
