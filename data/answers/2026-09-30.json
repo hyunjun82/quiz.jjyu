@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T10:11:12.654+09:00",
+  "updatedAt": "2026-09-30T10:11:51.271+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -27,6 +27,20 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-09-30T10:03:20.544+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (5회차)",
+        "answer": "삼성전자",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-30T10:11:51.270+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (6회차)",
+        "answer": "하이닉스",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-09-30T10:11:51.270+09:00"
       }
     ],
     "cashwalk": [
