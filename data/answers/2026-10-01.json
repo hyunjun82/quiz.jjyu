@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T01:17:21.347+09:00",
+  "updatedAt": "2026-10-01T01:22:30.143+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -191,10 +191,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "바르는 레티노이드 아다팔렌은 여드름 1차 치료제로 권고된다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-01T00:02:47.268+09:00"
       }
     ],
