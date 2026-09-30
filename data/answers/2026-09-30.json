@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T11:06:17.730+09:00",
+  "updatedAt": "2026-09-30T11:59:31.789+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,11 +43,18 @@
         "publishedAt": "2026-09-30T10:11:51.270+09:00"
       },
       {
-        "question": "토스 행운퀴즈 오늘의 퀴즈 (6회차)",
+        "question": "모음에서 계좌개설하면 추첨을 통해 OOO명에게 삼성전자 주식 1주 드려요",
         "answer": "300",
         "note": "",
-        "source": "daviya",
+        "source": "gametoc",
         "publishedAt": "2026-09-30T10:13:48.061+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (7회차)",
+        "answer": "100",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-09-30T11:59:31.786+09:00"
       }
     ],
     "cashwalk": [
