@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T10:13:48.063+09:00",
+  "updatedAt": "2026-09-30T10:15:08.497+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -154,10 +154,10 @@
     ],
     "kakaopay": [
       {
-        "question": "9월30일 카카오페이퀴즈 정답 내실수로 불났을때 벌금",
+        "question": "내 실수로 불났을 때 최대 OOOO만원 벌금 내야 해요",
         "answer": "2000",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-09-30T10:05:59.578+09:00"
       }
     ],
