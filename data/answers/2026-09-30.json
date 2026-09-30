@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T21:01:04.503+09:00",
+  "updatedAt": "2026-09-30T21:01:46.762+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -232,6 +232,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-30T17:11:00.924+09:00"
+      },
+      {
+        "question": "푸드루트 뼈건강 비타민 (26회차)",
+        "answer": "골다공증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-09-30T21:01:46.751+09:00"
       }
     ],
     "shinhan-sol": [
