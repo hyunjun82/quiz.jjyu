@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T01:12:10.992+09:00",
+  "updatedAt": "2026-10-01T01:17:21.347+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -178,7 +178,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "소변이 자주 마려우면 통증이 없어도 무조건 방광염이다",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
