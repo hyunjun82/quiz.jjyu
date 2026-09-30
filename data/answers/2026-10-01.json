@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T08:40:24.774+09:00",
+  "updatedAt": "2026-10-01T08:41:05.174+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -82,10 +82,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크 착붙 신한카드로 ChatGPT, Claude 같은 AI 구독료도 10% 할인받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-01T00:13:58.426+09:00"
       }
     ],
