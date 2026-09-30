@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T02:08:45.838+09:00",
+  "updatedAt": "2026-10-01T04:23:16.488+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -146,6 +146,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-01T00:56:41.108+09:00"
+      },
+      {
+        "question": "10월1일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "19",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T04:23:16.486+09:00"
       }
     ],
     "hana-life": [
