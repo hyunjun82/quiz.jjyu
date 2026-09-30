@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:04:32.859+09:00",
+  "updatedAt": "2026-10-01T00:05:46.105+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -34,7 +34,22 @@
         "publishedAt": "2026-10-01T00:00:58.448+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "마이샵데이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T00:05:46.104+09:00"
+      },
+      {
+        "question": "2년전 오늘은 롯데의 한 타자가 KBO 리그 역대 최다인 202안타를 기록한 날입니다. 아래 중 어떤 선수의 기록일까요?",
+        "answer": "레이예스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T00:05:46.104+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
