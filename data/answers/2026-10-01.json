@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T00:03:24.985+09:00",
+  "updatedAt": "2026-10-01T00:04:32.859+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,9 +109,25 @@
         "publishedAt": "2026-10-01T00:01:39.498+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "X, O, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-01T00:04:32.858+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "주야간보호 서비스 이용 시 어르신의 간식은 별도로 챙겨가야 한다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-01T00:04:32.858+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
