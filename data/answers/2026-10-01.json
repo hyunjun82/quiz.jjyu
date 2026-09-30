@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T08:48:37.903+09:00",
+  "updatedAt": "2026-10-01T08:56:58.220+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -11,10 +11,10 @@
         "publishedAt": "2026-10-01T00:00:58.447+09:00"
       },
       {
-        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (2회차)",
+        "question": "MOUM에서 계좌개설하면 추첨을 통해 OOO명에게 하이닉스 주식 1주 드려요",
         "answer": "100",
         "note": "",
-        "source": "gametoc",
+        "source": "quizbells",
         "publishedAt": "2026-10-01T00:00:58.447+09:00"
       },
       {
@@ -30,6 +30,20 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-01T00:46:23.276+09:00"
+      },
+      {
+        "question": "CJ더마켓 멤버스위크에서 5만원 이상 구매 고객에게 OOOO원 적립금을 드려요",
+        "answer": "5000",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T08:56:58.218+09:00"
+      },
+      {
+        "question": "매일 오전 9시 선착순으로 드리는 할인 쿠폰의 최대 할인율은 OO%에요",
+        "answer": "20",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T08:56:58.218+09:00"
       }
     ],
     "cashwalk": [
