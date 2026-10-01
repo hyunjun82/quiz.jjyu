@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T10:07:04.506+09:00",
+  "updatedAt": "2026-10-01T10:20:08.348+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,6 +44,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-01T08:56:58.218+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (7회차)",
+        "answer": "200",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-01T10:20:08.342+09:00"
       }
     ],
     "cashwalk": [
