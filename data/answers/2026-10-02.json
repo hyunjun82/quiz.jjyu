@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T00:11:21.440+09:00",
+  "updatedAt": "2026-10-02T00:22:26.885+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -88,7 +88,15 @@
         "publishedAt": "2026-10-02T00:11:21.440+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-02T00:22:26.885+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
