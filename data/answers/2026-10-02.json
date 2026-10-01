@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T00:04:32.860+09:00",
+  "updatedAt": "2026-10-02T00:09:04.688+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,7 +69,15 @@
         "publishedAt": "2026-10-02T00:02:50.227+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "10월2일 KB스타뱅킹 스타퀴즈 정답 (1회차)",
+        "answer": "난방비",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T00:09:04.688+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
