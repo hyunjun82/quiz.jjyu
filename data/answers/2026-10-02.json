@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T00:01:43.973+09:00",
+  "updatedAt": "2026-10-02T00:02:50.227+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,22 @@
         "publishedAt": "2026-10-02T00:01:43.973+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "7회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T00:02:50.227+09:00"
+      },
+      {
+        "question": "KBO가 소장 중인 한국프로야구 창립기획 자료가 예비문화유산 발굴 공모전에서 최우수상을 수상했습니다. 본 기획에 따라 한국 프로야구는 1982년 총 몇개 구단으로 출범되었을까요?",
+        "answer": "6개 구단",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T00:02:50.227+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -37,12 +52,28 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월2일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "태백산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T00:02:50.227+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
+        "answer": "마이데이터로 계좌 조회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T00:02:50.227+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
