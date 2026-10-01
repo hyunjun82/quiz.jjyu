@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T11:30:31.605+09:00",
+  "updatedAt": "2026-10-01T12:05:38.960+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,6 +51,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-01T10:20:08.342+09:00"
+      },
+      {
+        "question": "토스 무조건 반값이라면 가장 먹고 싶은 상품은? 10월1일 두근두근 1등 일등 찍기",
+        "answer": "일등 소바바 황금홀릭 2등 비비고 왕교자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T12:05:38.950+09:00"
       }
     ],
     "cashwalk": [
@@ -225,6 +232,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-01T08:02:12.647+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "구호",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T12:05:38.953+09:00"
       }
     ],
     "kakaobank-ox": [
