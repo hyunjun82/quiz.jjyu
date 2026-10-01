@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T10:01:48.972+09:00",
+  "updatedAt": "2026-10-01T10:03:09.953+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -95,6 +95,97 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-01T09:17:19.466+09:00"
+      },
+      {
+        "question": "맛있어서 매일 아침 1알 먹었을 뿐인데 묵직한 배랑 이별했어요⏰이번주 한정 [1+1]+10%쿠폰 오늘이 마지막!⏰ 소휘 푸룬구미는 말티톨·물엿·젤라틴·소비톨없이 푸룬원액을 가득 담아 매일 맛있게 챙기는 비움템입니다. 푸룬구미를 캐시딜에서만 이번주 한정 2박스 10% 할인쿠폰까지! OOOOO원+무료배송으로 만나보세요! OOOOO에 들어갈 숫자는?",
+        "answer": "32900",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-01T10:03:09.942+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 빅팬 휴대용 무선 선풍기",
+        "answer": "BLDC, 16, 4000, 자연풍, 분리형",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.943+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.943+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.943+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.943+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.944+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.944+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.944+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.944+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.944+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 초고속, 준고체, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.944+09:00"
+      },
+      {
+        "question": "팬마음 2026 추석 트롯 스타를 뽑아주세요",
+        "answer": "추석, 지하철, 초대형, 팬마음",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.945+09:00"
+      },
+      {
+        "question": "컷슬린 안티스파이크 포 다이어트",
+        "answer": "뱃살, 체지방, 혈당관리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.945+09:00"
       }
     ],
     "shinhan-sol": [
@@ -257,6 +348,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-01T00:00:58.448+09:00"
+      },
+      {
+        "question": "모니모 퀴즈 — 모니스쿨",
+        "answer": "마이데이터로 계좌 조회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-01T10:03:09.946+09:00"
       }
     ],
     "monimo-eng": [
