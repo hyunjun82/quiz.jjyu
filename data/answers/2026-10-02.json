@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T07:04:19.473+09:00",
+  "updatedAt": "2026-10-02T07:58:11.305+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,7 +56,22 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 10월 2일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T07:58:11.303+09:00"
+      },
+      {
+        "question": "기후행동 기회소득 10월 2일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T07:58:11.303+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] 26년 7월에 오픈한 000 서비스에선포포가 고구마를 키우며 목표 레벨을 달성하면 원하는 보상을 받을 수 있는데요. 최근 새로운 아이템과 함께 레벨UP 보상 이벤트를 하고 있는이 서비스 이름은 무엇일까요?",
@@ -101,7 +116,15 @@
         "publishedAt": "2026-10-02T00:24:11.772+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "2번 공유경제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T07:58:11.303+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "10월2일 하나은행 하나원큐 축구퀴즈 정답",
@@ -129,7 +152,15 @@
         "publishedAt": "2026-10-02T00:02:50.227+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "cant/wait, cant/wait, cant/wait",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-02T07:58:11.303+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -138,6 +169,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-02T07:04:19.473+09:00"
+      },
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (2회차)",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T07:58:11.303+09:00"
       }
     ],
     "skstoa": [],
