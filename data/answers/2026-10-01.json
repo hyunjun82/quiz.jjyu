@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updatedAt": "2026-10-01T09:17:19.469+09:00",
+  "updatedAt": "2026-10-01T10:01:48.972+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -139,7 +139,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "학부모가 읽는 교육 전문 주간지 '내일교육'의 2학기 맞이 기획전…(후략)",
+        "answer": "37%",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-10-01T10:01:48.969+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
