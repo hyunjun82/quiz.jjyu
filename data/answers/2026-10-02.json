@@ -1,9 +1,24 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T00:01:07.076+09:00",
+  "updatedAt": "2026-10-02T00:01:43.973+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "딱 1시간만 진행되는 컷슬린데일리 보리한잔 특가! ~ 컷슬린데일리 보리한잔 1박스에는 ㅇㅇ개가 들어있는데요, ㅇㅇ에 들어갈 숫자는 무엇일까요?",
+        "answer": "24",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-02T00:01:43.973+09:00"
+      },
+      {
+        "question": "맛있어서 매일 아침 1알 먹었을 뿐인데 묵직한 배랑 이별했어요 ~ 푸룬구미를 캐시딜에서만 이번주 한정 2박스 10% 할인쿠폰까지! OOOOO원+무료배송으로 만나보세요! OOOOO에 들어갈 숫자는?",
+        "answer": "32900",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-02T00:01:43.973+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -38,7 +53,15 @@
     "doctornow": [],
     "buzzvil": [],
     "harim-real": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "전월세신고제는 계약 금액이 아무리 커도 신고 의무가 전혀 없는 제도예요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-02T00:01:43.973+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
