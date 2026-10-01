@@ -57,6 +57,8 @@ const findMissing = () => {
     const tag = `${f.slug}|${itemKey(f)}`;
     if (seen.has(tag)) continue;
     seen.add(tag);
+    // 팁is팁 비트버니·카카오뱅크 글에는 같은 앱의 OX 정답이 같이 적혀 온다 — 우리 '-ox' 카드에 있으면 누락이 아니다(10/1 오탐).
+    if (/^\s*[OX]\s*$/i.test(String(f.answer || '')) && (mine.answers[`${f.slug}-ox`] || []).some((m) => itemKey(m) === itemKey(f))) continue;
     if (!has(f.slug, f)) out.push(f);
   }
   return out;
@@ -93,7 +95,13 @@ const coreAns = (a) => oxOf(a) || String(a || '').replace(/^\s*(\d{1,2}\s*[.)번
 const sameAns = (x, y) => x === y || (Math.min(x.length, y.length) >= 2 && (x.startsWith(y) || y.startsWith(x)));
 // 신한(쏠퀴즈·팡팡·야구·출석)·KB스타(한국사·스타퀴즈)는 한 카드에 서로 다른 퀴즈가 여럿이라 정답끼리 비교가 안 된다
 // (9/29 오탐: 신한 야구 '5회'·KB 한국사 '④ 신간회…' 모두 팁is팁과 일치하는 정답이었다).
-const SKIP_MISMATCH = new Set(['cashwalk', 'cashdoc', 'monimo', 'yes24', 'shinhan-sol', 'kb-star']);
+// 토스는 팀플전과 행운퀴즈(광고형)가 한 카드라 같은 이유로 제외(10/1 오탐 3건).
+const SKIP_MISMATCH = new Set(['cashwalk', 'cashdoc', 'monimo', 'yes24', 'shinhan-sol', 'kb-star', 'toss-lucky']);
+// 우리 행의 지문이 실제 문장인데 날짜 붙은 소스 어디에도 비슷한 지문이 없으면, 그건 '다른 문제'다 — 비교하지 않는다
+// (10/1 오탐: 나만의닥터는 하루 두 문제인데 다비야가 그중 하나만 올린 상태였다).
+const qn2 = (q) => String(q || '').replace(/[^가-힣0-9A-Za-z]/g, '');
+const big = (s) => { const m = new Map(); for (let i = 0; i < s.length - 1; i += 1) m.set(s.slice(i, i + 2), (m.get(s.slice(i, i + 2)) || 0) + 1); return m; };
+const qsim = (a, b) => { if (a.length < 2 || b.length < 2) return 0; const A = big(a), B = big(b); let x = 0, ta = 0, tb = 0; for (const v of A.values()) ta += v; for (const v of B.values()) tb += v; for (const [g, v] of A) x += Math.min(v, B.get(g) || 0); return (2 * x) / (ta + tb); };
 const findMismatch = () => {
   const dated = [...dv, ...tp, ...bl];
   const out = [];
@@ -104,6 +112,8 @@ const findMismatch = () => {
     for (const r of rows) {
       if (!['quizbells', 'apptech'].includes(r.source)) continue;
       const c = coreAns(r.answer);
+      const rq = qn2(r.question);
+      if (rq.length >= 15 && !dated.some((f) => f.slug === slug && qsim(rq, qn2(f.question)) >= 0.5)) continue;
       if (c && !dAns.some((d) => sameAns(c, d))) out.push({ slug, r, dAns });
     }
   }
