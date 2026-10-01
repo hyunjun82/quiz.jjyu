@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T00:22:26.885+09:00",
+  "updatedAt": "2026-10-02T00:24:11.772+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -36,7 +36,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-02T00:24:11.772+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -76,6 +84,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-02T00:09:04.688+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "2. 유학 교육기관으로 주자감을 설치하였다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-02T00:24:11.772+09:00"
       }
     ],
     "kbank": [],
@@ -113,7 +128,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-02T00:24:11.772+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "bitbunny-ox": [
