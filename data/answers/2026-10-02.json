@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T07:58:11.305+09:00",
+  "updatedAt": "2026-10-02T08:03:01.456+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,7 +43,15 @@
         "publishedAt": "2026-10-02T00:02:50.227+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "버스정류장",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T08:03:01.455+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
