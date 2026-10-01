@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T03:38:40.539+09:00",
+  "updatedAt": "2026-10-02T07:04:19.473+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -131,7 +131,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "체온 조절을 위해 물을 충분히 마셔야 한다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-02T07:04:19.473+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
