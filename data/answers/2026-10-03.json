@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T08:00:56.085+09:00",
+  "updatedAt": "2026-10-03T08:07:14.322+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,7 +150,15 @@
         "publishedAt": "2026-10-03T00:21:50.711+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T08:07:14.321+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
