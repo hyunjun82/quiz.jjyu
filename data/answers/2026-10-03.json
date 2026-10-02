@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T00:21:50.711+09:00",
+  "updatedAt": "2026-10-03T00:41:09.435+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -108,7 +108,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T00:41:09.434+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
