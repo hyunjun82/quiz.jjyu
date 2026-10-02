@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T09:08:03.687+09:00",
+  "updatedAt": "2026-10-02T09:09:23.108+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,10 +61,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크 착붙 신한카드 네이버플러스 멤버십, 쿠팡 와우 멤버십 할인율은 30%이다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-02T00:24:11.772+09:00"
       }
     ],
