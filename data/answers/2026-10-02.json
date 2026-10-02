@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T08:03:01.456+09:00",
+  "updatedAt": "2026-10-02T09:00:33.396+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -192,10 +192,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "MD크림은 염증을 직접 치료하는 약이 아니라 의료기기 보습제다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-02T00:24:11.772+09:00"
       }
     ],
