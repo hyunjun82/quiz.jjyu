@@ -1,8 +1,23 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T06:17:30.056+09:00",
+  "updatedAt": "2026-10-03T07:58:35.944+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "유닉스 헤어스타일러",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T07:58:35.943+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "마르헨제이 리코백",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T07:58:35.943+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "컷슬린 버터쉐이크 고객후기예요. 두번 시켜먹고 10kg 감량중이에요~!아이둘 키우면서 운동하기 힘든데 이렇게 간편하게 한끼대용으로 맛있게 먹으며 다이어트 하는거 너무 좋아요! 비만전문의 과학적인 설계로 탄생, 뉴질랜드산 버터를 채워 실패없는 가뿐한 식욕관리!당류 0g, OOOO맛 컷슬린 버터쉐이크! 빈칸은?(ㅇㄱㄹㄸ)",
@@ -137,14 +152,22 @@
         "publishedAt": "2026-10-03T00:01:55.133+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "due, deadline, report/due",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T07:58:35.943+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "흰 빵은 전곡 빵보다 영양가가 낮다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-10-03T00:41:09.434+09:00"
       }
     ],
