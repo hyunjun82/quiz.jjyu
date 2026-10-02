@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-19",
+  "deleted": {
+    "kb-star": [
+      "kbpay오늘의퀴즈|500명"
+    ]
+  },
+  "log": [
+    {
+      "slug": "kb-star",
+      "question": "KB Pay 오늘의 퀴즈 (3회차)",
+      "answer": "500명",
+      "reason": "퀴즈벨 kbstar 표의 KB Pay 행 — kb-star(별별퀴즈) 정답 아님, kbpay 카드에 이미 있음",
+      "at": "2026-09-27T14:50:45.529+09:00"
+    }
+  ]
+}
