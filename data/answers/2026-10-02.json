@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T09:00:33.396+09:00",
+  "updatedAt": "2026-10-02T09:04:14.231+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-02T00:02:50.227+09:00"
+      },
+      {
+        "question": "신한카드 이벤트 'SOL께요!'에서 1원으로 응모할 수 있는 홈카페 아이템 경품이 아닌 것은?",
+        "answer": "전자레인지",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-02T09:04:14.230+09:00"
       }
     ],
     "kakaobank": [
