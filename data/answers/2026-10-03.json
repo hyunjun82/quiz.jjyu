@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T00:03:44.196+09:00",
+  "updatedAt": "2026-10-03T00:04:20.842+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -82,7 +82,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T00:04:20.842+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
@@ -97,7 +105,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "치매는 반드시 고령에서만 발병한다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-03T00:04:20.842+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "죽음과 애도를 전복하는 그로테스크한 생명력으로 세계 문단을 사로잡은 한국 현대시 대표. 이 작가의 이름은?",
