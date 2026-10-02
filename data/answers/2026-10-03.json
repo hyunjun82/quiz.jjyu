@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T00:00:42.044+09:00",
+  "updatedAt": "2026-10-03T00:01:19.226+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 새 아파트 분양가에 상한선을 둬 지나친 고분양을 막는 제도예요.",
+        "answer": "분양가상한제",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-03T00:01:19.226+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -51,7 +59,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "죽음과 애도를 전복하는 그로테스크한 생명력으로 세계 문단을 사로잡은 한국 현대시 대표. 이 작가의 이름은?",
+        "answer": "김혜순",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-03T00:01:19.226+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
