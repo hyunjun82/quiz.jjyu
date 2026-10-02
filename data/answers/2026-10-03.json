@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T00:14:47.296+09:00",
+  "updatedAt": "2026-10-03T00:20:04.033+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -76,6 +76,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-03T00:12:58.873+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T00:20:04.032+09:00"
       }
     ],
     "kbank": [],
