@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T07:58:35.944+09:00",
+  "updatedAt": "2026-10-03T08:00:56.085+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-10-03T00:03:44.195+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "명중",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T08:00:56.084+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 착붙 신한카드로 받을 수 있는 월 최대 할인한도는 5만원이다.",
