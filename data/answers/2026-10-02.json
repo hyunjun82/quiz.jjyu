@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T20:06:53.002+09:00",
+  "updatedAt": "2026-10-02T20:08:57.122+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -544,7 +544,15 @@
         "publishedAt": "2026-10-02T00:01:07.076+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 삼성전자",
+        "answer": "티타늄",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-02T20:08:57.107+09:00"
+      }
+    ],
     "naverpay": [],
     "hana-travel": [],
     "woori-festa": []
