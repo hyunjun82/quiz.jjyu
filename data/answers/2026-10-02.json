@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T10:06:08.898+09:00",
+  "updatedAt": "2026-10-02T10:14:04.881+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-02T10:06:08.886+09:00"
+      },
+      {
+        "question": "MOUM 계좌개설 (21회차)",
+        "answer": "개좌개설",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-02T10:14:04.873+09:00"
       }
     ],
     "shinhan-sol": [
