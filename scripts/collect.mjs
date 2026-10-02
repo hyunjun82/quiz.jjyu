@@ -2572,6 +2572,8 @@ async function collectFromPress() {
  */
 const SUBSPLIT = [
   { from: 'buzzvil', re: /하림\s*펫푸드|하림\s*더리얼|더리얼\s*그레인프리/, to: 'harim-real' },
+  // 2026-10-02: '2026 우리금융 페스타 퀴즈'가 네이버 비즈니스 인기 검색어에 올라 별도 카드로 분리.
+  { from: 'buzzvil', re: /우\.?\s*다\.?\s*페|우리금융[\s\S]{0,20}페스타/, to: 'woori-festa' },
 ];
 
 function applySubsplit(item) {
