@@ -31,7 +31,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import { execFileSync } from 'child_process';
+import { execFileSync, spawnSync } from 'child_process';
+import crypto from 'crypto';
 import { pathToFileURL } from 'url';
 
 const KST_OFFSET = 9 * 60 * 60 * 1000;
@@ -93,6 +94,42 @@ const QUIZZES = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), 'data', 'quizzes.json'), 'utf-8'),
 ).quizzes;
 const QUIZ_SLUGS = QUIZZES.map((q) => q.slug);
+
+/*
+ * ── 실행 중 코드 갱신 감지 (2026-10-02) ──
+ * 수집기 job 하나는 최대 5시간 반 돈다. 그동안 collect.mjs·quizzes.json 을 고쳐 push 해도
+ * 이미 메모리에 올라간 옛 코드가 계속 돌았다 — 새 카드·오답 차단 규칙이 몇 시간 뒤에야 먹었다
+ * (10/2 실측: 03:00 UTC 에 푸시한 우리금융 페스타 분리·KB 차단 규칙을 #1404 가 옛 코드로 수집).
+ * 그래서 시작할 때 읽은 두 파일의 지문을 기억해 두고, 순찰·감시 도중 원격과 다르면
+ * 하던 커밋을 밀고 새 코드로 자기 자신을 다시 띄운다(남은 시간만큼).
+ */
+const START_AT = Date.now();
+const CODE_FILES = ['scripts/collect.mjs', 'data/quizzes.json'];
+const sha1 = (buf) => crypto.createHash('sha1').update(buf).digest('hex');
+const LOADED_CODE = Object.fromEntries(
+  CODE_FILES.map((f) => {
+    try { return [f, sha1(fs.readFileSync(path.join(process.cwd(), f)))]; } catch { return [f, null]; }
+  }),
+);
+const RESTART = Symbol('restart');
+let lastCodeCheck = 0;
+function codeChangedRemote() {
+  if (!AUTO_PUSH || process.env.NO_SELF_RESTART === '1') return false;
+  if (Date.now() - lastCodeCheck < 120_000) return false;
+  lastCodeCheck = Date.now();
+  try {
+    execFileSync('git', ['fetch', '-q', 'origin', 'main'], { stdio: 'pipe' });
+    const changed = CODE_FILES.filter((f) => {
+      const remote = execFileSync('git', ['show', `FETCH_HEAD:${f}`], { stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20 });
+      return LOADED_CODE[f] && sha1(remote) !== LOADED_CODE[f];
+    });
+    if (changed.length) console.log(`[코드 갱신] 원격에서 바뀜: ${changed.join(', ')}`);
+    return changed.length > 0;
+  } catch (e) {
+    console.log('[코드 갱신] 확인 실패 — 계속 진행:', (e.stderr?.toString() || e.message).split('\n')[0]);
+    return false;
+  }
+}
 const BY_SLUG = Object.fromEntries(QUIZZES.map((q) => [q.slug, q]));
 
 /* ────────────────────────── 공통 유틸 ────────────────────────── */
@@ -1665,6 +1702,9 @@ const TIP_TITLE_MAP = [
   // (9/15~17 실측: hana-onq 에 3일 연속 같은 'X', 9/17 hana-life 0건).
   // 다비야·앱테크 매핑(1255행·1377행)과 2381행 표는 처음부터 hana-life 였다 — 이 줄만 어긋나 있었다.
   { slug: 'hana-life', re: /하나원큐 슬기로운 금융생활/, backup: true },
+  // 2026-10-02 추가 — 하나원큐 트래블미션(OX). 팁is팁이 8/11 부터 거의 매일(52일 중 45일) 07~09시에 올린다.
+  // 다른 소스엔 없어서 backup 이 아니라 '항상 사용'이다.
+  { slug: 'hana-travel', re: /하나원큐 트래블미션/ },
   // 2026-09-10 수정 — 슬러그가 틀려 있었다.
   // 팁is팁의 "모니모 오늘의영어"는 모니모 '영어챌린지'(monimo-eng)이지
   // '모니스쿨 퀴즈'(monimo)가 아니다. 엉뚱한 슬러그로 들어가는 데다 backup 이라,
@@ -1701,8 +1741,7 @@ const TIP_REVIEWED = [
   /^신한 쏠야구퀴즈\]/,
   /^신한페이판 출석퀴즈\]/,
   // (카카오뱅크 OX퀴즈(혜택)는 2026-09-27 부터 kakaobank-ox 로 매핑 — 위 TIP_TITLE_MAP 참고)
-  // 우리 hana-onq 는 퀴즈HANA(축구Play)다. 슬기로운 금융생활 OX 는 hana-life 로 간다. 트래블미션은 별개다.
-  /하나원큐 트래블미션/,
+  // 우리 hana-onq 는 퀴즈HANA(축구Play)다. 슬기로운 금융생활 OX 는 hana-life, 트래블미션은 hana-travel 로 간다.
   /하나원큐 \(오른쪽 하단/,
   // 우리 monimo 는 오늘의영어다. 모니스쿨 N교시는 별개 출제다.
   /모니모 모니스쿨/,
@@ -2484,6 +2523,7 @@ const PRESS_APP = [
   [/신한\s*쏠|쏠퀴즈|퀴즈팡팡/, 'shinhan-sol'],
   [/KB\s*스타|별별퀴즈/i, 'kb-star'],
   [/KB\s*Pay|KB페이|리브메이트/i, 'kbpay'],
+  [/트래블\s*미션/, 'hana-travel'], // 2026-10-02: 아래 '하나원큐.*OX' 에 먼저 걸리지 않게 앞에 둔다
   [/하나원큐.*OX|슬기로운 금융생활/, 'hana-life'],
   [/하나원큐|퀴즈하나/, 'hana-onq'],
   [/NH올원|올원뱅크|디깅퀴즈/, 'nh-allone'],
@@ -3225,6 +3265,7 @@ async function main() {
       console.log(`[순찰] ${nextTxt} — ${IDLE_POLL / 60000}분 뒤 다시 훑음`);
       if (AUTO_PUSH) flushPush();
       await sleep(IDLE_POLL);
+      if (codeChangedRemote()) return RESTART;
       absorb(await collectOnce(), `[순찰 ${Math.round((Date.now() - t0) / 1000)}초]`);
     }
 
@@ -3240,6 +3281,7 @@ async function main() {
       console.log(`[대기] 감시 구간 ${label} — ${waitMin}분 뒤 시작. 잠들었다 깨어남`);
       await sleep(startAt - Date.now());
     }
+    if (codeChangedRemote()) return RESTART;
 
     let pending = pendingIn(block, loadExisting(kstToday()));
     console.log(`[감시 시작] ${label} — 미수집 ${pending.length}개: ${pending.join(', ') || '없음'}`);
@@ -3248,6 +3290,7 @@ async function main() {
     // 예전엔 여기서 곧장 빠져나가 뒤 회차를 다음 트리거까지 놓쳤다.
     while (Date.now() < endAt && (pending.length > 0 || moreComingIn(block))) {
       if (AUTO_PUSH) flushPush();
+      if (codeChangedRemote()) return RESTART;
       const r = await collectOnce();
       const elapsed = Math.round((Date.now() - t0) / 1000);
       absorb(r, `[감시 ${elapsed}초]`);
@@ -3310,7 +3353,7 @@ const isEntry = process.argv[1] && import.meta.url === pathToFileURL(process.arg
 if (isEntry) {
   main()
     // 남은 묶음 push 를 먼저 비운다 — 여기서 안 밀면 job 이 끝나며 커밋이 증발한다.
-    .then(() => { if (AUTO_PUSH) flushPush(true); })
+    .then((r) => { if (AUTO_PUSH) flushPush(true); if (r === RESTART) selfRestart(); })
     // 수집이 끝나면 곧바로 소스와 대조한다.
     // 규칙을 아무리 다듬어도 다음 버그는 다른 모양으로 온다. 그래서 "규칙 추가"가 아니라
     // "결과 대조"를 마지막 관문으로 둔다 — 우리가 발행한 것과 소스가 지금 말하는 것을
@@ -3321,6 +3364,27 @@ if (isEntry) {
       try { if (AUTO_PUSH) flushPush(true); } catch { /* 마지막 시도 */ }
       process.exit(1);
     });
+}
+
+/** 원격 새 코드로 자기 자신을 다시 띄운다. 안 밀린 커밋이 있으면 위험하므로 포기하고 평소대로 끝낸다. */
+function selfRestart() {
+  const left = Math.floor((START_AT + MAX_MINUTES * 60_000 - Date.now()) / 60_000);
+  try {
+    execFileSync('git', ['fetch', '-q', 'origin', 'main'], { stdio: 'pipe' });
+    const ahead = Number(execFileSync('git', ['rev-list', '--count', 'FETCH_HEAD..HEAD']).toString().trim());
+    if (ahead > 0) { console.log(`[코드 갱신] 안 밀린 커밋 ${ahead}개 — 재시작 생략`); return; }
+    if (left < 5) { console.log('[코드 갱신] 남은 시간 부족 — 재시작 생략, 다음 실행이 새 코드로 시작'); return; }
+    execFileSync('git', ['reset', '--hard', 'FETCH_HEAD'], { stdio: 'pipe' });
+  } catch (e) {
+    console.log('[코드 갱신] 준비 실패 — 재시작 생략:', (e.stderr?.toString() || e.message).split('\n')[0]);
+    return;
+  }
+  console.log(`[코드 갱신] 새 코드로 다시 시작 — 남은 ${left}분`);
+  const c = spawnSync(process.execPath, ['scripts/collect.mjs'], {
+    stdio: 'inherit',
+    env: { ...process.env, MAX_MINUTES: String(left) },
+  });
+  process.exit(c.status ?? 1);
 }
 
 async function runVerify() {
