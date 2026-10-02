@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T10:01:18.277+09:00",
+  "updatedAt": "2026-10-02T10:02:46.827+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -32,6 +32,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-02T10:00:35.990+09:00"
+      },
+      {
+        "question": "지금 MOUM에서 OOOO 하면 총 400명에게 추첨을 통해 삼성전자 또는 SK하이닉스 1주를 지급해주는데요, OOOO에 들어갈 단어는 무엇일까요? (초성힌트:ㄱㅈㄱㅅ)",
+        "answer": "계좌개설",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-02T10:02:46.824+09:00"
       }
     ],
     "shinhan-sol": [
@@ -76,7 +83,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "2번 왕복",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-02T10:02:46.826+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -112,7 +127,15 @@
         "publishedAt": "2026-10-02T00:01:07.076+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이증권 OO조회 조건충족 시, 무조건 국내 소수점 주식 지급",
+        "answer": "한도",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-02T10:02:46.825+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "단군 신화에서 환웅이 인간 세사에 내려와 자리 잡았다고 전해지는 산은 어디일까요?",
