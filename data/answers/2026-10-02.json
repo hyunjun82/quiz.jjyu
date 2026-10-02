@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updatedAt": "2026-10-02T10:03:28.326+09:00",
+  "updatedAt": "2026-10-02T10:04:08.261+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,10 +169,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay 여행 제휴사 무브에서 인천공항 이동서비스 'OO' 예약 시 편도 10% 즉시할인을 받을 수 있어요. OO에 알맞은 것은?",
         "answer": "2번 왕복",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-02T10:02:46.826+09:00"
       }
     ],
