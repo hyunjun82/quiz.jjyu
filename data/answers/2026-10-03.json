@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T00:46:51.501+09:00",
+  "updatedAt": "2026-10-03T00:52:00.821+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -55,6 +55,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-03T00:46:51.499+09:00"
+      },
+      {
+        "question": "2026년 1월 1일부터 수도권 지역은 종량제봉투를 그대로 땅에 묻는 '직매립'이 금지되었다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T00:52:00.819+09:00"
       }
     ],
     "hpoint": [
