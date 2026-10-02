@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T00:41:09.435+09:00",
+  "updatedAt": "2026-10-03T00:46:51.501+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -21,10 +21,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "오랜 전통을 새롭게 해석하고 즐기려는 소비자들 사이에 나타난 새로운 디저트 트렌드는 무엇일까요?",
         "answer": "떡지순례",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-03T00:03:44.195+09:00"
       },
       {
@@ -38,17 +38,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크 착붙 신한카드로 받을 수 있는 월 최대 할인한도는 5만원이다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-03T00:14:47.295+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "카카오뱅크 착붙 신한카드로 받을 수 있는 월 최대 할인한도는 5만원이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T00:46:51.499+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]유저가 직접 가상 세계를 만들고 다른 사람들과 함께하는 글로벌 메타버스 게임 플랫폼 '로블록스' 팝업스토어가 26년 10월 한 번 더 새로운 세계를 선보입니다. 10.2~10.11동안 병철이네, 99야간 숲 등 로블록스 인기 게임 굿즈를 만날 수 있는 현대백화점 지점은 어디일까요??",
@@ -71,10 +79,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "개천절은 '하늘이 열린 날'이라는 의미의 국경일입니다. 개천절과 가장 관련 깊은 인물은 누구일까요?",
         "answer": "4번 단군왕검",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-03T00:12:58.873+09:00"
       },
       {
@@ -85,14 +93,30 @@
         "publishedAt": "2026-10-03T00:20:04.032+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [],
+    "kbank": [
+      {
+        "question": "개천절이라는 이름에 담긴 '개천'의 뜻으로 알맞은 것은?",
+        "answer": "② 하늘이 열림",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-03T00:46:51.498+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "현재 하나은행 K리그2 2026 1위인 수원 삼성 블루원즈는 15승을 넘어 OO승을 기록 중입니다. OO에 들어갈 정답은 무엇일까요?",
+        "answer": "④ 16",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-03T00:46:51.498+09:00"
+      }
+    ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "다른 은행의 자동이체를 하나은행 계좌로 한 번에 옮길 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-03T00:21:50.711+09:00"
       }
     ],
