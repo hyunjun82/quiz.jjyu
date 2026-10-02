@@ -849,6 +849,9 @@ async function quizbellsPrevKeys(q, today) {
   return keys;
 }
 
+// 하루 한 문제만 내는 퀴즈(퀴즈벨 소스). 아래 '같은 지문 정답 여러 개' 판정은 이 목록에만 적용한다.
+const ONE_QUESTION_A_DAY = new Set(['climate-action']);
+
 async function collectFromQuizbells() {
   const today = kstToday();
   const targets = QUIZZES.filter((q) => q.sourceSlug);
@@ -866,7 +869,27 @@ async function collectFromQuizbells() {
         // 전날 페이지를 못 가져오면 오늘 것을 내보내지 않는다 — 확인 못 한 걸 싣지 않는다.
         const prev = await quizbellsPrevKeys(q, today);
         if (!prev) return [];
+        // 2026-10-03: 같은 지문(날짜만 다른 껍데기 제목 포함)에 서로 다른 정답이 둘 이상 붙어 오면 그대로 싣지 않는다.
+        //   10/2 기후행동: 퀴즈벨이 "기후행동 기회소득 10월 2일 오늘의 퀴즈 문제"로 O·X 두 줄을 냈다.
+        //   X 는 전날(10/1) 정답이 제목만 바뀌어 남은 것이었고 진짜는 O(토막스 '영구동토층' 실측).
+        //   전날 정답과 같은 쪽을 버리고, 그래도 하나로 안 좁혀지면 그 지문은 통째로 보류한다(다른 소스가 채운다).
+        //   ⚠️ 하루 한 문제인 퀴즈에만 쓴다. 닥터나우·나만의닥터·KB Pay 처럼 회차가 여럿이면 같은 껍데기 제목에
+        //   정답이 여러 개인 게 정상이라, 여기 넣으면 멀쩡한 회차를 버린다(10/3 시험 실행에서 확인).
+        const prevAns = new Set([...prev].map((k) => k.split('|').pop()));
+        const qOnly = (r) => qbPrevKey(r).split('|')[0];
+        const groups = new Map();
+        for (const r of items) groups.set(qOnly(r), [...(groups.get(qOnly(r)) || []), r]);
+        const ambiguousDrop = new Set();
+        for (const [, rows] of groups) {
+          const ansKeys = new Set(rows.map((r) => qbPrevKey(r).split('|').pop()));
+          if (!ONE_QUESTION_A_DAY.has(q.slug) || rows.length < 2 || ansKeys.size < 2) continue;
+          const keep = rows.filter((r) => !prevAns.has(qbPrevKey(r).split('|').pop()));
+          const keepKeys = new Set(keep.map((r) => qbPrevKey(r).split('|').pop()));
+          for (const r of rows) if (!(keepKeys.size === 1 && keep.includes(r))) ambiguousDrop.add(r);
+          console.log(`퀴즈벨 같은 지문에 정답 ${ansKeys.size}개 — ${keepKeys.size === 1 ? '전날 정답과 같은 쪽 버림' : '전부 보류'} [${q.slug}] "${String(rows[0].question).slice(0, 30)}"`);
+        }
         return items
+          .filter((r) => !ambiguousDrop.has(r))
           .filter((r) => {
             if (!prev.has(qbPrevKey(r))) return true;
             const tag = `${q.slug}|${qbPrevKey(r)}`;
@@ -3056,6 +3079,25 @@ async function collectOnce() {
   const found = [...a, ...i, ...c, ...d, ...e, ...g, ...b, ...h, ...f];
   const found2 = found.map(applySubsplit);
 
+  // 2026-10-03: 퀴즈벨이 남의 카드 문제를 섞어 줄 때가 있다(10/3 00:46 기후행동 칸에 카카오뱅크 OX
+  //   '착붙 신한카드 … 5만원' 행 — kakaobank-ox 에 이미 있던 지문). 9/18~25 KB Pay→kb-star 도 같은 모양이었다.
+  //   퀴즈벨 행의 지문이 '다른 카드'에 이미 있거나 이번에 다른 소스가 다른 카드로 준 지문과 같으면 싣지 않는다.
+  //   짧은 껍데기 지문("오늘의 퀴즈")끼리 겹치는 건 정상이므로 15자 이상만 본다.
+  const xKey = (q) => normalize(q);
+  const ownerOf = new Map();
+  for (const [slug, rows] of Object.entries(existing.answers || {})) {
+    for (const r of rows || []) {
+      const k = xKey(r.question);
+      if (k.length >= 15 && !ownerOf.has(k)) ownerOf.set(k, slug);
+    }
+  }
+  for (const f of found2) {
+    if (f.source === 'quizbells') continue;
+    const k = xKey(f.question);
+    if (k.length >= 15 && !ownerOf.has(k)) ownerOf.set(k, f.slug);
+  }
+  const crossReported = new Set();
+
   let added = 0;
   let upgraded = 0;
   const bySlug = {};
@@ -3065,6 +3107,17 @@ async function collectOnce() {
     if (!isSaneQuestion(item.question)) {
       console.log(`지문 거부 [${f.slug}] "${item.question}" — 커뮤니티 글로 판단`);
       continue;
+    }
+    if (f.source === 'quizbells') {
+      const owner = ownerOf.get(xKey(item.question));
+      if (owner && owner !== f.slug) {
+        const tag = `${f.slug}|${xKey(item.question)}`;
+        if (!crossReported.has(tag)) {
+          crossReported.add(tag);
+          console.log(`남의 카드 지문 차단 [${f.slug}] "${String(item.question).slice(0, 30)}" — 이미 ${owner} 문제`);
+        }
+        continue;
+      }
     }
     // 오늘 이미 지운 항목이면 다시 넣지 않는다 — 감사↔수집 무한 루프 차단.
     if (isTombstoned(tombstones, f.slug, item)) {
