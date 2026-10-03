@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T11:04:18.726+09:00",
+  "updatedAt": "2026-10-03T11:06:11.855+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,10 +169,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "'KB Pay가 초대하는 미술관에서의 특별한 하루' 이벤트 경품을 받을 수 있는 미술관은 어디일까요?",
         "answer": "2번 리움·호암미술관",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-03T10:03:31.871+09:00"
       }
     ],
