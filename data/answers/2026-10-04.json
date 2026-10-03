@@ -1,8 +1,23 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T00:11:21.464+09:00",
+  "updatedAt": "2026-10-04T00:46:04.067+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "게이트맨 무타공 도어락",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T00:46:04.066+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "홈플래닛 유리티포트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T00:46:04.066+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -21,7 +36,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T00:46:04.066+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -65,7 +88,15 @@
         "publishedAt": "2026-10-04T00:09:21.819+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T00:46:04.066+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
