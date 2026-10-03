@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T18:34:00.706+09:00",
+  "updatedAt": "2026-10-03T20:02:11.458+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -176,6 +176,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-03T12:05:03.507+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (3회차)",
+        "answer": "개천절",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T20:02:11.451+09:00"
       }
     ],
     "kakaobank-ox": [
