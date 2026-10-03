@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T11:00:35.374+09:00",
+  "updatedAt": "2026-10-03T11:04:18.726+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -246,6 +246,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-03T00:46:51.498+09:00"
+      },
+      {
+        "question": "현재 하나은행 K리그2 2026 1위인 수원 삼성 블루윙즈는 15승을 넘어 00승을 기록 중입니다. 00에 들어갈 정답은 무엇일까요?.",
+        "answer": "4. 16",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-03T11:04:18.719+09:00"
       }
     ],
     "hana-life": [
@@ -315,10 +322,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "탈모약을 끊어도 치료 효과는 그대로 유지된다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-03T00:04:20.842+09:00"
       }
     ],
