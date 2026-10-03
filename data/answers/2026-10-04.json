@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T00:01:12.886+09:00",
+  "updatedAt": "2026-10-04T00:01:45.999+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -48,7 +48,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "재산세는 국세이고 종합부동산세는 지방세예요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-04T00:01:45.999+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
