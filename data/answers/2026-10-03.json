@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T10:03:31.872+09:00",
+  "updatedAt": "2026-10-03T10:04:08.001+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,7 +21,7 @@
     "cashwalk": [
       {
         "question": "컷슬린 버터쉐이크 고객후기예요. 두번 시켜먹고 10kg 감량중이에요~!아이둘 키우면서 운동하기 힘든데 이렇게 간편하게 한끼대용으로 맛있게 먹으며 다이어트 하는거 너무 좋아요! 비만전문의 과학적인 설계로 탄생, 뉴질랜드산 버터를 채워 실패없는 가뿐한 식욕관리!당류 0g, OOOO맛 컷슬린 버터쉐이크! 빈칸은?(ㅇㄱㄹㄸ)",
-        "answer": "오곡라떼 / 비만전문 / 버터 / 체중조절 / 단백질",
+        "answer": "오곡라떼, 비만전문, 버터, 체중조절, 단백질",
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-03T00:00:42.044+09:00"
@@ -39,6 +39,90 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-03T10:02:05.067+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.990+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.990+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.990+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.990+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.991+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.991+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.991+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.991+09:00"
+      },
+      {
+        "question": "국민건강보험 내 건강보험료도 정산 대상일까",
+        "answer": "소득정산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.992+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 초고속, 준고체, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.992+09:00"
+      },
+      {
+        "question": "메리츠증권 투자 플랫폼 MOUM 계좌개설 이벤트",
+        "answer": "계좌개설",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.992+09:00"
+      },
+      {
+        "question": "푸드루트 비타민D (17회차)",
+        "answer": "햇빛, 비타민, 활성도, 흡수율",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T10:04:07.992+09:00"
       }
     ],
     "shinhan-sol": [
