@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T02:18:41.516+09:00",
+  "updatedAt": "2026-10-04T03:33:36.451+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "앱 하나로 편리한 금융 생활, 신한 슈퍼SOL! 이벤트 응모 후 신규 가입하면 몇 포인트를 받을 수 있을까요?",
         "answer": "10,000P",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-10-04T00:03:32.329+09:00"
       },
       {
