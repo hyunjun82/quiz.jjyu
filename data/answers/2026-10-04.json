@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T00:04:06.986+09:00",
+  "updatedAt": "2026-10-04T00:09:21.820+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -48,7 +48,15 @@
     "nh-allone": [],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월4일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "테크니컬 에어리어",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-04T00:09:21.819+09:00"
+      }
+    ],
     "hana-life": [],
     "hana-travel": [],
     "monimo": [
