@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T08:39:57.086+09:00",
+  "updatedAt": "2026-10-03T09:25:32.596+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -213,7 +213,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T09:25:32.596+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "치매는 반드시 고령에서만 발병한다?",
