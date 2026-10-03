@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T10:02:05.070+09:00",
+  "updatedAt": "2026-10-03T10:03:31.872+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,7 +83,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "2번 리움·호암미술관",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T10:03:31.871+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -195,7 +203,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "1000",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T10:03:31.871+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
