@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T11:33:18.894+09:00",
+  "updatedAt": "2026-10-03T12:05:03.515+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -162,6 +162,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-03T08:00:56.084+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "감독",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-03T12:05:03.507+09:00"
       }
     ],
     "kakaobank-ox": [
