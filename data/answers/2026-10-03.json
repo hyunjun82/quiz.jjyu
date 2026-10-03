@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updatedAt": "2026-10-03T14:31:53.615+09:00",
+  "updatedAt": "2026-10-03T18:34:00.706+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -390,7 +390,15 @@
         "publishedAt": "2026-10-03T00:01:19.226+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 삼성전자",
+        "answer": "촬영",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-03T18:34:00.699+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
