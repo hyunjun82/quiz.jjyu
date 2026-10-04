@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T10:13:38.425+09:00",
+  "updatedAt": "2026-10-04T10:38:39.534+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -168,7 +168,7 @@
     "mydoctor": [
       {
         "question": "스트레스를 관리하지 않으면 심장병 위험이 증가할 수 있다.",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-04T07:58:54.168+09:00"
