@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T08:57:54.029+09:00",
+  "updatedAt": "2026-10-05T08:59:43.117+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -154,7 +154,15 @@
         "publishedAt": "2026-10-05T00:01:01.509+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "traveling/alone, trip/yourself, like/join",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-05T08:59:43.117+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
