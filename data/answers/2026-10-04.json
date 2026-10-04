@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T10:04:56.965+09:00",
+  "updatedAt": "2026-10-04T10:05:34.363+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,10 +56,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "서울 도심에서 단풍과 억새를 함께 즐길 수 있는 가을 나들이 명소는?",
         "answer": "1번 서울숲",
         "note": "",
-        "source": "tipistip",
+        "source": "blog",
         "publishedAt": "2026-10-04T10:04:56.964+09:00"
       }
     ],
