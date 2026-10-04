@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T10:05:34.363+09:00",
+  "updatedAt": "2026-10-04T10:13:38.425+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -91,7 +91,15 @@
         "publishedAt": "2026-10-04T00:01:12.886+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "서울",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T10:13:38.425+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
