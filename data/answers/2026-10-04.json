@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T11:17:36.705+09:00",
+  "updatedAt": "2026-10-04T11:18:56.341+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -202,10 +202,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "사이클로스포린 성분 인공눈물은 처방이 필요한 전문의약품이다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-04T00:02:20.258+09:00"
       }
     ],
