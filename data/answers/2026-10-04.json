@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T11:12:00.798+09:00",
+  "updatedAt": "2026-10-04T11:13:15.667+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -137,10 +137,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐의 돈통은 하나은행 계좌가 있는 사람만 이용할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-04T00:46:04.066+09:00"
       }
     ],
