@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T09:02:47.811+09:00",
+  "updatedAt": "2026-10-04T10:04:56.965+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,7 +54,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "1번 서울숲",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T10:04:56.964+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -159,7 +167,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "1000",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T10:04:56.964+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
