@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T11:10:45.625+09:00",
+  "updatedAt": "2026-10-04T11:12:00.798+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,10 +53,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크 착붙 신한카드 카드값 돌려받기 이벤트로 최대 30만원까지 혜택을 받을 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-04T00:46:04.066+09:00"
       }
     ],
