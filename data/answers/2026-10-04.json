@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T11:07:47.287+09:00",
+  "updatedAt": "2026-10-04T11:10:45.625+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -33,6 +33,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-04T00:03:32.329+09:00"
+      },
+      {
+        "question": "오늘의 Mini 게임에서 할 수 있는 게임이 아닌 것은?",
+        "answer": "과일 스매시",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-04T11:10:45.624+09:00"
       }
     ],
     "kakaobank": [
@@ -215,7 +222,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T11:10:45.625+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "장기요양 등급을 가지고 있다면 복지용구를 구매할 수도 있다?",
