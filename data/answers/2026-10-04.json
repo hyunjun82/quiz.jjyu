@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T08:03:35.301+09:00",
+  "updatedAt": "2026-10-04T09:01:01.519+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -94,7 +94,15 @@
         "publishedAt": "2026-10-04T00:11:21.464+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "1번 한계효용 체감의 법칙",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T09:01:01.519+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "10월4일 하나은행 하나원큐 축구퀴즈 정답",
@@ -113,7 +121,15 @@
         "publishedAt": "2026-10-04T00:46:04.066+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T09:01:01.519+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
