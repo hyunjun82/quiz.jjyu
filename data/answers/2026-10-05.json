@@ -1,17 +1,40 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T00:01:37.719+09:00",
+  "updatedAt": "2026-10-05T00:03:19.854+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "Plan",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-05T00:03:19.854+09:00"
+      },
+      {
+        "question": "2007년 오늘은 KBO 리그 최초 인천 연고 우승팀이자 통산 4회 우승에 빛났던 이 구단이 고별전을 치른 날입니다. 이 팀은 아래 중 어느 곳일까요?",
+        "answer": "현대 유니콘스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-05T00:03:19.854+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]현대홈쇼핑의 하반기 최대 쇼핑 축제 '현대슈퍼위크'!이번 행사에서는 350억 상당 선착순 쿠폰팩, 매일 10% 적립은 물론, 구매 사은품 혜택까지 준비되어 있는데요. 그렇다면 방송 상품 30만원 구매 사은품으로, 3만원 적립금과 함께 선택 가능한 사은품의 이름은 무엇일까요?",
+        "answer": "올인원 에어프라이어",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-05T00:03:19.854+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOO란, 사람들이 이자를 포기하면서까지 현금을 손에 쥐고 싶어 하는 심리예요.",
@@ -22,7 +45,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월5일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "오보에",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-05T00:03:19.854+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
