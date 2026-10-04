@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T11:00:45.728+09:00",
+  "updatedAt": "2026-10-04T11:07:47.287+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -112,10 +112,10 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "개천절이라는 이름에 담긴 '개천'의 뜻으로 알맞은 것은?",
         "answer": "1번 한계효용 체감의 법칙",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-04T09:01:01.519+09:00"
       }
     ],
