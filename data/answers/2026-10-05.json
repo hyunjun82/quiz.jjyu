@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T00:01:01.509+09:00",
+  "updatedAt": "2026-10-05T00:01:37.719+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 사람들이 이자를 포기하면서까지 현금을 손에 쥐고 싶어 하는 심리예요.",
+        "answer": "유동성선호",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-05T00:01:37.719+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -40,7 +48,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "종합부동산세는 부동산 보유 여부와 관계없이 모든 국민에게 동일한 금액이 부과돼요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-05T00:01:37.719+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
