@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T00:30:40.998+09:00",
+  "updatedAt": "2026-10-05T02:18:36.908+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "( )·XO·NEO·벤츠 카드로 떠나는 특별한 해외 여행!",
         "answer": "Plan",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-10-05T00:03:19.854+09:00"
       },
       {
@@ -79,7 +79,7 @@
     ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "question": "치과 치료 중 일반적으로 실손보험에서 보장되지 않는 항목은 무엇일까요?",
         "answer": "4. 치아 교정",
         "note": "",
         "source": "quizbells",
