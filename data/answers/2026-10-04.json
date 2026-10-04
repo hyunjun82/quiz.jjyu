@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "updatedAt": "2026-10-04T09:01:01.519+09:00",
+  "updatedAt": "2026-10-04T09:02:47.811+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -139,7 +139,15 @@
         "publishedAt": "2026-10-04T00:01:12.886+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "so/timid, used/shy, so/confident",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-04T09:02:47.811+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
