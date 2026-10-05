@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T11:30:17.223+09:00",
+  "updatedAt": "2026-10-05T11:36:19.683+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -139,6 +139,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-05T00:03:19.854+09:00"
+      },
+      {
+        "question": "에싸소파 신한카드 이벤트 행사지점이 아닌 곳은?",
+        "answer": "④ 강남 플래그십스토어",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-05T11:36:19.675+09:00"
       }
     ],
     "kakaobank": [
@@ -200,10 +207,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "10월5일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "오케스트라에서 연주 시작 전, 일반적으로 기준음을 내는 악기는 무엇일까요?",
         "answer": "오보에",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-05T00:03:19.854+09:00"
       }
     ],
@@ -234,10 +241,10 @@
     ],
     "hana-onq": [
       {
-        "question": "10월5일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "축구 선수가 다리를 보호하기 위해 양말 안에 착용하는 보호장비를 무엇이라고 할까요?",
         "answer": "정강이 보호대",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-05T00:09:36.510+09:00"
       }
     ],
