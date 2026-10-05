@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:04:09.008+09:00",
+  "updatedAt": "2026-10-06T00:08:59.138+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -78,7 +78,15 @@
     ],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월6일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "우즈베키스탄",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T00:08:59.138+09:00"
+      }
+    ],
     "hana-life": [],
     "hana-travel": [],
     "monimo": [
