@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T15:26:52.464+09:00",
+  "updatedAt": "2026-10-05T15:30:12.648+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -337,10 +337,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "울리프리스탈 사후피임약은 성관계 후 120시간까지 효과가 있을 수 있다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-05T00:03:54.021+09:00"
       }
     ],
