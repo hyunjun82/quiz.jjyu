@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T15:22:59.821+09:00",
+  "updatedAt": "2026-10-05T15:26:52.464+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -254,7 +254,7 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "인도에서 사용하는 화폐 단위는?",
         "answer": "3번 루피",
         "note": "",
         "source": "tipistip",
