@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T08:17:15.903+09:00",
+  "updatedAt": "2026-10-06T08:20:40.389+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,10 +68,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크 착붙 신한카드로 다이소, 올리브영 5% 할인이 제공된다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-06T00:12:46.388+09:00"
       }
     ],
