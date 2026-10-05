@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T02:30:18.609+09:00",
+  "updatedAt": "2026-10-06T07:58:58.446+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -143,7 +143,15 @@
         "publishedAt": "2026-10-06T00:12:46.388+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-06T07:58:58.446+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
@@ -153,7 +161,15 @@
         "publishedAt": "2026-10-06T00:01:48.303+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "swing/by, swing/by, swing/by",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-06T07:58:58.446+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -162,6 +178,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-06T00:50:41.781+09:00"
+      },
+      {
+        "question": "적당한 단백질 섭취는 근육을 유지하는 데 중요하다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-06T07:58:58.445+09:00"
       }
     ],
     "skstoa": [],
