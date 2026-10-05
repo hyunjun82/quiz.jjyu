@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T13:26:38.363+09:00",
+  "updatedAt": "2026-10-05T15:04:42.251+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -310,7 +310,7 @@
     "mydoctor": [
       {
         "question": "명상은 혈압을 낮추는 데 도움을 줄 수 있다.",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-05T07:58:30.611+09:00"
