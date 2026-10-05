@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:11:34.589+09:00",
+  "updatedAt": "2026-10-06T00:12:46.388+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -43,7 +43,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-06T00:12:46.388+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -78,11 +86,18 @@
     ],
     "kb-star": [
       {
-        "question": "10월6일 KB스타뱅킹 스타퀴즈 정답 (1회차)",
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (3회차)",
         "answer": "2. AI 딥페이크",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-06T00:11:34.589+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "3. 쌍성총관부를 공격하여 영토를 수복하였다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-06T00:12:46.387+09:00"
       }
     ],
     "kbank": [],
@@ -95,7 +110,15 @@
         "publishedAt": "2026-10-06T00:08:59.138+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-06T00:12:46.388+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
