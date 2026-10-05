@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-06",
+  "updatedAt": "2026-10-06T00:00:02.473+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [
+      {
+        "question": "최초 회원가입을 완료하면 마블워크에서 즉시 지급되는 가입 혜택은 00000 포인트입니다. (힌트: 숫자)",
+        "answer": "10000",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-06T00:00:02.473+09:00"
+      },
+      {
+        "question": "두부과자 5봉 OOOO원 특가 오븐에 구워 더욱 바삭한 식감! 계속 손이 가는 담백한 맛! 국산콩 두부함량 25% 가볍게 즐기는 두부과자",
+        "answer": "8900",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-06T00:00:02.473+09:00"
+      },
+      {
+        "question": "푸드루트 활력비타민B는 비타민B군 8종(1,2,6,12,OOOO,판토텐산,비오틴,엽산 8종, 타우린)을 단 1포에 담아 물없이 언제 어디서나 간편하게 1포로 체력관리 가능합니다여기서 OOOO은? (힌트:ㄴㅇㅇㅅ)",
+        "answer": "나이아신 / 타우린 / 비오틴 / 엽산",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-06T00:00:02.473+09:00"
+      }
+    ],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "hana-travel": [],
+    "monimo": [],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "harim-real": [],
+    "woori-festa": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
