@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T15:08:17.973+09:00",
+  "updatedAt": "2026-10-05T15:19:07.606+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -272,10 +272,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 놀이터에서 진행하는 출석체크 이벤트는 매일 참여 가능하다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-05T00:30:40.998+09:00"
       }
     ],
