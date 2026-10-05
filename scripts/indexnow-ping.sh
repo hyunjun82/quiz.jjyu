@@ -39,4 +39,16 @@ CODE=$(curl -s -X POST "https://api.indexnow.org/indexnow" \
   --connect-timeout 15 --max-time 60 \
   -d @/tmp/indexnow-payload.json -o /dev/null -w "%{http_code}") || CODE="000"
 echo "[indexnow] ${N}개 URL 핑 → HTTP $CODE"
+
+# 2026-10-05: 네이버에 직접도 보낸다.
+#   10/3 부터 api.indexnow.org 로 보낸 핑은 계속 HTTP 200 인데도 네이버가 새 날짜 페이지를 가져가지 않았다
+#   (site: 검색에 10/3·10/4·10/5 페이지 0개, 서치어드바이저 노출 10/2 약 21만 → 10/4 1.7만).
+#   10/5 15:50 같은 URL 목록을 searchadvisor.naver.com/indexnow 로 직접 보내자 4분 만에 10/5 페이지가,
+#   몇 분 뒤 10/3·10/4 페이지가 네이버 site: 검색에 나타났다. 공용 엔드포인트만 믿지 말고 네이버로도 보낸다.
+NCODE=$(curl -s -X POST "https://searchadvisor.naver.com/indexnow" \
+  -H "Content-Type: application/json; charset=utf-8" \
+  --retry 3 --retry-delay 5 --retry-all-errors \
+  --connect-timeout 15 --max-time 60 \
+  -d @/tmp/indexnow-payload.json -o /dev/null -w "%{http_code}") || NCODE="000"
+echo "[indexnow] 네이버 직접 ${N}개 URL 핑 → HTTP $NCODE"
 exit 0
