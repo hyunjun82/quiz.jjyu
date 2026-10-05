@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:00:41.781+09:00",
+  "updatedAt": "2026-10-06T00:01:14.809+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -34,7 +34,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 시중에 도는 돈의 양이 물가 수준을 결정한다고 보는 경제 이론이에요.",
+        "answer": "화폐수량설",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-06T00:01:14.809+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
