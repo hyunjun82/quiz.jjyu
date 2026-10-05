@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T08:03:55.836+09:00",
+  "updatedAt": "2026-10-06T08:17:15.903+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-06T00:02:59.129+09:00"
+      },
+      {
+        "question": "SOL LINK의 국내주식 온라인 수수료는 0.01% 로 국내 최저 수준이고 계좌개설 이벤트 참여시 추첨을 통해 테슬라를 지급한다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-06T08:17:15.901+09:00"
       }
     ],
     "kakaobank": [
