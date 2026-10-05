@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T15:04:42.251+09:00",
+  "updatedAt": "2026-10-05T15:08:17.973+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -213,10 +213,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "10월5일 카카오페이퀴즈 정답 도넛을 모으면 OOOP를 무조건 받아요",
         "answer": "500",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-05T13:26:38.359+09:00"
       }
     ],
