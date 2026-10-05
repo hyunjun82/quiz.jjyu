@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T08:20:40.389+09:00",
+  "updatedAt": "2026-10-06T08:21:22.661+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,10 +59,10 @@
     ],
     "kakaobank": [
       {
-        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "question": "08:00 최대 93% 특가 직잭팟 혜택은?",
         "answer": "최저가도전",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-10-06T08:03:55.835+09:00"
       }
     ],
