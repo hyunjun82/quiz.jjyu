@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:35:20.048+09:00",
+  "updatedAt": "2026-10-06T00:45:33.356+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "메가MGC커피에서 신한 슈퍼SOL/SOL페이로 결제 시, 포인트 적립을 받으려면 최소 얼마 이상 결제해야 할까요?",
         "answer": "1,000원 이상",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-06T00:02:59.129+09:00"
       },
       {
