@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:01:48.303+09:00",
+  "updatedAt": "2026-10-06T00:02:59.129+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -26,7 +26,22 @@
         "publishedAt": "2026-10-06T00:00:02.473+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "1,000원 이상",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T00:02:59.129+09:00"
+      },
+      {
+        "question": "포스트시즌을 앞두고 삼성의 간판타자 구자욱 선수의 부상이 팬들을 안타깝게 하고 있습니다. 빠른 회복을 바랍니다. 이번에 구선수가 부상을 입은 부위는?",
+        "answer": "햄스트링",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T00:02:59.129+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -44,7 +59,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월6일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T00:02:59.129+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
