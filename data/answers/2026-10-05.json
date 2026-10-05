@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T10:02:49.460+09:00",
+  "updatedAt": "2026-10-05T10:04:13.630+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -160,7 +160,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월5일",
+        "answer": "해외현장결제",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-05T10:04:13.622+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -280,7 +288,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "새로",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-05T10:04:13.624+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
