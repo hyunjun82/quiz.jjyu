@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T11:00:23.371+09:00",
+  "updatedAt": "2026-10-05T11:30:17.223+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -328,7 +328,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-05T11:30:17.219+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "주야간보호시설은 어르신이 하루 중 일부 시간만 머무르는 시설이다?",
