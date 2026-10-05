@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:50:41.782+09:00",
+  "updatedAt": "2026-10-06T02:30:18.609+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -171,7 +171,7 @@
     "doctornow": [
       {
         "question": "간은 손상이 진행돼도 특별한 증상이 없는 경우가 많다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-06T00:03:33.837+09:00"
