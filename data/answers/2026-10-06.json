@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:01:14.809+09:00",
+  "updatedAt": "2026-10-06T00:01:48.303+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -50,7 +50,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
+        "answer": "마이데이터로 계좌 조회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T00:01:48.303+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -62,7 +70,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "래퍼곡선은 세율이 높아질수록 세수도 항상 계속 늘어난다는 것을 보여주는 곡선이에요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-06T00:01:48.303+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
