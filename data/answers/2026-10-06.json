@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:08:59.138+09:00",
+  "updatedAt": "2026-10-06T00:11:34.589+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -76,7 +76,15 @@
         "publishedAt": "2026-10-06T00:02:59.129+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "10월6일 KB스타뱅킹 스타퀴즈 정답 (1회차)",
+        "answer": "2. AI 딥페이크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T00:11:34.589+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [
       {
