@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updatedAt": "2026-10-05T15:19:07.606+09:00",
+  "updatedAt": "2026-10-05T15:21:41.213+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -166,10 +166,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크 착붙 신한카드로 스타벅스, 메가커피 등 인기 커피 브랜드만 할인을 받을 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-05T00:13:08.432+09:00"
       }
     ],
