@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T00:00:02.473+09:00",
+  "updatedAt": "2026-10-06T00:00:41.781+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -58,7 +58,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "음모론과 과학, 역사와 대중문화의 파편을 엮어 문명 전체를 해체하는 은둔의 거장. 이 작가의 이름은?",
+        "answer": "토머스 핀천",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-06T00:00:41.781+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
