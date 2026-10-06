@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T20:04:08.377+09:00",
+  "updatedAt": "2026-10-06T20:33:25.522+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -351,6 +351,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-06T19:01:10.309+09:00"
+      },
+      {
+        "question": "센텔리안24 동국제약 브랜드데이",
+        "answer": "마스크팩",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T20:33:25.510+09:00"
       }
     ],
     "climate-action": [
