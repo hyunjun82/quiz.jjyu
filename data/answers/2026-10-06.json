@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T08:21:22.661+09:00",
+  "updatedAt": "2026-10-06T09:02:54.680+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-06T00:14:30.110+09:00"
+      },
+      {
+        "question": "쉿, 지금 특가 할인중 (2회차)",
+        "answer": "12",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T09:02:54.678+09:00"
       }
     ],
     "cashwalk": [
