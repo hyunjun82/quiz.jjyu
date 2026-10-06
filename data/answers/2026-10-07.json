@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T00:00:49.874+09:00",
+  "updatedAt": "2026-10-07T00:01:23.152+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,7 +42,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO란, 한 나라 안에서 모든 경제 주체가 사려고 하는 재화·서비스의 총량이에요.",
+        "answer": "총수요",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-07T00:01:23.152+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
