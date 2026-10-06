@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T01:01:10.052+09:00",
+  "updatedAt": "2026-10-07T02:18:13.872+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,10 +50,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "신용카드 동반성장 상품권 10억 이벤트 대상 가맹점은 어디일까요?",
         "answer": "영세 가맹점",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-07T00:03:09.922+09:00"
       },
       {
@@ -67,17 +67,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크 착붙 신한카드는 연 최대 60만원 할인받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-07T00:56:01.225+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "지금의 기후변화 문제가 더 심해지는 것과 전세계 기아 문제와는 관련이 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-07T02:18:13.870+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]전 세계 셀러브리티와 '아만 정키(Aman Junkie)'들의 사랑을 받는 럭셔리 호텔 브랜드 아만(Aman). 최근에는 글로벌 톱스타들의 SNS를 통해서도 자주 소개되며 많은 관심을 받고 있습니다. 다음 중 더현대Hi가 소개하는 아만 컬렉션 여행지에 포함되지 않는 곳은 어디일까요?",
@@ -100,20 +108,28 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "10월7일 KB스타뱅킹 스타퀴즈 정답 (1회차)",
+        "question": "대출 갈아타기는 낮은 금리만 보고 결정하면 손해가 발생할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-10-07T00:09:46.261+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "흥부전에서 다리를 다쳤다가 흥부의 보살핌으로 낫고, 이듬해 박씨를 물어다 준 동물은?",
+        "answer": "① 제비",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-07T02:18:13.869+09:00"
+      }
+    ],
     "hana-onq": [
       {
-        "question": "10월7일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "2026 아시안게임 남자축구 결승 대한민국 vs 일본 경기에서 대한민국이 한 골 차로 승리했습니다. 최종 스코어는 몇 대 몇이었을까요?",
         "answer": "1대0",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-07T00:09:08.298+09:00"
       }
     ],
@@ -146,17 +162,25 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "빈혈이 있어도 몸의 신호를 살피며 강도를 조절하면, 가벼운 운동은 계속해도 된다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-07T02:18:13.870+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "술이나 매운 음식 뒤 얼굴 붉어짐이 오래간다면 주사피부염일 수 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-07T00:56:01.225+09:00"
       }
     ],
