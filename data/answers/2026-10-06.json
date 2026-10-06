@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T10:00:56.864+09:00",
+  "updatedAt": "2026-10-06T10:01:39.779+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "'OOOO'을 활용하면 가을 나들이 중 편의점·카페에서 상시 할인 받을 수 있어 유용해요. 빈칸에 알맞은 것은?",
+        "answer": "바로할인",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-06T10:01:39.778+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
