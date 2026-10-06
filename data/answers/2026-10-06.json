@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T12:03:41.521+09:00",
+  "updatedAt": "2026-10-06T12:05:49.593+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -183,6 +183,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-06T08:03:55.835+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "오픈런앵콜세일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T12:05:49.583+09:00"
       }
     ],
     "kakaobank-ox": [
