@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T00:01:23.152+09:00",
+  "updatedAt": "2026-10-07T00:01:56.815+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,7 +58,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
+        "answer": "마이데이터로 계좌 조회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-07T00:01:56.814+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -70,7 +78,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "구축효과는 정부 지출 확대가 민간 투자를 오히려 위축시킬 수 있다는 개념이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-07T00:01:56.814+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
