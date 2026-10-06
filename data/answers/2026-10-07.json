@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T00:09:46.261+09:00",
+  "updatedAt": "2026-10-07T00:56:01.225+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-07T00:00:12.952+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "더킹 엘사크리스탈",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T00:56:01.225+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "하림 닭볶음탕 밀키트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T00:56:01.225+09:00"
       }
     ],
     "cashwalk": [
@@ -51,7 +65,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T00:56:01.225+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -95,7 +117,15 @@
         "publishedAt": "2026-10-07T00:09:08.298+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T00:56:01.225+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -113,7 +143,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T00:56:01.225+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
