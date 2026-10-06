@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T06:54:10.484+09:00",
+  "updatedAt": "2026-10-07T07:58:45.482+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -105,7 +105,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T07:58:45.480+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "대출 갈아타기는 낮은 금리만 보고 결정하면 손해가 발생할 수 있다.",
@@ -142,7 +150,15 @@
         "publishedAt": "2026-10-07T00:56:01.225+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T07:58:45.480+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
@@ -169,6 +185,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-07T02:18:13.870+09:00"
+      },
+      {
+        "question": "설탕이 첨가된 음료는 체중 증가의 주요 원인 중 하나다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-07T07:58:45.480+09:00"
       }
     ],
     "skstoa": [],
