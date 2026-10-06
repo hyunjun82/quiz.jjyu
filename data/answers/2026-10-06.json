@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T19:01:10.327+09:00",
+  "updatedAt": "2026-10-06T20:04:08.377+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,6 +211,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-06T12:05:49.583+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "직진배송",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T20:04:08.365+09:00"
       }
     ],
     "kakaobank-ox": [
