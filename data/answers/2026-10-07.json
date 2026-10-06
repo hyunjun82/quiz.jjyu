@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T00:56:01.225+09:00",
+  "updatedAt": "2026-10-07T01:01:10.052+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -136,7 +136,15 @@
         "publishedAt": "2026-10-07T00:01:56.814+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "hopes/up, Keep/room, Keep/voice",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T01:01:10.051+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
