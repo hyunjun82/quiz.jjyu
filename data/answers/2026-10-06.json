@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "2026-10-06T17:00:27.921+09:00",
+  "updatedAt": "2026-10-06T18:03:13.357+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-06T10:03:02.053+09:00"
+      },
+      {
+        "question": "비포락토 고객 감사제 (4회차)",
+        "answer": "다이슨",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-06T18:03:13.344+09:00"
       }
     ],
     "cashwalk": [
