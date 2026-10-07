@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T00:01:13.497+09:00",
+  "updatedAt": "2026-10-08T00:01:47.193+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -63,7 +63,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "헬리콥터 머니는 중앙은행이 시중은행에만 자금을 지원하고 가계에는 지급하지 않는 전통적인 통화정책이에요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-08T00:01:47.193+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
