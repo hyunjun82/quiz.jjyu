@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T10:03:55.690+09:00",
+  "updatedAt": "2026-10-07T10:04:43.553+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -219,7 +219,15 @@
         "publishedAt": "2026-10-07T00:01:23.152+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "48",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T10:04:43.551+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "NH올원뱅크의 이어달리기 게임의 최종 완주 단계는 총 10바퀴이다",
