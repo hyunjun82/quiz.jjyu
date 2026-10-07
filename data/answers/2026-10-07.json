@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T09:44:42.167+09:00",
+  "updatedAt": "2026-10-07T09:46:33.147+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -122,10 +122,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈)",
+        "question": "NH올원뱅크의 이어달리기 게임의 최종 완주 단계는 총 10바퀴이다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-07T07:58:45.480+09:00"
       }
     ],
