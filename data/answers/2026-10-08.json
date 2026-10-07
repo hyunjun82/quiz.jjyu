@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T02:19:04.764+09:00",
+  "updatedAt": "2026-10-08T05:37:10.612+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -170,7 +170,7 @@
     "doctornow": [
       {
         "question": "타박상 초기에는 냉찜질보다 온찜질을 먼저 해야 한다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-08T00:09:31.658+09:00"
