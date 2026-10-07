@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T00:00:36.900+09:00",
+  "updatedAt": "2026-10-08T00:01:13.497+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 경기 흐름과 같은 방향으로 함께 움직여 현재의 경기 상태를 보여주는 지표예요.",
+        "answer": "동행종합지수",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-08T00:01:13.497+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -35,7 +43,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "금융사기 수법이 갈수록 다양해지고 있습니다. 다음 중 금융 사기법이 아닌 것은 무엇일까요?",
+        "answer": "마이데이터로 계좌 조회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T00:01:13.497+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
