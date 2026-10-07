@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T16:00:34.848+09:00",
+  "updatedAt": "2026-10-07T19:13:31.351+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -413,7 +413,15 @@
         "publishedAt": "2026-10-07T00:00:49.874+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 펨퍼스",
+        "answer": "신소재의",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T19:13:31.348+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
