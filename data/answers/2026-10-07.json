@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T09:48:24.751+09:00",
+  "updatedAt": "2026-10-07T09:49:01.941+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,10 +158,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 메인 화면에서 내 하나머니를 확인할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-07T00:56:01.225+09:00"
       }
     ],
