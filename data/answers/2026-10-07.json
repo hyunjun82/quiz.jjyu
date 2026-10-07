@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T10:06:44.495+09:00",
+  "updatedAt": "2026-10-07T10:11:16.588+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -221,10 +221,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "10월7일 카카오페이 퀴즈 정답 통신비 11,000원 SKT 다이렉트OO 요금제로 갈아타면",
         "answer": "48",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-07T10:04:43.551+09:00"
       }
     ],
