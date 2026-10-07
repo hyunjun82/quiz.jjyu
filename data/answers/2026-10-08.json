@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T00:01:47.193+09:00",
+  "updatedAt": "2026-10-08T00:03:32.730+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,14 +19,37 @@
         "publishedAt": "2026-10-08T00:00:36.900+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "8%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T00:03:32.729+09:00"
+      },
+      {
+        "question": "KBO 리그에서는 경기 시간 지연 최소화를 위해 피치클락을 운영 중입니다. 2026 규정상 주자가 있을 때 투구 제한 시간은 몇 초일까요?",
+        "answer": "23초",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T00:03:32.729+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]리바트 가구숨터에서는 리바트에서 엄선한 소파&매트리스 케어서비스를 만나볼 수 있습니다.10월 한 달 동안 프리미엄 케어서비스 O% 할인 프로모션을 진행하는데요. 가구숨터 케어서비스 할인율은 몇% 일까요?",
+        "answer": "8%",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-08T00:03:32.729+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOOO란, 경기 흐름과 같은 방향으로 함께 움직여 현재의 경기 상태를 보여주는 지표예요.",
@@ -37,7 +60,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월8일 농협 NH올원뱅크 디깅퀴즈 정답 고대 메소포타미아 문명에서 함무라비 법전을 만든 왕이 다스렸던 나라",
+        "answer": "바빌로니아",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T00:03:32.729+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
