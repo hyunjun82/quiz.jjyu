@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T11:02:46.859+09:00",
+  "updatedAt": "2026-10-07T11:53:00.412+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -251,6 +251,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-07T00:09:46.261+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "4번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-07T11:53:00.409+09:00"
       }
     ],
     "kbank": [
