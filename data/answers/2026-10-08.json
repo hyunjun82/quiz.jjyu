@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T01:11:55.009+09:00",
+  "updatedAt": "2026-10-08T02:19:04.764+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "신한카드로 하나투어 해외여행 예약 시 받을 수 있는 최대 할인율은 얼마일까요?",
         "answer": "8%",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-10-08T00:03:32.729+09:00"
       },
       {
@@ -154,17 +154,25 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "천식은 음식과 영양제만 잘 챙기면, 매일 쓰는 조절제 없이도 관리할 수 있다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-08T02:19:04.763+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "타박상 초기에는 냉찜질보다 온찜질을 먼저 해야 한다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-08T00:09:31.658+09:00"
       }
     ],
