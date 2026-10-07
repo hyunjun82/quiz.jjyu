@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T08:51:20.381+09:00",
+  "updatedAt": "2026-10-07T09:44:42.167+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -224,7 +224,15 @@
     ],
     "buzzvil": [],
     "harim-real": [],
-    "woori-festa": [],
+    "woori-festa": [
+      {
+        "question": "[100% 당첨 참여 기회 퀴즈타임] 2026 우리금융 다함께 페스타 OO 응모권 받고 참여 해보세요!",
+        "answer": "룰렛",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-07T09:44:42.166+09:00"
+      }
+    ],
     "bitbunny-ox": [
       {
         "question": "구축효과는 정부 지출 확대가 민간 투자를 오히려 위축시킬 수 있다는 개념이에요.",
