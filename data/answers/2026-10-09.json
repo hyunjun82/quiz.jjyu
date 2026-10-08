@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T00:05:53.706+09:00",
+  "updatedAt": "2026-10-09T00:07:05.500+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,15 @@
     ],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월9일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "대전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T00:07:05.499+09:00"
+      }
+    ],
     "hana-life": [],
     "hana-travel": [],
     "monimo": [
