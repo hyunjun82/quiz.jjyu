@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T10:06:10.587+09:00",
+  "updatedAt": "2026-10-08T11:04:25.001+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -341,7 +341,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-08T11:04:24.996+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "했던 말을 반복하는 행동, 눈을 자주 깜빡하는 행동, 폭력적인 행동 등은 치매의 증상 중 하나이다?",
