@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T10:01:27.026+09:00",
+  "updatedAt": "2026-10-08T10:02:46.907+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 쇼핑 매일 10시 '한우 1++ 소한마리 모듬구이…(후략)",
+        "answer": "5천원 쿠폰",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-10-08T10:02:46.904+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
