@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T14:01:29.671+09:00",
+  "updatedAt": "2026-10-08T14:02:50.795+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-08T14:01:29.664+09:00"
+      },
+      {
+        "question": "국민건강보험 생활 속 자가 건강관리 정보",
+        "answer": "50, 건강관리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T14:02:50.787+09:00"
       }
     ],
     "shinhan-sol": [
