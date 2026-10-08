@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T07:58:38.282+09:00",
+  "updatedAt": "2026-10-09T08:01:00.271+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -28,7 +28,15 @@
         "publishedAt": "2026-10-09T00:05:53.706+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "한글",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T08:01:00.270+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "타인 명의 카드로 디지털 온누리상품권을 사용할 수 있다.",
