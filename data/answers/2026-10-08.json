@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T11:08:29.362+09:00",
+  "updatedAt": "2026-10-08T12:03:21.933+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-08T07:58:46.155+09:00"
+      },
+      {
+        "question": "면도기 할인 마감임박 (4회차)",
+        "answer": "7, 13",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T12:03:21.925+09:00"
       }
     ],
     "cashwalk": [
@@ -162,6 +169,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-08T08:03:00.576+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "소프트콘",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-08T12:03:21.929+09:00"
       }
     ],
     "kakaobank-ox": [
