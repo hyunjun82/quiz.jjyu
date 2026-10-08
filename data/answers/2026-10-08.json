@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T14:02:50.795+09:00",
+  "updatedAt": "2026-10-08T14:04:12.473+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-08T14:02:50.787+09:00"
+      },
+      {
+        "question": "10월8일 국민건강보험 건강관리 정보 확인 캐시워크 정답 ㄱㄱㄱㄹ",
+        "answer": "건강관리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T14:04:12.463+09:00"
       }
     ],
     "shinhan-sol": [
