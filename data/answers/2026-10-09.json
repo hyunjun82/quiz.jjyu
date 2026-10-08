@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T00:00:47.526+09:00",
+  "updatedAt": "2026-10-09T00:01:24.757+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 경기보다 앞서 움직여 앞으로의 경기 흐름을 예측하는 데 쓰는 지표예요.",
+        "answer": "선행종합지수",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-09T00:01:24.757+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
