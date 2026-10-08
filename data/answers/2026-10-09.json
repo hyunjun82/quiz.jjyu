@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T00:13:18.769+09:00",
+  "updatedAt": "2026-10-09T00:16:52.804+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -100,7 +100,15 @@
         "publishedAt": "2026-10-09T00:00:47.526+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "foolish, feel/fool, quite/smart",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T00:16:52.804+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
