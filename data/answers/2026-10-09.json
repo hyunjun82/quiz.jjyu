@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T08:01:00.271+09:00",
+  "updatedAt": "2026-10-09T08:02:11.247+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-09T00:00:47.526+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "바삭한 후라이드 치킨",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T08:02:11.246+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "달짝지근 양념치킨",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T08:02:11.246+09:00"
       }
     ],
     "cashwalk": [],
