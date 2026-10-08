@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T14:04:12.473+09:00",
+  "updatedAt": "2026-10-08T14:37:46.522+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -378,7 +378,15 @@
         "publishedAt": "2026-10-08T00:09:31.658+09:00"
       }
     ],
-    "buzzvil": [],
+    "buzzvil": [
+      {
+        "question": "[동원그룹 퀴즈타임 14시] 동원그룹의 브랜드 슬로건을 맞춰보세요! (초성 : ㅍㅇㅇㄷㅎㄷ)",
+        "answer": "필요에답하다",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-08T14:37:46.514+09:00"
+      }
+    ],
     "harim-real": [],
     "woori-festa": [],
     "bitbunny-ox": [
