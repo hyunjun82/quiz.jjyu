@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T00:04:38.784+09:00",
+  "updatedAt": "2026-10-09T00:05:53.706+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -12,7 +12,22 @@
       }
     ],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "시성비",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T00:05:53.706+09:00"
+      },
+      {
+        "question": "20년간 선수로 뛰었던 베테랑 내야수 김민성 선수의 은퇴식이 오늘(9일) 사직야구장에서 열릴 예정입니다. 김민성 선수의 데뷔팀이자 선수 생활을 마무리하게 된 팀은 어디일까요?",
+        "answer": "롯데 자이언츠",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T00:05:53.706+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
