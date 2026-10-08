@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updatedAt": "2026-10-08T21:02:31.327+09:00",
+  "updatedAt": "2026-10-08T21:03:11.829+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -200,6 +200,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-08T21:02:31.310+09:00"
+      },
+      {
+        "question": "10월8일 11번가 매일 쏟아지는 혜택 캐시워크 정답 ㅇㄹ ㄹㄹㅇ ㅅㅇㅈ",
+        "answer": "알림 릴레이 십일절",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-08T21:03:11.808+09:00"
       }
     ],
     "shinhan-sol": [
