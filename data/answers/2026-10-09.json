@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T00:16:52.804+09:00",
+  "updatedAt": "2026-10-09T00:41:06.608+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -31,17 +31,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "타인 명의 카드로 디지털 온누리상품권을 사용할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-09T00:13:18.768+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "2024년 질병관리청은 기후변화로부터 국민의 건강을 보호하기 위한 중장기계획을 발표했다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T00:41:06.608+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]클럽 세이푸디에서는 매월 현대식품관의 다양한 상품을 소개하는 코너를 운영하고 있습니다.다음 중 현재 운영하고 있지 않은 코너는 무엇일까요?",
@@ -63,29 +71,37 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "10월9일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "훈민정음 해례본은 한글의 창제 원리와 사용법을 상세히 설명하고 있어 역사적 가치가 매우 높습니다. 이 자료는 1997년 어디에 등재되었을까요?",
         "answer": "유네스코 세계기록유산",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-09T00:03:12.368+09:00"
       }
     ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "question": "한글의 소중함과 우수성을 되새기는 '한글날'은 우리나라의 몇 대 국경일 중 하나에 해당될까요?",
         "answer": "3. 5대",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-09T00:12:43.544+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [
+    "kbank": [
       {
-        "question": "10월9일 하나은행 하나원큐 축구퀴즈 정답",
-        "answer": "대전",
+        "question": "세종대왕 때 학자들이 모여 학문을 연구하고 여러 서적의 편찬을 담당했던 왕립 학술기관은?",
+        "answer": "집현전",
         "note": "",
         "source": "quizbells",
+        "publishedAt": "2026-10-09T00:41:06.608+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "오늘 K리그1 31라운드에서 전북과 맞붙는 '2026 대전 빵축제'로 유명한 지역의 팀은 어디일까요?",
+        "answer": "대전",
+        "note": "",
+        "source": "apptech",
         "publishedAt": "2026-10-09T00:07:05.499+09:00"
       }
     ],
@@ -110,7 +126,15 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T00:41:06.608+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
