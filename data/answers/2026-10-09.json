@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T00:41:06.608+09:00",
+  "updatedAt": "2026-10-09T00:46:16.144+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -14,10 +14,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "성능과 가격뿐만 아니라 시간과 편의성을 고려한 소비로, 시간도 돈으로 환산하는 최신 소비 경향은 무엇일까요?",
         "answer": "시성비",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-09T00:05:53.706+09:00"
       },
       {
@@ -85,6 +85,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-09T00:12:43.544+09:00"
+      },
+      {
+        "question": "빈칸에 들아갈 알맞은 말을 쓰시오.",
+        "answer": "훈민정음",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-09T00:46:16.143+09:00"
       }
     ],
     "kbank": [
