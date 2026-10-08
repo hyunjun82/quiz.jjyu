@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T04:24:35.111+09:00",
+  "updatedAt": "2026-10-09T07:58:38.282+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -135,10 +135,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "고구마는 감자보다 항상 더 건강하다.",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-10-09T00:41:06.608+09:00"
       }
     ],
