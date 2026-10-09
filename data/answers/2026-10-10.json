@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T02:18:15.699+09:00",
+  "updatedAt": "2026-10-10T03:10:44.561+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -131,7 +131,7 @@
     "doctornow": [
       {
         "question": "닥터나우 오늘의 퀴즈 (1회차)",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-10T00:01:58.444+09:00"
