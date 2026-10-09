@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T03:25:11.554+09:00",
+  "updatedAt": "2026-10-10T03:30:20.267+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -98,6 +98,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-10T00:14:49.084+09:00"
+      },
+      {
+        "question": "10월10일 KB스타뱅킹 스타퀴즈 정답 그리스 신화의 켄타우로스에서 유래한 용어",
+        "answer": "3. 말",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-10T03:30:20.266+09:00"
       }
     ],
     "kbank": [],
