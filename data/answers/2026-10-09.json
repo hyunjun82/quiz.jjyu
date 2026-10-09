@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T08:05:44.633+09:00",
+  "updatedAt": "2026-10-09T09:03:58.369+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -186,10 +186,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "가위눌림은 보통 1~4분 이내에 끝나고 후유증 없이 사라진다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-09T00:00:47.526+09:00"
       }
     ],
