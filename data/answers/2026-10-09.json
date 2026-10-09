@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T14:09:48.137+09:00",
+  "updatedAt": "2026-10-09T14:11:06.883+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -204,10 +204,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월9일",
+        "question": "노리2 체크카드(KB Pay)로 커피·모바일·문화 영역에서 이용 시 몇 % 할인 받을 수 있을까요?",
         "answer": "10%",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-10-09T10:04:40.776+09:00"
       }
     ],
