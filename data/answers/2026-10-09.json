@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T18:58:39.700+09:00",
+  "updatedAt": "2026-10-09T20:03:06.390+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -193,7 +193,7 @@
     "kakaobank": [
       {
         "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
-        "answer": "한글",
+        "answer": "한글날",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-09T08:01:00.270+09:00"
@@ -295,6 +295,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-09T10:03:50.465+09:00"
+      },
+      {
+        "question": "종료된 동국제약 브랜드데이 체험딜",
+        "answer": "리프팅",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T20:03:06.379+09:00"
       }
     ],
     "climate-action": [
