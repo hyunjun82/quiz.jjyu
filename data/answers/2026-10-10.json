@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T03:30:20.267+09:00",
+  "updatedAt": "2026-10-10T07:58:35.354+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -138,7 +138,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "수면 부족은 체중 증가를 유발할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-10T07:58:35.353+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
