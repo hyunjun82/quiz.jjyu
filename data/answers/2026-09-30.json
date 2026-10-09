@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updatedAt": "2026-09-30T21:03:06.038+09:00",
+  "updatedAt": "2026-10-09T12:25:52.359+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,24 +23,10 @@
       },
       {
         "question": "MOUM에서 계좌개설하면 추첨을 통해 OOO명에게 하이닉스 주식 1주 드러요",
-        "answer": "100 300 5000",
+        "answer": "100",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-09-30T10:03:20.544+09:00"
-      },
-      {
-        "question": "토스 행운퀴즈 오늘의 퀴즈 (5회차)",
-        "answer": "삼성전자",
-        "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-09-30T10:11:51.270+09:00"
-      },
-      {
-        "question": "토스 행운퀴즈 오늘의 퀴즈 (6회차)",
-        "answer": "하이닉스",
-        "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-09-30T10:11:51.270+09:00"
       },
       {
         "question": "모음에서 계좌개설하면 추첨을 통해 OOO명에게 삼성전자 주식 1주 드려요",
@@ -628,6 +614,8 @@
         "publishedAt": "2026-09-30T18:26:00.272+09:00"
       }
     ],
-    "naverpay": []
+    "naverpay": [],
+    "hana-travel": [],
+    "woori-festa": []
   }
 }
