@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T00:12:48.024+09:00",
+  "updatedAt": "2026-10-10T00:14:49.084+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -76,6 +76,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-10T00:12:48.024+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "3. 동북 9성을 축조하였다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T00:14:49.084+09:00"
       }
     ],
     "kbank": [],
