@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T11:02:52.188+09:00",
+  "updatedAt": "2026-10-09T11:10:37.496+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -414,7 +414,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T11:10:37.493+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "골다공증은 뼈의 밀도가 낮아져 쉽게 골절되는 질환이다?",
