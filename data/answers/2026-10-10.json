@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T08:34:23.365+09:00",
+  "updatedAt": "2026-10-10T08:36:11.100+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -161,7 +161,15 @@
         "publishedAt": "2026-10-10T00:00:51.886+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "When/next, time/bus, bus/schedule",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T08:36:11.099+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
