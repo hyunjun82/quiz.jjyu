@@ -1,8 +1,23 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T00:14:49.084+09:00",
+  "updatedAt": "2026-10-10T01:00:55.466+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "포켓터블 파카",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T01:00:55.466+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "크루넥 스웨터",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T01:00:55.466+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "봉명동내커피는 과테말라에서 자란 스페셜티 원두 중 OOO 등급 원두를 사용합니다. 영문 대문자 3글자로 된 이 원두 등급은 무엇일까요? 팝업을 닫고 홈 상단 배너를 확인하세요! (힌트 : S로 시작하는 영문 3글자)",
@@ -87,7 +102,15 @@
     ],
     "kbank": [],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T01:00:55.466+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
