@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T00:01:24.971+09:00",
+  "updatedAt": "2026-10-10T00:01:58.445+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -59,11 +59,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T00:01:58.444+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "브레튼우즈 체제는 달러를 금과 고정된 비율로 교환할 수 있도록 한 국제 통화 체제였어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-10T00:01:58.444+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
