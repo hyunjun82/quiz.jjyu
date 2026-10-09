@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T07:58:35.354+09:00",
+  "updatedAt": "2026-10-10T08:03:25.216+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-10-10T00:03:09.463+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "적설량",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-10T08:03:25.215+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
