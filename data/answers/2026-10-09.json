@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T10:03:50.469+09:00",
+  "updatedAt": "2026-10-09T10:04:40.780+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,7 +68,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월9일",
+        "answer": "10%",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-09T10:04:40.776+09:00"
+      }
+    ],
     "cashdoc": [
       {
         "question": "타임스프레드 구독캘린더 (1회차)",
