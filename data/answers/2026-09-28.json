@@ -530,6 +530,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-09-28T15:02:10.716+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시 (4회차)",
+        "answer": "1, 4, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T12:42:21+09:00"
       }
     ],
     "moneywalk": [
@@ -568,6 +575,15 @@
         "publishedAt": "2026-09-28T18:32:23.084+09:00"
       }
     ],
-    "naverpay": []
+    "naverpay": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T12:42:21+09:00"
+      }
+    ]
   }
 }

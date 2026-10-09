@@ -539,7 +539,15 @@
     ],
     "fallcent": [],
     "naverpay": [],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T12:42:21+09:00"
+      }
+    ],
     "woori-festa": []
   }
 }
