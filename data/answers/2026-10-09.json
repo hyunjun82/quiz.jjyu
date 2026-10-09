@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T09:05:10.427+09:00",
+  "updatedAt": "2026-10-09T09:07:39.620+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -143,10 +143,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "매일 퀴즈HANA 정답을 맞히시면 2~10,000개의 원큐볼이 랜덤으로 즉시 적립됩니다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-09T08:03:58.598+09:00"
       }
     ],
