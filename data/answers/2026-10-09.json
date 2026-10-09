@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T15:17:06.950+09:00",
+  "updatedAt": "2026-10-09T18:58:39.700+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -490,7 +490,15 @@
         "publishedAt": "2026-10-09T00:00:47.526+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 팬틴",
+        "answer": "판테놀",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T18:58:39.693+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
