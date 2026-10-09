@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T10:04:40.780+09:00",
+  "updatedAt": "2026-10-09T10:05:59.186+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -25,7 +25,22 @@
         "publishedAt": "2026-10-09T08:02:11.246+09:00"
       }
     ],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "리얼마이즈 대용량 알룰로스 퀴즈",
+        "answer": "인공적인맛",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T10:05:59.183+09:00"
+      },
+      {
+        "question": "푸드루트 면역 비타민C 퀴즈 (2회차)",
+        "answer": "100, 500, 아연, 비타민",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T10:05:59.183+09:00"
+      }
+    ],
     "shinhan-sol": [
       {
         "question": "성능과 가격뿐만 아니라 시간과 편의성을 고려한 소비로, 시간도 돈으로 환산하는 최신 소비 경향은 무엇일까요?",
@@ -176,7 +191,15 @@
         "publishedAt": "2026-10-09T00:01:24.757+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "카삼페",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T10:05:59.185+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "훈민정음 해례본은 한글의 창제 원리와 사용법을 상세히 설명하고 있어 역사적 가치가 매우 높습니다. 이 자료는 1997년 어디에 등재되었을까요?",
@@ -267,7 +290,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "새로",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-09T10:05:59.185+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
