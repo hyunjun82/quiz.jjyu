@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updatedAt": "2026-10-09T21:00:15.799+09:00",
+  "updatedAt": "2026-10-09T23:58:21.787+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -309,6 +309,27 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-09T20:03:06.379+09:00"
+      },
+      {
+        "question": "리비힐 엑소좀 마스크팩 (12회차)",
+        "answer": "독점, 장벽, 스킨부스터",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T23:58:21.775+09:00"
+      },
+      {
+        "question": "컷슬린 버터쉐이크 (13회차)",
+        "answer": "오곡, 체중, 단백질",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T23:58:21.775+09:00"
+      },
+      {
+        "question": "멕시카나 치필링 (14회차)",
+        "answer": "치필링",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-09T23:58:21.775+09:00"
       }
     ],
     "climate-action": [
