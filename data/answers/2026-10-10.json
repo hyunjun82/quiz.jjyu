@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T00:00:51.887+09:00",
+  "updatedAt": "2026-10-10T00:01:24.971+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 물가 상승을 반영해 실제 구매력으로 따진 임금이에요.",
+        "answer": "실질임금",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-10T00:01:24.971+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
