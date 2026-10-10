@@ -1,17 +1,40 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T00:02:26.194+09:00",
+  "updatedAt": "2026-10-11T00:03:37.012+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "항공사마일리지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-11T00:03:37.012+09:00"
+      },
+      {
+        "question": "메이저리그 30개 구단 중 월드시리즈 우승 횟수가 가장 많은 구단은 뉴욕 양키스입니다. 그렇다면 2번째로 월드시리즈 우승을 많이 한 구단은 어디일까요?",
+        "answer": "세인트루이스 카디널스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-11T00:03:37.012+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]현대백화점 식품관에서 진행 중인 '집에서 즐기는 가을의 맛' 행사!정육, 과일, 채소, 생필품, 스킨케어 등 다양한 상품을 특별가에 만나보실 수 있습니다. 다음 중 행사 상품인 '저탄소 반시'의 판매가는 얼마일까요?",
+        "answer": "6,000원",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-11T00:03:37.012+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO란, 혜택만 챙기고 정작 기업엔 이익을 주지 않는 얌체 소비자를 가리켜요.",
