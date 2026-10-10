@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T14:33:27.668+09:00",
+  "updatedAt": "2026-10-10T19:25:00.154+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -390,7 +390,15 @@
         "publishedAt": "2026-10-10T00:00:51.887+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 곰곰",
+        "answer": "품질",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T19:25:00.147+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
