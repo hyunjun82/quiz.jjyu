@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T11:00:36.295+09:00",
+  "updatedAt": "2026-10-10T11:01:55.510+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -356,7 +356,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-10T11:01:55.506+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "어르신들은 여름보다 겨울에 건강 문제가 더 많이 생긴다?",
