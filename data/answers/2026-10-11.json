@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T03:33:17.248+09:00",
+  "updatedAt": "2026-10-11T04:29:11.282+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -71,7 +71,15 @@
       }
     ],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월11일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "59",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-11T04:29:11.282+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
