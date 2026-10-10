@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T10:03:16.635+09:00",
+  "updatedAt": "2026-10-10T10:03:53.212+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -167,7 +167,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월10일",
+        "answer": "위젯 또는 엣지패널",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-10T10:03:53.205+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
