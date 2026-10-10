@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T00:03:37.012+09:00",
+  "updatedAt": "2026-10-11T00:04:10.924+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -90,7 +90,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "어르신은 고기보다 채소 위주의 식사를 해야 한다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-11T00:04:10.924+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 에디션 이름은?",
