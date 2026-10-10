@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T10:19:51.849+09:00",
+  "updatedAt": "2026-10-10T10:22:26.698+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -183,10 +183,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월10일",
+        "question": "KB Pay 앱을 열지 않고 '결제 mini'를 빠르게 이용할 수 있는 방법은 무엇일까요?",
         "answer": "위젯 또는 엣지패널",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-10-10T10:03:53.205+09:00"
       }
     ],
