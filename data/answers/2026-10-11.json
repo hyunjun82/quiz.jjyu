@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T00:04:10.924+09:00",
+  "updatedAt": "2026-10-11T00:09:34.162+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -109,6 +109,14 @@
       }
     ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "선플을응원해",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-11T00:09:34.162+09:00"
+      }
+    ]
   }
 }
