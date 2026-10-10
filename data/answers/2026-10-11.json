@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T00:00:44.205+09:00",
+  "updatedAt": "2026-10-11T00:01:20.144+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 혜택만 챙기고 정작 기업엔 이익을 주지 않는 얌체 소비자를 가리켜요.",
+        "answer": "체리피커",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-11T00:01:20.144+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -20,7 +28,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "일반보험에 비해 가입 심사를 간소화해, 일정한 조건을 충족하면 나이가 많거나 과거 병력이 있어도 가입할 수 있는 '이 보험'은 무엇일까요?",
+        "answer": "간편보험",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-11T00:01:20.144+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
