@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T04:29:11.282+09:00",
+  "updatedAt": "2026-10-11T07:03:38.339+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -101,7 +101,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "매일 유산소 운동을 해야만 건강을 유지할 수 있다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-11T07:03:38.339+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
