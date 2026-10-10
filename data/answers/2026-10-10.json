@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T11:01:55.510+09:00",
+  "updatedAt": "2026-10-10T12:03:30.052+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-10T08:03:25.215+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "드레싱",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-10T12:03:30.048+09:00"
       }
     ],
     "kakaobank-ox": [
