@@ -1,8 +1,23 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T08:03:26.957+09:00",
+  "updatedAt": "2026-10-11T08:09:25.514+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "놀부 부대찌개 밀키트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-11T08:09:25.513+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "본가집 삶은 깐양",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-11T08:09:25.514+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
