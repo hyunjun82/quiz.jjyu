@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-11",
+  "updatedAt": "2026-10-11T00:00:44.205+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "hana-travel": [],
+    "monimo": [],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "harim-real": [],
+    "woori-festa": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [
+      {
+        "question": "이 책의 에디션 이름은?",
+        "answer": "100쇄 에디션",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-11T00:00:44.205+09:00"
+      }
+    ],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
