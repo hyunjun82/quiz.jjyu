@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T00:13:11.302+09:00",
+  "updatedAt": "2026-10-11T00:14:55.067+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -72,7 +72,15 @@
     ],
     "kbank": [],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-11T00:14:55.067+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
