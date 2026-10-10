@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T08:11:11.864+09:00",
+  "updatedAt": "2026-10-11T08:12:57.171+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -138,7 +138,15 @@
         "publishedAt": "2026-10-11T00:01:20.144+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "stir/up, stir/up, stirs/up",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-11T08:12:57.171+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
