@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T10:14:52.923+09:00",
+  "updatedAt": "2026-10-10T10:18:35.424+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -225,7 +225,15 @@
         "publishedAt": "2026-10-10T00:01:24.971+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "디지털 온누리상품권은 상시 할인하여 구매할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-10T10:18:35.420+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
