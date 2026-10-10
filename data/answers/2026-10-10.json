@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T10:22:26.698+09:00",
+  "updatedAt": "2026-10-10T10:24:59.986+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -329,10 +329,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "농가진의 노란 딱지는 물집이 터진 진물이 마르면서 생긴다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-10T00:01:58.444+09:00"
       }
     ],
