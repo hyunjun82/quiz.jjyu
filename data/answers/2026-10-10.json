@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updatedAt": "2026-10-10T10:03:53.212+09:00",
+  "updatedAt": "2026-10-10T10:05:55.877+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-10T10:03:16.629+09:00"
+      },
+      {
+        "question": "10월10일 배달의민족 BBQ 쿠폰 드려요 캐시워크 정답 ㅇㅇ ㅂㅉ ㅁㅅ",
+        "answer": "연어 배짱 멕시",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-10T10:05:55.870+09:00"
       }
     ],
     "shinhan-sol": [
