@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T00:01:20.144+09:00",
+  "updatedAt": "2026-10-11T00:01:53.194+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -48,7 +48,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "서브프라임 모기지 사태는 저신용자 대상 주택담보대출 부실에서 시작돼 글로벌 금융위기로 이어졌어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-11T00:01:53.193+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
