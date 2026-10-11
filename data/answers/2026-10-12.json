@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T08:02:34.778+09:00",
+  "updatedAt": "2026-10-12T08:03:54.241+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -123,6 +123,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-12T07:58:10.284+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
+        "answer": "일기예보",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-12T08:03:54.240+09:00"
       }
     ],
     "hana-onq": [
@@ -143,7 +150,15 @@
         "publishedAt": "2026-10-12T00:21:18.518+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-12T08:03:54.240+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "일반보험에 비해 가입 심사를 간소화해, 일정한 조건을 충족하면 나이가 많거나 과거 병력이 있어도 가입할 수 있는 '이 보험'은 무엇일까요?",
