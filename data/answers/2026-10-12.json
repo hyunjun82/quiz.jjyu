@@ -1,10 +1,25 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T00:03:04.020+09:00",
+  "updatedAt": "2026-10-12T00:03:38.947+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "배달의민족 상품권 7만원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T00:03:38.946+09:00"
+      },
+      {
+        "question": "투수와 타자를 모두 완벽하게 겸업하는 선수를 뜻하는 야구 용어는 무엇일까요?",
+        "answer": "이도류",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T00:03:38.946+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
