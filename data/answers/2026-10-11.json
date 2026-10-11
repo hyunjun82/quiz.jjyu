@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T13:14:41.958+09:00",
+  "updatedAt": "2026-10-11T13:17:14.163+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -77,10 +77,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월11일",
+        "question": "인간의 학습·추론·판단 능력을 컴퓨터가 수행하도록 구현하는…(후략)",
         "answer": "AI공학",
         "note": "",
-        "source": "blog",
+        "source": "bizwnews",
         "publishedAt": "2026-10-11T10:03:54.812+09:00"
       }
     ],
