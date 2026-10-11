@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T15:06:37.977+09:00",
+  "updatedAt": "2026-10-11T15:07:16.440+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -234,10 +234,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐에서 이용할 수 있는 국민비서 서비스는 유료서비스이다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-11T00:14:55.067+09:00"
       }
     ],
