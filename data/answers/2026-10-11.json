@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T15:05:17.877+09:00",
+  "updatedAt": "2026-10-11T15:06:37.977+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -134,7 +134,7 @@
         "publishedAt": "2026-10-11T00:03:37.012+09:00"
       },
       {
-        "question": "신한 슈퍼SOL 출석 퀴즈",
+        "question": "AI영양분석을 하는 목적은?",
         "answer": "2. 건강 관리",
         "note": "",
         "source": "apptech",
