@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T00:00:43.509+09:00",
+  "updatedAt": "2026-10-12T00:01:20.537+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO란, 가격 대비 심리적 만족을 더 중시하는 소비 성향이에요.",
+        "answer": "가심비",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-12T00:01:20.536+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
