@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T00:03:38.947+09:00",
+  "updatedAt": "2026-10-12T00:04:13.730+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -98,7 +98,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "시설의 프로그램에는 어르신의 치매 예방 활동도 포함된다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-12T00:04:13.730+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 표지에 있는 작품은?",
