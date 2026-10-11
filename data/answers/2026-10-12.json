@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T08:04:31.895+09:00",
+  "updatedAt": "2026-10-12T08:06:28.415+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -193,10 +193,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "생리량이 많으면 철결핍성 빈혈이 반복되기 쉽다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-12T00:01:53.724+09:00"
       }
     ],
