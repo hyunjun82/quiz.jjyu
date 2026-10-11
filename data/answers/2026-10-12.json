@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T03:33:30.028+09:00",
+  "updatedAt": "2026-10-12T07:58:10.285+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -33,6 +33,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-12T00:03:38.946+09:00"
+      },
+      {
+        "question": "복잡한 증상부터 예상보험금까지 쉽게 검색하는 신한라이프의 서비스는?",
+        "answer": "건강사전",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-12T07:58:10.284+09:00"
       }
     ],
     "kakaobank": [],
@@ -48,7 +55,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 10월 12일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T07:58:10.284+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]추워지는 계절, 더현대Hi가 엄선한 동남아시아 대표 럭셔리 호텔·리조트에서 품격 있는 휴양은 물론 미식과 문화까지 특별한 여행 경험을 만나보세요.다음 중 이번 FW 시즌 더현대Hi 동남아 여행 상품에 포함되지 않은 곳은 어디일까요?",
@@ -93,7 +108,15 @@
         "publishedAt": "2026-10-12T00:17:49.251+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "3번 플뢰레",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T07:58:10.284+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "10월12일 하나은행 하나원큐 축구퀴즈 정답",
@@ -132,7 +155,15 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "견과류는 고지방이지만 적당히 섭취하면 체중 관리에 도움이 된다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-12T07:58:10.284+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
