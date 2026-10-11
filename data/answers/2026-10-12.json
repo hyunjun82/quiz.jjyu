@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T08:01:58.033+09:00",
+  "updatedAt": "2026-10-12T08:02:34.778+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,7 +42,15 @@
         "publishedAt": "2026-10-12T07:58:10.284+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "08:00 자연 관련 이모지 보고 퀴즈 풀기",
+        "answer": "일기예보",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-12T08:02:34.776+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "디지털 온누리상품권은 어느 가맹점에서나 사용할 수 있다.",
