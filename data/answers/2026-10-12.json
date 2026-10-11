@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T07:58:10.285+09:00",
+  "updatedAt": "2026-10-12T07:58:49.431+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -128,10 +128,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "슬기로운 금융생활 OX게임은 매일 세 문제까지 참여할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-12T00:21:18.518+09:00"
       }
     ],
