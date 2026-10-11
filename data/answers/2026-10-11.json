@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T11:00:46.499+09:00",
+  "updatedAt": "2026-10-11T11:11:51.232+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -206,7 +206,15 @@
       }
     ],
     "adapter": [],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-11T11:11:51.232+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "어르신은 고기보다 채소 위주의 식사를 해야 한다?",
