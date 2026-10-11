@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T15:11:04.507+09:00",
+  "updatedAt": "2026-10-11T15:14:50.711+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -306,10 +306,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "마운자로는 병원·약국과 상관없이 가격이 동일하다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-11T00:02:26.194+09:00"
       }
     ],
