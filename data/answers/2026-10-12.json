@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T00:21:18.518+09:00",
+  "updatedAt": "2026-10-12T00:23:03.298+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -122,7 +122,15 @@
         "publishedAt": "2026-10-12T00:00:43.509+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "so/over, tired, hungry",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-12T00:23:03.298+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
