@@ -1,8 +1,23 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T00:17:49.251+09:00",
+  "updatedAt": "2026-10-12T00:21:18.518+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "연봉 부스트 업",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-12T00:21:18.518+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "합격축하금 지급",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-12T00:21:18.518+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -88,7 +103,15 @@
         "publishedAt": "2026-10-12T00:15:12.413+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-12T00:21:18.518+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
