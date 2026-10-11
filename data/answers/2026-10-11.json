@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T15:09:09.068+09:00",
+  "updatedAt": "2026-10-11T15:09:48.715+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,10 +150,10 @@
         "publishedAt": "2026-10-11T08:03:26.956+09:00"
       },
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "question": "12:00 자연 관련 이모지 보고 퀴즈 풀기",
         "answer": "너울",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-11T12:02:30.322+09:00"
       }
     ],
