@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T15:14:50.711+09:00",
+  "updatedAt": "2026-10-11T18:24:15.727+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -361,7 +361,15 @@
         "publishedAt": "2026-10-11T00:00:44.205+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 마이노멀",
+        "answer": "무화과",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-11T18:24:15.724+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
