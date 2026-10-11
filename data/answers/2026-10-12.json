@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T08:00:44.312+09:00",
+  "updatedAt": "2026-10-12T08:01:58.033+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -45,10 +45,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "디지털 온누리상품권은 어느 가맹점에서나 사용할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-12T00:17:49.251+09:00"
       }
     ],
