@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T00:01:53.724+09:00",
+  "updatedAt": "2026-10-12T00:03:04.020+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -11,7 +11,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]추워지는 계절, 더현대Hi가 엄선한 동남아시아 대표 럭셔리 호텔·리조트에서 품격 있는 휴양은 물론 미식과 문화까지 특별한 여행 경험을 만나보세요.다음 중 이번 FW 시즌 더현대Hi 동남아 여행 상품에 포함되지 않은 곳은 어디일까요?",
+        "answer": "쥬메이라 두바이",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-12T00:03:04.020+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOO란, 가격 대비 심리적 만족을 더 중시하는 소비 성향이에요.",
@@ -22,7 +30,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월12일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "봉건제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T00:03:04.020+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
