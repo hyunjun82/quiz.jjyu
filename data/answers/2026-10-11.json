@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "updatedAt": "2026-10-11T12:07:46.491+09:00",
+  "updatedAt": "2026-10-11T13:14:41.958+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -180,7 +180,7 @@
     "mydoctor": [
       {
         "question": "매일 유산소 운동을 해야만 건강을 유지할 수 있다.",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-11T07:03:38.339+09:00"
@@ -208,7 +208,7 @@
     "doctornow": [
       {
         "question": "닥터나우 오늘의 퀴즈 (1회차)",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-11T00:02:26.194+09:00"
