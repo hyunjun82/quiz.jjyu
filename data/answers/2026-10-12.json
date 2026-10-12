@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T10:04:55.141+09:00",
+  "updatedAt": "2026-10-12T10:05:42.326+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -162,10 +162,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월12일",
+        "question": "KB차차차 프리미엄 서비스 '내차팔기'에서는 OO할수록 더 높은 가격에 팔 수 있어요. OO에 들어갈 말은?",
         "answer": "비교",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-10-12T10:04:15.698+09:00"
       }
     ],
@@ -388,7 +388,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-12T10:05:42.319+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
