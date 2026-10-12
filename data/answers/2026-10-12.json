@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T13:24:40.430+09:00",
+  "updatedAt": "2026-10-12T13:37:35.027+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -325,6 +325,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-12T10:04:55.134+09:00"
+      },
+      {
+        "question": "카카오페이퀴즈 10월12일 정답 10월OO일까지 500P 무조건 100% 지급",
+        "answer": "31",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T13:37:35.021+09:00"
       }
     ],
     "nh-allone": [
