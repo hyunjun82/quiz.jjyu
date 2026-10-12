@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T08:27:46.640+09:00",
+  "updatedAt": "2026-10-13T08:42:38.864+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -33,6 +33,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-13T00:55:30.053+09:00"
+      },
+      {
+        "question": "슈퍼SOL CU get아이스아메리카노XL 결제 시 할인 금액은 얼마일까요?",
+        "answer": "500원",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-13T08:42:38.864+09:00"
       }
     ],
     "kakaobank": [
