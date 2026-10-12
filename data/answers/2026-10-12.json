@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T08:08:26.038+09:00",
+  "updatedAt": "2026-10-12T09:08:49.508+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -65,7 +65,7 @@
     "cashdoc": [],
     "climate-action": [
       {
-        "question": "기후행동 기회소득 10월 12일 오늘의 퀴즈 문제",
+        "question": "재활용이 가능한 쓰레기라도 음식물 등으로 오염되면 재활용이 어려워질 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -123,13 +123,6 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-12T07:58:10.284+09:00"
-      },
-      {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
-        "answer": "일기예보",
-        "note": "",
-        "source": "tipistip",
-        "publishedAt": "2026-10-12T08:03:54.240+09:00"
       }
     ],
     "hana-onq": [
