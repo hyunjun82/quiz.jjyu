@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T18:00:57.883+09:00",
+  "updatedAt": "2026-10-12T18:03:45.013+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,6 +172,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-12T18:00:57.869+09:00"
+      },
+      {
+        "question": "우리금융그룹 다함께 페스타",
+        "answer": "1, Y, 금융, 룰렛, 스페인",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T18:03:45.003+09:00"
       }
     ],
     "shinhan-sol": [
