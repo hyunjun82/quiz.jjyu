@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T06:33:59.939+09:00",
+  "updatedAt": "2026-10-13T07:45:18.374+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -120,7 +120,15 @@
       }
     ],
     "hana-life": [],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-13T07:45:18.370+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "일반보험에 비해 가입 심사를 간소화해, 일정한 조건을 충족하면 나이가 많거나 과거 병력이 있어도 가입할 수 있는 '이 보험'은 무엇일까요?",
@@ -130,7 +138,15 @@
         "publishedAt": "2026-10-13T00:55:30.053+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "always/meets, never/misses, rarely/finishes",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-13T07:45:18.370+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -139,6 +155,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-13T02:19:02.968+09:00"
+      },
+      {
+        "question": "채소는 냉동 상태로도 영양소를 유지한다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-13T07:45:18.370+09:00"
       }
     ],
     "skstoa": [],
@@ -182,7 +205,15 @@
         "publishedAt": "2026-10-13T00:55:30.054+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-13T07:45:18.370+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "시설에서 진행하는 프로그램이 다양할수록 어르신의 삶의 질이 향상된다?",
