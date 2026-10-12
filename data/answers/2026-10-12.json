@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T20:19:20.730+09:00",
+  "updatedAt": "2026-10-12T21:01:28.888+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -193,6 +193,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-12T18:07:16.027+09:00"
+      },
+      {
+        "question": "산지로드 저온압착 당일착유 참기름",
+        "answer": "7500",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-12T21:01:28.877+09:00"
       }
     ],
     "shinhan-sol": [
