@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T21:02:49.857+09:00",
+  "updatedAt": "2026-10-13T23:58:50.520+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -232,6 +232,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-13T12:03:34.655+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "출장",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-13T23:58:50.504+09:00"
       }
     ],
     "kakaobank-ox": [
