@@ -40,6 +40,22 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
     ? getAnswersByDate(fallbackDate)?.answers?.[quiz.slug] ?? []
     : [];
 
+  // 앱별(오늘) 페이지 하단용 — 최근 7일치 문제(정답 제외). 하루 최대 8개, 문구는 110자까지.
+  const pastDays = isToday
+    ? (dates || [])
+        .filter((d0) => d0 !== date)
+        .slice(0, 7)
+        .map((d0) => ({
+          date: d0,
+          items: (getAnswersByDate(d0)?.answers?.[quiz.slug] ?? [])
+            .map((it, i) => ({ idx: i + 1, question: String(it.question || '').trim() }))
+            .filter((it) => it.question.length >= 8)
+            .slice(0, 8)
+            .map((it) => ({ ...it, question: it.question.length > 110 ? it.question.slice(0, 109) + '…' : it.question })),
+        }))
+        .filter((pd) => pd.items.length > 0)
+    : [];
+
   // 한 번만 계산해서 재사용 (예전엔 같은 함수를 두 번 호출하고 있었다)
   const grid = getTodayQuizGridItems();
 
@@ -276,6 +292,28 @@ export default function QuizDetail({ quiz, date, dates, data, isToday }) {
           앱테크 가이드 전체 보기 →
         </a>
       </div>
+
+      {/* 최근 7일 문제 모아보기 — 정답은 싣지 않는다(정답은 문제별 페이지에서만 공개: AnswerList.js 주석 참고).
+          문제를 누르면 문제별 페이지로 이동하므로 광고 흐름은 그대로고, 앱별 페이지의 고유한 글이 늘어난다.
+          검색어 상위에 문제 문장이 많아(예: "복잡한 증상부터 예상보험금까지") 문제 문구로 들어오는 방문도 받는다. */}
+      {isToday && pastDays.length > 0 && (
+        <section className="past-q" aria-label={`최근 ${quiz.searchKeyword} 문제`}>
+          <h2 className="pq-head">최근 7일 {quiz.searchKeyword} 문제 모아보기</h2>
+          <p className="pq-sub">문제를 누르면 정답이 바로 열립니다</p>
+          {pastDays.map((pd) => (
+            <div key={pd.date} className="pq-day">
+              <h3>{formatKoreanDate(pd.date)}</h3>
+              <ul>
+                {pd.items.map((it, i) => (
+                  <li key={i}>
+                    <a href={`/quiz/${quiz.slug}/${pd.date}/${it.idx}/`}>{it.question}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      )}
 
       </div>
       <aside className="rail">

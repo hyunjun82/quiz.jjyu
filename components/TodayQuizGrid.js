@@ -19,6 +19,11 @@ import { useEffect, useState } from 'react';
 export default function TodayQuizGrid({ items, currentSlug, today, variant }) {
   // items: [{slug, name, icon, count}] — 서버에서 오늘 정답 건수까지 계산해서 내려줌
   const [visited, setVisited] = useState([]);
+  // 2026-10-13: 서버가 만드는 HTML 에는 이 목록을 넣지 않고 열린 뒤에 채운다.
+  //   모든 앱의 이름·건수 목록이 8,800개 페이지에 똑같이 들어가(페이지당 약 200단어) 본문의 약 90%가
+  //   다른 페이지와 겹치는 원인 중 하나였다(건강한 gov 사이트는 11%). 화면에 보이는 결과는 같다.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   useEffect(() => {
     try {
@@ -34,6 +39,10 @@ export default function TodayQuizGrid({ items, currentSlug, today, variant }) {
   }, [currentSlug, today]);
 
   const withAnswers = items.filter((q) => q.count > 0);
+  if (!mounted) {
+    // 자리만 잡아 둔다(레이아웃이 밀리지 않게). 글자는 없다.
+    return <div aria-hidden="true" style={{ minHeight: variant === 'strip' ? 96 : 560 }} />;
+  }
   const remaining = withAnswers.filter((q) => !visited.includes(q.slug));
   const next = remaining[0];
   const done = withAnswers.length - remaining.length;
