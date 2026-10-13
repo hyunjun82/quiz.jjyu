@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T00:03:00.656+09:00",
+  "updatedAt": "2026-10-14T00:03:37.865+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -48,10 +48,26 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]지금 리바트몰에서는 국내 공방 장인들이 손으로 직접 만든 오브제와 소품을 만날 수 있는 기획전이 진행중입니다. 장인이 손으로 직접 만든 제품을 흔히 무엇이라고 부를까요?",
+        "answer": "핸드메이드",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-14T00:03:37.865+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월14일 농협 NH올원뱅크 디깅퀴즈 정답 국립공원 대피소 시설이 아닌곳",
+        "answer": "월악산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T00:03:37.865+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
