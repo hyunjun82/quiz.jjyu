@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T11:59:58.889+09:00",
+  "updatedAt": "2026-10-13T12:03:34.659+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -155,6 +155,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-13T08:01:02.301+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "체감온도",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-13T12:03:34.655+09:00"
       }
     ],
     "kakaobank-ox": [
