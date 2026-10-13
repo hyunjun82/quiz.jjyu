@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T00:02:27.990+09:00",
+  "updatedAt": "2026-10-14T00:03:00.656+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -26,7 +26,22 @@
         "publishedAt": "2026-10-14T00:00:42.400+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "3%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T00:03:00.655+09:00"
+      },
+      {
+        "question": "2027 KBO 신인 드래프트 전체 1순위로 지명되어 역대 최고 계약금을 경신한 하현승 선수가 지명된 구단은 어디일까요?",
+        "answer": "키움 히어로즈",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T00:03:00.655+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
