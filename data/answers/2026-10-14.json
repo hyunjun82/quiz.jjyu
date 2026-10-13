@@ -1,8 +1,16 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T00:13:37.573+09:00",
+  "updatedAt": "2026-10-14T00:18:55.227+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "지누스 매트리스 토퍼",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-14T00:18:55.227+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "리필드 X 안선영 카카오쇼핑라이브 기간 중 구매할 시 ㅇㅇㅇㅇ을 증정합니다. ㅇㅇㅇㅇ에 들어갈 단어는 무엇일까요? [힌트 : ㅎㅇㄱㅅ]",
@@ -106,7 +114,15 @@
         "publishedAt": "2026-10-14T00:01:20.810+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "feelings/irrelevant, What/dosent, emotions/important",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-14T00:18:55.227+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
