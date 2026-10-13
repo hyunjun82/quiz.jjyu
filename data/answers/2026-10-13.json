@@ -1,11 +1,11 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T13:25:53.950+09:00",
+  "updatedAt": "2026-10-13T13:26:23.904+09:00",
   "answers": {
     "toss-lucky": [
       {
         "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
-        "answer": "단말기지원금",
+        "answer": "단말 지원금 (단말기지원금)",
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-13T00:55:30.054+09:00"
@@ -177,13 +177,6 @@
     "kbpay": [
       {
         "question": "KB Pay '부동산'에서 AI로 쉽고 빠르게 내 집을 찾아볼 수 있는 메뉴 이름은 무엇일까요?",
-        "answer": "집잦는 AI",
-        "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-10-13T10:01:16.458+09:00"
-      },
-      {
-        "question": "KB Pay '부동산'에서 AI로 쉽고 빠르게 내 집을 찾아볼 수 있는…(후략)",
         "answer": "집찾는 AI",
         "note": "",
         "source": "bizwnews",
@@ -377,13 +370,6 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-13T00:55:30.053+09:00"
-      },
-      {
-        "question": "신용부도스와프(CDS)는 채권의 부도 위험을 사고파는 일종의 보험과 같은 파생상품이에요.",
-        "answer": "X (아니에요)",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-10-13T02:19:02.968+09:00"
       }
     ],
     "adapter": [
