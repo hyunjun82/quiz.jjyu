@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T09:10:17.719+09:00",
+  "updatedAt": "2026-10-13T10:01:16.459+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,7 +61,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay '부동산'에서 AI로 쉽고 빠르게 내 집을 찾아볼 수 있는 메뉴 이름은 무엇일까요?",
+        "answer": "집잦는 AI",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-13T10:01:16.458+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
