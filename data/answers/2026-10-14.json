@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T00:18:55.227+09:00",
+  "updatedAt": "2026-10-14T00:21:16.244+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,7 +63,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 10월 14일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T00:21:16.243+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]지금 리바트몰에서는 국내 공방 장인들이 손으로 직접 만든 오브제와 소품을 만날 수 있는 기획전이 진행중입니다. 장인이 손으로 직접 만든 제품을 흔히 무엇이라고 부를까요?",
