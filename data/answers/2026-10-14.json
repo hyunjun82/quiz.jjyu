@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T00:03:37.865+09:00",
+  "updatedAt": "2026-10-14T00:04:12.807+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -104,7 +104,15 @@
     "bitbunny-ox": [],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "1시간 이내 적당한 낮잠은 고혈압 예방에 도움이 된다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-14T00:04:12.807+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "꿈꾸는 어린이를 위한 위대한 OO 수업, 빈칸에 들어갈 말은?",
