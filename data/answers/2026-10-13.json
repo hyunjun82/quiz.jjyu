@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T13:25:15.176+09:00",
+  "updatedAt": "2026-10-13T13:25:53.950+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -329,6 +329,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-13T07:45:18.370+09:00"
+      },
+      {
+        "question": "채소는 냉동 상태로도 영양소를 유지한다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-13T13:25:53.942+09:00"
       }
     ],
     "skstoa": [],
