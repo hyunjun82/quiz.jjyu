@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T18:02:57.355+09:00",
+  "updatedAt": "2026-10-13T18:24:10.161+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -485,7 +485,15 @@
         "publishedAt": "2026-10-13T00:55:30.053+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 상하목장",
+        "answer": "분리배출",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-13T18:24:10.153+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
