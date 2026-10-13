@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T00:24:46.350+09:00",
+  "updatedAt": "2026-10-14T00:35:52.058+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -104,14 +104,22 @@
     "kbank": [],
     "hana-onq": [
       {
-        "question": "10월14일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "오늘 2026/27 AFC 챔피언스리그 엘리트에서 전북현대모터스와 맞붙는 일본 J리그 소속 팀은 어디일까요?",
         "answer": "비셀고베",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-14T00:09:08.564+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "오늘 내 걸음수로 하나머니까지 받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-14T00:35:52.056+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
