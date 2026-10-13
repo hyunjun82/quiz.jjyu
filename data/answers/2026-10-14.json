@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T01:01:26.304+09:00",
+  "updatedAt": "2026-10-14T01:06:35.575+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,7 +150,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "A형 독감을 앓았어도, 같은 겨울에 B형 독감에 걸릴 수 있다",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
@@ -163,10 +163,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "여드름균은 원래 피부에 살고 있는 정상 세균이다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-14T00:02:27.990+09:00"
       }
     ],
