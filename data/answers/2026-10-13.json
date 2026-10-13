@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T10:02:00.444+09:00",
+  "updatedAt": "2026-10-13T10:03:23.412+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-13T00:55:30.054+09:00"
+      },
+      {
+        "question": "카누 OOOO 모음전에서 최대 32% 할인해요",
+        "answer": "디카페인",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-13T10:03:23.410+09:00"
       }
     ],
     "cashwalk": [
