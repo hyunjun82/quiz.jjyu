@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T08:22:04.200+09:00",
+  "updatedAt": "2026-10-15T08:34:08.725+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,10 +54,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "화폐가치가 불안할 때 투자자들이 금을 찾는 경향이 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-15T00:25:57.549+09:00"
       }
     ],
