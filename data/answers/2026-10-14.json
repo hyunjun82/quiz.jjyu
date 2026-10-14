@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T10:08:56.471+09:00",
+  "updatedAt": "2026-10-14T10:11:36.510+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -173,10 +173,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카드형 디지털온누리상품권으로 쓴 금액도 카드 혜택을 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-14T00:13:37.572+09:00"
       }
     ],
@@ -324,7 +324,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-14T10:11:36.499+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
