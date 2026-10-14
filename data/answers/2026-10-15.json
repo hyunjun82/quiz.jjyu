@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T01:07:13.882+09:00",
+  "updatedAt": "2026-10-15T01:12:26.745+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -177,10 +177,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "감기 후 기침이 한 달 이상 이어진다면 천식을 의심할 수 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-15T00:02:16.812+09:00"
       }
     ],
