@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T00:09:46.076+09:00",
+  "updatedAt": "2026-10-15T00:11:37.142+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -61,6 +61,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-15T00:07:55.104+09:00"
+      },
+      {
+        "question": "10월15일 KB스타뱅킹 스타퀴즈 정답 (2회차)",
+        "answer": "2. 이미 번호표가 호출된 경우 번호표를 재발행하지 않아도 된다",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T00:11:37.141+09:00"
       }
     ],
     "kbank": [],
