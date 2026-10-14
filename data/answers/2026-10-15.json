@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T00:41:23.960+09:00",
+  "updatedAt": "2026-10-15T00:46:34.063+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -129,10 +129,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐에서 자동이체로 출금된 내역만 따로 조회하는 건 불가능하다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-15T00:25:57.549+09:00"
       }
     ],
