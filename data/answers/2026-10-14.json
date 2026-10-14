@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T14:00:43.347+09:00",
+  "updatedAt": "2026-10-14T14:01:24.442+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-14T14:00:43.328+09:00"
+      },
+      {
+        "question": "팬마음 2026 가을 축제 트로트스타를 뽑아주세요",
+        "answer": "가을축제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T14:01:24.425+09:00"
       }
     ],
     "shinhan-sol": [
