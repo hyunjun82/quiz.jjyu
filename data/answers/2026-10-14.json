@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T10:02:15.119+09:00",
+  "updatedAt": "2026-10-14T10:02:53.934+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,7 +21,7 @@
       },
       {
         "question": "OOOO사이다비니거+식이섬유까지 채워 스파이크 걱정없이 즐길 수 있어요매일 식전, 충분한 물과 함께 신세계를 경험하세요. 여기서 OOOO은? (힌트 : ㅍㅇㅇㅍ)",
-        "answer": "파인애플 / 식이섬유 / 스파이크 / 푸룬",
+        "answer": "파인애플, 식이섬유, 스파이크, 푸룬",
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-14T00:00:42.400+09:00"
@@ -46,6 +46,97 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-14T10:02:15.116+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.919+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.919+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.919+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.920+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.920+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.920+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.921+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.921+09:00"
+      },
+      {
+        "question": "국민건강보험 내 건강보험료도 정산 대상일까",
+        "answer": "소득정산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.921+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 초고속, 준고체, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.921+09:00"
+      },
+      {
+        "question": "키토선생 저당 프로틴 시리얼",
+        "answer": "저탄고지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.922+09:00"
+      },
+      {
+        "question": "우리금융그룹 다함께 페스타 우다페 룰렛 돌리고 경품 받기",
+        "answer": "1, Y, 금융, 룰렛, 스페인",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.922+09:00"
+      },
+      {
+        "question": "팬마음 트로트 가수 1위에게 투표해주세요",
+        "answer": "지하철, 트로트, 건대입구, 천장광고",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T10:02:53.922+09:00"
       }
     ],
     "shinhan-sol": [
