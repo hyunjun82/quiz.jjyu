@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T00:18:44.639+09:00",
+  "updatedAt": "2026-10-15T00:25:07.444+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -78,7 +78,15 @@
         "publishedAt": "2026-10-15T00:11:37.141+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "법랑질",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T00:25:07.443+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "10월15일 하나은행 하나원큐 축구퀴즈 정답",
