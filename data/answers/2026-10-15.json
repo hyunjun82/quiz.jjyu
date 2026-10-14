@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T00:02:16.812+09:00",
+  "updatedAt": "2026-10-15T00:02:51.612+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-10-15T00:00:45.005+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "12,000원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T00:02:51.612+09:00"
+      },
+      {
+        "question": "가을야구의 열기가 뜨거운 KBO 포스트시즌에서는 9회 정규 이닝 내에 승부를 가리지 못하면 연장전에 돌입하게 됩니다. 그렇다면 KBO 포스트시즌의 연장전은 최대 몇 회까지 진행될까요?",
+        "answer": "15회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T00:02:51.612+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -22,7 +37,15 @@
     "hpoint": [],
     "bitbunny": [],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월15일 농협 NH올원뱅크 디깅퀴즈 정답 조선시대 목민심서를 저술한 인물",
+        "answer": "정약용",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T00:02:51.612+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
