@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T00:11:37.142+09:00",
+  "updatedAt": "2026-10-15T00:15:12.380+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -43,7 +43,15 @@
         "publishedAt": "2026-10-15T00:03:28.504+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 물건을 먼저 받고 결제는 나눠서 나중에 하는 후불 결제 방식이에요.",
+        "answer": "선구매후결제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T00:15:12.380+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [
       {
