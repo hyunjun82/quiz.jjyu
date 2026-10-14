@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T00:56:53.451+09:00",
+  "updatedAt": "2026-10-15T01:07:13.882+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -22,10 +22,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "마이샵 컬리 쿠폰 등록 후, 컬리 첫 구매 고객이라면 받을 수 있는 할인 금액은?",
         "answer": "12,000원",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-15T00:02:51.612+09:00"
       },
       {
@@ -164,7 +164,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "저혈당은 당뇨약이나 인슐린을 쓰는 사람에게만 생긴다",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
