@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T01:33:10.130+09:00",
+  "updatedAt": "2026-10-15T07:04:21.779+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-15T00:31:03.117+09:00"
+      },
+      {
+        "question": "계란은 콜레스테롤 수치를 항상 높인다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-15T07:04:21.779+09:00"
       }
     ],
     "skstoa": [],
