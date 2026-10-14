@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T16:02:26.745+09:00",
+  "updatedAt": "2026-10-14T19:02:03.938+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -556,7 +556,15 @@
         "publishedAt": "2026-10-14T00:00:42.400+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 크리넥스",
+        "answer": "지구",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-14T19:02:03.924+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
