@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T15:04:22.616+09:00",
+  "updatedAt": "2026-10-14T16:01:03.729+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,6 +172,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-14T14:04:12.298+09:00"
+      },
+      {
+        "question": "산지로드 수제 김부각 (28회차)",
+        "answer": "13900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T16:01:03.710+09:00"
       }
     ],
     "shinhan-sol": [
