@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T11:00:25.161+09:00",
+  "updatedAt": "2026-10-14T11:01:08.267+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -180,7 +180,15 @@
         "publishedAt": "2026-10-14T00:13:37.572+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "10월14일 나비엔매직 최대혜택가 나비엔매직BEST제품 ㅇ 오퀴즈 정답",
+        "answer": "요",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-14T11:01:08.258+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "KB Pay 여행의 와이파이도시락에서 e심, 와이파이 이용 시…(후략)",
