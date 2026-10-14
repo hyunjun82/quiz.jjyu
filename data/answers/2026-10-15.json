@@ -1,8 +1,16 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T00:25:57.549+09:00",
+  "updatedAt": "2026-10-15T00:31:03.117+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "JMW 드라이기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T00:31:03.117+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "단 1시간만, 라이브 한정 혜택 소휘 푸룬구미는 쫀득한 구미 1알에 푸룬 2샷 OOOmg을 꽉 담아 당류,칼로리 걱정없이 1알로 가뿐하게 비워냅니다. 여기서 OOO은? (힌트 : 숫자)",
@@ -130,7 +138,7 @@
         "publishedAt": "2026-10-15T00:01:42.530+09:00"
       },
       {
-        "question": "모니모 퀴즈 — 모니스쿨",
+        "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
         "answer": "삼겹살",
         "note": "",
         "source": "quizbells",
@@ -139,7 +147,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T00:31:03.117+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
