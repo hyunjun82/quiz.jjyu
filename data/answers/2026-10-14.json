@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T09:01:23.113+09:00",
+  "updatedAt": "2026-10-14T09:42:26.602+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -224,7 +224,15 @@
         "publishedAt": "2026-10-14T08:22:26.998+09:00"
       }
     ],
-    "harim-real": [],
+    "harim-real": [
+      {
+        "question": "[하림펫푸드 밥이보약 퀴즈타임 09시] 밥이보약 ㅇㅌㅂ ㅁㅂㄹㅌ 사료는 밥이보약 최초 개별인정형 원료를 사용했다.",
+        "answer": "액티브 모빌리티",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-14T09:42:26.601+09:00"
+      }
+    ],
     "woori-festa": [],
     "bitbunny-ox": [],
     "adapter": [],
