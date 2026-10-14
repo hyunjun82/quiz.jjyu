@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T07:04:21.779+09:00",
+  "updatedAt": "2026-10-15T07:09:32.216+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -143,7 +143,15 @@
         "publishedAt": "2026-10-15T00:25:57.549+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T07:09:32.216+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "일반보험에 비해 가입 심사를 간소화해, 일정한 조건을 충족하면 나이가 많거나 과거 병력이 있어도 가입할 수 있는 '이 보험'은 무엇일까요?",
@@ -160,7 +168,15 @@
         "publishedAt": "2026-10-15T00:18:44.639+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "cancel/reservation, call/off, cancellation/fee",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T07:09:32.216+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
