@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updatedAt": "2026-10-14T11:03:09.090+09:00",
+  "updatedAt": "2026-10-14T12:01:13.133+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-14T08:02:55.918+09:00"
+      },
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기 (2회차)",
+        "answer": "자외선",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-14T12:01:13.120+09:00"
       }
     ],
     "kakaobank-ox": [
