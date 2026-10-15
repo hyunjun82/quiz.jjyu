@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T02:18:28.484+09:00",
+  "updatedAt": "2026-10-16T03:33:26.344+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "내 차 수리비 아끼는 꿀팁! Tops 쿠폰으로 엔진오일 교환 할인 및 정비 할인을 받을 수 있는 곳은?",
         "answer": "오토오아시스",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-10-16T00:03:44.083+09:00"
       },
       {
