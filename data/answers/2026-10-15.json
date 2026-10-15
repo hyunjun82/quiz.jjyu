@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T08:37:11.758+09:00",
+  "updatedAt": "2026-10-15T09:02:28.817+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,7 +61,15 @@
         "publishedAt": "2026-10-15T00:25:57.549+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 5억원의 주인공이 되어보세요! 문제의",
+        "answer": "럭키투자대회",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T09:02:28.817+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
