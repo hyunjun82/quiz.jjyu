@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T10:02:42.398+09:00",
+  "updatedAt": "2026-10-15T10:03:20.534+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -25,6 +25,90 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-15T10:02:42.396+09:00"
+      },
+      {
+        "question": "종료된 리비힐 피부과 엑소좀 앰플 마스크팩",
+        "answer": "네이버",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.530+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 배터리팩, 바람분사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.530+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.530+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 모션감지, 커버열림, 충격감지, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.530+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 원터치, 시거잭, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.530+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.530+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "피지컬, 점프업, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.531+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 케이스, 폴더블, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.531+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.531+09:00"
+      },
+      {
+        "question": "국민건강보험 내 건강보험료도 정산 대상일까",
+        "answer": "소득정산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.531+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 초고속, 준고체, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.531+09:00"
+      },
+      {
+        "question": "팬마음 2026 가을 축제 트로트스타를 뽑아주세요",
+        "answer": "초대형, 팬마음, 사각기둥, 가을축제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T10:03:20.531+09:00"
       }
     ],
     "shinhan-sol": [
@@ -129,7 +213,15 @@
         "publishedAt": "2026-10-15T00:15:12.380+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "20",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T10:03:20.532+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "조선 시대 지방 행정과 수령의 자세를 다룬 『목민심서』를 저술한 인물은 누구일까요?",
@@ -248,7 +340,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "7",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T10:03:20.532+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
