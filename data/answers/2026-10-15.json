@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T20:49:49.486+09:00",
+  "updatedAt": "2026-10-15T20:53:46.020+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-15T12:02:44.880+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (3회차)",
+        "answer": "약관",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T20:53:46.017+09:00"
       }
     ],
     "kakaobank-ox": [
