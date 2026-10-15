@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T09:05:41.181+09:00",
+  "updatedAt": "2026-10-15T10:02:01.308+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -77,7 +77,15 @@
         "publishedAt": "2026-10-15T09:05:41.179+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "3번 미션",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T10:02:01.308+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
