@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T06:13:07.670+09:00",
+  "updatedAt": "2026-10-16T07:58:14.105+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,7 +63,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 10월 16일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-16T07:58:14.104+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]10월 가을을 맞아 현대백화점 베이커리 베즐리(Vezzly)에서 다양한 원재료를 활용한 신상품 6종을 출시했습니다.다음 보기 중 이번 신상품에 사용되지 않은 재료는 무엇일까요?",
@@ -135,7 +143,15 @@
         "publishedAt": "2026-10-16T00:24:32.635+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-16T07:58:14.104+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
@@ -147,7 +163,22 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-16T07:58:14.104+09:00"
+      },
+      {
+        "question": "술은 적게 마시면 건강에 이롭다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-16T07:58:14.104+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
