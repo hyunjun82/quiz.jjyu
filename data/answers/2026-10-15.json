@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T11:05:58.678+09:00",
+  "updatedAt": "2026-10-15T11:49:11.473+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -380,7 +380,15 @@
         "publishedAt": "2026-10-15T00:02:16.812+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-15T11:49:11.471+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "방문요양 서비스는 요리를 부탁할 수 있다?",
