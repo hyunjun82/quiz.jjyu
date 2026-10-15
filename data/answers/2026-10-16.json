@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T00:03:44.083+09:00",
+  "updatedAt": "2026-10-16T00:04:18.294+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -80,9 +80,25 @@
     "harim-real": [],
     "woori-festa": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "3, 2, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-16T00:04:18.294+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "관절염약은 오래 먹으면 내성이 생긴다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-16T00:04:18.294+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "사이비 종교의 집단 자살 사건을 소재로 한 조예은 작가의 신작 제목은 무엇일까요?",
