@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T10:09:47.720+09:00",
+  "updatedAt": "2026-10-15T10:11:07.146+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -215,10 +215,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "10월15일 카카오페이 퀴즈 정답 다람쥐가 내간식을 OO개나 찾아준대요",
         "answer": "20",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-15T10:03:20.532+09:00"
       }
     ],
