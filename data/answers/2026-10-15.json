@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T10:11:07.146+09:00",
+  "updatedAt": "2026-10-15T11:02:03.566+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,6 +109,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-15T10:03:20.531+09:00"
+      },
+      {
+        "question": "메트로시티 고객감사제 (15회차)",
+        "answer": "100",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T11:02:03.562+09:00"
       }
     ],
     "shinhan-sol": [
