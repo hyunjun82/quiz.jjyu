@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T00:02:33.543+09:00",
+  "updatedAt": "2026-10-16T00:03:10.301+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]10월 가을을 맞아 현대백화점 베이커리 베즐리(Vezzly)에서 다양한 원재료를 활용한 신상품 6종을 출시했습니다.다음 보기 중 이번 신상품에 사용되지 않은 재료는 무엇일까요?",
+        "answer": "감자",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-16T00:03:10.300+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
