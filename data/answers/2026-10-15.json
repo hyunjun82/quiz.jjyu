@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updatedAt": "2026-10-15T20:53:46.020+09:00",
+  "updatedAt": "2026-10-15T21:01:32.631+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-15T18:03:38.448+09:00"
+      },
+      {
+        "question": "한예지 볼륨앤소프트 천연펄프 화장지",
+        "answer": "16400",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-15T21:01:32.625+09:00"
       }
     ],
     "shinhan-sol": [
