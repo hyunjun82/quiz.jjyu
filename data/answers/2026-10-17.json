@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T00:04:36.784+09:00",
+  "updatedAt": "2026-10-17T00:08:03.190+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,7 +63,15 @@
     "nh-allone": [],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월17일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "경남 VS 충남아산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-17T00:08:03.190+09:00"
+      }
+    ],
     "hana-life": [],
     "hana-travel": [],
     "monimo": [
