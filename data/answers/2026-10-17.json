@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T06:04:53.382+09:00",
+  "updatedAt": "2026-10-17T07:58:57.674+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,6 +55,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-17T00:02:54.350+09:00"
+      },
+      {
+        "question": "메가MGC커피에서 신한 슈퍼SOL로 1천원 이상 결제하면 700P를 받을 수 있다?",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-17T07:58:57.672+09:00"
       }
     ],
     "kakaobank": [],
@@ -70,7 +77,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "매년 10월 18일은 '경기도민의 날'이며, 2025년에는 17, 18일에 이틀에 걸쳐 경기도민의 날을 기념하는 '함께 그린(Green) 페스티벌'을 개최한 바 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-17T07:58:57.673+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]지금 리바트몰에서는 가을맞이 가구 혜택이 가득한 기획전이 진행 중인데요,집을 새롭게 꾸미고 가꾸는 일을 뜻하는 말로 이번 기획전 이름에 들어간 단어는 무엇일까요?",
@@ -93,7 +108,7 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "question": "다음 상황 이후에 전개된 사실로 옳은 것은?",
         "answer": "2. 이완 등을 중심으로 북벌이 추진되었다",
         "note": "",
         "source": "tipistip",
@@ -109,28 +124,28 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "고물가와 1인 가구 증가 등의 영향으로 큰 용량 대신 작은 용량 제품을 선호하는 소비 트렌드는?",
         "answer": "1번 다운사이징 소비",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-17T00:40:22.513+09:00"
       }
     ],
     "hana-onq": [
       {
-        "question": "10월17일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "오늘 창원축구센터에서 열리는 K리그2 29라운드 경기는 어느 팀 간의 맞대결일까요?",
         "answer": "경남 VS 충남아산",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-17T00:08:03.190+09:00"
       }
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "4대 보험료나 지방세, 전기요금 같은 공과금을 납부하려면 반드시 고지서를 가지고 은행 공과금수납기나 창구로 가야만 한다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-17T00:35:13.678+09:00"
       }
     ],
@@ -146,7 +161,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "헬리코박터균에 감염돼도 대부분은 증상을 느끼지 못한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-17T07:58:57.673+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
