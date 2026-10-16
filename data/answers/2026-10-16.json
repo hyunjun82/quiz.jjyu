@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T13:21:20.604+09:00",
+  "updatedAt": "2026-10-16T13:23:49.559+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,10 +150,10 @@
         "publishedAt": "2026-10-16T08:01:14.555+09:00"
       },
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "question": "12:00 사물 관련 이모지 보고 퀴즈 풀기",
         "answer": "경보",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-16T12:02:53.931+09:00"
       }
     ],
