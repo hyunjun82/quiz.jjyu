@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T13:20:04.459+09:00",
+  "updatedAt": "2026-10-16T13:20:44.205+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -350,10 +350,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 놀이터에는 설민석 쌤이 들려주는 재미난 이야기가 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-16T00:24:32.635+09:00"
       }
     ],
