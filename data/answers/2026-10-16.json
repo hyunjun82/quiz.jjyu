@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T13:28:52.359+09:00",
+  "updatedAt": "2026-10-16T13:31:27.416+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -414,10 +414,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "속쓰림과 더부룩함은 서로 원인이 다른 별개의 문제다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-16T00:02:33.543+09:00"
       }
     ],
