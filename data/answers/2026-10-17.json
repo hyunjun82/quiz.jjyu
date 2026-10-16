@@ -1,9 +1,32 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T00:00:35.051+09:00",
+  "updatedAt": "2026-10-17T00:01:45.674+09:00",
   "answers": {
-    "toss-lucky": [],
-    "cashwalk": [],
+    "toss-lucky": [
+      {
+        "question": "AI로 쉬워지는 통신생활 OOOOO 새로워진 앱을 만나보세요",
+        "answer": "마이케이티",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-17T00:01:45.674+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "소이비랩 저당두유는 OOOO 함량 93.78%로 콩의 영양분을 듬뿍 담았어요! OOOO는 무엇일까요? (힌트 : ㅇㅇㄷㅇ)",
+        "answer": "원액두유",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-17T00:01:45.674+09:00"
+      },
+      {
+        "question": "단 하루동안 진행되는 \"캐시딜\" 타임특가에서 여성용 도톰한 겨울 방한 니삭스 반장 양말 3켤레 역대급 할인으로 OOOO원+무료배송에 진행됩니다. 빈칸에 들어갈 숫자는 무엇일까요?",
+        "answer": "6900",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-17T00:01:45.674+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -20,7 +43,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
+        "answer": "삼겹살",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-17T00:01:45.674+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -28,7 +59,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-17T00:01:45.674+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
