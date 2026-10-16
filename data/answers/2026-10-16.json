@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T10:04:06.441+09:00",
+  "updatedAt": "2026-10-16T10:04:44.424+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -407,7 +407,15 @@
         "publishedAt": "2026-10-16T00:04:18.294+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-16T10:04:44.422+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "관절염약은 오래 먹으면 내성이 생긴다?",
