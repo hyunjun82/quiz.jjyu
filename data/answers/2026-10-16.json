@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T10:03:31.704+09:00",
+  "updatedAt": "2026-10-16T10:04:06.441+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -153,6 +153,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-16T10:02:56.105+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월16일",
+        "answer": "저분자 콜라겐 + 히알루론산",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-16T10:04:06.435+09:00"
       }
     ],
     "cashdoc": [
