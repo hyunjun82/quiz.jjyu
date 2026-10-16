@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T20:04:21.730+09:00",
+  "updatedAt": "2026-10-16T20:04:59.748+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -155,6 +155,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-16T12:02:53.931+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "독주회",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-16T20:04:59.741+09:00"
       }
     ],
     "kakaobank-ox": [
