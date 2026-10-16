@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T08:03:48.079+09:00",
+  "updatedAt": "2026-10-17T08:04:23.714+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -175,7 +175,15 @@
         "publishedAt": "2026-10-17T00:01:45.674+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "offer/ride, offer/hand, offer/cup",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-17T08:04:23.714+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
