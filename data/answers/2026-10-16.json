@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updatedAt": "2026-10-16T10:04:44.424+09:00",
+  "updatedAt": "2026-10-16T10:08:52.692+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -270,10 +270,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "10월16일 카카오페이 퀴즈 정답 같은색 모래를 모아 병을 채우는 모래 붓는 퍼즐",
         "answer": "모래호로록",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-16T10:02:56.105+09:00"
       }
     ],
