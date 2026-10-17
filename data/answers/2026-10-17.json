@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T11:11:36.483+09:00",
+  "updatedAt": "2026-10-17T11:13:31.241+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -286,6 +286,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-17T07:58:57.673+09:00"
+      },
+      {
+        "question": "나만의 닥터 매일매일 건강퀴즈 (11시~)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-17T11:13:31.236+09:00"
       }
     ],
     "skstoa": [],
@@ -328,6 +335,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-17T00:03:28.256+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시 (2회차)",
+        "answer": "O, 3, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-17T11:13:31.236+09:00"
       }
     ],
     "moneywalk": [],
