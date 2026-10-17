@@ -1,8 +1,16 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T00:07:24.812+09:00",
+  "updatedAt": "2026-10-18T00:20:01.915+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "청정우 차돌박이",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T00:20:01.914+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "배달의민족 배짱할인에서는 두찜, 버거킹, OO계치킨 등 10개 이상의 브랜드 할인 쿠폰을 드려요 (힌트 : 12 X 5 =? , 이벤트 페이지에서 확인할 수 있어요)",
@@ -29,7 +37,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T00:20:01.914+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
