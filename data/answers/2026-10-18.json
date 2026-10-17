@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T00:20:01.915+09:00",
+  "updatedAt": "2026-10-18T02:18:08.092+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -62,7 +62,15 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "ISA 계좌는 모든 금융기관을 통틀어 1인 1계좌만 가입할 수 있다",
+        "answer": "O",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-18T02:18:08.091+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
