@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T05:56:43.010+09:00",
+  "updatedAt": "2026-10-18T07:58:55.188+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -102,7 +102,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "모든 유기농 음식이 더 건강한 것은 아니다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-18T07:58:55.187+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
