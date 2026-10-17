@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T11:14:10.149+09:00",
+  "updatedAt": "2026-10-17T11:31:46.690+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -327,7 +327,15 @@
     ],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "다른 문제로는 역선택은 계약을 맺은 이후에 발생하는 문제라는 점에서 도덕적 해이와 같아요가 있다.",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-17T11:31:46.687+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
