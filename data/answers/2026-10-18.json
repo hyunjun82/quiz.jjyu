@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T08:21:30.233+09:00",
+  "updatedAt": "2026-10-18T08:40:42.827+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -164,7 +164,15 @@
       }
     ],
     "buzzvil": [],
-    "harim-real": [],
+    "harim-real": [
+      {
+        "question": "[하림펫푸드 밥이보약 퀴즈타임 08시] 밥이보약 최초* 식약처 인정 기능성 원료인 난각막 분말을 사용한 밥이보약 신제품은? (ㅇㅌㅂ ㅁㅂㄹㅌ)",
+        "answer": "액티브 모빌리티",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-18T08:40:42.826+09:00"
+      }
+    ],
     "woori-festa": [],
     "bitbunny-ox": [],
     "adapter": [
