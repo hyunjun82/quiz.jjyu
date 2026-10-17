@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T11:13:31.241+09:00",
+  "updatedAt": "2026-10-17T11:14:10.149+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -309,10 +309,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "수족구는 열이 난 지 1~2일 뒤 입안에 붉은 반점이 생긴다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-17T00:01:45.674+09:00"
       }
     ],
