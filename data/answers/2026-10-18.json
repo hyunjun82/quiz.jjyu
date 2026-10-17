@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T03:31:50.259+09:00",
+  "updatedAt": "2026-10-18T05:51:35.115+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,7 +59,15 @@
         "publishedAt": "2026-10-18T00:03:04.201+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 이익을 내고도 당장 갚을 현금이 없어 도산하는 상황이에요.",
+        "answer": "흑자도산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T05:51:35.115+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
