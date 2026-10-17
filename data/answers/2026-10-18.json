@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T05:51:35.115+09:00",
+  "updatedAt": "2026-10-18T05:56:43.010+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -80,7 +80,15 @@
       }
     ],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월18일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "서울월드컵경기장",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T05:56:43.010+09:00"
+      }
+    ],
     "hana-life": [],
     "hana-travel": [],
     "monimo": [
