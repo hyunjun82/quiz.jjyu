@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T08:05:55.812+09:00",
+  "updatedAt": "2026-10-18T08:21:30.233+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -113,7 +113,15 @@
         "publishedAt": "2026-10-18T08:02:26.673+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T08:21:30.233+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
