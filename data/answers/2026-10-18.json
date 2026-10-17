@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T03:28:36.181+09:00",
+  "updatedAt": "2026-10-18T03:31:50.259+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -22,10 +22,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "신한 슈퍼SOL로 공차에서 1만원 이상 결제하면 받을 수 있는 혜택은?",
         "answer": "마이신한포인트 5,000P",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-10-18T00:03:04.200+09:00"
       },
       {
