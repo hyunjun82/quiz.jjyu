@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updatedAt": "2026-10-17T10:13:16.819+09:00",
+  "updatedAt": "2026-10-17T10:16:12.982+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -148,10 +148,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "'가을 밸런스 Pick 취향대로 픽, 선물도 픽!' 이벤트에서 배달의민족 3만원 모바일 상품권 당첨 인원은 몇 명일까요?",
         "answer": "3번 300명",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-17T10:02:10.058+09:00"
       }
     ],
