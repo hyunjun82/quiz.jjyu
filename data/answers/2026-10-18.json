@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T00:00:11.534+09:00",
+  "updatedAt": "2026-10-18T00:00:47.266+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -28,7 +28,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
+        "answer": "삼겹살",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T00:00:47.266+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -44,7 +52,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "해마다 응모된 4만여 건의 응모작 중에 좋은 문장을 선정해 달력으로 발행하는 일본의 서점은?",
+        "answer": "타카하시서점",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-18T00:00:47.266+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
