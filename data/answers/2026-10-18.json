@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T00:01:54.446+09:00",
+  "updatedAt": "2026-10-18T00:03:04.201+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,14 +12,37 @@
         "publishedAt": "2026-10-18T00:00:11.534+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "마이신한포인트 5,000P",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T00:03:04.200+09:00"
+      },
+      {
+        "question": "KBO 리그 10개 구단 홈구장 중 경기 시 1루가 아닌 3루 쪽 더그아웃을 홈팀이 사용하는 구단 중 한 곳은 어디일까요?",
+        "answer": "KIA 타이거즈",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T00:03:04.201+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]'고향사랑기부제'는 현재 살고 있지 않은 다른 지자체에 기부해 지역 발전에 힘을 보태고, 세액공제와 답례품 혜택도 받을 수 있는 제도입니다.H.Point에서는 고향사랑기부 참여 고객에게 세액공제, 답례품, 포인트 쿠폰 혜택을 제공하고 있는데,10만원 기부 시 최대 혜택은 얼마일까요?",
+        "answer": "14만원",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-18T00:03:04.201+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
