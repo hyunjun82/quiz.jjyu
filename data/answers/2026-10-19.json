@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T07:00:07.138+09:00",
+  "updatedAt": "2026-10-19T07:05:20.384+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -132,7 +132,15 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "가공육 섭취는 암 발병 위험을 높일 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-19T07:05:20.383+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
