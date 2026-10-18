@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T12:04:48.193+09:00",
+  "updatedAt": "2026-10-18T14:53:50.830+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -71,10 +71,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월18일",
+        "question": "독감과 코로나19 백신은 같은 날 접종할 수 있을까요?",
         "answer": "같은 날 접종 가능",
         "note": "",
-        "source": "blog",
+        "source": "bizwnews",
         "publishedAt": "2026-10-18T10:03:46.916+09:00"
       }
     ],
