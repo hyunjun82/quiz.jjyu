@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T15:02:18.056+09:00",
+  "updatedAt": "2026-10-18T15:03:32.202+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -25,6 +25,34 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-18T15:02:18.053+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 바람분사, 배터리팩",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T15:03:32.200+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T15:03:32.200+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 충격감지, 모션감지, 커버열림, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T15:03:32.200+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 시거잭, 원터치, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T15:03:32.200+09:00"
       }
     ],
     "shinhan-sol": [
