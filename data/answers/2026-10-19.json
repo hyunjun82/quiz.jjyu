@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T00:23:14.358+09:00",
+  "updatedAt": "2026-10-19T00:25:33.606+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "CU에서 신한 슈퍼SOL/SOL페이 결제 시 월요일엔 단돈 100원으로, 다른 요일엔 500원을 할인 받을 수 있는 상품은 무엇일까요?",
         "answer": "get 아이스아메리카노",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-10-19T00:03:19.136+09:00"
       },
       {
