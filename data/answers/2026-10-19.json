@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T08:02:29.076+09:00",
+  "updatedAt": "2026-10-19T08:35:29.606+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -33,6 +33,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-19T00:03:19.136+09:00"
+      },
+      {
+        "question": "AI영양분석을 하는 목적은?",
+        "answer": "건강 관리",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-19T08:35:29.605+09:00"
       }
     ],
     "kakaobank": [
