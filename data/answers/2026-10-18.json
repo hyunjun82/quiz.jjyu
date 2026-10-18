@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T10:03:46.916+09:00",
+  "updatedAt": "2026-10-18T10:06:55.707+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -102,7 +102,15 @@
         "publishedAt": "2026-10-18T08:02:26.673+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "채굴(마이닝)",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T10:06:55.706+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "10월18일 하나은행 하나원큐 축구퀴즈 정답",
@@ -159,7 +167,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "베스트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T10:06:55.706+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
