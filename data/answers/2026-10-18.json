@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T10:06:55.707+09:00",
+  "updatedAt": "2026-10-18T10:20:41.033+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -34,6 +34,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-18T00:03:04.201+09:00"
+      },
+      {
+        "question": "\"어닝콜 라이브\" 서비스는 기업 실적발표를 크게 아래 3가지를 정보를 제공한다. 1.한국어 실시간 제공/ 2. 시그널 분석&이슈요약/ 3. 실적 공시",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-18T10:20:41.032+09:00"
       }
     ],
     "kakaobank": [
@@ -65,7 +72,15 @@
       }
     ],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "해양동물의 생물다양성 감소는 먹이사슬의 구조가 단순화되는 결과로 이어지기 때문에 어업에 긍정적인 영향을 끼친다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-18T10:20:41.033+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]'고향사랑기부제'는 현재 살고 있지 않은 다른 지자체에 기부해 지역 발전에 힘을 보태고, 세액공제와 답례품 혜택도 받을 수 있는 제도입니다.H.Point에서는 고향사랑기부 참여 고객에게 세액공제, 답례품, 포인트 쿠폰 혜택을 제공하고 있는데,10만원 기부 시 최대 혜택은 얼마일까요?",
@@ -104,28 +119,28 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "비트코인을 얻기 위해 복잡한 연산을 수행하며 거래를 검증하고 블록을 생성하는 과정은?",
         "answer": "채굴(마이닝)",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-18T10:06:55.706+09:00"
       }
     ],
     "hana-onq": [
       {
-        "question": "10월18일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "오늘 K리그1 32라운드 서울 vs 김천의 경기가 펼쳐지는 경기장은 어디일까요?",
         "answer": "서울월드컵경기장",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-18T05:56:43.010+09:00"
       }
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐로 영업점 번호표를 미리 발급받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-18T08:02:26.673+09:00"
       }
     ],
@@ -198,7 +213,15 @@
       }
     ],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "도덕적 해이는 보험 가입 후 위험 관리에 소홀해지는 것처럼 정보 비대칭 상황에서 나타날 수 있어요.",
+        "answer": "O (맞아요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-18T10:20:41.033+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
