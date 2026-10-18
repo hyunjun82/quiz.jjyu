@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T17:13:42.166+09:00",
+  "updatedAt": "2026-10-18T17:16:48.001+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -300,10 +300,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "발표 전 손 떨림은 아드레날린 분비로 생기는 자연스러운 반응이다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-18T00:01:54.446+09:00"
       }
     ],
