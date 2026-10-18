@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T20:05:01.338+09:00",
+  "updatedAt": "2026-10-18T20:36:10.836+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -348,6 +348,20 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-18T11:07:31.276+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시 (3회차)",
+        "answer": "4, 2, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T20:36:10.824+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 15시 (4회차)",
+        "answer": "3, 3, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T20:36:10.824+09:00"
       }
     ],
     "moneywalk": [
@@ -377,7 +391,15 @@
         "publishedAt": "2026-10-18T00:00:47.266+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 칠성사이다",
+        "answer": "일상",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T20:36:10.824+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
