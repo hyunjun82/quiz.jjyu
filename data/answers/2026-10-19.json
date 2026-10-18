@@ -1,8 +1,23 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T00:18:06.989+09:00",
+  "updatedAt": "2026-10-19T00:23:14.358+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "갤럭시 S24 울트라",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-19T00:23:14.358+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "갤럭시 z플립6",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-19T00:23:14.358+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
