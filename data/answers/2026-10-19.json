@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T08:35:29.606+09:00",
+  "updatedAt": "2026-10-19T08:36:55.135+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -186,10 +186,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "이소티논은 피지 분비를 근본적으로 줄이는 먹는 여드름 치료제다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-19T00:02:09.517+09:00"
       }
     ],
