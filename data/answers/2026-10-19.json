@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T02:13:25.402+09:00",
+  "updatedAt": "2026-10-19T07:00:07.138+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -122,7 +122,15 @@
         "publishedAt": "2026-10-19T00:00:59.657+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "slept/on, took/night, decided/night",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-19T07:00:07.137+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
