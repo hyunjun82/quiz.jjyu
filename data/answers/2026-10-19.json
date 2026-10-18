@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T07:05:20.384+09:00",
+  "updatedAt": "2026-10-19T07:41:27.404+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,7 +48,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 10월 19일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T07:41:27.402+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]10월 20일(화) 오후 7시 더현대Hi에서 진행되는 독일 하이엔드 프리미엄 공기청정기 LIVE 방송이 진행됩니다.방송에서 나노드론과 함께 특별한 혜택을 소개할 23.4만 살림 인플루언서는 누구일까요?",
@@ -68,7 +76,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월19일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "수원 화성",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T07:41:27.403+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
