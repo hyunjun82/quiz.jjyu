@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T00:04:26.168+09:00",
+  "updatedAt": "2026-10-19T00:09:16.549+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -35,7 +35,15 @@
         "publishedAt": "2026-10-19T00:03:19.136+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "00000란, 물건을 사고팔 때마다 값에 붙어 최종 소비자가 부담하는 대표적인 간접세예요.",
+        "answer": "부가가치세",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T00:09:16.548+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
