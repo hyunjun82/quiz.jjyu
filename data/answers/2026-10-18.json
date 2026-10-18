@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T11:07:31.276+09:00",
+  "updatedAt": "2026-10-18T11:09:16.637+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -245,7 +245,15 @@
         "publishedAt": "2026-10-18T11:07:31.276+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-18T11:09:16.637+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요양 서비스는 무조건 전액 본인이 부담한다?",
