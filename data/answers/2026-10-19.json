@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T00:30:43.153+09:00",
+  "updatedAt": "2026-10-19T00:35:52.325+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -38,10 +38,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "금 모으기 서비스에서 모은 금은 한국예탁결제원(KSD) 등에 안전하게 보관된다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-19T00:12:57.203+09:00"
       }
     ],
@@ -85,14 +85,30 @@
         "publishedAt": "2026-10-19T00:12:57.202+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [],
+    "kbank": [
+      {
+        "question": "Q. 기업이 벌어들인 이익 중 일부를 주주들에게 나눠주는 것을 이르는 말은?",
+        "answer": "4. 배당",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-19T00:35:52.324+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "Q. 차범근 전 감독의 58골을 뛰어넘어 한국인 A매치 최다 득점 1위인 손흥민 선수가 기록한 골은 몇골일까요?",
+        "answer": "4. 59골",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-19T00:35:52.324+09:00"
+      }
+    ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 놀이터에서는 가상자산 시세를 조회할 수 없다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-19T00:12:57.203+09:00"
       }
     ],
