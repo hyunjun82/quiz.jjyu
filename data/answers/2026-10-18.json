@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T17:16:48.001+09:00",
+  "updatedAt": "2026-10-18T20:05:01.338+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -148,6 +148,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-18T12:04:48.193+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "블루베리주스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-18T20:05:01.334+09:00"
       }
     ],
     "kakaobank-ox": [
