@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updatedAt": "2026-10-18T08:40:42.827+09:00",
+  "updatedAt": "2026-10-18T10:03:46.916+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,7 +55,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월18일",
+        "answer": "같은 날 접종 가능",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-18T10:03:46.916+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [
