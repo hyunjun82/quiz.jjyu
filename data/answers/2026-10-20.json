@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T00:07:34.243+09:00",
+  "updatedAt": "2026-10-20T00:11:25.414+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -50,7 +50,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T00:11:25.414+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -83,8 +91,24 @@
         "publishedAt": "2026-10-20T00:03:03.345+09:00"
       }
     ],
-    "kb-star": [],
-    "kbank": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "answer": "3번 시장 변동성에 둔감",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T00:11:25.414+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "엽록소가 분해돼서",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T00:11:25.414+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
