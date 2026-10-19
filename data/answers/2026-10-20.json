@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T00:03:03.346+09:00",
+  "updatedAt": "2026-10-20T00:03:36.816+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -33,14 +33,37 @@
         "publishedAt": "2026-10-20T00:00:43.490+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "쿠팡와우 멤버십",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-20T00:03:36.815+09:00"
+      },
+      {
+        "question": "무사 또는 1사에 주자가 1루 2루 또는 만루인 상황에서, 내야수가 보통의 수비로 잡을 수 있는 페어 뜬공에 대해 심판이 타자 아웃을 선언하는 규칙은 무엇일까요? 단, 직선타와 번트로 뜬 공은 제외.",
+        "answer": "인필드 플라이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-20T00:03:36.815+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]라이프스타일 상품들과 리바트 가구를 큐레이션하여 보여주는 리바트몰 내 새로운 관의 이름은 무엇일까요?",
+        "answer": "라이프스타일갤러리",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-20T00:03:36.815+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [
