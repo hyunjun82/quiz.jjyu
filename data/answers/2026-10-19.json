@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T21:03:20.167+09:00",
+  "updatedAt": "2026-10-19T21:04:00.245+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,6 +172,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-19T21:03:20.156+09:00"
+      },
+      {
+        "question": "픽스 좌우회전 전기 팬히터 온풍기",
+        "answer": "80, PTC, 예열, 저전력",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T21:04:00.237+09:00"
       }
     ],
     "shinhan-sol": [
