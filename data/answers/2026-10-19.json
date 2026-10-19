@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T11:21:54.364+09:00",
+  "updatedAt": "2026-10-19T11:51:12.461+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -191,7 +191,78 @@
         "publishedAt": "2026-10-19T10:04:06.507+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "-이번주만, 소휘 전제품 1+1 무료배송+쿠폰까지",
+        "answer": "무카페인, 살찌는, 모닝커피, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-최애 연예인 일정 구독하고 네이버페이 받자!",
+        "answer": "캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-곧 마감! 최애 연예인 일정 구독하고 네이버페이 받기",
+        "answer": "캘린더, 구독하기, 구독, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-1년에 딱 1번! 소휘 전제품 할인+사은품+슈퍼적립",
+        "answer": "약속, 식후, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-흩어진 최애 연애인 일정, 구독캘린더로 한번에 보자!",
+        "answer": "캘린더, 구독하기, 연예인, 구독",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-향기로운 탈모케어, 페르니 메디테이션 50% 할인",
+        "answer": "독일산, 유해성분무첨가, 녹나무잎, 하수오뿌리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-추석준비 리뷰가 증명하는 우리가족 최애 간식 콩쑥개떡",
+        "answer": "송편, 해썹인증, 국내산, 해풍쑥",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-24시 열린 소비자 포털, 소비자24",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-간편하게 안전정보 확인! 소비자24",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      },
+      {
+        "question": "-멕시카나 치필링 300만마리 판매돌파 기념 반마리 증정",
+        "answer": "고추화삭",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T11:51:12.453+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "지하수는 시간이 지나면 스스로 쉽게 정화되기 때문에 정화 노력을 기울이지 않아도 된다.",
