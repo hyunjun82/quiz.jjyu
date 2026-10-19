@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T15:02:03.929+09:00",
+  "updatedAt": "2026-10-19T18:00:57.992+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,6 +130,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-19T12:01:48.442+09:00"
+      },
+      {
+        "question": "돈버는미션 마블워크 (16회차)",
+        "answer": "완주",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T18:00:57.983+09:00"
       }
     ],
     "shinhan-sol": [
