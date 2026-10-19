@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T00:11:25.414+09:00",
+  "updatedAt": "2026-10-20T02:18:22.545+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -35,10 +35,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "최대 100만원 캐시백과 각 항목별 5천원 캐시백되는 생활요금 자동납부 이벤트의 대상이 아닌 것은 무엇일까요?",
         "answer": "쿠팡와우 멤버십",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-20T00:03:36.815+09:00"
       },
       {
@@ -52,17 +52,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "금 모으기에 도전하려면 매주 서비스에 들어가서 금을 결제해야 한다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-20T00:11:25.414+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "경기도는 음식물쓰레기 절감을 위해 전국 지자체 최초로 '스마트 잔반관리 플랫폼' 도입을 추진한 바 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-20T02:18:22.544+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]라이프스타일 상품들과 리바트 가구를 큐레이션하여 보여주는 리바트몰 내 새로운 관의 이름은 무엇일까요?",
@@ -74,43 +82,66 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOOOO이란, 영업으로 번 이익이 매출에서 얼마를 차지하는지 보여주는 수익성 지표예요.",
         "answer": "영업이익률",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-20T00:07:34.243+09:00"
       }
     ],
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "10월20일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "조선 시대의 지리서인 『신증동국여지승람』 에 부속된 지도에서 울릉도와 함께 표시된 독도의 옛 이름은 무엇일까요?",
         "answer": "우산도",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-20T00:03:03.345+09:00"
       }
     ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "배당을 꾸준히 지급하는 기업들의 일반적인 특징이 아닌 것은 무엇일까요?",
         "answer": "3번 시장 변동성에 둔감",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-20T00:11:25.414+09:00"
+      },
+      {
+        "question": "다음 정강이 발표된 이후의 사실로 옳은 것은?",
+        "answer": "④ 청과 일본 사이에 톈진 조약이 체결되었다",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-20T02:18:22.542+09:00"
       }
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "가을에 나뭇잎이 초록색에서 노란색이나 붉은색으로 변하는 가장 주된 이유는?",
         "answer": "엽록소가 분해돼서",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-20T00:11:25.414+09:00"
       }
     ],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "지난 10월 18일(일), K리그1 서울 vs 김천 경기는 총 4골 무승부로 종료되었습니다. 두 팀의 최종 스코어는 몇 대 몇이었을까요?",
+        "answer": "④ 2대 2",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-20T02:18:22.542+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐에는 공적연금 손님을 위한 전용 라운지가 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-20T02:18:22.543+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -123,17 +154,25 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "타이레놀은 빈속에 먹으면 안 되는 약이다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-20T02:18:22.544+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "머리카락이 하루 50~100개 빠지는 것은 정상 범위다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-20T00:02:27.187+09:00"
       }
     ],
@@ -147,6 +186,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-20T00:07:34.243+09:00"
+      },
+      {
+        "question": "베블런재는 가격이 오를수록 오히려 수요가 늘어나는 경향을 보이는 재화예요.",
+        "answer": "O (맞아요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-20T02:18:22.544+09:00"
       }
     ],
     "adapter": [
