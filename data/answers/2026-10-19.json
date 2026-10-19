@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T11:05:33.594+09:00",
+  "updatedAt": "2026-10-19T11:21:54.364+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,6 +109,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-19T11:01:27.776+09:00"
+      },
+      {
+        "question": "소스에서 오는 OOO, 리얼마이즈가 덜어드릴게요! OOO은 무엇일까요?(힌트 : ㅂㄷㄱ)",
+        "answer": "부담감",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-19T11:21:54.355+09:00"
       }
     ],
     "shinhan-sol": [
