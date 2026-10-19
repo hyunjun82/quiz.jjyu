@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T10:08:56.003+09:00",
+  "updatedAt": "2026-10-19T10:09:38.226+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -294,6 +294,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-19T07:05:20.383+09:00"
+      },
+      {
+        "question": "동맥경화는 혈관이 꽤 좁아질 때까지 아무 증상이 없을 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T10:09:38.223+09:00"
       }
     ],
     "skstoa": [],
