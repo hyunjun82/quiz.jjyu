@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T07:58:11.675+09:00",
+  "updatedAt": "2026-10-20T08:02:50.500+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -71,7 +71,15 @@
         "publishedAt": "2026-10-20T03:18:49.220+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "국가대표",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-20T08:02:50.499+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "금 모으기에 도전하려면 매주 서비스에 들어가서 금을 결제해야 한다.",
