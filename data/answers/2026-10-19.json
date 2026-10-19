@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T18:02:17.168+09:00",
+  "updatedAt": "2026-10-19T18:24:25.131+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -520,7 +520,15 @@
         "publishedAt": "2026-10-19T00:00:59.657+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 닥터노아",
+        "answer": "디테일",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-19T18:24:25.125+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
