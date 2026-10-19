@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T11:01:27.782+09:00",
+  "updatedAt": "2026-10-19T11:05:33.594+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -359,7 +359,15 @@
         "publishedAt": "2026-10-19T00:02:09.517+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-19T11:05:33.589+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "관절염 환자는 무릎을 안 쓸수록 좋다?",
