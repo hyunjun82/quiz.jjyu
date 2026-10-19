@@ -1,8 +1,23 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T06:38:27.644+09:00",
+  "updatedAt": "2026-10-20T07:58:11.675+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "부산 전통어묵꼬치",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T07:58:11.674+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "통참깨 100퍼 참기름",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T07:58:11.674+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "픽스 전기 팬히터 온풍기는 항공기 기내 난방 시스템 OOO히터 설계를 채택했으며, 쓰러져도 걱정 없는 자동 전원 차단 장치가 도입되어 사고를 미연에 방지할 수 있습니다. OOO에 들어갈 영어 단어는 무엇일까요?",
@@ -156,7 +171,15 @@
         "publishedAt": "2026-10-20T02:18:22.543+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T07:58:11.674+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
@@ -166,7 +189,15 @@
         "publishedAt": "2026-10-20T00:01:20.563+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Where/mugs, show/mugs, wide/mugs",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T07:58:11.674+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -175,6 +206,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-20T02:18:22.544+09:00"
+      },
+      {
+        "question": "운동 후 스트레칭은 부상을 예방한다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-20T07:58:11.673+09:00"
       }
     ],
     "skstoa": [],
