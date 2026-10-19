@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "updatedAt": "2026-10-19T13:03:16.490+09:00",
+  "updatedAt": "2026-10-19T13:03:57.672+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -289,6 +289,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-19T13:00:33.951+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독 (12회차)",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-19T13:03:57.665+09:00"
       }
     ],
     "climate-action": [
