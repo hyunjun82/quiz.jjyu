@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T08:02:50.500+09:00",
+  "updatedAt": "2026-10-20T08:08:03.960+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -143,13 +143,6 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-20T02:18:22.542+09:00"
-      },
-      {
-        "question": "10월20일 KB스타뱅킹 스타퀴즈 정답 (3회차)",
-        "answer": "3 시장 변동성에 둔감",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-10-20T03:18:49.221+09:00"
       }
     ],
     "kbank": [
@@ -241,13 +234,6 @@
     "woori-festa": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
-        "answer": "X",
-        "note": "",
-        "source": "tipistip",
-        "publishedAt": "2026-10-20T00:07:34.243+09:00"
-      },
-      {
         "question": "베블런재는 가격이 오를수록 오히려 수요가 늘어나는 경향을 보이는 재화예요.",
         "answer": "O (맞아요)",
         "note": "",
@@ -278,13 +264,6 @@
       {
         "question": "데뷔작으로 뉴욕타임스 베스트셀러 1위에 등극한 이 책의 저자는 누구일까요?",
         "answer": "버지니아 에반스",
-        "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-10-20T00:00:43.490+09:00"
-      },
-      {
-        "question": "이 책의 저자는?",
-        "answer": "최윤선",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-20T00:00:43.490+09:00"
