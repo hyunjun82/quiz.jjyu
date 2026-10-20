@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T05:22:00.126+09:00",
+  "updatedAt": "2026-10-21T07:58:53.592+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -135,7 +135,15 @@
         "publishedAt": "2026-10-21T00:15:35.137+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T07:58:53.591+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
@@ -162,6 +170,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-21T00:21:01.783+09:00"
+      },
+      {
+        "question": "정제된 탄수화물은 혈당을 빠르게 올릴 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-21T07:58:53.591+09:00"
       }
     ],
     "skstoa": [],
