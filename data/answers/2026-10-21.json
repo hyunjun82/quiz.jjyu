@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:01:29.506+09:00",
+  "updatedAt": "2026-10-21T00:02:03.619+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -44,11 +44,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T00:02:03.619+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "넛지는 강제나 금지 없이 선택 설계를 통해 사람들의 행동을 유도하는 방식이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-21T00:02:03.619+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
