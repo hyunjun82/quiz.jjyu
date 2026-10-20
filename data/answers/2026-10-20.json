@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T10:03:56.468+09:00",
+  "updatedAt": "2026-10-20T10:05:50.112+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,10 +92,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월20일",
+        "question": "2027학년도 대학수학능력시험이 실시되는 날짜는 언제일까요?",
         "answer": "2026년 11월 19일",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-10-20T10:03:56.465+09:00"
       }
     ],
