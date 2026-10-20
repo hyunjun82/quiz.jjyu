@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:22:51.689+09:00",
+  "updatedAt": "2026-10-21T00:35:34.051+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -38,10 +38,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "금 모으기 서비스에서 목표 중량을 다 모으면 ‘축하금’을 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-21T00:15:35.137+09:00"
       }
     ],
@@ -78,19 +78,19 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "10월21일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "NH올원뱅크에서 자동차보험료를 조회하면 5,000P를 받을 수 있다",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-21T00:03:53.892+09:00"
       }
     ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "일반적으로 매수인은 계약 파기 시 지급한 계약금을 포기해야 하고, 매도인이 계약을 파기할 때는 받은 계약금의 2배를 반환해야 한다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-21T00:07:53.987+09:00"
       },
       {
@@ -117,7 +117,15 @@
         "publishedAt": "2026-10-21T00:15:35.137+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월 21일(수) 기준, 하나은행 K리그1 2026 1위인 FC서울은 21승에서 하나 모자란 OO승을 기록 중입니다. OO에 들어갈 숫자는 무엇일까요?",
+        "answer": "① 20",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-21T00:35:34.049+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
@@ -162,10 +170,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "올해 독감 무료 접종 대상 어린이에는 중학교 1학년도 포함된다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-21T00:02:03.619+09:00"
       }
     ],
