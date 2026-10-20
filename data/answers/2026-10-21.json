@@ -1,17 +1,40 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:02:03.619+09:00",
+  "updatedAt": "2026-10-21T00:03:15.511+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "배달의민족 상품권",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T00:03:15.511+09:00"
+      },
+      {
+        "question": "센트럴리그와 퍼시픽리그의 우승팀이 맞붙어 일본 프로야구 NPB 최고 구단을 가리는 7전 4전승제 타이틀전의 공식 명칭은 무엇일까요?",
+        "answer": "일본시리즈",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T00:03:15.511+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]현대홈쇼핑에서 신선식품, 리빙 필수템 등을 알뜰하게 구매할 수 있는 현대톡마트 행사가 10월 20일(화)부터 10월 26일(월)까지 진행됩니다! 다음 보기 중, 행사에서 찾아볼 수 없는 상품은 무엇일까요?",
+        "answer": "골드바",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-21T00:03:15.511+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOO이란, 채권에 투자했을 때 실제로 얻게 되는 수익의 비율이에요.",
