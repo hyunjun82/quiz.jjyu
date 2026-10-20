@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:40:45.977+09:00",
+  "updatedAt": "2026-10-21T05:22:00.126+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -171,7 +171,7 @@
     "doctornow": [
       {
         "question": "올해 독감 무료 접종 대상 어린이에는 중학교 1학년도 포함된다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-21T00:02:03.619+09:00"
