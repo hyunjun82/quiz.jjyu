@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-21",
+  "updatedAt": "2026-10-21T00:00:52.766+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "hana-travel": [],
+    "monimo": [
+      {
+        "question": "식이섬유와 비타민C가 없고, 계란과 함께 먹으면 좋은 음식이 아닌 것은?",
+        "answer": "삼겹살",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T00:00:52.766+09:00"
+      }
+    ],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "harim-real": [],
+    "woori-festa": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [
+      {
+        "question": "간호사 출신 산림치유지도사가 골목길 식물에서 찾은 치유 에세이『북촌의 작은 ○○들』! 빈칸은?",
+        "answer": "정원",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-21T00:00:52.766+09:00"
+      },
+      {
+        "question": "이 책은 어떤 형식으로 구성되어 있나요?",
+        "answer": "편지",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-21T00:00:52.766+09:00"
+      }
+    ],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
