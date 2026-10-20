@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:10:54.375+09:00",
+  "updatedAt": "2026-10-21T00:13:31.659+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -63,7 +63,15 @@
         "publishedAt": "2026-10-21T00:07:53.987+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "두루마기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T00:13:31.658+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
