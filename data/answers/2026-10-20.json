@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T16:08:15.080+09:00",
+  "updatedAt": "2026-10-20T18:31:30.124+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -491,7 +491,15 @@
         "publishedAt": "2026-10-20T00:00:43.490+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 동원참치",
+        "answer": "디자인",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T18:31:30.118+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
