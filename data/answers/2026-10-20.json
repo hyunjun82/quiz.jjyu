@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T10:08:23.447+09:00",
+  "updatedAt": "2026-10-20T10:10:57.742+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -134,6 +134,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-20T10:02:01.839+09:00"
+      },
+      {
+        "question": "위기브에서 추가 혜택받는 기부는?",
+        "answer": "고향사랑",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-20T10:10:57.739+09:00"
       }
     ],
     "nh-allone": [
