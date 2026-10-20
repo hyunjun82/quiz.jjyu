@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T11:02:47.195+09:00",
+  "updatedAt": "2026-10-20T12:04:13.418+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,6 +85,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-20T08:02:50.499+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "군것질",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-20T12:04:13.416+09:00"
       }
     ],
     "kakaobank-ox": [
