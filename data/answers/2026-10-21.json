@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:13:31.659+09:00",
+  "updatedAt": "2026-10-21T00:15:35.138+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -21,7 +21,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T00:15:35.137+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -61,6 +69,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-21T00:07:53.987+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "집강소",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T00:15:35.137+09:00"
       }
     ],
     "kbank": [
@@ -70,10 +85,25 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-21T00:13:31.658+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
+        "answer": "1번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T00:15:35.137+09:00"
       }
     ],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T00:15:35.137+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
