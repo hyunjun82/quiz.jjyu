@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:00:52.766+09:00",
+  "updatedAt": "2026-10-21T00:01:29.506+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 채권에 투자했을 때 실제로 얻게 되는 수익의 비율이에요.",
+        "answer": "채권수익률",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-21T00:01:29.506+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
