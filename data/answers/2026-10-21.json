@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:35:34.051+09:00",
+  "updatedAt": "2026-10-21T00:40:45.977+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -128,10 +128,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐에서 운세를 확인하려면 반드시 영업점에 방문해야 한다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-21T00:15:35.137+09:00"
       }
     ],
