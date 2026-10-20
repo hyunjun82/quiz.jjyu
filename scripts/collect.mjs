@@ -1395,6 +1395,11 @@ const APPTECH_MAP = {
   'quiz-climate-action': 'climate-action',
 };
 
+// 지문 없이 정답만 오는 카드 중, 하루 한 문제라 고정 제목으로 받아도 되는 것 (2026-10-21).
+const APPTECH_NOQ_TITLE = {
+  'quiz-shinhan-attendance': '신한 슈퍼SOL 출석 퀴즈',
+};
+
 // 같은 차단 사유를 폴링마다(30초) 반복 출력하지 않는다 — 한 실행에 한 번만.
 const APPTECH_REPORTED = new Set();
 
@@ -1446,7 +1451,11 @@ function parseApptech(html, today) {
     // 9/9 소스 추가 이후 "○○ 오늘의 퀴즈" 자리표시자 지문이 하루 1건 → 8건까지 늘었고,
     // 감사가 그걸 '지문 동일 = 중복'으로 지우고 수집이 되살리는 악순환의 출발점이었다.
     // 지문 없는 정답은 다른 소스(퀴즈벨·토막스·다비야)가 지문과 함께 준다.
-    const question = q ? clean(q[1]) : '';
+    let question = q ? clean(q[1]) : '';
+    // 2026-10-21: 신한 슈퍼SOL 출석퀴즈는 앱테크가 지문 없이 정답만 올리고, 다른 소스는 거의 다루지 않는다.
+    //   그래서 10/11·10/21 처럼 이 퀴즈만 통째로 빠졌다. 하루 한 문제라 고정 제목으로 받아도 중복이 생기지 않는다.
+    //   (어제 값 이월은 위의 '지난 정답 첫 줄' 비교가 이미 막는다.)
+    if ((!question || question.length < 8) && APPTECH_NOQ_TITLE[ids[i].id]) question = APPTECH_NOQ_TITLE[ids[i].id];
     if (!question || question.length < 8) {
       const tag = `${slug}|noq|${answer}`;
       if (!APPTECH_REPORTED.has(tag)) {
