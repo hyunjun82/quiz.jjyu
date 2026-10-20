@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T07:58:53.592+09:00",
+  "updatedAt": "2026-10-21T08:01:22.484+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -35,7 +35,15 @@
         "publishedAt": "2026-10-21T00:03:15.511+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "영수증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T08:01:22.483+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "금 모으기 서비스에서 목표 중량을 다 모으면 ‘축하금’을 받을 수 있다.",
