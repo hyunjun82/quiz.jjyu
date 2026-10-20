@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:19:13.944+09:00",
+  "updatedAt": "2026-10-21T00:21:01.784+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -60,11 +60,11 @@
     ],
     "bitbunny": [
       {
-        "question": "OOOOO이란, 채권에 투자했을 때 실제로 얻게 되는 수익의 비율이에요.",
-        "answer": "채권수익률",
+        "question": "OOOOOO이란, 채권에 투자했을 때 실제로 얻게 되는 수익의 비율이에요.",
+        "answer": "채권수익률, 채권수익율",
         "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-10-21T00:01:29.506+09:00"
+        "source": "apptech",
+        "publishedAt": "2026-10-21T00:21:01.782+09:00"
       }
     ],
     "kakaopay": [],
@@ -139,7 +139,15 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T00:21:01.783+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
