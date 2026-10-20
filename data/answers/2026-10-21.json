@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T00:03:15.511+09:00",
+  "updatedAt": "2026-10-21T00:03:53.893+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -45,7 +45,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월21일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T00:03:53.892+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
@@ -88,7 +96,15 @@
         "publishedAt": "2026-10-21T00:02:03.619+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "3, 2, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T00:03:53.892+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
     "yes24": [
