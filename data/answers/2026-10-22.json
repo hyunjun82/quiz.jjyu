@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T00:01:42.495+09:00",
+  "updatedAt": "2026-10-22T00:02:56.338+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -39,7 +39,22 @@
         "publishedAt": "2026-10-22T00:00:26.982+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "81%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T00:02:56.337+09:00"
+      },
+      {
+        "question": "KBO 포스트시즌 전체 등록 엔트리는 30명입니다. 그렇다면 당일 경기에 출전할 수 있는 선수 수는 몇 명일까요?",
+        "answer": "28명",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T00:02:56.337+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
