@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T10:00:27.414+09:00",
+  "updatedAt": "2026-10-21T10:01:46.575+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -84,7 +84,15 @@
         "publishedAt": "2026-10-21T10:00:27.412+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 쇼핑 '락토핏 당케어(300포)' 구매 혜택이 아닌 것은?",
+        "answer": "포인트리 5,000P",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-10-21T10:01:46.573+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
