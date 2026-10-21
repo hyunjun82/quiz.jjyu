@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T12:02:49.268+09:00",
+  "updatedAt": "2026-10-21T12:05:29.551+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,6 +144,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-21T12:02:49.264+09:00"
+      },
+      {
+        "question": "10월21일 제주항공 J멤버스위크 캐시워크 정답 (15회차)",
+        "answer": "마닐라 50 2600",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T12:05:29.545+09:00"
       }
     ],
     "shinhan-sol": [
@@ -176,6 +183,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-21T08:01:22.483+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "경적",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T12:05:29.546+09:00"
       }
     ],
     "kakaobank-ox": [
