@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T00:35:44.626+09:00",
+  "updatedAt": "2026-10-22T00:46:15.833+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -28,6 +28,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-22T00:05:23.996+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (4회차)",
+        "answer": "선크림",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T00:46:15.832+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (5회차)",
+        "answer": "메이크업 픽서",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T00:46:15.832+09:00"
       }
     ],
     "cashwalk": [
@@ -63,7 +77,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T00:46:15.832+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -111,6 +133,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-22T00:30:34.327+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "4. 우정총국 – 근대적 우편 업무를 담당하였던 관청",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T00:46:15.832+09:00"
       }
     ],
     "kbank": [
@@ -120,6 +149,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-22T00:35:44.625+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
+        "answer": "4번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T00:46:15.832+09:00"
       }
     ],
     "hana-onq": [
