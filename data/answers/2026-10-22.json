@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T07:04:22.046+09:00",
+  "updatedAt": "2026-10-22T07:09:42.415+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -193,7 +193,15 @@
         "publishedAt": "2026-10-22T00:51:24.731+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "coffee/tastes, soup/salty, sweet/delicious",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T07:09:42.414+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
