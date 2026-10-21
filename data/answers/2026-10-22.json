@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T00:30:34.328+09:00",
+  "updatedAt": "2026-10-22T00:35:44.626+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -113,9 +113,33 @@
         "publishedAt": "2026-10-22T00:30:34.327+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [],
-    "hana-life": [],
+    "kbank": [
+      {
+        "question": "한국거래소가 정규시장 종료 후 접속매매 방식으로 운영하는 주식 시간외 거래 시장은?",
+        "answer": "④ 애프터마켓",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-22T00:35:44.625+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "10월 22일(목) 기준, 하나은행 K리그2 2026 1위인 수원 삼성 블루윙즈는 17승을 넘어 OO승을 기록 중입니다. OO에 들어갈 숫자는 무엇일까요?",
+        "answer": "④ 18",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-22T00:35:44.624+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 놀이터에 재미있는 콘텐츠가 새로 나왔는데, 나중에 알았다면 나 왜 몰랐지? 하고 후회할 수도 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-22T00:35:44.624+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -135,10 +159,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "간 보호제는 술 마시기 전에 먹으면 간 손상을 막아준다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-22T00:23:45.358+09:00"
       }
     ],
