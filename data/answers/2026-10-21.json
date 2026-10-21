@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T11:00:49.205+09:00",
+  "updatedAt": "2026-10-21T11:01:31.477+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -289,7 +289,15 @@
         "publishedAt": "2026-10-21T00:03:53.892+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T11:01:31.476+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "치매 진단만 있어도 장기요양서비스를 받을 수 있다?",
