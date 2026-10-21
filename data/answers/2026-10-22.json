@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T00:05:23.997+09:00",
+  "updatedAt": "2026-10-22T00:10:45.622+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,10 +48,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "가을·겨울 여행은 제주신화월드에서! 신한카드 기획전 객실 상품 중 가장 높은 할인율은 몇 %일까요?",
         "answer": "81%",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-22T00:02:56.337+09:00"
       },
       {
