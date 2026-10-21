@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T01:06:54.929+09:00",
+  "updatedAt": "2026-10-22T04:01:27.235+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,7 +211,7 @@
     "doctornow": [
       {
         "question": "간 보호제는 술 마시기 전에 먹으면 간 손상을 막아준다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-22T00:23:45.358+09:00"
