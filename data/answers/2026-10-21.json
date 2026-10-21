@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T11:07:44.087+09:00",
+  "updatedAt": "2026-10-21T11:57:13.920+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,6 +37,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-21T11:07:44.084+09:00"
+      },
+      {
+        "question": "10월21일 토스 행운퀴즈 정답 제주항공 J멤버스위크 (6회차)",
+        "answer": "2 8 50 2600",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T11:57:13.917+09:00"
       }
     ],
     "cashwalk": [
