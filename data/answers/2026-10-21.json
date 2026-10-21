@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T20:20:50.722+09:00",
+  "updatedAt": "2026-10-21T21:03:58.107+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -184,6 +184,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-21T14:01:55.391+09:00"
+      },
+      {
+        "question": "10월21일 뷰카 아쿠아민트 치약 캐시워크 정답 (18회차)",
+        "answer": "1450",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T21:03:58.098+09:00"
       }
     ],
     "shinhan-sol": [
