@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T17:03:04.635+09:00",
+  "updatedAt": "2026-10-21T20:03:17.817+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -223,6 +223,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-21T12:05:29.546+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "망고빙수",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T20:03:17.810+09:00"
       }
     ],
     "kakaobank-ox": [
