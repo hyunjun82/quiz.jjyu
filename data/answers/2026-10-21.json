@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T11:01:31.477+09:00",
+  "updatedAt": "2026-10-21T11:04:56.349+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-21T00:17:22.690+09:00"
+      },
+      {
+        "question": "제주항공 J멤버스위크 (3회차)",
+        "answer": "2, 50",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-21T11:04:56.343+09:00"
       }
     ],
     "cashwalk": [
