@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T00:03:31.360+09:00",
+  "updatedAt": "2026-10-22T00:04:06.532+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -125,7 +125,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "관절염 환자는 무릎을 안 쓸수록 좋다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-22T00:04:06.532+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "를 출간한 출판사의 이름은 무엇일까요?",
