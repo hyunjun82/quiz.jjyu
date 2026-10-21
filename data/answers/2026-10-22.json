@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T01:01:45.126+09:00",
+  "updatedAt": "2026-10-22T01:06:54.929+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -195,7 +195,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "갑상선결절은 크기가 클수록 암일 가능성이 높다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T01:06:54.928+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
