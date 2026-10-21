@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T11:07:02.934+09:00",
+  "updatedAt": "2026-10-21T11:07:44.087+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-21T11:07:02.931+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (5회차)",
+        "answer": "2, 8, 2600",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-21T11:07:44.084+09:00"
       }
     ],
     "cashwalk": [
