@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T10:03:06.315+09:00",
+  "updatedAt": "2026-10-21T10:05:40.180+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -121,7 +121,15 @@
         "publishedAt": "2026-10-21T00:21:01.782+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "건조한 날씨에도 촉촉하고 가변운 메디힐 선케어는 OOOOO 이다.",
+        "answer": "수분선세럼",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-21T10:05:40.178+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "NH올원뱅크에서 자동차보험료를 조회하면 5,000P를 받을 수 있다",
