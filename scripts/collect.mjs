@@ -3344,8 +3344,17 @@ async function main() {
     const endAt = Math.min(tNow + (block.b - nowMin) * 60_000, hardStop);
 
     if (waitMin > 0) {
-      console.log(`[대기] 감시 구간 ${label} — ${waitMin}분 뒤 시작. 잠들었다 깨어남`);
-      await sleep(startAt - Date.now());
+      console.log(`[대기] 감시 구간 ${label} — ${waitMin}분 뒤 시작. 그때까지 ${IDLE_POLL / 60000}분마다 순찰`);
+      // 2026-10-21: 예전엔 여기서 블록 시작까지 통째로 잠들었다(최대 LEAD_MINUTES=70분).
+      //   10/21 06:49 에 07:58 블록을 기다리며 69분 잠든 사이, 07:00 에 올라온 하나 트래블미션·
+      //   돈버는 건강퀴즈를 07:58 에야 받았다(10/12~10/21 거의 매일 같은 모양). 잠들지 말고 순찰을 이어 간다.
+      while (startAt - Date.now() > IDLE_POLL) {
+        if (AUTO_PUSH) flushPush();
+        await sleep(IDLE_POLL);
+        if (codeChangedRemote()) return RESTART;
+        absorb(await collectOnce(), `[대기 중 순찰 ${Math.round((Date.now() - t0) / 1000)}초]`);
+      }
+      if (startAt > Date.now()) await sleep(startAt - Date.now());
     }
     if (codeChangedRemote()) return RESTART;
 
