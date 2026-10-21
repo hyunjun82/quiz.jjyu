@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T00:01:07.533+09:00",
+  "updatedAt": "2026-10-22T00:01:42.495+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,7 +83,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "매몰비용은 이미 지불해 되돌릴 수 없는 비용으로, 합리적 의사결정에서는 고려하지 않는 것이 원칙이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-22T00:01:42.495+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
