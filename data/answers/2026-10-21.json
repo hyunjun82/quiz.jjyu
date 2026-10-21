@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "updatedAt": "2026-10-21T10:01:46.575+09:00",
+  "updatedAt": "2026-10-21T10:03:06.315+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -233,7 +233,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "베스트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-21T10:03:06.315+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
