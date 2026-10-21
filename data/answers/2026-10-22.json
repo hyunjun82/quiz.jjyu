@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-22",
+  "updatedAt": "2026-10-22T00:00:26.982+09:00",
+  "answers": {
+    "toss-lucky": [
+      {
+        "question": "2월 탑승객 한정 혜택 사전 수하물 최대 OO% 경품 이벤트까지 확인하세요",
+        "answer": "50",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-22T00:00:26.982+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (2회차)",
+        "answer": null,
+        "choices": [
+          "2",
+          "2600",
+          "8"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-10-22T00:00:26.982+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "개운함이 오래가는 뷰카 아쿠아민트의 불소 함량은 얼마일까요? * 힌트 : ○○○○PPM(숫자만 입력하세요!)",
+        "answer": "1450",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-22T00:00:26.982+09:00"
+      },
+      {
+        "question": "기다려지는 설 연휴에 여행의 즐거움을 더해줄 제주항공 J멤버스위크가 찾아왔어요 국내선 최대 ○○○○원 + 국제선 최대 8% 할인코드부터 카카오페이 결제 할인과 사전수하물 할인까지! 항공권 최대 79% 특가와 놓치면 아쉬운 여행 혜택을 지금 바로 확인해보세요!",
+        "answer": "2600 / 마닐라 / 50",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-10-22T00:00:26.982+09:00"
+      }
+    ],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "hana-travel": [],
+    "monimo": [],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "harim-real": [],
+    "woori-festa": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
