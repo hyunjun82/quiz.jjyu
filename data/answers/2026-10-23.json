@@ -1,8 +1,23 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T00:16:43.387+09:00",
+  "updatedAt": "2026-10-23T00:21:57.463+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "롯데쿠폰",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-23T00:21:57.462+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "결합쿠폰",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-23T00:21:57.462+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "컷슬린 버터쉐이크는 체중조절용 조제식품으로 고소한 오곡라떼맛 한 끼를 간편하고 맛있고 든든하게! OOO 17g은 기본, 탄수화물은 줄이고 뉴질랜드산 버터까지 가득 채웠어요. 빈칸에 들어갈 단어는? (힌트: ㄷㅂㅈ)",
@@ -95,7 +110,15 @@
       }
     ],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-23T00:21:57.462+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
