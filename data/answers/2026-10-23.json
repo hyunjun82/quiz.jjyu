@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T00:35:20.646+09:00",
+  "updatedAt": "2026-10-23T01:21:28.257+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,10 +53,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "AI 목표적금은 AI가 알아서 목표를 정하고 납입한다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-23T00:12:56.809+09:00"
       }
     ],
@@ -86,10 +86,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "KB스타뱅킹에서 발급하는 KB국민인증서의 인증 방법이 아닌 것은 무엇일까요?",
         "answer": "2번 보안카드",
         "note": "",
-        "source": "tipistip",
+        "source": "blog",
         "publishedAt": "2026-10-23T00:12:56.809+09:00"
       },
       {
@@ -102,14 +102,22 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (2회차)",
         "answer": "2. 베블런 효과",
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-23T00:12:56.809+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월 승리HANA 승/무/패 승부예측 완료하셨나요? 10월 승리HANA는 오늘 마감됩니다. 마감일은 언제일까요?",
+        "answer": "① 10월 23일(금)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-23T01:21:28.256+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
