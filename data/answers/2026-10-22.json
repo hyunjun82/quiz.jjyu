@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T10:01:32.120+09:00",
+  "updatedAt": "2026-10-22T10:03:34.415+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,7 +67,15 @@
         "publishedAt": "2026-10-22T00:46:15.832+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오전 10시 셀럽 이나영도 사랑한 브랜드명 퀴즈!",
+        "answer": "지스튜디오",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T10:03:34.413+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
