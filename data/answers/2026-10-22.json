@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T09:51:58.732+09:00",
+  "updatedAt": "2026-10-22T10:01:32.120+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -60,10 +60,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "AI가 내 저축 현황을 보고 필요한 정보를 알려주는 적금이 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-22T00:46:15.832+09:00"
       }
     ],
