@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T00:03:46.031+09:00",
+  "updatedAt": "2026-10-23T00:04:20.622+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -113,7 +113,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇 서비스를 이용하는 것만으로도 커피를 구매할 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-23T00:04:20.622+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 대표 저자는?",
