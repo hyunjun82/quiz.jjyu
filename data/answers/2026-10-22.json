@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T11:00:31.904+09:00",
+  "updatedAt": "2026-10-22T11:03:13.711+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -286,9 +286,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-22T00:23:45.357+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시 (2회차)",
+        "answer": "3, O, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T11:03:13.710+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T11:03:13.710+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "관절염 환자는 무릎을 안 쓸수록 좋다?",
