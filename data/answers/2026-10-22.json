@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T12:02:16.239+09:00",
+  "updatedAt": "2026-10-22T12:03:38.630+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -148,6 +148,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-22T08:02:43.272+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "방한복",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-22T12:03:38.626+09:00"
       }
     ],
     "kakaobank-ox": [
@@ -191,6 +198,90 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-22T12:02:16.232+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더 (2회차)",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독 (4회차)",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독 (5회차)",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "페르니 메디테이션 향기로운 탈모케어",
+        "answer": "독일산, 녹나무잎, 하수오뿌리, 유해성분무첨가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "일상미당 콩쑥개떡 우리가족 최애 간식",
+        "answer": "송편, 국내산, 해풍쑥, 해썹인증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "소비자24 24시 열린 소비자 포털",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.623+09:00"
+      },
+      {
+        "question": "소비자24 간편하게 안전정보 확인",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.624+09:00"
+      },
+      {
+        "question": "멕시카나 치필링 (11회차)",
+        "answer": "고추화삭",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.624+09:00"
+      },
+      {
+        "question": "G라이브 구달 세럼 (12회차)",
+        "answer": "더블",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.624+09:00"
+      },
+      {
+        "question": "소비자24 내가 받은 피해 어디서 구제 신청하지",
+        "answer": "피해구제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-22T12:03:38.624+09:00"
       }
     ],
     "climate-action": [
