@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T09:10:51.402+09:00",
+  "updatedAt": "2026-10-23T10:00:59.900+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-23T09:05:48.529+09:00"
+      },
+      {
+        "question": "NABOUT 여성 겨울 부드러운 니트 이니셜 중목양말",
+        "answer": "9900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-23T10:00:59.893+09:00"
       }
     ],
     "shinhan-sol": [
