@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T06:48:31.936+09:00",
+  "updatedAt": "2026-10-24T07:03:57.808+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -124,7 +124,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "비타민 E는 피부 건강을 지원한다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-24T07:03:57.808+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
