@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T14:02:00.533+09:00",
+  "updatedAt": "2026-10-23T14:04:03.444+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -193,6 +193,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-23T14:02:00.524+09:00"
+      },
+      {
+        "question": "제주항공 일본 센다이 신규취항 특가",
+        "answer": "8, 25, 50",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-23T14:04:03.434+09:00"
       }
     ],
     "shinhan-sol": [
