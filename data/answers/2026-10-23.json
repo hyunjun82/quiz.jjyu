@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T20:06:30.992+09:00",
+  "updatedAt": "2026-10-23T21:01:50.181+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -207,6 +207,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-23T14:09:20.379+09:00"
+      },
+      {
+        "question": "포인트앤 클렌징오일 (27회차)",
+        "answer": "96",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-23T21:01:50.169+09:00"
       }
     ],
     "shinhan-sol": [
