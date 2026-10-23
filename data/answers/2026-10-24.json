@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T00:03:34.818+09:00",
+  "updatedAt": "2026-10-24T00:04:13.654+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -125,9 +125,25 @@
         "publishedAt": "2026-10-24T00:01:46.433+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "O, X, X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-24T00:04:13.654+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "시설의 운영평가 등급은 공개된 자료로 확인할 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-24T00:04:13.654+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
