@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T18:23:33.380+09:00",
+  "updatedAt": "2026-10-23T19:04:59.552+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -491,7 +491,15 @@
         "publishedAt": "2026-10-23T00:00:48.293+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 나랑드사이다",
+        "answer": "제로칼로리",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-23T19:04:59.546+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
