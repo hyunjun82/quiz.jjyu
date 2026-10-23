@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T00:00:35.566+09:00",
+  "updatedAt": "2026-10-24T00:01:12.430+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,7 +42,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 경기가 나빠져 성장이 일정 기간 이상 뒷걸음질 치는 침체 국면이에요.",
+        "answer": "경기침체",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-24T00:01:12.430+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
