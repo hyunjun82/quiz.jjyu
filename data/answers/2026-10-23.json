@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T10:05:13.264+09:00",
+  "updatedAt": "2026-10-23T10:09:11.701+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -212,10 +212,10 @@
     ],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay 바로할인으로 GS25에서 'O' % 할인받고, 이벤트 참여 시 최대 'O'천원 캐시백도 받을 수 있어요. O에 들어갈 숫자는?",
         "answer": "3번 3",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-23T10:05:13.260+09:00"
       }
     ],
