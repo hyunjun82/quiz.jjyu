@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T10:09:11.701+09:00",
+  "updatedAt": "2026-10-23T10:10:34.314+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -249,10 +249,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "션과 함께 롱런에서는 만보기로 500억 걸음 달성하면 카카오페이가 총 OO억원을 기부해요",
         "answer": "15",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-23T10:05:13.260+09:00"
       }
     ],
