@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T14:09:20.390+09:00",
+  "updatedAt": "2026-10-23T14:11:49.120+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -430,7 +430,7 @@
     "doctornow": [
       {
         "question": "비만 신약 에페는 매일 맞아야 하는 주사제다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-23T00:01:56.696+09:00"
