@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T09:08:16.442+09:00",
+  "updatedAt": "2026-10-23T09:10:51.402+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -270,10 +270,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "스마트폰뱅킹 전용 외화매매 플랫폼 FX마켓! 적용환율을 실시간 확인하며 쉽고 편하게 외화를 사고 팔 수 있어요.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-23T00:21:57.462+09:00"
       }
     ],
