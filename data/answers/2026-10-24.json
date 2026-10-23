@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T00:04:13.654+09:00",
+  "updatedAt": "2026-10-24T00:08:04.596+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,7 +76,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "answer": "3번 골든라이프",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-24T00:08:04.596+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
