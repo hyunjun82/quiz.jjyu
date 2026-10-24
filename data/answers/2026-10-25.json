@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T06:03:06.957+09:00",
+  "updatedAt": "2026-10-25T07:04:23.507+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -139,7 +139,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "장시간 스마트폰 사용은 목 통증을 유발할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-25T07:04:23.506+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
