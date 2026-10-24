@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T08:48:25.571+09:00",
+  "updatedAt": "2026-10-25T08:52:00.653+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -167,7 +167,15 @@
         "publishedAt": "2026-10-25T00:01:44.549+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Pull, Stop/here, park/over",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-25T08:52:00.653+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
