@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T15:02:43.933+09:00",
+  "updatedAt": "2026-10-24T18:30:53.231+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -367,7 +367,15 @@
         "publishedAt": "2026-10-24T00:00:35.566+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 올리타리아",
+        "answer": "클래식",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-24T18:30:53.228+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
