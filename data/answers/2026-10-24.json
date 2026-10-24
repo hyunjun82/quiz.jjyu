@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T11:00:37.216+09:00",
+  "updatedAt": "2026-10-24T11:01:52.903+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -115,6 +115,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-24T10:03:04.658+09:00"
+      },
+      {
+        "question": "쿠팡이츠 bhc 할인쿠폰 지급",
+        "answer": "반짝핫딜",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-24T11:01:52.893+09:00"
       }
     ],
     "shinhan-sol": [
@@ -310,6 +317,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-24T00:04:13.654+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시 (2회차)",
+        "answer": "2, 4, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-24T11:01:52.896+09:00"
       }
     ],
     "moneywalk": [],
