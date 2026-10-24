@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T08:02:55.488+09:00",
+  "updatedAt": "2026-10-25T08:35:05.208+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -115,6 +115,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-25T01:01:43.594+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (2회차)",
+        "answer": "안용복",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-25T08:35:05.207+09:00"
       }
     ],
     "hana-onq": [
