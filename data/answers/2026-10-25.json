@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T00:31:03.638+09:00",
+  "updatedAt": "2026-10-25T01:01:43.594+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -93,7 +93,15 @@
         "publishedAt": "2026-10-25T00:23:51.632+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-25T01:01:43.594+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [
       {
