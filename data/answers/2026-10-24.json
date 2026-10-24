@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T11:03:45.491+09:00",
+  "updatedAt": "2026-10-24T11:43:04.176+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -176,10 +176,10 @@
     ],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "'Trick or Treat 매주 1천명 할로윈 선물' 이벤트에서 3주차에…(후략)",
         "answer": "3번 쿠팡이츠 2만원권",
         "note": "",
-        "source": "tipistip",
+        "source": "bizwnews",
         "publishedAt": "2026-10-24T10:05:08.746+09:00"
       }
     ],
