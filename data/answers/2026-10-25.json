@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T00:25:50.174+09:00",
+  "updatedAt": "2026-10-25T00:31:03.638+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -123,10 +123,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "체했을 때 손을 따면 소화에 도움이 된다는 의학적 근거가 있다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-25T00:01:44.549+09:00"
       }
     ],
