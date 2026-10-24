@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T19:30:20.439+09:00",
+  "updatedAt": "2026-10-24T19:30:57.966+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -156,10 +156,10 @@
         "publishedAt": "2026-10-24T08:03:43.597+09:00"
       },
       {
-        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "question": "12:00 살수록 할인 UP! 최대 0천원 할인",
         "answer": "칠",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-10-24T12:09:59.728+09:00"
       }
     ],
@@ -231,7 +231,7 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "Q. 경북 의성의 대표 특산물 중 지리적표시에 등록된 것은?",
         "answer": "3번 마늘",
         "note": "",
         "source": "tipistip",
