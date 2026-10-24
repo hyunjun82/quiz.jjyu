@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T00:03:27.789+09:00",
+  "updatedAt": "2026-10-25T00:04:35.695+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -106,7 +106,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요잇의 '직접 시설 찾기' 기능은 지역별로 검색은 가능하나 서비스별로 구분하여 볼 수는 없다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-25T00:04:35.695+09:00"
+      }
+    ],
     "yes24": [],
     "fallcent": [],
     "naverpay": []
