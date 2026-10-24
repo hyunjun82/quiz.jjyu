@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T11:01:52.903+09:00",
+  "updatedAt": "2026-10-24T11:03:45.491+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -326,7 +326,15 @@
         "publishedAt": "2026-10-24T11:01:52.896+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-24T11:03:45.486+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "시설의 운영평가 등급은 공개된 자료로 확인할 수 있다?",
