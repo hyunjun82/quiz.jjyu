@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T19:29:39.949+09:00",
+  "updatedAt": "2026-10-24T19:30:20.439+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -165,10 +165,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "AI 목표적금은 적금 현황을 한눈에 볼 수 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-24T00:13:27.125+09:00"
       }
     ],
@@ -249,10 +249,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "고향사랑기부로 기부하면 연말정산할 때 기부금 10만원까지는 전액 세액공제를 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-24T08:02:28.136+09:00"
       }
     ],
