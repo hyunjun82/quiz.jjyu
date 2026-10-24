@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T18:30:53.231+09:00",
+  "updatedAt": "2026-10-24T19:24:47.865+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -126,10 +126,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "응모 후 신한 슈퍼SOL로 건당 5천원 이상 결제하면 결제금액의 최대 몇%를 돌려받을 수 있을까요?",
         "answer": "100%",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-10-24T00:02:58.772+09:00"
       },
       {
