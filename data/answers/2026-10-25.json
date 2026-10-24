@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T00:04:35.695+09:00",
+  "updatedAt": "2026-10-25T00:13:56.394+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -29,7 +29,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-25T00:13:56.394+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -54,7 +62,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-25T00:13:56.394+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
