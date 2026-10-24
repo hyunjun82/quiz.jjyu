@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T00:16:51.933+09:00",
+  "updatedAt": "2026-10-25T00:23:51.633+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,6 +69,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-25T00:13:56.394+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "4. 6",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-25T00:23:51.632+09:00"
       }
     ],
     "kbank": [],
