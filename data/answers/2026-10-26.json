@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26",
+  "updatedAt": "2026-10-26T00:00:42.670+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "hana-travel": [],
+    "monimo": [
+      {
+        "question": "신용카드 결제를 취소하면, 취소한 금액만큼 카드 이용한도가 실시간으로 \"무조건\" 복원된다.",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:00:42.670+09:00"
+      }
+    ],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "harim-real": [],
+    "woori-festa": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [
+      {
+        "question": "이 책의 저자는?",
+        "answer": "송길영",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-26T00:00:42.670+09:00"
+      }
+    ],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
