@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T11:08:24.174+09:00",
+  "updatedAt": "2026-10-25T11:14:45.393+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,10 +78,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "고등학생들이 수능에 대비해 실제 수능과 유사한 형식으로 미리 치르는 시험은 무엇일까요?",
         "answer": "1번 모의고사",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-25T10:03:48.773+09:00"
       }
     ],
