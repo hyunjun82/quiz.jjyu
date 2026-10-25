@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T06:46:43.860+09:00",
+  "updatedAt": "2026-10-26T07:02:10.926+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-26T00:35:36.452+09:00"
+      },
+      {
+        "question": "유제품은 반드시 건강한 식단의 일부여야 한다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-26T07:02:10.924+09:00"
       }
     ],
     "skstoa": [],
