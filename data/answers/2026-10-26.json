@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:14:55.821+09:00",
+  "updatedAt": "2026-10-26T00:15:30.922+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -99,7 +99,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T00:15:30.922+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
@@ -112,7 +120,15 @@
         "publishedAt": "2026-10-26T00:01:52.261+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "X, 2, 4",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T00:15:30.922+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [
       {
