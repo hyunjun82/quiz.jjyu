@@ -1,10 +1,33 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:01:52.262+09:00",
+  "updatedAt": "2026-10-26T00:03:01.447+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "롯데다운세일 구매이벤트 (1회차)",
+        "answer": "100",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:03:01.447+09:00"
+      }
+    ],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "지켜드림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:03:01.447+09:00"
+      },
+      {
+        "question": "KBO 규정상 외국인 선수가 포스트시즌 및 한국시리즈에 출전하기 위해서는 언제까지 소속 선수로 등록을 마쳐야 할까요?",
+        "answer": "8월 15일",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:03:01.447+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -22,7 +45,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "10월26일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "answer": "메디치 가문",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:03:01.447+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
