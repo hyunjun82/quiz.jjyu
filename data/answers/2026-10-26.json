@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:04:07.074+09:00",
+  "updatedAt": "2026-10-26T00:07:32.289+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -64,7 +64,15 @@
     ],
     "kb-star": [],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "10월26일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "비셀 고베",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:07:32.289+09:00"
+      }
+    ],
     "hana-life": [],
     "hana-travel": [],
     "monimo": [
