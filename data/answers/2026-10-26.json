@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:00:42.670+09:00",
+  "updatedAt": "2026-10-26T00:01:18.928+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO이란, 은행이 예금에 견줘 대출을 얼마나 내줬는지 보는 건전성 비율이에요.",
+        "answer": "예대율",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-26T00:01:18.927+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
