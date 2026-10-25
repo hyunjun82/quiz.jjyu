@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:01:18.928+09:00",
+  "updatedAt": "2026-10-26T00:01:52.262+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -48,7 +48,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "체크카드는 연결된 통장 잔액 범위 내에서만 결제할 수 있어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-26T00:01:52.261+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
