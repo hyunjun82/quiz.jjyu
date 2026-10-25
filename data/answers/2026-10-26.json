@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:20:32.388+09:00",
+  "updatedAt": "2026-10-26T00:21:20.186+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-26T00:03:01.447+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "큰 혜택",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T00:21:20.185+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "바로 증정",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T00:21:20.185+09:00"
       }
     ],
     "cashwalk": [],
@@ -77,19 +91,34 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-26T00:14:55.821+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T00:21:20.185+09:00"
       }
     ],
     "kbank": [],
     "hana-onq": [
       {
-        "question": "10월26일 하나은행 하나원큐 축구퀴즈 정답",
-        "answer": "비셀 고베",
+        "question": "Q. 내일 10월 27일(화), 2026/27 AFC 챔피언스리그 엘리트에서 대전하나시티즌과 맞붙는 일본 J리그 소속 팀은 어디일까요?",
+        "answer": "2. 비셀 고베",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-26T00:07:32.289+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T00:21:20.185+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
