@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T11:07:46.666+09:00",
+  "updatedAt": "2026-10-25T11:08:24.174+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,10 +68,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "AI 목표적금은 목표금액을 만기일보다 일찍 달성하면 바로 해지하는 것이 유리하다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-25T00:13:56.394+09:00"
       }
     ],
