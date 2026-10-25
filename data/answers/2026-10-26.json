@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:56:19.023+09:00",
+  "updatedAt": "2026-10-26T04:36:01.625+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -171,7 +171,7 @@
     "doctornow": [
       {
         "question": "주사피부염 환자 피부엔 모낭충이 더 많다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-26T00:15:30.922+09:00"
