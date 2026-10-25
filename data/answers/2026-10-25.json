@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T09:18:35.381+09:00",
+  "updatedAt": "2026-10-25T10:03:48.774+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,7 +69,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "1번 모의고사",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-25T10:03:48.773+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
