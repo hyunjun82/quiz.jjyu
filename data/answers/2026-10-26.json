@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:30:27.827+09:00",
+  "updatedAt": "2026-10-26T00:35:36.453+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -155,17 +155,25 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:35:36.452+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "주사피부염 환자 피부엔 모낭충이 더 많다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-26T00:15:30.922+09:00"
       }
     ],
