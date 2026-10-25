@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:03:34.505+09:00",
+  "updatedAt": "2026-10-26T00:04:07.074+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -98,7 +98,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "암 판정을 받은 경우 장기요양서비스를 받을 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-26T00:04:07.073+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
