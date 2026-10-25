@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T11:07:07.821+09:00",
+  "updatedAt": "2026-10-25T11:07:46.666+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -165,10 +165,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나은행에서 가입한 내 청약통장의 현재 순위는 영업점에서만 확인할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-25T00:16:51.931+09:00"
       }
     ],
