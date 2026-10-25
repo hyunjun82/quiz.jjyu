@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T07:12:27.435+09:00",
+  "updatedAt": "2026-10-26T07:17:38.954+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -40,6 +40,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-26T00:03:01.447+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (4회차)",
+        "answer": "3. 메리어트관",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-26T07:17:38.952+09:00"
       }
     ],
     "kakaobank": [
