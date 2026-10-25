@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T11:02:46.373+09:00",
+  "updatedAt": "2026-10-25T11:03:24.610+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-25T00:25:50.173+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (3회차)",
+        "answer": "33",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-25T11:03:24.610+09:00"
       }
     ],
     "cashwalk": [
