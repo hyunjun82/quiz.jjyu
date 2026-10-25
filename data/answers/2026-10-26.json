@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:15:30.922+09:00",
+  "updatedAt": "2026-10-26T00:20:32.388+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,7 +29,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "AI 목표적금은 설정한 목표금액보다 더 납입할 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-26T00:20:32.388+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
