@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T07:02:10.926+09:00",
+  "updatedAt": "2026-10-26T07:12:27.435+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -160,7 +160,15 @@
         "publishedAt": "2026-10-26T00:00:42.670+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "computer/broke, broke/down, labtop/broke",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T07:12:27.434+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
