@@ -1398,6 +1398,9 @@ const APPTECH_MAP = {
 // 지문 없이 정답만 오는 카드 중, 하루 한 문제라 고정 제목으로 받아도 되는 것 (2026-10-21).
 const APPTECH_NOQ_TITLE = {
   'quiz-shinhan-attendance': '신한 슈퍼SOL 출석 퀴즈',
+  // 2026-10-25: 기후행동도 앱테크는 지문 없이 정답만 준다. 퀴즈벨은 전날 정답 줄(O·X)을 같이 남겨
+  //   '전부 보류'로 빠지는 날이 생긴다(10/25 정답 O 누락). 퀴즈벨과 같은 제목을 써서 중복을 막는다.
+  'quiz-climate-action': (today) => `기후행동 기회소득 ${Number(today.slice(5, 7))}월 ${Number(today.slice(8, 10))}일 오늘의 퀴즈 문제`,
 };
 
 // 같은 차단 사유를 폴링마다(30초) 반복 출력하지 않는다 — 한 실행에 한 번만.
@@ -1455,7 +1458,10 @@ function parseApptech(html, today) {
     // 2026-10-21: 신한 슈퍼SOL 출석퀴즈는 앱테크가 지문 없이 정답만 올리고, 다른 소스는 거의 다루지 않는다.
     //   그래서 10/11·10/21 처럼 이 퀴즈만 통째로 빠졌다. 하루 한 문제라 고정 제목으로 받아도 중복이 생기지 않는다.
     //   (어제 값 이월은 위의 '지난 정답 첫 줄' 비교가 이미 막는다.)
-    if ((!question || question.length < 8) && APPTECH_NOQ_TITLE[ids[i].id]) question = APPTECH_NOQ_TITLE[ids[i].id];
+    if ((!question || question.length < 8) && APPTECH_NOQ_TITLE[ids[i].id]) {
+      const t = APPTECH_NOQ_TITLE[ids[i].id];
+      question = typeof t === 'function' ? t(today) : t;
+    }
     if (!question || question.length < 8) {
       const tag = `${slug}|noq|${answer}`;
       if (!APPTECH_REPORTED.has(tag)) {
