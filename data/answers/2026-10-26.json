@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:23:38.890+09:00",
+  "updatedAt": "2026-10-26T00:30:27.827+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,7 +42,15 @@
         "publishedAt": "2026-10-26T00:03:01.447+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기 (1회차)",
+        "answer": "① 메디치 가문",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-26T00:30:27.826+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "AI 목표적금은 설정한 목표금액보다 더 납입할 수 있다",
@@ -55,7 +63,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "경기도의 미세먼지 배출량 감소 정책의 결과, 2024년 경기도의 초미세먼지 '좋음' 등급 일수는 전년 대비 증가했다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T00:30:27.827+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]H.Point 쿠폰딜에선 구글 기프트카드, 티빙 이용권 등 다양한 모바일 상품권을 구매할 수 있습니다.쿠폰딜 서비스 상품의 최대 할인율은 얼마일까요?",
