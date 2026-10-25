@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T08:11:40.354+09:00",
+  "updatedAt": "2026-10-26T08:15:01.653+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,32 +51,11 @@
     ],
     "kakaobank": [
       {
-        "question": "사물 관련 이모지 보고 퀴즈 풀기 (1회차)",
-        "answer": "① 메디치 가문",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-10-26T00:30:27.826+09:00"
-      },
-      {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
-        "answer": "4번",
-        "note": "",
-        "source": "tipistip",
-        "publishedAt": "2026-10-26T06:46:43.860+09:00"
-      },
-      {
         "question": "AI 이모지 퀴즈 (아침 8시) (3회차)",
         "answer": "채점",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-26T08:04:42.154+09:00"
-      },
-      {
-        "question": "AI 이모지 퀴즈 (아침 8시) (4회차)",
-        "answer": "인지적 탐색 과정",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-10-26T08:11:40.353+09:00"
       }
     ],
     "kakaobank-ox": [

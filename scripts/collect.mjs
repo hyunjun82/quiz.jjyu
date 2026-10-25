@@ -1486,7 +1486,26 @@ function parseApptech(html, today) {
     if (!seen.has(k)) seen.set(k, new Set());
     seen.get(k).add(it.slug);
   }
+  // 2026-10-26: 정답이 옆 칸으로 새는 경우도 있다. 00:30 카카오뱅크 이모지 칸에 올원뱅크 정답
+  //   "① 메디치 가문"이 붙어 발행됐다. 서로 다른 퀴즈 두 칸에 같은 정답(O/X·짧은 숫자 제외)이 있으면 둘 다 버린다.
+  const an = (x) => String(x || '').replace(/[^가-힣A-Za-z0-9]/g, '').replace(/^[0-9]+/, '');
+  const ansSeen = new Map();
+  for (const it of out) {
+    const k = an(it.answer);
+    if (k.length < 2 || /^(O|X|그렇다|아니다|맞아요|아니에요|아니요)+$/i.test(k)) continue;
+    if (!ansSeen.has(k)) ansSeen.set(k, new Set());
+    ansSeen.get(k).add(it.slug);
+  }
   return out.filter((it) => {
+    const as = ansSeen.get(an(it.answer));
+    if (as && as.size > 1) {
+      const tag = `aleak|${an(it.answer)}`;
+      if (!APPTECH_REPORTED.has(tag)) {
+        APPTECH_REPORTED.add(tag);
+        console.log(`앱테크 정답 누수 차단 [${[...as].join(',')}] "${it.answer}"`);
+      }
+      return false;
+    }
     const slugs = seen.get(qn(it.question));
     if (slugs.size <= 1) return true;
     const tag = `leak|${qn(it.question).slice(0, 20)}`;
