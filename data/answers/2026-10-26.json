@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T00:21:20.186+09:00",
+  "updatedAt": "2026-10-26T00:21:53.596+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -112,10 +112,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "1년간 하나원큐를 로그인하지 않으면 하나원큐 로그인이 제한된다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-26T00:21:20.185+09:00"
       }
     ],
