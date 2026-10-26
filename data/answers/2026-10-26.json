@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T11:02:30.213+09:00",
+  "updatedAt": "2026-10-26T11:04:11.813+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -407,7 +407,15 @@
         "publishedAt": "2026-10-26T11:02:30.204+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T11:04:11.805+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "암 판정을 받은 경우 장기요양서비스를 받을 수 있다?",
