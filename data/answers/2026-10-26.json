@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T16:02:49.269+09:00",
+  "updatedAt": "2026-10-26T18:44:03.001+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -596,7 +596,15 @@
         "publishedAt": "2026-10-26T00:00:42.670+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 마이밀",
+        "answer": "단백질",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T18:44:02.990+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
