@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T10:15:27.439+09:00",
+  "updatedAt": "2026-10-26T10:17:47.630+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -256,10 +256,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "중국 홀리랜드에서 카카오페이로 결제하고 OO위안 즉시할인 받아요!",
         "answer": "18",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-26T10:12:27.382+09:00"
       }
     ],
