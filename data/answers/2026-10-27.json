@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T08:03:15.279+09:00",
+  "updatedAt": "2026-10-27T08:07:05.441+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,6 +83,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-27T00:03:18.275+09:00"
+      },
+      {
+        "question": "Al영양분석을 하는 목적은?",
+        "answer": "건강 관리",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-27T08:07:05.440+09:00"
       }
     ],
     "kakaobank": [
