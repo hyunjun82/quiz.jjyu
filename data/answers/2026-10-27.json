@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:02:09.297+09:00",
+  "updatedAt": "2026-10-27T00:03:18.276+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -62,14 +62,37 @@
         "publishedAt": "2026-10-27T00:00:28.281+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "최대 100만원 여행상품권",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-27T00:03:18.275+09:00"
+      },
+      {
+        "question": "2026 KBO 플레이오프 1차전에 맞춰 SOL야구에서 선보인 이벤트로 경기 승패와 주요 기록을 맞혀 빙고판을 완성하는 예측 게임의 이름은 무엇일까요?",
+        "answer": "SOL빙고",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-27T00:03:18.275+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]눈부시게 빛나는 파리의 밤을 담은 홀리데이 컬렉션을 전개하는 겔랑은 10/26~11/1까지 더현대Hi 브랜드위크를 진행하고 있습니다.다음 중 이번주 더현대Hi에서 받을 수 있는 겔랑의 혜택이 아닌 것은 무엇일까요?",
+        "answer": "모든 구매 구객 20/50만원 이상 구매 시 2/5만 H.Point 적립",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-27T00:03:18.275+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOO란, 사망한 사람의 재산을 물려받을 때 상속인에게 매기는 세금이에요.",
