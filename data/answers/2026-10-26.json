@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T12:01:12.211+09:00",
+  "updatedAt": "2026-10-26T12:02:57.503+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,6 +37,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-26T10:13:00.569+09:00"
+      },
+      {
+        "question": "스킨1004 넾다세일 (6회차)",
+        "answer": "50",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T12:02:57.488+09:00"
       }
     ],
     "cashwalk": [
@@ -204,6 +211,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-26T08:04:42.154+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "신발끈",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T12:02:57.494+09:00"
       }
     ],
     "kakaobank-ox": [
