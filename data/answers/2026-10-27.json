@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:46:12.664+09:00",
+  "updatedAt": "2026-10-27T00:51:19.866+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -213,7 +213,15 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "12월부터 비대면 진료가 불편해질 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-27T00:51:19.865+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
