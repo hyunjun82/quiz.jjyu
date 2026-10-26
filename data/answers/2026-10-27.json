@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:04:23.409+09:00",
+  "updatedAt": "2026-10-27T00:19:36.573+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -79,7 +79,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T00:19:36.572+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -104,10 +112,33 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "answer": "4. 대한민국 임시 정부가 수립되었다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T00:19:36.572+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "1번 금융",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T00:19:36.572+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T00:19:36.572+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
