@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T14:49:39.372+09:00",
+  "updatedAt": "2026-10-26T14:51:00.129+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -195,13 +195,6 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-26T07:17:38.952+09:00"
-      },
-      {
-        "question": "KB Pay 쇼핑 매일10시 특가 상품인 '더 퓨어 맥스 가습기'는 어떤 방식으로 가습할까요?",
-        "answer": "3. 메리어트관",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-10-26T10:15:27.422+09:00"
       }
     ],
     "kakaobank": [
@@ -303,6 +296,90 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-26T11:50:36.944+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "페르니 메디테이션 향기로운 탈모케어",
+        "answer": "독일산, 녹나무잎, 하수오뿌리, 유해성분무첨가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "일상미당 콩쑥개떡 우리가족 최애 간식",
+        "answer": "송편, 국내산, 해풍쑥, 해썹인증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "소비자24 24시 열린 소비자 포털",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "소비자24 간편하게 안전정보 확인",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "G라이브 구달 세럼 비타C잡티케어세럼 알파",
+        "answer": "더블",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "소비자24 내가 받은 피해 어디서 구제 신청하지",
+        "answer": "피해구제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
+      },
+      {
+        "question": "G라이브 이지덤 상처 트러블 케어 입점특가",
+        "answer": "스타배송",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T14:51:00.129+09:00"
       }
     ],
     "climate-action": [

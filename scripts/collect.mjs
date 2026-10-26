@@ -1419,6 +1419,18 @@ function parseApptech(html, today) {
     .sort((a, b) => a.at - b.at);
 
   const out = [];
+  // 2026-10-26: 지문 누수 검사용 — 우리가 안 받는 칸(KB Pay·토스 등)까지 페이지의 모든 칸 지문을 기록한다.
+  //   10:15 신한 출석 칸에 KB Pay 지문이 붙어 "가습기 방식 = 3. 메리어트관" 이 발행됐다.
+  const allQ = [];
+  {
+    const cards = [...html.matchAll(/id="(quiz-[^"]+)"/g)].map((m) => ({ id: m[1], at: m.index }));
+    for (let i = 0; i < cards.length; i += 1) {
+      const full = html.slice(cards[i].at, i + 1 < cards.length ? cards[i + 1].at : html.length);
+      const past = full.indexOf('지난 정답');
+      const qm = (past > 0 ? full.slice(0, past) : full).match(/>Q\.\s*(?:<!--\s*-->)?\s*([\s\S]*?)<\/p>/);
+      if (qm) allQ.push({ slug: APPTECH_MAP[cards[i].id] || cards[i].id, q: clean(qm[1]) });
+    }
+  }
   for (let i = 0; i < ids.length; i += 1) {
     const end = i + 1 < ids.length ? ids[i + 1].at : html.length;
     const full = html.slice(ids[i].at, end);
@@ -1428,6 +1440,8 @@ function parseApptech(html, today) {
 
     const q = seg.match(/>Q\.\s*(?:<!--\s*-->)?\s*([\s\S]*?)<\/p>/);
     const a = seg.match(/>정답:\s*(?:<!--\s*-->)?\s*([\s\S]*?)<\/p>/);
+    // 2026-10-26: 정답 없는 칸의 지문도 기록한다. 10:15 신한 출석 칸에 KB Pay 지문이 붙어
+    //   "가습기 방식 = 3. 메리어트관" 이 발행됐다(KB Pay 칸은 그때 정답이 없어 아래 누수 검사에 안 걸렸다).
     if (!a) continue;
     const answer = clean(a[1]);
     if (!isSaneAnswer(answer)) continue;
@@ -1481,7 +1495,7 @@ function parseApptech(html, today) {
   // 틀린 짝을 싣는 것보다 잠깐 비는 게 낫다.
   const qn = (x) => String(x || '').replace(/[^가-힣0-9A-Za-z]/g, '');
   const seen = new Map();
-  for (const it of out) {
+  for (const it of [...out, ...allQ.map((x) => ({ slug: x.slug, question: x.q }))]) {
     const k = qn(it.question);
     if (!seen.has(k)) seen.set(k, new Set());
     seen.get(k).add(it.slug);
@@ -2101,7 +2115,9 @@ function recordTombstone(today, slug, item, reason) {
 //   9/8~9/15 'X'(7일) · 9/15~ '분홍빛을 띠고 매끄럽다'
 // 며칠씩 같은 것이 정상이므로 '어제와 동일' 차단을 걸면 안 된다.
 // (9/17 한 번 뺐다가 오판으로 확인해 되돌림 — 다시 빼지 말 것.)
-const REPEAT_OK = new Set(['yes24', 'monimo', 'cashwalk']);
+// cashdoc(캐시닥 용돈퀴즈): 캐시워크처럼 광고 퀴즈가 여러 날 이어진다. 2026-10-26 실측 — 타임스프레드·소비자24·
+//   페르니 등 같은 문항이 10/22·10/24·10/25·10/26 퀴즈벨에 매일 실렸는데, 이 차단 때문에 하루걸러(10/23·10/26) 통째로 빠졌다.
+const REPEAT_OK = new Set(['yes24', 'monimo', 'cashwalk', 'cashdoc']);
 
 function loadYesterdayKeys(today) {
   const d = new Date(`${today}T00:00:00Z`);
