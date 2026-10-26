@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:24:45.212+09:00",
+  "updatedAt": "2026-10-27T00:30:47.398+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -164,7 +164,15 @@
         "publishedAt": "2026-10-27T00:01:04.430+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "color/suit, dress/suit, hat/suit",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T00:30:47.397+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
