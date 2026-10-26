@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T10:05:29.703+09:00",
+  "updatedAt": "2026-10-26T10:11:51.909+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -205,10 +205,10 @@
     ],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay 쇼핑 매일10시 특가 상품인 ‘더 퓨어 맥스 가습기’는 어떤 방식으로 가습할까요?",
         "answer": "2번 가열식",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-26T10:05:29.696+09:00"
       }
     ],
