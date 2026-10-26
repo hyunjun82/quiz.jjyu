@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T11:38:19.257+09:00",
+  "updatedAt": "2026-10-26T11:46:40.881+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -261,6 +261,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-26T11:38:19.240+09:00"
+      },
+      {
+        "question": "멜라듀스 브라이트닝 앰플 (5회차)",
+        "answer": "미백, 피부톤",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T11:46:40.870+09:00"
       }
     ],
     "climate-action": [
