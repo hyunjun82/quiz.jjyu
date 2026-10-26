@@ -1,28 +1,14 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T08:17:05.751+09:00",
+  "updatedAt": "2026-10-27T08:49:12.217+09:00",
   "answers": {
     "toss-lucky": [
       {
-        "question": "26년 매월 200억까지 모음에서 국내주식 거래하면 OOOO 수수료도 0원이에요",
-        "answer": "유관기관",
-        "note": "",
-        "source": "gametoc",
-        "publishedAt": "2026-10-27T00:00:28.281+09:00"
-      },
-      {
-        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (2회차)",
-        "answer": "계좌개설",
-        "note": "",
-        "source": "gametoc",
-        "publishedAt": "2026-10-27T00:00:28.281+09:00"
-      },
-      {
-        "question": "대표 100개 브랜드 구매 고객 5명 추첨 OOO만 엘포인트 드려요",
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전)",
         "answer": "100퍼 당첨룰렛",
         "note": "",
         "source": "tipistip",
-        "publishedAt": "2026-10-27T00:00:28.281+09:00"
+        "publishedAt": "2026-10-27T00:24:00.000+09:00"
       },
       {
         "question": "토스 두근두근 1등 찍기 팀플전 (오후) (4회차)",
@@ -93,13 +79,6 @@
       }
     ],
     "kakaobank": [
-      {
-        "question": "사물 관련 이모지 보고 퀴즈 풀기 (1회차)",
-        "answer": "② 파블로 피카소",
-        "note": "",
-        "source": "apptech",
-        "publishedAt": "2026-10-27T00:41:03.909+09:00"
-      },
       {
         "question": "AI 이모지 퀴즈 (아침 8시) (2회차)",
         "answer": "캠핑용품",

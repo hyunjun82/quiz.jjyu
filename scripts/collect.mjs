@@ -1447,6 +1447,16 @@ function parseApptech(html, today) {
     if (!isSaneAnswer(answer)) continue;
 
     const slug = APPTECH_MAP[ids[i].id];
+    // 2026-10-27: 카카오뱅크 이모지 퀴즈는 보기 번호가 없는 단어 정답이다. 그런데 자정 무렵 이 칸에
+    //   올원뱅크 정답("① 메디치 가문" 10/26, "② 파블로 피카소" 10/27)이 이틀 연속 먼저 떴다. 번호 달린 답은 받지 않는다.
+    if (slug === 'kakaobank' && /^\s*([①-⑩]|\d+\s*[.번)])/.test(answer)) {
+      const tag = `${slug}|numbered|${answer}`;
+      if (!APPTECH_REPORTED.has(tag)) {
+        APPTECH_REPORTED.add(tag);
+        console.log(`앱테크 카카오뱅크 이모지 칸 번호 정답 차단 "${answer}" — 다른 퀴즈 정답이 샌 것`);
+      }
+      continue;
+    }
 
     // ⚠️ 2026-09-13 실측 — 이 소스의 가장 큰 함정.
     // 페이지 머리의 날짜는 오늘인데, 아직 새 문제가 안 나온 카드는 "정답:" 칸에
