@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T20:05:25.685+09:00",
+  "updatedAt": "2026-10-26T20:07:11.729+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -218,6 +218,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-26T12:02:57.494+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (3회차)",
+        "answer": "은하수",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-26T20:07:11.717+09:00"
       }
     ],
     "kakaobank-ox": [
