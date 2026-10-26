@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T08:59:43.319+09:00",
+  "updatedAt": "2026-10-26T09:02:41.410+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,7 +67,15 @@
         "publishedAt": "2026-10-26T00:20:32.388+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오전 9시 상금 200만원X8명 럭키 투자대회 시작!",
+        "answer": "KB",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T09:02:41.407+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
