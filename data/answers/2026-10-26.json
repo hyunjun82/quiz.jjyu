@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T11:20:24.869+09:00",
+  "updatedAt": "2026-10-26T11:23:15.422+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -240,6 +240,20 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-26T11:20:24.853+09:00"
+      },
+      {
+        "question": "멕시카나 치필링 (2회차)",
+        "answer": "고추화삭",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T11:23:15.411+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 앰플 (3회차)",
+        "answer": "3, 두피",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-26T11:23:15.411+09:00"
       }
     ],
     "climate-action": [
