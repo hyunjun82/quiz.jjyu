@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T07:02:59.141+09:00",
+  "updatedAt": "2026-10-27T08:03:15.279+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,6 +92,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-27T00:41:03.909+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (2회차)",
+        "answer": "캠핑용품",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-27T08:03:15.277+09:00"
       }
     ],
     "kakaobank-ox": [
