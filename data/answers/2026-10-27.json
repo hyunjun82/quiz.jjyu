@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:21:20.838+09:00",
+  "updatedAt": "2026-10-27T00:24:45.212+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -19,10 +19,17 @@
       },
       {
         "question": "대표 100개 브랜드 구매 고객 5명 추첨 OOO만 엘포인트 드려요",
-        "answer": "100",
+        "answer": "100퍼 당첨룰렛",
         "note": "",
-        "source": "gametoc",
+        "source": "tipistip",
         "publishedAt": "2026-10-27T00:00:28.281+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (4회차)",
+        "answer": "선착순쿠폰",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T00:24:45.211+09:00"
       }
     ],
     "cashwalk": [
