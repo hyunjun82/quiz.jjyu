@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:51:19.866+09:00",
+  "updatedAt": "2026-10-27T02:54:11.986+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -157,6 +157,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-27T00:19:36.572+09:00"
+      },
+      {
+        "question": "10월27일 KB스타뱅킹 스타퀴즈 정답 (3회차)",
+        "answer": "1 금융",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-27T02:54:11.985+09:00"
       }
     ],
     "kbank": [
