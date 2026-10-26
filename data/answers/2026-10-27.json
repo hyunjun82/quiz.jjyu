@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:30:47.398+09:00",
+  "updatedAt": "2026-10-27T00:35:54.919+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -88,10 +88,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "AI 목표적금의 매월저축 우대금리는, 자동이체로 저축해야만 받을 수 있다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-27T00:19:36.572+09:00"
       }
     ],
@@ -142,9 +142,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-27T00:21:20.837+09:00"
+      },
+      {
+        "question": "기업의 강점·약점·기회·위협을 분석해 전략을 수립하는 경영 분석 도구는?",
+        "answer": "② SWOT 분석",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-27T00:35:54.917+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "오늘 2026/27 AFC 챔피언스리그 엘리트 대전하나시티즌 vs 비셀 고베의 경기가 펼쳐지는 경기장은 어디일까요?",
+        "answer": "④ 대전월드컵경기장",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-27T00:35:54.917+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
@@ -181,10 +196,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "아세트아미노펜 해열제는 생후 4개월부터 먹일 수 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-27T00:02:09.296+09:00"
       }
     ],
