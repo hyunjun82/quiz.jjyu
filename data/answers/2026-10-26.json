@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T10:13:00.580+09:00",
+  "updatedAt": "2026-10-26T10:15:27.439+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -174,6 +174,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-26T07:17:38.952+09:00"
+      },
+      {
+        "question": "KB Pay 쇼핑 매일10시 특가 상품인 '더 퓨어 맥스 가습기'는 어떤 방식으로 가습할까요?",
+        "answer": "3. 메리어트관",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-26T10:15:27.422+09:00"
       }
     ],
     "kakaobank": [
