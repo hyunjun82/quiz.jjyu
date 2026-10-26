@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:01:04.430+09:00",
+  "updatedAt": "2026-10-27T00:01:36.331+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -106,7 +106,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "정기적금은 한 번에 목돈을 넣고 나중에 찾는 상품이에요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-27T00:01:36.330+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
