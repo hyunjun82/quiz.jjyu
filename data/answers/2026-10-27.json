@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T00:35:54.919+09:00",
+  "updatedAt": "2026-10-27T00:41:03.910+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,7 +85,15 @@
         "publishedAt": "2026-10-27T00:03:18.275+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "사물 관련 이모지 보고 퀴즈 풀기 (1회차)",
+        "answer": "② 파블로 피카소",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-27T00:41:03.909+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "AI 목표적금의 매월저축 우대금리는, 자동이체로 저축해야만 받을 수 있다",
@@ -98,7 +106,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "‘CDR’이란 대기 중 이산화탄소를 포집하여 대기로부터 이산화탄소를 제거하는 기술을 말한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-27T00:41:03.909+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]눈부시게 빛나는 파리의 밤을 담은 홀리데이 컬렉션을 전개하는 겔랑은 10/26~11/1까지 더현대Hi 브랜드위크를 진행하고 있습니다.다음 중 이번주 더현대Hi에서 받을 수 있는 겔랑의 혜택이 아닌 것은 무엇일까요?",
@@ -128,10 +144,10 @@
         "publishedAt": "2026-10-27T00:19:36.572+09:00"
       },
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "question": "매년 10월 마지막 화요일 OO의 날은 금융에 대한 국민의 관심을 높이기 위해 지정된 법정기념일이다",
         "answer": "1번 금융",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-27T00:19:36.572+09:00"
       }
     ],
@@ -162,10 +178,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "요즘 고민이 하나 있는데 누구한테 물어보긴 애매하다면 놀이터 고민타파에 방문하면 된다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-27T00:19:36.572+09:00"
       }
     ],
