@@ -1,8 +1,23 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T06:07:31.641+09:00",
+  "updatedAt": "2026-10-28T06:17:59.793+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "페이스체크, 기록확인",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T06:17:59.793+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "음악과 함께",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T06:17:59.793+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "리비힐 엑소좀 크림은 피부 개선 및 안티에이징에 관심이 많은 분, ㅇㅇㅇ와 거친 피부결이 고민인 분에게 추천하는 제품입니다. ㅇㅇㅇ는 무엇일까요? (초성 : ㅅㄱㅈ)",
@@ -36,8 +51,24 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
-    "ok-cashbag": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T06:17:59.793+09:00"
+      }
+    ],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 퀴즈풀고 오또받기 (1회차)",
+        "answer": "상품을10초이상",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T06:17:59.793+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
