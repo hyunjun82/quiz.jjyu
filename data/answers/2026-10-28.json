@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T00:23:40.034+09:00",
+  "updatedAt": "2026-10-28T00:25:21.477+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -68,11 +68,43 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
-    "kb-star": [],
+    "nh-allone": [
+      {
+        "question": "NH올원뱅크의 등굣길그리기에서 그리기 제한시간은 몇 초일까요?",
+        "answer": "② 7초",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T00:25:21.477+09:00"
+      }
+    ],
+    "kb-star": [
+      {
+        "question": "AI 미들 그라운드란 인공지능의 잠재력과 위험을 동시에 인정하는 접근법이다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T00:25:21.476+09:00"
+      }
+    ],
     "kbank": [],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "하나은행 K리그1 2026 파이널라운드는 파이널 A와 파이널 B로 나뉘어 진행됩니다. 각 그룹은 총 몇 라운드로 진행될까요?",
+        "answer": "① 5 라운드",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T00:25:21.476+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐에서는 ETF상품을 가입할 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T00:25:21.476+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
