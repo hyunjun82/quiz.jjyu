@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T07:03:58.340+09:00",
+  "updatedAt": "2026-10-28T07:19:19.313+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-28T00:02:54.035+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "3. 신용카드 가입",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T07:19:19.312+09:00"
       }
     ],
     "kakaobank": [],
