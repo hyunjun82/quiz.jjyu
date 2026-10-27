@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T00:25:21.477+09:00",
+  "updatedAt": "2026-10-28T00:30:28.769+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -86,7 +86,15 @@
         "publishedAt": "2026-10-28T00:25:21.476+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "10.28(수) 오후 12:30에 시작되는 AI 퀴즈 챌린지의 라이브 퀴즈",
+        "answer": "우승 총 상금 1,000만원",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T00:30:28.769+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "하나은행 K리그1 2026 파이널라운드는 파이널 A와 파이널 B로 나뉘어 진행됩니다. 각 그룹은 총 몇 라운드로 진행될까요?",
@@ -126,7 +134,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "신용카드 대금을 결제일에 제때 갚지 못하면 연체료가 붙을 수 있어요.",
+        "answer": "O (맞아요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T00:30:28.769+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [
