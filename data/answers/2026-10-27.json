@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T18:10:55.687+09:00",
+  "updatedAt": "2026-10-27T18:24:06.520+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -597,7 +597,15 @@
         "publishedAt": "2026-10-27T00:01:04.430+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 일리윤",
+        "answer": "민감보습",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T18:24:06.506+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
