@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T10:00:46.621+09:00",
+  "updatedAt": "2026-10-27T10:01:19.001+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -104,7 +104,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB트래블러스 체크 마스터 브랜드 카드로 해외에서 얼마 이상…(후략)",
+        "answer": "150달러(USD)",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-10-27T10:01:18.995+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
