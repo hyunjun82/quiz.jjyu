@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T00:09:31.835+09:00",
+  "updatedAt": "2026-10-28T00:23:40.034+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -40,7 +40,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "이상기후로 인한 쌀 품질의 저하로 밥맛이 떨어질 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T00:23:40.034+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]품격 있는 서비스와 세계적인 럭셔리 호텔로 사랑받는 주메이라(Jumeirah).더현대Hi에서 주메이라의 특별한 여행 상품을 만나보세요. 다음 중 세계적인 럭셔리 호텔 브랜드 '주메이라'의 대표적인 여행지가 아닌 곳은 어디일까요?",
