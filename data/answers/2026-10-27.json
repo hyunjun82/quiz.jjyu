@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T18:24:06.520+09:00",
+  "updatedAt": "2026-10-27T20:00:45.448+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -250,6 +250,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-27T10:30:15.677+09:00"
+      },
+      {
+        "question": "오후 8시 나비엔 바스케어 롯데 상품권 증정!",
+        "answer": "축",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-27T20:00:45.427+09:00"
       }
     ],
     "kbpay": [
