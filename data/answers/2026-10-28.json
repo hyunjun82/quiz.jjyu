@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T06:17:59.793+09:00",
+  "updatedAt": "2026-10-28T06:23:07.738+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -161,7 +161,15 @@
         "publishedAt": "2026-10-28T00:01:46.716+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "extend/deadline, push/back, deadline/firm",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T06:23:07.738+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
