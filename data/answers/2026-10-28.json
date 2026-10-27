@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T00:00:07.244+09:00",
+  "updatedAt": "2026-10-28T00:00:43.374+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -51,7 +51,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "이 책을 추천한 사람은?",
+        "answer": "현직 역사 교사 100인",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-28T00:00:43.373+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
