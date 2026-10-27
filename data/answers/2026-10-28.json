@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T00:30:28.769+09:00",
+  "updatedAt": "2026-10-28T00:35:35.669+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -21,10 +21,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "매시간 황금알' 서비스에서 하루 5회 이상 황금알을 깨면, 추첨을 통해 어떤 경품을 받을 수 있을까요?",
         "answer": "맘스터치 싸이버거",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-28T00:02:54.035+09:00"
       },
       {
@@ -130,7 +130,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "철분이 부족하면 집중력이 떨어지고 졸음이 올 수 있다",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-28T00:35:35.669+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
