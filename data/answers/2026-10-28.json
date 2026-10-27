@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T00:03:26.074+09:00",
+  "updatedAt": "2026-10-28T00:04:34.200+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -81,7 +81,15 @@
     "bitbunny-ox": [],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "생선을 먹으면 심장질환 예방에 효과적이다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-28T00:04:34.200+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책을 추천한 사람은?",
