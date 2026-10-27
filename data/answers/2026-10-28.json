@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T00:01:46.716+09:00",
+  "updatedAt": "2026-10-28T00:02:54.035+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,22 @@
         "publishedAt": "2026-10-28T00:00:07.243+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "맘스터치 싸이버거",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T00:02:54.035+09:00"
+      },
+      {
+        "question": "서울시 잠실 스포츠 마이스 복합개발 사업에 따라 기존 잠실야구장 자리에 건립 예정인 최첨단 돔구장의 개장 예정 연도는 언제일까요?",
+        "answer": "2032년",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T00:02:54.035+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
