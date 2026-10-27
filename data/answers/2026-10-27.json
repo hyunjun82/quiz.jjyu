@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T11:03:22.488+09:00",
+  "updatedAt": "2026-10-27T11:05:05.448+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -415,7 +415,15 @@
         "publishedAt": "2026-10-27T11:03:22.478+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-27T11:05:05.437+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "단백질 섭취는 욕창 회복에 중요하다?",
