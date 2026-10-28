@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prebuild": "node scripts/shop-images.mjs"
+    "prebuild": "node scripts/shop-images.mjs",
+    "postbuild": "node scripts/gen-redirects.mjs"
   },
   "dependencies": {
     "next": "^15.3.4",
