@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T00:40:36.875+09:00",
+  "updatedAt": "2026-10-29T00:46:35.054+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,13 +76,21 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "파블로 피카소의 「게르니카」는 제2차 세계대전이 끝난 이후인 1946년에 제작된 작품이다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-29T00:46:35.051+09:00"
+      }
+    ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "청년 버팀목 전세자금대출의 조건으로 틀린 것은 무엇일까요?",
         "answer": "2번 세대원",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-29T00:09:13.340+09:00"
       },
       {
@@ -150,10 +158,10 @@
     "woori-festa": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "할부 개월 수가 길어질수록 총 이자 부담은 항상 줄어들어요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-29T00:07:15.518+09:00"
       }
     ],
