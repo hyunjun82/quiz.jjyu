@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-29",
+  "updatedAt": "2026-10-29T00:00:39.727+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "hana-travel": [],
+    "monimo": [],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "harim-real": [],
+    "woori-festa": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [
+      {
+        "question": "일제 강점기 기간은 몇 년일까요?",
+        "answer": "35년",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-29T00:00:39.727+09:00"
+      }
+    ],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
