@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T12:02:32.590+09:00",
+  "updatedAt": "2026-10-28T13:05:13.387+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -296,6 +296,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-28T10:06:41.087+09:00"
+      },
+      {
+        "question": "□□에서 신규가입 하고 5만원 혜택 받아가세요!",
+        "answer": "머니 빗썸",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-28T13:05:13.373+09:00"
       }
     ],
     "nh-allone": [
