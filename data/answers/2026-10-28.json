@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T10:03:37.483+09:00",
+  "updatedAt": "2026-10-28T10:05:00.380+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -205,10 +205,10 @@
     ],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월28일",
+        "question": "고향사랑기부제로 10만원을 기부하면 세액 공제 혜택과 함께…(후략)",
         "answer": "30%",
         "note": "",
-        "source": "blog",
+        "source": "bizwnews",
         "publishedAt": "2026-10-28T10:03:37.462+09:00"
       }
     ],
@@ -331,7 +331,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "2900",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T10:05:00.370+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
