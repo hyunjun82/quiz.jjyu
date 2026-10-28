@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T00:19:24.040+09:00",
+  "updatedAt": "2026-10-29T00:30:21.224+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,6 +92,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-29T00:09:13.340+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (2회차)",
+        "answer": "크루아상",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-29T00:30:21.223+09:00"
       }
     ],
     "hana-onq": [],
