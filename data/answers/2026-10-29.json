@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T03:35:36.366+09:00",
+  "updatedAt": "2026-10-29T06:17:48.882+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -177,7 +177,7 @@
     "doctornow": [
       {
         "question": "금연 후 금단증상은 24~72시간 사이에 가장 심하다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-29T00:03:35.968+09:00"
