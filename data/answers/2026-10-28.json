@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T10:05:00.380+09:00",
+  "updatedAt": "2026-10-28T10:06:41.096+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -240,7 +240,15 @@
         "publishedAt": "2026-10-28T00:09:31.834+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "빗썸",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T10:06:41.087+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "NH올원뱅크의 등굣길그리기에서 그리기 제한시간은 몇 초일까요?",
