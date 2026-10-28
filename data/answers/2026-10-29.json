@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T07:34:48.747+09:00",
+  "updatedAt": "2026-10-29T08:03:31.958+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,7 +42,15 @@
         "publishedAt": "2026-10-29T07:34:48.746+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "치킨무",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-29T08:03:31.957+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
