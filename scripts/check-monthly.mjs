@@ -30,8 +30,21 @@ const load = (d) => JSON.parse(fs.readFileSync(`data/answers/${d}.json`, 'utf8')
 const monthDates = dates.filter((d) => d.startsWith(ym));
 const latestData = load(latest);
 
+// 2026-10-28: GitHub Actions 서버에서 실제 사이트를 열면 Cloudflare 가 403(봇 차단)을 준다.
+//   그래서 방금 빌드해 그대로 올린 out/ 폴더를 본다(= 배포된 파일과 같다). 로컬에서 LIVE=1 이면 실제 사이트를 연다.
+const LIVE = process.env.LIVE === '1' || !fs.existsSync('out/sitemap.xml');
+function fromOut(url) {
+  let path = url.replace(SITE, 'out');
+  if (path.endsWith('/')) path += 'index.html';
+  try {
+    return { status: 200, text: fs.readFileSync(path, 'utf8') };
+  } catch {
+    return { status: 404, text: '' };
+  }
+}
 const bust = () => `?chk=${Date.now()}${Math.random().toString(36).slice(2, 6)}`;
 async function get(url) {
+  if (!LIVE) return fromOut(url);
   for (let i = 0; i < 3; i++) {
     try {
       const r = await fetch(url + bust(), { signal: AbortSignal.timeout(20000) });
@@ -81,6 +94,6 @@ if (Number(latest.slice(8, 10)) <= 3) {
   }
 }
 
-console.log(`[월간 모음 점검] 기준 ${latest} · ${month}월 모음 ${ok}/${quizzes.length}개 확인 · 문제 ${problems.length}건`);
+console.log(`[월간 모음 점검] ${LIVE ? '실제 사이트' : '배포 파일(out/)'} · 기준 ${latest} · ${month}월 모음 ${ok}/${quizzes.length}개 확인 · 문제 ${problems.length}건`);
 for (const p of problems) console.log(`::error::${p}`);
 process.exit(problems.length ? 1 : 0);
