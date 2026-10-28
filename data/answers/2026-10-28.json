@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T11:01:27.192+09:00",
+  "updatedAt": "2026-10-28T11:03:08.091+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -429,7 +429,15 @@
         "publishedAt": "2026-10-28T11:01:27.183+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T11:03:08.081+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "생선을 먹으면 심장질환 예방에 효과적이다?",
