@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T00:10:57.232+09:00",
+  "updatedAt": "2026-10-29T00:17:41.473+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -91,7 +91,15 @@
         "publishedAt": "2026-10-29T00:01:15.238+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Good/seeing, Nice/see, wish/never",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-29T00:17:41.473+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
