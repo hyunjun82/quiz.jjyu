@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T00:35:28.684+09:00",
+  "updatedAt": "2026-10-29T00:40:36.875+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,7 +48,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후변화로 인해 해수면이 상승하면 고도가 낮은 섬나라에 큰 위협이 되어 삶의 터전을 두고 떠나야 하는 경우가 생길 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-29T00:40:36.875+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]현대이지웰 복지몰에서는 매월 HOT한 인기상품을 절반가격으로 구매할 수 있는데요! 매일매일 참여하고 당첨되면 50% 쿠폰을 주는 OO쑈의 명칭은 무엇일까요?",
@@ -60,10 +68,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOO이란, 죽을 때까지 보장이 이어져 사망 시 보험금을 지급하는 보험이에요.",
         "answer": "종신보험",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-10-29T00:07:15.518+09:00"
       }
     ],
