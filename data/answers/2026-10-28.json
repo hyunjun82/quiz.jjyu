@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T17:00:13.828+09:00",
+  "updatedAt": "2026-10-28T17:50:42.602+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -248,10 +248,10 @@
         "publishedAt": "2026-10-28T08:00:49.246+09:00"
       },
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "question": "12:00 자연 관련 이모지 보고 퀴즈 풀기",
         "answer": "유성",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-28T12:02:32.580+09:00"
       }
     ],
