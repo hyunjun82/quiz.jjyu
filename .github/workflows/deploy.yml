@@ -89,3 +89,10 @@ jobs:
         if: success()
         continue-on-error: true
         run: bash scripts/indexnow-ping.sh
+
+      - name: 월간 정답 모음 자동 점검 (이번 달 모음 37개 · 오늘 정답 반영 · 사이트맵 · 달 바뀜)
+        # 2026-10-28: "○○ 퀴즈 10월 정답 모음" 페이지가 네이버 알림에서 빠져 있던 것을 아무도 몰랐다.
+        #   배포할 때마다 실제 사이트를 열어 확인하고, 틀리면 이 단계가 실패해 메일로 알린다.
+        #   달이 바뀌면(11/1) 제목이 11월로 바뀌었는지, 10월 보관 페이지가 생겼는지도 본다.
+        if: success()
+        run: node scripts/check-monthly.mjs
