@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T10:06:41.096+09:00",
+  "updatedAt": "2026-10-28T10:10:00.565+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -242,10 +242,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "OO에서 신규가입하고 5만원 혜택 받아가세요!",
         "answer": "빗썸",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-28T10:06:41.087+09:00"
       }
     ],
