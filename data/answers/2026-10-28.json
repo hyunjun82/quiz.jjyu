@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T10:10:00.565+09:00",
+  "updatedAt": "2026-10-28T10:10:35.678+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -187,10 +187,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "AI 목표적금의 목표금액 우대금리는, 목표로 설정한 금액까지만 적용된다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-28T06:17:59.793+09:00"
       }
     ],
