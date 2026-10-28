@@ -18,9 +18,17 @@ URLS=$(TODAY=$TODAY node -e "
   try { data = JSON.parse(fs.readFileSync('./data/answers/' + today + '.json', 'utf8')); } catch {}
   for (const x of q) {
     urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/');
+    // 2026-10-28: 월간 모음(/monthly/)은 매일 내용이 늘어나는데 한 번도 핑에 넣지 않았다. 같이 알린다.
+    urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/monthly/');
     urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/' + today + '/');
     const items = (data.answers || {})[x.slug] || [];
     items.forEach((_, i) => urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/' + today + '/' + (i + 1) + '/'));
+  }
+  // 매달 1~2일엔 막 보관된 지난달 모음(/monthly/YYYY-MM/)도 알린다.
+  if (today.slice(8, 10) <= '02') {
+    const d = new Date(today + 'T00:00:00Z'); d.setUTCDate(0);
+    const ym = d.toISOString().slice(0, 7);
+    for (const x of q) urls.push('https://quiz.jjyu.co.kr/quiz/' + x.slug + '/monthly/' + ym + '/');
   }
   console.log(JSON.stringify(urls));
 ")
