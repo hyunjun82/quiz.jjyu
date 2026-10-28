@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T10:00:46.040+09:00",
+  "updatedAt": "2026-10-28T10:03:37.483+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,19 +16,26 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-28T06:17:59.793+09:00"
+      },
+      {
+        "question": "MOUM 오픈 이벤트 (3회차)",
+        "answer": "유관기관, 계좌개설",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.462+09:00"
       }
     ],
     "cashwalk": [
       {
         "question": "리비힐 엑소좀 크림은 피부 개선 및 안티에이징에 관심이 많은 분, ㅇㅇㅇ와 거친 피부결이 고민인 분에게 추천하는 제품입니다. ㅇㅇㅇ는 무엇일까요? (초성 : ㅅㄱㅈ)",
-        "answer": "속건조 / 엑소좀",
+        "answer": "속건조, 엑소좀",
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-28T00:00:07.243+09:00"
       },
       {
         "question": "푸드루트 면역 비타민C는 단 1포면 충분! OOO와 정상적인 면역 기능을 위한 비타민C + 아연으로 설계되었습니다! 간식처럼 물없이 톡! 언제 어디서나 챙기세요. 여기서 OOO은? (힌트:ㅎㅅㅎ)",
-        "answer": "항산화 / 면역 / 비타민 / 아연",
+        "answer": "항산화, 면역, 비타민, 아연",
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-28T00:00:07.243+09:00"
@@ -46,6 +53,104 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-28T10:00:46.037+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 바람분사, 배터리팩",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.462+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.463+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 충격감지, 모션감지, 커버열림, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.463+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 시거잭, 원터치, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.463+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.463+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "점프업, 피지컬, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.463+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 폴더블, 케이스, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.463+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.463+09:00"
+      },
+      {
+        "question": "국민건강보험 내 건강보험료도 정산 대상일까",
+        "answer": "소득정산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.464+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 준고체, 초고속, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.464+09:00"
+      },
+      {
+        "question": "픽스 팬히터 온풍기 좌우회전 신형 온풍기 특가",
+        "answer": "60, 80, PTC, 예열, 저전력",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.464+09:00"
+      },
+      {
+        "question": "중소벤처기업부 코리아 그랜드 페스티벌",
+        "answer": "지방소비, 비수도권, 삼천만원, 상생소비복권, 디지털온누리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.464+09:00"
+      },
+      {
+        "question": "픽스 듀얼 휴대용 미니 가습기",
+        "answer": "5, 70, 550, 자동살균, 수위감지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.464+09:00"
+      },
+      {
+        "question": "팬마음 트로트 가수 1위에게 투표해주세요",
+        "answer": "트로트, 건대입구, 인천공항, 스타시티",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-28T10:03:37.465+09:00"
       }
     ],
     "shinhan-sol": [
@@ -98,7 +203,15 @@
         "publishedAt": "2026-10-28T06:17:59.793+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 10월28일",
+        "answer": "30%",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-28T10:03:37.462+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
