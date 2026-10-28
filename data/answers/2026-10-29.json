@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T00:30:21.224+09:00",
+  "updatedAt": "2026-10-29T00:35:28.684+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -94,10 +94,10 @@
         "publishedAt": "2026-10-29T00:09:13.340+09:00"
       },
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (2회차)",
+        "question": "버터를 반죽 사이에 겹겹이 넣어 여러 번 밀고 접어 층을 만들고, 초승달 모양으로 굽는 빵은?",
         "answer": "크루아상",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-29T00:30:21.223+09:00"
       }
     ],
@@ -130,10 +130,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "금연 후 금단증상은 24~72시간 사이에 가장 심하다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-29T00:03:35.968+09:00"
       }
     ],
