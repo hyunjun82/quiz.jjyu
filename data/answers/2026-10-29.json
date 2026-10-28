@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T06:17:48.882+09:00",
+  "updatedAt": "2026-10-29T07:04:11.536+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -168,6 +168,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-29T00:51:42.592+09:00"
+      },
+      {
+        "question": "과일은 항상 원하는 만큼 먹어도 된다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-29T07:04:11.535+09:00"
       }
     ],
     "skstoa": [],
