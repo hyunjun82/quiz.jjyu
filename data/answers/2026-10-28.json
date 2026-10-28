@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updatedAt": "2026-10-28T10:18:59.173+09:00",
+  "updatedAt": "2026-10-28T10:26:44.050+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -208,6 +208,27 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-10-28T06:17:59.793+09:00"
+      },
+      {
+        "question": "오퀴즈 유뿔투뿔 (2회차)",
+        "answer": "VIP콕",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T10:26:44.042+09:00"
+      },
+      {
+        "question": "오퀴즈 청결제 (3회차)",
+        "answer": "1위",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T10:26:44.042+09:00"
+      },
+      {
+        "question": "오퀴즈 유뿔투뿔 (4회차)",
+        "answer": "40",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-28T10:26:44.042+09:00"
       }
     ],
     "kbpay": [
