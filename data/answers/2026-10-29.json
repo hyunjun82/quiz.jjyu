@@ -1,17 +1,40 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T00:01:15.238+09:00",
+  "updatedAt": "2026-10-29T00:03:35.968+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "오픈뱅킹",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-29T00:03:35.968+09:00"
+      },
+      {
+        "question": "현재 치열한 플레이오프 경기를 펼치고 있는 삼성 라이온즈와 KIA 타이거즈의 라이벌전을 부르는 명칭 문제입니다. 대구와 광주의 순우리말 지명 앞글자를 따서 부르는 명칭은 무엇일까요?",
+        "answer": "달빛 시리즈",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-29T00:03:35.968+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]현대이지웰 복지몰에서는 매월 HOT한 인기상품을 절반가격으로 구매할 수 있는데요! 매일매일 참여하고 당첨되면 50% 쿠폰을 주는 OO쑈의 명칭은 무엇일까요?",
+        "answer": "반값",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-29T00:03:35.968+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
@@ -36,12 +59,28 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-29T00:03:35.968+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "3, 3, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-29T00:03:35.968+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
     "yes24": [
