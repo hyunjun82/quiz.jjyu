@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T00:04:08.818+09:00",
+  "updatedAt": "2026-10-29T00:07:15.518+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -35,7 +35,15 @@
         "publishedAt": "2026-10-29T00:03:35.968+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "종신보험",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-29T00:07:15.518+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -71,7 +79,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-29T00:07:15.518+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
