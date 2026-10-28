@@ -1,4 +1,5 @@
 import { getQuizzes, getAnswerDates, getAnswersByDate } from '../lib/data';
+import { pastMonthsWithData } from '../lib/monthly';
 
 export const dynamic = 'force-static';
 
@@ -61,6 +62,15 @@ export default function sitemap() {
       changeFrequency: 'daily',
       priority: 0.9,
     })),
+    // 지난달 모음 보관 페이지(2026-10-28 추가) — "○○ 퀴즈 9월 정답 모음" 검색용.
+    ...quizzes.flatMap((q) =>
+      pastMonthsWithData(q.slug).map((p) => ({
+        url: `${base}/quiz/${q.slug}/monthly/${p.ym}/`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      })),
+    ),
     ...questionUrls,
     // 날짜 페이지 — 정답이 있는 것만 넣는다.
     // 2026-08-10 실측: 575개 중 196개가 정답 0건이었고, 그 빈 페이지들을
