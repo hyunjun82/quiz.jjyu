@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T13:44:39.979+09:00",
+  "updatedAt": "2026-10-29T15:00:50.568+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-29T10:03:10.192+09:00"
+      },
+      {
+        "question": "뷰카 고불소 구취치약 (23회차)",
+        "answer": "1450",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-29T15:00:50.555+09:00"
       }
     ],
     "shinhan-sol": [
