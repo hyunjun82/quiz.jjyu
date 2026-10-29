@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:13:22.102+09:00",
+  "updatedAt": "2026-10-30T00:15:02.500+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -99,7 +99,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 퀴즈 — 닥터나우 (1회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T00:15:02.500+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
