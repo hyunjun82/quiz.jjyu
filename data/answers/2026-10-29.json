@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T10:00:45.427+09:00",
+  "updatedAt": "2026-10-29T10:01:52.891+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,7 +69,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "이번 14회차 깨비로또에서 행운의 숫자를 추가로 뽑기 위해…(후략)",
+        "answer": "운동 기록 미션",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-10-29T10:01:52.889+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
