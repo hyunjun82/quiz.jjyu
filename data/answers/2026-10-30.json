@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T02:27:09.917+09:00",
+  "updatedAt": "2026-10-30T03:50:27.571+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -136,6 +136,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-30T00:46:22.326+09:00"
+      },
+      {
+        "question": "10월30일 KB스타뱅킹 스타퀴즈 정답 (3회차)",
+        "answer": "2 안경",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T03:50:27.570+09:00"
       }
     ],
     "kbank": [
