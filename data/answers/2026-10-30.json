@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T08:04:40.457+09:00",
+  "updatedAt": "2026-10-30T08:06:25.703+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -62,6 +62,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-30T00:03:26.381+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "1. 마이신한포인트 5,000P",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-30T08:06:25.701+09:00"
       }
     ],
     "kakaobank": [
@@ -277,6 +284,14 @@
       }
     ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "마리아나해구",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-30T08:06:25.702+09:00"
+      }
+    ]
   }
 }
