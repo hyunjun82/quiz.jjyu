@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T10:06:39.127+09:00",
+  "updatedAt": "2026-10-29T10:07:47.851+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -241,10 +241,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "10초만에 OO개 금융사 비교하고 100P 받아요!",
         "answer": "81",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-29T10:03:10.193+09:00"
       }
     ],
