@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:16:11.362+09:00",
+  "updatedAt": "2026-10-30T00:18:57.478+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -115,7 +115,7 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 퀴즈 — 닥터나우 (1회차)",
+        "question": "리팍시민은 거의 흡수되지 않고 장에서 작용한다",
         "answer": "O (그렇다)",
         "note": "",
         "source": "quizbells",
