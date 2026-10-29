@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T15:02:38.137+09:00",
+  "updatedAt": "2026-10-29T18:24:07.787+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -447,7 +447,15 @@
         "publishedAt": "2026-10-29T00:00:39.727+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 베베숲",
+        "answer": "촉촉함",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-29T18:24:07.777+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
