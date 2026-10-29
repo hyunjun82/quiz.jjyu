@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:01:11.779+09:00",
+  "updatedAt": "2026-10-30T00:01:44.040+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -56,7 +56,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "적금을 만기 전에 중도해지하면 처음 약정했던 이자보다 낮은 이자를 받을 수 있어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-30T00:01:44.040+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
