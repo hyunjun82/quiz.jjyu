@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:46:22.327+09:00",
+  "updatedAt": "2026-10-30T00:51:29.123+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -147,7 +147,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "에페 임상시험 참여자가 전원 한국인이어서, 위고비·마운자로보다 한국인에게 더 잘 맞는다고 확인됐다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-30T00:51:29.122+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
