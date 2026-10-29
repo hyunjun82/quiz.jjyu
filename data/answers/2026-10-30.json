@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:51:29.123+09:00",
+  "updatedAt": "2026-10-30T00:56:35.987+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -181,7 +181,15 @@
         "publishedAt": "2026-10-30T00:01:44.040+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "O,3,O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-30T00:56:35.986+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [
       {
