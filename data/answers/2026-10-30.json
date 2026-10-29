@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:18:57.478+09:00",
+  "updatedAt": "2026-10-30T00:30:59.882+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "통인익스프레스로 준비하는 편안한 이사! 이벤트를 통해 상담 신청 후 이사하면 받을 수 있는 혜택은?",
         "answer": "마이신한포인트 5만P",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-30T00:03:26.381+09:00"
       },
       {
@@ -95,7 +95,15 @@
         "publishedAt": "2026-10-30T00:13:22.102+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나MP구독서비스는 퇴직연금 운용에 도움을 주는 서비스이다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-30T00:30:59.881+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
