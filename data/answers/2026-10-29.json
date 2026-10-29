@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T09:26:36.561+09:00",
+  "updatedAt": "2026-10-29T09:30:27.167+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,10 +53,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "매일 용돈 받기에서 획득한 캐시는 유효기간이 지나면 소멸된다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-29T00:10:57.232+09:00"
       }
     ],
