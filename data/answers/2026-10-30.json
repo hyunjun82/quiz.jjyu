@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T03:50:27.571+09:00",
+  "updatedAt": "2026-10-30T07:00:44.495+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -191,6 +191,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-30T00:51:29.122+09:00"
+      },
+      {
+        "question": "단백질은 식단에서 필수적인 영양소다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-30T07:00:44.494+09:00"
       }
     ],
     "skstoa": [],
