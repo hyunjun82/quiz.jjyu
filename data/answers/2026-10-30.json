@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T01:42:19.748+09:00",
+  "updatedAt": "2026-10-30T01:47:28.049+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,7 +52,15 @@
     ],
     "kakaobank": [],
     "kakaobank-ox": [],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 카누 (1회차)",
+        "answer": "전담부서",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-30T01:47:28.049+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
