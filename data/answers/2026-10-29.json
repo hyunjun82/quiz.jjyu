@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updatedAt": "2026-10-29T12:04:13.070+09:00",
+  "updatedAt": "2026-10-29T13:44:39.979+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -185,10 +185,10 @@
         "publishedAt": "2026-10-29T08:03:31.957+09:00"
       },
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "question": "12:00 운송수단 이모지 보고 퀴즈 풀기",
         "answer": "객차",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-29T12:04:13.061+09:00"
       }
     ],
