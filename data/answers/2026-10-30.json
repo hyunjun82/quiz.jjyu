@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:00:35.520+09:00",
+  "updatedAt": "2026-10-30T00:01:11.779+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 경기가 가장 나빠져 바닥을 찍고 다시 돌아서는 전환점이에요.",
+        "answer": "경기저점",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-30T00:01:11.779+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -28,7 +36,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "신용카드 결제를 취소하면, 취소한 금액만큼 카드 이용한도가 실시간으로 \"무조건\" 복원된다.",
+        "answer": "X (아니요)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T00:01:11.779+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
