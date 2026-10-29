@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T01:47:28.049+09:00",
+  "updatedAt": "2026-10-30T02:02:46.774+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,20 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-30T00:16:11.361+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (4회차)",
+        "answer": "밥 먹고 난 다음",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-30T02:02:46.774+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (5회차)",
+        "answer": "집중이 필요한 순간",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-30T02:02:46.774+09:00"
       }
     ],
     "cashwalk": [
