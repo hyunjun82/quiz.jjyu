@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:36:06.790+09:00",
+  "updatedAt": "2026-10-30T00:41:13.497+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,7 +55,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 10월 30일 오늘의 퀴즈 문제",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-30T00:41:13.497+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]퀵계좌이체 추가적립 행사 종료 D-2! H.Point에서는 11.1(일)까지 5만원 이상 퀵계좌이체(계좌충전)로 결제하면 충전 시 O%를 추가적립 중입니다.이때 O는 얼마일까요?",
@@ -96,10 +104,10 @@
     ],
     "hana-onq": [
       {
-        "question": "10월30일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "내일 열리는 K리그1 2026 파이널 라운드 광주 vs 김천의 경기는 어느 경기장에서 펼쳐질까요?",
         "answer": "광주월드컵경기장",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-30T00:13:22.102+09:00"
       }
     ],
