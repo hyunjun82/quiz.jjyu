@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T00:30:59.882+09:00",
+  "updatedAt": "2026-10-30T00:36:06.790+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -77,15 +77,23 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "10월30일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "「인상, 해돋이」를 그렸으며, 빛과 시간에 따라 달라지는 풍경을 표현하기 위해 같은 대상을 반복해서 그린 화가는?",
         "answer": "클로드 모네",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-30T00:03:26.381+09:00"
       }
     ],
     "kb-star": [],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "2003년 미국 아카데미 시상식에서 장편 애니메이션상을 받은 일본 작품은?",
+        "answer": "센과 치히로의 행방불명",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T00:36:06.789+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "10월30일 하나은행 하나원큐 축구퀴즈 정답",
