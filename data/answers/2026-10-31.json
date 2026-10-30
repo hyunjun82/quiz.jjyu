@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T00:01:30.676+09:00",
+  "updatedAt": "2026-10-31T00:02:03.799+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,7 +63,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "편의점 ATM에서 현금을 인출하면 은행 영업점 ATM보다 수수료가 더 비쌀 수 있어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-31T00:02:03.799+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
