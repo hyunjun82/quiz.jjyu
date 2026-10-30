@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T00:02:03.799+09:00",
+  "updatedAt": "2026-10-31T00:03:13.325+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -19,14 +19,37 @@
       }
     ],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "2%",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T00:03:13.324+09:00"
+      },
+      {
+        "question": "2026 NPB 일본시리즈에서 요코하마 DeNA 베이스타즈를 꺾고 우승을 차지한 소프트뱅크 호크스의 연고지는 어디일까요?",
+        "answer": "후쿠오카",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T00:03:13.324+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보][ CHRISTMAS IN NEW YORK (11.1~12.31) ]잠들지 않는 뉴욕의 크리스마스,2026년 현대백화점의 특별한 크리스마스 빌리지엔 산타와 000들이 도시 곳곳을 누비는데요, 이때 000는 무엇일까요?",
+        "answer": "고양이",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-31T00:03:13.324+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOO란, 한쪽 값이 오르면 대신 찾게 되는 서로 바꿔 쓸 수 있는 재화예요.",
