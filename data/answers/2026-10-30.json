@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T15:01:46.920+09:00",
+  "updatedAt": "2026-10-30T18:29:47.266+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -604,7 +604,15 @@
         "publishedAt": "2026-10-30T00:00:35.520+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 깨끗한나라",
+        "answer": "먼지",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-30T18:29:47.257+09:00"
+      }
+    ],
     "naverpay": [
       {
         "question": "네이버페이 랜덤 포인트 퀴즈",
