@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T07:03:03.423+09:00",
+  "updatedAt": "2026-10-31T07:18:23.772+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-10-31T00:00:19.992+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (3회차)",
+        "answer": "BHC 뿌링클",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-31T07:18:23.771+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (4회차)",
+        "answer": "네이버페이",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-31T07:18:23.771+09:00"
       }
     ],
     "cashwalk": [],
