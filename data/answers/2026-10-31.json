@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T01:21:35.667+09:00",
+  "updatedAt": "2026-10-31T01:57:46.037+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "신한카드 이벤트 신청 후 템퍼침대 행사 매장에서 결제 시 받을 수 있는 최대 캐시백율은?",
         "answer": "2%",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-10-31T00:03:13.324+09:00"
       },
       {
@@ -40,7 +40,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "2024년 경기도는 생물다양성 보전과 지속가능한 이용을 위한 '제1차 경기도 생물다양성전략'을 수립하였다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-31T01:57:46.036+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보][ CHRISTMAS IN NEW YORK (11.1~12.31) ]잠들지 않는 뉴욕의 크리스마스,2026년 현대백화점의 특별한 크리스마스 빌리지엔 산타와 000들이 도시 곳곳을 누비는데요, 이때 000는 무엇일까요?",
@@ -70,9 +78,33 @@
         "publishedAt": "2026-10-31T01:21:35.667+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [],
-    "hana-life": [],
+    "kbank": [
+      {
+        "question": "할로윈 밤에 아이들이 집집마다 돌며 외치는 말은?",
+        "answer": "③ Trick or Treat",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-31T01:57:46.036+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "오늘 전주월드컵경기장에서 열리는 하나은행 K리그1 2026 파이널라운드 경기는 어느 두 팀의 맞대결일까요?",
+        "answer": "③ 전북 vs 대전",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-31T01:57:46.036+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "타행 OTP를 하나은행에서 사용하려면 영업점에 방문해서 등록을 신청해야 한다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-31T01:57:46.036+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
