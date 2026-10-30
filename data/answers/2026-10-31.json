@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T07:23:33.204+09:00",
+  "updatedAt": "2026-10-31T08:01:12.862+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -49,7 +49,15 @@
         "publishedAt": "2026-10-31T00:03:13.324+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "가위질",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T08:01:12.861+09:00"
+      }
+    ],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
