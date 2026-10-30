@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T18:29:47.266+09:00",
+  "updatedAt": "2026-10-30T18:33:41.918+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,6 +58,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-30T09:22:42.796+09:00"
+      },
+      {
+        "question": "캐세이 80주년 이벤트 (9회차)",
+        "answer": "비즈니스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T18:33:41.899+09:00"
       }
     ],
     "cashwalk": [
