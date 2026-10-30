@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T10:06:22.619+09:00",
+  "updatedAt": "2026-10-30T10:13:20.951+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -275,6 +275,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-30T10:03:58.373+09:00"
+      },
+      {
+        "question": "10월30일 카카오페이 퀴즈정답 페이래플에서 맥북에어가 0원",
+        "answer": "15",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T10:13:20.941+09:00"
       }
     ],
     "nh-allone": [
