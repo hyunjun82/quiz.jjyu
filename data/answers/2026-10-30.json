@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T11:05:33.532+09:00",
+  "updatedAt": "2026-10-30T12:04:58.138+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -179,6 +179,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-30T11:00:21.364+09:00"
+      },
+      {
+        "question": "더캐스트 화장품 (20회차)",
+        "answer": "구매확정후",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T12:04:58.123+09:00"
       }
     ],
     "shinhan-sol": [
@@ -218,6 +225,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-30T08:00:53.232+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "조각피자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-30T12:04:58.125+09:00"
       }
     ],
     "kakaobank-ox": [
