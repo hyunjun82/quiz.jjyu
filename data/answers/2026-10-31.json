@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T00:00:56.858+09:00",
+  "updatedAt": "2026-10-31T00:01:30.676+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -27,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO란, 한쪽 값이 오르면 대신 찾게 되는 서로 바꿔 쓸 수 있는 재화예요.",
+        "answer": "대체재",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-31T00:01:30.676+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
