@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T01:57:46.037+09:00",
+  "updatedAt": "2026-10-31T02:02:55.405+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,6 +76,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-31T01:21:35.667+09:00"
+      },
+      {
+        "question": "(가)!(라)는 강화도 문화유산이다. 이에 대한 설명으로 옳지 않은 것은?",
+        "answer": "① {가}",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-31T02:02:55.404+09:00"
       }
     ],
     "kbank": [
@@ -117,7 +124,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "철분제나 칼슘보충제도 변비의 원인이 될 수 있다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-31T02:02:55.404+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
