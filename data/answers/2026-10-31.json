@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T02:02:55.405+09:00",
+  "updatedAt": "2026-10-31T03:45:57.277+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -140,7 +140,7 @@
     "doctornow": [
       {
         "question": "MD크림은 로션보다 보습력이 높다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-10-31T00:35:30.536+09:00"
