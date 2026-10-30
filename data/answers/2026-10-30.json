@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T09:03:06.825+09:00",
+  "updatedAt": "2026-10-30T09:21:30.736+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,6 +44,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-30T09:03:06.823+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (7회차)",
+        "answer": "30",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-30T09:21:30.734+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 오늘의 퀴즈 (8회차)",
+        "answer": "1000",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-30T09:21:30.734+09:00"
       }
     ],
     "cashwalk": [
