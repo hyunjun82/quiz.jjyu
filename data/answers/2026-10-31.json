@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T00:35:30.536+09:00",
+  "updatedAt": "2026-10-31T01:21:35.667+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,7 +61,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "상속 업무 위임 시 영업점 방문이 어려울 때, KB스타뱅킹으로 간편하게 위임장을 제출할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-10-31T01:21:35.667+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
