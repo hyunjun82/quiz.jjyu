@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T09:27:18.600+09:00",
+  "updatedAt": "2026-10-30T09:27:54.001+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -110,10 +110,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "매일 용돈 받기 내 '출석체크 이벤트'는 30일 주기로 운영된다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-30T02:27:09.916+09:00"
       }
     ],
