@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T09:22:42.798+09:00",
+  "updatedAt": "2026-10-30T09:23:15.644+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,6 +90,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-30T08:06:25.701+09:00"
+      },
+      {
+        "question": "공차 매장에서 신한 슈퍼SOL로 1만원 이상 결제시, 받을 수 있는 혜택은?",
+        "answer": "마이신한포인트 5,000P",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-30T09:23:15.642+09:00"
       }
     ],
     "kakaobank": [
