@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T03:45:57.277+09:00",
+  "updatedAt": "2026-10-31T07:03:03.423+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -131,6 +131,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-31T02:02:55.404+09:00"
+      },
+      {
+        "question": "걷기는 정신 건강에 긍정적인 영향을 줄 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-10-31T07:03:03.422+09:00"
       }
     ],
     "skstoa": [],
