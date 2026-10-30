@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updatedAt": "2026-10-30T10:05:13.023+09:00",
+  "updatedAt": "2026-10-30T10:06:22.619+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -270,10 +270,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "지금 페이래플에선 맥북에어 □□인치 0원 당첨자를 기다려요!",
         "answer": "15",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-10-30T10:03:58.373+09:00"
       }
     ],
