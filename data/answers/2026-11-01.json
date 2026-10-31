@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T05:37:07.447+09:00",
+  "updatedAt": "2026-11-01T07:03:36.074+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -197,6 +197,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-01T01:31:20.761+09:00"
+      },
+      {
+        "question": "오래된 음식은 항상 버려야 한다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-01T07:03:36.073+09:00"
       }
     ],
     "skstoa": [],
