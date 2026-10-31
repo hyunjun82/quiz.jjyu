@@ -1,9 +1,24 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T00:00:57.613+09:00",
+  "updatedAt": "2026-11-01T00:01:33.167+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "프리미엄 그릭요거트 YOZM 제품 속 원유의 함량은 99.OOO% 입니다. OOO 에 들어갈 숫자는 무엇일까요?",
+        "answer": "996",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-01T00:01:33.166+09:00"
+      },
+      {
+        "question": "그래서 리얼마이즈가 만들었어요! 맛은 그대로, 당 OO은 낮춘 저당 토마토 파스타소스! OO은 무엇일까요? (힌트: ㅂㄷ)",
+        "answer": "부담",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-01T00:01:33.166+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -12,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 천연자원 수출로 외화가 몰려 자국 통화 가치가 오르면서 오히려 제조업 경쟁력이 약해지는 현상이에요.",
+        "answer": "네덜란드병",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-01T00:01:33.166+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -36,11 +59,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:01:33.166+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "월급 명세서에서 실수령액은 세금과 4대보험료를 공제하기 전 금액이에요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-01T00:01:33.166+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
