@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T11:12:22.819+09:00",
+  "updatedAt": "2026-10-31T11:13:31.039+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,10 +211,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay '보고적립'에서 1분 이내의 짧은 영상을 보고 포인트를 받을 수 있는 서비스는 무엇일까요?",
         "answer": "1번 숏폼 보고 적립",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-10-31T10:02:57.805+09:00"
       }
     ],
