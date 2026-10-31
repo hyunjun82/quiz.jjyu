@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T11:06:40.878+09:00",
+  "updatedAt": "2026-10-31T11:08:26.372+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -302,8 +302,8 @@
     ],
     "kbank": [
       {
-        "question": "할로윈 밤에 아이들이 집집마다 돌며 외치는 말은?",
-        "answer": "③ Trick or Treat",
+        "question": "Q. 할로윈 밤에 아이들이 집집마다 돌며 외치는 말은?",
+        "answer": "3. Trick or Treat",
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-10-31T01:57:46.036+09:00"
