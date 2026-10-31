@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T10:27:19.428+09:00",
+  "updatedAt": "2026-10-31T10:57:41.044+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -102,6 +102,62 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-10-31T10:06:54.145+09:00"
+      },
+      {
+        "question": "국민건강보험 내 건강보험료도 정산 대상일까",
+        "answer": "소득정산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.038+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 준고체, 초고속, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.038+09:00"
+      },
+      {
+        "question": "픽스 팬히터 온풍기 좌우회전 신형 온풍기 특가",
+        "answer": "60, 80, PTC, 예열, 저전력",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.038+09:00"
+      },
+      {
+        "question": "중소벤처기업부 코리아 그랜드 페스티벌",
+        "answer": "지방소비, 비수도권, 삼천만원, 상생소비복권, 디지털온누리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.038+09:00"
+      },
+      {
+        "question": "픽스 듀얼 휴대용 미니 가습기",
+        "answer": "5, 70, 550, 자동살균, 수위감지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.038+09:00"
+      },
+      {
+        "question": "푸드루트 피부장벽 비타민B",
+        "answer": "물, 간편, 딸기, 새콤",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.038+09:00"
+      },
+      {
+        "question": "소휘 애사비 구미 (19회차)",
+        "answer": "1, 구미, 애사비, 유기농",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.039+09:00"
+      },
+      {
+        "question": "더캐스트 화장품 (20회차)",
+        "answer": "구매확정후",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T10:57:41.039+09:00"
       }
     ],
     "shinhan-sol": [
