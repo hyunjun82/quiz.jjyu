@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T00:06:35.641+09:00",
+  "updatedAt": "2026-11-01T00:07:09.694+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-01T00:05:30.529+09:00"
+      },
+      {
+        "question": "그랜드십일절 장보기 끝판왕 ㅁㅌㅈㄷ 특가로 매일 득템하세요",
+        "answer": "마트전단",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-01T00:07:09.694+09:00"
       }
     ],
     "cashwalk": [
