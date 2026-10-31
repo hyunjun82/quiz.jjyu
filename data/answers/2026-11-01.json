@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T01:21:00.856+09:00",
+  "updatedAt": "2026-11-01T01:26:07.950+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -57,10 +57,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "1일부터 3일까지 진행되는 마이샵데이의 참여 브랜드가 아닌 것은?",
         "answer": "올리브영",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-01T00:03:15.384+09:00"
       },
       {
