@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T01:31:20.762+09:00",
+  "updatedAt": "2026-11-01T01:36:28.515+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -185,7 +185,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "성인 여드름은 사춘기 여드름처럼 이마와 코(T존)에 주로 생긴다",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
