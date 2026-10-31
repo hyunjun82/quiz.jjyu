@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T00:07:09.694+09:00",
+  "updatedAt": "2026-11-01T00:35:14.927+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,20 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-01T00:07:09.694+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (4회차)",
+        "answer": "소바바 고추바삭바삭치킨",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:35:14.927+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (5회차)",
+        "answer": "비비고 왕교자",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:35:14.927+09:00"
       }
     ],
     "cashwalk": [
@@ -58,7 +72,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:35:14.927+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -83,11 +105,42 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
-    "kbank": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "민며느리",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:35:14.927+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "4번 ATM 수령",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:35:14.927+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "4번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:35:14.927+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T00:35:14.927+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "신용카드 결제를 취소하면, 취소한 금액만큼 카드 이용한도가 실시간으로 \"무조건\" 복원된다.",
@@ -106,10 +159,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "차전자피 변비약은 물을 충분히 마시지 않으면 효과가 떨어진다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-01T00:01:33.166+09:00"
       }
     ],
