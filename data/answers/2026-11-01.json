@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T01:36:28.515+09:00",
+  "updatedAt": "2026-11-01T02:29:44.752+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -199,7 +199,7 @@
     "doctornow": [
       {
         "question": "차전자피 변비약은 물을 충분히 마시지 않으면 효과가 떨어진다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-01T00:01:33.166+09:00"
