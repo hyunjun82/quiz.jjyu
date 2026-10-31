@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T07:03:36.074+09:00",
+  "updatedAt": "2026-11-01T08:02:49.845+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -71,7 +71,15 @@
         "publishedAt": "2026-11-01T00:03:15.384+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "국화",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T08:02:49.844+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "매일 용돈 받기 서비스에서는 모두 같은 금액의 용돈을 준다.",
