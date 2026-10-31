@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T11:16:16.340+09:00",
+  "updatedAt": "2026-10-31T12:01:24.709+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -165,6 +165,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-10-31T11:00:29.368+09:00"
+      },
+      {
+        "question": "요즘 고단백 저당 그릭요거트",
+        "answer": "996",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-10-31T12:01:24.702+09:00"
       }
     ],
     "shinhan-sol": [
