@@ -1,8 +1,23 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T00:04:21.711+09:00",
+  "updatedAt": "2026-11-01T00:05:30.529+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "그랜드십일절 코카콜라 (1회차)",
+        "answer": "3",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T00:05:30.529+09:00"
+      },
+      {
+        "question": "11번가 그랜드십일절 (2회차)",
+        "answer": "쇼핑, 웰컴딜, 마트전단",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T00:05:30.529+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "프리미엄 그릭요거트 YOZM 제품 속 원유의 함량은 99.OOO% 입니다. OOO 에 들어갈 숫자는 무엇일까요?",
