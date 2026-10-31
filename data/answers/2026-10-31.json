@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T11:02:10.099+09:00",
+  "updatedAt": "2026-10-31T11:03:54.330+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -413,7 +413,15 @@
         "publishedAt": "2026-10-31T11:02:10.095+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-10-31T11:03:54.325+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "주야간보호시설 이용 시 식사는 무료로 제공된다?",
