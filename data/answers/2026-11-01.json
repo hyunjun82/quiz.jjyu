@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T00:35:14.927+09:00",
+  "updatedAt": "2026-11-01T01:21:00.856+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -74,17 +74,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "매일 용돈 받기 서비스에서는 모두 같은 금액의 용돈을 준다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-01T00:35:14.927+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "경기도는 기후위기에 대응하기 위해 환경보건부문(기후보건)을 추진하고 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-01T01:21:00.855+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]클럽 세이푸디에서는 매월 현대식품관의 다양한 상품을 할인가로 소개하는 코너를 운영하고 있습니다.11.1 ~ 11.15 기간 클럽 세이푸디 테마행사 코너가 아닌 것은 무엇일까요?",
@@ -114,7 +122,7 @@
         "publishedAt": "2026-11-01T00:35:14.927+09:00"
       },
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "question": "통장 분실 시 수령할 수 있는 방법이 아닌 것은 무엇일까요?",
         "answer": "4번 ATM 수령",
         "note": "",
         "source": "tipistip",
@@ -128,10 +136,33 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-01T00:35:14.927+09:00"
+      },
+      {
+        "question": "육류와 생선은 먹지 않고 달걀과 유제품은 먹는 채식 유형은?",
+        "answer": "④ 락토오보",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-01T01:21:00.855+09:00"
       }
     ],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "오늘 광양축구전용구장에서 열리는 하나은행 K리그2 2026 31라운드 경기는 어느 두 팀의 맞대결일까요?",
+        "answer": "④ 전남 vs 성남",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-01T01:21:00.855+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 첫 화면에서 보이는 계좌는 고정되어 변경할 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-01T01:21:00.855+09:00"
+      }
+    ],
     "hana-travel": [
       {
         "question": "하나원큐 트래블미션",
