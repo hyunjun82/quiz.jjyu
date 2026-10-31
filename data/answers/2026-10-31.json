@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T08:07:18.315+09:00",
+  "updatedAt": "2026-10-31T09:10:00.000+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,7 +58,15 @@
         "publishedAt": "2026-10-31T08:01:12.861+09:00"
       }
     ],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "매일 용돈 받기 출석체크를 놓친 일자가 있다면 보너스 용돈을 받을 수 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-10-31T09:10:00.000+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],

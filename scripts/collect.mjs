@@ -1465,7 +1465,12 @@ function parseApptech(html, today) {
     // 못 거른다. "지난 정답" 블록의 첫 줄(= 어제 값)과 오늘 값이 같으면 이월값이다.
     const pastText = past > 0 ? clean(full.slice(past).replace(/<[^>]+>/g, ' ')) : '';
     const yesterday = pastText.match(/\d{1,2}\/\d{1,2}\s+(.+?)(?=\s+\d{1,2}\/\d{1,2}\s|\s+지난 정답 더보기|$)/)?.[1]?.trim();
-    if (yesterday && normalize(yesterday) === normalize(answer)) {
+    // 2026-10-31: OX 퀴즈는 어제도 X, 오늘도 X 인 날이 흔하다. 지문이 어제 것과 다르면 새 문제다.
+    //   실측 10/31 카카오뱅크 OX — 10/29·10/30·10/31 사흘 연속 X, 지문은 매일 달랐는데 이 차단에 걸려 통째로 빠졌다.
+    const qNow = q ? clean(q[1]).replace(/[^가-힣0-9A-Za-z]/g, '').toLowerCase() : '';
+    const yKeys = loadYesterdayKeys(today)[slug];
+    const newQuestion = qNow.length >= 8 && yKeys && yKeys.q.size > 0 && !yKeys.q.has(qNow);
+    if (yesterday && normalize(yesterday) === normalize(answer) && !newQuestion) {
       const tag = `${slug}|${answer}`;
       if (!APPTECH_REPORTED.has(tag)) {
         APPTECH_REPORTED.add(tag);
