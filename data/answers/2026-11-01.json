@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T10:02:52.961+09:00",
+  "updatedAt": "2026-11-01T10:03:28.115+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -239,10 +239,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "대학교에 다니면서, 다른 대학에 진학하기 위해 수능을 다시 준비하는 것을 무엇이라고 할까요?",
         "answer": "2번 반수",
         "note": "",
-        "source": "tipistip",
+        "source": "blog",
         "publishedAt": "2026-11-01T10:02:52.953+09:00"
       }
     ],
