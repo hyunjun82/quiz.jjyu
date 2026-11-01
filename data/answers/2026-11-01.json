@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T08:12:28.785+09:00",
+  "updatedAt": "2026-11-01T09:05:54.683+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,6 +69,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-01T00:03:15.384+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "4. 과일 스매시",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-01T09:05:54.681+09:00"
       }
     ],
     "kakaobank": [
