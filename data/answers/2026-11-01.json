@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T10:01:09.413+09:00",
+  "updatedAt": "2026-11-01T10:02:52.961+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -237,7 +237,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "2번 반수",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T10:02:52.953+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -370,7 +378,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "빅스마일",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T10:02:52.953+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
