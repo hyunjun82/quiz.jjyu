@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T00:01:29.592+09:00",
+  "updatedAt": "2026-11-02T00:02:02.220+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -79,7 +79,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "인터넷전문은행은 오프라인 지점 없이 온라인으로만 운영되는 은행이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-02T00:02:02.220+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
