@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T07:35:06.240+09:00",
+  "updatedAt": "2026-11-02T07:40:14.562+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -62,6 +62,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-02T07:35:06.238+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "2. 보이스피싱 예방",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-02T07:40:14.560+09:00"
       }
     ],
     "kakaobank": [],
