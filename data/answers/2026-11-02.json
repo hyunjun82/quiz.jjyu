@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T00:15:56.470+09:00",
+  "updatedAt": "2026-11-02T00:30:42.005+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-02T00:03:12.325+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (3회차)",
+        "answer": "일단보유",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:30:42.004+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (4회차)",
+        "answer": "주가흐름",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:30:42.004+09:00"
       }
     ],
     "cashwalk": [
@@ -101,7 +115,15 @@
         "publishedAt": "2026-11-02T00:15:56.470+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "4번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:30:42.004+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
@@ -114,7 +136,15 @@
         "publishedAt": "2026-11-02T00:00:57.622+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "reach/consensus, agree/on, explore/other",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:30:42.004+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
