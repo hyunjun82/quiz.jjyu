@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T00:08:45.341+09:00",
+  "updatedAt": "2026-11-02T00:15:56.470+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,7 +44,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:15:56.470+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -68,8 +76,31 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
-    "kb-star": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈)",
+        "answer": "1993년",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:15:56.469+09:00"
+      }
+    ],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "2. ㄱ, ㄷ",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:15:56.469+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "1번 민감",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T00:15:56.470+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
