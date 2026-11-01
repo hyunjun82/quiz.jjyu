@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T12:05:36.569+09:00",
+  "updatedAt": "2026-11-01T12:06:54.817+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -232,6 +232,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-01T08:02:49.844+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "군고구마",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T12:06:54.810+09:00"
       }
     ],
     "kakaobank-ox": [
