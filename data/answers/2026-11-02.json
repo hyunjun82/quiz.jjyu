@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T00:00:57.623+09:00",
+  "updatedAt": "2026-11-02T00:01:29.592+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -35,7 +35,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 세금이 법적으로 누구에게 매겨지든, 가격 변화를 거쳐 실제 부담이 누구에게 돌아가는지를 따지는 개념이에요.",
+        "answer": "조세귀착",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-02T00:01:29.592+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
