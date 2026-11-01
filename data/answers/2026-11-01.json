@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T10:03:28.115+09:00",
+  "updatedAt": "2026-11-01T10:24:35.524+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -274,7 +274,15 @@
         "publishedAt": "2026-11-01T00:01:33.166+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "버블",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-01T10:24:35.519+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
