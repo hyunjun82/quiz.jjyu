@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T00:02:02.220+09:00",
+  "updatedAt": "2026-11-02T00:03:12.326+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-02T00:00:21.600+09:00"
+      },
+      {
+        "question": "그랜드십일절 삼성전자 (2회차)",
+        "answer": "7",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T00:03:12.325+09:00"
       }
     ],
     "cashwalk": [
@@ -27,14 +34,30 @@
         "publishedAt": "2026-11-02T00:00:21.600+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "4만 마일리지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T00:03:12.325+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]깊어가는 가을, 따뜻한 마음을 전하는 선물하기 이벤트 '선물은 현홈'이 돌아왔습니다.카드 7% 즉시 할인/ 10% 적립/ 치킨 경품/ 1만원 할인쿠폰 2매 몽땅 드리는 혜택이번주 현홈에서 가장 혜택이 좋은 선물 상품은 무엇일까요?",
+        "answer": "뷰티/건강",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-02T00:03:12.325+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO이란, 세금이 법적으로 누구에게 매겨지든, 가격 변화를 거쳐 실제 부담이 누구에게 돌아가는지를 따지는 개념이에요.",
