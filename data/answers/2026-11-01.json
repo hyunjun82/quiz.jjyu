@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T17:36:48.031+09:00",
+  "updatedAt": "2026-11-01T18:03:39.397+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -207,6 +207,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-01T09:38:16.839+09:00"
+      },
+      {
+        "question": "11월1일 알리익스프레스 11.11 광군제 올해는 알리가차쏜다 캐시워크 정답 ㅌㅅㄹ",
+        "answer": "테슬라",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.386+09:00"
       }
     ],
     "shinhan-sol": [
@@ -257,7 +264,15 @@
         "publishedAt": "2026-11-01T00:35:14.927+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오후 6시 110원 알리가차쏜다 어떤 차를?",
+        "answer": "테슬라",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.388+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "대학교에 다니면서, 다른 대학에 진학하기 위해 수능을 다시 준비하는 것을 무엇이라고 할까요?",
@@ -267,7 +282,99 @@
         "publishedAt": "2026-11-01T10:02:52.953+09:00"
       }
     ],
-    "cashdoc": [],
+    "cashdoc": [
+      {
+        "question": "알리가 차쏜다?! ㅇㅇㅇ의 주인공은 누구? 알리익스프레스 11.11 광군제 이벤트, 드디어 오늘 OPEN! 매일 최초 1회 참여비 110원, 미션 달성 시 4번의 추가 기회를 드려요 지금 바로 이벤트 참여하러 GO! 11.11 광군제, 알리가 준비한 어마어마한 혜택! 놓치지 마세요!",
+        "answer": "테슬라",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-01T18:03:39.383+09:00"
+      },
+      {
+        "question": "타임스프레드 구독캘린더 (2회차)",
+        "answer": "구독, 캘린더, 연예인, 구독하기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.388+09:00"
+      },
+      {
+        "question": "이번주만 전제품 1+1 무료배송 쿠폰까지",
+        "answer": "살찌는, 모닝커피, 무카페인, 정제효소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.389+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 캘린더 구독 (4회차)",
+        "answer": "구독, 캘린더, 구독하기, 구독캘린더",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.389+09:00"
+      },
+      {
+        "question": "타임스프레드 최애 연예인 일정 구독 (5회차)",
+        "answer": "구독, 캘린더, 구독하기, 개별일정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.389+09:00"
+      },
+      {
+        "question": "1년에 딱 1번 전제품 할인 사은품 슈퍼적립",
+        "answer": "식후, 약속, 인위적, 임산부",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.389+09:00"
+      },
+      {
+        "question": "페르니 메디테이션 향기로운 탈모케어",
+        "answer": "독일산, 녹나무잎, 하수오뿌리, 유해성분무첨가",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.389+09:00"
+      },
+      {
+        "question": "일상미당 콩쑥개떡 우리가족 최애 간식",
+        "answer": "송편, 국내산, 해풍쑥, 해썹인증",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.390+09:00"
+      },
+      {
+        "question": "소비자24 24시 열린 소비자 포털",
+        "answer": "소비자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.390+09:00"
+      },
+      {
+        "question": "소비자24 간편하게 안전정보 확인",
+        "answer": "안전정보",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.390+09:00"
+      },
+      {
+        "question": "판토딜 포 헤어 앰플 (11회차)",
+        "answer": "3, 두피, 탈모",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.390+09:00"
+      },
+      {
+        "question": "멜라듀스 브라이트닝 앰플 (12회차)",
+        "answer": "미백, 피부톤, 스킨부스터",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.390+09:00"
+      },
+      {
+        "question": "소비자24 내가 받은 피해 어디서 구제 신청하지",
+        "answer": "피해구제",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-01T18:03:39.390+09:00"
+      }
+    ],
     "climate-action": [
       {
         "question": "경기도는 기후위기에 대응하기 위해 환경보건부문(기후보건)을 추진하고 있다.",
