@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T10:00:44.429+09:00",
+  "updatedAt": "2026-11-02T10:01:54.511+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -277,7 +277,15 @@
       }
     ],
     "hana-life": [],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T10:01:54.509+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "모니모 퀴즈 — 모니스쿨",
