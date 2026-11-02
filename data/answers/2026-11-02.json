@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T20:03:41.118+09:00",
+  "updatedAt": "2026-11-02T20:32:48.776+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -401,6 +401,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-02T18:03:05.416+09:00"
+      },
+      {
+        "question": "센텔리안24 동국제약 더마데카크림",
+        "answer": "퍼밍",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T20:32:48.765+09:00"
       }
     ],
     "climate-action": [
