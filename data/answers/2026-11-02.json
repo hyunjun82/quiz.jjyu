@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T10:01:54.511+09:00",
+  "updatedAt": "2026-11-02T10:03:37.780+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-02T00:30:42.004+09:00"
+      },
+      {
+        "question": "국민유산균 타임특가 (5회차)",
+        "answer": "이지드롭",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
       }
     ],
     "cashwalk": [
@@ -42,7 +49,7 @@
       },
       {
         "question": "[11.01-11.11] 인기 브랜드 EOO 총 집합! 매일 짜릿한 EOO특가OPEN! 품절되기 전에 득템하러 GO! OO에 들어갈 단어는 무엇일까요? (초성힌트: ㅋㅍ)",
-        "answer": "쿠폰 / AI / 마트 / 웰컴딜",
+        "answer": "쿠폰, AI, 마트, 웰컴딜",
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-02T00:00:21.600+09:00"
@@ -53,6 +60,118 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-02T10:00:44.425+09:00"
+      },
+      {
+        "question": "픽스 무선 에어건 휴대용 청소기 PRO",
+        "answer": "12000, BLDC, 확장형, 바람분사, 배터리팩",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 휴대용 초소형 고음질 자동녹음기",
+        "answer": "1536, 비서, 원터치, 지능형, 초슬림",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "픽스 스마트 자동센서 휴지통",
+        "answer": "25, 충격감지, 모션감지, 커버열림, 충격센서",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 무선 전동 에어펌프",
+        "answer": "7800, 시거잭, 원터치, 점검비용, 하이브리드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "식품의약품안전처 깨끗하고 안심되는 음식점의 표시를 찾아라",
+        "answer": "다섯개, 식품안심업소",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "중소벤처기업부 2027년 예산안 핵심만 쏙",
+        "answer": "점프업, 피지컬, 모두의창업, 건강돌봄지원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "픽스 3in1 마그네틱 고속 무선 충전 거치대",
+        "answer": "15, 폴더블, 케이스, 맥세이프, 독립회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "앱스토리몰 픽스 저주파 마사지기",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.768+09:00"
+      },
+      {
+        "question": "국민건강보험 내 건강보험료도 정산 대상일까",
+        "answer": "소득정산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.769+09:00"
+      },
+      {
+        "question": "픽스 세이프티 LFP 보조배터리",
+        "answer": "1000, LFP, 준고체, 초고속, 빠른충전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.769+09:00"
+      },
+      {
+        "question": "픽스 팬히터 온풍기 좌우회전 신형 온풍기 특가",
+        "answer": "60, 80, PTC, 예열, 저전력",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.769+09:00"
+      },
+      {
+        "question": "중소벤처기업부 코리아 그랜드 페스티벌",
+        "answer": "지방소비, 비수도권, 삼천만원, 상생소비복권, 디지털온누리",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.769+09:00"
+      },
+      {
+        "question": "픽스 듀얼 휴대용 미니 가습기",
+        "answer": "5, 70, 550, 자동살균, 수위감지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.769+09:00"
+      },
+      {
+        "question": "더캐스트 화장품 (17회차)",
+        "answer": "구매확정후",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.769+09:00"
+      },
+      {
+        "question": "배달의민족 배민 맥도날드 선착순 쿠폰",
+        "answer": "배짱, 맥도, 호식이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.769+09:00"
+      },
+      {
+        "question": "요즘 그릭요거트 성분 프리미엄 그릭요거트 YOZM",
+        "answer": "996",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.770+09:00"
       }
     ],
     "shinhan-sol": [
@@ -96,8 +215,24 @@
         "publishedAt": "2026-11-02T00:15:56.470+09:00"
       }
     ],
-    "ok-cashbag": [],
-    "kbpay": [],
+    "ok-cashbag": [
+      {
+        "question": "오전 10시 주식 투자, 이제 포인트로 시작하세요!",
+        "answer": "5000",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T10:03:37.770+09:00"
+      }
+    ],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월2일",
+        "answer": "추수감사절",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-02T10:03:37.767+09:00"
+      }
+    ],
     "cashdoc": [
       {
         "question": "딱 2시간! 미친 혜택의 OO어택! G마켓 쇼핑마라톤 LIVE에서 구매인증 전원 GS25 2천원권 증정! 에어프라이어 오븐 15%, 레고 클래식 10698 17%, 4000W 멀티탭 66%, 나주 햇 신고배 3kg 14% 할인! 유산균·냉장고·에어드레서까지 단 120분 혜택가를 확인하세요. OO에 들어갈 단어는 무엇일까요?(힌트: ㅁㄴ)",
