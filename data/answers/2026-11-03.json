@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T08:09:28.155+09:00",
+  "updatedAt": "2026-11-03T08:19:49.663+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -190,7 +190,15 @@
         "publishedAt": "2026-11-03T00:01:00.307+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Hit, Give/call, Dont/bother",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T08:19:49.662+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
