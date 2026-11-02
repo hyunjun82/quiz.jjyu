@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T00:04:22.361+09:00",
+  "updatedAt": "2026-11-03T00:10:11.504+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -68,7 +68,15 @@
         "publishedAt": "2026-11-03T00:02:41.452+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T00:10:11.503+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
