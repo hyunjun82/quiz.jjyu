@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T11:00:20.195+09:00",
+  "updatedAt": "2026-11-02T11:02:05.506+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -533,9 +533,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-02T00:08:45.341+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시 (2회차)",
+        "answer": "3, O, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T11:02:05.498+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T11:02:05.498+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요양보호사의 일은 단순한 집안일만 포함된다?",
