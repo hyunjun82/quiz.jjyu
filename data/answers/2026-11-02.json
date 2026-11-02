@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T10:09:04.539+09:00",
+  "updatedAt": "2026-11-02T10:15:19.935+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -362,10 +362,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "11월2일 카카오페이퀴즈 정답 중국 상하이 CDF 면세점에서 OOO 위안 즉시할인",
         "answer": "100",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-11-02T10:09:04.527+09:00"
       }
     ],
