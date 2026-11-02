@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T10:40:48.861+09:00",
+  "updatedAt": "2026-11-02T10:44:14.943+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -419,7 +419,15 @@
         "publishedAt": "2026-11-02T05:21:40.951+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "놀이터 상단 이미지에는 세개의 풍선이 있다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-02T10:44:14.934+09:00"
+      }
+    ],
     "hana-travel": [
       {
         "question": "하나원큐 트래블미션",
