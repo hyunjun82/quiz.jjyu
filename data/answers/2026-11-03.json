@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T07:12:27.782+09:00",
+  "updatedAt": "2026-11-03T07:12:55.345+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -173,13 +173,6 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-03T00:01:36.268+09:00"
-      },
-      {
-        "question": "닥터나우 퀴즈 — 닥터나우 (2회차)",
-        "answer": "X (아니다)",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-11-03T04:48:05.819+09:00"
       }
     ],
     "buzzvil": [],
