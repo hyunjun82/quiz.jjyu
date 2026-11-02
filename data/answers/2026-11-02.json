@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T20:01:23.829+09:00",
+  "updatedAt": "2026-11-02T20:03:41.118+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -225,6 +225,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-02T12:05:44.000+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "촉매",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T20:03:41.107+09:00"
       }
     ],
     "kakaobank-ox": [
