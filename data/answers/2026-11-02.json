@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T19:00:47.385+09:00",
+  "updatedAt": "2026-11-02T19:15:41.658+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -632,7 +632,15 @@
         "publishedAt": "2026-11-02T00:00:57.622+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 나랑드사이다",
+        "answer": "상쾌",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-02T19:15:41.651+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
