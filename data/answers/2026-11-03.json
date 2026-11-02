@@ -1,9 +1,31 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T00:01:00.307+09:00",
+  "updatedAt": "2026-11-03T00:01:36.269+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "11/2 단 하루! 김희애가 선택한 '카무트 브랜드밀 효소 골드' 초특가 OOOOO원 + 무료배송 + 사은품 증정 혜택 진행 중! 탄수화물 섭취가 잦은 한국인의 식습관을 고려해 설계된 아밀라아제·프로테아제 함유 카무트 효소 OOOOO에 들어갈 숫자는 무엇일까요?",
+        "answer": "31900",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-03T00:01:36.268+09:00"
+      },
+      {
+        "question": "마블워크 회원가입 리워드는 OO 설치·가입 시에만 지급돼요. ~ 여기서 OO은 무엇일까요? (힌트: ㅊㅊ)",
+        "answer": "최초",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-03T00:01:36.268+09:00"
+      },
+      {
+        "question": "높은 계단도 거뜬해지는 뼈팔팔 비타민 ~ 푸드루트 비타민D는 비타민K2+비타민 D3+OOO을 1포에 담아 물없이 간편하게 섭취해 뼈건강을 관리할 수 있어요! 여기서 OOO는? (힌트 : ㅅㄹㄴ)",
+        "answer": "셀레늄",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-03T00:01:36.268+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -12,7 +34,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 한 나라 통화의 가치를 여러 교역 상대국 통화와 견주고, 교역 비중으로 가중평균해 나타낸 환율이에요.",
+        "answer": "실효환율",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-03T00:01:36.268+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -36,11 +66,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T00:01:36.268+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "간편송금 서비스는 반드시 상대방의 계좌번호를 정확히 입력해야만 송금할 수 있어요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-03T00:01:36.268+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
