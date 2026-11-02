@@ -29,6 +29,7 @@ concurrency:
 
 permissions:
   contents: read
+  actions: write # 2026-11-03: 수집이 멈춘 걸 알면 메일만 보내지 말고 수집 job 을 직접 깨운다
 
 jobs:
   healthcheck:
@@ -40,4 +41,14 @@ jobs:
         with:
           node-version: 22
       - name: 파이프라인 상태 점검
+        id: check
         run: node scripts/healthcheck.mjs
+
+      # 2026-11-03: 장애로 판정되면 수집 job 을 바로 다시 띄운다.
+      #   11/2 GitHub cron 이 열 시간 동안 거의 안 떠서 수집이 4시간 반 비었는데, 이 감시는 메일만 보내고 끝났다.
+      #   수집 job 이 이미 돌고 있으면 concurrency 가 대기열에 넣으므로 중복 실행은 없다.
+      - name: 수집 job 다시 깨우기
+        if: failure() && steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run collect.yml --ref main && echo "수집 job 호출함"

@@ -112,6 +112,18 @@ jobs:
           done
           echo "푸시 실패 — 다음 주기에서 재시도됨"
 
+      # 2026-11-03: 다음 수집 job 을 스스로 깨운다 — 5분 cron 에만 기대지 않는다.
+      #   실측 11/2: GitHub 가 cron 을 09:40→19:47 UTC 열 시간 동안 한 번만 띄웠다(deploy 의 30분 cron 도 3시간 비었다).
+      #   그래서 00:20~04:47 KST 4시간 반 동안 수집 job 이 하나도 없었고 기후행동·하나원큐·나만의닥터 등이 늦었다.
+      #   job 이 끝날 때 다음 job 을 직접 호출하면 cron 이 죽어도 수집이 이어진다(concurrency 가 중복을 막는다).
+      - name: 다음 수집 job 깨우기
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run collect.yml --ref main && echo "다음 수집 job 호출함"
+
       - name: 사이트 배포 요청 (deploy.yml)
         # GITHUB_TOKEN 푸시는 push 이벤트로 deploy.yml 을 못 깨우므로 여기서 직접 호출한다.
         # job 시작 커밋과 지금 origin/main 이 다를 때만 — 변경이 없으면 배포할 것도 없다.
