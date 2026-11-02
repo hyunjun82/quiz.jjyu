@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T04:48:05.823+09:00",
+  "updatedAt": "2026-11-03T07:02:15.705+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -155,10 +155,10 @@
         "publishedAt": "2026-11-03T04:48:05.819+09:00"
       },
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (2회차)",
+        "question": "바나나는 포만감을 오래 유지시킬 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-11-03T04:48:05.819+09:00"
       }
     ],
