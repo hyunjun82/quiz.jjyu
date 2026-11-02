@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T18:11:21.000+09:00",
+  "updatedAt": "2026-11-02T18:40:47.243+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -533,6 +533,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-02T11:00:20.185+09:00"
+      },
+      {
+        "question": "고구마는 비타민 A를 포함하고 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-02T18:40:47.225+09:00"
       }
     ],
     "skstoa": [],
