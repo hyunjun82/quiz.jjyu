@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T18:40:47.243+09:00",
+  "updatedAt": "2026-11-02T19:00:47.385+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -243,6 +243,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-02T18:03:05.415+09:00"
+      },
+      {
+        "question": "오후 7시 갤럭시 총출동 빅스마일데이 첫날특가",
+        "answer": "총출동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-02T19:00:47.374+09:00"
       }
     ],
     "kbpay": [
