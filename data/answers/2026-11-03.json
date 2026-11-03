@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T18:03:42.062+09:00",
+  "updatedAt": "2026-11-03T18:04:48.005+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-03T08:04:12.786+09:00"
+      },
+      {
+        "question": "미글로우 퀴즈이벤트 (3회차)",
+        "answer": "핌, 마이크로웨이브",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-03T18:04:47.993+09:00"
       }
     ],
     "cashwalk": [
