@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T07:53:41.600+09:00",
+  "updatedAt": "2026-11-04T08:02:17.767+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,7 +78,15 @@
         "publishedAt": "2026-11-04T06:51:34.807+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "answer": "만두소",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T08:02:17.765+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "주말에는 매일 용돈 받기 출석체크 시 랜덤 이벤트 용돈을 2배로 획득할 수 있다.",
