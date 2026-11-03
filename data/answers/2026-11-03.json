@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T20:03:39.992+09:00",
+  "updatedAt": "2026-11-03T20:05:23.567+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -225,6 +225,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-03T12:02:42.468+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (3회차)",
+        "answer": "축전지",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T20:05:23.558+09:00"
       }
     ],
     "kakaobank-ox": [
