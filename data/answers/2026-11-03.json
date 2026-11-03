@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T20:01:59.412+09:00",
+  "updatedAt": "2026-11-03T20:03:39.992+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -387,6 +387,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-03T19:30:29.019+09:00"
+      },
+      {
+        "question": "닥터지 블랙 스네일 세트 (20회차)",
+        "answer": "마스크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-03T20:03:39.980+09:00"
       }
     ],
     "climate-action": [
