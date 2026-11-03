@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T00:40:27.658+09:00",
+  "updatedAt": "2026-11-04T03:30:31.566+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -93,6 +93,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-04T00:03:25.115+09:00"
+      },
+      {
+        "question": "11월4일 현대 에이치 H포인트 퀴즈 정답",
+        "answer": "1타임스퀘어 팝케이크",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-04T03:30:31.565+09:00"
       }
     ],
     "bitbunny": [
