@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T07:48:29.610+09:00",
+  "updatedAt": "2026-11-04T07:53:41.600+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -196,7 +196,15 @@
         "publishedAt": "2026-11-04T00:01:01.492+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Keep, keep/rest, come/down",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T07:53:41.599+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
