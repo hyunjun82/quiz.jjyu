@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T00:35:16.844+09:00",
+  "updatedAt": "2026-11-04T00:40:27.658+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,10 +50,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "2026 코리아 그랜드 페스티벌 이벤트 참여 시 받을 수 있는 최대 혜택은 무엇일까요?",
         "answer": "청구할인 1만원",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-04T00:02:47.555+09:00"
       },
       {
@@ -107,20 +107,27 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "11월4일 농협 NH올원뱅크 디깅퀴즈 정답",
+        "question": "올원뱅크의 자원봉사 서비스에서 이용할 수 없는 기능은 무엇일까요?",
         "answer": "자원봉사 등록",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-04T00:02:47.555+09:00"
       }
     ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "2026년 독감 무료 예방접종 대상이 아닌 것은 무엇일까요?",
         "answer": "3번 대학생",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-04T00:07:08.715+09:00"
+      },
+      {
+        "question": "(가) 왕에 대한 설명으로 옳은 것은?",
+        "answer": "④ 이차돈의 순교를 계기로 불교를 공인하였다.",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-04T00:40:27.655+09:00"
       }
     ],
     "kbank": [
@@ -132,8 +139,24 @@
         "publishedAt": "2026-11-04T00:21:18.031+09:00"
       }
     ],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "축구 경기에서 한 선수가 한 경기에서 3골을 기록하는 것을 무엇이라고 할까요?",
+        "answer": "① 해트트릭",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-04T00:40:27.656+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 MY하나 페이지에서는 이체한도 확인은 가능하나, OTP 등 보안매체 관리는 불가능하다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-04T00:40:27.656+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
