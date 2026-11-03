@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T21:01:20.458+09:00",
+  "updatedAt": "2026-11-03T21:06:51.720+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-03T18:04:47.993+09:00"
+      },
+      {
+        "question": "미글로우의 O 기술은 원하는 부위에 에너지를 집중 전달해요",
+        "answer": "핌",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-03T21:06:51.701+09:00"
       }
     ],
     "cashwalk": [
