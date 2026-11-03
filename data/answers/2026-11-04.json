@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T03:35:54.319+09:00",
+  "updatedAt": "2026-11-04T03:51:52.794+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -199,7 +199,7 @@
     "doctornow": [
       {
         "question": "간수치 약 성분 UDCA는 몸에 원래 있는 담즙산의 한 종류다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-04T00:01:38.674+09:00"
