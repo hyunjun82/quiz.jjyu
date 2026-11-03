@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T10:04:03.254+09:00",
+  "updatedAt": "2026-11-03T10:08:55.834+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -345,7 +345,15 @@
         "publishedAt": "2026-11-03T00:01:36.268+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "40",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T10:08:55.829+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "전화기의 발명가로 알려진 알렉산더 그레이엄 벨은 백열전구를 상용화한 인물로도 유명하다.",
@@ -450,7 +458,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "빅스마일",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T10:08:55.829+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
