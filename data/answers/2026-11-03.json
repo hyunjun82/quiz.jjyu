@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T20:29:02.598+09:00",
+  "updatedAt": "2026-11-03T20:29:38.082+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -401,6 +401,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-03T20:03:39.980+09:00"
+      },
+      {
+        "question": "G마켓 닥터지 블랙 스네일 세트",
+        "answer": "마스크팩",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-03T20:29:38.068+09:00"
       }
     ],
     "climate-action": [
