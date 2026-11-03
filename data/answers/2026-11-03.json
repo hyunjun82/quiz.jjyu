@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T11:06:28.527+09:00",
+  "updatedAt": "2026-11-03T11:11:08.641+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -457,10 +457,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "혈압이 정상으로 나오면 혈압약은 바로 끊어도 된다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-03T04:48:05.819+09:00"
       },
       {
