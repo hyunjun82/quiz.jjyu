@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T11:34:36.989+09:00",
+  "updatedAt": "2026-11-03T12:02:42.473+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -197,6 +197,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-03T08:03:34.613+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "캐럴",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T12:02:42.468+09:00"
       }
     ],
     "kakaobank-ox": [
