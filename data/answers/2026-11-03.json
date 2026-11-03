@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T11:00:39.433+09:00",
+  "updatedAt": "2026-11-03T11:06:28.527+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -520,7 +520,15 @@
         "publishedAt": "2026-11-03T00:03:17.887+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-03T11:06:28.522+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "등급 신청은 본인 또는 법적 보호자만 신청할 수 있다?",
