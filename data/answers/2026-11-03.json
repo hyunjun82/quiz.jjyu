@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T10:25:39.975+09:00",
+  "updatedAt": "2026-11-03T10:27:29.262+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -472,7 +472,7 @@
     "doctornow": [
       {
         "question": "건강한 성인의 식중독은 보통 2~3일이면 회복된다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-03T00:01:36.268+09:00"
