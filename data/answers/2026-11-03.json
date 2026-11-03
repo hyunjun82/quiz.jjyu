@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T15:02:06.876+09:00",
+  "updatedAt": "2026-11-03T15:14:22.415+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -199,10 +199,10 @@
         "publishedAt": "2026-11-03T08:03:34.613+09:00"
       },
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "question": "12:00 사물 관련 이모지 보고 퀴즈 풀기",
         "answer": "캐럴",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-03T12:02:42.468+09:00"
       }
     ],
