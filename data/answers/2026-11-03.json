@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T10:08:55.834+09:00",
+  "updatedAt": "2026-11-03T10:20:58.025+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -347,10 +347,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "건조한 겨울에도 촉촉하고 가벼운 메디힐 선케어는 오늘만 □□% 할인!",
         "answer": "40",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-03T10:08:55.829+09:00"
       }
     ],
