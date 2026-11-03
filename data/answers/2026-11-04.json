@@ -1,9 +1,53 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T00:01:01.492+09:00",
+  "updatedAt": "2026-11-04T00:01:38.674+09:00",
   "answers": {
-    "toss-lucky": [],
-    "cashwalk": [],
+    "toss-lucky": [
+      {
+        "question": "미글로우의 O 기술은 원하는 부위에 에너지를 집중 전달해요",
+        "answer": "핌",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-04T00:01:38.673+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "센토 프라임 구취케어 치약 4개 입점기념 9,900원! ~ OOO 불검출 테스트를 완료했습니다. OOO은 무엇일까요? (초성힌트: ㅈㄱㅅ)",
+        "answer": "중금속",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-04T00:01:38.673+09:00"
+      },
+      {
+        "question": "아이들의 두 번째 집에 불이 꺼지지 않도록! 이번 크라우드펀딩은 BTC지역아동센터 아이들의 안전한 돌봄 환경을 위한 OO 환경 개선 지원사업을 목적으로 진행됩니다. (초성 힌트: ㅈㄱ)",
+        "answer": "전기",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-04T00:01:38.673+09:00"
+      },
+      {
+        "question": "가까운 곳에서 내 건강을 살펴주는 동네 병원! 건강보험심사평가원 유튜브 영상에서 소개하는 '우리지역 좋은 OOOO' 서비스를 '건강e음' 앱에서 만나보세요. OOOO에 들어갈 단어는 무엇일까요? (힌트 : ㅂㅇㅊㄱ)",
+        "answer": "병원찾기",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-04T00:01:38.674+09:00"
+      },
+      {
+        "question": "리비힐 엑소좀 선크림은 고효능 엑소좀과 SPF50+, PA++++차단지수로 ㅇㅇㅇㅇㅇ+자외선 차단을 동시에 하는 제품입니다. ㅇㅇㅇㅇㅇ은 무엇일까요? (초성 : ㅇㅌㅇㅇㅇ)",
+        "answer": "안티에이징 / 혼합자차",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-04T00:01:38.674+09:00"
+      },
+      {
+        "question": "소휘 효소는 OOOO 없는 100% 통곡물 저분자 발효효소에요 오직 캐시딜에서 최대할인+10%할인쿠폰+무료배송으로 만나보세요! OOOO에 들어갈 단어는? (힌트: ㅈㅈㅎㅅ)",
+        "answer": "정제효소",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-04T00:01:38.674+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -12,7 +56,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 연금 가입 기간의 평균 소득과 견줘 노후에 받는 연금액이 어느 정도 수준인지를 나타내는 비율이에요.",
+        "answer": "소득대체율",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-04T00:01:38.674+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -36,11 +88,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T00:01:38.674+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "지역사랑상품권(지역화폐)은 액면가보다 할인된 가격에 구매할 수 있는 경우가 많아요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-04T00:01:38.674+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
