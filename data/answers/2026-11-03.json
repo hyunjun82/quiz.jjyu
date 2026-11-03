@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "updatedAt": "2026-11-03T13:05:57.643+09:00",
+  "updatedAt": "2026-11-03T13:27:21.138+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -387,6 +387,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-03T13:05:57.632+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈 친구 션과 함께 달리면 경품 드려요 11월3일정답",
+        "answer": "5",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-03T13:27:21.130+09:00"
       }
     ],
     "nh-allone": [
