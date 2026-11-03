@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T08:02:17.767+09:00",
+  "updatedAt": "2026-11-04T08:09:05.086+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -96,7 +96,15 @@
         "publishedAt": "2026-11-04T00:10:36.778+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 지마켓 (광고모아보기) (1회차)",
+        "answer": "어택",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T08:09:05.085+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
