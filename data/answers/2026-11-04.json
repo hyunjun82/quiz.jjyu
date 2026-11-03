@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T07:02:00.194+09:00",
+  "updatedAt": "2026-11-04T07:48:29.610+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-04T00:01:38.673+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "갤럭시 Z폴드8",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T07:48:29.608+09:00"
       }
     ],
     "cashwalk": [
@@ -144,6 +151,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-04T00:21:18.031+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T07:48:29.608+09:00"
       }
     ],
     "hana-onq": [
@@ -164,7 +178,15 @@
         "publishedAt": "2026-11-04T00:40:27.656+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T07:48:29.608+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "1인당 연간 15만원의 문화생활비를 지원받는 '문화누리카드'로 즐길 수 있는 활동은 무엇일까요?",
