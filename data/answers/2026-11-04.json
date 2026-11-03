@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T00:21:18.033+09:00",
+  "updatedAt": "2026-11-04T00:30:07.464+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,10 +67,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "주말에는 매일 용돈 받기 출석체크 시 랜덤 이벤트 용돈을 2배로 획득할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-04T00:10:36.778+09:00"
       }
     ],
@@ -79,7 +79,7 @@
     "cashdoc": [],
     "climate-action": [
       {
-        "question": "기후행동 기회소득 11월 4일 오늘의 퀴즈 문제",
+        "question": "기후변화로 인한 가뭄과 깨끗한 수돗물 확보와는 관련이 없다.",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
@@ -146,7 +146,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "에페는 약국에서 처방전 없이 살 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-04T00:30:07.462+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
