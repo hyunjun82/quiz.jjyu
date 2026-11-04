@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T11:19:14.070+09:00",
+  "updatedAt": "2026-11-04T11:20:57.613+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -443,7 +443,15 @@
         "publishedAt": "2026-11-04T11:19:14.059+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-04T11:20:57.601+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "케겔 운동은 요실금 예방과 치료에 효과적이다?",
