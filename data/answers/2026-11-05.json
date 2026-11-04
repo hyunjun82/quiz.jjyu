@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T01:27:12.793+09:00",
+  "updatedAt": "2026-11-05T02:38:24.691+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -178,7 +178,7 @@
     "doctornow": [
       {
         "question": "헤르페스 바이러스를 완전히 없애는 약이 있다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-05T00:04:04.325+09:00"
