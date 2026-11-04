@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T10:02:16.436+09:00",
+  "updatedAt": "2026-11-04T10:04:00.247+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -147,7 +147,15 @@
         "publishedAt": "2026-11-04T08:09:05.085+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay KB오토핏의 '000'이야기에서는...",
+        "answer": "차차차",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-04T10:04:00.237+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
