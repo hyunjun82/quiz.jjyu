@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T07:03:30.680+09:00",
+  "updatedAt": "2026-11-05T07:13:42.467+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-05T00:02:57.506+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "4. 포인트 잔액",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-05T07:13:42.465+09:00"
       }
     ],
     "kakaobank": [],
