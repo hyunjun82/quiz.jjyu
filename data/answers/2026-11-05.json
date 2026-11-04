@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T00:13:05.983+09:00",
+  "updatedAt": "2026-11-05T00:18:23.641+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -100,9 +100,25 @@
         "publishedAt": "2026-11-05T00:11:25.520+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T00:18:23.641+09:00"
+      }
+    ],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T00:18:23.640+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
