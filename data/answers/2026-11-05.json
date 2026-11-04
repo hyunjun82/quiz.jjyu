@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T00:07:40.167+09:00",
+  "updatedAt": "2026-11-05T00:09:39.656+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -76,7 +76,15 @@
         "publishedAt": "2026-11-05T00:02:57.506+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "answer": "3번 MMF",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T00:09:39.656+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
