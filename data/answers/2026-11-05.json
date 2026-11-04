@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T00:03:30.495+09:00",
+  "updatedAt": "2026-11-05T00:04:04.325+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -89,14 +89,38 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T00:04:04.325+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "X, O, X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T00:04:04.325+09:00"
+      }
+    ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "한 번 등록한 시설은 계약기간 중간에 바꿀 수 없다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-05T00:04:04.325+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 주인공인 베스트셀러 작가의 이름은?",
