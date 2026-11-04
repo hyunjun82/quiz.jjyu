@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T10:09:28.853+09:00",
+  "updatedAt": "2026-11-04T10:19:22.072+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -220,10 +220,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "question": "08:00 음식 관련 이모지 보고 퀴즈 풀기",
         "answer": "만두소",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-04T08:02:17.765+09:00"
       }
     ],
