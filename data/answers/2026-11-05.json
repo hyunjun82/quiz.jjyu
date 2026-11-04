@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T08:02:50.140+09:00",
+  "updatedAt": "2026-11-05T08:58:45.297+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -183,7 +183,15 @@
         "publishedAt": "2026-11-05T00:01:16.558+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "about/head, about/head, head/out",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T08:58:45.296+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
