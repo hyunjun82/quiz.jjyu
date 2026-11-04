@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T00:36:10.422+09:00",
+  "updatedAt": "2026-11-05T00:41:17.489+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,10 +36,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "신한SOL페이 고향사랑기부제 10만원 기부 시, 세액공제+답례품+마이신한포인트를 합산한 총 혜택 금액은?",
         "answer": "14만원",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-05T00:02:57.506+09:00"
       },
       {
