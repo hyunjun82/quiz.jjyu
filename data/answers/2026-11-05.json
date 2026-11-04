@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T00:46:25.177+09:00",
+  "updatedAt": "2026-11-05T00:51:34.664+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -164,10 +164,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "건강검진에서 신장 수치가 한 번 높게 나오면 곧바로 신장병으로 진단된다",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-05T00:24:41.796+09:00"
       }
     ],
