@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T02:38:24.691+09:00",
+  "updatedAt": "2026-11-05T07:03:30.680+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-05T00:24:41.796+09:00"
+      },
+      {
+        "question": "체중 감량은 단기 목표로만 설정해야 한다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-05T07:03:30.679+09:00"
       }
     ],
     "skstoa": [],
