@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T00:25:17.983+09:00",
+  "updatedAt": "2026-11-05T00:31:02.547+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -63,7 +63,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "최근 플라스틱 오염 위기를 해결하기 위한 '국제 플라스틱 협약 회의(INC)'가 진행되고 있으며, 5차 회의는 2024년 11월 대한민국 부산에서 개최된 바 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-05T00:31:02.546+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]11월 5일(목) 오전 9시 라코스테 프렌치 감성으로 완성하는 가을 스타일 LIVE 방송이 진행되는데요.감성 가을 스타일과 최대 23% 할인 혜택으로 준비한 라코스테의 시그니처 컬러는 무엇일까요?",
@@ -161,10 +169,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "헤르페스 바이러스를 완전히 없애는 약이 있다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-05T00:04:04.325+09:00"
       },
       {
