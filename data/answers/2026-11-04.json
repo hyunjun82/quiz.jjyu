@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updatedAt": "2026-11-04T11:20:57.613+09:00",
+  "updatedAt": "2026-11-04T12:03:52.375+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -225,6 +225,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-04T08:02:17.765+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "진압",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-04T12:03:52.360+09:00"
       }
     ],
     "kakaobank-ox": [
