@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T00:02:57.506+09:00",
+  "updatedAt": "2026-11-05T00:03:30.495+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -48,7 +48,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]11월 5일(목) 오전 9시 라코스테 프렌치 감성으로 완성하는 가을 스타일 LIVE 방송이 진행되는데요.감성 가을 스타일과 최대 23% 할인 혜택으로 준비한 라코스테의 시그니처 컬러는 무엇일까요?",
+        "answer": "그린",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-05T00:03:30.495+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [
