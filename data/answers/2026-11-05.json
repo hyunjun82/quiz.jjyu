@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T10:04:28.275+09:00",
+  "updatedAt": "2026-11-05T10:05:09.319+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -239,7 +239,15 @@
         "publishedAt": "2026-11-05T00:07:40.166+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "보너스",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T10:05:09.313+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "11월5일 농협 NH올원뱅크 디깅퀴즈 정답 대한민국에서 두번째로 큰 섬의 이름",
@@ -344,7 +352,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "빅스마일",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T10:05:09.313+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
