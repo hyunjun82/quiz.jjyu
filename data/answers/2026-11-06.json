@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T01:44:29.392+09:00",
+  "updatedAt": "2026-11-06T07:02:58.146+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-06T00:00:20.437+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "사랑하는 자녀",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-06T07:02:58.146+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "늘 고마운 부모님",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-06T07:02:58.146+09:00"
       }
     ],
     "cashwalk": [
@@ -133,7 +147,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "체온이 높아지면 항상 병의 신호다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-06T07:02:58.146+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
