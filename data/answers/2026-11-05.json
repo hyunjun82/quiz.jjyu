@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T11:05:12.743+09:00",
+  "updatedAt": "2026-11-05T11:06:57.263+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -541,7 +541,15 @@
         "publishedAt": "2026-11-05T11:05:12.737+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-05T11:06:57.256+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "한 번 등록한 시설은 계약기간 중간에 바꿀 수 없다?",
