@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T10:02:47.055+09:00",
+  "updatedAt": "2026-11-05T10:03:55.385+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -209,7 +209,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월5일",
+        "answer": "첵첵 체크카드",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-05T10:03:55.375+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
