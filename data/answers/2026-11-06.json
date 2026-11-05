@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T07:02:58.146+09:00",
+  "updatedAt": "2026-11-06T07:05:26.665+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -145,7 +145,15 @@
         "publishedAt": "2026-11-06T00:00:56.847+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Back/young, Back/hard, Back/happy",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-06T07:05:26.663+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
