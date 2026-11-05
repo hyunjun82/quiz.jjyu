@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T00:15:57.811+09:00",
+  "updatedAt": "2026-11-06T00:35:41.850+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -124,10 +124,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "레티노이드는 색소침착 개선에 도움을 줄 수 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-06T00:02:02.577+09:00"
       }
     ],
