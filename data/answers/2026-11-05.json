@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T20:18:23.500+09:00",
+  "updatedAt": "2026-11-05T21:01:35.323+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -165,6 +165,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-05T10:09:36.273+09:00"
+      },
+      {
+        "question": "컷슬린데일리 보리한잔 특가",
+        "answer": "12900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-05T21:01:35.305+09:00"
       }
     ],
     "shinhan-sol": [
