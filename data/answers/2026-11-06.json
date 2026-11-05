@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T07:20:46.146+09:00",
+  "updatedAt": "2026-11-06T08:02:54.612+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-06T07:02:58.146+09:00"
+      },
+      {
+        "question": "재혼황후 원작 웹툰 (4회차)",
+        "answer": "나비에, 소비에슈",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-06T08:02:54.611+09:00"
       }
     ],
     "cashwalk": [
@@ -57,7 +64,15 @@
         "publishedAt": "2026-11-06T07:20:46.143+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "제설",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-06T08:02:54.611+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크에는 매일 혜택을 바꿀 수 있는 체크카드가 있다.",
