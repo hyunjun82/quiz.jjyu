@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T07:15:38.625+09:00",
+  "updatedAt": "2026-11-06T07:20:46.146+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,15 +48,22 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-06T00:03:10.653+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "③ 50% 할인",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-06T07:20:46.143+09:00"
       }
     ],
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크에는 매일 혜택을 바꿀 수 있는 체크카드가 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-06T00:12:34.957+09:00"
       }
     ],
@@ -88,6 +95,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-06T00:07:21.187+09:00"
+      },
+      {
+        "question": "OOOO이란, 석유 생산량이 정점에 이른 뒤 매장량 한계로 점차 줄어들기 시작하는 시점을 가리키는 말이에요.",
+        "answer": "피크오일",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-06T07:20:46.144+09:00"
       }
     ],
     "kakaopay": [],
@@ -123,6 +137,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-06T00:12:34.957+09:00"
+      },
+      {
+        "question": "나초가 처음 탄생한 나라로 알려진 곳은?",
+        "answer": "② 멕시코",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-06T07:20:46.144+09:00"
       }
     ],
     "hana-onq": [
@@ -136,10 +157,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "이번에 리뉴얼 오픈한 하나은행의 급여 멤버십 서비스 달달 하나 컴퍼니는 직급이 오를수록 혜택이 확대되는 5단계 직급 승진제를 도입했다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-06T00:12:34.957+09:00"
       }
     ],
@@ -188,7 +209,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "미성년자도 부모 동의 없이 신용카드를 발급받을 수 있어요.",
+        "answer": "X (아니에요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-06T07:20:46.144+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
