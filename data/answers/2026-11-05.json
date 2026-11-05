@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updatedAt": "2026-11-05T10:05:42.334+09:00",
+  "updatedAt": "2026-11-05T10:09:36.283+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-05T10:02:47.049+09:00"
+      },
+      {
+        "question": "11월5일 푸드루트 비타민C 생얼에 자신있다면 캐시워크 정답",
+        "answer": "100 500 아연 비타민",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-05T10:09:36.273+09:00"
       }
     ],
     "shinhan-sol": [
