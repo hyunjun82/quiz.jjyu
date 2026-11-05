@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T00:03:10.653+09:00",
+  "updatedAt": "2026-11-06T00:04:16.350+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -98,7 +98,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "장기요양등급은 한번 받으면 평생 이용할 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-06T00:04:16.350+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
