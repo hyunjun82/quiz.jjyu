@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T00:35:41.850+09:00",
+  "updatedAt": "2026-11-06T01:16:27.146+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -22,10 +22,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "올영 PAY X 신한카드로 7만원 이상 결제 시 즉시 할인 금액은 얼마일까요?",
         "answer": "4천원",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-11-06T00:03:10.653+09:00"
       },
       {
