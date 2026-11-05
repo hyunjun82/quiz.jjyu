@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T00:04:16.350+09:00",
+  "updatedAt": "2026-11-06T00:07:21.187+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,10 +51,33 @@
         "publishedAt": "2026-11-06T00:03:10.653+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "피크아웃",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-06T00:07:21.187+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "3. 최치원",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-06T00:07:21.187+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "2번 IPO",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-06T00:07:21.187+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
