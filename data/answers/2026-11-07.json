@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T00:15:35.039+09:00",
+  "updatedAt": "2026-11-07T00:16:11.256+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,7 +59,15 @@
         "publishedAt": "2026-11-07T00:03:08.930+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "0000이란, 가상자산을 다른 사업자에게 보 낼 때보내는 사람과 받는 사람의 정보를 함께 넘기도록 한 자금세탁방지 규정이에요.",
+        "answer": "트래블룰",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-07T00:16:11.255+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [
@@ -110,7 +118,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "72법칙을 이용하면 연 수익률로 72를 나눠 원금이 두 배가 되는 대략적인 기간을 가늠할 수 있어요.",
+        "answer": "O (맞아요)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-07T00:16:11.255+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
