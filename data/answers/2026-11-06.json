@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T08:56:13.189+09:00",
+  "updatedAt": "2026-11-06T09:05:32.766+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -39,6 +39,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-06T00:00:20.437+09:00"
+      },
+      {
+        "question": "건강보험심사평가원 관련 문제 (2회차)",
+        "answer": "병원찾기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-06T09:05:32.764+09:00"
+      },
+      {
+        "question": "리비힐 피부과 화장품 관련 퀴즈 (3회차)",
+        "answer": "피부과",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-06T09:05:32.764+09:00"
       }
     ],
     "shinhan-sol": [
