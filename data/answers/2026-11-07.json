@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T00:25:30.372+09:00",
+  "updatedAt": "2026-11-07T00:30:35.063+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-07T00:00:19.140+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "PUFFTECH 파카",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-07T00:30:35.062+09:00"
       }
     ],
     "cashwalk": [
@@ -150,7 +157,7 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "RSV(호흡기세포융합바이러스)는 영유아만 걸리고 어른은 걸리지 않는다",
         "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
@@ -168,6 +175,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-07T00:02:01.158+09:00"
+      },
+      {
+        "question": "RSV(호흡기세포융합바이러스)는 영유아만 걸리고 어른은 걸리지 않는다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-07T00:30:35.062+09:00"
       }
     ],
     "buzzvil": [],
