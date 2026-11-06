@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T20:05:12.283+09:00",
+  "updatedAt": "2026-11-06T20:33:21.853+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -365,6 +365,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-06T16:02:49.160+09:00"
+      },
+      {
+        "question": "동국제약 덴트릭스 톡딜위크 특가",
+        "answer": "버블보블",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-06T20:33:21.842+09:00"
       }
     ],
     "climate-action": [
