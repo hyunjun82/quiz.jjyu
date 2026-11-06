@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T00:16:11.256+09:00",
+  "updatedAt": "2026-11-07T00:17:31.988+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -99,7 +99,15 @@
         "publishedAt": "2026-11-07T00:00:55.703+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "please/clarify, explain/more, elaborate/previous",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-07T00:17:31.987+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
