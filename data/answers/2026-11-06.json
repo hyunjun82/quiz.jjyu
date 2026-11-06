@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T12:02:42.981+09:00",
+  "updatedAt": "2026-11-06T12:45:23.623+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -414,8 +414,8 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "레티노이드는 색소침착 개선에 도움을 줄 수 있다",
-        "answer": "O",
+        "question": "레티노이드는 새소침착 개선에 도움을 줄 수 있다.",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-06T00:02:02.577+09:00"
