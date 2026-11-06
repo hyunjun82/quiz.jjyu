@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T00:00:19.140+09:00",
+  "updatedAt": "2026-11-07T00:00:55.703+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -36,7 +36,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "1인당 연간 15만원의 문화생활비를 지원받는 '문화누리카드'로 즐길 수 있는 활동은 무엇일까요?",
+        "answer": "영화관람",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-07T00:00:55.703+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -52,7 +60,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "2026년 예스24 올해의 책 후보는?",
+        "answer": "품격 있는 대화를 위한 지식 브리핑",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-07T00:00:55.703+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
