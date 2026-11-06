@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T00:20:56.988+09:00",
+  "updatedAt": "2026-11-07T00:21:31.004+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -22,10 +22,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "마이샵 혜택 ON하고 네이버스토어에서 삼성월렛으로 결제 시 받을 수 있는 혜택 금액은?",
         "answer": "8천원",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-07T00:03:59.721+09:00"
       },
       {
@@ -39,17 +39,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크에는 세금 납부에도 캐시백을 제공해주는 체크카드가 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-07T00:15:35.038+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "건설자재에 쓰이는 모래는 무한하기 때문에 원하는 대로 채취하여도 기후변화에 영향을 끼치지 않는다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-07T00:21:31.003+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]11월 5일(목) 부터 더현대Hi 에서는 TOTEME의 새로운 아이템들이 공개되었습니다.이번에 공개된 TOTEME New Drop 시즌은 언제일까요?",
@@ -72,10 +80,10 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "OO 바운티란 화이트해커가 보안 취약점을 찾아 제보하면 포상금을 지급하는 제도이다",
         "answer": "4번 버그",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-07T00:07:30.083+09:00"
       },
       {
@@ -88,10 +96,10 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "question": "기업이 특정 고객층을 선정해 마케팅 활동을 집중하는 전략은?",
         "answer": "타기팅",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-07T00:18:40.094+09:00"
       },
       {
@@ -102,13 +110,21 @@
         "publishedAt": "2026-11-07T00:19:13.772+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "오늘 목동종합운동장에서 열리는 K리그2 32 라운드 경기는 어느 팀 간의 맞대결일까요?",
+        "answer": "④ 서울E vs 전남",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-07T00:21:31.002+09:00"
+      }
+    ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐에서 스마트패스를 등록하면 국내의 모든 공항에서 스마트패스를 이용할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-07T00:20:56.987+09:00"
       }
     ],
