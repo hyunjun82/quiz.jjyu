@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T05:10:59.582+09:00",
+  "updatedAt": "2026-11-07T07:01:01.942+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -176,6 +176,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-07T00:23:13.394+09:00"
+      },
+      {
+        "question": "올리브 오일은 심장 건강에 좋다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-07T07:01:01.941+09:00"
       }
     ],
     "skstoa": [],
