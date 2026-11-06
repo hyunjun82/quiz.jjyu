@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T10:11:28.555+09:00",
+  "updatedAt": "2026-11-06T10:13:40.961+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -370,6 +370,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-06T07:02:58.146+09:00"
+      },
+      {
+        "question": "힌트를 들으면 기억이 나는 깜빡임은 치매보다 건망증에 가깝다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-06T10:13:40.950+09:00"
       }
     ],
     "skstoa": [],
