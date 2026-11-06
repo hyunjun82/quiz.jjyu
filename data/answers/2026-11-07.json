@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T00:23:13.394+09:00",
+  "updatedAt": "2026-11-07T00:25:30.372+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -163,10 +163,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "위고비·마운자로에는 위가 음식을 비우는 속도를 늦춘다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-11-07T00:02:01.158+09:00"
       }
     ],
