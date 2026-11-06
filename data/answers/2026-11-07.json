@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T07:01:01.942+09:00",
+  "updatedAt": "2026-11-07T08:02:44.504+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-11-07T05:10:59.581+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "독서삼매경",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-07T08:02:44.503+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크에는 세금 납부에도 캐시백을 제공해주는 체크카드가 있다.",
