@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T10:04:50.402+09:00",
+  "updatedAt": "2026-11-06T10:06:30.301+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -260,6 +260,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-06T08:56:13.187+09:00"
+      },
+      {
+        "question": "겨울 필수품 가볍고 얇지만 따뜻한 이너웨어 □□□ 특별가격",
+        "answer": "히트텍",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-06T10:06:30.289+09:00"
       }
     ],
     "nh-allone": [
