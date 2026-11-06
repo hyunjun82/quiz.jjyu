@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T11:04:30.543+09:00",
+  "updatedAt": "2026-11-06T11:06:10.815+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -428,7 +428,15 @@
         "publishedAt": "2026-11-06T11:04:30.534+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-06T11:06:10.805+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "장기요양등급은 한번 받으면 평생 이용할 수 있다?",
