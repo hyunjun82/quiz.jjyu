@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updatedAt": "2026-11-06T10:13:40.961+09:00",
+  "updatedAt": "2026-11-06T10:51:51.104+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -218,10 +218,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay 'N슈퍼적립 서비스'를 통해 N+스토어의 슈퍼적립·슈퍼특가 상품을 구매하면 몇 %가 추가 적립될까요?",
         "answer": "3번 2%",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-06T10:02:02.935+09:00"
       }
     ],
