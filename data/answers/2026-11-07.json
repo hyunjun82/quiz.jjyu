@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T00:00:55.703+09:00",
+  "updatedAt": "2026-11-07T00:02:01.158+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,7 +52,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-07T00:02:01.158+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
