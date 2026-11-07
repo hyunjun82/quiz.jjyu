@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:00:23.478+09:00",
+  "updatedAt": "2026-11-08T00:00:57.859+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -28,7 +28,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "1인당 연간 15만원의 문화생활비를 지원받는 '문화누리카드'로 즐길 수 있는 활동은 무엇일까요?",
+        "answer": "영화관람",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-08T00:00:57.859+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -44,7 +52,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "구글이 개발한 AI 서비스 브랜드는?",
+        "answer": "제미나이 (Gemini)",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-08T00:00:57.859+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
