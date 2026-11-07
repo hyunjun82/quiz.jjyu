@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T04:29:35.615+09:00",
+  "updatedAt": "2026-11-08T07:02:35.021+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -169,6 +169,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-08T00:35:50.649+09:00"
+      },
+      {
+        "question": "하루에 한 끼만 먹는 것은 체중 감량에 효과적이다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-08T07:02:35.020+09:00"
       }
     ],
     "skstoa": [],
