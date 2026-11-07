@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:35:50.650+09:00",
+  "updatedAt": "2026-11-08T00:40:56.761+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -28,10 +28,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "신한 슈퍼SOL 신규 가입하고 받을 수 있는 포인트는 얼마일까요?",
         "answer": "1만 포인트",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-08T00:03:10.580+09:00"
       },
       {
@@ -75,10 +75,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "OOOO이란, 공공서비스로 혜택을 많이 받는 사람이 그만큼 세금도 더 내야 공평하다고 보는 과세 원칙이에요.",
         "answer": "편익원칙",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-08T00:09:18.731+09:00"
       }
     ],
@@ -94,14 +94,14 @@
     "nh-allone": [],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "question": "러닝 기록에 따라 경품을 뽑을 수 있는 '달리자' 서비스에서 1km에 받을 수 있는 메달은 몇개일까요?",
         "answer": "1번 1개",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-08T00:07:20.000+09:00"
       },
       {
-        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "question": "(가) 제도에 대한 설명으로 옳은 것은?",
         "answer": "2. 전지와 시지를 차등 지급하였다",
         "note": "",
         "source": "tipistip",
@@ -117,13 +117,21 @@
         "publishedAt": "2026-11-08T00:30:44.114+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "오늘 K리그1 35 라운드에서 대전하나시티즌과 맞붙는 월미도와 차이나타운으로 유명한 지역의 팀은 어디일까요?",
+        "answer": "① 인천",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-08T00:40:56.759+09:00"
+      }
+    ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "통장이나 통장도장을 분실해서 분실신고를 한 후에 다시 찾았다면 하나원큐에서 분실신고 해제를 할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-08T00:14:31.808+09:00"
       }
     ],
@@ -156,10 +164,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "면무호흡증이 중등도 이상으로 진단되면 양압기를 건강보험으로 대여해 쓸 수 있다",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-08T00:35:50.649+09:00"
       }
     ],
@@ -181,10 +189,10 @@
     "woori-festa": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "비상금 통장은 높은 이자를 위해 해지가 어려운 장기 상품으로 만드는 것이 일반적이에요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-08T00:09:18.731+09:00"
       }
     ],
