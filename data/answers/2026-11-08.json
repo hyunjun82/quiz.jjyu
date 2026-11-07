@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:02:04.091+09:00",
+  "updatedAt": "2026-11-08T00:03:10.580+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -12,14 +12,37 @@
       }
     ],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "1만 포인트",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-08T00:03:10.580+09:00"
+      },
+      {
+        "question": "2026 아시아 프로야구 챔피언십 대표팀 사령탑으로 선임된 최원호 감독의 현역시절 주 포지션은 무엇일까요?",
+        "answer": "투수",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-08T00:03:10.580+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보] 「 H.Point X 한국관광공사」선선한 바람과 함께 찾아온 가을, 전국 곳곳이 울긋불긋한 단풍으로 물들고 있습니다. 오디오트립에서 오디가 소개하는 단풍 명소가 아닌 곳은 어디이리까요?",
+        "answer": "서울숲",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-08T00:03:10.580+09:00"
+      }
+    ],
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
