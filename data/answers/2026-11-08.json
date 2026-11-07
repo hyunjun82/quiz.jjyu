@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:19:30.132+09:00",
+  "updatedAt": "2026-11-08T00:21:12.006+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-08T00:00:23.478+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "비비큐",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-08T00:21:12.005+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "BHC",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-08T00:21:12.006+09:00"
       }
     ],
     "cashwalk": [],
