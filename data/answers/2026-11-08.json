@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:21:12.006+09:00",
+  "updatedAt": "2026-11-08T00:30:44.114+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -45,17 +45,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "알뜰폰 통신요금 카드 납부에 캐시백을 제공해주는 카카오뱅크 체크카드는 없다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-08T00:14:31.808+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후변화로 인해 전 세계적으로 산불의 발생 빈도와 규모가 증가하고 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-08T00:30:44.114+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보] 「 H.Point X 한국관광공사」선선한 바람과 함께 찾아온 가을, 전국 곳곳이 울긋불긋한 단풍으로 물들고 있습니다. 오디오트립에서 오디가 소개하는 단풍 명소가 아닌 곳은 어디이리까요?",
@@ -74,7 +82,15 @@
         "publishedAt": "2026-11-08T00:09:18.731+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "극세사 엠보 원단의 모공, 탄력 케어가 가능한 토너패드는 □□□□모공패드다",
+        "answer": "PDRN",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-08T00:30:44.113+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
@@ -92,7 +108,15 @@
         "publishedAt": "2026-11-08T00:10:59.693+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "주식 투자자가 빌린 돈을 제때 갚지 못하거나 담보가 부족할 때, 증권사가 주식을 강제로 처분하는 거래는?",
+        "answer": "④ 반대매매",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-08T00:30:44.114+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [
       {
