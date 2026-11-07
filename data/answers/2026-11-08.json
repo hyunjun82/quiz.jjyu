@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:30:44.114+09:00",
+  "updatedAt": "2026-11-08T00:35:50.650+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -154,17 +154,25 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-08T00:35:50.649+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "고혈압 첫 진단도 비대면진료로 받는 게 좋다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-11-08T00:02:04.091+09:00"
       }
     ],
