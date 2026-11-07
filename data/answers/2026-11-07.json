@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T11:47:39.071+09:00",
+  "updatedAt": "2026-11-07T12:03:27.427+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-07T00:30:35.062+09:00"
+      },
+      {
+        "question": "슬릭 올영블프 오늘종료 (3회차)",
+        "answer": "모션파워, 수직진동",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-07T12:03:27.424+09:00"
       }
     ],
     "cashwalk": [
