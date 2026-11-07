@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:09:18.732+09:00",
+  "updatedAt": "2026-11-08T00:10:59.694+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,6 +61,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-08T00:07:20.000+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "2. 전지와 시지를 차등 지급하였다",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-08T00:10:59.693+09:00"
       }
     ],
     "kbank": [],
