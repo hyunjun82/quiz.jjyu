@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T08:02:44.504+09:00",
+  "updatedAt": "2026-11-07T10:03:40.028+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,7 +69,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월7일",
+        "answer": "무신사 vs 올리브영",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-07T10:03:40.027+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
