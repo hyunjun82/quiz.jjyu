@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T10:05:04.736+09:00",
+  "updatedAt": "2026-11-07T10:08:23.556+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,7 +68,15 @@
         "publishedAt": "2026-11-07T00:15:35.038+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 칭따오 (광고모아보기) (1회차)",
+        "answer": "칭따오",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-07T10:08:23.555+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월7일",
