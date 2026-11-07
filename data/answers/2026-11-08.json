@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T00:40:56.761+09:00",
+  "updatedAt": "2026-11-08T04:29:35.615+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -178,7 +178,7 @@
     "doctornow": [
       {
         "question": "고혈압 첫 진단도 비대면진료로 받는 게 좋다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-08T00:02:04.091+09:00"
