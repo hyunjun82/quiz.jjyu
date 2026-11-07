@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updatedAt": "2026-11-07T15:01:56.973+09:00",
+  "updatedAt": "2026-11-07T19:27:18.219+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -335,7 +335,15 @@
         "publishedAt": "2026-11-07T00:00:55.703+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 빼빼로",
+        "answer": "네가지",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-07T19:27:18.219+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
