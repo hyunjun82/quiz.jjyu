@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T08:05:43.521+09:00",
+  "updatedAt": "2026-11-09T08:11:18.784+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -52,10 +52,10 @@
     ],
     "kakaobank": [
       {
-        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "question": "클리오 미라클 블프 재출시요청 폭주! 페리페라 부활템은",
         "answer": "수줍게인사해",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-09T08:05:43.520+09:00"
       }
     ],
