@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T00:22:27.604+09:00",
+  "updatedAt": "2026-11-09T00:35:36.889+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -131,10 +131,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "철분제를 먹어도 헤모글로빈 회복엔 보통 1~2달 걸린다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-09T00:01:52.658+09:00"
       }
     ],
