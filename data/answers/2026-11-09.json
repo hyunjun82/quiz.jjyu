@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T07:58:20.124+09:00",
+  "updatedAt": "2026-11-09T08:00:07.406+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -175,7 +175,15 @@
         "publishedAt": "2026-11-09T00:00:48.495+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Fasten/seat, Buckle, belts/securely",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T08:00:07.405+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
