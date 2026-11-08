@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T11:01:24.064+09:00",
+  "updatedAt": "2026-11-08T11:04:51.581+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -405,7 +405,15 @@
         "publishedAt": "2026-11-08T00:14:31.808+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-08T11:04:51.575+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "1인당 연간 15만원의 문화생활비를 지원받는 '문화누리카드'로 즐길 수 있는 활동은 무엇일까요?",
@@ -495,9 +503,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-08T00:02:04.091+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시 (2회차)",
+        "answer": "1, O, 3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-08T11:04:51.575+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-08T11:04:51.575+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "중추신경계에 영향을 주는 퇴행성 질환으로 손의 떨림, 근육의 경직, 균형감각의 상실 등의 증상을 가진 질병은 '파킨슨병'이라고 한다?",
