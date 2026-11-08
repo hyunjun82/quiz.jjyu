@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T00:01:52.658+09:00",
+  "updatedAt": "2026-11-09T00:03:00.380+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-11-09T00:00:13.134+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "휴먼엣지",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-09T00:03:00.380+09:00"
+      },
+      {
+        "question": "11월 9일은 국민들에게 화재에 대한 경각심과 이해를 높이고 화재를 예방하기 위해 제정한 법정기념일인 소방의 날입니다. 소방의 날이 11월 9일로 지정된 이유와 가장 관련이 깊은 긴급 신고전화 숫자는 무엇일까요?",
+        "answer": "119",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-09T00:03:00.380+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
