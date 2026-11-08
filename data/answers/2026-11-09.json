@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T00:04:22.503+09:00",
+  "updatedAt": "2026-11-09T00:05:30.740+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -80,7 +80,15 @@
     "harim-real": [],
     "woori-festa": [],
     "bitbunny-ox": [],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "O, O, O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:05:30.740+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [
       {
