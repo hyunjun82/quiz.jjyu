@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T03:08:47.460+09:00",
+  "updatedAt": "2026-11-09T06:32:57.163+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,10 +76,10 @@
     ],
     "bitbunny": [
       {
-        "question": "비트버니 오늘의 퀴즈",
+        "question": "0000이란, 그해 지급할 연금을 그해 일하는 세대가 내는 보험료로 충당하는 연금 재정 운영 방식이에요.",
         "answer": "부과방식",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-11-09T00:10:45.705+09:00"
       }
     ],
