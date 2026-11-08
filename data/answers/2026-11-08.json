@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T15:04:44.540+09:00",
+  "updatedAt": "2026-11-08T16:01:02.186+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,6 +151,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-08T15:00:13.617+09:00"
+      },
+      {
+        "question": "깨끗한나라 더 클린 앤 소프트 화장지 특가",
+        "answer": "3",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-08T16:01:02.176+09:00"
       }
     ],
     "shinhan-sol": [
