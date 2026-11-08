@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T00:45:50.202+09:00",
+  "updatedAt": "2026-11-09T01:01:08.982+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -157,10 +157,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "이뇨제가 든 고혈압약이나 일부 당뇨약은 야간뇨를 심하게 만들 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-09T00:40:43.438+09:00"
       }
     ],
