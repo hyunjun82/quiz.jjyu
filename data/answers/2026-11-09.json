@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T07:18:42.658+09:00",
+  "updatedAt": "2026-11-09T07:28:55.095+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -114,6 +114,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-09T00:10:45.705+09:00"
+      },
+      {
+        "question": "11월9일 KB스타뱅킹 스타퀴즈 정답 금융소득에 해당하지 않는것",
+        "answer": "3 근로소득",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-09T07:28:55.093+09:00"
       }
     ],
     "kbank": [
