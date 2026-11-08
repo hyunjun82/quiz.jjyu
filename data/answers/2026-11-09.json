@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T00:10:45.705+09:00",
+  "updatedAt": "2026-11-09T00:12:26.190+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -29,7 +29,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:12:26.190+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -70,9 +78,25 @@
         "publishedAt": "2026-11-09T00:10:45.705+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "3",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:12:26.190+09:00"
+      }
+    ],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:12:26.190+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
