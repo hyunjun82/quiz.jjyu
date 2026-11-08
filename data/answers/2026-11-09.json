@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T08:11:18.784+09:00",
+  "updatedAt": "2026-11-09T08:23:37.777+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,7 +68,15 @@
         "publishedAt": "2026-11-09T00:12:26.190+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 지마켓 맥주효모 (광고모아보기)",
+        "answer": "비건",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T08:23:37.776+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
