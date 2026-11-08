@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T08:00:07.406+09:00",
+  "updatedAt": "2026-11-09T08:05:43.521+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-11-09T07:18:42.657+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "수줍게인사해",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-09T08:05:43.520+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "체크카드로 연말정산 준비하는 사람을 위한 카카오뱅크 체크카드가 있다.",
