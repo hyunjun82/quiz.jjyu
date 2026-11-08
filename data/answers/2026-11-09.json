@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T00:05:30.740+09:00",
+  "updatedAt": "2026-11-09T00:10:45.705+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -43,10 +43,33 @@
         "publishedAt": "2026-11-09T00:03:50.445+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "비트버니 오늘의 퀴즈",
+        "answer": "부과방식",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:10:45.705+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "지눌",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:10:45.705+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "3번 근로소득",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:10:45.705+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
@@ -79,7 +102,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "비트버니 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T00:10:45.705+09:00"
+      }
+    ],
     "adapter": [
       {
         "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
