@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T00:03:50.445+09:00",
+  "updatedAt": "2026-11-09T00:04:22.503+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -82,7 +82,15 @@
     "bitbunny-ox": [],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "방문요양' 서비스와 '주야간보호' 서비스는 같이 받을 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-09T00:04:22.502+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "『그 많던 싱아는 누가 다 먹었을까』, 『나목』의 작가이자 아름다운 우리말을 작품 속에 담아낸 소설가는?",
