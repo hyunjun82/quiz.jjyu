@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T07:49:22.680+09:00",
+  "updatedAt": "2026-11-10T08:03:16.166+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,7 +85,15 @@
         "publishedAt": "2026-11-10T03:11:17.947+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "목표달성",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-10T08:03:16.165+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크에는 모두의카드(K-패스) 혜택을 받을 수 있는 체크카드가 있다.",
