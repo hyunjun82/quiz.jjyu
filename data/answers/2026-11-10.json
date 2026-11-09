@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T00:00:58.349+09:00",
+  "updatedAt": "2026-11-10T00:01:30.619+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,7 +42,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 고정환율제 아래에서 정부나 중앙은행이 자국 통화의 대외 가치를 공식적으로 낮추는 조치예요.",
+        "answer": "평가절하",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-10T00:01:30.618+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
