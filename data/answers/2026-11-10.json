@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T00:13:59.029+09:00",
+  "updatedAt": "2026-11-10T00:35:46.149+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -53,17 +53,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "카카오뱅크에는 모두의카드(K-패스) 혜택을 받을 수 있는 체크카드가 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-10T00:13:59.029+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "줍깅(플로깅)'이란 버리기와 조깅을 합쳐서 표현한 것이며, 이는 조깅을 하면서 쓰레기를 버리는 것을 말한다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-10T00:35:46.148+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]라이프스타일 상품들과 리바트 가구를 큐레이션하여 보여주는 리바트몰 안에 새로운 관의 이름은 무엇일까요?",
@@ -101,16 +109,40 @@
         "publishedAt": "2026-11-10T00:10:39.951+09:00"
       },
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "question": "올해 서울 아파트 상승폭이 가장 컸던 면적은 무엇일까요?",
         "answer": "1번 소형",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-10T00:10:39.951+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [],
-    "hana-life": [],
+    "kbank": [
+      {
+        "question": "스마트폰을 단말기에 가까이 대기만 해도 데이터를 주고 받을 수 있는 근거리 무선통신 기술은?",
+        "answer": "② NFC",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-10T00:35:46.148+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "소중하게 모은 2026 시즌 원큐볼 유효기간 확인하셨나요? 2026 시즌 하나머니 전환 마감기한은 언제일까요?",
+        "answer": "① 2026년 12월 10일 23:30",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-10T00:35:46.148+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐 놀이터에는 50주년 기념 단독 10부작 쇼츠를 볼 수 있는 태권브이 전용관이 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-10T00:35:46.148+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -130,10 +162,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "주사피부염 치료 크림 성분 이버멕틴은 항생제다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-10T00:02:06.546+09:00"
       }
     ],
