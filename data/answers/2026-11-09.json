@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T10:01:22.823+09:00",
+  "updatedAt": "2026-11-09T10:02:28.910+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -84,7 +84,15 @@
         "publishedAt": "2026-11-09T08:23:37.776+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "1번 100원",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T10:02:28.908+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -113,7 +121,15 @@
         "publishedAt": "2026-11-09T00:10:45.705+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "111",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T10:02:28.908+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "대학수학능력시험의 출제와 시행을 주관하는 기관은 어디일까요?",
@@ -218,7 +234,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "해외직구",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T10:02:28.908+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
