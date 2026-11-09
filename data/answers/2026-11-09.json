@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T12:26:23.398+09:00",
+  "updatedAt": "2026-11-09T14:02:41.567+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-09T00:22:27.604+09:00"
+      },
+      {
+        "question": "롯데타운 크리스마스티켓 (3회차)",
+        "answer": "크리스마스마켓",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-09T14:02:41.560+09:00"
       }
     ],
     "cashwalk": [
