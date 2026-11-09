@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T10:04:47.228+09:00",
+  "updatedAt": "2026-11-09T10:05:22.644+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -189,6 +189,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-09T10:02:28.908+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월9일",
+        "answer": "잠시 기다려주세요",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-09T10:05:22.638+09:00"
       }
     ],
     "cashdoc": [],
