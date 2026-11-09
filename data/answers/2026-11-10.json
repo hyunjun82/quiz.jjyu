@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T02:18:06.046+09:00",
+  "updatedAt": "2026-11-10T03:11:17.948+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,6 +55,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-10T00:40:52.250+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (4회차)",
+        "answer": "③ 1.5%",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-10T03:11:17.947+09:00"
       }
     ],
     "kakaobank": [],
