@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T15:50:09.069+09:00",
+  "updatedAt": "2026-11-09T18:37:21.616+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -456,7 +456,15 @@
         "publishedAt": "2026-11-09T00:00:48.495+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 열라면",
+        "answer": "쌀가루",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-09T18:37:21.609+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
