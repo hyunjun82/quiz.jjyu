@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T00:40:52.252+09:00",
+  "updatedAt": "2026-11-10T02:12:56.150+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -162,7 +162,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "머릿니는 청결 상태가 좋지 않은 아이에게 잘 생긴다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-10T02:12:56.150+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
