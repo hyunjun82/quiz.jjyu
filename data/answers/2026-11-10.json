@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T00:03:14.130+09:00",
+  "updatedAt": "2026-11-10T00:04:19.890+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -136,7 +136,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "치매는 예방이 가능하다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-10T00:04:19.890+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
