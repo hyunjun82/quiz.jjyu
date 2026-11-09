@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T09:04:59.120+09:00",
+  "updatedAt": "2026-11-09T09:11:43.977+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -235,10 +235,10 @@
     "woori-festa": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "가계부를 꾸준히 쓰면 자신의 소비 패턴을 파악하는 데 도움이 될 수 있어요.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-09T00:10:45.705+09:00"
       }
     ],
