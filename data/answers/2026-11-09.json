@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updatedAt": "2026-11-09T21:03:15.323+09:00",
+  "updatedAt": "2026-11-09T21:07:06.861+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -158,6 +158,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-09T21:03:15.314+09:00"
+      },
+      {
+        "question": "픽스 무선 전동 에어펌프 점프스타터",
+        "answer": "20, 40, 150, 고출력, 보호회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-09T21:07:06.844+09:00"
       }
     ],
     "shinhan-sol": [
