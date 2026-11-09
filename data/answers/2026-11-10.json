@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T07:07:30.059+09:00",
+  "updatedAt": "2026-11-10T07:28:10.632+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -206,7 +206,7 @@
     "doctornow": [
       {
         "question": "주사피부염 치료 크림 성분 이버멕틴은 항생제다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-10T00:02:06.546+09:00"
