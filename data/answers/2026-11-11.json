@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T00:01:22.980+09:00",
+  "updatedAt": "2026-11-11T00:01:55.571+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -63,7 +63,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "공공장소의 무료 와이파이를 이용해 금융거래를 해도 보안상 아무 문제가 없어요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-11T00:01:55.571+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
