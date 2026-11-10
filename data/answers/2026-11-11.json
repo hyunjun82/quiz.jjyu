@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T08:02:45.125+09:00",
+  "updatedAt": "2026-11-11T08:43:09.440+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-11T00:33:56.836+09:00"
+      },
+      {
+        "question": "한국의 티니핑과 일본의 헬로키티, 두 캐릭터를 만든 회사는 똑같이 돈을 잘 번다?",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T08:43:09.438+09:00"
       }
     ],
     "cashwalk": [
