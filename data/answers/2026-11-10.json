@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T10:05:20.804+09:00",
+  "updatedAt": "2026-11-10T10:07:01.173+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -353,7 +353,15 @@
         "publishedAt": "2026-11-10T00:01:30.618+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "로우클래식",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-10T10:07:01.163+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "11월10일 농협 NH올원뱅크 디깅퀴즈 정답 조선 시대 여성 예술가 초충도를 가장 잘그린 인물",
@@ -465,7 +473,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "해외직구",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-10T10:07:01.163+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
