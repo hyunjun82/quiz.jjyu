@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T20:03:03.254+09:00",
+  "updatedAt": "2026-11-10T20:03:44.882+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -239,6 +239,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-10T12:06:11.207+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "헌법소원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-10T20:03:44.865+09:00"
       }
     ],
     "kakaobank-ox": [
@@ -380,6 +387,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-10T09:02:59.831+09:00"
+      },
+      {
+        "question": "삼성 TV G마켓 특가 왔어요~ 삼성 KQ75QNH70AFXKR 189cm(75인치)Neo QLED TV스탠드 100대한정 OOOO증정+스마일캐시 LIVE체감가 159만 퀀텀 MINI LED 테크놀로지로 더 선명해진 화면! 지금 바로 특가 확인해보세요!",
+        "answer": "사운드바",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-10T20:03:44.857+09:00"
       }
     ],
     "climate-action": [
