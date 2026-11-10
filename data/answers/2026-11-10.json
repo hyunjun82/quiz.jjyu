@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T09:15:45.504+09:00",
+  "updatedAt": "2026-11-10T09:57:04.691+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -103,7 +103,15 @@
         "publishedAt": "2026-11-10T00:13:59.029+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "11월10일 KB Pay 11월 밸런스게임 참여하기 ㄱㄹㄸ 오퀴즈 정답",
+        "answer": "가래떡",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-10T09:57:04.688+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [
       {
