@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T00:00:42.602+09:00",
+  "updatedAt": "2026-11-11T00:01:22.980+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -27,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 수평시추와 수압파쇄 기술로 단단한 퇴적암층에 갇힌 원유·가스를 경제적으로 뽑아낼 수 있게 되며 에너지 판도가 바뀐 일이에요.",
+        "answer": "셰일혁명",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-11T00:01:22.980+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -35,7 +43,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "1천만원을 연 5% 복리로 20년을 굴리면 이자가 원금보다 많아진다. 맞는 말일까요? (* 수수료 및 세금 제외)",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T00:01:22.980+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
