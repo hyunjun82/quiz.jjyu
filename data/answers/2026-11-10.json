@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T15:02:56.064+09:00",
+  "updatedAt": "2026-11-10T18:39:45.294+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -611,7 +611,15 @@
         "publishedAt": "2026-11-10T00:00:58.348+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 위칙",
+        "answer": "운동복",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-10T18:39:45.287+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
