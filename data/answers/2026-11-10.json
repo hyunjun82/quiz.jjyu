@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T11:02:08.012+09:00",
+  "updatedAt": "2026-11-10T11:03:55.441+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -470,6 +470,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-10T02:12:56.150+09:00"
+      },
+      {
+        "question": "나만의 닥터 매일매일 건강퀴즈 (11시~)",
+        "answer": "아니다(X)",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-10T11:03:55.432+09:00"
       }
     ],
     "skstoa": [],
@@ -521,7 +528,15 @@
         "publishedAt": "2026-11-10T11:02:08.002+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-10T11:03:55.432+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "치매는 예방이 가능하다?",
