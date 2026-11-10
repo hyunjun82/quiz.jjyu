@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T00:13:36.402+09:00",
+  "updatedAt": "2026-11-11T00:31:18.506+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -88,7 +88,15 @@
     ],
     "kbank": [],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T00:31:18.505+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -108,10 +116,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "오렌지에 든 구연산은 요로결석 예방에 도움이 될 수 있다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-11T00:02:29.479+09:00"
       }
     ],
