@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T00:05:23.861+09:00",
+  "updatedAt": "2026-11-11T00:11:32.679+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,7 +69,15 @@
         "publishedAt": "2026-11-11T00:03:42.105+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T00:11:32.678+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
