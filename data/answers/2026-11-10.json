@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T10:01:35.771+09:00",
+  "updatedAt": "2026-11-10T10:02:47.414+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-10T07:49:22.678+09:00"
+      },
+      {
+        "question": "브랜드세일 마지막날 (5회차)",
+        "answer": "70",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-10T10:02:47.401+09:00"
       }
     ],
     "cashwalk": [
