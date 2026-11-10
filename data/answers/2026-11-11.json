@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T03:16:30.207+09:00",
+  "updatedAt": "2026-11-11T07:04:32.742+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -140,7 +140,15 @@
       }
     ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "가공식품은 항상 건강에 해롭다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-11T07:04:32.741+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
