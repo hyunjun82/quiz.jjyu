@@ -1,8 +1,23 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T00:31:18.506+09:00",
+  "updatedAt": "2026-11-11T00:33:56.838+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "선크림",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T00:33:56.836+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "메이크업픽서",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T00:33:56.836+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "르까프 르블론스 방한 패딩 부츠의 굽높이는 00 mm 입니다. 00에 들어갈 숫자는 무엇일까요?",
