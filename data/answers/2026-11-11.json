@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T00:33:56.838+09:00",
+  "updatedAt": "2026-11-11T00:39:06.966+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -122,7 +122,15 @@
         "publishedAt": "2026-11-11T00:01:22.980+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "not/thing, not/my, my/job",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T00:39:06.965+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
