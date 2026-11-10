@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T00:04:15.794+09:00",
+  "updatedAt": "2026-11-11T00:05:23.861+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,22 @@
         "publishedAt": "2026-11-11T00:00:42.602+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "도미노피자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T00:05:23.861+09:00"
+      },
+      {
+        "question": "플레이오프 5경기 등판에 이어 한국시리즈도 3경기에 등판하여 호투를 펼치며 삼성라이온즈의 아홉번째 우승에 기여한 투수는 누구일까요?",
+        "answer": "이승민",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T00:05:23.861+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
