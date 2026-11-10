@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updatedAt": "2026-11-10T18:39:45.294+09:00",
+  "updatedAt": "2026-11-10T19:01:27.877+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -257,6 +257,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-10T09:57:04.688+09:00"
+      },
+      {
+        "question": "오후 7시 참여만 해도 경품기회 참여하는 나비엔라이브",
+        "answer": "2",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-10T19:01:27.865+09:00"
       }
     ],
     "kbpay": [
