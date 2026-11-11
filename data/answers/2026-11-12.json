@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:02:51.106+09:00",
+  "updatedAt": "2026-11-12T00:03:24.597+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -34,7 +34,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]현대면세점 온라인몰 '블랙프리위크'에서 만날 수 있는 최대 할인율은?",
+        "answer": "최대 89%",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-12T00:03:24.596+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOO란, 오염처럼 남에게 피해를 주는 활동에 그 피해만큼 세금을 매겨, 시장이 스스로 생산을 줄이도록 유도하는 세금이에요.",
