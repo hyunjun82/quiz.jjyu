@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T14:01:53.469+09:00",
+  "updatedAt": "2026-11-11T14:03:02.978+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -214,6 +214,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-11T14:01:53.456+09:00"
+      },
+      {
+        "question": "11월11일 공스킨 창고대방출 미쳤습니다 캐시워크 정답 ㄱㅅㅋ",
+        "answer": "공스킨",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T14:03:02.967+09:00"
       }
     ],
     "shinhan-sol": [
