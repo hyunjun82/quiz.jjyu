@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T18:05:35.197+09:00",
+  "updatedAt": "2026-11-11T18:31:39.963+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -646,7 +646,15 @@
         "publishedAt": "2026-11-11T00:00:42.602+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 파워오투",
+        "answer": "산소",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T18:31:39.954+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
