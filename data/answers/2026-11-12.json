@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:16:08.248+09:00",
+  "updatedAt": "2026-11-12T00:22:51.422+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -86,7 +86,15 @@
         "publishedAt": "2026-11-12T00:07:07.555+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "4번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T00:22:51.422+09:00"
+      }
+    ],
     "hana-onq": [],
     "hana-life": [
       {
@@ -107,7 +115,15 @@
         "publishedAt": "2026-11-12T00:01:09.447+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "Sorry/bother, Excuse, didnt/mean",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T00:22:51.422+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [],
     "skstoa": [],
