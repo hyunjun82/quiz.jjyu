@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T10:31:50.048+09:00",
+  "updatedAt": "2026-11-11T10:32:57.530+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -356,6 +356,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-11T07:04:32.741+09:00"
+      },
+      {
+        "question": "노로바이러스 장염은 항생제를 먹으면 더 빨리 낫는다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T10:32:57.524+09:00"
       }
     ],
     "skstoa": [],
