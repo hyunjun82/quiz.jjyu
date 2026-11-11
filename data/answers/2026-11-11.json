@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T10:01:21.069+09:00",
+  "updatedAt": "2026-11-11T10:03:39.653+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -132,7 +132,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월11일",
+        "answer": "빼빼로데이 VS 가래떡데이",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-11T10:03:39.649+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
