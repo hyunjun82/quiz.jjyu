@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:00:33.753+09:00",
+  "updatedAt": "2026-11-12T00:01:09.447+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOO란, 오염처럼 남에게 피해를 주는 활동에 그 피해만큼 세금을 매겨, 시장이 스스로 생산을 줄이도록 유도하는 세금이에요.",
+        "answer": "피구세",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-12T00:01:09.447+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -20,7 +28,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "1천만원을 연 5% 복리로 20년을 굴리면 이자가 원금보다 많아진다. 맞는 말일까요? (* 수수료 및 세금 제외)",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-12T00:01:09.447+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
