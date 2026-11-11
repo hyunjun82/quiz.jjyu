@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T04:51:12.411+09:00",
+  "updatedAt": "2026-11-12T06:59:43.608+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-12T00:02:51.106+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "1. 보장에너지",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-12T06:59:43.606+09:00"
       }
     ],
     "kakaobank": [],
