@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T01:11:17.367+09:00",
+  "updatedAt": "2026-11-12T01:16:25.074+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -107,6 +107,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-12T00:07:07.555+09:00"
+      },
+      {
+        "question": "(가) 왕에 대한 설명으로 옳은 것은?",
+        "answer": "③ 6조 직계제를 실시하였다!",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-12T01:16:25.073+09:00"
       }
     ],
     "kbank": [
@@ -170,6 +177,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-12T00:45:38.358+09:00"
+      },
+      {
+        "question": "시험 스트레스 증후군'은 병명이 아니라 시험 기간에 나타나는 몸의 증상을 묶어 부르는 표현이다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-12T01:16:25.073+09:00"
       }
     ],
     "skstoa": [],
