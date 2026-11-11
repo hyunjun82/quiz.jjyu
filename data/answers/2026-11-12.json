@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T01:01:00.232+09:00",
+  "updatedAt": "2026-11-12T01:06:08.896+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -29,10 +29,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "모두투어 프리미엄 브랜드 '하이클래스'에서 신한카드 전용 특전으로 제공되는 서비스는 무엇일까요?",
         "answer": "프라이빗 전용 차량 이동 서비스",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-12T00:02:51.106+09:00"
       },
       {
@@ -46,10 +46,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "리딩방에서 투자 수익금을 받는 건 사기가 아니다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-12T00:16:08.248+09:00"
       }
     ],
@@ -128,10 +128,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "통장 사본 증빙이 급하게 필요한 경우, 가까운 영업점에 가서 통장을 재발급 받아 복사를 부탁한다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-12T00:12:48.253+09:00"
       }
     ],
