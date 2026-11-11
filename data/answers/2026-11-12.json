@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T01:06:08.896+09:00",
+  "updatedAt": "2026-11-12T01:11:17.367+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,7 +56,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "산불은 대부분 사람의 부주의 때문에 발생하며, 기후변화의 원인과 결과가 될 수 있는 산불을 방지하기 위해 산불 예방수칙을 철저히 지켜야 한다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-12T01:11:17.367+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]현대면세점 온라인몰 '블랙프리위크'에서 만날 수 있는 최대 할인율은?",
