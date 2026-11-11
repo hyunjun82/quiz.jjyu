@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:04:32.367+09:00",
+  "updatedAt": "2026-11-12T00:07:07.555+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -62,7 +62,22 @@
         "publishedAt": "2026-11-12T00:02:51.106+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T00:07:07.555+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "3번 장기수선충당금",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T00:07:07.555+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
