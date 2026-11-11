@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:01:42.208+09:00",
+  "updatedAt": "2026-11-12T00:02:51.106+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -12,7 +12,22 @@
         "publishedAt": "2026-11-12T00:01:42.208+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "프라이빗 전용 차량 이동 서비스",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-12T00:02:51.106+09:00"
+      },
+      {
+        "question": "11월 12일부터 진행되는 2026 아시아 프로야구 챔피언십 경기는 어느 도시에서 개최될까요?",
+        "answer": "도쿄",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-12T00:02:51.106+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -30,7 +45,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "11월12일 농협 NH올원뱅크 디깅퀴즈 정답 단백질을 구성하는 기본 단위",
+        "answer": "아미노산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-12T00:02:51.106+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
