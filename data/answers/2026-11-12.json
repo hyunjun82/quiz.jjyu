@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T06:59:43.608+09:00",
+  "updatedAt": "2026-11-12T07:05:06.371+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -191,6 +191,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-12T01:16:25.073+09:00"
+      },
+      {
+        "question": "생강은 소화 문제를 완화할 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-12T07:05:06.370+09:00"
       }
     ],
     "skstoa": [],
