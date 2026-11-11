@@ -1,8 +1,23 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:22:51.422+09:00",
+  "updatedAt": "2026-11-12T00:30:17.300+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "일단보유",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T00:30:17.300+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "주가흐름",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T00:30:17.300+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "먹기 어렵던 OO 2샷을 쫄깃한 구미 1알에 그대로 담았습니다. 여기서 OO는? (힌트 : ㅍㄹ)",
