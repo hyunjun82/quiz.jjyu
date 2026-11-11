@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T13:06:24.423+09:00",
+  "updatedAt": "2026-11-11T13:11:32.603+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -281,6 +281,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-11T10:05:53.355+09:00"
+      },
+      {
+        "question": "□□ 홈 방문 외 간단 미션 완료하면 무조건 500P 받아요",
+        "answer": "대출",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-11T13:11:32.593+09:00"
       }
     ],
     "nh-allone": [
