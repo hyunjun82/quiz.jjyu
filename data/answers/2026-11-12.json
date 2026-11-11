@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:30:17.300+09:00",
+  "updatedAt": "2026-11-12T00:35:25.121+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -147,10 +147,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "에페 국내 임상시험에서 40주간 체중이 평균 약 9% 줄었다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-12T00:01:42.208+09:00"
       }
     ],
