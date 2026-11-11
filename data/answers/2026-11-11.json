@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T12:07:09.656+09:00",
+  "updatedAt": "2026-11-11T13:06:24.423+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -218,6 +218,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-11T12:07:09.652+09:00"
+      },
+      {
+        "question": "교보문고 한자 보고 퀴즈 풀기 (3회차)",
+        "answer": "대출",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-11T13:06:24.415+09:00"
       }
     ],
     "kakaobank-ox": [
