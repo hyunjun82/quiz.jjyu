@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T17:02:47.282+09:00",
+  "updatedAt": "2026-11-11T18:03:20.857+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -292,7 +292,15 @@
         "publishedAt": "2026-11-11T00:13:36.402+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오후 6시 1년에 단 한번! 11.11 광군제",
+        "answer": "20",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T18:03:20.842+09:00"
+      }
+    ],
     "kbpay": [
       {
         "question": "'빨간날 없는 11월..밸런스게임으로 재미드려요' 이벤트에서 1회차에 해당하는 밸런스게임은 무엇일까요?",
@@ -407,6 +415,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-11T17:02:47.271+09:00"
+      },
+      {
+        "question": "알리익스프레스 광군제 (16회차)",
+        "answer": "브랜드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-11T18:03:20.843+09:00"
       }
     ],
     "climate-action": [
