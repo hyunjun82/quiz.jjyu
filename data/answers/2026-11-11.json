@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T11:53:38.774+09:00",
+  "updatedAt": "2026-11-11T12:07:09.656+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,6 +211,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-11T08:02:45.124+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "책책",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T12:07:09.652+09:00"
       }
     ],
     "kakaobank-ox": [
