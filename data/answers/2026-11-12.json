@@ -1,9 +1,17 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T00:01:09.447+09:00",
+  "updatedAt": "2026-11-12T00:01:42.208+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "먹기 어렵던 OO 2샷을 쫄깃한 구미 1알에 그대로 담았습니다. 여기서 OO는? (힌트 : ㅍㄹ)",
+        "answer": "푸룬",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-12T00:01:42.208+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -44,11 +52,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T00:01:42.208+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "암호화폐 지갑의 개인키를 잃어버리면 해당 지갑의 코인을 되찾기 어려워요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-12T00:01:42.208+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
