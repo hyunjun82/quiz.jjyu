@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T10:32:57.530+09:00",
+  "updatedAt": "2026-11-11T11:02:44.992+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -405,9 +405,24 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-11T00:02:29.479+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 11시 (2회차)",
+        "answer": "2, 1, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T11:02:44.988+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-11T11:02:44.988+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "혈압약을 먹으면 뇌혈관질환을 예방할 수 있다?",
