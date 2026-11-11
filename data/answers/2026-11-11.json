@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updatedAt": "2026-11-11T11:02:44.992+09:00",
+  "updatedAt": "2026-11-11T11:53:38.774+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -380,7 +380,7 @@
     "doctornow": [
       {
         "question": "오렌지에 든 구연산은 요로결석 예방에 도움이 될 수 있다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-11T00:02:29.479+09:00"
