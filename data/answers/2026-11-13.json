@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T01:16:21.030+09:00",
+  "updatedAt": "2026-11-13T01:21:29.049+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -78,9 +78,25 @@
         "publishedAt": "2026-11-13T00:03:09.157+09:00"
       }
     ],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "반려 목적으로 기르는 O개월령 이상의 개는 동물 등록 의무 대상이다.",
+        "answer": "2",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-13T01:21:29.049+09:00"
+      }
+    ],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "오늘 열리는 대한민국 축구국가대표팀 친선경기의 중동 지역 상대 국가는 어디일까요?",
+        "answer": "② 사우디아라비아",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-13T01:21:29.049+09:00"
+      }
+    ],
     "hana-life": [],
     "hana-travel": [],
     "monimo": [
