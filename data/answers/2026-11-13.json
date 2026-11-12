@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T01:47:12.670+09:00",
+  "updatedAt": "2026-11-13T03:35:47.515+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,7 +172,7 @@
     "doctornow": [
       {
         "question": "스마일프로 시력교정술은 모든 난시에 적용할 수 있다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-13T00:23:39.815+09:00"
