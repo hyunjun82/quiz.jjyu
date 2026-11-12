@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T19:03:00.193+09:00",
+  "updatedAt": "2026-11-12T20:06:56.065+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -211,6 +211,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-12T12:03:59.840+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "경우의수",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-12T20:06:56.050+09:00"
       }
     ],
     "kakaobank-ox": [
@@ -589,6 +596,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-12T16:30:34.954+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시 (4회차)",
+        "answer": "O, 2, 4",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T20:06:56.053+09:00"
       }
     ],
     "moneywalk": [
