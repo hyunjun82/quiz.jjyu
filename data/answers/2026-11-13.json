@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T07:19:24.862+09:00",
+  "updatedAt": "2026-11-13T07:35:14.992+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -48,6 +48,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-13T00:03:09.157+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "2. 부족한 양양소",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-13T07:35:14.991+09:00"
       }
     ],
     "kakaobank": [],
