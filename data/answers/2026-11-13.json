@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T01:42:02.340+09:00",
+  "updatedAt": "2026-11-13T01:47:12.670+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -108,6 +108,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-13T01:31:46.464+09:00"
+      },
+      {
+        "question": "상 인터뷰의 (가)에 들어갈 기구로 옳은 것은?",
+        "answer": "① 홍문관",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-13T01:47:12.669+09:00"
       }
     ],
     "kbank": [
