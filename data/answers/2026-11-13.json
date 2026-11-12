@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T07:03:56.121+09:00",
+  "updatedAt": "2026-11-13T07:09:05.530+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-13T00:03:09.157+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "롯데모바일상품권",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-13T07:09:05.529+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "결합쿠폰",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-13T07:09:05.529+09:00"
       }
     ],
     "cashwalk": [
