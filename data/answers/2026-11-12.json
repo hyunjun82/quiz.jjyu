@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T20:06:56.065+09:00",
+  "updatedAt": "2026-11-12T21:01:32.559+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,6 +172,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-12T16:00:37.722+09:00"
+      },
+      {
+        "question": "뉴트리원 면역엔 생유산균 (26회차)",
+        "answer": "12900",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-12T21:01:32.541+09:00"
       }
     ],
     "shinhan-sol": [
