@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T01:26:37.997+09:00",
+  "updatedAt": "2026-11-13T01:31:46.465+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -49,7 +49,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "대기오염과 기후변화는 아무런 관련이 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-13T01:31:46.464+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]리바트 가구숨터에서는 리바트에서 엄선한 소파&매트리스 케어서비스를 만나볼 수 있습니다.11월 한달 동안 프리미엄 케어서비스 O% 할인 프로모션을 진행하는데요.가구숨터 케어서비스 할인율은 몇% 일까요?",
@@ -93,6 +101,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-13T01:21:29.049+09:00"
+      },
+      {
+        "question": "11월13일 KB스타뱅킹 스타퀴즈 정답 반려 목적으로 기르는 동물 등록 의무 대상",
+        "answer": "2. 2",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-13T01:31:46.464+09:00"
       }
     ],
     "kbank": [
@@ -113,7 +128,15 @@
         "publishedAt": "2026-11-13T01:21:29.049+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "이벤트 기간 내 하나나라사랑카드(체크)를 신규 발급하면 쿠팡 와우 멤버십 최대 3개월 캐시백 받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-13T01:31:46.464+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
