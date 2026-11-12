@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T01:21:29.049+09:00",
+  "updatedAt": "2026-11-13T01:26:37.997+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,7 +37,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카드에 서명 안 하면 도난 피해 못 돌려받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-13T01:26:37.996+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -87,7 +95,15 @@
         "publishedAt": "2026-11-13T01:21:29.049+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "매년 11월 13일, 서로를 배려하고 친절을 실천하는 의미를 되새기는 기념일은?",
+        "answer": "② 세계 친절의 날",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-13T01:26:37.996+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "오늘 열리는 대한민국 축구국가대표팀 친선경기의 중동 지역 상대 국가는 어디일까요?",
