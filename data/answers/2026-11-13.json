@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T07:14:16.347+09:00",
+  "updatedAt": "2026-11-13T07:19:24.862+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -183,7 +183,15 @@
         "publishedAt": "2026-11-13T00:00:52.223+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "deserve, earned, deserve/that",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-13T07:19:24.861+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
