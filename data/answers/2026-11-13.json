@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T07:09:05.530+09:00",
+  "updatedAt": "2026-11-13T07:14:16.347+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -255,6 +255,14 @@
       }
     ],
     "fallcent": [],
-    "naverpay": []
+    "naverpay": [
+      {
+        "question": "네이버페이 랜덤 포인트 퀴즈",
+        "answer": "그래핀",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-13T07:14:16.345+09:00"
+      }
+    ]
   }
 }
