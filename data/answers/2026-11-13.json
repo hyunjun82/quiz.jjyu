@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T08:03:39.117+09:00",
+  "updatedAt": "2026-11-13T08:57:54.732+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,6 +55,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-13T07:35:14.991+09:00"
+      },
+      {
+        "question": "AI영양분석으로 알 수 있는 것은?",
+        "answer": "부족한 양양셔",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-13T08:57:54.732+09:00"
       }
     ],
     "kakaobank": [
