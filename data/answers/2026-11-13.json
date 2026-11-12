@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T00:00:52.223+09:00",
+  "updatedAt": "2026-11-13T00:01:25.548+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 자녀를 낳은 국민연금 가입자에게 실제로 보험료를 내지 않은 기간까지 가입 기간으로 더 인정해 주는 제도예요.",
+        "answer": "출산크레딧",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-13T00:01:25.548+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
