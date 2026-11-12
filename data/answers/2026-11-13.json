@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T00:00:14.436+09:00",
+  "updatedAt": "2026-11-13T00:00:52.223+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -28,7 +28,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "1천만원을 연 5% 복리로 20년을 굴리면 이자가 원금보다 많아진다. 맞는 말일까요? (* 수수료 및 세금 제외)",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-13T00:00:52.223+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -44,7 +52,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "이 책의 저자는?",
+        "answer": "박세익",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-13T00:00:52.223+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
