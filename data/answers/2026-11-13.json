@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T01:31:46.465+09:00",
+  "updatedAt": "2026-11-13T01:36:54.243+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -149,7 +149,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "발가락이 붓게 붓고 가려운 동창은 기온이 영하로 내려가야만 생긴다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-13T01:36:54.243+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
