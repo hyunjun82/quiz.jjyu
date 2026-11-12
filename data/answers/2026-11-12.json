@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "updatedAt": "2026-11-12T11:01:10.227+09:00",
+  "updatedAt": "2026-11-12T11:02:57.970+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -414,7 +414,15 @@
         "publishedAt": "2026-11-12T11:01:10.220+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-12T11:02:57.965+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요잇 인증시설은 요잇이 직접 방문해서 검증한 시설이다?",
