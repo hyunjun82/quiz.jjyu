@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T00:01:25.548+09:00",
+  "updatedAt": "2026-11-13T00:02:00.377+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -56,7 +56,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "최저임금은 지역에 따라 다르게 적용돼요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-13T00:02:00.377+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
