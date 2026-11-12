@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T00:03:09.157+09:00",
+  "updatedAt": "2026-11-13T00:04:14.774+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -106,7 +106,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "장기요양 6등급이 가장 높은 등급이다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-13T00:04:14.774+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
