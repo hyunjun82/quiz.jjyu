@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T03:33:28.223+09:00",
+  "updatedAt": "2026-11-14T04:51:07.999+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,17 +67,25 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "배우자가 알바하면 연말정산 때 공제 못 받는다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-14T00:14:49.280+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "제품에 환경관련 문구, 환경 이미지가 있으면 녹색제품이므로 구입시 탄소감축에 도움이 된다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-14T04:51:07.998+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]현대홈쇼핑에서 신선 식품, 리빙 필수템 등을 알뜰하게 구매할 수 있는 현대톡마트 행사가 11월 10일(화)부터 11월 16일(월)까지 진행됩니다! 다음 보기 중, 행사에서 찾아볼 수 없는 상품은 무엇일까요?",
@@ -121,15 +129,30 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-14T00:14:49.280+09:00"
+      },
+      {
+        "question": "교통체증 등 특정 조건에서 차량이 스스로 주행하지만, 요청 시 운전자가 운전해야 하는 자율주행 단계는?",
+        "answer": "③ SAE 레벨 3",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-14T04:51:07.997+09:00"
       }
     ],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "하나은행 K리그1 2026 시즌 36 라운드 경기는 언제 시작 될까요?",
+        "answer": "① 11월 21일(토)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-14T04:51:07.997+09:00"
+      }
+    ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "통장이나 카드가 없으면 영업점에서 현금을 인출할 수 없다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-14T00:14:49.279+09:00"
       }
     ],
