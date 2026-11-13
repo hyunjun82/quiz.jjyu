@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T00:01:12.496+09:00",
+  "updatedAt": "2026-11-14T00:01:45.238+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,7 +92,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "주택담보대출의 만기일시상환 방식은 만기 때 원금을 한꺼번에 갚고 그전까지는 이자만 내는 방식이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-14T00:01:45.237+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
