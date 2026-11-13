@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T00:04:51.751+09:00",
+  "updatedAt": "2026-11-14T00:06:02.140+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,22 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "과전법",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-14T00:06:02.140+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "2번 중도",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-14T00:06:02.140+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
