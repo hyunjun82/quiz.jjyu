@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T20:01:57.074+09:00",
+  "updatedAt": "2026-11-13T20:05:23.691+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -232,6 +232,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-13T12:02:59.773+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (3회차)",
+        "answer": "세계관",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-13T20:05:23.687+09:00"
       }
     ],
     "kakaobank-ox": [
