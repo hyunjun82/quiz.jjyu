@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T11:07:20.491+09:00",
+  "updatedAt": "2026-11-13T12:02:59.775+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -37,6 +37,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-13T10:03:01.121+09:00"
+      },
+      {
+        "question": "무탠다드 겨울 아이템 (6회차)",
+        "answer": "힛탠다드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-13T12:02:59.773+09:00"
       }
     ],
     "cashwalk": [
@@ -85,6 +92,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-13T08:03:39.116+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (2회차)",
+        "answer": "감상문",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-13T12:02:59.773+09:00"
       }
     ],
     "kakaobank-ox": [
