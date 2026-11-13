@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T08:01:13.770+09:00",
+  "updatedAt": "2026-11-14T08:01:28.784+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -229,7 +229,7 @@
     "doctornow": [
       {
         "question": "아다팔렌은 트레티노인보다 피부 자극이 적은 레티노이드다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-14T00:02:18.531+09:00"
