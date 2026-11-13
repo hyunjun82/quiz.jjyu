@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T01:21:49.770+09:00",
+  "updatedAt": "2026-11-14T03:33:28.223+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,10 +50,10 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "한진트래블 이집트 전세기 사전 예약 시 받을 수 있는 최대 할인율은 얼마일까요?",
         "answer": "8%",
         "note": "",
-        "source": "quizbells",
+        "source": "blog",
         "publishedAt": "2026-11-14T00:03:27.626+09:00"
       },
       {
