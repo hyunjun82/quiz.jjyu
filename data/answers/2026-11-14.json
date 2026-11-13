@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T07:10:00.975+09:00",
+  "updatedAt": "2026-11-14T07:40:41.906+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -240,7 +240,15 @@
         "publishedAt": "2026-11-14T00:02:18.531+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-14T07:40:41.905+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "코코아 섭취는 혈압을 상승시킨다?",
