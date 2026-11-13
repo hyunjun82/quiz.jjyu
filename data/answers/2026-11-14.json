@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T07:04:51.819+09:00",
+  "updatedAt": "2026-11-14T07:10:00.975+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-14T00:00:36.977+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (5회차)",
+        "answer": "닭한마리칼국수밀키트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-14T07:10:00.975+09:00"
       }
     ],
     "cashwalk": [
@@ -173,7 +180,15 @@
         "publishedAt": "2026-11-14T00:01:12.495+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "booking, arranging/air, any/preference",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-14T07:10:00.975+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
