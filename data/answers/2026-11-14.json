@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T04:56:18.199+09:00",
+  "updatedAt": "2026-11-14T07:04:51.819+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -182,6 +182,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-14T04:56:18.197+09:00"
+      },
+      {
+        "question": "체중을 유지하려면 모든 탄수화물을 제한해야 한다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-14T07:04:51.818+09:00"
       }
     ],
     "skstoa": [],
