@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T08:57:54.732+09:00",
+  "updatedAt": "2026-11-13T09:00:09.953+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -133,9 +133,9 @@
     "kb-star": [
       {
         "question": "반려 목적으로 기르는 O개월령 이상의 개는 동물 등록 의무 대상이다.",
-        "answer": "2",
+        "answer": "2. 2",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-11-13T01:21:29.049+09:00"
       },
       {
