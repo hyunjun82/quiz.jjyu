@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T00:14:49.280+09:00",
+  "updatedAt": "2026-11-14T00:35:59.406+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -152,10 +152,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "아다팔렌은 트레티노인보다 피부 자극이 적은 레티노이드다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-14T00:02:18.531+09:00"
       }
     ],
