@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T09:01:19.080+09:00",
+  "updatedAt": "2026-11-13T10:02:25.516+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,7 +83,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "'가을 밸런스 pick 시즌2 취향대로 픽, 선물고 픽!' 이벤트를…(후략)",
+        "answer": "메가커피 아메리카노",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-11-13T10:02:25.514+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
