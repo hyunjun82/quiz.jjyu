@@ -1,10 +1,26 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:01:07.994+09:00",
+  "updatedAt": "2026-11-15T00:01:42.404+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
-    "shinhan-sol": [],
+    "cashwalk": [
+      {
+        "question": "소휘 효소는 NO 정체효소, NO 합성OOO로 자연 곡물효소 영양 그대로 담았습니다. 여기서 OOO은? (힌트 : ㅊㄱㅁ) ?",
+        "answer": "첨가물 / 정제 / 곡물 / 합성",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-15T00:01:42.404+09:00"
+      }
+    ],
+    "shinhan-sol": [
+      {
+        "question": "2026 KBO 정규시즌에서 오스틴 딘 선수가 출전한 총 경기 수는 몇 경기일까요?",
+        "answer": "144경기",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-15T00:01:42.404+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -28,7 +44,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "1천만원을 연 5% 복리로 20년을 굴리면 이자가 원금보다 많아진다. 맞는 말일까요? (* 수수료 및 세금 제외)",
+        "answer": "O (예)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T00:01:42.404+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -40,7 +64,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "보험은 일반적으로 가입 당시 나이가 어릴수록 보험료가 낮게 책정되는 경향이 있어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-15T00:01:42.404+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
