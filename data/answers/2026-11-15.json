@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:14:24.436+09:00",
+  "updatedAt": "2026-11-15T00:16:09.156+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -88,7 +88,15 @@
         "publishedAt": "2026-11-15T00:12:41.248+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T00:16:09.156+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "1천만원을 연 5% 복리로 20년을 굴리면 이자가 원금보다 많아진다. 맞는 말일까요? (* 수수료 및 세금 제외)",
