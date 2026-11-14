@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:00:33.727+09:00",
+  "updatedAt": "2026-11-15T00:01:07.994+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO이란, '중앙은행들의 은행'으로 불리며, 각국 은행이 지켜야 할 자기자본 규제 기준을 마련하는 국제금융기구예요.",
+        "answer": "국제결제은행",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-15T00:01:07.994+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
