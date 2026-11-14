@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:04:32.560+09:00",
+  "updatedAt": "2026-11-15T00:05:25.226+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,6 +19,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-15T00:01:42.404+09:00"
+      },
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (2회차)",
+        "answer": "직구 레전드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T00:05:25.225+09:00"
+      },
+      {
+        "question": "다음 중 끝날 때까지 끝난 게 아니다라는 명언을 남긴 전설적인 메이저리그 포수이자 감독 출신 인물은 누구일까요?",
+        "answer": "로렌스 피터 베라",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T00:05:25.225+09:00"
       }
     ],
     "kakaobank": [],
