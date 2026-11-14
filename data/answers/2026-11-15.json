@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:05:25.226+09:00",
+  "updatedAt": "2026-11-15T00:09:03.321+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -53,7 +53,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "answer": "2번 2,000만원",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T00:09:03.321+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
