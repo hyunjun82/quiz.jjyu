@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T08:15:54.845+09:00",
+  "updatedAt": "2026-11-15T08:16:31.306+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -122,6 +122,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-15T07:34:08.824+09:00"
+      },
+      {
+        "question": "온라인 광고에서 광고가 노출된 횟수 대비 클릭된 비율을 나타내는 지표는?",
+        "answer": "③ CTR",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-15T08:16:31.305+09:00"
       }
     ],
     "hana-onq": [
