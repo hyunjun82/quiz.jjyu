@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:30:18.609+09:00",
+  "updatedAt": "2026-11-15T00:35:26.810+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,10 +130,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "아기 피부는 성인보다 얇고 수분 유지 능력이 떨어진다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-15T00:03:26.507+09:00"
       }
     ],
