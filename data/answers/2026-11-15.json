@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T08:22:46.092+09:00",
+  "updatedAt": "2026-11-15T08:26:15.579+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,10 +61,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "TV 버리면 수신료는 자동으로 안 나간다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-15T00:12:41.248+09:00"
       }
     ],
@@ -101,7 +101,7 @@
         "publishedAt": "2026-11-15T00:09:03.321+09:00"
       },
       {
-        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "question": "(가)에 들어갈 역사서로 옳은 것은?",
         "answer": "4. 조선왕조실록",
         "note": "",
         "source": "tipistip",
