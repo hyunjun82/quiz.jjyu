@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:12:41.248+09:00",
+  "updatedAt": "2026-11-15T00:14:24.436+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -68,6 +68,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-15T00:09:03.321+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "4. 조선왕조실록",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T00:14:24.436+09:00"
       }
     ],
     "kbank": [],
