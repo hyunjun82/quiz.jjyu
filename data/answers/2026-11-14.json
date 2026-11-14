@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T15:30:44.175+09:00",
+  "updatedAt": "2026-11-14T15:35:54.483+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -218,10 +218,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "question": "KB Pay에서 주소와 보증금만으로 전세계약의 안전성을 확인하는 데 도움을 주는 KB부동산 서비스는 무엇일까요?",
         "answer": "2번 전세안전진단",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-14T10:02:35.597+09:00"
       }
     ],
