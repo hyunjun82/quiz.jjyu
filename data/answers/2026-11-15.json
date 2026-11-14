@@ -1,8 +1,23 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T00:16:09.156+09:00",
+  "updatedAt": "2026-11-15T00:30:18.609+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "유닉스 세라믹 고데기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T00:30:18.608+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "홈플래닛 고속충전기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T00:30:18.608+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "소휘 효소는 NO 정체효소, NO 합성OOO로 자연 곡물효소 영양 그대로 담았습니다. 여기서 OOO은? (힌트 : ㅊㄱㅁ) ?",
