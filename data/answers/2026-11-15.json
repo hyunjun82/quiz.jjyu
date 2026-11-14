@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T08:02:50.114+09:00",
+  "updatedAt": "2026-11-15T08:13:35.265+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -71,7 +71,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "폐가전제품은 신제품을 구입하지 않은 경우에도 무상수거가 가능하다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T08:13:35.264+09:00"
+      }
+    ],
     "hpoint": [],
     "bitbunny": [
       {
@@ -150,6 +158,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-15T00:01:42.404+09:00"
+      },
+      {
+        "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
+        "answer": "산란일자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T08:13:35.264+09:00"
       }
     ],
     "monimo-eng": [
