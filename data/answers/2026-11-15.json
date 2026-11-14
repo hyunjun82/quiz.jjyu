@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T08:13:35.265+09:00",
+  "updatedAt": "2026-11-15T08:15:54.845+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -135,10 +135,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "금융거래한도계좌의 영업점 출금 한도는 1일 300만원이다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-15T00:12:41.248+09:00"
       }
     ],
