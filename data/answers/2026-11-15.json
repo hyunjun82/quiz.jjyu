@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T07:03:30.216+09:00",
+  "updatedAt": "2026-11-15T07:34:08.824+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -99,7 +99,15 @@
         "publishedAt": "2026-11-15T04:05:13.234+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T07:34:08.824+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "11월15일 하나은행 하나원큐 축구퀴즈 정답 수원월드컵경기장에서 열리는 경기",
@@ -136,7 +144,15 @@
         "publishedAt": "2026-11-15T00:01:42.404+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "nutshell/rough, nutshell/tough, In/horrible",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T07:34:08.823+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
