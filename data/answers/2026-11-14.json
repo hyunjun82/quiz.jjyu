@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "updatedAt": "2026-11-14T10:00:35.026+09:00",
+  "updatedAt": "2026-11-14T10:02:35.598+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -104,7 +104,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "리브메이트 퀴즈 오늘의 퀴즈 (KB Pay 앱으로 통합)",
+        "answer": "2번 전세안전진단",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-14T10:02:35.597+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
