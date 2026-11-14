@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T07:34:08.824+09:00",
+  "updatedAt": "2026-11-15T08:02:50.114+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-11-15T00:05:25.225+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "행진곡",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T08:02:50.113+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
