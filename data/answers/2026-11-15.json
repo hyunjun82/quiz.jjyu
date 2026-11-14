@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T04:05:13.235+09:00",
+  "updatedAt": "2026-11-15T07:03:30.216+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -138,7 +138,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "규칙적인 운동은 우울증 예방에 효과적이다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-15T07:03:30.215+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
