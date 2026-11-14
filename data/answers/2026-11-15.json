@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T08:16:31.306+09:00",
+  "updatedAt": "2026-11-15T08:22:46.092+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -191,6 +191,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-15T07:03:30.215+09:00"
+      },
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (2회차)",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T08:22:46.092+09:00"
       }
     ],
     "skstoa": [],
