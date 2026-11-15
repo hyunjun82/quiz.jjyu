@@ -1,8 +1,23 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T00:12:45.487+09:00",
+  "updatedAt": "2026-11-16T00:24:38.774+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "밥먹고 난 다음",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-16T00:24:38.773+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "집중이 핗요한 순간",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-16T00:24:38.773+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
