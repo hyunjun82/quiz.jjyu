@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T06:48:35.832+09:00",
+  "updatedAt": "2026-11-16T06:53:43.520+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,10 +21,10 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "question": "다이소데이 기간 중 온라인 다이소몰에서 신한 슈퍼SOL/SOL페이로 5,000원 이상 결제 시 페이팡팡 포인트 500P를 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-16T00:03:26.902+09:00"
       },
       {
@@ -38,10 +38,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "같은 양을 써도 사는 곳에 따라 가스 요금이 다르다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-16T00:12:45.487+09:00"
       }
     ],
@@ -112,19 +112,19 @@
     ],
     "hana-onq": [
       {
-        "question": "11월16일 하나은행 하나원큐 축구퀴즈 정답",
+        "question": "11월 21일(토), 전주월드컵경기장에서 열리는 K리그1 36 라운드 경기는 어느 팀 간의 맞대결일까요?",
         "answer": "전북 VS 서울",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-16T03:54:12.381+09:00"
       }
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐에는 내 하나은행 대출 뿐만 아니라 타행대출까지도 금리인하요구를 자동으로 신청해주는 서비스가 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-16T00:12:45.487+09:00"
       }
     ],
@@ -140,7 +140,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "마그네슘 영양제는 모든 눈꺼풀 떨림에 효과가 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T06:53:43.519+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
