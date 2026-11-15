@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T10:02:34.925+09:00",
+  "updatedAt": "2026-11-15T10:03:47.300+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,6 +76,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-15T10:02:34.925+09:00"
+      },
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월15일",
+        "answer": "교육과정 편성표",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-15T10:03:47.299+09:00"
       }
     ],
     "cashdoc": [],
