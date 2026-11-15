@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T00:01:11.023+09:00",
+  "updatedAt": "2026-11-16T00:01:43.417+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -44,11 +44,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-16T00:01:43.417+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "신용카드 명세서에는 결제 내역뿐 아니라 결제일과 최소 결제해야 할 금액 등이 안내돼요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-16T00:01:43.417+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
