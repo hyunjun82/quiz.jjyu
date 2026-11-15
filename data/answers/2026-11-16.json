@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T07:55:05.475+09:00",
+  "updatedAt": "2026-11-16T08:03:13.375+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-16T00:24:38.773+09:00"
+      },
+      {
+        "question": "연명의료결정제도 퀴즈 (3회차)",
+        "answer": "19",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T08:03:13.374+09:00"
       }
     ],
     "cashwalk": [],
