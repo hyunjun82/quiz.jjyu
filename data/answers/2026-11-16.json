@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T08:08:55.740+09:00",
+  "updatedAt": "2026-11-16T08:16:23.809+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,10 +51,10 @@
     ],
     "kakaobank": [
       {
-        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "question": "키워드를 맞히면 혜택을 드려요. NOL 오늘 55% 특가로 만날수있는 상품은",
         "answer": "뮤지컬전시",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-16T08:08:55.739+09:00"
       }
     ],
