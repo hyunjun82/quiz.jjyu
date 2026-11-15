@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T01:21:51.205+09:00",
+  "updatedAt": "2026-11-16T03:43:56.386+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,7 +68,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "11월16일 농협 NH올원뱅크 디깅퀴즈 정답 순국선열의 날 주관",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T03:43:56.386+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
