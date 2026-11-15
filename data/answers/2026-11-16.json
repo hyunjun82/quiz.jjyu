@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T00:00:35.508+09:00",
+  "updatedAt": "2026-11-16T00:01:11.023+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 값을 치르지 않은 사람도 소비에서 막을 수 없는 재화의 성질로, 공공재에 무임승차가 생기는 이유예요.",
+        "answer": "비배제성",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-16T00:01:11.023+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -20,7 +28,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
+        "answer": "산란일자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T00:01:11.023+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
