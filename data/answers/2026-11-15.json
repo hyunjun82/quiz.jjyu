@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T10:20:56.825+09:00",
+  "updatedAt": "2026-11-15T10:26:07.516+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,7 @@
         "publishedAt": "2026-11-15T00:05:25.225+09:00"
       },
       {
-        "question": "신한 슈퍼SOL 출석 퀴즈 (4회차)",
+        "question": "신한 슈퍼SOL에서는 AI를 활용한 컨텐츠인 \"AI PB\"를 통해 대화형으로 투자 궁금증을 물어볼 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
         "source": "apptech",
@@ -112,7 +112,15 @@
         "publishedAt": "2026-11-15T00:01:07.994+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "​오늘 단 24시간 특별한 혜택을 선보이는 여성 브랜드는 ㅇㅇ예요",
+        "answer": "어그",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-15T10:26:07.514+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
