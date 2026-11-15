@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T03:43:56.386+09:00",
+  "updatedAt": "2026-11-16T03:54:12.382+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -94,7 +94,15 @@
       }
     ],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "11월16일 하나은행 하나원큐 축구퀴즈 정답",
+        "answer": "전북 VS 서울",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T03:54:12.381+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
