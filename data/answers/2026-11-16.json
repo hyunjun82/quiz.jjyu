@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T03:54:12.382+09:00",
+  "updatedAt": "2026-11-16T05:26:23.784+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -132,7 +132,7 @@
     "doctornow": [
       {
         "question": "비대면진료로는 마약류 의약품을 처방받을 수 없다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-16T00:01:43.417+09:00"
