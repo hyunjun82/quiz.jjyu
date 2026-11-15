@@ -1,17 +1,40 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T00:01:43.417+09:00",
+  "updatedAt": "2026-11-16T00:03:26.903+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한 쏠페이 퀴즈팡팡 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T00:03:26.902+09:00"
+      },
+      {
+        "question": "KBO 리그 경기 중 심판 판정에 대한 비디오 판독은 어디에서 실시할까요?",
+        "answer": "한국야구회관 KBO 건물 내 판독센터",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T00:03:26.902+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]2년 만에 자신의 이름을 내건 새 프로그램을 선보인 최은경. 취향과 라이프스타일을 담아낸 셀렉트숍 콘셉트의 프로그램인 '최은경쇼'는 매주 어떤 요일에 방송될까요?",
+        "answer": "수요일",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-16T00:03:26.902+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOO이란, 값을 치르지 않은 사람도 소비에서 막을 수 없는 재화의 성질로, 공공재에 무임승차가 생기는 이유예요.",
@@ -65,7 +88,15 @@
         "publishedAt": "2026-11-16T00:01:43.417+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "X, O, X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-16T00:03:26.902+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
     "yes24": [
