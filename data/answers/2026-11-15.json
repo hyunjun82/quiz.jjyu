@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T15:29:36.705+09:00",
+  "updatedAt": "2026-11-15T18:31:37.442+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -545,7 +545,15 @@
         "publishedAt": "2026-11-15T00:00:33.726+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 분다버그",
+        "answer": "사탕수수",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-15T18:31:37.440+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
