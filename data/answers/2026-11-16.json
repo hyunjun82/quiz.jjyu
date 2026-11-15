@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T07:03:58.998+09:00",
+  "updatedAt": "2026-11-16T07:55:05.475+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -115,6 +115,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-16T06:48:35.832+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-16T07:55:05.475+09:00"
       }
     ],
     "hana-onq": [
@@ -135,7 +142,15 @@
         "publishedAt": "2026-11-16T00:12:45.487+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-16T07:55:05.474+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
