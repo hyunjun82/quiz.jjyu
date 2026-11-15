@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "updatedAt": "2026-11-15T12:23:01.692+09:00",
+  "updatedAt": "2026-11-15T13:51:41.907+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -32,6 +32,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-15T00:01:42.404+09:00"
+      },
+      {
+        "question": "7, 9, LED, 속근육, 하이드로겔",
+        "answer": "7, 9, LED, 속근육, 하이드로겔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T13:51:41.903+09:00"
+      },
+      {
+        "question": "이날 출제된 픽스 팬히터 온풍기 좌우회전 신형 온풍기 특가 관련 퀴즈",
+        "answer": "60, 80, PTC, 예열, 저전력",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-15T13:51:41.904+09:00"
       }
     ],
     "shinhan-sol": [
