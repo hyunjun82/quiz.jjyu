@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T08:03:13.375+09:00",
+  "updatedAt": "2026-11-16T08:08:55.740+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -49,7 +49,15 @@
         "publishedAt": "2026-11-16T06:58:51.649+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "뮤지컬전시",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T08:08:55.739+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "같은 양을 써도 사는 곳에 따라 가스 요금이 다르다.",
