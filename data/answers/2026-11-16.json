@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T06:53:43.520+09:00",
+  "updatedAt": "2026-11-16T06:58:51.650+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -33,6 +33,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-16T00:03:26.902+09:00"
+      },
+      {
+        "question": "AI 영양분석을 하는 목적은?",
+        "answer": "② 건강 관리",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-16T06:58:51.649+09:00"
       }
     ],
     "kakaobank": [],
@@ -87,7 +94,7 @@
     ],
     "kb-star": [
       {
-        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "question": "(가) 왕에 대한 설명으로 옳은 것은?",
         "answer": "2. 대동법을 처음 시행하였다",
         "note": "",
         "source": "tipistip",
