@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T10:05:38.493+09:00",
+  "updatedAt": "2026-11-16T10:06:15.794+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -288,7 +288,15 @@
         "publishedAt": "2026-11-16T00:01:11.023+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "마이셀렉션",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-16T10:06:15.785+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "11월16일 농협 NH올원뱅크 디깅퀴즈 정답 순국선열의 날 주관",
