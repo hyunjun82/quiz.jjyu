@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T10:01:39.182+09:00",
+  "updatedAt": "2026-11-16T10:03:21.120+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -30,6 +30,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-16T09:03:15.494+09:00"
+      },
+      {
+        "question": "삼성증권 IRP이벤트 (5회차)",
+        "answer": "100",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T10:03:21.117+09:00"
       }
     ],
     "cashwalk": [
@@ -74,6 +81,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-16T10:01:39.177+09:00"
+      },
+      {
+        "question": "11월16일 푸드루트 비타민C 미백앰플 효과 100배 캐시워크 정답 ㄹㅁ ㅂㅌㅁ",
+        "answer": "10 100 레몬 비타민",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T10:03:21.117+09:00"
       }
     ],
     "shinhan-sol": [
