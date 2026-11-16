@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T01:21:35.038+09:00",
+  "updatedAt": "2026-11-17T01:26:43.759+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -115,6 +115,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-17T01:21:35.036+09:00"
+      },
+      {
+        "question": "다음 설명에 대한 O/X 정답으로 올바른 것은?",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:26:43.756+09:00"
       }
     ],
     "kbank": [
