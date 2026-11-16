@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T10:03:21.120+09:00",
+  "updatedAt": "2026-11-16T10:03:56.235+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -139,7 +139,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월16일",
+        "answer": "35%",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-16T10:03:56.231+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
