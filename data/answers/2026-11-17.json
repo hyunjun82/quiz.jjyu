@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T00:03:30.999+09:00",
+  "updatedAt": "2026-11-17T00:04:03.784+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -97,7 +97,15 @@
     "bitbunny-ox": [],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "장기요양등급 신청 시 소득 수준도 고려된다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-17T00:04:03.784+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자 이시형 박사의 직업은?",
