@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T00:35:25.163+09:00",
+  "updatedAt": "2026-11-17T01:11:15.880+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,7 +59,15 @@
       }
     ],
     "bitbunny": [],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "지금 29CM에서 □□□□□을 만들어 공유하면 총 290만 리워드를 드려요",
+        "answer": "마이셀렉션",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:11:15.880+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "11월17일 농협 NH올원뱅크 디깅퀴즈 정답 동백꽃과 봄·봄을 집필한 작가",
