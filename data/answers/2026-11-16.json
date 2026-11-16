@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T10:27:23.299+09:00",
+  "updatedAt": "2026-11-16T10:29:07.341+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -253,10 +253,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월16일",
+        "question": "KB Pay 여행 내 유심사에서 일본 상품 구매 시 쿠폰을 사용하면 추가로 몇 % 할인 받을 수 있을까요?",
         "answer": "35%",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-11-16T10:03:56.231+09:00"
       }
     ],
