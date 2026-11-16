@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T08:03:15.267+09:00",
+  "updatedAt": "2026-11-17T08:10:24.758+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -59,10 +59,10 @@
     ],
     "kakaobank": [
       {
-        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "question": "키워드를 맞히면 혜택을 드려요. dyson 강력한흡입력을가진 다이슨 로청기는?",
         "answer": "뉴로비로봇청소기",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-17T08:03:15.266+09:00"
       }
     ],
