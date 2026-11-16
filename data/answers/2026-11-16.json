@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T10:11:24.750+09:00",
+  "updatedAt": "2026-11-16T10:17:02.561+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -290,10 +290,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "11월16일 카카오페이 퀴즈 정답 29CM에서 공유하면 총 290만 100% 리워드를 준다",
         "answer": "마이셀렉션",
         "note": "",
-        "source": "tipistip",
+        "source": "quizbells",
         "publishedAt": "2026-11-16T10:06:15.785+09:00"
       }
     ],
