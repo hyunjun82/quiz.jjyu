@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T08:16:23.809+09:00",
+  "updatedAt": "2026-11-16T09:03:15.495+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-16T08:03:13.374+09:00"
+      },
+      {
+        "question": "딥 스니커즈 오픈이벤트 (4회차)",
+        "answer": "30",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T09:03:15.494+09:00"
       }
     ],
     "cashwalk": [],
