@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T10:18:14.096+09:00",
+  "updatedAt": "2026-11-16T10:27:23.299+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -32,25 +32,11 @@
         "publishedAt": "2026-11-16T09:03:15.494+09:00"
       },
       {
-        "question": "삼성증권 IRP이벤트 (5회차)",
-        "answer": "100",
-        "note": "",
-        "source": "quizbells",
-        "publishedAt": "2026-11-16T10:03:21.117+09:00"
-      },
-      {
-        "question": "삼성증권 IRP이벤트 (6회차)",
+        "question": "11월16일 토스 행운퀴즈 정답 삼성증권 IRP 순입금액이 OOO만원 이상 3만원 상품권",
         "answer": "3, 100, 절세",
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-16T10:05:38.476+09:00"
-      },
-      {
-        "question": "토스 행운퀴즈 오늘의 퀴즈 (7회차)",
-        "answer": "절세, 100",
-        "note": "",
-        "source": "daviya",
-        "publishedAt": "2026-11-16T10:18:14.086+09:00"
       },
       {
         "question": "삼성증권 IRP 입금하면 최대 O만원의 Npay 상품권을 받아요",
