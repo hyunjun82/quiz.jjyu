@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T15:02:31.758+09:00",
+  "updatedAt": "2026-11-16T19:01:01.142+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -421,6 +421,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-16T10:33:10.921+09:00"
+      },
+      {
+        "question": "G라이브 ASUS 인기 노트북",
+        "answer": "G",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T19:01:01.122+09:00"
       }
     ],
     "climate-action": [
