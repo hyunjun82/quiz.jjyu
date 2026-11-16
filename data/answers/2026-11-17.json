@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T01:26:43.759+09:00",
+  "updatedAt": "2026-11-17T01:31:52.598+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -163,7 +163,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "항문 출혈이 검붉고 점점 심해진다면 치핵이 아닌 다른 원인도 확인해야 한다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:31:52.597+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
