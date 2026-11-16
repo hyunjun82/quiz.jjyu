@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T12:33:19.404+09:00",
+  "updatedAt": "2026-11-16T13:02:52.713+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -44,6 +44,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-16T10:18:14.086+09:00"
+      },
+      {
+        "question": "블랙ABC데이 이벤트 (7회차)",
+        "answer": "70",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-16T13:02:52.697+09:00"
       }
     ],
     "cashwalk": [
