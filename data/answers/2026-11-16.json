@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T13:06:20.394+09:00",
+  "updatedAt": "2026-11-16T13:30:16.960+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -46,10 +46,10 @@
         "publishedAt": "2026-11-16T10:18:14.086+09:00"
       },
       {
-        "question": "블랙ABC데이 이벤트 (7회차)",
+        "question": "겨울 득템 작전 개시 블랙ABC데이 최대 OO% 지금 바로 만나보세요",
         "answer": "70",
         "note": "",
-        "source": "quizbells",
+        "source": "daviya",
         "publishedAt": "2026-11-16T13:02:52.697+09:00"
       }
     ],
