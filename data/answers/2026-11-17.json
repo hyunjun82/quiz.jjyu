@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T01:16:26.701+09:00",
+  "updatedAt": "2026-11-17T01:21:35.038+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -43,15 +43,23 @@
         "publishedAt": "2026-11-17T00:03:30.998+09:00"
       },
       {
-        "question": "신한 쏠퀴즈 11월17일 (2회차)",
+        "question": "아파트 관리비, 도시가스, 전화요금, 전기요금을 모두 신한카드로 5천원 이상씩 자동납부하면 최대 2만원 캐시백을 받을 수 있다?",
         "answer": "O",
         "note": "",
-        "source": "blog",
+        "source": "apptech",
         "publishedAt": "2026-11-17T01:16:26.700+09:00"
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "월 중간에 이직하면 건강보험료는 전 직장에서 뗀다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:21:35.036+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -73,7 +81,15 @@
         "publishedAt": "2026-11-17T00:03:30.999+09:00"
       }
     ],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 한 나라가 소비하는 곡물 가운데 국내에서 직접 생산해 충당하는 비중을 나타내는 지표예요.",
+        "answer": "곡물자급률",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:21:35.037+09:00"
+      }
+    ],
     "kakaopay": [
       {
         "question": "지금 29CM에서 □□□□□을 만들어 공유하면 총 290만 리워드를 드려요",
@@ -92,10 +108,42 @@
         "publishedAt": "2026-11-17T00:02:58.250+09:00"
       }
     ],
-    "kb-star": [],
-    "kbank": [],
-    "hana-onq": [],
-    "hana-life": [],
+    "kb-star": [
+      {
+        "question": "대규모 재개발이 어려운 주거지에서 주민이 직접 집을 새로 짓거나 고칠 수 있도록 지원하는 사업을 OO타운 2.0이라고 한다.",
+        "answer": "휴먼",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-17T01:21:35.036+09:00"
+      }
+    ],
+    "kbank": [
+      {
+        "question": "도시가계가 일상생활 영위를 위해 구입하는 상품 및 서비스 가격변동을 종합적으로 측정하기 위한 지수는?",
+        "answer": "② 소비자물가지수",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:21:35.036+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "오늘 열리는 대한민국 축구국가대표팀 친선경기의 중동 지역 상대 국가는 어디일까요?",
+        "answer": "① 카타르",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:21:35.036+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "자동납부를 하나은행으로 3건 이상 바꾸면 누구나 1천 하나머니를 받고, 추가 선물 당첨의 기회까지 누릴 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:21:35.036+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -125,7 +173,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "예금과 적금 모두 예금자보호 대상이 될 수 있어요.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-17T01:21:35.037+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [
