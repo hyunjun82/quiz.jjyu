@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T00:04:03.784+09:00",
+  "updatedAt": "2026-11-17T00:35:25.163+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -90,7 +90,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "모기 알레르기(스키터증후군)는 사람 사이에 전염된다",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-17T00:35:25.163+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
