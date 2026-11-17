@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T10:11:47.936+09:00",
+  "updatedAt": "2026-11-17T10:13:00.860+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -106,10 +106,10 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월17일",
+        "question": "KB Pay에서 매월 다양한 혜택을 모아 소개하는 페이지의 이름은 무엇일까요?",
         "answer": "월간혜택",
         "note": "",
-        "source": "blog",
+        "source": "daviya",
         "publishedAt": "2026-11-17T10:03:54.010+09:00"
       }
     ],
