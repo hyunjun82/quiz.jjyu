@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T00:04:12.184+09:00",
+  "updatedAt": "2026-11-18T00:35:23.544+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -102,7 +102,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "비만 목적으로 처방받은 마운자로는 건강보험이 적용된다",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-18T00:35:23.544+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
