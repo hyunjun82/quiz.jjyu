@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T08:31:26.818+09:00",
+  "updatedAt": "2026-11-18T08:37:35.979+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -61,6 +61,20 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-18T08:03:14.023+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (2회차)",
+        "answer": "오늘의최저가딜, 직잭팟, 99% 쿠폰 잭팟",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T08:37:35.978+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (3회차)",
+        "answer": "직잭팟",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T08:37:35.978+09:00"
       }
     ],
     "kakaobank-ox": [
