@@ -1,9 +1,36 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T00:01:02.301+09:00",
+  "updatedAt": "2026-11-18T00:01:38.642+09:00",
   "answers": {
-    "toss-lucky": [],
-    "cashwalk": [],
+    "toss-lucky": [
+      {
+        "question": "김장철 할인행사명은 대한민국 수산대전 코리아OO페스타예요",
+        "answer": "수산",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-18T00:01:38.641+09:00"
+      },
+      {
+        "question": "토스 행운퀴즈 — 오늘의 다른 문제 (2회차)",
+        "answer": null,
+        "choices": [
+          "29",
+          "김장철"
+        ],
+        "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
+        "source": "gametoc",
+        "publishedAt": "2026-11-18T00:01:38.641+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "단 3시간 제로딜! OO을 지키고 더욱 안전하게! 캐시딜 최다판매, 최다리뷰 알룰로스를 단 3시간만! OO은 무엇일까요? (힌트:ㅇㅊ)",
+        "answer": "원칙",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-18T00:01:38.641+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -28,7 +55,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
+        "answer": "산란일자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T00:01:38.641+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -40,7 +75,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "환전할 때 은행 창구보다 모바일 앱을 이용하면 환율 우대를 받을 수 있는 경우가 많아요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-18T00:01:38.641+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
