@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T08:03:14.024+09:00",
+  "updatedAt": "2026-11-18T08:10:37.699+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,10 +56,10 @@
     ],
     "kakaobank": [
       {
-        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "question": "키워드를 맞히면 혜택을 드려요. ZIGZAG 매일 압도적 할인 직잭팟 혜택은?",
         "answer": "오늘의최저가딜",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-18T08:03:14.023+09:00"
       }
     ],
