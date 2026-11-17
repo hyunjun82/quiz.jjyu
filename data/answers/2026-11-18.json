@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T05:42:44.414+09:00",
+  "updatedAt": "2026-11-18T05:47:53.525+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -45,6 +45,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-18T00:02:45.228+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "③ 500P",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-18T05:47:53.523+09:00"
       }
     ],
     "kakaobank": [],
@@ -111,6 +118,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-18T05:16:47.873+09:00"
+      },
+      {
+        "question": "(가), (나) 사이의 시기에 있었던 사실로 옳은 것은?",
+        "answer": "④ 경신환국으로 서인이 집권하였다.",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-18T05:47:53.523+09:00"
       }
     ],
     "kbank": [
