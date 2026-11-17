@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-18",
+  "updatedAt": "2026-11-18T00:01:02.301+09:00",
+  "answers": {
+    "toss-lucky": [],
+    "cashwalk": [],
+    "shinhan-sol": [],
+    "kakaobank": [],
+    "kakaobank-ox": [],
+    "ok-cashbag": [],
+    "kbpay": [],
+    "cashdoc": [],
+    "climate-action": [],
+    "hpoint": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOO란, 인구 구조나 경제 여건이 바뀌면 연금액이나 보험료가 미리 정한 규칙에 따라 저절로 조정되도록 만든 장치예요.",
+        "answer": "자동조정장치",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-18T00:01:02.301+09:00"
+      }
+    ],
+    "kakaopay": [],
+    "nh-allone": [],
+    "kb-star": [],
+    "kbank": [],
+    "hana-onq": [],
+    "hana-life": [],
+    "hana-travel": [],
+    "monimo": [],
+    "monimo-eng": [],
+    "paybooc": [],
+    "mydoctor": [],
+    "skstoa": [],
+    "auction": [],
+    "myhomeplus": [],
+    "syrup": [],
+    "doctornow": [],
+    "buzzvil": [],
+    "harim-real": [],
+    "woori-festa": [],
+    "bitbunny-ox": [],
+    "adapter": [],
+    "moneywalk": [],
+    "yoit": [],
+    "yes24": [
+      {
+        "question": "『스토리텔링 셔틀』에서 우주 셔틀이 향하던 행성은 어디일까요?",
+        "answer": "화성",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-18T00:01:02.300+09:00"
+      }
+    ],
+    "fallcent": [],
+    "naverpay": []
+  }
+}
