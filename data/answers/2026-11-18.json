@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T07:05:15.183+09:00",
+  "updatedAt": "2026-11-18T08:03:14.024+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,7 +54,15 @@
         "publishedAt": "2026-11-18T05:47:53.523+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "오늘의최저가딜",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T08:03:14.023+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "노쇼' 위약금은 파인 다이닝 음식점에만 내야 한다.",
