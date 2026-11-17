@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T15:00:32.333+09:00",
+  "updatedAt": "2026-11-17T15:01:08.087+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -358,6 +358,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-17T09:21:17.026+09:00"
+      },
+      {
+        "question": "용돈퀴즈 — G마켓 밀크T (18회차)",
+        "answer": "전원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-17T15:01:08.079+09:00"
       }
     ],
     "climate-action": [
