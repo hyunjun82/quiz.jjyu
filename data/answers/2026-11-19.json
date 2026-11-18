@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T07:13:25.657+09:00",
+  "updatedAt": "2026-11-19T07:18:35.006+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,6 +55,20 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-19T03:30:45.032+09:00"
+      },
+      {
+        "question": "11월 19일 오후 10시에 어닝콜 라이브가 진행되는 종목은?",
+        "answer": "② 월마트",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:18:35.003+09:00"
+      },
+      {
+        "question": "W컨셉에서 신한 슈퍼SOL/SOL페이로 20만원 이상 결제하고 받을 수 있는 혜택은?",
+        "answer": "① 1만 포인트",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:18:35.003+09:00"
       }
     ],
     "kakaobank": [],
@@ -122,9 +136,24 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-19T01:21:39.242+09:00"
+      },
+      {
+        "question": "(가)에 들어갈 책으로 옳은 것은?",
+        "answer": "① 북학의",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:18:35.003+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "수능에서 모든 응시자가 반드시 치러야 하며, 미응시 시 성적 전체가 무효인 영역은?",
+        "answer": "② 한국사",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:18:35.003+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "20승 6무 4패로 K리그2 1위를 기록하고 있는 수원의 승점은 몇 점일까요? (승: 3점 / 무: 1점 / 패: 0점)",
@@ -162,6 +191,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-19T07:02:13.562+09:00"
+      },
+      {
+        "question": "다리에 쥐가 나면 반동을 주며 빠르게 당겨서 푸는 것이 좋다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:18:35.004+09:00"
       }
     ],
     "skstoa": [],
