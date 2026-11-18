@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T07:12:46.855+09:00",
+  "updatedAt": "2026-11-19T07:13:25.657+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -108,10 +108,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "11월19일 농협 NH올원뱅크 디깅퀴즈 정답 고전소설 춘향전 작가",
+        "question": "우리나라의 고전소설 「춘향전」 은 처음부터 한글로 쓰였고, 작가가 명확하게 밝혀진 작품이다.",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-19T00:03:21.544+09:00"
       }
     ],
