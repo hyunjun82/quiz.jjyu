@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T12:03:08.175+09:00",
+  "updatedAt": "2026-11-18T12:03:45.486+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -55,6 +55,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-18T11:41:04.637+09:00"
+      },
+      {
+        "question": "청불 영화 예매권 받기 (8회차)",
+        "answer": "25, 박훈정",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T12:03:45.479+09:00"
       }
     ],
     "cashwalk": [
