@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T10:08:02.010+09:00",
+  "updatedAt": "2026-11-18T10:17:44.679+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -278,6 +278,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-18T09:05:34.129+09:00"
+      },
+      {
+        "question": "11월18일 카카오페이 퀴즈 정답 내 실수로 불났을 때 최대 OOOO만원 벌금 내야 해요",
+        "answer": "2000",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T10:17:44.676+09:00"
       }
     ],
     "nh-allone": [
