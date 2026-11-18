@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T00:07:56.932+09:00",
+  "updatedAt": "2026-11-19T00:35:43.989+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -105,7 +105,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "독감 백신과 코로나19 백신은 같은 날 함께 접종할 수 있다",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-19T00:35:43.988+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
