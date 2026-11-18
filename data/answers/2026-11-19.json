@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T00:01:35.615+09:00",
+  "updatedAt": "2026-11-19T00:03:21.544+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -48,7 +48,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]지금 현대리바트에서는 한정수량 최대 50% 할인과 구매금액대별 쿠폰을 만나볼 수 있는 ‘집단장 특별전’을 진행하고 있는데요.이번 집단장 특별전은 언제까지 진행될까요?",
+        "answer": "11월 30일",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-19T00:03:21.544+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOOOO란, 가상자산을 사고팔거나 보관·이전해 주는 일을 영업으로 하며, 금융당국에 신고해야 하는 사업자예요.",
@@ -59,7 +67,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "11월19일 농협 NH올원뱅크 디깅퀴즈 정답 고전소설 춘향전 작가",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-19T00:03:21.544+09:00"
+      }
+    ],
     "kb-star": [],
     "kbank": [],
     "hana-onq": [],
