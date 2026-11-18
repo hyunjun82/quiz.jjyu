@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T00:01:03.168+09:00",
+  "updatedAt": "2026-11-19T00:01:35.615+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -85,7 +85,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "주식 거래 시 매매할 때마다 내는 수수료는 증권사와 관계없이 모두 동일해요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-19T00:01:35.615+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
