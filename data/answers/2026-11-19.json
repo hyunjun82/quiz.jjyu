@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T00:03:21.544+09:00",
+  "updatedAt": "2026-11-19T00:04:45.381+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -112,7 +112,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "요양보호사는 장기요양등급 심사에 참여한다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-19T00:04:45.381+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 책의 저자는?",
