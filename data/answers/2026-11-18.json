@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T10:02:06.774+09:00",
+  "updatedAt": "2026-11-18T10:02:43.747+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -20,6 +20,27 @@
         "note": "문제가 랜덤으로 여러 번 바뀌는 이벤트 퀴즈 — 화면의 초성 힌트와 일치하는 정답을 후보 중에서 확인하세요.",
         "source": "gametoc",
         "publishedAt": "2026-11-18T00:01:38.641+09:00"
+      },
+      {
+        "question": "이구위크 한정 이벤트 (3회차)",
+        "answer": "마이셀렉션",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T10:02:43.742+09:00"
+      },
+      {
+        "question": "카누 호환캡슐 기획전 (4회차)",
+        "answer": "카라멜",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T10:02:43.742+09:00"
+      },
+      {
+        "question": "맥심 커피 구매 혜택 (5회차)",
+        "answer": "네이버페이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T10:02:43.742+09:00"
       }
     ],
     "cashwalk": [
