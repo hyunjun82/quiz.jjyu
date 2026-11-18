@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T07:18:35.006+09:00",
+  "updatedAt": "2026-11-19T07:54:24.652+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-19T00:07:56.932+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "정기예금",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T07:54:24.649+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "가상자산",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T07:54:24.649+09:00"
       }
     ],
     "cashwalk": [
@@ -148,7 +162,7 @@
     "kbank": [
       {
         "question": "수능에서 모든 응시자가 반드시 치러야 하며, 미응시 시 성적 전체가 무효인 영역은?",
-        "answer": "② 한국사",
+        "answer": "2. 한국사",
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-19T07:18:35.003+09:00"
@@ -182,7 +196,15 @@
         "publishedAt": "2026-11-19T00:01:03.167+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "want/share, split/one, order/one",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T07:54:24.649+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -225,8 +247,24 @@
         "publishedAt": "2026-11-19T00:01:35.615+09:00"
       }
     ],
-    "adapter": [],
-    "moneywalk": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "3, 1, 2",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T07:54:24.649+09:00"
+      }
+    ],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T07:54:24.649+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "요양보호사는 장기요양등급 심사에 참여한다?",
