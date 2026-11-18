@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T07:02:35.951+09:00",
+  "updatedAt": "2026-11-19T07:12:42.479+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -58,7 +58,15 @@
       }
     ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크를 통해 '함께 만드는 독서 습관'에 가입하면 플라이북 1,000포인트를 받을 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:12:42.477+09:00"
+      }
+    ],
     "ok-cashbag": [
       {
         "question": "오후8시 삐아 직잭 라이브 라이브 특가 보러가기 오퀴즈11월19일정답ㅋㄹㅁ",
@@ -70,7 +78,15 @@
     ],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "저탄소 식단에는 고기,유제품을 덜 소비하고 지역 먹거리 또는 식물성 단백질을 선택하는 것이 포함된다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:12:42.479+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]지금 현대리바트에서는 한정수량 최대 50% 할인과 구매금액대별 쿠폰을 만나볼 수 있는 ‘집단장 특별전’을 진행하고 있는데요.이번 집단장 특별전은 언제까지 진행될까요?",
@@ -109,8 +125,24 @@
       }
     ],
     "kbank": [],
-    "hana-onq": [],
-    "hana-life": [],
+    "hana-onq": [
+      {
+        "question": "20승 6무 4패로 K리그2 1위를 기록하고 있는 수원의 승점은 몇 점일까요? (승: 3점 / 무: 1점 / 패: 0점)",
+        "answer": "③ 66 점",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:12:42.478+09:00"
+      }
+    ],
+    "hana-life": [
+      {
+        "question": "하나원큐의 국민비서 메뉴에서 건강검진, 암검진 안내 알림신청을 할 수 있다.",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-19T07:12:42.478+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
