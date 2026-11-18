@@ -1876,6 +1876,7 @@ export const TIP_UNMAPPED = new Map();
 
 const tipArticleCache = new Map(); // `${today}:${slug}` → Set(wr_id)
 const tipParsed = new Map(); // wr_id → items
+const tipListTitle = new Map(); // wr_id → 목록에 보이는 제목 (`카테고리] 이름 [2026년 ..]`)
 let tipListFetchedAt = 0;
 
 /** 목록 제목의 `[2026년 08월 14일]` 을 `2026-08-14` 로 바꾼다. */
@@ -1931,6 +1932,8 @@ async function tipDiscover(today) {
       const key = `${today}:${map.slug}`;
       if (!tipArticleCache.has(key)) tipArticleCache.set(key, new Set());
       tipArticleCache.get(key).add(id);
+      // 2026-11-19: 글 <title> 형식이 바뀌어도 지문이 흔들리지 않게 목록 제목을 기억해 둔다.
+      tipListTitle.set(id, title.replace(/\s*N?\s*새글\s*$/, '').trim());
     }
   }
 }
@@ -1945,7 +1948,12 @@ function parseTipArticle(html, slug, title) {
   // ⚠️ 예전엔 {1,40}으로 잘랐다. 그래서 토스처럼 한 줄에 두 답이 들어오는 형식
   //   `정답 : 오전 - 더킹라이트 엘사 크리스탈, 오후 - 병아리 무드등` (8/16 실측)
   // 이 40자에서 잘려 나가 통째로 버려졌다. 넉넉히 받아서 아래에서 쪼갠다.
-  const raw = text.match(/정답\s*[:：]\s*([^\n<]{1,120})/)?.[1]?.trim();
+  // 2026-11-19: 팁is팁이 11/17부터 본문을 새 틀로 바꿨다 — `정답 : X` 문장이 없어지고
+  //   <strong id="tqz_answer">X</strong> 에 정답만 담는다. 옛 문형만 찾던 탓에 11/17~19 사흘간
+  //   팁is팁 정답이 0건이었다(어댑터·머니워크·모니모 영어·토스 두근두근 누락). 새 틀을 먼저 보고, 없으면 옛 문형.
+  //   같은 본문 아래 '다른 퀴즈 정답' 목록(잘린 남의 정답)이 있으므로 반드시 tqz_answer 칸만 읽는다.
+  const boxed = html.match(/id="tqz_answer"[^>]*>([^<]{1,120})</)?.[1];
+  const raw = (boxed ? clean(boxed).replace(/\s+/g, ' ') : text.match(/정답\s*[:：]\s*([^\n<]{1,120})/)?.[1])?.trim();
   if (!raw) return [];
 
   const q = tipQuestion(title);
@@ -2018,9 +2026,11 @@ async function collectFromTipistip(existing = null) {
         // 제목 끝의 사이트 꼬리표(" > 퀴즈정답 | 팁is팁")만 떼어낸다.
         // 2026-09-10: 예전엔 첫 '>' 에서 잘랐는데, "모니모 오늘의영어 (더보기 &gt; 혜택)"
         // 처럼 제목 안에 '>' 가 들어가는 글이 있어 지문이 "(더보기" 에서 잘려 나갔다.
-        const title = clean(html.match(/<title>([^<]*)<\/title>/)?.[1] || '')
-          .replace(/\s*>\s*퀴즈정답\s*\|[\s\S]*$/, '')
-          .trim();
+        const title =
+          tipListTitle.get(id) ||
+          clean(html.match(/<title>([^<]*)<\/title>/)?.[1] || '')
+            .replace(/\s*>\s*퀴즈정답\s*\|[\s\S]*$/, '')
+            .trim();
         const items = parseTipArticle(html, slug, title).map((r) => ({ ...r, source: 'tipistip' }));
         if (items.length > 0) tipParsed.set(id, items);
         return items;
