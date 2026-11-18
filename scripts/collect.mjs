@@ -872,8 +872,23 @@ async function collectFromQuizbells() {
         if (!items.length) return [];
         if (REPEAT_OK.has(q.slug) || q.slug === 'cashdoc') return items.map((r) => ({ ...r, source: 'quizbells' }));
         // 전날 페이지를 못 가져오면 오늘 것을 내보내지 않는다 — 확인 못 한 걸 싣지 않는다.
-        const prev = await quizbellsPrevKeys(q, today);
-        if (!prev) return [];
+        let prev = await quizbellsPrevKeys(q, today);
+        if (!prev) {
+          // 2026-11-19: 전날 페이지를 못 가져오면 예전엔 조용히 통째로 버렸다(로그도 없었다).
+          //   11/19 새벽 기후행동·케이뱅크·나만의닥터가 퀴즈벨엔 00시대부터 있었는데 07:12 앱테크가 줄 때까지 7시간 못 올렸다
+          //   (02:45 감시 종료 "아직 미공개", 02:53 수집 중단 감지 "퀴즈벨에 있음 3건").
+          //   못 가져오면 우리가 어제 올린 정답 파일로 대신 비교한다 — 어제 것과 같은 줄만 버리고 나머지는 받는다.
+          const yd = new Date(`${today}T00:00:00Z`);
+          yd.setUTCDate(yd.getUTCDate() - 1);
+          const yItems = loadExisting(yd.toISOString().slice(0, 10)).answers?.[q.slug] || [];
+          const tag = `prevfail|${q.slug}`;
+          if (!QB_PREV_REPORTED.has(tag)) {
+            QB_PREV_REPORTED.add(tag);
+            console.log(`퀴즈벨 전날 페이지 못 가져옴 [${q.slug}] — 어제 우리 파일(${yItems.length}건)로 대신 비교`);
+          }
+          if (yItems.length === 0) return []; // 어제 기록이 아예 없으면 비교할 게 없다 — 싣지 않는다
+          prev = new Set(yItems.map(qbPrevKey));
+        }
         // 2026-10-03: 같은 지문(날짜만 다른 껍데기 제목 포함)에 서로 다른 정답이 둘 이상 붙어 오면 그대로 싣지 않는다.
         //   10/2 기후행동: 퀴즈벨이 "기후행동 기회소득 10월 2일 오늘의 퀴즈 문제"로 O·X 두 줄을 냈다.
         //   X 는 전날(10/1) 정답이 제목만 바뀌어 남은 것이었고 진짜는 O(토막스 '영구동토층' 실측).
