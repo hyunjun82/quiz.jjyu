@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T03:36:06.567+09:00",
+  "updatedAt": "2026-11-19T07:02:13.563+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -130,7 +130,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "오래된 물을 마시는 것은 항상 안전하다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-19T07:02:13.562+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
