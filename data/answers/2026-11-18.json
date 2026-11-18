@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T20:00:43.948+09:00",
+  "updatedAt": "2026-11-18T20:03:00.221+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -327,6 +327,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-18T12:04:54.187+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (5회차)",
+        "answer": "쿠폰잭팟",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T20:03:00.206+09:00"
       }
     ],
     "kakaobank-ox": [
