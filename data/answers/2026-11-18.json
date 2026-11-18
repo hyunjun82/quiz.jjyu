@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T18:00:37.068+09:00",
+  "updatedAt": "2026-11-18T18:01:47.350+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -253,6 +253,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-18T18:00:37.057+09:00"
+      },
+      {
+        "question": "우리은행 우리의 가을 피크닉",
+        "answer": "다이슨",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T18:01:47.340+09:00"
       }
     ],
     "shinhan-sol": [
