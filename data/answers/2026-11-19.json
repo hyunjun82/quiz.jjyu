@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T01:21:39.243+09:00",
+  "updatedAt": "2026-11-19T03:30:45.032+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,7 +41,22 @@
         "publishedAt": "2026-11-19T00:00:25.035+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "양의지 선수가 두산 베어스와 새롭게 체결한 FA 계약 기간은 몇 년일까요?",
+        "answer": "2년",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-19T03:30:45.032+09:00"
+      },
+      {
+        "question": "지오지아에서 11/11부터 11/26까지 단 2주동안 진행하는 프로모션의 이름은 ★★★입니다!",
+        "answer": "직데이",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-19T03:30:45.032+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [
