@@ -1,0 +1,33 @@
+# 정답 자동 감사 (2026-11-18)
+#
+# 운영자가 매일 손으로 하던 "놓친 것·오답·이월·중복 점검"을 자동으로 한다. scripts/audit.mjs 참고.
+# 매시간 돌고, 수집 job 이 끝날 때마다도 깨운다. 변경이 있으면 커밋·푸시 → deploy.yml 이 알아서 배포.
+name: 정답 자동 감사
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: 감사 실행 (변경 있으면 푸시)
+        run: node scripts/audit.mjs
