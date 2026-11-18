@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T00:00:25.035+09:00",
+  "updatedAt": "2026-11-19T00:01:03.168+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -36,12 +36,28 @@
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오후8시 삐아 직잭 라이브 라이브 특가 보러가기 오퀴즈11월19일정답ㅋㄹㅁ",
+        "answer": "카라멜",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-19T00:01:03.167+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOOOO란, 가상자산을 사고팔거나 보관·이전해 주는 일을 영업으로 하며, 금융당국에 신고해야 하는 사업자예요.",
+        "answer": "가상자산사업자",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-19T00:01:03.167+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -49,7 +65,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
+        "answer": "산란일자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-19T00:01:03.167+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -65,7 +89,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "이 책의 저자는?",
+        "answer": "이시형",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-19T00:01:03.167+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
