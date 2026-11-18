@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T18:01:47.350+09:00",
+  "updatedAt": "2026-11-18T18:03:00.749+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -260,6 +260,20 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-18T18:01:47.340+09:00"
+      },
+      {
+        "question": "이번달 이벤트에 응모하면 OO월에 더 큰 선물 기회를 받을 수 있다. OO에 들어갈 숫자는?",
+        "answer": "12",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-18T18:03:00.736+09:00"
+      },
+      {
+        "question": "11월18일 우리은행 우리의 가을 피크닉 캐시워크 정답 ㅈㄷ ㄷㅇㅅ ㄱㅇ ㅅㅍㅅ",
+        "answer": "자동 다이슨 가을 스페셜 12",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-18T18:03:00.739+09:00"
       }
     ],
     "shinhan-sol": [
