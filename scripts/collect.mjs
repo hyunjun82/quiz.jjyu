@@ -2465,6 +2465,30 @@ function requestDeploy() {
   } catch (e) {
     console.log('[deploy] 호출 실패:', (e.stderr?.toString() || e.message).split('\n')[0]);
   }
+  requestAudit();
+}
+
+// 2026-11-18: 새 정답을 올릴 때마다 자동 감사(audit.yml)도 깨운다 — 20분에 한 번까지만.
+//   audit.yml 의 매시 cron 은 GitHub 가 제때 안 띄운다(11/18 첫 두 시각 15:07·16:07 KST 모두 안 떴음).
+//   이월·중복·오답은 새 정답이 들어올 때 생기므로, 그때 깨우는 게 가장 정확하다.
+let lastAuditAt = 0;
+function requestAudit() {
+  const token = process.env.GITHUB_TOKEN;
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (!token || !repo || Date.now() - lastAuditAt < 20 * 60 * 1000) return;
+  lastAuditAt = Date.now();
+  try {
+    execFileSync('curl', [
+      '-sS', '-o', '/dev/null', '-X', 'POST',
+      '-H', `Authorization: Bearer ${token}`,
+      '-H', 'Accept: application/vnd.github+json',
+      `https://api.github.com/repos/${repo}/actions/workflows/audit.yml/dispatches`,
+      '-d', '{"ref":"main"}',
+    ], { stdio: 'pipe' });
+    console.log('[audit] 자동 감사 워크플로 호출');
+  } catch (e) {
+    console.log('[audit] 호출 실패:', (e.stderr?.toString() || e.message).split('\n')[0]);
+  }
 }
 
 function flushPush(force = false) {
