@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T00:46:28.943+09:00",
+  "updatedAt": "2026-11-20T00:51:37.473+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -163,7 +163,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "건강검진에서 발견되는 담낭 용종은 대부분 암이다",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-20T00:51:37.472+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
