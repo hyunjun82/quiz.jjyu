@@ -1,8 +1,23 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T00:14:34.156+09:00",
+  "updatedAt": "2026-11-20T00:36:10.820+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "일단보유하기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T00:36:10.820+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "주가흐름보기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T00:36:10.820+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -45,7 +60,15 @@
         "publishedAt": "2026-11-20T00:01:34.866+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "오늘 단 24시간 특별한 혜택을 선보이는 여성 브랜드는 □□□□□ 이에요",
+        "answer": "파사드패턴",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-20T00:36:10.819+09:00"
+      }
+    ],
     "nh-allone": [],
     "kb-star": [
       {
@@ -93,10 +116,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "독감 백신은 맞고 약 2주 뒤부터 면역이 생긴다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-20T00:02:08.189+09:00"
       }
     ],
