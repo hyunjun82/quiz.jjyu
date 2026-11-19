@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T10:14:59.106+09:00",
+  "updatedAt": "2026-11-19T10:16:07.575+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -188,9 +188,9 @@
       },
       {
         "question": "카카오페이 퀴즈11월19일 정답 고향사랑 기부 케이크 다양한 OOO을 선택",
-        "answer": "답례품",
+        "answer": "답례품 파사드패턴",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-19T10:09:03.229+09:00"
       }
     ],
