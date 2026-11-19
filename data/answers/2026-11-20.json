@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T00:41:20.349+09:00",
+  "updatedAt": "2026-11-20T00:46:28.943+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -21,20 +21,27 @@
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "question": "오픈뱅킹과 함께라면 결제부터 송금까지 OO만 있으면 다 가능해요! 빈칸에 알맞은 것은?",
         "answer": "계좌",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-20T00:06:01.367+09:00"
+      },
+      {
+        "question": "최근 FA 계약을 체결한 오태곤 선수가 프로 데뷔 이후 소속된 적이 없는 구단은 어디일까요?",
+        "answer": "④ NC 다이노스",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-20T00:46:28.941+09:00"
       }
     ],
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "함께 만드는 독서 습관'은 내 취향에 맞는 책을 찾고, 기록하며 사람들과 소통할 수 있는 서비스이다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-20T00:14:34.156+09:00"
       }
     ],
@@ -110,19 +117,19 @@
         "publishedAt": "2026-11-20T00:06:01.367+09:00"
       },
       {
-        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "question": "안티스미싱은 스미싱 위험 링크를 탐지하면 OO 알려주는 서비스이다",
         "answer": "2번 바로",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-20T00:06:01.367+09:00"
       }
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "question": "1891년 농구가 처음 만들어졌을 때 골대로 쓴 것은?",
         "answer": "복숭아 바구니",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-20T00:41:20.348+09:00"
       }
     ],
@@ -137,10 +144,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나은행으로 급여 받으면 더 달달해진 혜택과 100% 승진 선물을 준다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-20T00:12:55.424+09:00"
       }
     ],
