@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T00:03:18.444+09:00",
+  "updatedAt": "2026-11-20T00:04:40.721+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -75,7 +75,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "관절염은 단순히 나이가 들면서 생기는 통증일 뿐이다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-20T00:04:40.721+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "Q. 이 책이 받은 일본 문학상은?",
