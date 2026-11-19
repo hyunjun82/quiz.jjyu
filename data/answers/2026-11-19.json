@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T15:02:27.917+09:00",
+  "updatedAt": "2026-11-19T15:21:31.483+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -213,6 +213,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-19T13:06:09.242+09:00"
+      },
+      {
+        "question": "카카오페이 11월19일 퀴즈정답 통신비 5천원 페이에서 KT 요고 OO 개통",
+        "answer": "49",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-19T15:21:31.478+09:00"
       }
     ],
     "nh-allone": [
