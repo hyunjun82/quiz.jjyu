@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T10:06:45.482+09:00",
+  "updatedAt": "2026-11-19T10:09:03.231+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -178,7 +178,22 @@
         "publishedAt": "2026-11-19T00:01:03.167+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "파사드패턴",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T10:09:03.229+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "답례품",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T10:09:03.229+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "우리나라의 고전소설 「춘향전」 은 처음부터 한글로 쓰였고, 작가가 명확하게 밝혀진 작품이다.",
