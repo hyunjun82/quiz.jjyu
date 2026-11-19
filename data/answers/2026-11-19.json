@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "updatedAt": "2026-11-19T10:09:03.231+09:00",
+  "updatedAt": "2026-11-19T10:11:04.074+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -217,6 +217,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-19T07:18:35.003+09:00"
+      },
+      {
+        "question": "11월19일 KB페이 퀴즈 리브메이트 정답 빨간날 없는 11월밸런스게임",
+        "answer": "치킨 VS 피자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-19T10:11:04.072+09:00"
       }
     ],
     "kbank": [
@@ -291,7 +298,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "스마일캐시",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-19T10:11:04.073+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
