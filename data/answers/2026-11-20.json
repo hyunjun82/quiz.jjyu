@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T00:00:55.897+09:00",
+  "updatedAt": "2026-11-20T00:01:34.866+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO란, 환율이 움직였을 때 그 변화가 수입품이나 수출품 가격에 얼마나 옮겨 반영되는지를 뜻하는 개념이에요.",
+        "answer": "환율전가",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-20T00:01:34.866+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -40,7 +48,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "신용카드 포인트는 카드사에 따라 현금처럼 결제에 사용할 수 있는 경우가 있어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-20T00:01:34.866+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
