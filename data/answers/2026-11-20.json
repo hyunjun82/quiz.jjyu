@@ -1,10 +1,18 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T00:04:40.721+09:00",
+  "updatedAt": "2026-11-20T00:06:01.367+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "answer": "계좌",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T00:06:01.367+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -31,7 +39,22 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "4. 홍경래",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T00:06:01.367+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "2번 바로",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T00:06:01.367+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
@@ -73,7 +96,15 @@
         "publishedAt": "2026-11-20T00:01:34.866+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "1, 3, 4",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T00:06:01.367+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [
       {
