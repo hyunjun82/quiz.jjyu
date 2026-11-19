@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T06:22:49.145+09:00",
+  "updatedAt": "2026-11-20T07:04:16.746+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -177,6 +177,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-20T00:51:37.472+09:00"
+      },
+      {
+        "question": "고기 섭취를 줄이면 심장 건강에 긍정적인 영향을 줄 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-20T07:04:16.745+09:00"
       }
     ],
     "skstoa": [],
