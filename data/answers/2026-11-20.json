@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T10:00:31.858+09:00",
+  "updatedAt": "2026-11-20T10:03:31.573+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-20T00:36:10.820+09:00"
+      },
+      {
+        "question": "20일 오전 토스 행운퀴즈(토스 행퀴)에는 K 헤리티지 팝업스토어 관련 문제가 나왔다. 문제는 K 헤리티지 팝업에서 만날 수 있는 특별한 상품의 주제는 OOOO이에요다.",
+        "answer": "국가유산",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-20T10:01:17.544+09:00"
       }
     ],
     "cashwalk": [],
@@ -83,7 +90,22 @@
         "publishedAt": "2026-11-20T00:41:20.348+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 쇼핑에서 단 하루 38% 특가 행사 중인 감귤이 특별한…(후략)",
+        "answer": "제주국제감귤박람회 우수농가",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-11-20T10:01:51.177+09:00"
+      },
+      {
+        "question": "KB Pay 쇼핑에서 단 하루 38% 특가 행사 중인 감귤이 특별한 OOOO 코너의 이름은 무엇일까요?",
+        "answer": "매일10시특가",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-20T10:03:31.570+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
