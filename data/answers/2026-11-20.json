@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T18:10:39.476+09:00",
+  "updatedAt": "2026-11-20T18:22:42.665+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -365,7 +365,15 @@
         "publishedAt": "2026-11-20T00:00:55.897+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 디어커스",
+        "answer": "화장지",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T18:22:42.664+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
