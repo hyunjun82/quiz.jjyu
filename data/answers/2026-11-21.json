@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T07:58:53.925+09:00",
+  "updatedAt": "2026-11-21T08:04:00.819+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -166,7 +166,15 @@
         "publishedAt": "2026-11-21T00:01:29.977+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "dont/rush, have/wait, dont/have",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T08:04:00.818+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
