@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T08:37:51.123+09:00",
+  "updatedAt": "2026-11-21T08:39:00.599+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -75,10 +75,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "'함께 만드는 독서 습관'에서는 책을 읽으면서 인상깊었던 구절이나 생각을 기록할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-21T00:17:14.668+09:00"
       }
     ],
