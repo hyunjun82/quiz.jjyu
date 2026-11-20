@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T00:35:16.071+09:00",
+  "updatedAt": "2026-11-21T01:16:06.041+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -26,6 +26,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-21T00:06:53.423+09:00"
+      },
+      {
+        "question": "삼성 라이온즈 우승을 기념해 선수단과 팬들이 함께하는 특별 초청 행사가 열린 곳은 어디일까요?",
+        "answer": "에버랜드",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-21T01:16:06.041+09:00"
       }
     ],
     "kakaobank": [],
