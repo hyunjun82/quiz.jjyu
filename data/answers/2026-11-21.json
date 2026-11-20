@@ -1,9 +1,24 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T00:00:52.995+09:00",
+  "updatedAt": "2026-11-21T00:01:29.977+09:00",
   "answers": {
     "toss-lucky": [],
-    "cashwalk": [],
+    "cashwalk": [
+      {
+        "question": "글래스 스킨 에센스 팩트는 에이지투웨니스만의 수분 장벽 에센스로 ○○시간 수분 지속 커버하며, 리뉴얼 되어 더 얇게, 더 가볍게 촉촉한 피부결광을 선사합니다. 여기서 ○○은 무엇일까요?",
+        "answer": "72",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-21T00:01:29.977+09:00"
+      },
+      {
+        "question": "건강보험심사평가원은 ㅇㅇㅇㅇ어플에서 가까운 곳에서 내 건강을 살펴주는 동네병원을 쉽게 찾을 수 있는 '우리지역 좋은 병원 찾기'서비스를 제공하고 있는데요. '우리지역 좋은 병원 찾기' 서비스를 만날 수 있는 어플의 이름은 무엇일까요?",
+        "answer": "건강e음 / 병원찾기",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-21T00:01:29.977+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -12,7 +27,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 수입품이나 외국 기업을 국내 상품·기업보다 불리하게 대하지 않고 똑같이 대우해야 한다는 통상 원칙이에요.",
+        "answer": "내국민대우",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-21T00:01:29.977+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -20,7 +43,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
+        "answer": "산란일자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-21T00:01:29.977+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -28,7 +59,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T00:01:29.977+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
