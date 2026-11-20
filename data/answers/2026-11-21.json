@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T00:03:12.337+09:00",
+  "updatedAt": "2026-11-21T00:04:18.101+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -98,7 +98,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "꾸준한 복대 착용은 허리 통증 효과 개선에 효과가 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-21T00:04:18.101+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "Q. 이 책이 받은 일본 문학상은?",
