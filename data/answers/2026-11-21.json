@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T00:01:29.977+09:00",
+  "updatedAt": "2026-11-21T00:02:03.386+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -71,7 +71,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "자동차 보험은 무사고 기간이 길수록 보험료 할인을 받을 수 있는 경우가 많아요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-21T00:02:03.385+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
