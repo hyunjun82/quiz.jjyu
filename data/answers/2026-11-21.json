@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T06:02:44.803+09:00",
+  "updatedAt": "2026-11-21T07:04:02.308+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -130,7 +130,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "채소를 많이 먹으면 체중 감량에 도움을 줄 수 있다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-21T07:04:02.307+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
