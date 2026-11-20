@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T00:04:18.101+09:00",
+  "updatedAt": "2026-11-21T00:06:53.423+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -19,7 +19,15 @@
         "publishedAt": "2026-11-21T00:01:29.977+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "answer": "Globus",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T00:06:53.423+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -46,7 +54,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (1회차)",
+        "answer": "1번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T00:06:53.423+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
