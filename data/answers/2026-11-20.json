@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T10:06:54.276+09:00",
+  "updatedAt": "2026-11-20T10:07:29.855+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -141,6 +141,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-20T10:00:31.857+09:00"
+      },
+      {
+        "question": "간단 미션 완료하면 100% 지급되는 OOOP 바로 챙겨가세요!",
+        "answer": "500",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-20T10:07:29.854+09:00"
       }
     ],
     "nh-allone": [
