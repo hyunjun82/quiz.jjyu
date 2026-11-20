@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T11:12:24.479+09:00",
+  "updatedAt": "2026-11-20T11:32:50.945+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -287,7 +287,15 @@
         "publishedAt": "2026-11-20T11:12:02.140+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T11:13:48.952+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "관절염은 단순히 나이가 들면서 생기는 통증일 뿐이다?",
