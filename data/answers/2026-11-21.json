@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T00:18:59.825+09:00",
+  "updatedAt": "2026-11-21T00:35:16.071+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -108,10 +108,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "미녹시딜 탈모약은 남성만 쓸 수 있다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-21T00:01:29.977+09:00"
       }
     ],
