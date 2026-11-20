@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T08:03:16.204+09:00",
+  "updatedAt": "2026-11-20T09:02:34.358+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -176,7 +176,15 @@
         "publishedAt": "2026-11-20T00:00:55.897+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "goes/comes, Karma/goes, goes/around",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-20T09:02:34.358+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
