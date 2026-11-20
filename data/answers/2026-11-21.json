@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T08:04:00.819+09:00",
+  "updatedAt": "2026-11-21T08:06:50.649+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -57,7 +57,15 @@
         "publishedAt": "2026-11-21T01:16:06.041+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "취임식",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-21T08:06:50.648+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "카카오뱅크 OX퀴즈 (혜택)",
