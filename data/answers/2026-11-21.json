@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T00:17:14.668+09:00",
+  "updatedAt": "2026-11-21T00:18:59.825+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -69,6 +69,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-21T00:06:53.423+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "2. (가) - (다) - (나)",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T00:18:59.824+09:00"
       }
     ],
     "kbank": [
