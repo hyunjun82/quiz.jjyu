@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "updatedAt": "2026-11-20T16:00:30.055+09:00",
+  "updatedAt": "2026-11-20T17:15:23.089+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -276,7 +276,7 @@
     "doctornow": [
       {
         "question": "독감 백신은 맞고 약 2주 뒤부터 면역이 생긴다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-20T00:02:08.189+09:00"
