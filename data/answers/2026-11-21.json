@@ -1,8 +1,23 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T07:04:02.308+09:00",
+  "updatedAt": "2026-11-21T07:39:44.740+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "큰 혜택",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T07:39:44.739+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "바로받기",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T07:39:44.739+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "글래스 스킨 에센스 팩트는 에이지투웨니스만의 수분 장벽 에센스로 ○○시간 수분 지속 커버하며, 리뉴얼 되어 더 얇게, 더 가볍게 촉촉한 피부결광을 선사합니다. 여기서 ○○은 무엇일까요?",
@@ -117,7 +132,15 @@
         "publishedAt": "2026-11-21T05:11:46.677+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-21T07:39:44.739+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
