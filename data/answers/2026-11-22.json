@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T00:04:26.600+09:00",
+  "updatedAt": "2026-11-22T00:35:59.459+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -52,7 +52,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "철분이 부족하면 손톱이 숟가락처럼 휠 수 있다",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-22T00:35:59.459+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
