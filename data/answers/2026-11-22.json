@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T01:18:06.253+09:00",
+  "updatedAt": "2026-11-22T01:23:16.827+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -46,7 +46,15 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "오늘은 김치의 가치와 우수성을 알리기 위해 제정된 김치의 날! 김치의 날이 제정된 해는 언제일까요?",
+        "answer": "2020년",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-22T01:23:16.827+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
