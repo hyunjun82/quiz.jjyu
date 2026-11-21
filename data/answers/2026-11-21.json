@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T11:05:55.916+09:00",
+  "updatedAt": "2026-11-21T11:18:43.123+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -310,6 +310,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-21T05:16:55.763+09:00"
+      },
+      {
+        "question": "11월21일 KB페이 퀴즈 리브메이트 정답 골든 치킨 대작전중 이벤트 당첨인원",
+        "answer": "550명",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-21T11:18:43.109+09:00"
       }
     ],
     "kbank": [
