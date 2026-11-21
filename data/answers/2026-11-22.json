@@ -1,16 +1,8 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T00:00:29.290+09:00",
+  "updatedAt": "2026-11-22T00:00:52.427+09:00",
   "answers": {
-    "toss-lucky": [
-      {
-        "question": "신한은행 신규 급여이체하면 매월O가지 5천원쿠폰 중 한 가지 고를 수 있어요",
-        "answer": "4",
-        "note": "",
-        "source": "gametoc",
-        "publishedAt": "2026-11-22T00:00:29.290+09:00"
-      }
-    ],
+    "toss-lucky": [],
     "cashwalk": [],
     "shinhan-sol": [],
     "kakaobank": [],
