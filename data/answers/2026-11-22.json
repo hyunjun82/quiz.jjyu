@@ -1,8 +1,23 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T07:08:39.910+09:00",
+  "updatedAt": "2026-11-22T07:24:56.373+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "BBQ",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-22T07:24:56.372+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "자유",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-22T07:24:56.372+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -53,6 +68,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-22T01:23:16.827+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (2회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-22T07:24:56.372+09:00"
       }
     ],
     "kbank": [],
@@ -65,7 +87,15 @@
         "publishedAt": "2026-11-22T07:03:15.693+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-22T07:24:56.373+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -76,7 +106,15 @@
         "publishedAt": "2026-11-22T00:01:06.119+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "going/direct, be/straightforward, have/ask",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-22T07:24:56.373+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
@@ -121,7 +159,15 @@
         "publishedAt": "2026-11-22T07:03:15.693+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-22T07:24:56.372+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "7월 1일은 '요양보호사의 날'이다?",
