@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T20:02:30.755+09:00",
+  "updatedAt": "2026-11-21T20:03:39.177+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -239,6 +239,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-21T12:02:42.420+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "숙성",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-21T20:03:39.169+09:00"
       }
     ],
     "kakaobank-ox": [
