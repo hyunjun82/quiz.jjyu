@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T00:03:17.995+09:00",
+  "updatedAt": "2026-11-22T00:04:26.600+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -67,7 +67,15 @@
     ],
     "adapter": [],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "7월 1일은 '요양보호사의 날'이다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-22T00:04:26.600+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "판사 출신의 변호사인 이 책의 저자는?",
