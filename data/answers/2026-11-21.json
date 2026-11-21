@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updatedAt": "2026-11-21T08:39:00.599+09:00",
+  "updatedAt": "2026-11-21T10:03:52.033+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,7 +83,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월21일",
+        "answer": "주말특가",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-21T10:03:52.032+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [
