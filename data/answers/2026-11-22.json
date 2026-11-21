@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T00:00:52.427+09:00",
+  "updatedAt": "2026-11-22T00:03:17.995+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -11,8 +11,24 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
-    "bitbunny": [],
+    "hpoint": [
+      {
+        "question": "[홍보]프라다의 헤리티지를 그대로 이어받아아름다움에 대한 기존의 정의와 기대들을재해석한 새로운 뷰티의 흐름,프라다만의 감각을 담아낸 뷰티 컬렉션을 이제 더현대Hi에서 만나보세요!다음 중 프라다뷰티의 더현대Hi 론칭 혜택이 아닌 것은 무엇일까요?",
+        "answer": "20만원 이상 구매 시 더블 미러 증정",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-22T00:03:17.995+09:00"
+      }
+    ],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 비과세·감면·공제처럼 세금을 깎아 줘서, 사실상 정부가 돈을 직접 쓴 것과 같은 효과를 내는 지원이에요.",
+        "answer": "조세지출",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-22T00:01:06.119+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -20,7 +36,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
+        "answer": "산란일자",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-22T00:01:06.119+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -32,11 +56,27 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "통장을 용도별로 나눠 쓰는 것은 예산 관리에 전혀 도움이 되지 않아요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-22T00:01:38.825+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "판사 출신의 변호사인 이 책의 저자는?",
+        "answer": "정재민",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-22T00:01:06.119+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
