@@ -1,10 +1,25 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T00:35:59.459+09:00",
+  "updatedAt": "2026-11-22T01:18:06.253+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "매년 11월 열리는 KBO 시상식에서 한 해 동안 정규시즌에서 가장 뛰어난 활약을 펼친 선수에게 수여하는 상은 무엇일까요?",
+        "answer": "KBO MVP",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-22T01:18:06.253+09:00"
+      },
+      {
+        "question": "신용카드 결제계좌를 신한은행으로 변경하면 1만 포인트를 받을 수 있다?",
+        "answer": "O",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-22T01:18:06.253+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
