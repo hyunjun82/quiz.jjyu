@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T11:02:09.529+09:00",
+  "updatedAt": "2026-11-22T12:03:24.013+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -49,6 +49,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-22T08:01:21.921+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "육아용품",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-22T12:03:24.012+09:00"
       }
     ],
     "kakaobank-ox": [
