@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T00:01:48.080+09:00",
+  "updatedAt": "2026-11-23T00:03:27.905+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -11,7 +11,15 @@
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [],
-    "hpoint": [],
+    "hpoint": [
+      {
+        "question": "[홍보]지금 리바트몰에서는 국내 작가님들의브랜드 상품을 만나볼 수 있는데요!손으로 빚은 특별한 핸드메이드 오브제클래스도 열리는 이곳을 뭐라고 할까요?",
+        "answer": "공방",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-23T00:03:27.904+09:00"
+      }
+    ],
     "bitbunny": [
       {
         "question": "OOOOO란, 전쟁이나 공급 차질 같은 비상 상황에 대비해 정부가 미리 사들여 저장해 두는 석유예요.",
@@ -44,7 +52,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T00:03:27.905+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
@@ -57,7 +73,15 @@
         "publishedAt": "2026-11-23T00:01:48.080+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "1, 3, 1",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T00:03:27.904+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [],
     "yes24": [
