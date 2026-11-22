@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T12:03:24.013+09:00",
+  "updatedAt": "2026-11-22T12:38:55.171+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -51,10 +51,10 @@
         "publishedAt": "2026-11-22T08:01:21.921+09:00"
       },
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "question": "12:00 사물 관련 이모지 보고 퀴즈 풀기",
         "answer": "육아용품",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-22T12:03:24.012+09:00"
       }
     ],
