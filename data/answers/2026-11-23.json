@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T00:03:27.905+09:00",
+  "updatedAt": "2026-11-23T00:04:33.037+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -83,7 +83,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "장기요양 서비스는 필요하면 여러 서비스를 함께 받을 수 있다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-23T00:04:33.036+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "판사 출신의 변호사인 이 책의 저자는?",
