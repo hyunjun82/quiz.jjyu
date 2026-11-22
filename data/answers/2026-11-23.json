@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T02:07:24.908+09:00",
+  "updatedAt": "2026-11-23T04:59:13.921+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,7 +68,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "11월23일 농협 NH올원뱅크 디깅퀴즈 정답 비타민 과다섭취 부작용",
+        "answer": "X",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T04:59:13.920+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
