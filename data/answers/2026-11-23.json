@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T00:35:30.586+09:00",
+  "updatedAt": "2026-11-23T01:16:01.637+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -19,6 +19,20 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-23T00:13:49.138+09:00"
+      },
+      {
+        "question": "매년 11월 MLB에서 양대 리그 최고의 투수에게 각각 수여하는 상의 이름은 무엇일까요?",
+        "answer": "사이영상",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-23T01:16:01.636+09:00"
+      },
+      {
+        "question": "신한 쏠퀴즈 11월23일 (3회차)",
+        "answer": "47",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-23T01:16:01.636+09:00"
       }
     ],
     "kakaobank": [],
