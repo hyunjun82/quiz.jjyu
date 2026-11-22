@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T09:26:16.541+09:00",
+  "updatedAt": "2026-11-22T10:04:02.891+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -54,7 +54,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월22일",
+        "answer": "라프텔",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-22T10:04:02.890+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [
