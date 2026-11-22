@@ -1,12 +1,28 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T00:04:33.037+09:00",
+  "updatedAt": "2026-11-23T00:13:49.138+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "answer": "47%",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T00:13:49.138+09:00"
+      }
+    ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T00:13:49.138+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -31,7 +47,22 @@
     ],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "2. 태양력 사용",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T00:13:49.138+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T00:13:49.138+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
