@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T10:23:47.155+09:00",
+  "updatedAt": "2026-11-22T10:26:34.578+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -135,10 +135,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "맞춤홈에서 간편홈으로의 변경은 홈화면 상단 버튼으로 간단하게 변경할 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-22T07:24:56.373+09:00"
       }
     ],
