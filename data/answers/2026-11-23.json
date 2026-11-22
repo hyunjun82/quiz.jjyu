@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T07:37:55.801+09:00",
+  "updatedAt": "2026-11-23T07:43:06.376+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -151,7 +151,15 @@
         "publishedAt": "2026-11-23T07:12:16.625+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "must/exhausted, look/worn, full/of",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T07:43:06.375+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
