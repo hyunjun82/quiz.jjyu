@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T07:12:16.626+09:00",
+  "updatedAt": "2026-11-23T07:37:55.801+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -40,6 +40,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-23T01:16:01.636+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (4회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-23T07:37:55.799+09:00"
       }
     ],
     "kakaobank": [],
@@ -119,7 +126,15 @@
         "publishedAt": "2026-11-23T00:20:22.220+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-23T07:37:55.800+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "달걀은 쉽게 구할 수 있지만, 어떤 달걀이 건강에 좋은지 고르기는 어려운데요. 좋은 달걀을 고르는 '진짜' 기준은 무엇일까요?",
