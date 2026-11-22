@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T00:00:40.215+09:00",
+  "updatedAt": "2026-11-23T00:01:15.949+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -12,7 +12,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO란, 전쟁이나 공급 차질 같은 비상 상황에 대비해 정부가 미리 사들여 저장해 두는 석유예요.",
+        "answer": "전략비축유",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-23T00:01:15.949+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
