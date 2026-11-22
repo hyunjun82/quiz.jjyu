@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T05:09:30.166+09:00",
+  "updatedAt": "2026-11-23T07:01:58.577+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -131,7 +131,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "모든 종류의 우유가 똑같이 건강에 좋다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-23T07:01:58.576+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
