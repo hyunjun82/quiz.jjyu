@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updatedAt": "2026-11-22T10:04:02.891+09:00",
+  "updatedAt": "2026-11-22T10:14:03.430+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -99,6 +99,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-22T07:24:56.372+09:00"
+      },
+      {
+        "question": "11월22일 KB페이 퀴즈 리브메이트 정답 애니메이션 스트리밍 이용권을 사용할수 있는곳",
+        "answer": "라프텔",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-22T10:14:03.429+09:00"
       }
     ],
     "kbank": [
