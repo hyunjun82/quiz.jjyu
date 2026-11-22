@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T00:23:39.678+09:00",
+  "updatedAt": "2026-11-23T00:35:30.586+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -101,10 +101,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "위점막보호제 테프레논은 위산 분비를 줄이는 약이다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-23T00:03:27.905+09:00"
       }
     ],
