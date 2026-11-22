@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T07:43:06.376+09:00",
+  "updatedAt": "2026-11-23T07:43:10.227+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -163,8 +163,8 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "모든 종류의 우유가 똑같이 건강에 좋다.",
-        "answer": "X",
+        "question": "손 각질은 손톱으로 뜯거나 밀어서 떼어내면 빨리 좋아진다",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-23T07:01:58.576+09:00"
