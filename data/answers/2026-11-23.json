@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T11:40:40.935+09:00",
+  "updatedAt": "2026-11-23T11:44:44.583+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -25,6 +25,34 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-23T11:00:28.445+09:00"
+      },
+      {
+        "question": "이 밖에 머슬마인드&PT 구로디지털 관련 초성 ㄲㄲㄱㄹ 문제",
+        "answer": "깔깔거리, ㅎㅇㅅ, 해영사",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T11:44:44.579+09:00"
+      },
+      {
+        "question": "캐시닥 아벤느 문제 (3회차)",
+        "answer": "더마",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T11:44:44.579+09:00"
+      },
+      {
+        "question": "픽스 무선 전동 에어펌프 점프스타터 문제",
+        "answer": "20, 40, 150, 고출력, 보호회로",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T11:44:44.579+09:00"
+      },
+      {
+        "question": "픽스 파워소닉 헤어드라이기 문제",
+        "answer": "380, 110000, 엉킴, 다층댐핑",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T11:44:44.579+09:00"
       }
     ],
     "shinhan-sol": [
