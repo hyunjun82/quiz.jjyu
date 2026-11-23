@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T09:20:46.323+09:00",
+  "updatedAt": "2026-11-23T09:22:33.347+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -42,10 +42,10 @@
         "publishedAt": "2026-11-23T01:16:01.636+09:00"
       },
       {
-        "question": "신한 슈퍼SOL 출석 퀴즈 (4회차)",
+        "question": "신한 슈퍼SOL에서는 리서치센터 애널리스트 리포트를 확인할 수 있는 '신한 Premier 리서치' 메뉴가 있다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "apptech",
+        "source": "daviya",
         "publishedAt": "2026-11-23T07:37:55.799+09:00"
       }
     ],
