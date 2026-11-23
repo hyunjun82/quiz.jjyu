@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T17:00:29.781+09:00",
+  "updatedAt": "2026-11-23T18:03:17.703+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -74,6 +74,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-23T15:03:57.189+09:00"
+      },
+      {
+        "question": "11월23일 키움증권 중개형 ISA 계좌 캐시워크 정답",
+        "answer": "5000",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T18:03:17.700+09:00"
       }
     ],
     "shinhan-sol": [
