@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T12:01:31.172+09:00",
+  "updatedAt": "2026-11-23T12:05:37.264+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -106,6 +106,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-23T08:05:46.256+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "직잭팟블랙프라이데이",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T12:05:37.260+09:00"
       }
     ],
     "kakaobank-ox": [
