@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T08:01:56.477+09:00",
+  "updatedAt": "2026-11-24T08:03:41.107+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -96,7 +96,15 @@
         "publishedAt": "2026-11-24T01:02:13.497+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "오퀴즈 맥심 (광고모아보기) (1회차)",
+        "answer": "2000",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T08:03:41.106+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
