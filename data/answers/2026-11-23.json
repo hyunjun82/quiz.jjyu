@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T09:22:33.347+09:00",
+  "updatedAt": "2026-11-23T09:23:46.122+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -70,7 +70,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후변화 문제는 한 나라만 노력하면 해결할 수 있다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T09:23:46.120+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]지금 리바트몰에서는 국내 작가님들의브랜드 상품을 만나볼 수 있는데요!손으로 빚은 특별한 핸드메이드 오브제클래스도 열리는 이곳을 뭐라고 할까요?",
