@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T00:31:00.297+09:00",
+  "updatedAt": "2026-11-24T01:02:13.498+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -9,6 +9,20 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-24T00:00:39.471+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (2회차)",
+        "answer": "꽝없는 선물이벤트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.496+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (3회차)",
+        "answer": "에어프라이어",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.496+09:00"
       }
     ],
     "cashwalk": [
@@ -41,9 +55,25 @@
         "publishedAt": "2026-11-24T00:00:39.471+09:00"
       }
     ],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "answer": "1만 포인트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.497+09:00"
+      }
+    ],
     "kakaobank": [],
-    "kakaobank-ox": [],
+    "kakaobank-ox": [
+      {
+        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.497+09:00"
+      }
+    ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
@@ -67,11 +97,42 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
-    "kb-star": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈)",
+        "answer": "3번 율도국",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.497+09:00"
+      }
+    ],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "4. 대한매일신보",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.497+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "3번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.497+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.497+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -110,7 +171,15 @@
         "publishedAt": "2026-11-24T00:01:50.508+09:00"
       }
     ],
-    "adapter": [],
+    "adapter": [
+      {
+        "question": "어댑터 퀴즈 데일리 퀴즈 (1회차)",
+        "answer": "X, O, X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T01:02:13.497+09:00"
+      }
+    ],
     "moneywalk": [],
     "yoit": [
       {
