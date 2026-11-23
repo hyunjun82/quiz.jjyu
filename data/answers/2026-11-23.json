@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T08:20:08.101+09:00",
+  "updatedAt": "2026-11-23T09:20:46.323+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,10 +92,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "11월23일 농협 NH올원뱅크 디깅퀴즈 정답 비타민 과다섭취 부작용",
+        "question": "비타민은 몸에 좋은 영양소이므로 많이 섭취할수록 건강에 도움이 되며, 과다 섭취에 따른 부작용은 없다.",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-23T04:59:13.920+09:00"
       }
     ],
