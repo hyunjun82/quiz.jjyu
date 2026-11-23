@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T09:26:38.938+09:00",
+  "updatedAt": "2026-11-23T09:31:16.222+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,7 +109,7 @@
     ],
     "kb-star": [
       {
-        "question": "11월 23일 KB 스타뱅킹 한국사 퀴즈 (3회차)",
+        "question": "밑줄 친 '개혁'의 내용으로 옳은 것은?",
         "answer": "2. 태양력 사용",
         "note": "",
         "source": "tipistip",
@@ -206,6 +206,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-23T07:45:44.963+09:00"
+      },
+      {
+        "question": "허리를 삐끗한 직후 1~2일 동안에는 냉찜질을 하는 것이 일반적이다",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-23T09:31:16.220+09:00"
       }
     ],
     "skstoa": [],
