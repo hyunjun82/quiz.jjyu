@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T00:04:07.902+09:00",
+  "updatedAt": "2026-11-24T00:31:00.297+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -89,7 +89,15 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "농가진 아이는 항생제 시작 후 24시간 등원을 쉰다",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-24T00:31:00.297+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
