@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T06:02:37.981+09:00",
+  "updatedAt": "2026-11-24T07:01:03.475+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -160,7 +160,15 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "달걀은 완전한 단백질 공급원이다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-24T07:01:03.474+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
