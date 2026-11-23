@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T00:01:16.336+09:00",
+  "updatedAt": "2026-11-24T00:01:50.508+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,7 +85,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "신용점수는 한 번 낮아지면 이후 아무리 관리해도 다시 오르지 않아요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-24T00:01:50.508+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
