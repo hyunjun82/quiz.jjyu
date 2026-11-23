@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T19:01:32.827+09:00",
+  "updatedAt": "2026-11-23T20:05:40.051+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -88,6 +88,13 @@
         "note": "",
         "source": "gametoc",
         "publishedAt": "2026-11-23T18:11:55.482+09:00"
+      },
+      {
+        "question": "11월23일 한스킨 할인광 퀴즈 풀고 캐시 GET 캐시워크 정답",
+        "answer": "87",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T20:05:40.048+09:00"
       }
     ],
     "shinhan-sol": [
@@ -134,6 +141,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-23T12:05:37.260+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "직진배송",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-23T20:05:40.048+09:00"
       }
     ],
     "kakaobank-ox": [
