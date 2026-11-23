@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T08:03:41.107+09:00",
+  "updatedAt": "2026-11-24T08:05:28.668+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -205,7 +205,15 @@
         "publishedAt": "2026-11-24T00:01:16.336+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "visited/London, took/trip, explored/there",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T08:05:28.667+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
