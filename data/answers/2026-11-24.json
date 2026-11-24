@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T20:01:08.608+09:00",
+  "updatedAt": "2026-11-24T20:04:43.256+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -134,6 +134,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-24T12:05:47.691+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (저녁 8시) (3회차)",
+        "answer": "기온역전",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-24T20:04:43.251+09:00"
       }
     ],
     "kakaobank-ox": [
