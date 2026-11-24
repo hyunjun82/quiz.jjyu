@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T10:25:04.148+09:00",
+  "updatedAt": "2026-11-24T10:48:44.274+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -174,6 +174,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-24T01:22:40.027+09:00"
+      },
+      {
+        "question": "KB 별별퀴즈 (오늘의 퀴즈) (3회차)",
+        "answer": "캠핑용품",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-24T10:48:44.272+09:00"
       }
     ],
     "kbank": [
