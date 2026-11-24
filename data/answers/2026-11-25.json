@@ -1,8 +1,23 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T07:12:02.261+09:00",
+  "updatedAt": "2026-11-25T07:27:33.343+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "매일 쌓이는 포인트",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T07:27:33.342+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "경품당첨",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T07:27:33.342+09:00"
+      }
+    ],
     "cashwalk": [],
     "shinhan-sol": [
       {
@@ -108,6 +123,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-25T07:12:02.259+09:00"
+      },
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (2회차)",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T07:27:33.342+09:00"
       }
     ],
     "hana-onq": [
@@ -128,7 +150,15 @@
         "publishedAt": "2026-11-25T00:12:48.773+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T07:27:33.342+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "자기자본이 4조원 이상인 대형 증권사가 자체 신용을 바탕으로 투자자에게 돈을 빌리고, 약속한 이자를 더해 돌려주는 금융상품은 무엇일까요?",
