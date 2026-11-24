@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T10:07:51.835+09:00",
+  "updatedAt": "2026-11-24T10:09:38.359+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -144,10 +144,10 @@
     ],
     "kakaopay": [
       {
-        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "question": "드디어 미국으로 ! 파라타항공이 2027년 5월 OO로 첫 취항해요",
         "answer": "LA",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-24T10:01:47.499+09:00"
       }
     ],
