@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T03:25:24.501+09:00",
+  "updatedAt": "2026-11-25T03:35:38.923+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -83,10 +83,25 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-25T01:21:32.578+09:00"
+      },
+      {
+        "question": "11월25일 KB스타뱅킹 스타퀴즈 정답 소비자심리지수를 만드는 O개 지표",
+        "answer": "4. 6",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-25T03:35:38.923+09:00"
       }
     ],
     "kbank": [],
-    "hana-onq": [],
+    "hana-onq": [
+      {
+        "question": "11월25일 하나은행 하나원큐 축구퀴즈 정답 가시마 앤틀러스와 맞붙는 K리그 소속팀",
+        "answer": "전북",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-25T03:35:38.923+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
