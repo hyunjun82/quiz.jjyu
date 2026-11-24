@@ -1,16 +1,23 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T00:12:48.773+09:00",
+  "updatedAt": "2026-11-25T01:16:22.453+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
     "shinhan-sol": [
       {
-        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "question": "해피오더 앱 크리스마스 사전예약 이벤트의 즉시할인 혜택을 받으려면 얼마 이상 결제해야 할까요?",
         "answer": "1만 5천원",
         "note": "",
-        "source": "tipistip",
+        "source": "blog",
         "publishedAt": "2026-11-25T00:07:26.207+09:00"
+      },
+      {
+        "question": "KBO 리그 역사상 한 해에 정규시즌 MVP와 한국시리즈 MVP를 동시에 거머쥔 유일한 선수는 누구일까요?",
+        "answer": "양현종",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-25T01:16:22.453+09:00"
       }
     ],
     "kakaobank": [],
