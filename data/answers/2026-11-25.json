@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T00:03:10.457+09:00",
+  "updatedAt": "2026-11-25T00:04:20.224+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -67,7 +67,15 @@
       }
     ],
     "moneywalk": [],
-    "yoit": [],
+    "yoit": [
+      {
+        "question": "어르신의 TV시청은 뇌 건강에 도움이 된다?",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-25T00:04:20.224+09:00"
+      }
+    ],
     "yes24": [
       {
         "question": "이 도서 에디션의 캐릭터 이름은?",
