@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T10:11:57.631+09:00",
+  "updatedAt": "2026-11-24T10:13:07.369+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -80,10 +80,10 @@
     ],
     "kakaobank": [
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (1회차)",
+        "question": "08:00 사물관련 이모지 보고 퀴즈 풀기",
         "answer": "플레이오프",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-24T08:01:56.476+09:00"
       }
     ],
