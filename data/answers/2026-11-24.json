@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T08:05:28.668+09:00",
+  "updatedAt": "2026-11-24T10:01:47.500+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -134,7 +134,15 @@
         "publishedAt": "2026-11-24T00:01:16.336+09:00"
       }
     ],
-    "kakaopay": [],
+    "kakaopay": [
+      {
+        "question": "카카오페이 퀴즈 타임 (혜택)",
+        "answer": "LA",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T10:01:47.499+09:00"
+      }
+    ],
     "nh-allone": [
       {
         "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈)",
@@ -232,7 +240,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "2900",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T10:01:47.499+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
