@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T16:02:38.234+09:00",
+  "updatedAt": "2026-11-24T18:26:08.950+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -385,7 +385,15 @@
         "publishedAt": "2026-11-24T00:00:39.471+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 싱하",
+        "answer": "생산량",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-24T18:26:08.949+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
