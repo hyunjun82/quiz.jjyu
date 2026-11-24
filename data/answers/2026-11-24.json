@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T10:48:44.274+09:00",
+  "updatedAt": "2026-11-24T11:00:46.340+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -252,6 +252,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-24T07:12:33.129+09:00"
+      },
+      {
+        "question": "감염성 홍반은 뺨이 빨개진 시기에 전염력이 가장 높다",
+        "answer": "아니다(X)",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-24T11:00:46.337+09:00"
       }
     ],
     "skstoa": [],
