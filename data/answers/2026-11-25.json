@@ -1,10 +1,18 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T00:04:20.224+09:00",
+  "updatedAt": "2026-11-25T00:07:26.207+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
-    "shinhan-sol": [],
+    "shinhan-sol": [
+      {
+        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "answer": "1만 5천원",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T00:07:26.207+09:00"
+      }
+    ],
     "kakaobank": [],
     "kakaobank-ox": [],
     "ok-cashbag": [],
@@ -23,7 +31,22 @@
     "bitbunny": [],
     "kakaopay": [],
     "nh-allone": [],
-    "kb-star": [],
+    "kb-star": [
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
+        "answer": "2번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T00:07:26.207+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 스타퀴즈 (메뉴 > 생활/혜택 > 혜택 > 이벤트) (2회차)",
+        "answer": "4번",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T00:07:26.207+09:00"
+      }
+    ],
     "kbank": [],
     "hana-onq": [],
     "hana-life": [],
