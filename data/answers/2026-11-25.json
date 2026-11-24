@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T06:57:01.735+09:00",
+  "updatedAt": "2026-11-25T07:01:42.422+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [],
@@ -33,7 +33,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 11월 25일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-25T07:01:42.421+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]2027년 정미년신년운세 서비스가 오픈했습니다!신년운세를 확인하고 7일 연속 출석을완료하면, 추첨권 사용 시최대 몇 Point를 받을 수 있을까요?",
@@ -117,7 +125,22 @@
     ],
     "monimo-eng": [],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "answer": "1만 5천원",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-25T07:01:42.421+09:00"
+      },
+      {
+        "question": "탄수화물 섭취는 항상 체중 증가로 이어진다.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-25T07:01:42.421+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
