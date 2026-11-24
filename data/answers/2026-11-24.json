@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T10:01:47.500+09:00",
+  "updatedAt": "2026-11-24T10:02:25.728+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -105,7 +105,15 @@
         "publishedAt": "2026-11-24T08:03:41.106+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "요즘 2030세대가 남대문시장에서 즐겨 찾는 인기 아이템이 아닌 것은?",
+        "answer": "캠핑용품",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-11-24T10:02:25.726+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
