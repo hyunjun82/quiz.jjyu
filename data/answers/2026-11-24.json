@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T11:54:57.298+09:00",
+  "updatedAt": "2026-11-24T12:05:47.697+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,6 +92,13 @@
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-24T08:01:56.476+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "눈속임",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-24T12:05:47.691+09:00"
       }
     ],
     "kakaobank-ox": [
