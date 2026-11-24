@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T10:02:25.728+09:00",
+  "updatedAt": "2026-11-24T10:06:42.648+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -196,10 +196,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 공과금 납부 화면에 들어가면 내가 바로 납부할 수 있는 공과금을 알려준다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-24T01:02:13.497+09:00"
       }
     ],
