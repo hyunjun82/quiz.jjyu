@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T01:53:28.572+09:00",
+  "updatedAt": "2026-11-26T02:03:38.960+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -46,10 +46,10 @@
     "kakaobank": [],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "지금 스텔스통장을 개설하면 최대 3만원의 혜택을 받을 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-26T00:15:59.000+09:00"
       }
     ],
@@ -58,10 +58,10 @@
     "cashdoc": [],
     "climate-action": [
       {
-        "question": "기후행동 기회소득 11월 26일 오늘의 퀴즈 문제",
+        "question": "도시의 건물과 도로가 많아질수록 기온이 주변보다 높아지는 현상을 ‘도시열섬’이라고 한다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-26T01:32:50.628+09:00"
       }
     ],
@@ -86,10 +86,10 @@
     "kakaopay": [],
     "nh-allone": [
       {
-        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈)",
+        "question": "세계 3대 국제영화제 중 하나인 칸 국제영화제에서 최고 작품에 수여하는 상의 이름은 무엇일까요?",
         "answer": "3번 황금종려상",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-26T00:45:30.496+09:00"
       }
     ],
