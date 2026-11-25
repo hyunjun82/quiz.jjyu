@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T10:41:56.160+09:00",
+  "updatedAt": "2026-11-25T10:49:05.614+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -233,7 +233,7 @@
       },
       {
         "question": "탄수화물 섭취는 항상 체중 증가로 이어진다.",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-25T07:01:42.421+09:00"
@@ -261,7 +261,7 @@
     "doctornow": [
       {
         "question": "겨울철 비염이 있다면 환기는 피하는 게 좋다",
-        "answer": "X",
+        "answer": "X (아니다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-25T00:02:02.706+09:00"
