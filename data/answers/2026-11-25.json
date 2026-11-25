@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T08:09:32.862+09:00",
+  "updatedAt": "2026-11-25T09:15:04.094+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-25T07:27:33.342+09:00"
+      },
+      {
+        "question": "새롭게 출제된 토스 행운퀴즈는 비욘드 신세계 메가딜을 주제로 구성됐다.",
+        "answer": "신세계백화점",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-25T09:15:04.092+09:00"
       }
     ],
     "cashwalk": [],
