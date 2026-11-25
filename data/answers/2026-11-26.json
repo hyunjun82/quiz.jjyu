@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T07:07:49.003+09:00",
+  "updatedAt": "2026-11-26T08:01:58.891+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,7 +150,15 @@
         "publishedAt": "2026-11-26T00:15:59.000+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-26T08:01:58.890+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "자기자본이 4조원 이상인 대형 증권사가 자체 신용을 바탕으로 투자자에게 돈을 빌리고, 약속한 이자를 더해 돌려주는 금융상품은 무엇일까요?",
@@ -160,7 +168,15 @@
         "publishedAt": "2026-11-26T00:01:35.185+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "big/fan, big/fan, big/fan",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-26T08:01:58.891+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
