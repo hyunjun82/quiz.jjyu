@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T09:23:50.449+09:00",
+  "updatedAt": "2026-11-25T09:24:26.786+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -214,10 +214,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "겨울철 비염이 있다면 환기는 피하는 게 좋다",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-25T00:02:02.706+09:00"
       }
     ],
