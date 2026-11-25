@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T00:15:59.001+09:00",
+  "updatedAt": "2026-11-26T00:35:15.687+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -109,10 +109,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "마운자로는 제2형 당뇨병 치료제로도 허가받았다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-26T00:01:35.185+09:00"
       }
     ],
