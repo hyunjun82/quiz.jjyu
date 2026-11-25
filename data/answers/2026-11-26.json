@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T04:50:26.311+09:00",
+  "updatedAt": "2026-11-26T07:02:39.298+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -162,6 +162,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-26T01:37:56.749+09:00"
+      },
+      {
+        "question": "식사 후 산책은 소화에 도움을 준다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-26T07:02:39.297+09:00"
       }
     ],
     "skstoa": [],
