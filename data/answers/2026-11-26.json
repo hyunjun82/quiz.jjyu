@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T01:27:16.572+09:00",
+  "updatedAt": "2026-11-26T01:32:50.629+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -56,7 +56,15 @@
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "기후행동 기회소득 11월 26일 오늘의 퀴즈 문제",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-26T01:32:50.628+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]다음 중 더현대HI 11월 26일(목) 오후 8시진행되는 아우구스티누스 바더LIVE 혜택이 아닌 것은?",
