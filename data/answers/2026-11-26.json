@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T01:22:09.689+09:00",
+  "updatedAt": "2026-11-26T01:27:16.572+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -101,8 +101,24 @@
         "publishedAt": "2026-11-26T00:10:43.369+09:00"
       }
     ],
-    "kbank": [],
-    "hana-onq": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "answer": "확장재정정책",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-26T01:27:16.571+09:00"
+      }
+    ],
+    "hana-onq": [
+      {
+        "question": "오늘 강릉하이원아레나에서 열리는 2026/27 AFC 챔피언스리그2 경기는 어느 두 팀의 맞대결일까요?",
+        "answer": "③ 강원 vs 키치",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-26T01:27:16.571+09:00"
+      }
+    ],
     "hana-life": [
       {
         "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
