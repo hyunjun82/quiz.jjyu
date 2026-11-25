@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T10:38:09.716+09:00",
+  "updatedAt": "2026-11-25T10:41:19.818+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -213,7 +213,15 @@
         "publishedAt": "2026-11-25T00:00:51.459+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "judge/book, judges/cover, judge/book",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T10:41:19.817+09:00"
+      }
+    ],
     "paybooc": [],
     "mydoctor": [
       {
