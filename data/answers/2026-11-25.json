@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T09:31:24.977+09:00",
+  "updatedAt": "2026-11-25T09:54:50.848+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -67,7 +67,15 @@
         "publishedAt": "2026-11-25T00:12:48.773+09:00"
       }
     ],
-    "ok-cashbag": [],
+    "ok-cashbag": [
+      {
+        "question": "11월25일 KB Pay 11월 이벤트 참여하기 ㅅㅋㄹ 오퀴즈 정답",
+        "answer": "시크릿",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-25T09:54:50.846+09:00"
+      }
+    ],
     "kbpay": [],
     "cashdoc": [],
     "climate-action": [
