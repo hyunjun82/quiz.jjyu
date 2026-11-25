@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T01:37:56.749+09:00",
+  "updatedAt": "2026-11-26T01:43:06.985+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -150,10 +150,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "C형간염은 예방백신이 없지만, 먹는 항바이러스제로 치료할 수 있다.",
         "answer": "O (그렇다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-26T01:37:56.749+09:00"
       }
     ],
