@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T09:25:39.014+09:00",
+  "updatedAt": "2026-11-25T09:26:13.259+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -60,10 +60,10 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "함께 만드는 독서 습관'에서는 정기적으로 내 취향에 맞는 도서를 집에서 받아볼 수 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-25T00:12:48.773+09:00"
       }
     ],
@@ -108,10 +108,10 @@
     ],
     "nh-allone": [
       {
-        "question": "11월25일 농협 NH올원뱅크 디깅퀴즈 정답 눈치게임의 하루 상금",
+        "question": "투표 2등 맞히고 포인트를 나눠받는 '눈치게임'의 하루 상금은 10만 포인트이다.",
         "answer": "X",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-25T03:25:24.501+09:00"
       }
     ],
@@ -226,10 +226,10 @@
     "woori-festa": [],
     "bitbunny-ox": [
       {
-        "question": "비트버니 OX 퀴즈",
+        "question": "온라인 쇼핑몰에서 결제 시 카드 무이자할부 혜택은 항상 모든 카드사에 동일하게 제공돼요.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-25T00:12:48.773+09:00"
       }
     ],
