@@ -1,9 +1,25 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T00:00:56.557+09:00",
+  "updatedAt": "2026-11-26T00:01:35.185+09:00",
   "answers": {
-    "toss-lucky": [],
-    "cashwalk": [],
+    "toss-lucky": [
+      {
+        "question": "비욘드신세계는 OOOOOO의 온라인 쇼핑몰이에요",
+        "answer": "신세계백화점",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-26T00:01:35.185+09:00"
+      }
+    ],
+    "cashwalk": [
+      {
+        "question": "리얼마이즈 알룰로스는 설탕, 꿀, 올리고당 대신 사용할 OOO OOO를 원하시는분께 적극 추천드려요! OOOOOO는 무엇일까요? (초성힌트 : ㄱㄱㅎㄷㅊㅈ)",
+        "answer": "건강한대체재",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-26T00:01:35.185+09:00"
+      }
+    ],
     "shinhan-sol": [],
     "kakaobank": [],
     "kakaobank-ox": [],
@@ -12,7 +28,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOO이란, 주민들이 원하는 세금과 공공서비스 조합을 찾아 지역을 옮겨 다니며 사실상 '발로 투표'한다는 이론이에요.",
+        "answer": "티부가설",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-26T00:01:35.185+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -20,7 +44,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "자기자본이 4조원 이상인 대형 증권사가 자체 신용을 바탕으로 투자자에게 돈을 빌리고, 약속한 이자를 더해 돌려주는 금융상품은 무엇일까요?",
+        "answer": "발행어음",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-26T00:01:35.185+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -28,11 +60,27 @@
     "auction": [],
     "myhomeplus": [],
     "syrup": [],
-    "doctornow": [],
+    "doctornow": [
+      {
+        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-26T00:01:35.185+09:00"
+      }
+    ],
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "급여이체 실적이 있으면 은행에서 대출이나 카드 이용 시 우대 혜택을 받을 수 있는 경우가 있어요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-26T00:01:35.185+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
