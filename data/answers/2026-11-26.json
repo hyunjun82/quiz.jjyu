@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T07:02:39.298+09:00",
+  "updatedAt": "2026-11-26T07:07:49.003+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -41,6 +41,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-26T01:16:20.659+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "O (그렇다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-26T07:07:49.002+09:00"
       }
     ],
     "kakaobank": [],
