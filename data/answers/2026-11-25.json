@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T09:55:13.131+09:00",
+  "updatedAt": "2026-11-25T10:04:02.070+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,7 +76,15 @@
         "publishedAt": "2026-11-25T09:54:50.846+09:00"
       }
     ],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 11월 이벤트 참여하기 ㅅㅋㄹ",
+        "answer": "시크릿",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-25T10:04:02.067+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
