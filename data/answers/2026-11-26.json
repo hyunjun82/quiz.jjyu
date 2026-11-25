@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T01:48:22.298+09:00",
+  "updatedAt": "2026-11-26T01:53:28.572+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -111,10 +111,10 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 오늘의 퀴즈 (1회차)",
+        "question": "정부가 경기 침체에 대응하기 위해 세금을 줄이거나 재정 지출을 늘리는 정책을 뜻하는 것은?",
         "answer": "확장재정정책",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-26T01:27:16.571+09:00"
       }
     ],
@@ -129,10 +129,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 놀이터에는 부터 까지, 동서양의 다양한 명작을 만날 수 있는 공간이 있다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-26T00:15:59.000+09:00"
       }
     ],
