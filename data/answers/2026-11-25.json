@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T11:01:59.329+09:00",
+  "updatedAt": "2026-11-25T11:03:45.069+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -303,7 +303,15 @@
         "publishedAt": "2026-11-25T11:01:59.329+09:00"
       }
     ],
-    "moneywalk": [],
+    "moneywalk": [
+      {
+        "question": "머니워크 오늘의 퀴즈",
+        "answer": "X",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T11:03:45.068+09:00"
+      }
+    ],
     "yoit": [
       {
         "question": "어르신의 TV시청은 뇌 건강에 도움이 된다?",
