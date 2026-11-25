@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T10:08:43.762+09:00",
+  "updatedAt": "2026-11-25T10:11:06.351+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,6 +83,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-25T10:04:02.067+09:00"
+      },
+      {
+        "question": "KB Pay여행의 와이파이도시락에서 와이파이, eSIM 구매 시 추가로 제공되는 쿠폰 할인율은?",
+        "answer": "10%",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-25T10:11:06.347+09:00"
       }
     ],
     "cashdoc": [],
