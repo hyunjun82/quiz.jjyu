@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T11:03:45.069+09:00",
+  "updatedAt": "2026-11-25T12:01:10.358+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -23,6 +23,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-25T09:15:04.092+09:00"
+      },
+      {
+        "question": "비욘드신세계는 OOOOOO의 온라인 쇼핑몰이에요",
+        "answer": "신세계백화점",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-25T12:01:10.356+09:00"
       }
     ],
     "cashwalk": [
