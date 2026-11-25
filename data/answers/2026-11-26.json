@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T00:40:23.926+09:00",
+  "updatedAt": "2026-11-26T00:45:30.497+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,7 +69,15 @@
       }
     ],
     "kakaopay": [],
-    "nh-allone": [],
+    "nh-allone": [
+      {
+        "question": "올원뱅크 디깅퀴즈 (하단메뉴 생활 > 놀이터 > 디깅퀴즈)",
+        "answer": "3번 황금종려상",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-26T00:45:30.496+09:00"
+      }
+    ],
     "kb-star": [
       {
         "question": "KB 스타뱅킹 한국사 매일 퀴즈 (1회차)",
