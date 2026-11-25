@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T12:01:10.358+09:00",
+  "updatedAt": "2026-11-25T12:02:58.487+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -71,6 +71,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-25T08:03:05.532+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "보상금",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-25T12:02:58.486+09:00"
       }
     ],
     "kakaobank-ox": [
