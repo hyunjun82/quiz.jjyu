@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "updatedAt": "2026-11-25T13:05:54.974+09:00",
+  "updatedAt": "2026-11-25T13:26:10.298+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -73,10 +73,10 @@
         "publishedAt": "2026-11-25T08:03:05.532+09:00"
       },
       {
-        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "question": "12:00 금융 관련 이모지 보고 퀴즈풀기",
         "answer": "보상금",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-25T12:02:58.486+09:00"
       }
     ],
