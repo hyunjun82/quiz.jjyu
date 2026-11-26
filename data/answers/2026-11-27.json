@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T00:01:02.244+09:00",
+  "updatedAt": "2026-11-27T00:01:35.122+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -56,7 +56,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "자동이체를 설정해두면 계좌 잔액이 부족해도 공과금이 항상 정상적으로 납부돼요.",
+        "answer": "X",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-27T00:01:35.122+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
