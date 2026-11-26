@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T07:40:17.702+09:00",
+  "updatedAt": "2026-11-27T08:02:49.779+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -50,7 +50,15 @@
         "publishedAt": "2026-11-27T07:35:07.596+09:00"
       }
     ],
-    "kakaobank": [],
+    "kakaobank": [
+      {
+        "question": "AI 이모지 퀴즈 (아침 8시) (1회차)",
+        "answer": "소포",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-27T08:02:49.778+09:00"
+      }
+    ],
     "kakaobank-ox": [
       {
         "question": "스텔스통장은 만 14세부터 개설할 수 있다.",
