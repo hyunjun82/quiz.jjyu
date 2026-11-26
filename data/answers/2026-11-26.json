@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T10:01:10.502+09:00",
+  "updatedAt": "2026-11-26T10:02:48.261+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -83,7 +83,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "지역도 살리고 혜택도 챙기고! 10만원 기부하면 10만원 세액공제…(후략)",
+        "answer": "고향사랑기부제",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-11-26T10:02:48.259+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
