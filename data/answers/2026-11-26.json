@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T11:36:27.354+09:00",
+  "updatedAt": "2026-11-26T12:04:42.864+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,6 +85,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-26T08:03:08.043+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "만국기",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-26T12:04:42.862+09:00"
       }
     ],
     "kakaobank-ox": [
