@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T13:06:02.825+09:00",
+  "updatedAt": "2026-11-26T14:35:33.359+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -148,6 +148,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-26T13:05:38.121+09:00"
+      },
+      {
+        "question": "카카오페이 퀴즈 11월26일 정답 CU에서 깜빡한 적립 결제하고 한번에 확인",
+        "answer": "놓친",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-26T14:35:33.357+09:00"
       }
     ],
     "nh-allone": [
