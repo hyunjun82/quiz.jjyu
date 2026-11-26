@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T10:03:57.568+09:00",
+  "updatedAt": "2026-11-26T10:05:07.971+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -127,6 +127,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-26T10:01:10.502+09:00"
+      },
+      {
+        "question": "고향사랑기부제는 10만원까지 기부하면 기부금의 OOO%를 세액공제받아요!",
+        "answer": "100",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-26T10:05:07.970+09:00"
       }
     ],
     "nh-allone": [
