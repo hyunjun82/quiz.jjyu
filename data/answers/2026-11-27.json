@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T00:00:24.837+09:00",
+  "updatedAt": "2026-11-27T00:01:02.244+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -20,7 +20,15 @@
     "cashdoc": [],
     "climate-action": [],
     "hpoint": [],
-    "bitbunny": [],
+    "bitbunny": [
+      {
+        "question": "OOOOO이란, 기초생활보장 수급자는 아니지만 소득이 그 기준 바로 위에 걸쳐 있어 빈곤에 빠질 위험이 큰 계층이에요.",
+        "answer": "차상위계층",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-27T00:01:02.244+09:00"
+      }
+    ],
     "kakaopay": [],
     "nh-allone": [],
     "kb-star": [],
@@ -28,7 +36,15 @@
     "hana-onq": [],
     "hana-life": [],
     "hana-travel": [],
-    "monimo": [],
+    "monimo": [
+      {
+        "question": "자기자본이 4조원 이상인 대형 증권사가 자체 신용을 바탕으로 투자자에게 돈을 빌리고, 약속한 이자를 더해 돌려주는 금융상품은 무엇일까요?",
+        "answer": "발행어음",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-27T00:01:02.244+09:00"
+      }
+    ],
     "monimo-eng": [],
     "paybooc": [],
     "mydoctor": [],
@@ -44,7 +60,15 @@
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
-    "yes24": [],
+    "yes24": [
+      {
+        "question": "수능 개념의 모든 것! 비상교육의 새 수능 개념서 『○○ ○○』의 이름은 무엇일까요?",
+        "answer": "수능 완자",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-27T00:01:02.244+09:00"
+      }
+    ],
     "fallcent": [],
     "naverpay": []
   }
