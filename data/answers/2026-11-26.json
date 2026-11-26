@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updatedAt": "2026-11-26T11:35:49.881+09:00",
+  "updatedAt": "2026-11-26T11:36:27.354+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -137,9 +137,9 @@
     "kakaopay": [
       {
         "question": "고향사랑기부제는 10만원까지 기부하면 기부금의 OOO%를 세액공제받아요!",
-        "answer": "100",
+        "answer": "100 동전모으기",
         "note": "",
-        "source": "daviya",
+        "source": "apptech",
         "publishedAt": "2026-11-26T10:05:07.970+09:00"
       }
     ],
