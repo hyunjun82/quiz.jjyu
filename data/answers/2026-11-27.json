@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T00:18:05.145+09:00",
+  "updatedAt": "2026-11-27T00:35:45.432+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -101,10 +101,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "이소티논은 임신 가능성이 있을 땐 피해야 한다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-27T00:02:07.428+09:00"
       }
     ],
