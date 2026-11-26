@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T07:04:57.536+09:00",
+  "updatedAt": "2026-11-27T07:35:07.598+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -26,6 +26,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-27T01:01:24.532+09:00"
+      },
+      {
+        "question": "신한 슈퍼SOL 출석 퀴즈 (3회차)",
+        "answer": "3. 발행어음",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-27T07:35:07.596+09:00"
       }
     ],
     "kakaobank": [],
