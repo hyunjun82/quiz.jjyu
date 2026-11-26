@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T00:51:06.609+09:00",
+  "updatedAt": "2026-11-27T00:56:13.848+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -112,10 +112,10 @@
     "paybooc": [],
     "mydoctor": [
       {
-        "question": "나만의닥터 퀴즈 — 나만의닥터 (1회차)",
+        "question": "흐린 날에는 자외선이 구름에 막혀서 눈이 상할 걱정이 없다.",
         "answer": "X (아니다)",
         "note": "",
-        "source": "quizbells",
+        "source": "apptech",
         "publishedAt": "2026-11-27T00:45:59.222+09:00"
       }
     ],
