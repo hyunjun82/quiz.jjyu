@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T17:10:48.461+09:00",
+  "updatedAt": "2026-11-27T18:33:09.280+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -476,7 +476,15 @@
         "publishedAt": "2026-11-27T00:01:02.244+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 이니스프리",
+        "answer": "꿀보습",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-27T18:33:09.276+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
