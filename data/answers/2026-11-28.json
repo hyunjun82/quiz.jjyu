@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T00:01:20.738+09:00",
+  "updatedAt": "2026-11-28T00:01:54.381+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -70,7 +70,15 @@
     "buzzvil": [],
     "harim-real": [],
     "woori-festa": [],
-    "bitbunny-ox": [],
+    "bitbunny-ox": [
+      {
+        "question": "여행자보험은 여행 중 발생한 상해나 도난 등의 사고를 일정 부분 보장해주는 보험이에요.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-28T00:01:54.381+09:00"
+      }
+    ],
     "adapter": [],
     "moneywalk": [],
     "yoit": [],
