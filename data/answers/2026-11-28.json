@@ -1,8 +1,23 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T03:07:56.962+09:00",
+  "updatedAt": "2026-11-28T06:59:55.090+09:00",
   "answers": {
-    "toss-lucky": [],
+    "toss-lucky": [
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오전) (1회차)",
+        "answer": "재물복",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T06:59:55.087+09:00"
+      },
+      {
+        "question": "토스 두근두근 1등 찍기 팀플전 (오후) (2회차)",
+        "answer": "행운복",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T06:59:55.087+09:00"
+      }
+    ],
     "cashwalk": [
       {
         "question": "구운란 30구 중란 OOOO원 HACCP시설 직영농장 계란 사용! 무항생제로 더욱 신선하게! 48시간 정성을 담아 구워 쫄깃하고 촉촉한 식감",
@@ -83,6 +98,13 @@
         "note": "",
         "source": "blog",
         "publishedAt": "2026-11-28T01:22:32.415+09:00"
+      },
+      {
+        "question": "KB 스타뱅킹 한국사 매일 퀴즈 (3회차)",
+        "answer": "3. 원산 총파업에 참여하는 노동자",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T06:59:55.087+09:00"
       }
     ],
     "kbank": [],
