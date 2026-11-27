@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T09:11:11.914+09:00",
+  "updatedAt": "2026-11-27T10:02:51.720+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -69,7 +69,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 쇼핑에서 특가 행사 중인 Bespoke AI 콤보! 세탁과 건조…(후략)",
+        "answer": "세탁 25㎏·건조 18㎏",
+        "note": "",
+        "source": "bizwnews",
+        "publishedAt": "2026-11-27T10:02:51.718+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
@@ -137,6 +145,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-27T02:37:30.975+09:00"
+      },
+      {
+        "question": "11월27일 KB페이 퀴즈 리브메이트 정답 Bespoke AI 콤보 세탁과 건조 용량",
+        "answer": "세탁 25KG 건조 18KG",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-27T10:02:51.719+09:00"
       }
     ],
     "kbank": [
