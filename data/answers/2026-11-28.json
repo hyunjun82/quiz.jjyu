@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T08:04:42.621+09:00",
+  "updatedAt": "2026-11-28T08:36:18.304+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -68,17 +68,25 @@
     ],
     "kakaobank-ox": [
       {
-        "question": "카카오뱅크 OX퀴즈 (혜택)",
+        "question": "스텔스통장은 오직 1곳에서만 조회할 수 있다.",
         "answer": "X",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-28T00:13:08.882+09:00"
       }
     ],
     "ok-cashbag": [],
     "kbpay": [],
     "cashdoc": [],
-    "climate-action": [],
+    "climate-action": [
+      {
+        "question": "환경친화적 자동차는 유지비가 높기 때문에 에너지 절약과는 관련이 없다.",
+        "answer": "X (아니다)",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-28T08:36:18.302+09:00"
+      }
+    ],
     "hpoint": [
       {
         "question": "[홍보]최근 로고보다 소재의 질감과 디테일을강조하는＇클래식 럭셔리＇ 트렌드가주목받고 있습니다.이번 에피소드에서는 가죽을가느다란 띠처럼 잘라 정교하게 엮어만드는 위빙 기법이 소개되었는데요.가죽 띠를 한 올씩 엮어 독특한 패턴과입체감을 만드는 이 기법의 이름은 무엇일까요?",
@@ -117,10 +125,10 @@
     ],
     "kbank": [
       {
-        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "question": "기업이 실제보다 친환경적인 것처럼 제품이나 경영활동을 홍보하는 행위를 뜻하는 용어는?",
         "answer": "4번 그린워싱",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-28T07:05:04.318+09:00"
       }
     ],
@@ -135,10 +143,10 @@
     ],
     "hana-life": [
       {
-        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "question": "하나원큐 축구Play의 응원HANA에서 응원하는 팀에 좋아요를 누를 수 있고 각 리그별로 하루에 1번씩만 가능하다.",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "apptech",
         "publishedAt": "2026-11-28T07:05:04.317+09:00"
       }
     ],
