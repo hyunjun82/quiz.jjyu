@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T12:05:24.601+09:00",
+  "updatedAt": "2026-11-27T13:56:43.861+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -289,7 +289,7 @@
     "doctornow": [
       {
         "question": "이소티논은 임신 가능성이 있을 땐 피해야 한다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-27T00:02:07.428+09:00"
