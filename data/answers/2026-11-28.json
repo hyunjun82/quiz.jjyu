@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T06:59:55.090+09:00",
+  "updatedAt": "2026-11-28T07:05:04.318+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -107,7 +107,15 @@
         "publishedAt": "2026-11-28T06:59:55.087+09:00"
       }
     ],
-    "kbank": [],
+    "kbank": [
+      {
+        "question": "케이뱅크 AI 퀴즈 챌린지 (1회차)",
+        "answer": "4번 그린워싱",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T07:05:04.318+09:00"
+      }
+    ],
     "hana-onq": [
       {
         "question": "11월28일 하나은행 하나원큐 축구퀴즈 정답 김해종합운동장에서 열리는 경기는 어느 팀간의 맞대결",
@@ -117,7 +125,15 @@
         "publishedAt": "2026-11-28T02:45:27.635+09:00"
       }
     ],
-    "hana-life": [],
+    "hana-life": [
+      {
+        "question": "하나원큐 슬기로운 금융생활 OX 퀴즈",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T07:05:04.317+09:00"
+      }
+    ],
     "hana-travel": [],
     "monimo": [
       {
@@ -128,9 +144,25 @@
         "publishedAt": "2026-11-28T00:01:20.738+09:00"
       }
     ],
-    "monimo-eng": [],
+    "monimo-eng": [
+      {
+        "question": "모니모 오늘의영어 (더보기 > 혜택)",
+        "answer": "come, swing, wont/able",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T07:05:04.318+09:00"
+      }
+    ],
     "paybooc": [],
-    "mydoctor": [],
+    "mydoctor": [
+      {
+        "question": "정기적으로 물을 마시는 것은 체온 조절에 도움이 된다.",
+        "answer": "O",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-28T07:05:04.317+09:00"
+      }
+    ],
     "skstoa": [],
     "auction": [],
     "myhomeplus": [],
