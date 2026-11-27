@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T00:13:08.882+09:00",
+  "updatedAt": "2026-11-28T00:31:01.646+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -100,10 +100,10 @@
     "syrup": [],
     "doctornow": [
       {
-        "question": "닥터나우 오늘의 퀴즈 (1회차)",
+        "question": "한번 손상된 각막내피세포는 자연 회복이 어렵다",
         "answer": "O",
         "note": "",
-        "source": "tipistip",
+        "source": "daviya",
         "publishedAt": "2026-11-28T00:02:28.632+09:00"
       }
     ],
