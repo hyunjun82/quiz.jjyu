@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T11:59:40.873+09:00",
+  "updatedAt": "2026-11-27T12:05:24.601+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -92,6 +92,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-27T08:02:49.778+09:00"
+      },
+      {
+        "question": "카카오뱅크 AI 이모지 퀴즈 (2회차)",
+        "answer": "하객",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-27T12:05:24.600+09:00"
       }
     ],
     "kakaobank-ox": [
