@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T00:31:01.646+09:00",
+  "updatedAt": "2026-11-28T01:16:51.772+09:00",
   "answers": {
     "toss-lucky": [],
     "cashwalk": [
@@ -28,11 +28,18 @@
     ],
     "shinhan-sol": [
       {
-        "question": "신한페이판 오늘의 OX 팡팡퀴즈 (신한플레이 앱 > 혜택 > 오늘의 OX퀴즈) (1회차)",
+        "question": "한국투자증권 제휴 발행어음(1년) 특판 상품의 최대 연수익률(세전)은 몇 %일까요?",
         "answer": "5.0%",
         "note": "",
-        "source": "tipistip",
+        "source": "blog",
         "publishedAt": "2026-11-28T00:07:51.555+09:00"
+      },
+      {
+        "question": "2026 KBO 리그 시상식에서 MVP로 김도영 선수가 선정되었습니다. 통산 몇 번째 MVP 수상일까요?",
+        "answer": "두 번째",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-28T01:16:51.771+09:00"
       }
     ],
     "kakaobank": [],
