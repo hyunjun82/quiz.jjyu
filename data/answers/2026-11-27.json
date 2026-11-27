@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "updatedAt": "2026-11-27T10:03:14.361+09:00",
+  "updatedAt": "2026-11-27T10:05:44.224+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-27T07:40:17.702+09:00"
+      },
+      {
+        "question": "모음 ㅌㅍ 발행어음은 세전 이자를 드려요",
+        "answer": "특판",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-27T10:03:28.519+09:00"
       }
     ],
     "cashwalk": [
@@ -76,6 +83,13 @@
         "note": "",
         "source": "bizwnews",
         "publishedAt": "2026-11-27T10:02:51.718+09:00"
+      },
+      {
+        "question": "KB Pay 쇼핑에서 특가 행사 중인 Bespoke AI 콤보! 세탁과 건조 용량은 각각 얼마일까요?",
+        "answer": "세탁 25kg 건조 18kg",
+        "note": "",
+        "source": "daviya",
+        "publishedAt": "2026-11-27T10:03:28.517+09:00"
       }
     ],
     "cashdoc": [],
@@ -113,6 +127,13 @@
         "note": "",
         "source": "apptech",
         "publishedAt": "2026-11-27T10:03:14.360+09:00"
+      },
+      {
+        "question": "신용점수 영향없이 □□개 금융사 비교하고 200P 바로 받아요!",
+        "answer": "81",
+        "note": "",
+        "source": "apptech",
+        "publishedAt": "2026-11-27T10:05:44.221+09:00"
       }
     ],
     "nh-allone": [
@@ -226,7 +247,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "2900",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-27T10:04:34.424+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
