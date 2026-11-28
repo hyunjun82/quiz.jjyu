@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T10:03:27.491+09:00",
+  "updatedAt": "2026-11-28T10:16:54.215+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -129,6 +129,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-28T06:59:55.087+09:00"
+      },
+      {
+        "question": "11월28일 KB페이 퀴즈 리브메이트 정답 해외 ATM 이용시 수수료를 면제받을수 있는 카드",
+        "answer": "트래블러스 체크카드",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-28T10:16:54.214+09:00"
       }
     ],
     "kbank": [
