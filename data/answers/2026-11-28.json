@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T11:57:06.289+09:00",
+  "updatedAt": "2026-11-28T12:05:38.545+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -71,6 +71,13 @@
         "note": "",
         "source": "quizbells",
         "publishedAt": "2026-11-28T08:04:42.620+09:00"
+      },
+      {
+        "question": "AI 이모지 퀴즈 (점심 12시) (2회차)",
+        "answer": "노점상",
+        "note": "",
+        "source": "quizbells",
+        "publishedAt": "2026-11-28T12:05:38.544+09:00"
       }
     ],
     "kakaobank-ox": [
