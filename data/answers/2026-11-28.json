@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T08:41:31.835+09:00",
+  "updatedAt": "2026-11-28T10:03:27.491+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -76,7 +76,15 @@
       }
     ],
     "ok-cashbag": [],
-    "kbpay": [],
+    "kbpay": [
+      {
+        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월28일",
+        "answer": "트래블러스 체크카드",
+        "note": "",
+        "source": "blog",
+        "publishedAt": "2026-11-28T10:03:27.489+09:00"
+      }
+    ],
     "cashdoc": [],
     "climate-action": [
       {
