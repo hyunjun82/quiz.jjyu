@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T15:13:46.887+09:00",
+  "updatedAt": "2026-11-28T18:48:52.304+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -291,7 +291,15 @@
         "publishedAt": "2026-11-28T00:00:43.420+09:00"
       }
     ],
-    "fallcent": [],
+    "fallcent": [
+      {
+        "question": "폴센트 오늘의퀴즈 자연퐁",
+        "answer": "생분해도",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T18:48:52.303+09:00"
+      }
+    ],
     "naverpay": []
   }
 }
