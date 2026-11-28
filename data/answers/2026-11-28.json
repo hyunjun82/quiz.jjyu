@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T10:42:51.500+09:00",
+  "updatedAt": "2026-11-28T10:57:34.906+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -85,7 +85,7 @@
     "ok-cashbag": [],
     "kbpay": [
       {
-        "question": "KB Pay 오늘의 퀴즈 / KB스타뱅킹 스타퀴즈 11월28일",
+        "question": "해외 ATM 이용 시 수수료를 면제받을 수 있는 카드는 무엇일까요?",
         "answer": "트래블러스 체크카드",
         "note": "",
         "source": "blog",
