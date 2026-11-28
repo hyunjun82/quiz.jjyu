@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T10:57:34.906+09:00",
+  "updatedAt": "2026-11-28T11:57:06.289+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -172,7 +172,15 @@
         "publishedAt": "2026-11-28T07:05:04.317+09:00"
       }
     ],
-    "hana-travel": [],
+    "hana-travel": [
+      {
+        "question": "하나원큐 트래블미션",
+        "answer": "O",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T11:57:06.289+09:00"
+      }
+    ],
     "monimo": [
       {
         "question": "자기자본이 4조원 이상인 대형 증권사가 자체 신용을 바탕으로 투자자에게 돈을 빌리고, 약속한 이자를 더해 돌려주는 금융상품은 무엇일까요?",
@@ -209,7 +217,15 @@
       }
     ],
     "skstoa": [],
-    "auction": [],
+    "auction": [
+      {
+        "question": "옥션 퀴즈 매일플러스 오늘의퀴즈",
+        "answer": "2900",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T11:57:06.289+09:00"
+      }
+    ],
     "myhomeplus": [],
     "syrup": [],
     "doctornow": [
