@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T12:05:38.545+09:00",
+  "updatedAt": "2026-11-28T12:39:37.314+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -238,7 +238,7 @@
     "doctornow": [
       {
         "question": "한번 손상된 각막내피세포는 자연 회복이 어렵다",
-        "answer": "O",
+        "answer": "O (그렇다)",
         "note": "",
         "source": "daviya",
         "publishedAt": "2026-11-28T00:02:28.632+09:00"
