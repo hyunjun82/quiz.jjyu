@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "updatedAt": "2026-11-28T20:03:12.050+09:00",
+  "updatedAt": "2026-11-28T20:10:35.900+09:00",
   "answers": {
     "toss-lucky": [
       {
@@ -16,6 +16,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-28T06:59:55.087+09:00"
+      },
+      {
+        "question": "슈퍼SOL 슈퍼감사제에선 20일간 매일 OO 선물을 받을 수 있어요",
+        "answer": "랜덤",
+        "note": "",
+        "source": "gametoc",
+        "publishedAt": "2026-11-28T20:10:35.898+09:00"
       }
     ],
     "cashwalk": [
@@ -277,6 +284,13 @@
         "note": "",
         "source": "tipistip",
         "publishedAt": "2026-11-28T15:13:46.886+09:00"
+      },
+      {
+        "question": "어댑터 퀴즈 라이브 20시 (3회차)",
+        "answer": "2, 2, 4",
+        "note": "",
+        "source": "tipistip",
+        "publishedAt": "2026-11-28T20:10:35.899+09:00"
       }
     ],
     "moneywalk": [],
